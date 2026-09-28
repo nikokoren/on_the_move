@@ -84,6 +84,12 @@ def coord(la, lo):
     return la, lo
 
 
+def pi_name(s):
+    """Movebank gives 'username (Full Name)'; usernames can be email addresses, so keep only the name."""
+    m = re.search(r"\(([^()]+)\)\s*$", s or "")
+    return (m.group(1) if m else ("" if "@" in (s or "") else (s or ""))).strip()
+
+
 def ts(s):
     try:
         return dt.datetime.fromisoformat(s[:19])
@@ -430,7 +436,7 @@ def main():
             stats["animal_live" if live else "animal_usual"] += 1
         if out:
             catalog["studies"][sid] = {"name": s["name"], "license": s["license_type"], "citation": clean(s["citation"]),
-                                       "pi": s["principal_investigator_name"], "source": "Movebank REST API"}
+                                       "pi": pi_name(s["principal_investigator_name"]), "source": "Movebank REST API"}
             json.dump({"studyId": sid, "doy": "index 0 = 1 Jan ... 365; entry [lat, lon, year, quality f/i/s/r], see pipeline/build_catalog.py", "animals": out},
                       open(os.path.join(ROOT, "data", "usual", f"{sid}.json"), "w"), separators=(",", ":"))
         if n % 20 == 0:
