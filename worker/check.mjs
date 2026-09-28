@@ -24,6 +24,12 @@ for (const lang of ["en", "de"]) {
         const bad = [];
         if (s.length > LIMIT) bad.push(`payload ${s.length} bytes`);
         if (/\{\w+\}|undefined|NaN|null →|→ null/.test(s)) bad.push("unfilled or broken text");
+        // R16 limits, docs/TEXT_REQUIREMENTS.md (measured 2026-09-28).
+        const LIMITS = { title: 55, where: 100, status: 140, fact: 140, credit: 73, toward: 90 };
+        const slot = { ...v, title: v.species + (v.name ? " · " + v.name : "") };
+        for (const [k, n] of Object.entries(LIMITS)) {
+          if ((slot[k] || "").length > n) bad.push(`${k} ${slot[k].length} > ${n} chars (R16)`);
+        }
         if (v.state === "ok") {
           for (const k of ["species", "status", "where", "fact", "credit", "geo"]) {
             if (v[k] === undefined || v[k] === "") bad.push(`missing ${k}`);
