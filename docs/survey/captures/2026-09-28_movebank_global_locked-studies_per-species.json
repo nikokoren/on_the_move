@@ -1,0 +1,2645 @@
+{
+ "Ciconia ciconia": {
+  "st": 22,
+  "Ast": 4,
+  "Bst": 18,
+  "ind": 728,
+  "Aind": 137,
+  "names": [
+   "LifeTrack White Stork Bavaria",
+   "LifeTrack White Stork Oberschwaben",
+   "LifeTrack White Stork Vorarlberg",
+   "LifeTrack White Stork Rheinland-Pfalz"
+  ]
+ },
+ "Canis latrans": {
+  "st": 5,
+  "Ast": 1,
+  "Bst": 5,
+  "ind": 2,
+  "Aind": 0,
+  "names": [
+   "Forest Park Living Lab"
+  ]
+ },
+ "Anas platyrhynchos": {
+  "st": 8,
+  "Ast": 1,
+  "Bst": 4,
+  "ind": 198,
+  "Aind": 0,
+  "names": [
+   "Forest Park Living Lab"
+  ]
+ },
+ "Grus grus": {
+  "st": 4,
+  "Ast": 1,
+  "Bst": 4,
+  "ind": 42,
+  "Aind": 2,
+  "names": [
+   "Common Crane 2020 (Lithuanian University"
+  ]
+ },
+ "Branta canadensis": {
+  "st": 3,
+  "Ast": 1,
+  "Bst": 3,
+  "ind": 82,
+  "Aind": 0,
+  "names": [
+   "Forest Park Living Lab"
+  ]
+ },
+ "Buteo jamaicensis": {
+  "st": 2,
+  "Ast": 1,
+  "Bst": 2,
+  "ind": 18,
+  "Aind": 0,
+  "names": [
+   "Forest Park Living Lab"
+  ]
+ },
+ "Procyon lotor": {
+  "st": 3,
+  "Ast": 1,
+  "Bst": 2,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "Forest Park Living Lab"
+  ]
+ },
+ "Odocoileus virginianus": {
+  "st": 3,
+  "Ast": 1,
+  "Bst": 2,
+  "ind": 49,
+  "Aind": 0,
+  "names": [
+   "Forest Park Living Lab"
+  ]
+ },
+ "Homo sapiens": {
+  "st": 3,
+  "Ast": 1,
+  "Bst": 2,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "LifeTrack White Stork Rheinland-Pfalz"
+  ]
+ },
+ "Chelonoidis hoodensis": {
+  "st": 2,
+  "Ast": 1,
+  "Bst": 2,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "Galapagos Tortoise Movement Ecology Prog"
+  ]
+ },
+ "Chelonoidis porteri": {
+  "st": 2,
+  "Ast": 1,
+  "Bst": 2,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "Galapagos Tortoise Movement Ecology Prog"
+  ]
+ },
+ "Chroicocephalus ridibundus": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 49,
+  "Aind": 49,
+  "names": [
+   "Black-headed gull -  Chroicocephalus rid"
+  ]
+ },
+ "Chelydra serpentina": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "Forest Park Living Lab"
+  ]
+ },
+ "Aix sponsa": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "Forest Park Living Lab"
+  ]
+ },
+ "Accipiter cooperii": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "Forest Park Living Lab"
+  ]
+ },
+ "Buteo lineatus": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "Forest Park Living Lab"
+  ]
+ },
+ "Meleagris gallopavo": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "Forest Park Living Lab"
+  ]
+ },
+ "Bubo virginianus": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "Forest Park Living Lab"
+  ]
+ },
+ "Strix varia": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "Forest Park Living Lab"
+  ]
+ },
+ "Didelphis virginiana": {
+  "st": 2,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "Forest Park Living Lab"
+  ]
+ },
+ "Chelonoidis": {
+  "st": 2,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 6,
+  "Aind": 0,
+  "names": [
+   "Galapagos Tortoise Movement Ecology Prog"
+  ]
+ },
+ "Chelonoidis donfaustoi": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "Galapagos Tortoise Movement Ecology Prog"
+  ]
+ },
+ "Corvus brachyrhynchos": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 12,
+  "Aind": 12,
+  "names": [
+   "GPS tracking of American crows in centra"
+  ]
+ },
+ "Buteo plagiatus": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 62,
+  "Aind": 62,
+  "names": [
+   "Multi-Scale Spatial and Movement Ecology"
+  ]
+ },
+ "Aquila rapax": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "South Africa vultures VfA MPIAB"
+  ]
+ },
+ "Trigonoceps occipitalis": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "South Africa vultures VfA MPIAB"
+  ]
+ },
+ "Terathopius ecaudatus": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": [
+   "South Africa vultures VfA MPIAB"
+  ]
+ },
+ "Necrosyrtes monachus": {
+  "st": 1,
+  "Ast": 1,
+  "Bst": 1,
+  "ind": 23,
+  "Aind": 23,
+  "names": [
+   "Hooded Vulture Africa"
+  ]
+ },
+ "(none)": {
+  "st": 48,
+  "Ast": 0,
+  "Bst": 27,
+  "ind": 839,
+  "Aind": 0,
+  "names": []
+ },
+ "Falco peregrinus": {
+  "st": 6,
+  "Ast": 0,
+  "Bst": 6,
+  "ind": 126,
+  "Aind": 0,
+  "names": []
+ },
+ "Anthropoides virgo": {
+  "st": 6,
+  "Ast": 0,
+  "Bst": 6,
+  "ind": 53,
+  "Aind": 0,
+  "names": []
+ },
+ "Anser albifrons": {
+  "st": 8,
+  "Ast": 0,
+  "Bst": 6,
+  "ind": 185,
+  "Aind": 0,
+  "names": []
+ },
+ "Larus argentatus": {
+  "st": 6,
+  "Ast": 0,
+  "Bst": 6,
+  "ind": 62,
+  "Aind": 0,
+  "names": []
+ },
+ "Uria lomvia": {
+  "st": 15,
+  "Ast": 0,
+  "Bst": 4,
+  "ind": 767,
+  "Aind": 0,
+  "names": []
+ },
+ "Leopardus pardalis": {
+  "st": 4,
+  "Ast": 0,
+  "Bst": 4,
+  "ind": 21,
+  "Aind": 0,
+  "names": []
+ },
+ "Branta leucopsis": {
+  "st": 4,
+  "Ast": 0,
+  "Bst": 4,
+  "ind": 15,
+  "Aind": 0,
+  "names": []
+ },
+ "Somateria mollissima": {
+  "st": 5,
+  "Ast": 0,
+  "Bst": 4,
+  "ind": 79,
+  "Aind": 0,
+  "names": []
+ },
+ "Vulpes lagopus": {
+  "st": 4,
+  "Ast": 0,
+  "Bst": 4,
+  "ind": 241,
+  "Aind": 0,
+  "names": []
+ },
+ "Vulpes vulpes": {
+  "st": 5,
+  "Ast": 0,
+  "Bst": 4,
+  "ind": 39,
+  "Aind": 0,
+  "names": []
+ },
+ "Lanius collurio": {
+  "st": 4,
+  "Ast": 0,
+  "Bst": 4,
+  "ind": 99,
+  "Aind": 0,
+  "names": []
+ },
+ "Apus melba": {
+  "st": 8,
+  "Ast": 0,
+  "Bst": 4,
+  "ind": 150,
+  "Aind": 0,
+  "names": []
+ },
+ "Physeter macrocephalus": {
+  "st": 4,
+  "Ast": 0,
+  "Bst": 4,
+  "ind": 87,
+  "Aind": 0,
+  "names": []
+ },
+ "Sturnus vulgaris": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 3,
+  "ind": 232,
+  "Aind": 0,
+  "names": []
+ },
+ "Lynx rufus": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 3,
+  "ind": 9,
+  "Aind": 0,
+  "names": []
+ },
+ "Clangula hyemalis": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 3,
+  "ind": 90,
+  "Aind": 0,
+  "names": []
+ },
+ "Cervus elaphus": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 3,
+  "ind": 378,
+  "Aind": 0,
+  "names": []
+ },
+ "Gyps fulvus": {
+  "st": 5,
+  "Ast": 0,
+  "Bst": 3,
+  "ind": 31,
+  "Aind": 0,
+  "names": []
+ },
+ "Columba livia": {
+  "st": 11,
+  "Ast": 0,
+  "Bst": 3,
+  "ind": 613,
+  "Aind": 0,
+  "names": []
+ },
+ "Milvus migrans": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 3,
+  "ind": 342,
+  "Aind": 0,
+  "names": []
+ },
+ "Brachyramphus marmoratus": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 3,
+  "ind": 639,
+  "Aind": 0,
+  "names": []
+ },
+ "Elephantidae": {
+  "st": 4,
+  "Ast": 0,
+  "Bst": 3,
+  "ind": 4,
+  "Aind": 0,
+  "names": []
+ },
+ "Felis catus": {
+  "st": 7,
+  "Ast": 0,
+  "Bst": 3,
+  "ind": 245,
+  "Aind": 0,
+  "names": []
+ },
+ "Larus fuscus": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 3,
+  "ind": 128,
+  "Aind": 0,
+  "names": []
+ },
+ "Balaenoptera musculus": {
+  "st": 4,
+  "Ast": 0,
+  "Bst": 3,
+  "ind": 145,
+  "Aind": 0,
+  "names": []
+ },
+ "Falco rusticolus": {
+  "st": 4,
+  "Ast": 0,
+  "Bst": 3,
+  "ind": 48,
+  "Aind": 0,
+  "names": []
+ },
+ "Balaena mysticetus": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 3,
+  "ind": 76,
+  "Aind": 0,
+  "names": []
+ },
+ "Aquila chrysaetos": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 31,
+  "Aind": 0,
+  "names": []
+ },
+ "Pandion haliaetus": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 114,
+  "Aind": 0,
+  "names": []
+ },
+ "Anas penelope": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 39,
+  "Aind": 0,
+  "names": []
+ },
+ "Aythya fuligula": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Potos flavus": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 2,
+  "Aind": 0,
+  "names": []
+ },
+ "Uria aalge": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Fratercula arctica": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 22,
+  "Aind": 0,
+  "names": []
+ },
+ "Anser fabalis": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 4,
+  "Aind": 0,
+  "names": []
+ },
+ "Anser brachyrhynchus": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 11,
+  "Aind": 0,
+  "names": []
+ },
+ "Numenius arquata": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 30,
+  "Aind": 0,
+  "names": []
+ },
+ "Cuculus canorus": {
+  "st": 6,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 65,
+  "Aind": 0,
+  "names": []
+ },
+ "Morus bassanus": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 144,
+  "Aind": 0,
+  "names": []
+ },
+ "Sus scrofa": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 26,
+  "Aind": 0,
+  "names": []
+ },
+ "Mycteria americana": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 135,
+  "Aind": 0,
+  "names": []
+ },
+ "Aquila nipalensis": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 36,
+  "Aind": 0,
+  "names": []
+ },
+ "Canis lupus": {
+  "st": 4,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 48,
+  "Aind": 0,
+  "names": []
+ },
+ "Rallus aquaticus": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 20,
+  "Aind": 0,
+  "names": []
+ },
+ "Odocoileus hemionus": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 135,
+  "Aind": 0,
+  "names": []
+ },
+ "Buteo buteo": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 6,
+  "Aind": 0,
+  "names": []
+ },
+ "Puma concolor": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 40,
+  "Aind": 0,
+  "names": []
+ },
+ "Nyctalus noctula": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 169,
+  "Aind": 0,
+  "names": []
+ },
+ "Zalophus californianus": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 26,
+  "Aind": 0,
+  "names": []
+ },
+ "Gyps africanus": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Rangifer tarandus": {
+  "st": 4,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 1170,
+  "Aind": 0,
+  "names": []
+ },
+ "Agkistrodon contortrix": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 80,
+  "Aind": 0,
+  "names": []
+ },
+ "Pusa hispida": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 79,
+  "Aind": 0,
+  "names": []
+ },
+ "Antrostomus vociferus": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 82,
+  "Aind": 0,
+  "names": []
+ },
+ "Ovis dalli": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 136,
+  "Aind": 0,
+  "names": []
+ },
+ "Steatornis caripensis": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 46,
+  "Aind": 0,
+  "names": []
+ },
+ "Branta bernicla": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 33,
+  "Aind": 0,
+  "names": []
+ },
+ "Oenanthe oenanthe": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 76,
+  "Aind": 0,
+  "names": []
+ },
+ "Gyps himalayensis": {
+  "st": 4,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 46,
+  "Aind": 0,
+  "names": []
+ },
+ "Progne subis": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 48,
+  "Aind": 0,
+  "names": []
+ },
+ "Chelonia mydas": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 33,
+  "Aind": 0,
+  "names": []
+ },
+ "Urocyon cinereoargenteus": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Xema sabini": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 28,
+  "Aind": 0,
+  "names": []
+ },
+ "Somateria spectabilis": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Eidolon helvum": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 101,
+  "Aind": 0,
+  "names": []
+ },
+ "Thalassoica antarctica": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 231,
+  "Aind": 0,
+  "names": []
+ },
+ "Panthera leo": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 26,
+  "Aind": 0,
+  "names": []
+ },
+ "Cygnus cygnus": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 21,
+  "Aind": 0,
+  "names": []
+ },
+ "Ardea alba": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 35,
+  "Aind": 0,
+  "names": []
+ },
+ "Bycanistes bucinator": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 35,
+  "Aind": 0,
+  "names": []
+ },
+ "Balaenoptera physalus": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 2,
+  "ind": 8,
+  "Aind": 0,
+  "names": []
+ },
+ "Turdus merula": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 4,
+  "Aind": 0,
+  "names": []
+ },
+ "Turdus iliacus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Acrocephalus schoenobaenus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Erithacus rubecula": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Prunella modularis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Sylvia atricapilla": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 3,
+  "Aind": 0,
+  "names": []
+ },
+ "Sylvia borin": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Sylvia communis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Turdus philomelos": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Haliaeetus leucocephalus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Asio flammeus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Netta rufina": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Fulica atra": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Nasua narica": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 2,
+  "Aind": 0,
+  "names": []
+ },
+ "Pecari tajacu": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Ateles geoffroyi": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Cebus capucinus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Larus thayeri": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 5,
+  "Aind": 0,
+  "names": []
+ },
+ "Grus vipio": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Branta hutchinsii": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 2,
+  "Aind": 0,
+  "names": []
+ },
+ "Anthus trivialis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 7,
+  "Aind": 0,
+  "names": []
+ },
+ "Euphagus carolinus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 7,
+  "Aind": 0,
+  "names": []
+ },
+ "Nasua nasua": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Cerdocyon thous": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Procyon cancrivorus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Melanitta nigra": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Monodon monoceros": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 25,
+  "Aind": 0,
+  "names": []
+ },
+ "Lepus arcticus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 25,
+  "Aind": 0,
+  "names": []
+ },
+ "Prionailurus viverrinus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 13,
+  "Aind": 0,
+  "names": []
+ },
+ "Gopherus berlandieri": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 19,
+  "Aind": 0,
+  "names": []
+ },
+ "Calidris canutus": {
+  "st": 4,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 25,
+  "Aind": 0,
+  "names": []
+ },
+ "Chen caerulescens": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Falco tinnunculus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Tyto furcata": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 8,
+  "Aind": 0,
+  "names": []
+ },
+ "Sarcoramphus papa": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Homo": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Eira barbara": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Bassaricyon alleni": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Rupornis magnirostris": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Sapajus macrocephalus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "test": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Egretta tricolor": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Eudocimus albus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Charadrius hiaticula": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 20,
+  "Aind": 0,
+  "names": []
+ },
+ "Nyctalus leisleri": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 29,
+  "Aind": 0,
+  "names": []
+ },
+ "Passerina": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Passerina ciris": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Catharus bicknelli": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 23,
+  "Aind": 0,
+  "names": []
+ },
+ "Gavia stellata": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 84,
+  "Aind": 0,
+  "names": []
+ },
+ "Pterodroma externa": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 7,
+  "Aind": 0,
+  "names": []
+ },
+ "Caretta caretta": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Sterna hirundo": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 23,
+  "Aind": 0,
+  "names": []
+ },
+ "Bubalus bubalis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 14,
+  "Aind": 0,
+  "names": []
+ },
+ "Papio ursinus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Phalacrocorax penicillatus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 30,
+  "Aind": 0,
+  "names": []
+ },
+ "Ursus americanus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 21,
+  "Aind": 0,
+  "names": []
+ },
+ "Astur atricapillus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 7,
+  "Aind": 0,
+  "names": []
+ },
+ "Ninox japonica": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Ovis canadensis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Antilocapra americana": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Mirounga angustirostris": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Canis mesomelas": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Syncerus caffer": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Phoebastria irrorata": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Loxodonta africana": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Equus quagga": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Antidorcas marsupialis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Pelecanus occidentalis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 7,
+  "Aind": 0,
+  "names": []
+ },
+ "Plectrophenax nivalis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 8,
+  "Aind": 0,
+  "names": []
+ },
+ "Bubo scandiacus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 33,
+  "Aind": 0,
+  "names": []
+ },
+ "Bungarus fasciatus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 3,
+  "Aind": 0,
+  "names": []
+ },
+ "Lophocebus albigena": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 18,
+  "Aind": 0,
+  "names": []
+ },
+ "Myotis sodalis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 95,
+  "Aind": 0,
+  "names": []
+ },
+ "Anser indicus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 7,
+  "Aind": 0,
+  "names": []
+ },
+ "Sturnira lilium": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 11,
+  "Aind": 0,
+  "names": []
+ },
+ "Larus hyperboreus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 7,
+  "Aind": 0,
+  "names": []
+ },
+ "Coccyzus americanus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Buteo lagopus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 3,
+  "Aind": 0,
+  "names": []
+ },
+ "Scolopax minor": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 71,
+  "Aind": 0,
+  "names": []
+ },
+ "Terrapene": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 9,
+  "Aind": 0,
+  "names": []
+ },
+ "Pteropus melanotus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 27,
+  "Aind": 0,
+  "names": []
+ },
+ "Larus michahellis": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 4,
+  "Aind": 0,
+  "names": []
+ },
+ "Larus marinus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Aythya affinis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 24,
+  "Aind": 0,
+  "names": []
+ },
+ "Ophiophagus hannah": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 2,
+  "Aind": 0,
+  "names": []
+ },
+ "Gypaetus barbatus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Chiroxiphia caudata": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Pyriglena leucoptera": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Sclerurus scansor": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Boiga cyanea": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 14,
+  "Aind": 0,
+  "names": []
+ },
+ "Cypseloides niger": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 3,
+  "Aind": 0,
+  "names": []
+ },
+ "Aegypius monachus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 6,
+  "Aind": 0,
+  "names": []
+ },
+ "Larus cachinnans": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 2,
+  "Aind": 0,
+  "names": []
+ },
+ "Saxicola rubetra": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 20,
+  "Aind": 0,
+  "names": []
+ },
+ "Boiga nigriceps": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 2,
+  "Aind": 0,
+  "names": []
+ },
+ "Phalacrocorax auritus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 60,
+  "Aind": 0,
+  "names": []
+ },
+ "Accipiter": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Accipiter brevipes": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Bradypus variegatus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 15,
+  "Aind": 0,
+  "names": []
+ },
+ "Tockus deckeni": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 18,
+  "Aind": 0,
+  "names": []
+ },
+ "Panthera pardus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 16,
+  "Aind": 0,
+  "names": []
+ },
+ "Panthera onca": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 14,
+  "Aind": 0,
+  "names": []
+ },
+ "Ciconia boyciana": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 8,
+  "Aind": 0,
+  "names": []
+ },
+ "Pterodroma longirostris": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 10,
+  "Aind": 0,
+  "names": []
+ },
+ "Rissa tridactyla": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 31,
+  "Aind": 0,
+  "names": []
+ },
+ "Rostrhamus sociabilis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 20,
+  "Aind": 0,
+  "names": []
+ },
+ "Stercorarius longicaudus": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 45,
+  "Aind": 0,
+  "names": []
+ },
+ "Torgos tracheliotus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Pelecanus onocrotalus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 18,
+  "Aind": 0,
+  "names": []
+ },
+ "Buceros bicornis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Rhyticeros undulatus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Tyrannus savana": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 28,
+  "Aind": 0,
+  "names": []
+ },
+ "Limosa limosa": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 30,
+  "Aind": 0,
+  "names": []
+ },
+ "Phalcoboenus australis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 6,
+  "Aind": 0,
+  "names": []
+ },
+ "Somateria fischeri": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 88,
+  "Aind": 0,
+  "names": []
+ },
+ "Wallabia bicolor": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 48,
+  "Aind": 0,
+  "names": []
+ },
+ "Cathartes aura": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Coragyps atratus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Hydroprogne caspia": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 27,
+  "Aind": 0,
+  "names": []
+ },
+ "Limnodromus scolopaceus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 83,
+  "Aind": 0,
+  "names": []
+ },
+ "Haliaeetus leucogaster": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 3,
+  "Aind": 0,
+  "names": []
+ },
+ "Synthliboramphus antiquus": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 137,
+  "Aind": 0,
+  "names": []
+ },
+ "Aptenodytes forsteri": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 8,
+  "Aind": 0,
+  "names": []
+ },
+ "Megaptera novaeangliae": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 50,
+  "Aind": 0,
+  "names": []
+ },
+ "Anas strepera": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 25,
+  "Aind": 0,
+  "names": []
+ },
+ "Loxodonta cyclotis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 36,
+  "Aind": 0,
+  "names": []
+ },
+ "Connochaetes taurinus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 36,
+  "Aind": 0,
+  "names": []
+ },
+ "Hylochoerus meinertzhageni": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Bison bison": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 54,
+  "Aind": 0,
+  "names": []
+ },
+ "Rupicapra rupicapra": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 2,
+  "Aind": 0,
+  "names": []
+ },
+ "Larus smithsonianus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 15,
+  "Aind": 0,
+  "names": []
+ },
+ "Fregata magnificens": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 3,
+  "Aind": 0,
+  "names": []
+ },
+ "Zonotrichia atricapilla": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 19,
+  "Aind": 0,
+  "names": []
+ },
+ "Elaenia albiceps": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 15,
+  "Aind": 0,
+  "names": []
+ },
+ "Anser anser": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 9,
+  "Aind": 0,
+  "names": []
+ },
+ "Anthus richardi": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 6,
+  "Aind": 0,
+  "names": []
+ },
+ "Grus americana": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 95,
+  "Aind": 0,
+  "names": []
+ },
+ "Turdus migratorius": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 57,
+  "Aind": 0,
+  "names": []
+ },
+ "Kinosternon baurii": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 7,
+  "Aind": 0,
+  "names": []
+ },
+ "Tyrannus tyrannus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Tyrannus verticalis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Tyrannus forficatus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Rhincodon typus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 41,
+  "Aind": 0,
+  "names": []
+ },
+ "Bartramia longicauda": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 9,
+  "Aind": 0,
+  "names": []
+ },
+ "Papio hamadryas": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 14,
+  "Aind": 0,
+  "names": []
+ },
+ "Grus nigricollis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 13,
+  "Aind": 0,
+  "names": []
+ },
+ "Ptychoramphus aleuticus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 79,
+  "Aind": 0,
+  "names": []
+ },
+ "Acherontiini": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 26,
+  "Aind": 0,
+  "names": []
+ },
+ "Creagrus furcatus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 129,
+  "Aind": 0,
+  "names": []
+ },
+ "Choloepus hoffmanni": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 11,
+  "Aind": 0,
+  "names": []
+ },
+ "Rallus elegans": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 20,
+  "Aind": 0,
+  "names": []
+ },
+ "Vultur gryphus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 8,
+  "Aind": 0,
+  "names": []
+ },
+ "Anser": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 81,
+  "Aind": 0,
+  "names": []
+ },
+ "Luscinia calliope": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 16,
+  "Aind": 0,
+  "names": []
+ },
+ "Limosa lapponica": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 18,
+  "Aind": 0,
+  "names": []
+ },
+ "Neophron percnopterus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 18,
+  "Aind": 0,
+  "names": []
+ },
+ "Tetrao urogallus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 12,
+  "Aind": 0,
+  "names": []
+ },
+ "Charadrius montanus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 8,
+  "Aind": 0,
+  "names": []
+ },
+ "Bubo bubo": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 19,
+  "Aind": 0,
+  "names": []
+ },
+ "Setophaga striata": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 1,
+  "ind": 21,
+  "Aind": 0,
+  "names": []
+ },
+ "Charadrius alexandrinus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 9,
+  "Aind": 0,
+  "names": []
+ },
+ "Garrulus glandarius": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 7,
+  "Aind": 0,
+  "names": []
+ },
+ "Phaethon aethereus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Sula dactylatra": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Sula leucogaster": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Fregata aquila": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Onychoprion fuscatus": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 229,
+  "Aind": 0,
+  "names": []
+ },
+ "Tapirus bairdii": {
+  "st": 3,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 3,
+  "Aind": 0,
+  "names": []
+ },
+ "Myotis myotis": {
+  "st": 4,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 29,
+  "Aind": 0,
+  "names": []
+ },
+ "Petrochelidon pyrrhonota": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 4,
+  "Aind": 0,
+  "names": []
+ },
+ "Alca torda": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Tapirus terrestris": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Zoothera dauma": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Cuculus optatus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Cepphus grylle": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 21,
+  "Aind": 0,
+  "names": []
+ },
+ "Bos taurus": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 328,
+  "Aind": 0,
+  "names": []
+ },
+ "Pedionomus torquatus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 2,
+  "Aind": 0,
+  "names": []
+ },
+ "Milvus milvus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Hirundo rustica": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 20,
+  "Aind": 0,
+  "names": []
+ },
+ "Exaerete frontalis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 16,
+  "Aind": 0,
+  "names": []
+ },
+ "Animalia": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 8,
+  "Aind": 0,
+  "names": []
+ },
+ "Passer hispaniolensis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Tadorna ferruginea": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 2,
+  "Aind": 0,
+  "names": []
+ },
+ "Anatidae": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Dendrocygna bicolor": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Calidris pusilla": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Cygnus columbianus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 10,
+  "Aind": 0,
+  "names": []
+ },
+ "Tadarida teniotis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 8,
+  "Aind": 0,
+  "names": []
+ },
+ "Gyps bengalensis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Ceratogymna atrata": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 2,
+  "Aind": 0,
+  "names": []
+ },
+ "Anas rubripes": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 6,
+  "Aind": 0,
+  "names": []
+ },
+ "Polysticta stelleri": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 20,
+  "Aind": 0,
+  "names": []
+ },
+ "Phaethon lepturus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 15,
+  "Aind": 0,
+  "names": []
+ },
+ "Rynchops niger": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 2,
+  "Aind": 0,
+  "names": []
+ },
+ "Corvus hawaiiensis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 11,
+  "Aind": 0,
+  "names": []
+ },
+ "Acinonyx jubatus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Sterna dougallii": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 7,
+  "Aind": 0,
+  "names": []
+ },
+ "Lycalopex culpaeus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Pteropus poliocephalus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 4,
+  "Aind": 0,
+  "names": []
+ },
+ "Catharus minimus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 4,
+  "Aind": 0,
+  "names": []
+ },
+ "Cairina moschata": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Tadarida brasiliensis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 7,
+  "Aind": 0,
+  "names": []
+ },
+ "Myotis daubentoni": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 545,
+  "Aind": 0,
+  "names": []
+ },
+ "Pterodroma hasitata": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 10,
+  "Aind": 0,
+  "names": []
+ },
+ "Myophonus caeruleus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 6,
+  "Aind": 0,
+  "names": []
+ },
+ "Accipiter gularis": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 2,
+  "Aind": 0,
+  "names": []
+ },
+ "Trachops cirrhosus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 6,
+  "Aind": 0,
+  "names": []
+ },
+ "Dendrocygna javanica": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Rhinolophus ferrumequinum": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 6,
+  "Aind": 0,
+  "names": []
+ },
+ "Tayassu pecari": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Phaethon rubricauda": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 57,
+  "Aind": 0,
+  "names": []
+ },
+ "Puffinus creatopus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 6,
+  "Aind": 0,
+  "names": []
+ },
+ "Aythya ferina": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Gallinago gallinago": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Clamator glandarius": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Rissa": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Papio anubis": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 52,
+  "Aind": 0,
+  "names": []
+ },
+ "Hypsignathus monstrosus": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 43,
+  "Aind": 0,
+  "names": []
+ },
+ "Patagioenas plumbea": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 2,
+  "Aind": 0,
+  "names": []
+ },
+ "Larus canus": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 0,
+  "Aind": 0,
+  "names": []
+ },
+ "Phyllostomus hastatus": {
+  "st": 2,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 78,
+  "Aind": 0,
+  "names": []
+ },
+ "Balaenoptera": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 1,
+  "Aind": 0,
+  "names": []
+ },
+ "Pteropus lylei": {
+  "st": 1,
+  "Ast": 0,
+  "Bst": 0,
+  "ind": 14,
+  "Aind": 0,
+  "names": []
+ }
+}

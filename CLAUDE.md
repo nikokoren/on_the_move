@@ -4,7 +4,7 @@ Read this first in every session. The repo is the memory: agents keep nothing be
 
 ## Status (2026-09-28)
 
-Task 0 first pass done 2026-09-28 (`docs/survey/results.md`): Mode A viable but thin (4 eligible fresh animals measured), Mode B not viable around Munich under the licensing rule. Waiting on the owner: accept license terms for 5 studies, decide on permission requests, decide D1 and D2. Nothing gets designed or built before D1 and D2 are decided.
+Scope widened 2026-09-28 to a global, many-species database (DECISIONS S1). Task 0 (Munich, `docs/survey/results.md`) and task 0b (global, `docs/survey/global.md`) done as first passes: 47 live, eligible, full-cycle migrants worldwide today; 128 species with full-cycle tracks in CC0/CC BY Movebank Data Repository packages; GBIF sightings give seasonal patterns (e.g. monarch). Waiting on the owner: terms acceptance for locked studies, the content model, and the D3/R9 labelling conflict. Nothing gets designed or built before those are decided.
 
 ## Where things are
 

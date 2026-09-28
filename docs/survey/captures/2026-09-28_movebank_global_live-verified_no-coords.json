@@ -1,0 +1,197 @@
+{
+ "1609400843": {
+  "name": "MEDGULL_ANTWERPEN - Mediterranean gulls (Ichthyaetus melanocephalus, Laridae) breeding near Antwerp (Belgium)",
+  "lic": "CC_0",
+  "live14": {},
+  "live30": {},
+  "live_and_full": {}
+ },
+ "1258895879": {
+  "name": "DELTATRACK - Herring gulls (Larus argentatus, Laridae) and lesser black-backed gulls (Larus fuscus, Laridae) breeding at Neeltje Jans (Netherlands)",
+  "lic": "CC_0",
+  "live14": {
+   "Larus fuscus": 17,
+   "Larus argentatus": 2
+  },
+  "live30": {
+   "Larus fuscus": 19,
+   "Larus argentatus": 2
+  },
+  "live_and_full": {
+   "Larus fuscus": 19,
+   "Larus argentatus": 2
+  }
+ },
+ "1259686571": {
+  "name": "LBBG_JUVENILE - Juvenile lesser black-backed gulls (Larus fuscus, Laridae) and herring gulls (Larus argentatus, Laridae) hatched in Zeebrugge (Belgium)",
+  "lic": "CC_0",
+  "live14": {},
+  "live30": {},
+  "live_and_full": {}
+ },
+ "1841091905": {
+  "name": "CURLEW_VLAANDEREN - Eurasian curlews (Numenius arquata, Scolopacidae) breeding in Flanders (Belgium)",
+  "lic": "CC_0",
+  "live14": {},
+  "live30": {},
+  "live_and_full": {}
+ },
+ "501903109": {
+  "name": "Red Kite MPI-AB Baden-Wuerttemberg",
+  "lic": "CC_0",
+  "live14": {
+   "Milvus milvus": 6
+  },
+  "live30": {
+   "Milvus milvus": 7
+  },
+  "live_and_full": {
+   "Milvus milvus": 7
+  }
+ },
+ "2217728245": {
+  "name": "HG_JUVENILE - Juvenile herring gulls (Larus argentatus, Laridae) hatched at the southern North Sea coast (Belgium)",
+  "lic": "CC_0",
+  "live14": {},
+  "live30": {},
+  "live_and_full": {}
+ },
+ "2313947453": {
+  "name": "SPOONBILL_VLAANDEREN - Eurasian spoonbills (Platalea leucorodia, Threskiornithidae) in Flanders (Belgium)",
+  "lic": "CC_0",
+  "live14": {},
+  "live30": {},
+  "live_and_full": {}
+ },
+ "4194049025": {
+  "name": "ARMENIAN_GULL - Armenian gulls (Larus armenicus, Laridae) breeding in Sevan National Park and Lake Arpi National Park (Armenia)",
+  "lic": "CC_0",
+  "live14": {},
+  "live30": {},
+  "live_and_full": {}
+ },
+ "9343041295": {
+  "name": "RRP_VLAANDEREN - Rose-ringed parakeets (Psittacula krameri) breeding in Ghent (Belgium)",
+  "lic": "CC_0",
+  "live14": {},
+  "live30": {},
+  "live_and_full": {}
+ },
+ "1278021460": {
+  "name": "BOP_RODENT - Rodent specialized birds of prey (Circus, Asio, Buteo) in Flanders (Belgium)",
+  "lic": "CC_0",
+  "live14": {},
+  "live30": {},
+  "live_and_full": {}
+ },
+ "7675204759": {
+  "name": "TURTUR_VLAANDEREN - European turtle doves (Streptopelia turtur, Columbidae) breeding in Flanders (Belgium)",
+  "lic": "CC_0",
+  "live14": {},
+  "live30": {},
+  "live_and_full": {}
+ },
+ "10449318": {
+  "name": "LifeTrack White Stork Loburg",
+  "lic": "CC_BY",
+  "live14": {
+   "Ciconia ciconia": 1
+  },
+  "live30": {
+   "Ciconia ciconia": 1
+  },
+  "live_and_full": {
+   "Ciconia ciconia": 1
+  }
+ },
+ "186178781": {
+  "name": "Raptors NABU Moessingen public",
+  "lic": "CC_BY",
+  "live14": {
+   "Gyps fulvus": 1,
+   "Pernis apivorus": 1
+  },
+  "live30": {
+   "Gyps fulvus": 1,
+   "Pernis apivorus": 1
+  },
+  "live_and_full": {
+   "Gyps fulvus": 1,
+   "Pernis apivorus": 1
+  }
+ },
+ "481458": {
+  "name": "Vultures Acopian Center USA GPS",
+  "lic": "CC_BY",
+  "live14": {
+   "Cathartes aura": 6,
+   "Coragyps atratus": 3
+  },
+  "live30": {
+   "Cathartes aura": 6,
+   "Coragyps atratus": 3
+  },
+  "live_and_full": {
+   "Cathartes aura": 6
+  }
+ },
+ "3413045568": {
+  "name": "Habitrack European Turtle Dove",
+  "lic": "CC_BY",
+  "live14": {
+   "Streptopelia turtur": 8
+  },
+  "live30": {
+   "Streptopelia turtur": 10
+  },
+  "live_and_full": {
+   "Streptopelia turtur": 10
+  }
+ },
+ "1562253659": {
+  "name": "LifeTrack White Stork Sarralbe [ID_PROG 1093]",
+  "lic": "CC_0",
+  "live14": {},
+  "live30": {
+   "Ciconia ciconia": 1
+  },
+  "live_and_full": {
+   "Ciconia ciconia": 1
+  }
+ },
+ "28691134": {
+  "name": "Broad-winged Hawk habitat use, range, and movement ecology",
+  "lic": "CC_BY",
+  "live14": {
+   "Buteo platypterus": 4
+  },
+  "live30": {
+   "Buteo platypterus": 4
+  },
+  "live_and_full": {
+   "Buteo platypterus": 4
+  }
+ },
+ "21231406": {
+  "name": "LifeTrack White Stork SW Germany",
+  "lic": "CC_BY",
+  "live14": {
+   "Ciconia ciconia": 1
+  },
+  "live30": {
+   "Ciconia ciconia": 1
+  },
+  "live_and_full": {
+   "Ciconia ciconia": 1
+  }
+ },
+ "1088836380": {
+  "name": "Carnivore movements near Black Rock Forest New York",
+  "lic": "CC_BY",
+  "live14": {},
+  "live30": {
+   "Lynx rufus": 1
+  },
+  "live_and_full": {}
+ }
+}

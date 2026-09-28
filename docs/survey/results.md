@@ -1,5 +1,7 @@
 # Task 0 results
 
+> 2026-09-28: scope widened to global (DECISIONS S1). Global survey: [global.md](global.md). This file stays the Munich-focused first pass.
+
 Status 2026-09-28: first pass done by Claude (task 0 session). Part A is only partly measured: 5 eligible-license studies need the project owner to accept their license terms before their data can be checked (see "Owner actions"). Re-run the checks before relying on any number here; stork tags die and embargoes change.
 
 Time reference for all ages: 2026-09-28 14:00 UTC. "Fresh 14 d / 30 d" = deployed animals with at least one visible GPS fix **with coordinates** in that many days.

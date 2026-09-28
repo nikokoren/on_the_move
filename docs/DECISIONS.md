@@ -4,6 +4,12 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### S1 Scope widened to a global, many-species database (owner, 2026-09-28)
+
+- Decision (project owner, in session): not limited to Munich. Build a database of many migrating animals worldwide. Content kinds: (A) live now and live every year; (B) complete data for at least one full migration, used to say what usually happens at this time of year.
+- Consequences: D1 and D2 as framed for Munich are superseded by this. The Munich-only GBIF finding (Mode B thin) still holds for local "who's arriving" content. See `survey/global.md`.
+- Open conflicts: showing historical data "as if now" conflicts with D3 and R9 unless every historical item is labelled as typical or with its year. Needs an owner decision before any copy (R16).
+
 ### L1 Licensing position (decided before 2026-09-28, recorded 2026-09-28)
 
 - Decision: treat the project as potentially commercial (TRMNL Creator Fund payouts scale with impressions and come from company revenue). Use only CC0, CC BY, or sources whose own terms explicitly allow commercial use. NC or custom-terms data only with the owner's written permission, stored in `data/permissions/`.
