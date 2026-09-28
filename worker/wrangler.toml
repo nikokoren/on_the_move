@@ -1,0 +1,19 @@
+# On the Move: Cloudflare Worker (R1, R2). Deploy steps in worker/README.md.
+name = "on-the-move"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+# Refresh live positions every 6 hours (R2). Minute 23 keeps it off the hour
+# when most crons fire. Free plan: 5 cron triggers per account, shared with
+# the owner's other Workers (checked 2026-09-28, developers.cloudflare.com/workers/platform/limits/).
+[triggers]
+crons = ["23 */6 * * *"]
+
+# One key, "live:v1", written at most once a run and only on change (refresh.js).
+# The id is not a secret; create it with `npx wrangler kv namespace create KV`.
+[[kv_namespaces]]
+binding = "KV"
+id = "ebe03f8af1904bc6afc5b828aeeb44c4"  # "on_the_move", created by the owner 2026-09-28
+
+# Secrets, never in this file (CLAUDE.md): MOVEBANK_USERNAME, MOVEBANK_PASSWORD.
+# Set with `npx wrangler secret put ...`; locally in worker/.dev.vars (git-ignored).

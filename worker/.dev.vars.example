@@ -1,0 +1,3 @@
+# Copy to .dev.vars (git-ignored) for `npx wrangler dev`. Never commit the real values.
+MOVEBANK_USERNAME=
+MOVEBANK_PASSWORD=

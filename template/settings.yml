@@ -1,0 +1,37 @@
+# TRMNL recipe settings (decisions F1, V1). Keynames must not match payload
+# keys (state, kind, species, name, status, where, fact, credit, toward, geo):
+# Map of the Day found that a setting and a feed key of the same name collide.
+# Select values reach the Worker snake_cased from the label (Nextbike).
+- keyname: author_bio
+  field_type: author_bio
+  name: About This Plugin
+  description: |
+    Follow migrating animals on a map: white storks, cranes, honey buzzards, turtle doves, gulls, shrikes, wheatears, curlews, hawks, vultures, a blue whale and a loggerhead turtle. Animals with a working GPS tag show their last position and its date. The others show where they usually are on this day, from a full year of their own published tracking data. A line shows where the journey began, a dotted line where it usually goes next.<br><br>
+    Tracking data: Movebank and the Movebank Data Repository (CC0 and CC BY studies only). Map places: Natural Earth.
+  category: "discovery,life"
+- keyname: follow
+  field_type: select
+  name: Animal
+  description: One species to follow, or all of them in turn.
+  default: All of them in turn
+  options:
+  - All of them in turn
+  - White Stork
+  - Common Crane
+  - European Honey Buzzard
+  - European Turtle Dove
+  - Lesser Black-backed Gull
+  - Red-backed Shrike
+  - Northern Wheatear
+  - Far Eastern Curlew
+  - Broad-winged Hawk
+  - Turkey Vulture
+  - Blue Whale
+  - Loggerhead
+- keyname: language
+  field_type: select
+  name: Language
+  default: English
+  options:
+  - English
+  - Deutsch

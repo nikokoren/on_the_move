@@ -1,0 +1,16 @@
+{
+ "query": {
+  "taxonKey": 9515886,
+  "species": "Hirundo rustica",
+  "geoDistance": "48.137,11.575,50km",
+  "license": [
+   "CC0_1_0",
+   "CC_BY_4_0"
+  ],
+  "eventDate": "2026-08-29,2026-09-28",
+  "occurrenceStatus": "PRESENT",
+  "fetched": "2026-09-28"
+ },
+ "count": 0,
+ "results": []
+}

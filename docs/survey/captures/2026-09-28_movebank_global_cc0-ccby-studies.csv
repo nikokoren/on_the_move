@@ -1,0 +1,703 @@
+id,name,license_type,suspend_license_terms,there_are_data_which_i_cannot_see,timestamp_first_deployed_location,timestamp_last_deployed_location,number_of_individuals,number_of_deployed_locations,taxon_ids,sensor_type_ids,main_location_lat,main_location_long
+1271155477,Plastic bottle tracking ,CC_0,false,false,,,22,,,GPS,22.194190025872,90.9045374393421
+1268085753,BfRw Petrogale lateralis,CC_BY,false,false,2019-08-17 00:01:00.000,2019-12-20 06:40:33.000,5,15470,,GPS,-31.66888,116.16469
+1208033562,Larus canus,CC_0,false,false,,,,,,GPS,52.475394106925,19.7901199548514
+6106595792,Migration of Flamingo in Mumbai,CC_0,false,false,,,,,,,19.097641790925,72.9559883466583
+1762674843,Underestimated scale of songbird offshore migration across the south-eastern North Sea during autumn,CC_BY,false,false,2017-09-27 17:15:00.000,2019-09-15 21:01:13.000,259,430,"Sturnus vulgaris,Turdus merula,Turdus iliacus,Acrocephalus schoenobaenus,Erithacus rubecula,Prunella modularis,Sylvia atricapilla,Sylvia borin,Sylvia communis,Turdus philomelos",Radio Transmitter,54.1849411666842,7.89916992187504
+2815262899,Etude sur la migration de la population de Gravelot à collier interrompu des Salins d’Hyères (83)[ID_PROG 630],CC_0,false,false,2019-07-20 00:00:00.000,2020-05-12 00:00:00.000,9,196,Charadrius alexandrinus,GPS,43.0727751852397,6.13603591918997
+5482391833,"Bobcat spatial ecology study in the Olympic Peninsula, Washington",CC_0,false,false,2021-03-20 20:00:00.000,2024-09-28 19:00:00.000,9,20846,Lynx rufus,GPS,48.085591,-123.610959
+2943485,NYSDEC Raptor Tracking,CC_0,false,false,1992-02-17 19:55:47.000,2010-03-31 23:39:56.000,78,199556,"Aquila chrysaetos,Haliaeetus leucocephalus,Pandion haliaetus,Falco peregrinus,Asio flammeus","GPS,Argos Doppler Shift",42.6662807056493,-73.751220703125
+1552174975,ICARUS Eurasian Jay,CC_0,false,false,2021-06-05 13:07:00.000,2021-09-20 22:12:00.000,7,283,Garrulus glandarius,"GPS,Accessory Measurements",8.66480708203235,50.5750339452025
+1524813670,ICARUS marine Oregon,CC_0,false,false,,,,,,"GPS,Accessory Measurements",45.5176394456533,-121.640625
+446575,MPIAB Lake Constance Ducks Argos,CC_0,false,false,2007-04-01 03:26:02.000,2009-04-30 01:48:32.000,26,138,"Anas platyrhynchos,Anas penelope,Aythya fuligula,Netta rufina,Fulica atra",Argos Doppler Shift,47.7245445490997,9.052734375
+1531481854,ICARUS Ascension Island Government,CC_0,false,false,2021-05-19 01:00:00.000,2022-03-01 12:18:00.000,140,9726,"Phaethon aethereus,Sula dactylatra,Sula leucogaster,Fregata aquila,Onychoprion fuscatus","GPS,Accessory Measurements",-7.94740235823321,-14.3672436088788
+2577502696,Baird's tapir of the Maya Forest,CC_0,false,false,2022-04-23 02:01:00.000,2023-01-26 16:00:00.000,1,189,Tapirus bairdii,GPS,18.36381,-89.892434
+468460067,Food for Thought: Comparative Frugivore Tracking [raw],CC_BY,false,false,2015-12-11 10:54:53.000,2018-06-14 11:00:24.000,49,3940647,"Nasua narica,Pecari tajacu,Ateles geoffroyi,Cebus capucinus,Potos flavus","GPS,Acceleration",9.15701045555462,-79.8479461669922
+1120749252,Food for Thought: Comparative Frugivore Tracking [cleaned],CC_BY,true,false,2015-12-11 10:54:00.000,2018-06-14 13:00:00.000,47,665321,"Nasua narica,Pecari tajacu,Ateles geoffroyi,Cebus capucinus,Potos flavus",GPS,9.16404354514217,-79.8409938812264
+2767749082,Elephant Research - Mt. Cameroon - Collar 73056,CC_0,false,false,2007-03-19 00:31:02.000,2008-07-13 05:37:45.000,1,1283,,Argos Doppler Shift,4.15239,9.07317
+176466071,Thayer's Gulls from the Canadian High Arctic,CC_BY,false,false,2016-07-04 20:29:29.000,2019-06-05 02:11:42.000,5,24997,Larus thayeri,"Argos Doppler Shift,Accessory Measurements",76.27877,-89.15432
+6110638163,Myotis myotis - Ecofirst - Lontzen - GPS beacon,CC_BY,false,false,2023-07-01 09:00:11.000,2023-07-04 00:48:11.000,3,266,Myotis myotis,GPS,50.6804862369575,6.00691197527723
+6088926882,Myotis myotis - Ecofirst - Ethe - GPS beacon,CC_BY,false,false,2023-07-13 09:00:10.000,2023-07-16 19:34:12.000,5,269,Myotis myotis,GPS,49.582,5.581
+6110795855,Myotis myotis - Ecofirst - Ethe - Telemetry,CC_BY,false,false,2023-07-13 21:49:20.000,2023-07-17 22:32:00.000,10,50,Myotis myotis,"Radio Transmitter,Acoustic Telemetry",49.582,5.581
+6110993253,Myotis myotis - Ecofirst - Lontzen - Telemetry,CC_BY,false,false,2023-07-01 21:33:16.000,2023-07-04 23:24:00.000,11,31,Myotis myotis,Radio Transmitter,50.68,6.007
+497087673,1000 Cranes. Russia. Altai.,CC_BY,false,false,2018-07-09 03:33:00.000,2024-03-19 12:16:50.000,2,7901,Anthropoides virgo,GPS,52.596,79.872
+542653863,1000 Cranes. Russia. Common Crane.,CC_BY,false,false,2018-08-06 10:50:09.000,2025-08-20 12:53:03.000,17,14026,Grus grus,GPS,54.716349,40.851558
+496130871,1000 Cranes. Russia. Taman. Azov.,CC_BY,false,false,2018-06-28 04:14:06.000,2023-03-10 12:42:02.000,11,4108,Anthropoides virgo,GPS,45.212,36.834
+497091077,1000 Cranes. Russia. Transbaikalia.,CC_BY,false,false,2018-07-15 00:00:05.000,2025-08-23 14:24:04.000,16,33375,"Grus vipio,Anthropoides virgo",GPS,50.44,115.77
+496136836,1000 Cranes. Russia. Volga-Ural Interfluve.,CC_BY,false,false,2018-06-30 05:09:42.000,2021-09-20 13:00:04.000,29,26681,Anthropoides virgo,GPS,45.974,48.549
+497138661,1000 Cranes. Southern Kazakhstan.,CC_BY,false,false,2018-07-08 02:40:08.000,2021-11-03 12:59:35.000,7,6752,Anthropoides virgo,GPS,43.5158,75.794
+3499991761,Save the Duck - Amat school pet!,CC_0,false,false,,,,,,,33.5106185875774,-117.980858087529
+2784674897,Elephant Research - Nki National Park (Cameroon) - Collar 40479,CC_0,false,false,2003-03-30 00:00:00.000,2003-11-14 00:00:00.000,1,533,,Argos Doppler Shift,2.252,14.787
+496344827,Petrochelidon_pyrrhonota.Areta.Argentina ,CC_0,false,false,2016-12-26 17:42:33.000,2017-09-24 17:33:09.000,3,1535,Petrochelidon pyrrhonota,Solar Geolocator,-32.419662,-63.254992
+2784843611,Elephant Research - Lobeke National Park (Cameroon) - Collar 39839,CC_0,false,false,2003-04-29 12:01:00.000,2003-11-05 06:00:00.000,1,27,,GPS,2.187,16.073
+1541499701,ICARUS Latvia,CC_0,false,false,,,,,,"GPS,Accessory Measurements",56.9496784725692,24.9441628542436
+1542122039,ICARUS Bhutan Nawang Norbu,CC_0,false,false,,,,,,"GPS,Accessory Measurements",27.4365148254212,89.6541767011053
+2765563865,Reproductive success of Bornean orangutan males: spread out in time but clustered in space,CC_BY,false,false,2003-08-01 12:00:00.000,2018-07-08 15:38:00.000,14,93824,,GPS,-2.14,114.44
+6432602888,Brooding Common Eider and Velvet Scoter 2025,CC_0,true,false,2025-05-20 10:27:47.000,2026-07-31 15:45:44.000,14,56965,"Somateria mollissima,Melanitta fusca",GPS,58.6455108997678,17.1881103515626
+6428591553,Geese Tracking Japan 2021_Aleutian Cackling Goose,CC_0,false,false,2021-12-13 09:00:00.000,2023-04-13 23:00:00.000,2,10097,Branta hutchinsii,GPS,40.0,140.0
+6733649994,Tree Pipit geolocation in Czechia,CC_BY,false,false,2019-06-10 19:24:34.000,2024-04-07 17:53:36.000,7,255,Anthus trivialis,Solar Geolocator,50.2,13.8
+24442409,LifeTrack White Stork Bavaria,CC_BY,false,false,2014-06-23 07:05:08.000,2026-09-26 15:05:10.000,91,7538577,Ciconia ciconia,"GPS,Acceleration,Accessory Measurements,Magnetometer,Orientation",49.8353252629665,10.8242797851562
+8954258095,Stork-Freinsheim-Germany-2026,CC_0,true,false,,,,,,,49.5060390200659,8.21090698242124
+1410257352,mixed,CC_0,false,false,2017-10-28 10:20:00.000,2019-12-06 15:54:00.000,5,12278,,GPS,-26.92173,-49.07935
+3945977313,Surfbird_UAF_SteeseNCA,CC_0,true,false,2024-06-11 00:02:08.000,2025-09-22 23:08:26.000,10,6982,"Aphriza virgata,Calidris virgata","GPS,Argos Doppler Shift",65.5049923716237,-145.975341796873
+1609400843,"MEDGULL_ANTWERPEN - Mediterranean gulls (Ichthyaetus melanocephalus, Laridae) breeding near Antwerp (Belgium)",CC_0,true,false,2021-05-20 18:09:09.000,2026-09-27 08:15:55.000,20,1791908,Ichthyaetus melanocephalus,GPS,51.312,4.285
+1258895879,"DELTATRACK - Herring gulls (Larus argentatus, Laridae) and lesser black-backed gulls (Larus fuscus, Laridae) breeding at Neeltje Jans (Netherlands)",CC_0,true,false,2020-05-20 18:00:08.000,2026-09-24 08:00:40.000,99,16177496,"Larus fuscus,Larus argentatus",GPS,51.633,3.7
+1259686571,"LBBG_JUVENILE - Juvenile lesser black-backed gulls (Larus fuscus, Laridae) and herring gulls (Larus argentatus, Laridae) hatched in Zeebrugge (Belgium)",CC_0,true,false,2020-07-06 18:07:11.000,2026-09-22 21:54:15.000,92,1092244,"Larus fuscus,Larus argentatus",GPS,51.342,3.175
+1841091905,"CURLEW_VLAANDEREN - Eurasian curlews (Numenius arquata, Scolopacidae) breeding in Flanders (Belgium)",CC_0,true,false,2020-05-05 18:05:51.000,2026-09-22 12:32:15.000,5,414306,Numenius arquata,GPS,50.8,4.933
+613825248,"MCP Rusty Blackbird Alberta, Alaska & New Hampshire",CC_BY,false,false,2015-08-15 17:51:00.000,2019-04-03 00:41:00.000,7,522,Euphagus carolinus,GPS,53.631611,-113.323975
+1649411628,"King cobra (Ophiophagus hannah), Elapidae, Thailand",CC_0,false,false,,,21,,,Radio Transmitter,14.515,101.927
+1906271210,"Dragons (Calotes versicolor), Balouch et al., Pakistan",CC_BY,false,false,2018-05-04 04:41:00.000,2018-09-16 13:36:00.000,32,1350,,Radio Transmitter,32.726,72.837
+1554008783,"Atlantic puffins; common murre; thick-billed murre; razorbill; Gannet Islands, Canada; Acadia University; Mallory",CC_0,false,false,2015-07-28 00:00:01.000,2015-08-18 15:45:00.000,33,15942,"Alca torda,Uria aalge,Uria lomvia,Fratercula arctica",GPS,53.945,-56.509
+3073786945,Nhumirim Carnivores,CC_BY,false,false,2006-04-07 21:05:00.000,2008-02-24 13:15:00.000,44,901,"Nasua nasua,Cerdocyon thous,Leopardus pardalis,Procyon cancrivorus",Radio Transmitter,-18.988054,-56.619056
+2290252202,Goose flight around New Year in W-Europe 2014-2021,CC_BY,false,false,2013-12-19 00:11:22.000,2021-01-12 23:53:49.000,346,280312,"Branta leucopsis,Anser albifrons,Anser fabalis,Anser brachyrhynchus",GPS,51.8236836227717,5.97003936767566
+8849883,MPIAB Lesser Flamingo,CC_0,true,false,2002-10-11 15:08:21.000,2013-04-19 15:35:11.000,25,91854,Phoenicopterus minor,"GPS,Argos Doppler Shift",0.239,36.093
+1962595,Seaducks in the Fehmarn Belt (southern Baltic),CC_BY,false,false,2009-03-08 14:16:00.000,2010-12-31 20:15:00.000,31,11033,"Aythya fuligula,Clangula hyemalis,Somateria mollissima,Melanitta nigra","Radio Transmitter,Argos Doppler Shift",54.5752458007833,11.304931640625
+6708221942,Baffin Bay narwhal- 2009 to 2012 Argos data- Fisheries and Oceans Canada,CC_0,false,false,2009-08-15 18:25:00.000,2012-12-22 08:03:00.000,25,48398,Monodon monoceros,Argos Doppler Shift,72.3824099683742,-81.0131835937503
+278258431,Black-headed gull -  Chroicocephalus ridibundus -  PP382 - Forez France,CC_BY,false,false,2017-05-10 10:14:00.000,2026-09-21 11:25:13.000,49,1888565,Chroicocephalus ridibundus,GPS,45.7151993528184,4.25119400024414
+6510132327,"Home range reduction of Tapirus terrestris raised by the Sarayaku community, Pastaza, Ecuador",CC_0,false,false,2023-07-16 10:00:00.000,2024-02-28 12:00:00.000,1,606,Tapirus terrestris,GPS,-1.727006,-77.510004
+2602389249,Arctic fox Bylot - Accelerometry,CC_0,false,false,,,101,,Vulpes lagopus,Acceleration,73.0,-80.0
+942774711,Arctic fox Bylot - Argos tracking,CC_0,false,false,2007-07-15 03:33:52.000,2021-08-30 16:30:39.000,170,64489,Vulpes lagopus,Argos Doppler Shift,73.0,-80.0
+1241071371,Arctic fox Bylot - GPS-UHF tracking,CC_0,false,false,2018-06-03 05:47:51.000,2025-08-21 17:01:30.000,69,1720581,Vulpes lagopus,GPS,73.0,-80.0
+1371484814,Arctic fox Herschel - Argos tracking,CC_0,false,false,2009-06-08 23:08:07.000,2010-10-11 16:09:21.000,2,327,Vulpes lagopus,Argos Doppler Shift,69.59,-139.1
+887332716,Arctic hare Alert - Argos tracking,CC_0,false,false,2019-06-15 03:00:00.000,2020-06-24 14:58:54.000,25,4487,Lepus arcticus,Argos Doppler Shift,82.5052718114295,-62.4093864589854
+4015912608,"Eurasian Curlew in Flanders, Belgium: habitat use and breeding success",CC_0,false,false,2020-05-05 11:25:35.000,2024-06-18 12:05:27.000,7,605203,Numenius arquata,GPS,50.8524296825285,4.91363525390605
+1190932284,"Abundance, connectivity, and seasonal movements of Light-footed Ridgway's Rails",CC_0,false,false,2020-06-29 16:00:00.000,2027-08-23 13:24:16.000,90,24733,Rallus ,GPS,32.636982,-117.106873
+1879445455,Poultry network Thailand 2022,CC_BY,true,false,2022-01-25 05:33:08.000,2022-08-19 03:26:49.000,142,9919,"Chelonia mydas,Varanus salvator,Dendrocygna javanica,Anas platyrhynchos,Accipiter trivirgatus,Milvus migrans,Gyps himalayensis,Fulica atra,Numenius arquata,Tyto alba,Homo sapiens,Canis lupus,Bubo sumatranus,Nisaetus alboniger",GPS,23.3072582825912,113.136289333841
+1349878794,Biology of birds practical,CC_0,false,false,2018-03-22 00:10:46.000,2019-05-16 23:58:08.000,4,5274,,GPS,50.1657449652576,-5.09765625000004
+2728151646,"Fishing cat (Prionairulus viverrinus) study in Khao Sam Roi Yot, Thailand",CC_0,false,false,2022-06-26 00:00:00.000,2024-03-22 23:50:07.000,13,56939,Prionailurus viverrinus,"GPS,Acceleration",12.12867,99.95358
+1498695900,ICARUS Russia Cuckoo Yenisey,CC_BY,false,false,2021-07-25 06:01:00.000,2021-12-26 16:30:00.000,5,171,"Cuculus canorus,Zoothera dauma,Cuculus optatus","GPS,Accessory Measurements",62.296781003362,89.0172188586966
+446053425,tundraSwan_USGS_ASC_argos,CC_0,true,false,2008-07-15 22:05:51.000,2012-09-01 20:55:51.000,50,90378,Cygnus columbianus,Argos Doppler Shift,65.0,-150.0
+6321660560,GPS tracking of Texas Tortoises in South Texas USA (Guerra et al. 2025),CC_BY,false,false,2020-03-10 17:11:00.000,2023-12-25 14:57:00.000,19,107885,Gopherus berlandieri,GPS,26.018,-97.48
+1214247548,tuftedPuffin_USGS_ASC_argos,CC_0,true,false,1995-07-19 00:17:44.000,1995-09-21 04:59:34.000,5,149,Fratercula cirrhata,Argos Doppler Shift,58.9273344182752,-152.116699218762
+1208480466,thickBilledMurre_USGS_ASC_argos,CC_0,true,false,1995-08-02 11:33:15.000,1996-10-23 00:33:49.000,20,725,Uria lomvia,Argos Doppler Shift,68.9426068181234,-166.201171875001
+861839307,surfScoter_USGS_ASC_argos,CC_0,true,false,2005-02-19 17:41:31.000,2010-12-26 12:25:46.000,25,7281,Melanitta perspicillata,Argos Doppler Shift,56.1700229829321,-131.484375
+1996478990,stellersEider_USFWS_AK_argos,CC_0,true,false,2000-06-17 02:13:43.000,2002-06-13 23:53:54.000,14,6736,Polysticta stelleri,Argos Doppler Shift,71.12,-156.55
+1169957016,spectacledEider_USGS_ASC_argos,CC_0,true,false,1993-06-05 17:15:16.000,2012-07-20 12:58:57.000,217,61299,Somateria fischeri,Argos Doppler Shift,62.7547259272316,-172.968750000002
+1212921445,redFacedCormorant_USGS_ASC_argos,CC_0,true,false,2006-05-29 05:04:56.000,2007-01-07 04:59:00.000,2,165,Phalacrocorax urile,Argos Doppler Shift,52.836,173.191
+2170027243,Movement Study of the Western Ringtail Possum Pseudocheirus occidentalis in response to habitat clearing,CC_0,true,false,2022-05-30 05:59:35.000,2022-06-22 04:01:05.000,26,1761,,GPS,-33.3976637748509,115.644836425787
+1211010154,pelagicCormorant_USGS_ASC_argos,CC_0,true,false,2000-07-18 02:50:17.000,2006-12-03 02:44:23.000,8,1436,Phalacrocorax pelagicus,Argos Doppler Shift,59.489726035537,-146.337890625008
+1420256397,pacificWalrus_USGS_ASC_argosGPS,CC_0,true,false,1987-08-14 10:05:00.000,2019-10-21 05:59:59.000,921,300989,Odobenus rosmarus,"GPS,Argos Doppler Shift",71.9063872336817,-162.314970329321
+547404600,marbledGodwit_USGS_ASC_argos,CC_0,true,false,2008-06-16 00:51:06.000,2015-10-04 18:41:07.000,9,10858,Limosa fedoa,Argos Doppler Shift,57.5652461368987,-157.4612999909
+1990733838,longTailedDuck_USGS_ASC_argos,CC_0,true,false,1998-06-17 22:44:55.000,2005-09-14 06:42:20.000,85,28005,Clangula hyemalis,Argos Doppler Shift,70.2,-146.0
+1091848505,gullSpecies_USGS_ASC_argosGPS,CC_0,true,false,2016-06-09 12:00:36.000,2019-11-12 23:40:00.000,42,60290,"Larus ,Larus hyperboreus,Larus glaucescens,Larus smithsonianus","GPS,Argos Doppler Shift",60.4734649271998,-150.996093750004
+1350186061,emperorGoose_USGS_ASC_argos,CC_0,true,false,1999-07-28 07:44:26.000,2004-10-25 01:51:18.000,53,25111,Chen canagica,Argos Doppler Shift,61.3,-165.2
+1207331095,commonMurre_USGS_ASC_argos,CC_0,true,false,1994-07-16 23:14:02.000,1996-11-26 06:18:37.000,28,1726,Uria aalge,Argos Doppler Shift,68.9110048456202,-165.234375
+2782906165,Elephant Research - Lobeke NP (Cameroon) - Collar 39840 [2005-2007],CC_0,false,false,2005-11-17 12:39:28.000,2007-05-08 21:16:21.000,1,411,,Argos Doppler Shift,2.1824,16.0587
+1685854071,commonEider_USGS_ASC_argos,CC_0,true,false,2000-06-26 00:22:57.000,2011-04-22 22:43:23.000,167,82673,Somateria mollissima,Argos Doppler Shift,66.5132604431118,-151.875
+1128676353,buffBreastedSandpiper_USGS_ASC_argosGPS,CC_0,true,false,2016-04-24 14:29:00.000,2020-01-04 21:09:21.000,130,40471,Tryngites subruficollis,"GPS,Argos Doppler Shift",28.6520306303608,-96.5039062499963
+1023074898,blackScoter_USGS_ASC_argos,CC_0,true,false,2003-04-11 02:17:40.000,2009-12-29 16:13:57.000,53,30833,Melanitta nigra,Argos Doppler Shift,59.3,-164.2
+3512638819,"Locations of second-year rufa Red Knots in Florida, 2024",CC_0,false,false,2024-03-16 00:07:39.000,2024-08-06 23:04:09.000,13,10281,Calidris canutus,Argos Doppler Shift,27.6360904125119,-82.738723754883
+209824313,Hebblewhite Alberta-BC Wolves,CC_BY,true,false,2000-01-25 22:01:19.000,2011-06-22 04:01:24.000,68,174443,Canis lupus,GPS,52.95,-117.99
+1509697502,Delmarva Wintering Waterfowl AIV and Poultry,CC_0,false,false,2019-05-07 08:40:19.000,2026-05-18 10:34:52.000,101,9178637,"Branta canadensis,Chen caerulescens,Anas platyrhynchos","GPS,Acceleration",38.8397076135445,-75.4980468750009
+2411977220,Starling navigation SigFox MPIAB NIOO 2,CC_0,false,false,2022-10-19 14:39:41.000,2024-09-15 09:50:03.000,82,57275,Sturnus vulgaris,Sigfox Geolocation,53.3655033969936,6.35428054364022
+2784086541,Elephant Research - Lobeke NP (Cameroon) - Collar 39840 [2003-2004],CC_0,false,false,2003-03-25 00:00:00.000,2004-01-19 00:00:00.000,1,804,,Argos Doppler Shift,2.226,16.27
+4474483266,"Migration routes of the Common Kestrel passing through Guiyang, China",CC_0,false,false,2019-04-01 21:20:02.000,2020-05-11 04:51:26.000,1,831,Falco tinnunculus,GNSS,26.4312280645066,106.523437499996
+3578422072,Galapagos barn owl project,CC_0,false,false,2016-03-01 21:38:30.000,2019-11-19 16:57:02.000,8,25274,Tyto furcata,GPS,-0.693950971395282,-90.3249657154039
+2323691740,"Accelerometer data, reindeer",CC_0,true,false,,,1,,,Accessory Measurements,66.6529774005508,18.2812499999996
+1424957626,pacifica Dunlin,CC_BY,false,false,,,63,,,Solar Geolocator Raw,61.365,-165.141
+1544656061,ICARUS Cuckoo South Korea,CC_0,false,false,,,,,,"GPS,Accessory Measurements",37.43997405227,126.738281250002
+1915629500,Pied Avocet in China,CC_BY,false,false,2018-11-06 10:04:00.000,2020-11-19 05:37:00.000,5,12,,GPS,39.504,118.608
+8332508820,bear - PZ - Virginia - location,CC_0,false,false,,,,,,,37.9441975007536,-79.9365234375045
+2122748764,Peru Los Amigos SigFox ,CC_0,false,false,2022-06-03 16:36:00.000,2023-11-02 16:07:18.000,23,24363,"Sarcoramphus papa,Homo ,Leopardus pardalis,Eira barbara,Bassaricyon alleni,Potos flavus,Rupornis magnirostris,Sapajus macrocephalus,test ","GPS,Sigfox Geolocation",-12.3381221979725,-70.1741987932368
+1442168341,Wading Bird Telemetry Gulf of Mexico,CC_0,false,false,2020-05-25 13:49:00.000,2024-07-31 10:16:00.000,87,303602,"Egretta tricolor,Eudocimus albus",Argos Doppler Shift,30.3690846446475,-88.1674826145169
+3056865342,Starling navigation ICARUS TinyFox 2023,CC_0,false,false,2023-10-10 19:22:02.000,2024-11-07 18:59:53.000,150,24138,Sturnus vulgaris,Sigfox Geolocation,53.1186474672735,6.37207031249988
+1715067447,ICARUS South Africa 2021,CC_0,false,false,,,,,,"GPS,Accessory Measurements",-25.2499955280865,29.619140625
+3168000943,Northern Gannet (Diving Bird Study),CC_0,false,false,2012-03-09 22:45:00.000,2016-05-15 21:03:44.000,73,93598,Morus bassanus,Argos Doppler Shift,35.03,-76.77
+849807214,"Canadian Ringed Plover geolocation tracking, Bylot Island, Canada (data from Léandri-Breton et al. 2019)",CC_BY,false,false,2014-07-15 00:00:00.000,2017-07-09 00:00:00.000,20,7820,Charadrius hiaticula,"Solar Geolocator,Solar Geolocator Raw",73.238,-80.043
+8037578518,Nyctalus leisleri - C. Scholz - Germany - GPS,CC_BY,false,false,2021-07-28 19:29:40.000,2022-08-07 21:58:19.000,29,2858,Nyctalus leisleri,GPS,52.0,13.3
+6456209836,Wild pigs in Clemson Experimental Forest (South Carolina USA),CC_0,false,false,2023-04-09 23:00:51.000,2024-08-02 03:02:32.000,16,13939,Sus scrofa,GPS,34.674,-82.835
+8391597947,Andrea's elephant- Iris project,CC_0,false,false,,,6,,Loxodonta africana,,-15.048,26.005
+1715076072,ICARUS South Africa Ear tags,CC_0,false,false,,,,,,"GPS,Accessory Measurements",-27.4023703347378,29.8938413697206
+1280147897,ICARUS Global Thrush Project CH Jura,CC_0,true,false,2020-10-11 11:02:00.000,2021-06-08 13:53:00.000,43,299,Turdus merula,"GPS,Accessory Measurements",47.376034633496,7.3773193359389
+501903109,Red Kite MPI-AB Baden-Wuerttemberg,CC_0,true,false,2018-06-15 13:23:03.000,2026-09-27 13:36:59.000,34,6528792,Milvus milvus,"GPS,Acceleration,Barometer",48.6538289839099,9.81312760649623
+8391598072,andreas elephant iris project,CC_BY,false,false,,,,,,,-15.048,26.005
+78970444,Painted Bunting ABM 2015,CC_0,false,false,2010-08-01 00:00:00.000,2013-01-09 00:00:00.000,12,2181,"Passerina ,Passerina ciris","Solar Geolocator,Solar Geolocator Raw",34.8,-98.8
+2782778381,Elephant Research - Lobeke NP (Cameroon) - Collar 47574 [Dec 2005-2006],CC_0,false,false,2005-12-14 00:20:16.000,2006-05-31 00:15:37.000,1,197,,Argos Doppler Shift,2.13859,15.70878
+1725991696,BTO - Bangor 2021 - Black Guillemot,CC_0,false,false,2021-06-09 19:42:00.000,2021-06-29 14:14:48.000,10,3109,Cepphus grylle,GPS,54.6640791995183,-5.66925807195725
+2780856017,Elephant Research - Dja Reserve (Cameroon) - Collar 46178,CC_0,false,false,2009-05-26 00:00:00.000,2009-12-08 00:00:00.000,1,83,,Argos Doppler Shift,2.78477,13.4563
+2780885956,Elephant Research - Benoue National Park (Cameroon) - Collar 47792,CC_0,false,false,2007-04-19 00:00:00.000,2009-05-27 00:00:00.000,1,2102,,Argos Doppler Shift,8.0751,13.91973
+7786170775,Domestic mountain goat-HuaCheng-China,CC_BY,false,false,,,124,,,GPS,35.8957252586584,104.113655090314
+305974507,"Northern gannets, Les Etacs, Alderney",CC_BY,false,false,2011-06-05 15:03:17.000,2015-06-25 21:16:17.000,61,363394,Morus bassanus,GPS,49.7,-2.23333
+1321461925,Grazing personalities of beef cattle: cross-sectional data set,CC_0,false,false,2020-02-04 00:00:46.000,2020-08-09 23:59:17.000,246,3126850,Bos taurus,GPS,-43.6436499475965,172.467729449276
+1321429570,Grazing personalities of beef cattle: longitudinal data set,CC_0,false,false,2019-01-17 00:00:00.000,2019-12-03 23:58:53.000,82,2474832,Bos taurus,GPS,-43.6436544765474,172.467713356021
+2282953625,Non-breeding movements of Bicknell’s Thrush using archival high-resolution GPS tags,CC_BY,false,false,2021-07-05 03:57:50.861,2023-05-22 03:58:48.543,23,736,Catharus bicknelli,GPS,44.5281678669547,-72.8152048587813
+1162722581,Foraging ecology of masked boobies (Sula dactylatra) in the world’s largest “oceanic desert”,CC_0,false,false,2016-10-08 11:25:32.000,2017-11-27 15:14:00.000,23,5259,,GPS,-27.1996787364928,-109.451980590817
+2784539839,Elephant Research - Lobeke NP (Cameroon) - Collar 47574 [2004],CC_0,false,false,2004-06-20 01:28:10.000,2004-06-29 01:26:35.000,1,21,,Argos Doppler Shift,2.188,16.067
+67281010,NC Wood Stork Tracking,CC_BY,false,false,2015-05-12 11:39:00.000,2017-06-03 00:01:43.000,2,112346,Mycteria americana,"GPS,Acceleration,Accessory Measurements",34.3774457585774,-78.6167907714844
+6793037828,Age-dependent response to anthropogenic habitat during migration of an endangered raptor,CC_0,false,false,2018-09-20 02:28:05.000,2024-12-31 17:09:28.000,21,517997,Aquila nipalensis,GPS,50.2331518324715,57.260742187499
+3168030668,Red-throated Loon (Diving Bird Study),CC_0,false,false,2012-01-31 09:36:00.000,2016-05-30 19:30:01.000,84,70620,Gavia stellata,Argos Doppler Shift,38.06,-75.966
+2782814829,Elephant Research - Lobeke NP (Cameroon) - Collar 47574 [Sep-Oct 2005],CC_0,false,false,2005-09-17 00:12:10.000,2005-10-06 00:19:29.000,1,36,,Argos Doppler Shift,2.117,15.688
+932384583,kittlitzsMurrelet_USGS_ASC_argos,CC_0,true,false,2009-08-05 19:44:32.000,2015-07-04 03:38:38.000,47,15891,Brachyramphus brevirostris,Argos Doppler Shift,60.769,-147.832
+5022396890,Juan Fernández Petrel Pterodroma externa Geolocator Tracking,CC_0,false,false,2020-01-12 17:18:46.000,2022-01-12 17:30:53.000,7,7064,Pterodroma externa,"Solar Geolocator,Accessory Measurements,Solar Geolocator Raw,Solar Geolocator Twilight",-33.75,-80.783
+2225554945,Denali National Park Critical Connections - Arctic Warbler,CC_0,false,false,,,2,,Phylloscopus borealis,,63.66,-149.56
+3360767360,Surf Scoter (Diving Bird Study),CC_0,false,false,2001-03-22 00:00:00.000,2016-09-20 09:40:05.000,208,88773,,Argos Doppler Shift,38.7,-76.262
+2607973338,Eli,CC_0,false,false,2022-04-23 02:01:00.000,2022-12-01 01:27:50.000,1,164,Tapirus bairdii,GPS,18.3649526265394,-89.7994995117193
+1605024900,Forest Park Living Lab,CC_0,false,false,2021-05-20 05:00:00.000,2026-09-27 20:31:54.000,45,1083243,"Chelydra serpentina,Branta canadensis,Anas platyrhynchos,Aix sponsa,Accipiter cooperii,Buteo jamaicensis,Buteo lineatus,Meleagris gallopavo,Bubo virginianus,Strix varia,Didelphis virginiana,Procyon lotor,Canis latrans,Odocoileus virginianus","GPS,Radio Transmitter,Acceleration",38.6385954779792,-90.2877044677732
+1942479572,Kruger Hounds,CC_0,false,false,2022-02-09 06:21:38.000,2022-02-09 08:05:47.000,7,8009,"Homo sapiens,Canis lupus","GPS,Acceleration,Magnetometer,Orientation",-24.3644639999393,31.1408818827616
+4247144513,STRETCH MOANA KAI,CC_0,false,false,2024-07-08 01:57:42.000,2024-07-25 05:39:47.000,1,106,Caretta caretta,GPS,39.7940702227764,-150.468750000002
+1727177831,BTO - Copeland 2021 - Black Guillemot,CC_0,false,false,2021-06-14 12:26:55.000,2021-06-22 09:28:13.000,11,4308,Cepphus grylle,GPS,54.6956126505053,-5.52187442779533
+2928116,Galapagos Tortoise Movement Ecology Programme,CC_BY,false,false,2009-04-29 16:00:50.000,2026-09-25 14:57:00.000,150,5381461,"Chelonoidis ,Chelonoidis hoodensis,Chelonoidis porteri,Chelonoidis donfaustoi","GPS,Radio Transmitter,Acceleration,Accessory Measurements",-0.6606987,-90.25299
+1490219581,Atlantic Eiders - GSM,CC_0,false,false,2021-04-28 15:06:59.000,2021-09-01 12:11:27.000,23,28412,Somateria mollissima,GPS,49.623267189151,-64.326882362366
+7657698270,Water rail_Tay Reedbed Scotland_Geolocator,CC_BY,false,false,2018-04-09 19:26:11.000,2023-04-02 19:09:04.000,9,6172,Rallus aquaticus,"Solar Geolocator,Solar Geolocator Raw,Solar Geolocator Twilight",56.42,-3.14
+2021208867,Idaho Bunker Hill TUSWs,CC_0,true,false,2022-02-19 17:15:28.000,2026-05-06 06:47:48.000,14,591940,Cygnus columbianus,"GPS,Acceleration",47.4782321631291,-116.614379882803
+2549043743,Wyoming Sublette Mule Deer (2018-2020),CC_0,false,false,2018-01-01 07:00:00.000,2021-01-01 06:00:00.000,135,948632,Odocoileus hemionus,GPS,41.2447723430823,-106.523437499996
+3597178490,Common Buzzard B.Buteo FR2023 The Netherlands,CC_0,false,false,2023-05-19 13:08:25.000,2026-05-14 18:59:08.000,4,219180,Buteo buteo,GPS,53.2335523577175,5.98608970642106
+2946547482,Fine-scale GPS tracking of coyotes on the Outer Banks of North Carolina,CC_0,true,false,2023-09-14 03:00:23.000,2025-05-04 02:45:06.000,5,175505,Canis latrans,"GPS,Acceleration",35.2276723549363,-75.5639648437504
+236953686,LifeTrack Ducks Lake Constance,CC_0,true,false,2017-01-07 08:10:35.000,2021-11-10 14:16:05.000,90,1135291,Anas platyrhynchos,"GPS,Acceleration,Barometer,Derived",47.7668118874374,8.99528267851565
+1285079529,Monitoring of Capra ibex (Bovidae) populations  in  the western alps (project ALCOTRA LEMED-IBEX),CC_BY,false,false,2010-05-13 14:00:52.000,2020-04-30 06:00:00.000,178,363207,,GPS,44.5748174046697,6.89941406250008
+9022680555,"White and Seavey Islands, New Hampshire MBON common tern GPS telemetry 2024",CC_BY,false,false,2024-06-06 23:47:55.000,2024-08-25 08:46:52.000,20,79202,Sterna hirundo,GPS,42.9679797709684,-70.6237220764184
+8531131637,Water buffalo (Bubalus bubalis) - Djelk IPA - GPS,CC_BY,false,false,2018-07-25 00:02:42.000,2019-10-30 23:56:11.000,14,115638,Bubalus bubalis,GPS,-12.3205484437354,134.312667846678
+1736857677,Feral cats and fenced reserves,CC_0,false,false,,,10,,,GPS,-30.3020571038882,136.904411315923
+9291121074,"Movement of a crop-foraging chacma baboon in South Africa (data from Walton et al., 2021)",CC_0,false,false,2013-10-26 03:00:43.000,2014-10-18 22:00:47.000,1,5726,Papio ursinus,GPS,-22.7103415,28.7334879
+2782709943,Elephant Research - Benoue National Park (Cameroon) - Collar 47574,CC_0,false,false,2007-04-17 00:34:23.000,2008-07-06 16:06:32.000,1,1588,,Argos Doppler Shift,8.22376,13.99262
+384172482,Osprey in North and South America 1995-2002 (Martell),CC_BY,false,false,1995-08-21 13:21:07.000,2002-11-25 14:35:01.000,114,44995,Pandion haliaetus,Argos Doppler Shift,42.0,-98.0
+3066962629,"Brandt's Cormorant BRAC, Salish Sea BC Canada (GPS)",CC_0,false,false,2023-10-12 08:06:07.000,2026-01-01 02:24:53.000,30,101313,Phalacrocorax penicillatus,"GPS,Accessory Measurements",49.00321,-123.126099
+8288433050,Lesser White fronted goose in Greece,CC_BY,false,false,,,,,,GPS,37.9708351486169,23.7195156142144
+2553108901,GPS tracking of white-tailed deer in western Virginia,CC_0,false,false,2019-01-14 01:03:00.000,2021-12-21 05:00:00.000,34,559823,Odocoileus virginianus,GPS,38.0022,-79.8009
+2564825948,American black bear movement ecology in Connecticut,CC_BY,false,false,2019-02-20 20:01:00.000,2021-04-13 06:01:00.000,21,156366,Ursus americanus,GPS,41.7696074954361,-72.965140342713
+2575458863,GPS tracking of wild pigs in southern Florida (2019-2021),CC_0,false,false,2019-06-27 14:00:00.000,2021-01-13 20:00:00.000,10,79165,Sus scrofa,GPS,26.49588,-81.17459
+259354593,Golden Eagle Nevada,CC_0,false,false,2014-05-23 17:00:00.000,2021-03-15 18:51:31.000,31,297613,Aquila chrysaetos,GPS,37.8086989760068,-114.769500740804
+1450604622,GPS tracking of American Goshawks--Nevada Department of Wildlife,CC_0,false,false,2017-06-14 20:00:00.000,2021-03-15 01:00:00.000,7,15848,Astur atricapillus,GPS,40.8517349582365,-115.764312744148
+7577228439,Migratory trajectory of the Northern Boobook,CC_BY,false,false,2024-08-01 15:00:32.000,2025-07-01 15:00:14.000,1,253,Ninox japonica,GPS,38.2559359720201,140.852665901173
+4266133937,"ICARUS Sigfox 2024, Slovakia -Migration Routes of Common Swifts (Apus apus) Breeding in southwestern Slovakia (Bratislava)",CC_BY,true,false,2024-08-11 20:50:44.000,2024-08-27 07:08:26.000,2,34,Apus apus,Sigfox Geolocation,48.1212186640645,17.102204561234
+20873986,LifeTrack Bald Eagle,CC_BY,true,false,2014-05-31 12:00:00.000,2021-10-28 20:00:49.000,5,158878,Haliaeetus leucocephalus,"GPS,Argos Doppler Shift,Acceleration",35.6037187406973,-79.1015625
+2561156373,GPS tracking of cougars in Utah by UDWR (2019-2020),CC_0,false,false,2019-01-01 07:00:00.000,2020-05-16 06:00:00.000,40,47774,Puma concolor,GPS,41.74,-111.84
+7364502758,GPS tracking of ungulates in Utah by UDWR (2019-2020),CC_0,false,false,2019-01-01 07:00:00.000,2020-05-16 06:30:00.000,2695,4890456,"Cervus elaphus,Odocoileus hemionus,Ovis canadensis,Antilocapra americana",GPS,41.74,-111.84
+2217728245,"HG_JUVENILE - Juvenile herring gulls (Larus argentatus, Laridae) hatched at the southern North Sea coast (Belgium)",CC_0,true,false,2022-08-09 12:00:46.000,2026-09-25 00:01:09.000,204,6265265,Larus argentatus,GPS,51.15146,2.73127
+506722909,redThroatedLoon_USGS_ASC_argos,CC_0,true,false,2000-07-06 22:00:41.000,2011-09-02 08:04:12.000,52,24907,Gavia stellata,Argos Doppler Shift,69.6570862730118,-153.984375
+2782472379,Elephant Research - Waza National Park (Cameroon) - Collar 47573,CC_0,false,false,2008-01-16 00:00:00.000,2009-01-23 00:00:00.000,1,1392,,Argos Doppler Shift,11.31731,14.79476
+2782743400,Elephant Research - Waza National Park (Cameroon) - Collar 47571,CC_0,false,false,2006-04-25 12:27:09.000,2007-06-29 02:58:36.000,1,1477,,Argos Doppler Shift,11.10505,14.77722
+1996035916,GPS tracking of American crows in central Pennsylvania,CC_BY,false,false,2023-03-19 15:03:51.000,2026-09-20 21:56:05.000,12,89327,Corvus brachyrhynchos,GPS,40.8047585509495,-77.8650856018067
+2768923571,Elephant Research - Mt. Cameroon - Collar 73057,CC_0,false,false,2008-01-29 01:17:35.000,2008-10-20 04:43:47.000,1,324,,Argos Doppler Shift,4.17853,9.08117
+2768980754,Elephant Research - Mt. Cameroon - Collar 87528,CC_0,false,false,2009-01-08 02:32:10.000,2010-12-15 07:20:16.000,1,390,,Argos Doppler Shift,4.17239,9.08797
+2783911041,Elephant Research - Waza National Park (Cameroon) - Collar 47793,CC_0,false,false,2005-06-23 15:19:05.000,2005-07-18 05:16:16.000,1,76,,Argos Doppler Shift,10.41,14.66
+2769077832,Elephant Research - Mt. Cameroon - Collar 99094,CC_0,false,false,2012-01-12 00:07:38.000,2013-09-17 01:20:41.000,1,2891,,Argos Doppler Shift,4.13234,9.07209
+2769152411,Elephant Research - Mt. Cameroon - Collar 99095,CC_0,false,false,2013-02-14 18:33:34.000,2014-05-20 03:13:38.000,1,1037,,Argos Doppler Shift,4.29249,9.14888
+2313947453,"SPOONBILL_VLAANDEREN - Eurasian spoonbills (Platalea leucorodia, Threskiornithidae) in Flanders (Belgium)",CC_0,true,false,2022-05-27 01:00:05.000,2026-09-10 10:03:34.000,10,866395,Platalea leucorodia,GPS,51.2634,4.2108
+8828410463,Pedionomus torquatus - Zoos Victoria - Victorian Northern Plains - Tracking Telemetry,CC_BY,false,false,2025-11-25 14:00:06.000,2025-12-27 02:00:38.000,2,4868,Pedionomus torquatus,GPS,-36.13307,144.24734
+922263102,"H_GRONINGEN - Western marsh harriers (Circus aeruginosus, Accipitridae) breeding in Groningen (the Netherlands)",CC_0,true,false,2012-05-10 17:47:49.000,2018-07-11 11:10:40.000,4,987117,Circus aeruginosus,"GPS,Acceleration",53.278,6.981
+1605803389,"O_AMELAND - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding on Ameland (the Netherlands)",CC_0,true,false,2010-05-31 17:12:57.000,2013-06-10 05:11:00.000,15,216108,Haematopus ostralegus,"GPS,Acceleration",53.447,5.823
+1605797471,"O_ASSEN - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding in Assen (the Netherlands)",CC_0,true,false,2018-05-04 09:43:15.000,2019-05-25 13:51:26.000,6,20152,Haematopus ostralegus,"GPS,Acceleration",52.993,6.574
+2770987821,Elephant Research - Yankari Game Reserve (Nigeria) - Collar 126820,CC_0,false,false,2013-10-24 19:39:27.000,2015-03-11 19:30:59.000,1,1422,,Argos Doppler Shift,9.913315,10.220525
+1605798640,"O_BALGZAND - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) wintering on Balgzand (the Netherlands)",CC_0,true,false,2010-06-18 22:13:52.000,2014-04-23 19:03:41.000,22,165891,Haematopus ostralegus,"GPS,Acceleration",52.943,4.856
+1884059896,Movement Ecology of Campo Miners Geositta poeciloptera,CC_0,false,false,,,6,,,GPS,-44.1966,-21.1611
+1605799506,"O_SCHIERMONNIKOOG - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding on Schiermonnikoog (the Netherlands)",CC_0,true,false,2008-05-31 09:23:58.000,2014-09-02 16:00:41.000,43,602380,Haematopus ostralegus,"GPS,Acceleration",53.478,6.217
+1099562810,"O_WESTERSCHELDE - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding in East Flanders (Belgium)",CC_0,true,false,2018-05-24 18:10:51.000,2020-04-11 16:47:40.000,13,73047,Haematopus ostralegus,"GPS,Acceleration",51.275,4.205
+2771026805,Elephant Research - Yankari Game Reserve (Nigeria) - Collar 126821,CC_0,false,false,2014-03-14 08:50:53.000,2014-10-19 22:09:45.000,1,767,,Argos Doppler Shift,9.901389,10.324139
+2783974765,Elephant Research - Waza National Park (Cameroon) - Collar 47792,CC_0,true,false,2005-06-21 01:54:18.000,2005-08-12 07:28:19.000,1,88,,Argos Doppler Shift,11.31,14.605
+2784018067,Elephant Research - Nki National Park (Cameroon) - Collar 40480,CC_0,false,false,2004-04-07 00:00:00.000,2006-04-23 00:00:00.000,1,1049,,Argos Doppler Shift,2.222,14.671
+902300371,LifeTrack Common Buzzard SWGermany MPIAB,CC_0,false,false,2019-06-24 15:00:53.000,2023-06-24 10:01:08.000,2,47201,Buteo buteo,"GPS,Acceleration",47.8893917474274,8.49743127822896
+2789567971,Elephant Research - Benoue National Park (Cameroon) - Collar 09105,CC_0,false,false,2002-04-22 00:00:00.000,2003-07-31 00:00:00.000,1,911,,Argos Doppler Shift,8.181,13.796
+2789865394,Elephant Research - Waza National Park (Cameroon) - Collar 03273,CC_0,false,false,2002-04-10 00:00:00.000,2002-11-12 00:00:00.000,1,261,,Argos Doppler Shift,11.226,14.822
+2789883238,Elephant Research - Lobeke National Park (Cameroon) - Collar 14118,CC_0,false,false,2002-03-30 00:00:00.000,2003-06-27 00:00:00.000,1,718,,Argos Doppler Shift,2.405,15.807
+2789984192,Elephant Research - Waza National Park (Cameroon) - Collar 09105,CC_0,false,false,2000-04-18 03:58:45.000,2000-10-03 00:00:00.000,1,847,,Argos Doppler Shift,11.386,14.564
+2174892854,Performance of six lightweight automated tracking devices for birds - data archive,CC_0,false,false,,,,,,,27.5159,-97.8561
+986040562,"HG_OOSTENDE - Herring gulls (Larus argentatus, Laridae) breeding at the southern North Sea coast (Belgium)",CC_0,true,false,2013-05-17 17:35:25.000,2022-09-04 19:01:32.000,60,13554303,Larus argentatus,"GPS,Acceleration",51.233,2.931
+985143423,"LBBG_ZEEBRUGGE - Lesser black-backed gulls (Larus fuscus, Laridae) breeding at the southern North Sea coast (Belgium and the Netherlands)",CC_0,true,false,2013-05-28 11:30:45.000,2023-04-12 14:02:51.000,162,7645925,Larus fuscus,"GPS,Acceleration",51.349,3.174
+4194049025,"ARMENIAN_GULL - Armenian gulls (Larus armenicus, Laridae) breeding in Sevan National Park and Lake Arpi National Park (Armenia)",CC_0,true,false,2024-07-09 06:30:10.000,2026-09-25 08:05:02.000,40,1785843,Larus armenicus,GPS,40.346,45.334
+2789896888,Elephant Research - Lobeke National Park (Cameroon) - Collar 14120,CC_0,false,false,2002-03-30 00:00:00.000,2003-06-27 00:00:00.000,1,718,,Argos Doppler Shift,2.024161,15.48566
+2789946082,Elephant Research - Kalamaloue National Park (Cameroon) - Collar 14191,CC_0,false,false,2000-05-22 02:26:57.000,2001-05-02 07:16:00.000,1,1735,,Argos Doppler Shift,11.647,14.854
+2791438231,Elephant Research - Benoue National Park (Cameroon) - Collar 09104,CC_0,false,false,2000-02-11 00:00:00.000,2001-04-18 00:00:00.000,1,146,,Argos Doppler Shift,8.10069,14.03322
+9103351859,"Carpathia vultures, return of griffon vultures in Romania",CC_BY,false,false,2026-01-26 11:02:40.000,2026-09-22 14:32:18.000,5,3285,Gyps fulvus,GPS,45.6790803646542,25.59325218201
+19148474,Post-hibernation and early migration in noctule bats (data from Dechmann et al. 2014),CC_0,false,false,2012-04-25 16:45:00.000,2013-05-14 14:00:00.000,33,622,Nyctalus noctula,Radio Transmitter,47.6764844422131,9.1680908203125
+2791458509,Elephant Research - Benoue National Park (Cameroon) - Collar 14121,CC_0,false,false,1999-02-25 00:00:00.000,1999-04-29 00:00:00.000,1,65,,Argos Doppler Shift,8.164,13.906
+2791483275,Elephant Research - Bouba Njida National Park (Cameroon) - Collar 14117,CC_0,false,false,1998-06-20 00:00:00.000,1999-10-31 00:00:00.000,1,372,,Argos Doppler Shift,8.759,14.6
+9158384718,black kite—rongcanzhong—guangdongchina—GPS,CC_BY,false,false,,,1,,Milvus migrans,,22.5145386216064,114.035400700531
+259966228,Movement syndromes across vertebrate taxa (data from Abrahms et al. 2017),CC_0,false,false,2004-02-19 00:00:00.000,2012-06-03 23:00:00.000,103,569474,"Zalophus californianus,Mirounga angustirostris,Canis mesomelas,Syncerus caffer,Gyps africanus,Phoebastria irrorata,Loxodonta africana,Equus quagga,Antidorcas marsupialis,Chelonoidis hoodensis,Chelonoidis porteri","GPS,Argos Doppler Shift",35.4,-120.9
+8872890087,"LBBG_IJMUIDEN - Lesser black-backed gulls (Larus fuscus, Laridae) breeding in IJmuiden (the Netherlands)",CC_0,true,false,2019-05-24 07:50:49.000,2020-12-31 23:59:19.000,30,1481154,Larus fuscus,"GPS,Acceleration",52.465,4.575
+8872908449,"LBBG_TEXEL - Lesser black-backed gulls (Larus fuscus, Laridae) breeding in Texel (the Netherlands)",CC_0,true,false,2008-05-24 08:42:29.000,2020-12-31 23:59:48.000,95,7387346,Larus fuscus,"GPS,Acceleration",53.0,4.7167
+17471653,Leadership in homing pigeon flocks (Columba livia) (data from Santos et al. 2014),CC_BY,false,false,2012-06-14 11:46:40.000,2012-06-26 11:57:55.000,10,159741,Columba livia,GPS,47.537615,8.831779
+9257722039,Red Foxes - Vulpes vulpes - Carlisle Heath,CC_BY,false,false,,,8,,,GPS,-38.5642167481855,143.406985421179
+9054332304,Long-nosed Potoroo - Potorous tridactylus - Carlisle Heath,CC_BY,false,false,2020-03-10 11:07:00.000,2020-03-26 01:26:00.000,52,642,,GPS,-38.5563912314207,143.470648183263
+9257692971,Feral Cats - Felis catus - Carlisle Heath,CC_BY,false,false,,,7,,,GPS,-38.5642167481855,143.400939081998
+8872869475,"HG_TEXEL - Herring gulls (Larus argentatus, Laridae) breeding in Texel (the Netherlands)",CC_0,true,false,2013-05-20 09:07:51.000,2022-08-12 16:42:15.000,31,6428992,Larus argentatus,"GPS,Acceleration",53.0,4.7167
+1233933180,Multi-Scale Spatial and Movement Ecology of Gray Hawks in a Fragmented Subtropical Landscape,CC_0,false,false,2020-01-26 14:41:33.000,2026-09-19 22:26:34.000,62,718371,Buteo plagiatus,GPS,26.1919192432038,-97.7006765512273
+8872901376,"LBBG_SCHIERMONNIKOOG - Lesser black-backed gulls (Larus fuscus, Laridae) breeding in Schiermonnikoog (the Netherlands)",CC_0,true,false,2017-05-24 09:46:47.000,2020-12-31 23:50:57.000,29,2298685,Larus fuscus,"GPS,Acceleration",53.499,6.261
+1942427602,Tracking of migration strategies of Eurasian whimbrel (Numenius phaeopus) in stopover in Vendée ,CC_0,false,false,,,,,,GPS,46.5515415829861,-1.78527832031202
+9344797460,Releases from bird care centres in Germany,CC_0,false,false,2026-09-08 15:00:47.000,2026-09-26 15:00:51.000,1,354,Milvus milvus,"GPS,Acceleration",48.6183851868848,10.1953124999999
+9343041295,RRP_VLAANDEREN - Rose-ringed parakeets (Psittacula krameri) breeding in Ghent (Belgium),CC_0,true,false,2025-08-20 20:00:04.000,2026-09-22 22:00:41.000,19,5370,Psittacula krameri,GPS,51.209,4.441
+1278021460,"BOP_RODENT - Rodent specialized birds of prey (Circus, Asio, Buteo) in Flanders (Belgium)",CC_0,true,false,2020-03-18 07:52:33.000,2026-09-24 09:23:20.000,45,4739420,"Buteo buteo,Circus cyaneus,Circus pygargus,Asio flammeus,Circus aeruginosus",GPS,51.313,4.265
+2932936747,Daily movements of the Common Crane. Kondrakova et al.,CC_0,false,false,2017-08-15 00:02:38.000,2019-09-30 23:56:02.000,24,138157,,GPS,54.6738340678008,40.6054687499994
+9058311756,"CREX_VLAANDEREN - Corn crakes (Crex crex, Rallidae) in Flanders (Belgium)",CC_0,true,false,2024-05-28 21:11:03.000,2025-10-30 23:01:05.000,6,4929,Crex crex,GPS,50.833,3.581
+7675204759,"TURTUR_VLAANDEREN - European turtle doves (Streptopelia turtur, Columbidae) breeding in Flanders (Belgium)",CC_0,true,false,2025-06-19 00:00:51.000,2026-09-25 10:00:41.000,13,15053,Streptopelia turtur,GPS,51.074,2.839
+2082834654,Starling navigation SigFox MPIAB NIOO,CC_0,false,false,2022-05-03 12:45:00.000,2022-12-01 10:04:57.000,10,2233,,"GPS,Sigfox Geolocation",47.6171757041463,7.59630948091002
+2660463330,Movement of female barn swallows during breeding in Colorado 2021 from Kenny-Duddela et al. 2025,CC_BY,false,false,2021-05-31 18:10:04.000,2021-07-04 14:20:11.000,11,1004,Hirundo rustica,GPS,40.0071494452721,-105.266361236556
+446667,MPIAB White Stork South African Population Argos,CC_BY,false,false,2000-11-23 12:20:06.000,2003-03-05 12:43:51.000,13,6388,Ciconia ciconia,Argos Doppler Shift,-33.635,18.614
+1229945587,Common Crane 2020 (Lithuanian University of Educational Studies; LEU),CC_0,false,false,2020-08-07 06:56:14.000,2026-09-20 01:59:13.000,2,201055,Grus grus,GPS,54.627748288811,24.6328067779555
+49535504,Foraging behaviour and fuel accumulation of pink-footed geese (data from Chudzińska et al. 2016),CC_BY,false,false,2011-03-29 06:00:00.000,2013-08-21 21:06:06.000,11,16842,Anser brachyrhynchus,"GPS,Argos Doppler Shift",56.1639060739495,8.184814453125
+3923727557,Global Solution,CC_0,true,false,,,,,,,-27.0043207289157,-104.897460937497
+3192699325,stgeese,CC_0,false,false,,,,,,,23.46596,116.756092
+3196411187,Wildlife Tracker,CC_0,false,false,,,,,,,13.5819209005455,12.6562499999996
+5161274049,Humpback whale and climate change,CC_0,false,false,2023-10-08 17:46:17.000,2023-12-18 19:03:25.000,1,702,,GPS,-2.10889865924324,-80.9802246093751
+1863036795,"Large predator movements, Carnivora from Addo Elephant National Park, South Africa",CC_BY,false,false,,,67,,,"GPS,Radio Transmitter,Natural Mark",-33.484,25.743
+1936932457,Trichechus manatus Sirenia NE Brazil,CC_0,true,false,2011-09-15 13:00:48.000,2022-07-09 13:47:54.000,38,120867,Trichechus manatus,GPS,-9.22242127610197,-35.3370952606214
+2782529952,Brown Pelican_Virginia,CC_0,false,false,2023-05-17 20:44:49.000,2025-06-11 23:49:00.000,7,44394,Pelecanus occidentalis,"GPS,Argos Doppler Shift,Accessory Measurements",37.248914367631,-75.8461761474602
+3594988095,AFRICAN WHITE BACKED VULTURE(GYPS AFRICANUS),CC_0,false,false,,,,,,GPS,-18.735,26.955
+964631790,Lagostrophus fasciatus Faure Island WA,CC_BY,false,false,2013-09-24 04:01:11.000,2013-11-11 18:00:41.000,4,874,,GPS,-25.84361667,113.8941667
+225606,"Orchid bees on Barro Colorado Island, Panama",CC_0,false,false,2007-03-02 16:00:00.000,2007-03-11 01:30:00.000,16,111,Exaerete frontalis,"GPS,Radio Transmitter",9.15860767819925,-79.8452465186265
+49916069,"Common Cuckoo (B), Northern Sweden",CC_0,true,false,2011-06-14 00:02:23.000,2013-09-21 12:56:09.000,4,5228,,Argos Doppler Shift,55.714,13.207
+3940890775,Study animal trajectory learning,CC_0,false,false,,,,,,,3.35440535760293,21.7968750000002
+49471886,"Common Buzzard, Southern Sweden",CC_0,true,false,2000-06-26 17:58:00.000,2006-03-22 10:11:25.000,13,3376,,Argos Doppler Shift,59.729,15.472
+3948206249,Flamingo Namibia MPIAB ICARUS SigFox,CC_0,false,false,,,,,,"GPS,Accessory Measurements",-22.8794257414038,14.6125317493988
+49915781,"Common Cuckoo (A), Southern Sweden",CC_0,true,false,2010-05-27 12:35:58.000,2012-09-18 13:30:59.000,5,2180,,Argos Doppler Shift,55.714,13.207
+1401935050,"Atlantic Puffin, High Arctic Institute, northwest Greenland",CC_0,false,false,2013-09-02 05:02:00.000,2015-06-02 03:08:00.000,9,5731,Fratercula arctica,Solar Geolocator,76.473691,-70.225239
+49913271,"Osprey (B), Southern Sweden",CC_0,true,false,2006-07-09 15:00:00.000,2013-04-10 05:00:00.000,18,62071,,GPS,55.714,13.207
+55252460,"Common Cuckoo (C), Eastern Europe",CC_0,true,false,2013-05-05 11:40:36.000,2015-01-31 17:03:30.000,4,4178,,Argos Doppler Shift,36.5449494414832,23.92822265625
+5868290211,"Caribou GPS Data Fortymile Herd, Alaska, 1998-1999",CC_0,false,false,1998-10-24 21:00:00.000,1999-04-17 19:00:00.000,3,11575,Rangifer tarandus,GPS,65.0,-143.5
+4508367448,Data from: High Resolution Outdoor Videography of Insects Using Fast Lock-On Tracking,CC_BY,true,false,,,1,,Apis mellifera,Derived,48.013561,7.733147
+3237913659,Ciconia Ciconia Sudewiesen_1,CC_BY,false,false,,,,,,,46.7398605996921,42.3632812499993
+10449318,LifeTrack White Stork Loburg,CC_BY,true,false,2013-07-03 09:10:56.000,2026-09-27 16:00:38.000,41,4355214,"Ciconia ciconia,Homo sapiens","GPS,Acceleration",52.0778180120855,12.0849609375
+2784424144,Elephant Research - Lobeke National Park (Cameroon) - Collar 46179,CC_0,false,false,2004-05-01 00:54:12.000,2004-08-12 06:43:17.000,1,250,,Argos Doppler Shift,2.20522,16.07162
+959128259,Snow Bunting Migration Phenology,CC_0,false,false,2013-07-16 00:00:00.000,2024-05-31 00:00:00.000,8,625,Plectrophenax nivalis,"Solar Geolocator,Solar Geolocator Raw",64.01,81.47
+49910951,"Western Marsh Harrier (B), Scania, Southern sweden",CC_0,true,false,2007-06-24 17:56:31.000,2012-06-13 17:47:20.000,8,25276,,GPS,55.714,13.207
+5831945257,Atlantic walrus telemetry- Foxe Basin 2021-2024,CC_0,true,false,2021-08-20 01:30:11.000,2021-08-28 01:21:03.000,6,413,,Argos Doppler Shift,67.8755413467307,-79.2773437500023
+158573792,Space use of bumblebees (data from Hagen et al. 2011),CC_0,false,false,2009-06-29 11:00:00.000,2009-07-05 09:30:00.000,8,116,Animalia ,Radio Transmitter,47.765,8.998
+908798191,"Lagostrophus fasciatus, Mount Gibson, WA",CC_BY,false,false,2017-09-10 13:01:00.000,2017-12-16 23:01:00.000,9,769,,GPS,-29.6998,117.4281
+49903661,"Eurasian Hobby, Scania, Southern Sweden",CC_0,true,false,2005-07-17 11:57:37.000,2008-07-28 12:38:03.000,7,2980,,Argos Doppler Shift,55.714,13.207
+12112706,Snowy owl - North America,CC_BY,false,false,2007-06-30 14:25:00.000,2016-02-28 23:14:21.000,33,33492,Bubo scandiacus,Argos Doppler Shift,62.0447129113534,-74.1412353515625
+1204811528,"Banded Krait (Bungarus fasciatus), Elapidae, Thailand",CC_BY,false,false,2015-08-16 00:00:00.000,2017-11-29 17:00:00.000,3,874,Bungarus fasciatus,Radio Transmitter,14.5301938232661,101.975786096765
+1701253716,ICARUS Bass-Rock Gannets,CC_0,false,false,,,1,,Morus bassanus,GPS,55.1362393191772,-3.188888
+1199929756,Spatial ecology of urban copperheads,CC_0,false,false,2015-06-11 16:36:00.000,2018-10-08 15:15:00.000,44,2031,Agkistrodon contortrix,Radio Transmitter,35.1577626083214,-90.0376340316093
+619061097,Earthspan Peregrines,CC_BY,false,false,1993-10-14 13:50:33.000,2005-12-01 03:14:26.000,69,9747,Falco peregrinus,Argos Doppler Shift,26.46,-97.27
+1605802367,"O_VLIELAND - Eurasian oystercatchers (Haematopus ostralegus, Haematopodidae) breeding and wintering on Vlieland (the Netherlands)",CC_0,true,false,2016-12-02 23:12:54.000,2021-09-06 11:54:03.000,103,4908942,Haematopus ostralegus,"GPS,Acceleration,Accessory Measurements",53.236,4.939
+220229,Tsavo Lion Study,CC_BY,true,false,2002-04-27 22:04:00.000,2007-07-21 00:01:58.000,3,2154,Panthera leo,GPS,-3.7893195,38.8705947
+892924356,Milvus migrans,CC_0,false,false,2019-05-28 15:00:00.000,2024-02-19 09:00:00.000,1,8683,,GPS,43.685,1.869
+1830874036,Spanish sparrow (Passer hispaniolensis) Bulgaria,CC_BY,false,false,2010-06-21 18:33:00.000,2011-05-10 17:48:00.000,1,533,Passer hispaniolensis,Solar Geolocator,44.0059038250092,26.4495849609372
+1402467516,Black kites of different age and sex show similar avoidance responses to wind turbines during migration,CC_0,false,false,2012-08-09 12:10:24.000,2013-09-11 09:06:15.000,139,231193,Milvus migrans,GPS,36.043,-5.615
+7249090,"Peregrine Falcon, High Arctic Institute, northwest Greenland",CC_0,false,false,2001-08-20 00:18:40.000,2004-04-27 05:16:16.000,8,3004,Falco peregrinus,Argos Doppler Shift,76.6797849031069,-69.521484375
+49909355,"Western Marsh Harrier (A), Scania, Southern Sweden",CC_0,true,false,2004-06-11 15:34:26.000,2015-01-31 17:15:38.000,15,29678,,Argos Doppler Shift,55.714,13.207
+920008781,Ringed seals Igloolik,CC_0,false,false,2009-07-18 14:56:00.000,2010-05-09 22:31:00.000,6,9519,Pusa hispida,Argos Doppler Shift,69.4,-81.5
+2204980653,Migration of red knots on Kiawah-Seabrook Island,CC_BY,false,false,,,3,,Calidris canutus,Solar Geolocator Raw,32.5874589566956,-80.1305601402991
+1071134107,"Herring Gulls (Larus Argentatus); Ronconi; Brier Island, Canada",CC_0,false,false,2014-05-13 13:44:00.000,2015-08-01 10:16:00.000,11,104500,Larus argentatus,GPS,44.2530686592818,-66.3491821289064
+467038889,Ringed Seals Resolute,CC_0,false,false,2012-08-01 00:13:00.000,2014-05-06 10:39:00.000,7,14913,Pusa hispida,Argos Doppler Shift,74.5901080088233,-94.21875
+939826359,arcticola Dunlin,CC_BY,false,false,,,58,,Calidris alpina,Solar Geolocator Raw,71.2655,-156.6342
+958302149,Overwintering areas of eastern whip-poor-will,CC_0,false,false,2017-10-02 02:54:00.000,2018-03-25 02:50:00.000,11,296,Antrostomus vociferus,GPS,39.999577,-83.012695
+1007425032,Hippocampus and route fidelity in homing pigeons (data from Gagliardo et al. 2020),CC_0,false,false,2018-07-06 06:22:29.000,2018-07-31 13:38:23.000,24,1825482,Columba livia,GPS,43.657,10.304
+122281720,Mangabey monkeys in Uganda (data from Waser 1975),CC_BY,false,false,1972-05-01 05:15:00.000,1973-04-10 14:15:00.000,18,12037,Lophocebus albigena,Natural Mark,0.572,30.366
+230394,NYSDEC Indiana Bats,CC_BY,false,false,2002-04-16 00:00:00.000,2007-05-14 00:00:00.000,95,914,Myotis sodalis,Radio Transmitter,41.64778,-73.67541
+2200106206,Vulpes rueppelli in southern Israel,CC_0,false,false,,,1,,Vulpes rueppellii,,30.1546272207758,35.0038146972656
+49912864,"Osprey (A), Southern Sweden",CC_0,true,false,1995-07-19 18:23:00.000,2005-10-01 04:03:00.000,20,4469,,Argos Doppler Shift,55.714,13.207
+1543123177,ICARUS Seychelles Sooty terns,CC_0,false,false,2021-06-11 08:00:00.000,2022-03-02 13:53:00.000,229,14052,Onychoprion fuscatus,"GPS,Accessory Measurements",-4.48424978010111,55.2301589600199
+1127417283,Red Knot Piersma Paula Greenland (data from Kok et al. 2020),CC_0,false,false,2015-10-03 00:00:00.000,2017-09-04 00:00:00.000,1,211,Calidris canutus,Argos Doppler Shift,5.193,53.237
+1559596686,ICARUS Ocean Drifter,CC_0,false,false,,,1,,Raphus cucullatus,"GPS,Accessory Measurements",28.6456019592719,-70.723743226561
+1351344771,"MurreGLS, Takahashi, St.Lawrence Island, Alaska",CC_0,false,false,2016-08-15 11:20:00.000,2017-07-31 11:27:00.000,6,3485,"Uria aalge,Uria lomvia",Solar Geolocator,63.536,-170.058
+446487,MPIAB Bar Headed Goose Argos,CC_BY,false,false,1998-07-17 13:18:49.000,2004-01-15 06:36:53.000,7,2174,Anser indicus,Argos Doppler Shift,33.409,80.445
+927024278,northernPintail_USGS_ASC_argos,CC_0,true,false,2007-02-13 02:16:52.000,2010-07-19 22:17:38.000,129,70697,Anas acuta,Argos Doppler Shift,38.7137,141.0817
+3258977407,Golden jackals in and around Ramat Hanadiv,CC_0,true,false,2023-04-03 20:33:53.000,2026-01-28 07:26:43.000,7,111564,Canis aureus,"GPS,Acceleration",32.554,34.946
+1395952585,FTZ: Migrating curlews (data from Schwemmer et al. 2021),CC_0,false,false,2014-04-01 00:00:00.000,2020-07-31 23:59:44.000,23,801488,Numenius arquata,GPS,54.1276845867908,8.84399414062512
+897981076,"Ya Ha Tinda elk project, Banff National Park, 2001-2024 (females)",CC_0,false,false,2001-12-13 07:01:12.000,2024-12-31 23:00:25.000,207,1795326,Cervus elaphus,GPS,51.671,-115.497
+577905925,Individual specialization in the use of space by frugivorous bats ,CC_BY,false,false,2009-07-11 15:00:00.000,2010-08-07 00:25:00.000,11,744,Sturnira lilium,Radio Transmitter,-21.9700366467207,-47.8711417257499
+978749,MPIAB Ruddy Shelduck,CC_BY,false,false,2007-01-01 00:00:00.000,2007-08-17 00:00:00.000,2,107,Tadorna ferruginea,Radio Transmitter,47.7360908545623,8.98029327392578
+942509734,NPS Dall Sheep Gates of the Arctic,CC_BY,false,false,1998-04-09 17:20:00.000,2002-03-18 21:20:00.000,34,976,Ovis dalli,Radio Transmitter,68.1433,-151.705201
+216040785,Mountain caribou in British Columbia,CC_BY,false,false,1988-03-05 20:00:00.000,2016-07-31 20:02:08.000,260,249450,Rangifer tarandus,"GPS,Radio Transmitter",55.338,-123.095
+1767692280,Glaucous gull Elliott Coats,CC_BY,false,false,2017-07-16 05:31:15.000,2019-07-30 20:21:07.000,7,25925,Larus hyperboreus,"GPS,Solar Geolocator,Solar Geolocator Raw,Solar Geolocator Twilight",-82.01,62.95
+1115272968,Use of visual familiar cues in anosmic pigeons,CC_0,false,false,2017-07-05 07:36:42.000,2017-07-25 08:33:16.000,27,2541223,Columba livia,GPS,43.6572,10.3039
+1497315344,Western cuckoo migration - LCR to Gran Chaco 2011-2012,CC_BY,false,false,2011-08-08 00:00:00.000,2012-07-16 00:00:00.000,1,155,Coccyzus americanus,Solar Geolocator,33.691,114.523
+172255794,Lifetrack Oilbirds Costa Rica,CC_BY,false,false,2012-02-22 09:42:21.000,2021-10-02 03:57:00.000,6,4552,Steatornis caripensis,"GPS,Accessory Measurements",10.30997,-84.811737
+2088496890,"Marbled Murrelets at Clayoquot Sound, British Columbia, Canada (2000-2002)",CC_BY,false,false,2000-05-08 07:00:00.000,2002-10-23 07:00:00.000,244,6492,Brachyramphus marmoratus,"GPS,Radio Transmitter",49.2642199973473,-122.958984375002
+3186161092,Dendrocygna bicolor movement from Mexico City Manuel Grosselet,CC_0,false,false,2019-06-11 05:00:45.000,2020-03-05 16:40:44.000,2,3388,"Anatidae ,Dendrocygna bicolor",GPS,19.4542912780668,-98.9895629882702
+2088516816,"Marbled Murrelets at Desolation Sound, British Columbia, Canada (1998-2001)",CC_BY,false,false,1998-05-04 07:00:00.000,2001-08-14 07:00:00.000,368,9071,Brachyramphus marmoratus,"GPS,Radio Transmitter",49.2678045506379,-122.947998046881
+1049826825,The gateway to Africa: what determines sea crossing performance of a migratory soaring bird at the strait of Gibraltar?,CC_0,false,false,2012-08-09 10:59:42.000,2013-09-06 15:26:03.000,73,27630,Milvus migrans,GPS,36.0426,-5.615
+1099486001,Pintail in Olonne Marsh (France),CC_0,false,false,,,,,,GPS,46.556971695641,-1.78510665893551
+2736765655,Elephant Research - Ivory Coast - Collar 1630,CC_0,false,false,2018-08-31 10:01:06.000,2021-11-17 02:02:24.000,1,12170,Elephantidae ,GPS,6.90236,-4.90957
+64283289,Pet Cats Australia,CC_0,true,false,2015-03-03 15:42:09.000,2016-07-12 01:19:14.000,442,63427,Felis catus,GPS,-34.9276008721407,138.599739074707
+1092737859,GPS calibration data (global),CC_BY,false,false,2009-08-13 14:57:38.000,2019-10-06 07:55:00.000,233,4579494,,GPS,0.0,0.0
+10857031,Pet Cats United States,CC_0,true,false,2013-08-14 15:52:57.000,2016-07-25 10:59:32.000,154,81023,Felis catus,GPS,35.7782713396138,-78.6435699462891
+606508137,Arctic shorebird migration tracking study - Semipalmated Sandpiper,CC_BY,false,false,2017-07-01 15:00:06.000,2018-01-11 12:00:07.000,1,99,Calidris pusilla,GPS,71.287,-156.749
+1284391628,Movements of water rails from Norway,CC_0,false,false,2014-02-01 16:06:14.000,2016-03-28 18:20:14.000,11,173,Rallus aquaticus,"Solar Geolocator,Solar Geolocator Raw",8.233,58.167
+11223924,Bean Goose Anser fabalis Finnmark.,CC_BY,false,false,2013-07-27 06:32:12.000,2019-08-17 01:34:00.000,4,3422,Anser fabalis,"GPS,Accessory Measurements",70.1674053502316,24.9334716796875
+944655375,Rough-legged Buzzard in variable environment,CC_BY,false,false,2014-06-23 14:47:00.000,2017-06-19 13:14:00.000,3,1516,Buteo lagopus,Argos Doppler Shift,69.5,24.0
+11815535,"Herring Gulls (Larus Argentatus); Gilchrist; East Bay Island, Canada",CC_0,false,false,2008-06-29 18:58:02.000,2016-11-16 22:59:24.000,16,26296,Larus argentatus,Argos Doppler Shift,64.0278,-81.7828
+123413,"Ocelots on Barro Colorado Island, Panama",CC_0,false,false,2002-05-31 04:00:00.000,2004-06-21 05:00:00.000,11,2288,Leopardus pardalis,Radio Transmitter,9.15621853557484,-79.8506198019044
+1495582,Brant Geese Sean Boyd 2002,CC_BY,false,false,2002-08-30 16:45:47.000,2003-01-29 20:06:07.000,10,5638,Branta bernicla,Argos Doppler Shift,75.5411125578113,-109.9072265625
+2405949088,Two subspecies of a songbird migrant optimise departure from a coastal stopover with regard to weather and the route lying ahead,CC_0,false,false,2017-05-01 20:26:55.000,2019-05-22 22:28:22.000,48,5401,Oenanthe oenanthe,Radio Transmitter,53.548,8.0884
+12170798,USGS Woodcock Migration,CC_0,false,false,2013-09-18 01:32:10.000,2017-07-21 10:41:09.000,71,23132,Scolopax minor,"GPS,Argos Doppler Shift",46.9783784657226,-95.5343627929688
+3017348705,Litzinger Box Turtle Project,CC_0,false,false,2021-09-28 00:00:00.000,2024-04-25 00:00:00.000,9,185,Terrapene ,Radio Transmitter,38.627867898665,-90.385122299217
+1030734949,Biotelemetry of Bewick's swans,CC_0,false,false,2017-02-01 00:00:14.000,2017-05-31 23:46:24.000,10,96373,Cygnus columbianus,"GPS,Acceleration,Accessory Measurements",51.987,5.672
+294524920,Black Kites at the Strait of Gibraltar (data from Marques et al. 2019),CC_0,false,false,2012-08-09 12:10:40.000,2013-09-10 20:06:47.000,130,77228,Milvus migrans,GPS,36.0535401283398,-5.5865478515625
+312057662,3D flights of European free-tailed bats,CC_0,false,false,2017-08-08 20:15:30.000,2017-08-15 03:59:05.000,8,9873,Tadarida teniotis,GPS,41.3443400845015,-6.9607400894165
+2425475445,Vulture Conservation Bangladesh,CC_0,false,false,2022-10-20 00:18:08.000,2023-04-08 10:54:45.000,4,2409,"Gyps bengalensis,Gyps himalayensis",GPS,24.8817384756421,91.8594360351612
+1542161732,ICARUS Cameroon Tom Smith,CC_0,false,false,2021-07-22 11:00:00.000,2021-08-22 13:47:00.000,2,45,Ceratogymna atrata,"GPS,Accessory Measurements",3.7433826261193,13.1177758447429
+416289710,Dolphin_Union_Caribou_UAV,CC_BY,false,false,2015-11-06 22:02:37.200,2015-11-08 20:00:57.700,858,450042,Rangifer tarandus,GPS,69.155308,-107.03823
+287187244,Thick-billed murre Gilchrist and Elliott Coats 2016,CC_0,false,false,2016-07-07 21:16:44.000,2016-07-24 03:06:43.000,39,11152,Uria lomvia,GPS,62.95,-82.02
+358865092,Thick-billed murre Gilchrist and Elliott Digges 2015,CC_0,false,false,2015-07-18 17:56:00.000,2015-08-09 21:44:00.000,102,45973,Uria lomvia,GPS,62.5576673646644,-77.7299195341766
+1852945982,"Movements of the Christmas Island flying fox, Australia",CC_0,false,false,2015-08-10 13:40:23.000,2017-11-26 23:01:25.000,27,6139,Pteropus melanotus,GPS,-10.4229883883381,105.622558593748
+33622846,"Thick-billed Murres; Gilchrist; Cape Graham Moore, Canada",CC_0,false,false,2014-07-27 20:46:00.000,2014-08-05 14:27:00.000,35,19860,Uria lomvia,GPS,72.9293132788315,-76.0693359375
+10006517,"Thick-billed Murres; Gilchrist; Digges Island, Canada",CC_0,false,false,2012-07-11 22:19:39.000,2014-08-06 14:56:00.000,129,68708,Uria lomvia,GPS,62.53,-77.75
+1724475305,Yellow-legged Gulls,CC_0,false,false,2021-05-01 00:05:48.000,2022-11-14 13:56:25.000,1,187546,Larus michahellis,GPS,52.0226232122208,21.2246980215423
+1728787796,"Feral Cats - Sumhal, Spain",CC_BY,false,false,2021-08-12 17:32:56.000,2023-03-12 08:00:02.000,64,180999,Felis catus,GPS,37.4007100687397,-6.009521484375
+312267867,Solovki Larus Track,CC_0,false,false,2017-08-04 16:36:06.000,2020-10-14 16:58:52.000,10,2351,"Larus marinus,Larus fuscus,Larus argentatus",GPS,65.0670360728104,35.6912841461599
+1081716933,Tracking Data for Lesser Scaup (Aythya affinis),CC_BY,false,false,2009-08-31 12:02:54.000,2014-06-29 18:10:55.000,24,7466,Aythya affinis,Argos Doppler Shift,66.1427426964031,-145.920410156239
+2297102844,Navigation with unilateral hippocampal lesion in homing pigeons (data from Gagliardo et al. 2022),CC_BY,true,false,2021-06-14 09:14:23.000,2021-09-25 03:46:08.000,31,2261368,Columba livia,GPS,43.657,10.304
+1426277950,"Barn Owl Breeding Napa Valley, California",CC_BY,true,false,2016-03-17 16:40:00.000,2018-07-18 13:09:00.000,29,34012,Tyto furcata,GPS,38.309358549714,-122.284779104122
+556564170,"King cobra (Ophiophagus hannah), Elapidae, Thailand 2014-03-22 to 2015-12-31",CC_BY,false,false,2014-03-22 21:45:00.000,2015-12-31 08:50:00.000,2,3362,Ophiophagus hannah,Radio Transmitter,14.5150011755619,101.926820880689
+2147218,"Irish hare radiotelemetry, Northern Ireland (UK)",CC_0,true,false,2003-12-06 09:28:00.000,2005-01-05 10:00:00.000,17,1008,Lepus timidus,Radio Transmitter,54.264672666473,-6.80105209350586
+1404033416,NC Breeding ABDU,CC_0,false,false,2020-04-12 09:32:00.000,2020-05-17 12:11:00.000,6,1031,Anas rubripes,GPS,35.3498558607128,-76.2767028808565
+1542174679,ICARUS Canada 2021,CC_0,false,false,,,2,,Calidris canutus,"GPS,Accessory Measurements",44.0069133874047,-80.8238072606133
+248994009,Thick-billed murre Elliott Coats 2010,CC_0,false,false,2010-07-15 16:49:38.000,2010-08-02 14:28:54.000,22,31241,Uria lomvia,GPS,62.947703,-82.015657
+1481243,Steller's eider (Polysticta stelleri) in northern Europe and northwest Russia (data from Petersen et al. 2006),CC_0,false,false,2001-04-19 15:00:00.000,2002-02-06 04:43:15.000,20,10219,Polysticta stelleri,Argos Doppler Shift,69.989,29.729
+2129965494,Bearded Vulture Gavashelishvili Caucasus,CC_0,false,false,2002-03-16 09:23:51.000,2004-11-19 10:32:42.000,1,552,Gypaetus barbatus,Radio Transmitter,42.574226,44.527633
+2105214573,North-East American Canada goose migration 2015-2021,CC_0,false,false,2015-04-26 05:13:09.000,2021-06-24 17:24:05.000,82,1681153,Branta canadensis,GPS,56.968936194361,-73.2128906250041
+1909487338,Poultry network China 2022,CC_0,false,false,2021-12-25 14:03:01.000,2022-08-18 11:28:17.000,141,13972,Anas platyrhynchos,GPS,29.0788023431827,116.334314346318
+1338487915,Geographic barriers and pigeon homing (data from Gagliardo et al. 2021),CC_0,false,false,2014-09-07 09:27:00.000,2019-08-29 22:59:44.000,209,229857,Columba livia,GPS,45.2653915435372,8.38441371917725
+7895692,"Blue Manakin, White-shouldered Fire-eye, Rufous-breasted Leaftosser (Hansbauer, Mata Atlantica Brazil)",CC_BY,false,false,2003-02-17 21:15:00.000,2005-04-15 13:33:00.000,108,4953,"Chiroxiphia caudata,Pyriglena leucoptera,Sclerurus scansor",Radio Transmitter,-23.668,-46.964
+1910442974,Purple martin Progne subis movement ecology in southern Quebec,CC_0,false,false,2020-01-01 04:00:06.000,2021-07-14 22:00:09.000,34,2546,Progne subis,GPS,45.3840280290203,-73.7531089782712
+1810804830,Thick-billed murre Patterson Coats meps13890,CC_BY,false,false,2007-08-07 05:27:13.000,2019-06-04 05:16:09.000,72,44761,Uria lomvia,"Solar Geolocator,Solar Geolocator Raw,Solar Geolocator Twilight",62.95,-82.01
+2391441038,"Antarctic blue whales, east Antarctic sector of the Southern Ocean",CC_BY,false,false,2013-02-14 11:05:32.000,2013-04-29 06:52:12.000,2,808,Balaenoptera musculus,Argos Doppler Shift,-65.0,155.0
+630478736,Foraging habitat of white-tailed tropicbirds (data from Santos et al. 2019),CC_BY,false,false,2015-08-29 10:13:55.000,2015-10-16 12:52:02.000,15,6671,Phaethon lepturus,GPS,-3.86,-32.42
+1541892445,ICARUS Galapagos tortoises,CC_0,false,false,2021-07-13 18:02:00.000,2022-02-10 01:20:00.000,6,298,Chelonoidis ,"GPS,Accessory Measurements",-0.446415075897826,-91.0794687570622
+714362126,Long-tailed ducks GLS 2018,CC_BY,false,false,2017-06-22 21:44:06.000,2018-08-08 18:11:41.000,76,45289,Clangula hyemalis,Solar Geolocator,69.0633268443027,48.9990234375009
+411155573,Red-necked Phalarope southern Chukotka (data from Mu et al. 2018),CC_BY,false,false,,,2,,Phalaropus lobatus,"Accessory Measurements,Solar Geolocator Raw",62.5537668695104,177.045621871948
+3030282201,Marine bioresource conservation and restoration research,CC_0,false,false,2015-10-29 12:00:00.000,2022-10-09 01:06:00.000,16,2173,"Caretta caretta,Chelonia mydas",Radio Transmitter,33.2453456394693,126.412918567664
+1418023557,"Space use and activity of a major songbird nest predator in a tropical Thailand forest, Boiga cyanea",CC_0,false,false,2017-10-21 10:49:00.000,2019-06-07 22:31:00.000,14,1317,Boiga cyanea,GPS,14.25,100.48
+3218698288,rynchops niger,CC_0,false,false,2023-11-29 06:01:00.000,2023-12-21 04:01:00.000,2,306,Rynchops niger,"GPS,GNSS",18.6478716447257,-92.4657440185649
+2742086566,Elephant Research - Ivory Coast - Collar 5990,CC_0,false,false,2018-08-30 06:01:06.000,2021-11-30 12:03:05.000,1,9280,Elephantidae ,GPS,5.12204,-5.84311
+1718959411,barTailedGodwit_USGS_ASC_argos,CC_0,true,false,2005-06-02 06:15:01.000,2010-10-02 04:46:43.000,63,17606,Limosa lapponica,Argos Doppler Shift,60.092431837191,-163.30420823609
+236023,"Suburban coyotes and other carnivores, Bogan and Kays, Albany NY",CC_0,false,false,2001-04-07 05:01:00.000,2003-12-20 06:07:00.000,39,2258,"Procyon lotor,Canis latrans,Vulpes vulpes,Urocyon cinereoargenteus",Radio Transmitter,42.7176222830005,-73.8564020630861
+1895314026,GPS tracking of eastern whip-poor-will,CC_BY,false,false,2017-06-25 02:58:00.000,2020-04-25 23:44:27.000,51,2251,Antrostomus vociferus,GPS,40.0,-83.013
+1941203363,South Africa vultures VfA MPIAB,CC_0,false,false,2022-06-04 12:10:23.000,2026-09-19 19:30:32.000,6,268160,"Aquila rapax,Trigonoceps occipitalis,Terathopius ecaudatus","GPS,Acceleration",-25.6174643871593,29.2976598826571
+1450495172,The Northern Black Swift: Migration Path And Wintering Area Revealed,CC_0,false,false,2009-08-15 07:10:00.000,2010-07-31 18:53:00.000,3,1589,Cypseloides niger,Solar Geolocator,38.0188954037199,-107.676975498596
+14512695,"Eurasian teal, Giunchi, Italy",CC_BY,true,false,2013-12-28 10:15:48.000,2019-08-13 15:30:17.000,48,56150,Anas crecca,Argos Doppler Shift,43.6959279263413,10.2883529663086
+2120324708,Cinereous Vulture Gavashelishvili Caucasus,CC_0,false,false,2003-12-28 00:00:00.000,2010-12-26 00:00:00.000,6,3555,Aegypius monachus,Radio Transmitter,41.22888,45.87733
+854852176,whimbrel_USGS_ASC_argos,CC_0,true,false,2006-06-28 04:54:32.000,2015-08-01 23:38:27.000,32,39489,Numenius phaeopus,Argos Doppler Shift,70.1403642720725,-148.359374999997
+492444603,Boutin Alberta Grey Wolf,CC_0,false,false,2012-03-17 16:01:33.000,2014-09-13 09:01:53.000,46,239194,Canis lupus,GPS,56.967,-111.473
+274355544,Bill Cochran Peregrine falcon migration 1973-75,CC_BY,false,false,1973-09-20 14:35:00.000,1975-10-24 16:00:00.000,3,169,Falco peregrinus,Radio Transmitter,43.57,-87.79
+1208105916,Caspian Gulls - Poland,CC_0,false,false,2019-04-17 04:01:30.000,2020-10-26 12:00:06.000,2,556554,Larus cachinnans,GPS,52.474951366987,19.7906695038556
+965936538,"Weak migratory connectivity, loop migration and multiple non-breeding site use in British breeding Whinchats Saxicola rubetra",CC_0,false,false,2016-06-19 00:04:00.000,2018-06-18 12:26:38.000,20,13056,Saxicola rubetra,"Solar Geolocator,Solar Geolocator Raw",51.1,-3.72
+394802766,Thick-billed murre Gaston PLI 2014,CC_BY,false,false,2014-07-25 20:13:00.000,2014-08-03 03:54:00.000,10,4809,Uria lomvia,GPS,74.0,-89.96
+1260272117,Short-term movements on the Dark-headed cat snake Boiga nigriceps in Kubah National Park,CC_0,false,false,2017-08-20 13:30:00.000,2018-08-30 09:47:00.000,2,25,Boiga nigriceps,Radio Transmitter,1.606338,110.18863
+1544910859,Hawaiian Crow,CC_BY,false,false,2017-09-26 10:01:00.000,2018-05-20 05:01:00.000,11,366783,Corvus hawaiiensis,Radio Transmitter,19.5531,-155.3173
+1436452445,Double-crested Cormorants - East Sand Island - 2008 & 2009,CC_0,false,false,2008-06-02 00:00:00.000,2010-12-30 00:00:00.000,60,2455,Phalacrocorax auritus,Argos Doppler Shift,46.262374568492,-123.984403610236
+14703885,Levant Sparrowhawk Armenia,CC_BY,false,false,2013-07-05 06:29:00.000,2015-05-07 16:09:12.000,5,1329,"Accipiter ,Accipiter brevipes",Argos Doppler Shift,39.0618491342915,46.40625
+1260886163,"Cheetah Pilanesberg National Park, South Africa, 2014-2015",CC_0,false,false,2014-04-11 09:00:00.000,2015-02-07 16:00:33.000,1,1182,Acinonyx jubatus,GPS,-25.2463521128359,27.0810699393031
+915037836,"Gyrfalcon, High Arctic Institute, northwest Greenland",CC_0,false,false,2001-07-19 17:02:46.000,2004-01-26 19:40:44.000,23,3890,Falco rusticolus,Argos Doppler Shift,76.5536560877521,-70.3652349114426
+915166703,"Gyrfalcon, High Arctic Institute, east Greenland trapping station",CC_0,false,false,2004-09-22 11:06:11.000,2005-07-17 10:23:44.000,7,868,Falco rusticolus,Argos Doppler Shift,70.5421049504346,-21.8177492916599
+4732684199,"Bradypus variegatus, The Sloth Conservation Foundation, Puerto Viejo de Talamanca Costa Rica",CC_0,false,false,2021-01-15 06:00:00.000,2025-09-08 12:01:00.000,15,1317,Bradypus variegatus,GPS,9.654,-82.755
+917906795,"Gyrfalcon, High Arctic Institute, Maniitsoq trapping station",CC_0,false,false,2000-09-28 14:51:20.000,2003-11-13 15:00:55.000,11,4113,Falco rusticolus,Argos Doppler Shift,65.466473530877,-52.8728028014304
+917901503,"Gyrfalcon, High Arctic Institute, central-west Greenland",CC_0,false,false,2000-10-18 12:23:08.000,2003-09-24 19:33:51.000,7,1754,Falco rusticolus,Argos Doppler Shift,66.9291992482011,-50.8183594420556
+1087068449,Von der Decken's hornbill (Jetz Kenya),CC_0,false,false,2012-08-26 16:21:38.000,2016-08-18 09:56:42.000,18,188992,Tockus deckeni,GPS,0.292,36.898
+506737915,yellowBilledLoon_USGS_ASC_argos,CC_0,true,false,2002-07-04 09:42:11.000,2019-06-20 06:49:57.000,92,135199,Gavia adamsii,Argos Doppler Shift,69.6,-156.0
+252807846,Blackcap Light Logger Southern Germany,CC_0,false,false,2015-09-01 00:00:00.000,2015-11-10 00:00:00.000,3,11,Sylvia atricapilla,Solar Geolocator,49.3048973838338,10.5668658390641
+376145741,Thick-billed murre Elliott Coats 2013,CC_0,false,false,2013-07-23 18:23:27.000,2013-08-05 23:59:29.000,142,88212,Uria lomvia,GPS,62.9483536500924,-82.0158576965332
+533427629,Migration of red-backed shrikes from southern Scandinavia (data from Pedersen et al. 2018),CC_0,false,false,2009-06-24 20:35:00.000,2016-02-29 17:21:00.000,20,12115,Lanius collurio,"Solar Geolocator,Solar Geolocator Raw",55.98,12.33
+82207,BCI Agouti GPS,CC_0,true,false,2009-01-12 22:30:00.000,2009-01-20 14:00:00.000,1,214,Dasyprocta ,GPS,9.164995,-79.8379261
+249266943,Thick-billed murre Elliott Coats 2011,CC_0,false,false,2011-07-17 01:34:12.000,2011-08-04 20:03:32.000,17,19619,Uria lomvia,GPS,-82.0157,62.9477
+40012605,"Thick-billed Murres; Gaston/Akearok, Prince Leopold Island, Nunavut, Canada",CC_BY,false,false,2014-07-25 18:34:00.000,2014-08-03 03:54:00.000,10,4832,Uria lomvia,GPS,74.036548093846,-90.0576782226562
+14381504,TBMUCOMU.GastonMontevecchi.NWAtlantic,CC_BY,false,false,2007-07-26 03:00:00.000,2011-07-31 03:00:00.000,122,60538,"Uria aalge,Uria lomvia",Solar Geolocator,58.6312166434248,-53.701171875
+270079388,Thick-billed murre Gilchrist Cape Graham Moore 2016,CC_0,false,false,2016-07-30 14:32:00.000,2016-08-15 18:55:00.000,57,34311,Uria lomvia,GPS,72.9426,-76.09465
+920007556,Bowhead whale Admiralty Inlet,CC_0,false,false,2008-08-16 23:27:00.000,2009-10-30 19:55:00.000,4,675,Balaena mysticetus,Argos Doppler Shift,72.5,-88.67
+467034665,Bowhead whale Cumberland Sound,CC_0,false,false,2005-07-10 21:25:00.000,2017-05-04 15:38:00.000,43,41404,Balaena mysticetus,Argos Doppler Shift,66.25,-66.0
+467031755,Bowhead whale Foxe Basin,CC_0,false,false,2003-07-04 16:25:00.000,2015-07-03 14:01:00.000,29,50235,Balaena mysticetus,Argos Doppler Shift,69.4,-81.5
+1623435186,"Roseate tern (Sterna dougalii), North Brother Island, Canada; McKnight",CC_0,false,false,2016-06-16 18:00:20.000,2016-06-23 15:37:54.000,7,3958,Sterna dougallii,GPS,43.6358887990094,-65.8226966857912
+1283461962,"Daily satellite location data for leopard management in the North West Province, South Africa, 2014-2020",CC_0,false,false,2014-06-01 10:00:33.000,2020-04-05 11:00:52.000,16,1840,Panthera pardus,GPS,-25.7339379159991,26.9732809066772
+1406291704,Jaguar Rescue,CC_BY,false,false,2020-10-24 00:00:46.000,2021-01-18 04:00:47.000,1,1697,Panthera onca,GPS,-17.313159,-56.759533
+1898591,MPIAB White Stork Prinzesschen,CC_BY,false,false,1994-08-12 04:14:24.000,2006-12-22 22:07:04.000,1,3169,Ciconia ciconia,Argos Doppler Shift,52.1469733406447,11.66748046875
+446659,MPIAB White Stork Greece Argos,CC_BY,false,false,2004-06-22 07:23:26.000,2004-11-02 22:54:04.000,2,141,Ciconia ciconia,Argos Doppler Shift,13.613,43.931
+446663,MPIAB White Stork Oriental Argos,CC_BY,false,false,1998-07-05 04:28:33.000,2001-11-16 05:45:15.000,8,4241,Ciconia boyciana,Argos Doppler Shift,39.18,119.055
+29799425,Migration timing in barnacle geese (Barents Sea) (data from Kölzsch et al. and Shariatinajafabadi et al. 2014),CC_0,false,false,2008-01-29 20:00:00.000,2011-04-16 16:00:00.000,15,21102,Branta leucopsis,GPS,53.365,6.133
+1286005281,boar_study_austria,CC_0,true,false,2020-10-08 01:47:00.000,2021-11-24 07:48:00.000,32,2201,Sus scrofa,"GPS,Acceleration,Accessory Measurements,Sigfox Geolocation",48.1411197387669,16.8056488037121
+3062819236,Stejneger's Petrel Pterodroma longirostris Geolocator Tracking,CC_0,false,false,2020-01-02 17:37:47.000,2022-01-20 05:36:40.000,10,10426,Pterodroma longirostris,"Solar Geolocator,Solar Geolocator Raw,Solar Geolocator Twilight",-33.75,-80.783
+40008075,"Black-legged Kittiwakes; Mallory/Gaston/Akearok, Prince Leopold Island, Nunavut, Canada",CC_BY,false,false,2014-07-27 17:02:00.000,2014-08-02 16:04:00.000,11,1704,Rissa tridactyla,GPS,74.037681119164,-90.0466918945312
+304527187,Sabine's Gulls in the Juan de Fuca Eddy,CC_BY,false,false,2017-07-14 21:07:49.000,2020-09-07 17:58:06.000,2,7799,Xema sabini,Argos Doppler Shift,48.2246726495652,-125.7275390625
+208672795,Migration of Sabine's gulls from the Canadian High Arctic,CC_0,false,false,2008-08-01 00:00:00.000,2012-06-25 00:00:00.000,26,6402,Xema sabini,Solar Geolocator,75.8,-96.3
+1566232520,Navigation with hippocampal lesion in homing pigeons (data from Gagliardo et al. 2021),CC_0,false,false,2019-06-11 07:51:31.000,2019-07-30 12:24:48.000,30,1269952,Columba livia,GPS,43.66,10.3
+1376966969,Migrations of Common Terns (Sterna hirundo),CC_BY,false,false,2011-06-10 13:43:00.000,2012-06-19 01:54:00.000,3,1557,Sterna hirundo,Solar Geolocator,39.0618491342916,-28.0041503906252
+1169168747,Home range and movement patterns of the Andean Fox in Cotopaxi National Park Ecuador,CC_0,false,false,2019-09-26 00:00:38.000,2020-05-17 22:00:18.000,1,2785,Lycalopex culpaeus,GPS,-0.0714111143240227,-77.838134765625
+1415844328,Moult migration of taiga bean geese to Novaya Zemlya,CC_BY,true,false,2019-06-01 00:01:00.000,2020-11-20 17:55:00.000,44,840212,Anser fabalis,GPS,60.4613940652465,22.2866249084456
+1419917362,Day and night habitat associations of wintering dunlin Calidris alpina in a wetland-agricultural complex,CC_BY,true,false,2013-02-08 00:00:00.000,2013-04-23 00:00:00.000,29,212,"Calidris alpina,Limnodromus scolopaceus",Radio Transmitter,39.1662705500814,-122.052612304693
+8317873,"Common/King Eiders; Nuuk/Disko Bay/Upernavik, Greenland; Mosbech/Merkel; 2002 and 2003",CC_BY,false,false,2002-06-12 15:50:24.000,2005-10-24 09:37:07.000,38,2687,"Somateria mollissima,Somateria spectabilis",Argos Doppler Shift,69.0842570505314,-52.0751953125
+43747715,"Common/King Eiders; East Bay Island, Nunavut; Gilchrist/Mosbech/Sonne 2001 and 2003",CC_BY,false,false,2003-06-27 15:41:00.000,2004-07-07 01:38:00.000,32,2414,"Somateria mollissima,Somateria spectabilis",Argos Doppler Shift,64.028933234179,-81.7904663085938
+1077432441,"Grey-headed flying fox, Adelaide, 2015-2018",CC_0,false,false,2015-08-31 14:42:38.000,2015-11-02 02:00:33.000,4,145262,Pteropus poliocephalus,GPS,-34.915603,138.607115
+1421896275,Western Gull-billed Tern Migration (2012-2019),CC_0,true,false,2012-06-19 19:55:38.000,2019-01-07 22:06:00.000,6,8040,Gelochelidon nilotica,Argos Doppler Shift,32.5970085201367,-117.106500894221
+1236374912,Red-necked Stint southern Chukotka,CC_0,false,false,,,3,,Calidris ruficollis,"Accessory Measurements,Solar Geolocator Raw,Solar Geolocator Twilight",62.6205099847622,176.844348907468
+438644854,American bittern - Huschle - USA,CC_0,true,false,1998-07-13 16:45:00.000,2003-07-23 00:39:05.000,26,1950,Botaurus lentiginosus,Argos Doppler Shift,39.0277188402116,-92.4609375
+377236888,Snail Kite Brazil,CC_0,false,false,2017-11-30 00:41:28.000,2020-01-06 09:54:53.000,20,2944,Rostrhamus sociabilis,Argos Doppler Shift,-32.7,-52.62
+1009590724,"Gray-cheeked Thrush_Whitaker_Newfoundland, Canada",CC_0,false,false,2016-06-18 12:00:00.000,2017-04-21 04:57:00.000,4,19,Catharus minimus,GPS,49.7788,-57.291
+1978859802,Long-tailed Jaeger - PTT - Canadian Arctic,CC_BY,false,false,2008-07-15 14:28:52.000,2008-10-07 23:21:36.000,10,705,Stercorarius longicaudus,Argos Doppler Shift,73.133,-80.0
+467005392,"Soaring flight in Eurasian griffon vultures (HUJ) (data from Harel and Nathan, 2018)",CC_0,false,false,2012-10-15 13:40:12.000,2014-10-20 08:21:06.000,17,3392898,Gyps fulvus,GPS,30.827,34.867
+2919708,"HUJ MoveEcol Lab Israel: Foraging search efficiency in white backed & lappet-faced vultures, Namibia (data from Spiegel et al. 2013)",CC_0,false,false,2008-03-28 13:50:00.000,2010-07-21 15:09:59.000,15,346650,"Gyps africanus,Torgos tracheliotus",GPS,-19.2150457,16.170574
+16748598,Fruit bats in Ghana (data from Sapir et al. 2014),CC_0,false,false,2011-02-02 18:22:30.000,2011-02-09 04:05:01.000,9,614,Eidolon helvum,GPS,5.586,-0.185
+914913822,Landscape-dependent optimisations in pelicans_Functional Ecology,CC_0,false,false,2012-11-11 04:00:55.001,2017-12-01 23:45:08.000,18,111632,Pelecanus onocrotalus,GPS,32.6654,34.94025
+33643212,Long-range adult movements of 3 vulture species (data from Spiegel et al. 2015),CC_0,true,false,2009-01-25 10:00:00.000,2012-05-22 10:10:00.000,9,152594,"Gyps fulvus,Gyps africanus,Torgos tracheliotus",GPS,31.156408414557,34.8870849609375
+2988333,Navigation experiments in lesser black-backed gulls (data from Wikelski et al. 2015),CC_0,false,false,2009-05-25 00:05:00.000,2015-08-27 17:21:01.000,127,152326,Larus fuscus,"GPS,Argos Doppler Shift",0.013,33.447
+1606812667,Hawksbill/green turtles Chagos Archipelago Western Indian Ocean,CC_0,true,false,2018-06-27 12:24:00.000,2019-12-08 17:08:16.000,23,88727,"Chelonia mydas,Eretmochelys imbricata",GPS,-7.41149502109103,72.4356079101538
+49520609,Poultry network China (data from Choi et al. 2016),CC_0,false,false,2015-01-08 23:48:14.000,2015-02-18 12:55:08.000,40,1329,"Anas platyrhynchos,Cairina moschata",GPS,28.6,116.0
+433126,Flight speed in Brazilian free-tailed bats (data from McCracken et al. 2016),CC_0,false,false,2009-07-09 01:00:00.000,2009-07-15 04:07:54.000,7,561,Tadarida brasiliensis,Radio Transmitter,29.53233,-99.62655
+37350671,Hornbill telemetry in northeast India,CC_0,false,false,2015-03-02 04:53:00.000,2016-05-10 02:00:00.000,6,19275,"Buceros bicornis,Rhyticeros undulatus",GPS,27.0322172790949,92.9525756835938
+47899041,Movement coordination in trawling bats (data from Giuggioli et al. 2015),CC_0,false,false,2009-01-01 12:00:00.000,2009-01-01 12:00:14.700,545,69336,Myotis daubentoni,"GPS,Accessory Measurements",51.406951,-2.66328
+19411459,"Movement ecology of the jaguar in the largest floodplain of the world, the Brazilian Pantanal",CC_0,false,false,2011-12-01 06:00:00.000,2016-04-18 04:00:07.000,13,42912,Panthera onca,GPS,-16.8429806,-57.5843775
+1410035327,HUJ MPIAB White Stork E-Obs (subset for Carlson et al. 2021),CC_0,false,false,2013-04-01 02:00:44.000,2016-08-31 20:00:46.000,48,3174282,Ciconia ciconia,GPS,52.118,12.087
+18072398,Eastern whip-poor-will migrations (data from English et al. 2017),CC_BY,false,false,,,22,,Caprimulgus vociferus,Solar Geolocator Raw,44.565882133604,-76.3632202148438
+732458683,Migratory patterns of Fork-tailed Flycatchers (Tyrannus s. savana),CC_0,false,false,2009-12-22 00:00:00.000,2015-12-17 00:00:00.000,28,9222,Tyrannus savana,"Solar Geolocator,Solar Geolocator Raw",-35.1440555797961,-57.3953247070319
+66480086,Continental black-tailed godwits (data from Senner et al. 2015),CC_0,false,false,2013-02-02 08:49:30.000,2014-05-30 21:15:34.000,30,17403,Limosa limosa,Argos Doppler Shift,39.021,-5.934
+1760349,"Kruger Buffalo, VHF Herd Tracking, South Africa",CC_0,true,false,2000-11-14 06:49:00.000,2006-11-21 06:15:00.000,165,26453,Syncerus caffer,Radio Transmitter,-25.034032755731,31.8818175011095
+13978569,Striated Caracara Falkland Islands,CC_BY,false,false,2013-08-18 16:00:00.000,2019-03-16 02:00:00.000,6,19403,Phalcoboenus australis,GPS,-51.3374756629652,-60.194091796875
+125221,Marc Bechard Hawks ,CC_0,true,false,2005-01-11 18:32:05.000,2011-10-08 01:52:00.000,3,377,Buteo albigula,Argos Doppler Shift,3.108,-74.925
+14671003,Hooded Vulture Africa,CC_BY,false,false,2013-09-26 10:37:00.000,2026-09-23 19:00:00.000,23,392427,Necrosyrtes monachus,"GPS,Accessory Measurements",7.01366792756664,21.09375
+1764627,"Kruger African Buffalo, GPS tracking, South Africa",CC_0,true,false,2005-02-17 05:05:00.000,2006-12-31 14:34:00.000,6,24653,Syncerus caffer,GPS,-24.3887797,31.75194092
+1418292565,whooperSwan_USGS_ASC_argos,CC_0,true,false,2009-02-12 03:06:59.000,2011-05-17 22:14:25.000,17,24176,Cygnus cygnus,Argos Doppler Shift,38.7251,141.1065
+1209072652,northernFulmar_USGS_ASC_argos,CC_0,true,false,2001-06-17 18:57:04.000,2006-10-15 01:26:57.000,19,5383,Fulmarus glacialis,Argos Doppler Shift,56.6078854650088,-169.716796875004
+177841261,Distribution of spectacled eiders in Russia and Alaska 1993-1996 (data from Petersen et al. 1999),CC_0,false,false,1993-06-05 17:15:16.000,1996-11-29 16:07:59.000,88,2499,Somateria fischeri,Argos Doppler Shift,61.339,-165.589
+746910348,"Satellite tracking of black-capped petrels, 2019",CC_BY,false,false,2019-05-08 13:51:00.000,2020-01-24 09:46:57.000,10,4646,Pterodroma hasitata,"GPS,Argos Doppler Shift",34.68,-75.72
+1915270109,ECHA Brent 2022,CC_0,false,false,,,1,,Branta bernicla,GPS,54.22,-5.96
+268904527,"Swamp wallabies on Phillips Island, Australia",CC_0,false,false,2015-01-19 11:23:57.000,2017-03-13 06:38:24.000,48,22948,Wallabia bicolor,GPS,-38.4847697534925,145.225524902344
+2611337538,CLSW_Nebraska_2022,CC_0,false,false,2021-07-30 06:49:05.000,2022-05-06 06:36:51.000,1,561,Petrochelidon pyrrhonota,"Solar Geolocator,Solar Geolocator Raw",41.2,-101.6
+1842351574,Egyptian vulture migration survey,CC_0,false,false,,,1,,Neophron percnopterus,,41.9610218858464,44.2810821533207
+1542147820,ICARUS Bhutan Sherub,CC_0,false,false,2021-08-22 06:01:00.000,2021-09-14 22:20:00.000,6,50,Myophonus caeruleus,"GPS,Accessory Measurements",27.3320412040111,91.5525747098143
+182746263,High-altitude flights of Himalayan vultures (data from Sherub et al. 2016),CC_0,false,false,2014-08-01 00:00:23.000,2015-07-04 12:10:05.000,23,1686920,Gyps himalayensis,GPS,27.645,90.176
+217784323,Vultures Acopian Center USA 2003-2016,CC_BY,false,false,2003-11-05 15:00:00.000,2016-12-08 14:04:04.000,65,679401,"Cathartes aura,Coragyps atratus",GPS,33.771,-117.711
+143848765,Moose in the Upper Koyukuk Alaska,CC_0,true,false,2008-03-17 16:00:00.000,2013-04-01 08:02:15.000,35,71675,Alces alces,GPS,66.91,-151.53
+208092450,Right hemisphere advantage in route fidelity in homing pigeons (data from Pollonara et al. 2017),CC_BY,false,false,2013-07-29 16:55:07.000,2014-09-17 03:35:10.000,35,6229315,Columba livia,GPS,43.6572,10.3039
+58672150,Oenanthe oenanthe Turdidae Uppsala,CC_BY,false,false,2010-06-17 12:00:00.000,2013-05-27 00:00:00.000,28,297,Oenanthe oenanthe,"Solar Geolocator,Accessory Measurements,Solar Geolocator Raw",59.833,17.833
+62400821,Re-colonization by common eiders (Somateria mollissima) in the Aleutian Archipelago (data from Petersen et al. 2015),CC_0,false,false,2006-06-03 00:51:25.000,2011-03-23 17:35:34.000,56,16239,Somateria mollissima,"Argos Doppler Shift,Accessory Measurements",52.734,173.966
+140391801,"Movement of long-tailed ducks marked on the Yukon-Kuskokwim Delta, Alaska 1998-2000 (data from Petersen et al. 2003)",CC_0,false,false,1998-06-17 22:44:54.000,2000-01-01 20:47:27.000,14,1275,Clangula hyemalis,Argos Doppler Shift,60.8020637446798,-164.1796875
+157278223,Post-fledging movements of common mergansers (Mergus merganser) in Alaska (data from Pearce and Petersen 2009),CC_0,true,false,2004-08-24 00:16:32.000,2006-10-16 01:14:43.000,9,2604,Mergus merganser,Argos Doppler Shift,59.761,-151.799
+3615655,"Domestic Cats in the Albany Pine Bush, New York",CC_0,false,false,2001-04-26 21:30:00.000,2001-08-14 17:00:00.000,12,811,Felis catus,Radio Transmitter,42.7113266760756,-73.8525009155273
+2116900796,A case of home range analysis of Japanese Sparrowhawks during the nestling period ,CC_BY,false,false,2020-06-09 04:57:50.000,2020-08-18 08:01:16.000,2,201,Accipiter gularis,GPS,26.4167488891568,127.741363048561
+2007011428,Eastern whip-poor-will GPS migration tracks (data from Korpach et al. 2022),CC_BY,false,false,2017-10-01 09:46:00.000,2019-04-26 02:57:00.000,20,648,Antrostomus vociferus,GPS,49.73,-96.43
+1978212368,Long-tailed Jaeger - GLS - Canadian Arctic,CC_BY,false,false,2014-08-19 04:49:07.000,2019-06-03 03:34:12.000,35,18706,Stercorarius longicaudus,"Solar Geolocator,Accessory Measurements,Solar Geolocator Raw,Solar Geolocator Twilight",73.133,-80.0
+121041109,"Antarctic petrel 3D flights, Svarthamaren, Antarctica (data from Tarroux et al. 2016)",CC_BY,false,false,2011-12-12 18:37:19.000,2014-01-27 13:39:23.000,75,4837,Thalassoica antarctica,GPS,-71.8987314987658,5.17507553100586
+196932952,Fringe-lipped bat BCI Panama (data from Jones et al. 2017),CC_0,false,false,1997-03-15 05:55:00.000,1997-05-13 04:53:00.000,6,1552,Trachops cirrhosus,Radio Transmitter,9.15,-79.84
+509393372,Foraging heights of common noctules (data from O'Mara et al. 2019),CC_0,false,false,,,8,,Nyctalus noctula,Accessory Measurements,47.6646893283723,9.18653026961556
+2130389462,Griffon Vulture Gavashelishvili Caucasus,CC_0,false,false,2004-05-14 11:18:57.000,2005-08-08 01:55:00.000,1,143,Gyps fulvus,Radio Transmitter,42.68966,44.6373
+3791354435,African Lion - Panthera Lion Central Kalahari Game Reserve,CC_0,false,false,2008-12-15 05:00:00.000,2012-04-04 21:00:00.000,13,166243,Panthera leo,GPS,-21.2074587304832,23.6425781249998
+1931904768,Thailand ducks 2022,CC_0,false,false,2022-01-28 08:56:42.000,2022-01-28 08:56:42.000,139,1,"Dendrocygna javanica,Gyps himalayensis",GPS,14.0711430653797,101.003746822622
+1480583194,Migrations of Caspian terns in family groups,CC_BY,false,false,2017-07-16 00:00:00.000,2020-11-29 13:09:00.000,27,434632,Hydroprogne caspia,GPS,62.23333333,21.28333333
+1438605615,Central Valley shorebird movements and wetland connectivity,CC_BY,false,false,,,265,,"Calidris alpina,Limnodromus scolopaceus",Radio Transmitter,39.1811752615875,-122.124023437501
+1841261165,Eurasian wigeon (Mareca penelope) Netherlands Lithuania 2018-2019,CC_BY,false,false,2018-02-04 19:30:30.000,2021-06-01 10:38:50.000,39,1600690,Anas penelope,GPS,52.527679,4.768945
+1437646021,"Long-billed Dowitchers (Linmodromus scolopaceous) radio-tagged in Klamath Basin and tracked to Central Valley, CA, USA",CC_BY,false,false,2012-08-19 07:00:00.000,2014-03-18 07:00:00.000,83,475,Limnodromus scolopaceus,Radio Transmitter,41.9870566296033,-121.758728027354
+1448377103,Wood stork (Mycteria americana) Southeastern US 2004-2019,CC_0,false,false,2004-05-28 02:00:00.000,2019-09-06 14:00:00.000,133,1134712,Mycteria americana,GPS,28.227,-81.4746
+1371322147,Red fox Bylot - Argos tracking,CC_0,false,false,2011-07-05 11:31:31.000,2015-02-26 16:07:44.000,2,2086,Vulpes vulpes,Argos Doppler Shift,73.16,-79.97
+1371529289,Red fox Herschel - Argos tracking,CC_0,false,false,2009-06-29 16:26:42.000,2010-02-27 15:01:33.000,2,223,Vulpes vulpes,Argos Doppler Shift,69.59,-139.1
+1972027330,stork at coesmes,CC_0,false,false,,,2,,Ciconia ciconia,,47.8724318387567,-1.39646530151341
+2950149,Coatis on BCI Panama (data from Powell et al. 2017),CC_0,false,false,2010-03-15 16:31:52.001,2010-04-24 13:46:39.999,2,1201,Nasua narica,"GPS,Acceleration,Magnetometer,Orientation",9.16683979508586,-79.8352432250977
+11948467,NCSU Mammalogy Campus Carnivores,CC_0,false,false,2013-09-04 00:00:55.001,2013-10-23 10:15:22.001,3,2912,"Didelphis virginiana,Procyon lotor","GPS,Acceleration",35.7804299395541,-78.6683750152588
+1344681768,White-bellied Sea-Eagle (Haliaeetus leucogaster) movements post-rehabilitation and release,CC_0,false,false,2019-03-19 00:00:00.000,2022-04-13 00:00:00.000,3,573,Haliaeetus leucogaster,GPS,-28.139796991393,153.485183715777
+1897273090,"Ancient murrelet ANMU, Wilson, Ramsay Island BC Canada",CC_0,false,false,2018-04-29 09:30:11.000,2018-05-14 09:50:39.000,26,953,Synthliboramphus antiquus,GPS,52.565,-131.422
+40906102,Ring-tailed lemur O'Mara Beza,CC_0,true,false,2009-05-31 06:32:00.000,2010-03-20 08:00:00.000,7,4687,Lemur catta,GPS,-23.65647,44.62897
+2636372210,GPS tracking of bobcats and coyotes in northern Washington,CC_BY,false,false,2018-06-26 04:00:00.000,2022-06-14 04:00:00.000,70,121706,"Lynx rufus,Canis latrans",GPS,48.0,-118.0
+1498452485,Variability of White Stork flight patterns prior to earthquakes,CC_0,false,false,2013-09-01 00:00:23.000,2021-03-31 18:00:17.000,15,807823,Ciconia ciconia,GPS,41.04369,25.28532
+1245488040,Foraging flights of Japanese greater horseshoe bat (data from Fujioka et al. 2020),CC_0,false,false,2015-09-03 10:31:05.000,2016-06-10 14:41:37.000,6,26637,Rhinolophus ferrumequinum,GPS,42.6834858404277,141.670470759273
+1707353581,White-lipped peccary_Reyna-Hurtado_Calakmul,CC_0,false,false,2017-03-25 22:00:00.000,2017-03-30 00:00:00.000,1,49,Tayassu pecari,GPS,18.156179,-89.889681
+933711994,Elk in southwestern Alberta,CC_BY,false,false,2007-01-13 03:01:48.000,2013-11-19 23:00:53.000,171,876925,Cervus elaphus,GPS,49.4,-114.4
+2783096023,"Red Knot Tracking Project, Mispillion Harbor, DE - Delaware Shorebird Project",CC_0,false,false,2023-05-19 11:39:44.000,2023-07-21 00:02:08.000,5,270,Calidris canutus,"GPS,Argos Doppler Shift",38.9514794923538,-75.3141975402833
+604806671,"MH_WATERLAND - Western marsh harriers (Circus aeruginosus, Accipitridae) breeding near the Belgium-Netherlands border",CC_0,true,false,2013-05-16 20:01:27.000,2018-07-28 08:51:38.000,7,377813,Circus aeruginosus,GPS,51.276,3.595
+2190520177,Larus michahellis X Larus cachinnans hybrids,CC_0,false,false,2022-06-07 00:00:29.000,2022-09-09 07:01:48.000,3,25356,Larus michahellis,GPS,52.0317589365136,21.2265199774835
+2258814165,Deconstructing the flight paths of hippocampal-lesioned homing pigeons (data from Gagliardo et al. 2022),CC_BY,false,false,2019-07-11 08:56:18.000,2019-08-29 11:49:16.000,22,1176650,Columba livia,GPS,43.657,10.304
+186178781,Raptors NABU Moessingen public,CC_BY,true,false,2016-08-04 11:15:53.000,2026-09-19 18:30:07.000,3,3275891,"Pernis apivorus,Gyps fulvus","GPS,Acceleration,Magnetometer,Orientation",48.386297207224,9.07771110534668
+1322558986,Data from: Juvenile emperor penguin Aptenodytes forsteri range calls for extended conservation measures in the Southern Ocean,CC_BY,false,false,2019-01-10 16:16:16.000,2020-01-20 06:23:02.000,8,17856,Aptenodytes forsteri,Argos Doppler Shift,-69.8638407587765,-32.1679687499994
+2434921399,Blackbird Czechia ICARUS TinyFox 2022,CC_0,false,false,2022-10-30 12:52:02.000,2023-07-09 05:41:22.000,4,641,Turdus merula,Sigfox Geolocation,49.2077797,16.8756881
+8191213,Agouti Radio Tracking on BCI,CC_BY,true,false,2008-10-21 15:46:00.000,2010-05-14 23:09:00.000,20,1254,Dasyprocta punctata,Radio Transmitter,9.15090934945209,-79.8500061035156
+3030068329,Movements of Australia's east coast humpback whales,CC_BY,false,false,2008-10-24 05:18:00.000,2011-07-27 23:17:00.000,50,30029,Megaptera novaeangliae,"Argos Doppler Shift,Accessory Measurements",-30.0,154.0
+2298738353,"LBBG_ADULT - Lesser black-backed gulls (Larus fuscus, Laridae) breeding in Belgium",CC_0,true,false,2022-05-30 18:00:34.000,2025-10-01 14:22:11.000,39,3699299,Larus fuscus,GPS,51.349,3.174
+968984187,"Arctic Skua, van Bemmelen, Norway",CC_BY,false,false,,,43,,Stercorarius parasiticus,Solar Geolocator Raw,71.082183,28.200896
+976692287,"Arctic Skua, van Bemmelen, Tobseda",CC_BY,false,false,,,5,,Stercorarius parasiticus,Solar Geolocator Raw,68.59421,52.31922
+3114407141,Medium tree finch_2020_Kleindorfer_Floreana_Galapagos,CC_0,false,false,,,17,,Camarhynchus pauper,Radio Transmitter,-1.314311,-90.455211
+5808436651,Caribou GPS data Nelchina Herd AK 1999-2002,CC_0,false,false,1999-10-07 09:52:00.000,2002-10-06 20:03:00.000,49,47389,Rangifer tarandus,GPS,62.0,-145.0
+2980294,MPIAB Gadwall,CC_BY,false,false,2009-07-20 21:01:59.000,2011-03-23 17:11:56.000,25,4259,Anas strepera,"GPS,Argos Doppler Shift",11.235374,47.972249
+5960106361,Steppe Eagle_ACBK_West Kazakhstan_GSMTags_1,CC_BY,false,false,2024-05-01 04:53:00.000,2026-05-14 06:48:00.000,15,49723,Aquila nipalensis,GPS,49.7102725821064,47.8784179687504
+1720694224,"USU: Coyote and Puma (Fishlake NF, UT)",CC_0,true,false,2011-03-25 04:01:07.000,2017-01-07 01:01:42.000,28,51557,"Canis latrans,Puma concolor",GPS,38.5245328874858,-112.048187255865
+1818825,Forest Elephant Telemetry Programme,CC_BY,false,false,1998-10-02 06:02:26.000,2007-12-03 22:19:00.000,36,37530,Loxodonta cyclotis,GPS,-0.103957,12.632559
+2976678046,White-tailed Deer Movement Florida,CC_BY,false,false,2019-08-03 09:20:00.000,2019-09-05 01:10:00.000,15,40811,Odocoileus virginianus,GPS,28.1434487524772,-80.7903671264632
+208413731,White-bearded wildebeest (Connochaetes taurinus) movements - Kenya,CC_BY,false,false,2010-05-25 18:01:00.000,2012-12-04 15:00:00.000,36,276706,Connochaetes taurinus,GPS,-1.98461271205487,36.80419921875
+2378397732,GFHRadio,CC_0,false,false,2012-03-11 18:00:00.000,2017-12-04 18:00:00.000,1,195,Hylochoerus meinertzhageni,Radio Transmitter,0.565786703002499,30.3881835937494
+2804692115,Bio-logging of tropicbirds,CC_BY,false,false,2018-02-01 12:56:00.000,2018-10-18 09:51:31.000,57,63674,Phaethon rubricauda,"GPS,Acceleration,Barometer,Magnetometer",-20.252,57.579
+3046636757,"California sea lion (Zalophus californianus), Oregon, 2003-2007, Wright et al. 2010",CC_0,false,false,2004-01-15 15:57:45.000,2007-08-15 03:00:39.000,26,11592,Zalophus californianus,Argos Doppler Shift,46.195681,-123.804527
+8019591,Missouri Bison Tracking Project,CC_BY,false,false,2012-10-23 21:00:46.001,2026-02-28 17:30:07.000,54,724967,Bison bison,"GPS,Acceleration",40.484,-94.141
+3032262361,"Wandering albatross, Diomedea exulans, Possesion Island",CC_BY,true,false,2019-02-01 23:40:18.203,2019-02-04 15:15:47.200,1,1026239,Diomedea exulans,"GPS,Accessory Measurements",-46.415636,51.768591
+1252230318,White stork Ciconidae Western Poland,CC_0,false,false,2017-07-22 09:24:45.000,2020-09-14 05:10:01.000,75,2295842,Ciconia ciconia,GPS,51.8357775204524,16.589355468751
+1623175929,MPIAB Wiesner Chamois Conservation ,CC_0,false,false,2022-03-16 06:03:00.000,2024-08-02 03:01:41.000,2,27512,Rupicapra rupicapra,"GPS,Sigfox Geolocation",47.7811988683215,13.0835553421274
+321852752,MPIAB pigeon env buoys,CC_0,false,false,,,7,,Columba livia,GPS,47.7319344794917,8.8934326171875
+2944153255,"American Herring Gulls - GPS - Lobster Bay, Southwest Nova Scotia, Canada",CC_0,false,false,2019-05-25 20:53:00.000,2022-08-22 15:29:00.000,15,327690,Larus smithsonianus,GPS,43.6707438530663,-65.9166412988939
+943122207,Atlantic puffin in Iceland (Petersen),CC_BY,false,false,2007-07-15 00:00:00.000,2012-02-18 12:00:00.000,13,6882,Fratercula arctica,Solar Geolocator,65.37,-22.92
+178994931,Peters Hebblewhite Alberta-BC Moose,CC_BY,true,false,2008-03-12 01:03:04.000,2010-06-13 02:04:04.000,19,55182,Alces alces,GPS,53.9,-119.1
+19186107,Magnificent Frigatebird_BVI_GPS-PTT_2014-2016,CC_BY,false,false,2014-04-15 00:30:06.000,2016-01-10 17:25:32.000,3,8997,Fregata magnificens,"GPS,Argos Doppler Shift,Accessory Measurements",18.45,-64.75
+193545363,"Site fidelity in cougars and coyotes, Utah/Idaho USA (data from Mahoney et al. 2016)",CC_0,false,false,2004-12-27 12:01:00.000,2015-06-27 15:03:06.000,18,198705,"Canis latrans,Puma concolor","GPS,Acceleration,Accessory Measurements",38.5223840902008,-112.024841308594
+3225293084,Breeding season movements of Golden-crowned Sparrows in Alaska,CC_BY,false,false,2019-05-11 16:00:00.000,2020-09-16 16:00:00.000,19,316,Zonotrichia atricapilla,GPS,61.0,-149.0
+446603,MPIAB Pink Footed Shearwater Argos,CC_BY,false,false,1998-03-17 01:48:50.000,1998-04-12 21:27:39.000,6,50,Puffinus creatopus,Argos Doppler Shift,-33.5988397479774,-78.8235788842595
+126313959,Blackpoll Warbler eastern North America (data from DeLuca et al. 2015),CC_BY,true,false,2013-06-14 04:50:00.000,2014-06-16 16:45:00.000,5,2876,Setophaga ,"Solar Geolocator,Solar Geolocator Raw",44.5274756600858,-72.8156661987305
+180290122,"At-sea distribution Antarctic Petrel, Antarctica 2012 (data from Descamps et al. 2016)",CC_BY,false,false,2011-12-13 00:22:57.000,2014-01-27 05:27:34.000,156,65334,Thalassoica antarctica,"GPS,Solar Geolocator,Solar Geolocator Raw",-71.88333,5.16667
+225376313,Migration of red-backed shrikes from the Iberian Peninsula (data from Tøttrup et al. 2017),CC_0,false,false,2011-06-29 20:30:00.000,2014-07-04 04:25:00.000,6,4403,Lanius collurio,"Solar Geolocator,Solar Geolocator Raw",42.65,-5.51
+178797918,Migration of white-crested Elaenia (data from Bravo et al. 2017),CC_BY,false,false,2013-12-21 11:08:00.000,2015-10-06 17:32:00.000,15,7361,Elaenia albiceps,"Solar Geolocator,Solar Geolocator Raw",-42.9041364949173,-71.3287353515625
+242477586,Argentine Barn Swallows,CC_BY,false,false,2014-01-08 23:53:15.000,2014-10-29 22:48:12.000,9,4544,Hirundo rustica,"Solar Geolocator,Solar Geolocator Raw",-38.1,-68.5
+1904388965,"GPS data from: More grazing, more damage? Assessed yield loss on agricultural grassland relates non-linearly to goose grazing pressure",CC_BY,false,false,2016-01-01 00:00:00.000,2020-05-31 23:45:00.000,185,479828,"Branta leucopsis,Anser albifrons,Anser anser",GPS,53.1642,5.7818
+74496970,MPIAB white stork lifetime tracking data (2013-2014),CC_BY,false,false,2012-11-30 02:00:43.998,2014-07-16 18:00:53.000,72,1558407,Ciconia ciconia,"GPS,Acceleration",47.753,8.934
+92261778,LifeTrack Whooper Swan Latvia,CC_BY,false,false,2015-07-25 09:22:53.000,2017-05-28 12:00:07.000,9,76706,Cygnus cygnus,"GPS,Acceleration,Accessory Measurements,Magnetometer",56.9550170231644,24.1185015812516
+133992043,Migration timing in white-fronted geese (data from Kölzsch et al. 2016),CC_BY,false,false,2006-03-21 17:00:00.000,2014-10-25 08:30:44.000,65,81401,Anser albifrons,"GPS,Argos Doppler Shift",47.7676857708003,8.99651527404785
+1953194738,longBilledCurlew_USGS_ASC_argos,CC_0,true,false,2007-05-04 01:44:59.000,2020-07-28 06:07:57.000,29,123035,Numenius americanus,Argos Doppler Shift,45.7164079893157,-119.794921874994
+3309034642,Golden jackals in Ramat Hanadiv and around - Public,CC_0,true,false,2024-01-23 08:40:20.000,2024-01-24 18:21:08.000,1,77,Canis aureus,"GPS,Acceleration",32.554,34.946
+1720094461,Richard's Pipit (Anthus richardi),CC_BY,false,false,2020-02-23 19:14:05.000,2022-04-19 18:22:42.000,6,3564,Anthus richardi,"Solar Geolocator,Solar Geolocator Raw,Solar Geolocator Twilight",43.6,3.87
+10449535,LifeTrack White Stork Greece Evros Delta,CC_BY,false,false,2013-07-02 05:36:31.000,2016-06-05 10:31:07.000,10,119392,Ciconia ciconia,"GPS,Acceleration",40.8906771506463,26.1680603027344
+481458,Vultures Acopian Center USA GPS,CC_BY,true,false,2003-11-05 15:00:00.000,2026-09-27 12:46:46.000,73,2291730,"Cathartes aura,Coragyps atratus","GPS,Accessory Measurements",33.77083,-117.71067
+10596067,LifeTrack White Stork Moscow,CC_BY,false,false,2013-07-12 06:25:11.000,2016-04-10 10:30:24.000,10,445510,Ciconia ciconia,"GPS,Acceleration",55.6471156143572,37.3919677734375
+1744814602,Eastern Whooping Crane Population Migration Timing,CC_BY,false,false,2002-04-14 07:55:33.000,2018-10-28 14:21:00.000,95,3627,Grus americana,"GPS,Argos Doppler Shift",36.8796206050271,-85.1220703125
+2911040,Galapagos Albatrosses,CC_0,true,false,2008-05-31 13:29:31.998,2008-11-06 18:00:55.998,28,16028,Phoebastria irrorata,"GPS,Acceleration",-1.39,-89.62
+175720577,LifeTrack White Stork Kosova,CC_BY,false,true,2016-06-23 10:35:14.000,2026-08-04 20:00:11.000,10,295176,Ciconia ciconia,"GPS,Acceleration,Magnetometer,Orientation",42.5258782055702,21.1223316192627
+8849813,LifeTrack - Great Egrets,CC_0,false,false,2013-03-03 13:00:17.998,2017-06-03 00:01:43.000,13,225986,Ardea alba,"GPS,Acceleration",35.2635618621521,-77.23388671875
+1080341737,"Herring Gulls (Larus Argentatus); Ronconi; Sable Island, Canada",CC_0,false,false,2012-05-26 20:00:00.000,2015-03-01 11:08:18.000,9,45636,Larus argentatus,"GPS,Argos Doppler Shift",43.9290224559251,-59.8864746093728
+154820583,LifeTrack Griffon Vulture Croatia,CC_BY,false,false,2016-05-28 10:00:22.000,2016-09-29 18:30:47.000,1,31259,Gyps fulvus,"GPS,Acceleration",44.8581808307723,14.9005508422852
+326568799,Griffon Vulture Albstadt Salzburg (Gypsi),CC_BY,true,false,2017-08-31 08:40:28.000,2019-01-31 15:59:53.000,1,37682,Gyps fulvus,"GPS,Acceleration",48.0838704590344,9.03608322143555
+1539583795,ICARUS Cuckoo Holland,CC_0,false,false,2021-06-09 12:00:00.000,2022-03-04 00:24:00.000,9,1328,Cuculus canorus,"GPS,Acceleration,Accessory Measurements",51.8156914862781,5.40323855936581
+1071101052,"Herring Gulls (Larus Argentatus); Ronconi; Kent Island, Canada",CC_0,false,false,2009-05-27 15:36:00.000,2015-08-10 01:26:00.000,17,58309,Larus argentatus,"GPS,Argos Doppler Shift",44.5850228420573,-66.7570495605464
+79206236,LifeTrack White Stork Sicily,CC_BY,false,false,2015-06-23 15:00:11.000,2015-12-02 08:00:20.000,7,90424,Ciconia ciconia,"GPS,Acceleration",37.6462166344108,14.1593951359391
+176207818,Stray Dogs Prishtina,CC_BY,false,false,2016-06-24 04:16:09.998,2016-06-25 18:00:52.000,2,130,Canis lupus,"GPS,Acceleration",42.6521419048153,21.1514282226562
+2927282,Lake Constance Ducks,CC_BY,false,false,2008-12-18 12:21:00.998,2009-01-04 18:00:38.000,4,1283,"Anas platyrhynchos,Anas penelope,Aythya ferina","GPS,Acceleration",47.7319344794917,9.063720703125
+8927992,LifeTrack - Evros Delta,CC_BY,false,false,2013-02-25 07:56:50.000,2013-12-05 18:01:11.000,2,3481,"Anas platyrhynchos,Fulica atra","GPS,Acceleration",40.8190058180656,26.0575103759766
+82684,Trumpeter Hornbills Kwa Zulu Natal,CC_BY,false,false,2008-07-09 14:43:54.000,2011-12-23 16:30:47.998,33,24336,Bycanistes bucinator,"GPS,Acceleration",-30.7182713,30.3061158
+446635,MPIAB Trumpeter Hornbill Argos,CC_BY,false,false,2007-10-12 10:58:45.000,2009-10-24 11:58:51.000,2,377,Bycanistes bucinator,"GPS,Argos Doppler Shift,Acceleration",-30.733,30.346
+4153393450,GPS connectivity test,CC_0,true,false,2024-07-12 14:00:41.000,2024-09-01 18:18:53.000,1,1055,Homo sapiens,"GPS,Acceleration",36.1955251660698,-78.6401367187511
+1073231887,Red-tailed hawks in North America (Bloom),CC_BY,false,false,2007-08-22 00:00:00.000,2017-06-04 01:32:03.000,18,43006,Buteo jamaicensis,"GPS,Argos Doppler Shift",33.8,-117.45
+1748399252,ICARUS Pacific Coast Peregrine,CC_0,true,false,2021-10-15 19:49:00.000,2021-10-30 11:12:00.000,1,27,Falco peregrinus,"GPS,Radio Transmitter,Accessory Measurements",47.0199399527707,-124.171772003159
+657674643,North Sea population tracks of greater white-fronted geese 2014-2017 (data from Kölzsch et al. 2019),CC_BY,false,false,2014-03-01 00:00:06.000,2017-11-15 23:30:32.000,81,1086662,Anser albifrons,GPS,53.024,5.91
+657965212,Pannonic population tracks of greater white-fronted geese 2013-2017 (data from Kölzsch et al. 2019),CC_BY,false,false,2013-03-01 11:00:00.000,2017-11-15 23:45:29.000,10,118744,Anser albifrons,GPS,46.79,19.17
+1049685237,Greater white-fronted goose family migration flight,CC_0,false,false,2015-03-20 00:00:06.000,2015-06-30 23:31:08.000,13,955487,Anser albifrons,GPS,51.824956817561,5.96797943115242
+446579,MPIAB Lake Constance Mallards GPS,CC_BY,false,false,2007-09-05 14:00:00.000,2017-07-03 14:27:06.000,57,83279,Anas platyrhynchos,"GPS,Acceleration",53.11383,11.0701
+136953438,ABoVE: Boelman Alberta American Robins,CC_0,false,false,2016-04-23 06:58:08.000,2018-06-08 07:02:24.000,57,696,Turdus migratorius,"GPS,Argos Doppler Shift",55.285278,-114.770556
+1265808304,Spain Tarragona - Long term study on migratory movement of Alpine swifts (Apus melba),CC_0,false,false,2014-10-08 19:48:33.000,2017-05-04 21:31:48.000,11,5281,Apus melba,"Solar Geolocator,Accessory Measurements,Solar Geolocator Raw,Barometer,Solar Geolocator Twilight",41.1177,1.2491
+673728219,NPS Dall Sheep in Yukon-Charley Rivers National Preserve,CC_BY,false,false,1997-03-30 20:50:00.000,2003-03-02 21:00:41.000,102,131358,Ovis dalli,"GPS,Radio Transmitter",65.0,-143.8
+1080341217,"Herring Gulls (Larus Argentatus); Clark; Massachussets, United States",CC_0,false,false,2008-02-12 14:00:00.000,2013-09-12 00:17:00.000,9,24737,Larus argentatus,"GPS,Argos Doppler Shift",42.395839034317,-72.3001101942084
+1266783506,Switzerland Baden - Long term study on migratory movement of Alpine swifts (Apus melba),CC_0,false,false,2014-08-29 06:20:20.000,2017-05-05 21:29:48.000,37,19221,Apus melba,"Solar Geolocator,Accessory Measurements,Solar Geolocator Raw,Barometer,Solar Geolocator Twilight",47.47286,8.31096
+1266895841,Switzerland Biel - Long term study on migratory movement of Alpine swifts (Apus melba),CC_0,false,false,2016-09-27 20:01:33.000,2017-04-08 21:09:11.000,7,2552,Apus melba,"Solar Geolocator,Accessory Measurements,Solar Geolocator Raw,Barometer,Solar Geolocator Twilight",47.14161,7.24617
+69724677,FTZ Geese Wadden Sea,CC_0,false,false,2015-05-04 15:30:08.000,2025-05-14 00:55:11.000,22,665764,"Branta bernicla,Branta leucopsis","GPS,Acceleration",54.5975278521139,8.81103515625
+1266897111,Switzerland Lausanne - Long term study on migratory movement of Alpine swifts (Apus melba),CC_0,false,false,2016-09-28 19:33:51.000,2017-04-04 20:35:48.000,2,746,Apus melba,"Solar Geolocator,Accessory Measurements,Solar Geolocator Raw,Barometer,Solar Geolocator Twilight",46.51915,6.63329
+10763606,LifeTrack White Stork Poland,CC_BY,false,false,2013-07-16 05:46:27.000,2015-05-25 18:00:53.000,5,154436,Ciconia ciconia,"GPS,Acceleration",51.9374920904543,15.501708984375
+1263827241,Migration of red-backed shrike populations (data from Pedersen et al. 2020),CC_0,false,false,2009-06-24 20:35:00.000,2017-07-07 17:55:00.000,44,29097,Lanius collurio,"Solar Geolocator,Solar Geolocator Raw,Solar Geolocator Twilight",55.96,12.95
+1542182482,ICARUS Pinyon Jay,CC_0,false,false,,,7,,Gymnorhinus cyanocephalus,"GPS,Acceleration,Accessory Measurements",39.2447343032134,-77.080078125
+1266894561,Switzerland Luzern - Long term study on migratory movement of Alpine swifts (Apus melba),CC_0,false,false,2016-08-26 06:04:27.000,2017-05-13 21:32:18.000,8,3750,Apus melba,"Solar Geolocator,Accessory Measurements,Solar Geolocator Raw,Barometer,Solar Geolocator Twilight",47.05557,8.313702
+1266886176,Switzerland Lenzburg - Long term study on migratory movement of Alpine swifts (Apus melba),CC_0,false,false,2014-09-09 20:34:28.000,2017-04-22 21:03:03.000,25,13229,Apus melba,"Solar Geolocator,Accessory Measurements,Solar Geolocator Raw,Barometer,Solar Geolocator Twilight",47.38706,8.17857
+1219442736,Are movements of day- and night-time passerine migrants as different as day and night?,CC_0,true,false,2017-09-26 20:00:00.000,2018-11-18 07:55:23.000,123,134437,"Prunella modularis,Sylvia atricapilla","Bird Ring,Radio Transmitter",53.6833,8.0167
+939718445,Cassin's Vireo Sierra Nevada Geolocator Study,CC_0,false,false,,,4,,Vireo cassinii,"Solar Geolocator Raw,Solar Geolocator Twilight",38.6,-120.4
+1266896491,Switzerland Solothurn - Long term study on migratory movement of Alpine swifts (Apus melba),CC_0,false,false,2016-09-09 20:35:48.000,2017-04-13 20:55:48.000,9,3464,Apus melba,"Solar Geolocator,Accessory Measurements,Solar Geolocator Raw,Barometer,Solar Geolocator Twilight",47.2092,7.53367
+20202974,e-Obs GPRS Himalayan Griffon - Bhutan-MPIAB,CC_BY,false,false,2014-05-29 11:50:09.000,2023-06-02 06:00:32.000,23,6966648,Gyps himalayensis,"GPS,Acceleration",27.6446063819433,90.17578125
+1542155599,ICARUS Mongolia cuckoos Nymba,CC_0,false,false,2021-06-13 05:04:00.000,2022-03-03 16:41:00.000,12,1193,"Gallinago gallinago,Cuculus canorus","GPS,Acceleration,Accessory Measurements",47.7610698510002,109.502019722605
+1541820092,ICARUS Turkey Cagan,CC_0,false,false,2021-06-04 09:02:00.000,2022-03-01 22:54:00.000,7,984,"Cuculus canorus,Clamator glandarius","GPS,Accessory Measurements,Acoustic Telemetry",38.6826893178476,30.9430744373442
+1259710536,Turkey Pirasali - Long term study on migratory movement of Alpine swifts (Apus melba),CC_0,false,false,2014-09-20 18:19:37.000,2017-04-21 18:51:48.000,51,20186,Apus melba,"Solar Geolocator,Accessory Measurements,Solar Geolocator Raw,Barometer,Solar Geolocator Twilight",36.335139,30.532525
+246511326,"Striped Mud Turtles (Kinosternon baurii) Lakeland, FL",CC_BY,false,false,2016-09-02 15:00:00.000,2019-11-19 15:00:00.000,7,127,Kinosternon baurii,"GPS,Radio Transmitter",27.9943508853576,-81.8603897112189
+10204361,Pandion haliaetus Osprey - SouthEast Michigan,CC_0,true,false,2013-07-12 16:00:00.000,2018-03-09 15:00:00.000,22,291561,Pandion haliaetus,"GPS,Argos Doppler Shift,Accessory Measurements",42.5221386791283,-83.6868953704834
+163020445,Foraging by white-fronted geese after disturbance (data from Nolet et al. 2016),CC_0,false,false,2015-02-06 00:00:06.000,2015-03-06 23:30:06.000,9,2914,Anser albifrons,"GPS,Acceleration",51.823,5.973
+532621861,"Common cuckoo, Khakassia",CC_BY,false,false,2018-07-10 10:01:36.000,2019-10-05 10:01:36.000,5,83,Cuculus canorus,"GPS,Argos Doppler Shift",53.0,90.0
+6770990,MPIAB PNIC hurricane frigate tracking,CC_BY,true,false,2012-09-18 15:00:00.000,2016-05-13 23:02:46.000,9,18737,Fregata magnificens,"GPS,Argos Doppler Shift",21.5144067200303,-86.748046875
+1902221,Collared Peccary on BCI,CC_BY,false,false,2010-01-16 18:51:09.000,2010-01-25 18:11:25.998,1,665,Pecari tajacu,"GPS,Acceleration",9.16717873297669,-79.8541259765625
+890556697,Migration of male and female red-backed shrikes from southern Scandinavia (data from Pedersen et al. 2019),CC_0,false,false,2009-06-24 20:35:00.000,2016-02-29 17:21:00.000,29,18511,Lanius collurio,"Solar Geolocator,Solar Geolocator Raw,Solar Geolocator Twilight",55.98,12.33
+2931895,"Toucan movement and seed dispersal, Gamboa, Panama (data from Kays et al. 2011)",CC_0,true,false,2007-12-08 21:31:31.998,2007-12-16 15:15:24.000,9,2480,"Pteroglossus torquatus,Ramphastos sulfuratus,Ramphastos swainsonii","GPS,Acceleration",9.1292182,-79.6979556
+10449698,HUJ MPIAB White Stork GSM 2013,CC_BY,true,false,2013-07-13 10:05:23.000,2022-04-04 18:00:47.000,15,1701205,Ciconia ciconia,"GPS,Acceleration",52.1739316925685,12.161865234375
+8008999,LifeTrack White Stork South Africa,CC_BY,false,false,2012-11-30 02:00:43.998,2013-04-07 10:31:15.000,1,1935,Ciconia ciconia,"GPS,Acceleration",-29.4969875965358,23.3349609375
+7002955,HUJ MPIAB White Stork GSM E-Obs,CC_BY,true,false,2012-07-30 08:00:52.999,2015-09-05 12:00:51.000,18,570631,Ciconia ciconia,"GPS,Acceleration",52.11758,12.08735
+25166516,LifeTrack White Stork Poland ECG,CC_BY,false,true,2014-06-30 10:50:10.000,2015-09-21 18:15:13.000,21,597699,"Ciconia ciconia,Homo sapiens","GPS,Acceleration,Heart Rate",53.2356329684282,22.5302124023438
+1326534946,Black-legged Kittiwake Rissa tridactyla Middleton Island,CC_BY,false,false,2017-01-07 18:06:54.000,2017-07-08 07:12:21.000,38,10371911,"Rissa ,Rissa tridactyla","GPS,Acceleration",59.4349304,-146.4045243
+930926243,Migration Timing and Wintering Areas of Three Species of Flycatchers (Tyrannus) Breeding in the Great Plains of North America,CC_0,false,false,2011-06-23 17:00:00.000,2012-06-04 23:34:00.000,21,50,"Tyrannus tyrannus,Tyrannus verticalis,Tyrannus forficatus","Solar Geolocator,Solar Geolocator Raw,Solar Geolocator Twilight",34.6,-98.4
+7023252,Collective movement in wild baboons,CC_0,false,false,2012-08-01 02:59:57.000,2012-09-04 14:07:10.001,26,19208637,Papio anubis,"GPS,Acceleration",-0.15,36.84
+439735878,Hypsignathus monstrosus Olson Central Africa,CC_BY,false,false,2018-04-12 17:00:41.000,2019-02-15 17:00:47.000,11,9428,Hypsignathus monstrosus,"GPS,Acceleration",0.91358,15.59132
+560041066,Eastern flyway spring migration of adult white storks (data from Rotics et al. 2018),CC_BY,false,false,2012-01-22 02:00:44.000,2016-06-04 20:00:10.000,36,1207130,Ciconia ciconia,"GPS,Acceleration,Accessory Measurements",30.836,34.838
+53460105,Collective movement in wild baboons (data from Strandburg-Peshkin et al. 2015),CC_BY,false,false,2012-08-01 02:59:57.000,2012-08-14 14:59:00.999,26,10396627,Papio anubis,"GPS,Acceleration",-0.15,36.84
+171287018,HawkWatch International Golden Eagles,CC_0,true,false,1999-10-02 12:25:00.000,2009-10-17 07:29:36.000,33,23650,Aquila chrysaetos,"GPS,Argos Doppler Shift",33.127,-107.022
+2930072,Oilbirds (data from Holland et al. 2009),CC_0,false,false,2007-10-12 00:30:26.999,2009-02-06 00:00:44.001,40,3551,Steatornis caripensis,"GPS,Acceleration",10.2794185,-63.031528
+183770262,Long-distance seed dispersal by straw-coloured fruit bats (data from Abedi-Lartey et al. 2016),CC_0,false,false,2009-08-26 18:09:00.000,2013-09-25 05:31:00.000,29,5060,Eidolon helvum,"GPS,Acceleration",5.5863,-0.1838
+182459847,Whooper swans in Latvia 2016,CC_BY,false,false,2016-07-27 04:56:28.000,2019-12-31 12:13:28.000,12,32779,Cygnus cygnus,"GPS,Acceleration",56.8910033027846,22.291259765625
+1153270750,Whale shark movements in Gulf of Mexico,CC_BY,false,false,2009-06-11 00:00:00.000,2015-07-11 00:00:00.000,41,3382,Rhincodon typus,"GPS,Argos Doppler Shift",28.054,-90.905
+176770813,Vermont Center for Ecostudies Upland Sandpiper Annual Life Cycle Ecology,CC_BY,false,false,2016-04-24 03:57:11.000,2019-07-17 12:42:47.000,9,4626,Bartramia longicauda,"GPS,Argos Doppler Shift,Solar Geolocator",39.1007588668108,-96.608190536499
+177002088,"Baboon group movement, South Africa (data from Bonnell et al. 2016)",CC_0,false,false,2007-03-21 03:06:00.000,2008-04-14 14:26:00.000,14,61841,Papio hamadryas,"GPS,Natural Mark",-34.457182744575,20.4058905987768
+332044860,Fall migration of white storks in 2014,CC_BY,false,false,2014-08-01 02:00:23.000,2014-10-01 21:00:07.000,60,7149404,Ciconia ciconia,"GPS,Acceleration",47.753,8.934
+467107447,White-fronted goose full year tracks 2006-2010 Alterra IWWR,CC_BY,false,false,2007-01-11 12:00:00.000,2008-12-31 14:11:52.000,7,11806,Anser albifrons,"GPS,Argos Doppler Shift",51.78,5.934
+2988309,Great Cormorant Lake Constance MPIAB,CC_BY,true,false,2009-06-17 07:30:15.998,2012-07-19 01:48:47.000,11,10478,Phalacrocorax carbo,"GPS,Argos Doppler Shift,Acceleration",47.694,9.005
+99265106,Common Cuckoos from Rybachy,CC_0,false,false,2015-08-06 18:23:11.000,2020-04-19 17:50:10.000,51,1604,Cuculus canorus,"GPS,Argos Doppler Shift",55.1538888723342,20.8579301834106
+7431347,MPIAB Argos white stork tracking (1991-2017),CC_BY,false,false,1991-08-23 12:36:53.000,2017-01-21 18:25:57.000,209,181017,Ciconia ciconia,"GPS,Argos Doppler Shift",52.117,12.088
+1666470874,Pfoetchenalarm VOX 2021,CC_0,false,false,2021-08-06 01:01:00.000,2021-08-28 20:22:07.000,20,91371,Felis catus,"GPS,Acceleration",50.9398392975496,6.97603758185041
+1894170572,Pet cat Germany MPIAB 2022,CC_0,false,false,2021-12-18 09:00:51.000,2022-06-18 23:58:15.000,4,56991,Felis catus,"GPS,Acceleration",47.6958482559449,9.15002429125544
+80479,"Kinkajous on Pipeline Road, Panama (1995-1996)",CC_0,true,false,1995-10-21 04:00:00.000,1996-12-16 04:55:00.000,13,2867,Potos flavus,Radio Transmitter,9.15864573847257,-79.7478388874743
+10135184,St. Louis Box Turtle Project,CC_0,true,false,2012-03-21 06:00:00.000,2018-07-23 06:00:00.000,78,3122,Terrapene carolina,"GPS,Radio Transmitter,Acceleration",38.6388636468945,-90.2883911132812
+16880941,Turkey vultures in North and South America (data from Dodge et al. 2014),CC_0,true,false,2003-11-14 16:00:00.000,2013-03-19 03:00:00.000,19,215719,Cathartes aura,GPS,33.771,-117.711
+395654442,Plumbeous Pigeon Brazil,CC_0,false,false,2017-12-25 08:15:02.000,2018-08-29 19:27:10.000,2,276,Patagioenas plumbea,Argos Doppler Shift,-29.5,-50.2
+9493881,LifeTrack White Stork Uzbekistan,CC_BY,false,false,2013-06-01 00:00:17.000,2021-05-15 14:02:27.000,17,992505,Ciconia ciconia,"GPS,Acceleration",40.9964840143779,69.0380859375
+10157679,LifeTrack White Stork Tunisia,CC_BY,true,false,2013-06-08 06:55:26.001,2015-12-24 18:01:01.000,9,204727,Ciconia ciconia,"GPS,Acceleration",36.8092847020594,10.26123046875
+83912796,MPIAB training flights of juvenile greylag geese,CC_0,false,false,2015-07-02 08:09:30.998,2015-09-22 06:59:59.998,9,524830,Anser anser,"GPS,Acceleration",47.7988579190671,8.97720336914062
+1895716931,"Ancient murrelet ANMU, Wilson, George Island BC Canada",CC_0,false,false,2019-04-29 05:22:00.000,2024-05-11 01:25:00.000,111,13155,Synthliboramphus antiquus,"GPS,Accessory Measurements",52.349,-131.21
+1207235729,Coyote (Canis latrans) movement in the northern blue ridge mountains - Virginia,CC_0,false,false,2019-03-20 10:00:36.000,2021-01-10 14:00:19.000,2,8470,Canis latrans,GPS,38.8958426653794,-78.1587982177732
+924418031,Common Snipe GPS-GSM logger Poland-Russia,CC_0,false,false,2019-04-17 18:57:45.000,2019-10-12 15:01:30.000,2,6810,"Gallinago gallinago,Larus canus",GPS,59.6288682924741,34.4144903131157
+1577975863,"Space use and habitat selection of an invasive mesopredator (Felis catus) and sympatric, native apex predator (Canis dingo)",CC_0,false,false,2013-06-13 01:49:00.000,2015-11-30 00:00:25.000,42,60113,"Canis lupus,Felis catus",GPS,-26.23,121.56
+2988321,MPIAB Great Egret,CC_BY,true,false,2007-04-16 07:36:33.000,2012-02-16 16:03:02.000,1,917,Ardea alba,Argos Doppler Shift,51.961,14.332
+467037497,Ringed seals Sanikiluaq,CC_0,false,false,2006-09-10 15:33:00.000,2013-06-12 22:44:00.000,66,86804,Pusa hispida,Argos Doppler Shift,56.9449741808516,-78.75
+938783961,"MH_ANTWERPEN - Western marsh harriers (Circus aeruginosus, Accipitridae) breeding near Antwerp (Belgium)",CC_0,true,false,2018-07-18 10:45:39.000,2022-05-02 14:41:34.000,4,392935,"Buteo buteo,Circus aeruginosus","GPS,Acceleration",51.312,4.285
+47450376,"Sarus Crane, van Zalinge, Cambodia",CC_BY,true,false,2015-01-29 00:00:07.000,2017-06-07 09:00:23.000,11,49961,Grus antigone,"GPS,Acceleration",12.7046505082879,104.9853515625
+3809257699,African lions in Central Kalahari Botswana,CC_BY,false,false,2008-12-15 05:00:00.000,2012-04-04 21:00:00.000,13,241760,Panthera leo,GPS,-21.422,23.541
+212096177,LifeTrack White Stork Oberschwaben,CC_BY,false,false,2014-06-10 15:50:06.000,2026-09-25 10:02:01.000,18,2580589,Ciconia ciconia,"GPS,Acceleration,Accessory Measurements,Magnetometer,Orientation,Heart Rate",48.012,9.02
+2930370782,Arctic and red fox coexistence at the edge of Arctic,CC_BY,false,false,2017-05-09 00:00:00.000,2020-06-15 18:00:00.000,17,12840,"Vulpes vulpes,Vulpes lagopus",GPS,58.5361542870423,-93.2574462890589
+4124813,Black-necked crane Bhutan (UWICE-MPIAB),CC_BY,false,false,2011-02-06 09:00:49.001,2018-08-12 08:59:23.000,13,537238,Grus nigricollis,"GPS,Acceleration",27.4741612208799,90.516357421875
+3413045568,Habitrack European Turtle Dove,CC_BY,true,false,2024-04-16 12:19:16.000,2026-09-26 15:22:02.000,82,848565,Streptopelia turtur,GPS,48.841,2.359
+913538699,"Marbled Murrelet satellite tracking data from British Columbia, Canada 2014-2016",CC_BY,false,false,2014-04-21 02:03:00.000,2016-09-01 04:56:00.000,27,2348,Brachyramphus marmoratus,Argos Doppler Shift,52.0254586034881,-129.155273437499
+4154763386,"Cassin's Auklet at Triangle Island, northeast Pacific (1999-2001)",CC_BY,false,false,1999-06-10 19:00:00.000,2001-06-07 19:00:00.000,79,117,Ptychoramphus aleuticus,Radio Transmitter,50.867,-129.083
+1562253659,LifeTrack White Stork Sarralbe [ID_PROG 1093],CC_0,true,false,2021-06-06 00:29:41.000,2026-08-31 09:07:24.000,7,803265,Ciconia ciconia,"GPS,Acceleration,Magnetometer,Orientation",48.9996886863756,7.02841845124421
+446571,MPIAB Griffon Vulture Argos,CC_BY,false,false,1994-09-21 17:01:24.000,1997-10-07 17:51:19.000,7,4086,Gyps fulvus,Argos Doppler Shift,32.465,35.565
+173641633,LifeTrack White Stork Vorarlberg,CC_BY,false,false,2016-06-13 12:25:07.000,2026-09-24 18:30:18.000,28,10414450,Ciconia ciconia,"GPS,Acceleration,Magnetometer,Orientation",47.3933137526206,9.70012664445676
+574659339,Death's-head hawkmoth migration Europe,CC_BY,false,false,2018-09-10 18:30:00.000,2019-10-14 16:12:36.000,26,274,Acherontiini ,Radio Transmitter,47.5535246991344,8.87622194717072
+1518377,Brant Geese Sean Boyd 2005,CC_BY,false,false,2005-08-06 20:31:31.000,2006-07-20 00:09:57.000,23,13759,Branta bernicla,Argos Doppler Shift,76.1218929632411,-109.248046875
+4353860777,Use of multiple South American nonbreeding regions and seasonally distinct migration routes by an individual Scarlet Tanager (Piranga olivacea). Data from Raybuck et al. 2024.,CC_0,false,false,,,1,,Piranga olivacea,Solar Geolocator Twilight,41.64,-79.28
+18993393,Feral cats interaction with fire/grazing regimes,CC_0,false,false,2010-12-17 16:01:00.000,2013-08-17 03:45:16.000,44,193677,Felis catus,GPS,-17.4,126.1
+28691134,"Broad-winged Hawk habitat use, range, and movement ecology",CC_BY,true,false,2014-07-10 17:27:38.000,2026-09-23 12:28:27.000,60,83379,Buteo platypterus,"GPS,Argos Doppler Shift",40.6338,-75.9876
+4447816442,BTO - Whinnyfold 2021 - Kittiwake,CC_0,false,false,2021-06-23 12:02:00.000,2022-08-12 12:47:00.000,20,78462,Rissa tridactyla,GPS,57.385,-1.868
+2989306200,Galapagos Swallow-tailed Gull,CC_0,false,false,2008-08-01 22:11:01.000,2010-03-22 12:28:08.000,129,20767,Creagrus furcatus,GPS,-0.16479469466149,-90.6976318359292
+2658117564,UoG Northern gannet (breeders) Bass Rock HPAIV outbreak August 2022,CC_BY,false,false,2022-08-11 07:08:59.000,2022-09-29 22:58:48.000,10,39216,Morus bassanus,GPS,56.0762510054609,-2.64083862304681
+21231406,LifeTrack White Stork SW Germany,CC_BY,true,false,2013-06-24 06:39:34.998,2026-09-27 18:00:29.000,94,13275717,Ciconia ciconia,"GPS,Acceleration",48.01197512671,9.019775390625
+76367850,LifeTrack White Stork Rheinland-Pfalz,CC_BY,false,true,2015-06-13 18:00:06.000,2026-09-22 17:00:47.000,109,18955540,"Ciconia ciconia,Homo sapiens","GPS,Acceleration,Magnetometer,Orientation",49.2213729701727,8.16624405852053
+2830157729,Black-crowned night herons nesting at Lincoln Park Zoo,CC_0,true,false,2023-06-12 23:25:29.000,2025-08-22 00:01:05.000,21,34219,Nycticorax nycticorax,"GPS,Acceleration",41.9403396556217,-87.6369094848634
+10236270,LifeTrack White Stork Armenia,CC_BY,true,false,2013-06-16 09:26:54.000,2018-01-21 13:31:00.000,11,132392,Ciconia ciconia,"GPS,Acceleration",40.1998548890577,44.5166015625
+4725153649,"Choloepus hoffmanni, The Sloth Conservation Foundation, Puerto Viejo de Talamanca Costa Rica",CC_0,false,false,2021-01-22 06:00:00.000,2026-03-17 12:00:48.000,11,891,Choloepus hoffmanni,GPS,9.654,-82.7549
+943824007,Blue and fin whales Southern California 2014-2015 - Fastloc GPS data,CC_BY,false,false,2014-08-04 18:44:30.000,2015-08-06 20:34:53.000,13,17150,"Balaenoptera physalus,Balaenoptera musculus",GPS,33.75,-119.5
+650188969,Blue whales Eastern North Pacific 1993-2008 - Argos data,CC_BY,false,false,1993-08-29 01:23:17.000,2009-04-10 12:34:34.000,143,15545,Balaenoptera musculus,"GPS,Argos Doppler Shift",33.5,-119.5
+4739876185,King Rail Movements in Southwest Louisiana,CC_0,false,false,2023-02-13 05:02:08.000,2025-02-13 13:39:02.000,20,10738,Rallus elegans,GPS,29.9549345496556,-93.0322265625058
+1109284853,"Andean Condor Vultur gryphus Bariloche, Argentina, 2013-2018",CC_0,false,false,2013-01-24 16:20:00.000,2018-01-21 18:01:46.000,8,4959,Vultur gryphus,"GPS,Accessory Measurements",-41.153,-71.163
+146932094,"Common Crane Lithuania GPS, 2015-2016",CC_BY,false,false,2015-09-03 08:40:11.000,2022-03-30 11:05:19.000,3,528388,Grus grus,GPS,55.3391,24.5531
+4715484202,"Range-wide post- and pre-breeding migratory networks of a declining Neotropical-Nearctic migratory bird, the blackpoll warbler - Data collected after 2017",CC_BY,true,false,,,24,,Setophaga striata,Solar Geolocator Raw,47.38,-71.09
+227843945,Sperm whales Gulf of California 2007-2008 ADB Tags Fastloc GPS data,CC_BY,false,false,2007-03-27 17:36:26.000,2008-07-25 15:10:00.000,27,4506,Physeter macrocephalus,"GPS,Accessory Measurements",28.4,-112.3
+1903018561,SNGO migration tracking,CC_0,false,false,2019-05-07 10:00:07.000,2026-05-18 10:34:52.000,81,7548448,Anser ,GPS,47.158,-70.441
+1381387450,Sperm whales Gulf of California 2007-2008 ADB Tags Argos data,CC_BY,false,false,2007-03-27 19:40:03.000,2008-07-25 14:13:36.000,26,1219,Physeter macrocephalus,Argos Doppler Shift,28.4,-112.3
+1445058753,Larus heuglini_1,CC_0,false,false,2019-12-07 04:23:33.000,2022-09-28 08:00:12.000,1,787284,Larus fuscus,GPS,16.955397189344,54.0001398185259
+2956085063,Greater spear-nosed bat (Phyllostomus hastatus) in Bocas del Toro 2023,CC_0,false,false,2023-08-12 02:09:38.000,2023-08-19 05:57:57.000,25,16024,Phyllostomus hastatus,GPS,9.37488632530014,-82.2652854973661
+145038719,"Foraging movements of greater spear-nosed bats, Bocas del Toro",CC_BY,false,false,,,107,,"Bos taurus,Phyllostomus hastatus",GPS,9.396582,-82.271383
+1990236627,Greater spear-nosed bat (Phyllostomus hastatus) in Bocas del Toro 2021-2022,CC_0,false,false,2021-12-09 01:01:47.000,2022-03-21 04:30:00.000,53,26575,Phyllostomus hastatus,"GPS,Acceleration",9.39893583364957,-82.2766113281221
+3240092491,"Siberian rubythroat tracking from Qinghai, China",CC_0,false,false,2020-08-15 22:00:04.000,2023-01-18 22:00:10.000,16,434,Luscinia calliope,GPS,37.0,101.0
+5175345606,Bobcat habitat connectivity study in central California,CC_0,false,false,2017-06-03 21:00:27.000,2018-12-29 07:55:08.000,38,647712,"Lynx rufus,Urocyon cinereoargenteus","GPS,Acceleration",36.88,-121.6
+3179890710,Red Fox (Vulpes vulpes) in UK wet grasslands,CC_0,false,false,2016-03-16 06:32:00.000,2019-07-04 20:00:00.000,35,146072,Vulpes vulpes,GPS,51.052,-1.761
+3389603083,Bar-tailed Godwit geolocator tracking New Zealand 2013-2014,CC_BY,false,false,2013-02-12 07:53:08.000,2014-10-04 17:14:42.000,18,103,Limosa lapponica,"Solar Geolocator,Solar Geolocator Twilight",-40.4682372742687,175.228500366236
+3389607769,Red Knot geolocator tracking New Zealand 2013,CC_BY,false,false,2013-03-07 07:15:09.000,2013-11-05 00:29:06.000,6,61,Calidris canutus,"Solar Geolocator,Solar Geolocator Raw,Solar Geolocator Twilight",-40.4683025712987,175.22884368897
+2379775078,Hammer-headed fruit bats (Hypsignathus monstrosus) in the Republic of Congo,CC_0,false,false,2020-01-10 17:05:53.000,2020-01-31 04:40:07.000,32,32318,Hypsignathus monstrosus,"GPS,Acceleration",0.204,14.181
+4900735626,Common noctule migration SigFox MPIAB,CC_BY,false,false,2022-04-14 19:07:00.000,2024-06-15 18:18:29.000,136,4834,Nyctalus noctula,Sigfox Geolocation,47.624,9.215
+2793281264,Tapir in the Maya Forest,CC_0,false,false,2022-04-23 05:01:06.000,2023-01-26 16:00:00.000,1,171,Tapirus bairdii,GPS,18.389203,-89.897898
+934079034,Tracking movements of Peregrine Falcons Falco peregrinus from breeding populations in Arctic Eurasia,CC_BY,false,false,2009-06-12 10:06:21.000,2015-01-31 23:41:59.000,37,17045,Falco peregrinus,Argos Doppler Shift,70.6126142380193,95.625
+922820594,Tracking post-fledging dispersal and migration of juvenile Peregrine Falcons Falco peregrinus in Arctic Russia,CC_BY,false,false,2010-08-08 16:01:45.000,2013-01-02 16:04:37.000,9,4936,Falco peregrinus,Argos Doppler Shift,68.22,69.15
+543061768,USFWS Lesser Yellowlegs (Tringa flavipes) migratory movements,CC_0,true,false,2018-06-06 15:00:00.000,2021-09-03 21:15:00.000,115,6776,Tringa flavipes,"GPS,Argos Doppler Shift",61.1760182341757,-150.043535924558
+2984378217,1000 Cranes. Ukraine.,CC_BY,false,false,2019-06-19 00:46:36.000,2023-08-23 14:13:06.000,4,1793,Anthropoides virgo,GPS,47.961,31.594
+249737372,Thick-billed murre Gilchrist and Elliott Digges 2016,CC_0,false,false,2016-07-27 15:46:00.000,2016-08-15 23:09:06.000,132,221682,Uria lomvia,GPS,62.588283360244,-77.8853761777282
+247850178,Audubon Canyon Ranch egret telemetry project,CC_0,false,false,2017-06-08 18:30:23.000,2026-08-12 16:50:10.000,22,1865075,Ardea alba,"GPS,Acceleration",38.165497,-122.90094
+3392345835,Effects of artificial feeding on post-fledging movements of Egyptian vultures,CC_BY,false,false,2019-06-19 07:07:15.000,2021-09-12 16:46:24.000,18,470773,Neophron percnopterus,GPS,30.853,34.782
+2742048829,Elephant Research - Ivory Coast - Collar 2970 (Part I),CC_0,false,false,2019-02-12 20:03:07.000,2023-04-18 00:00:56.000,1,15096,Elephantidae ,GPS,6.886265,-4.910449
+5601779025,Elephant Research - Ivory Coast - Collar 2970 (Part II),CC_0,false,false,2023-04-20 02:01:01.000,2023-09-26 18:01:44.000,1,1255,Elephantidae ,GPS,6.844305,-4.927159
+136461320,The Leap of the Cat,CC_BY,false,false,1999-07-10 03:00:00.000,2001-02-24 03:00:00.000,10,91,Leopardus pardalis,Radio Transmitter,-22.5480743154182,-52.3004150390625
+3094468724,effects of experience on migratory and flight behavior of Egyptian vultures,CC_BY,true,false,2013-09-11 07:00:00.000,2022-10-10 12:47:00.000,65,4828744,Neophron percnopterus,"GPS,Acceleration",30.8527214072179,34.7820281982401
+10722328,"GPS telemetry of Common Cranes, Sweden",CC_BY,false,false,2013-07-10 19:53:03.000,2017-03-01 06:00:09.000,20,603756,Grus grus,GPS,59.8117,15.2737
+186171846,Migratory connectivity of purple martins (data from Fraser et al. 2016),CC_BY,false,false,2014-07-15 04:56:00.000,2015-12-15 03:59:00.000,14,128,Progne subis,GPS,49.9087870008671,-97.119140625
+3267664208,"Green turtles (Chelonia Mydas); Hays; Chagos Archipelago, Western Indian Ocean",CC_BY,false,false,2012-10-13 16:06:00.000,2019-07-28 18:06:31.000,33,55411,Chelonia mydas,"GPS,Argos Doppler Shift",-7.40877137750172,72.4562072753924
+2886960828,Homing pigeon flight kinematics,CC_BY,false,false,2019-04-03 09:11:32.000,2019-07-18 09:39:12.000,9,436368,Columba livia,"GPS,Acceleration,Barometer",47.7452,8.9665
+1027467132,Blue and fin whales Southern California 2014-2015 - Argos data,CC_BY,false,false,2014-08-04 18:55:26.000,2015-08-06 19:04:26.000,13,4263,"Balaenoptera physalus,Balaenoptera musculus",Argos Doppler Shift,33.75,-119.5
+1120088177,Migration of breeding white-crested Elaenia in Cape Horn,CC_0,false,false,,,15,,Elaenia albiceps,Solar Geolocator Raw,-54.9425020568293,-67.6549243926998
+229457444,Blue whales Eastern North Pacific 2003 State-space model output,CC_BY,false,false,2003-09-05 00:00:00.000,2004-01-31 00:00:00.000,1,149,Balaenoptera ,Argos Doppler Shift,34.2,-120.5
+1206927877,Pigeon Adriatic Sea DMS,CC_0,false,false,2020-07-21 00:00:01.000,2020-07-23 00:45:04.000,47,19910,Columba livia,GPS,44.4497090299529,11.8023143834249
+2924922,MPIAB Capercaillie Black Forest,CC_0,false,false,2009-05-02 03:51:00.999,2021-05-25 12:55:53.000,12,5488,Tetrao urogallus,"GPS,Acceleration",47.7890563,7.7494546
+3492555233,Re-visiting the Relationship between the Avian Visual Wulst and Homing Pigeon Navigation,CC_BY,false,false,2022-06-13 08:25:03.000,2022-07-22 09:56:07.000,37,3111842,Columba livia,GPS,43.6572,10.3039
+1165647238,MCP Mountain Plover Colorado,CC_0,false,false,2015-08-07 23:55:00.000,2019-07-02 11:43:37.000,8,1901,Charadrius montanus,GPS,39.1648065241112,-105.838336944557
+1097938025,marbledGodwit_CANADA_EC_argos,CC_0,true,false,2013-06-04 21:15:28.000,2019-10-09 17:18:56.000,8,16915,Limosa fedoa,Argos Doppler Shift,50.4714908514008,-111.972656249999
+3780829,Eagle owl Reinhard Vohwinkel MPIAB,CC_BY,false,false,2011-05-15 23:00:01.001,2017-05-04 23:59:56.000,19,518711,Bubo bubo,"GPS,Acceleration",51.33944444,7.05027778
+959756713,"A boreal songbird's migration across North America and the Atlantic Ocean, Setophaga striata",CC_0,false,false,2016-06-06 10:14:00.000,2017-06-26 18:19:51.000,21,12237,Setophaga striata,Solar Geolocator,60.7269436111019,-135.087890624999
+49904341,"European Honey-Buzzard, Southern Sweden",CC_0,true,false,1997-08-09 03:20:00.000,2007-05-10 12:44:37.000,15,1812,Pernis apivorus,Argos Doppler Shift,55.714,13.207
+2923486,Kinkajous on Pipeline Road Panama (data from Powell et al. 2017),CC_0,false,false,2010-01-19 01:20:56.000,2010-01-23 11:50:56.001,2,483,Potos flavus,"GPS,Acceleration",9.15701045555462,-79.7410011291504
+462476569,Navigation in homing pigeons (data from Zannoni et al. 2020),CC_0,false,false,2016-08-03 08:37:19.000,2017-09-04 08:17:06.000,163,672603,Columba livia,GPS,43.6571,10.3041
+404939825,Straw-colored fruit bats (Eidolon helvum) in Africa 2009-2014,CC_0,false,false,2009-08-26 18:09:01.000,2014-12-08 03:00:36.000,63,17970,Eidolon helvum,"GPS,Acceleration",5.587,-0.185
+1088836380,Carnivore movements near Black Rock Forest New York,CC_BY,true,false,2020-02-12 16:02:53.000,2026-09-04 20:20:45.000,9,152305,"Lynx rufus,Pekania pennanti","GPS,Acceleration",41.384723,-74.092103
+47449884,Pet Cats New Zealand,CC_0,true,false,2015-03-14 00:04:07.000,2017-06-29 21:04:40.000,233,30666,Felis catus,GPS,-41.2612914939199,174.814453125
+300222057,Pet Cats United Kingdom,CC_0,false,false,2017-06-03 01:02:09.000,2017-11-30 00:52:55.000,101,17866,Felis catus,GPS,50.1526,-5.0663
+681056756,Foraging movements of Lyle's flying foxes in Cambodia (data from Choden et al. 2019),CC_0,false,false,2016-04-19 00:12:00.000,2016-05-15 23:01:04.000,14,13522,Pteropus lylei,GPS,11.1973,105.0616
+15661938,Sperm whales Gulf of Mexico 2011-2013 - Fastloc GPS data,CC_BY,false,false,2011-07-10 23:16:00.000,2013-09-18 17:37:19.000,17,7759,Physeter macrocephalus,GPS,28.0,-88.0
+446107870,blueWingedTeal_USGS_ASC_argos,CC_0,true,false,2013-08-11 20:22:49.000,2016-12-23 12:43:25.000,42,33583,Anas discors,Argos Doppler Shift,42.0329743324414,-96.328125
+1070994859,Spatial ecology of copperhead snakes in an urban park,CC_0,false,false,2015-06-11 16:36:00.000,2018-06-29 15:22:00.000,36,1630,Agkistrodon contortrix,Radio Transmitter,35.15,-89.99
+452187673,Fin whales Gulf of California 2001 - Argos data,CC_BY,false,false,2001-03-22 23:48:24.000,2001-09-05 02:55:33.000,8,513,Balaenoptera physalus,Argos Doppler Shift,27.5,-111.6
+1093338949,Sperm whales Gulf of Mexico 2011-2013 ADB Tags - Argos data,CC_BY,false,false,2011-07-11 01:36:44.000,2013-09-19 03:09:46.000,17,5630,Physeter macrocephalus,Argos Doppler Shift,28.0,-88.0

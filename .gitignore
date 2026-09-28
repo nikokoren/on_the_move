@@ -8,3 +8,7 @@ node_modules/
 .wrangler/
 dist/
 .DS_Store
+
+# Pipeline download cache
+pipeline/.cache/
+__pycache__/

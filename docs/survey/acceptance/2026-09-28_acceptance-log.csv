@@ -1,0 +1,557 @@
+study_id,license_type,study_name,accepted_utc,terms_md5,terms_sha256,result
+1271155477,CC_0,Plastic bottle tracking ,2026-09-28T16:43:38Z,1c6aa3e5a6041959c507fa8f09589dc9,77ccba8609b5535668c14da7b245ef3dc4e6847f7aa840821c2edd3e256f80c6,accepted
+1268085753,CC_BY,BfRw Petrogale lateralis,2026-09-28T16:43:42Z,6f108ad7c2fa59ed64ab7d2403175cdf,a66aa16679733f339a439e9d4b2e586b17aace0b8fd7de5b2cb644ad3b9acf03,accepted
+1208033562,CC_0,Larus canus,2026-09-28T16:43:47Z,96131f3d3ec8ca6aa21fe7073e1dd633,5b73830b33f071ed77460506360407e6071702ea20320a21a1a35fde0f77814f,accepted
+6106595792,CC_0,Migration of Flamingo in Mumbai,2026-09-28T16:43:51Z,cf5eb9b7c7689f217d6ce8de45135165,564306b8c1ff391354743c113568076a99d0024307ebd21f2214c1c3ff4956fa,accepted
+1762674843,CC_BY,Underestimated scale of songbird offshore migration across the south-eastern North Sea during autumn,2026-09-28T16:43:55Z,7b4613adc907a06d04a023a4d9afe915,8b77fab16ba3ed1d689ef11f55651078cca6687c961680478d4075d5f933f136,accepted
+2815262899,CC_0,Etude sur la migration de la population de Gravelot à collier interrompu des Salins d’Hyères (83)[ID_PROG 630],2026-09-28T16:43:59Z,e267c3595f4b582f33297f62aa7626bf,37b9606dc23c255d1dcf441d0f997b926dcbaa0cb4d9131e76d1ee104304ef35,accepted
+5482391833,CC_0,"Bobcat spatial ecology study in the Olympic Peninsula, Washington",2026-09-28T16:44:03Z,047703f53ffc23374acf0b3561f3da0c,b204b70b73a472587c4696825eacd304550ec7ba496d97f3224c4db8c13bc344,accepted
+2943485,CC_0,NYSDEC Raptor Tracking,2026-09-28T16:44:08Z,5a5be8d4190724acf9e865fb3762a7b2,e194387027a2221e06b2e6f0ff886ee41df4f477bd8d7675c7f902f533a1ec20,accepted
+1552174975,CC_0,ICARUS Eurasian Jay,2026-09-28T16:44:13Z,6ce6b6a92f3142f244416e132316c439,0077864b48a04eed1334bbd99829c0a44c42d988180beee08d8a1d8cc377d675,accepted
+1524813670,CC_0,ICARUS marine Oregon,2026-09-28T16:44:21Z,73243653460c5dff74ab51a9dff8bc66,18aa99b08c6bb7e8ead65badc905757c699d6116abacabf4237a64adcbf1fca7,accepted
+446575,CC_0,MPIAB Lake Constance Ducks Argos,2026-09-28T16:44:27Z,44bd5f4378e9b2d39872fbfe8f4d01c3,f5b4ac2b6b673ed9b83e4bc2fda1e84be8c6df9eb090ed65b5b135102a29205d,accepted
+1531481854,CC_0,ICARUS Ascension Island Government,2026-09-28T16:44:32Z,896b0b206a92a0f51ccb0adc110dc965,276e2c2c2bfac3b38a933ab843d086df15ae50b84f498e2aab5aeccdfefde608,accepted
+2577502696,CC_0,Baird's tapir of the Maya Forest,2026-09-28T16:44:37Z,ded215a0aedffba95bbc250e0ee098ca,14d58b0141a2d1421a4fe35b704a7b074cd0eaf54ba9ab26de3edc63b084a42b,accepted
+468460067,CC_BY,Food for Thought: Comparative Frugivore Tracking [raw],2026-09-28T16:44:42Z,a698434007ff24ea1b84515123382fb0,9060a5f511c0e8b2af03772d3f07cc0192cf66123b3f25f81b90c3396b61227b,accepted
+2767749082,CC_0,Elephant Research - Mt. Cameroon - Collar 73056,2026-09-28T16:44:48Z,d29b405f9633f10b280d434eadd52ea3,382f1073192281888d00ad82708f72a13148262874c8dac1a8ebb8a8f42b1ffd,accepted
+176466071,CC_BY,Thayer's Gulls from the Canadian High Arctic,2026-09-28T16:44:52Z,7d5c27e285d0be1014660585de2706d6,6de1caaa6630fb0c0194d57b36d5733189b56665aa0a07eff98644070fcae17b,accepted
+6110638163,CC_BY,Myotis myotis - Ecofirst - Lontzen - GPS beacon,2026-09-28T16:44:58Z,0fcce0a1adf0a90c6bbb45ccb96892bd,f9faf19dfc8e70e7427f3940452eb230fbf58df58bc40d79168b511e90a2159a,accepted
+6088926882,CC_BY,Myotis myotis - Ecofirst - Ethe - GPS beacon,2026-09-28T16:45:03Z,87798e2e11a51c6516d10beedbad6130,beef2831e07d75310b72b72eefe85a5c53b8f5458249811fe93a81f8e8e8974e,accepted
+6110795855,CC_BY,Myotis myotis - Ecofirst - Ethe - Telemetry,2026-09-28T16:45:08Z,349bb435dde1f5122800f72154ba1ca6,6e3f7c53fe22ed4a34a9352a12e69744c418558de0e232f955ae67187a892130,accepted
+6110993253,CC_BY,Myotis myotis - Ecofirst - Lontzen - Telemetry,2026-09-28T16:45:12Z,638ebfb32cf833c00f017327c44a299f,6cc7c190a98523cc974c446fff81d12e0db5710b4ef26aefd660b9b3c617f418,accepted
+497087673,CC_BY,1000 Cranes. Russia. Altai.,2026-09-28T16:45:16Z,3b426519a6e048c4d892b32180c7d3db,2839013f0f2acdffdfb81d81f5e84ce5b9eeb27469d132078add90fe49ae2862,accepted
+542653863,CC_BY,1000 Cranes. Russia. Common Crane.,2026-09-28T16:45:21Z,2229795cf46cb674271112f1999fe1d9,8c520f8077789e3ce44caee3234b2ab7ad12ccca29ab157f57ecb1296e70d590,accepted
+496130871,CC_BY,1000 Cranes. Russia. Taman. Azov.,2026-09-28T16:45:26Z,d116861e0b30f995161185df44374933,f4a8a481592f5c2fbbdfde8f74044c884bea50251c0aec03d84d8d420c6c76b9,accepted
+497091077,CC_BY,1000 Cranes. Russia. Transbaikalia.,2026-09-28T16:45:31Z,8de364a4f26dc84e513aee7b3b3815a0,b8215becee87889c26d58ad69f7db95ea897d9fffd5a730dbf5fe7afb8bca536,accepted
+496136836,CC_BY,1000 Cranes. Russia. Volga-Ural Interfluve.,2026-09-28T16:45:36Z,7963dd01200ceb20563d3e01da960431,01e14c65dd4e540e7e014d6909485bf4cab185680e3673899699d9a47782e317,accepted
+497138661,CC_BY,1000 Cranes. Southern Kazakhstan.,2026-09-28T16:45:41Z,badf0a7b6544b24ecbd9d56a651ff11c,3580e649bdad48acbbd70c3ea86b8605f220a1db3e501475af1be2049eab5155,accepted
+3499991761,CC_0,Save the Duck - Amat school pet!,2026-09-28T16:45:45Z,aa9caa33158aa78e0512988129bf42a9,01c332ba817a2770af7f04c5e139fb6e1ae06d4d89d6348c3ecd73fdfaaa3768,accepted
+2784674897,CC_0,Elephant Research - Nki National Park (Cameroon) - Collar 40479,2026-09-28T16:45:49Z,38d1a24297027f10bc161d1ad884e107,21346124b53f2fbc9345c2185ae4376e8ee61372b3390d7f376ab0766797d190,accepted
+496344827,CC_0,Petrochelidon_pyrrhonota.Areta.Argentina ,2026-09-28T16:45:53Z,82dc5446cf3ac79e8fc25799c44ea6ca,39f6b3c7a0f3d1b22ac18da855ce0aba0c2b2fde52becfcde0229f8b39a6719a,accepted
+2784843611,CC_0,Elephant Research - Lobeke National Park (Cameroon) - Collar 39839,2026-09-28T16:45:57Z,af3cb5d0d532bd6596ba9733d976aea1,448e0cb251c5bade2a8578fa419dde87785fcf097a4458dad9c7ea1a92ad82f3,accepted
+1541499701,CC_0,ICARUS Latvia,2026-09-28T16:46:02Z,692777b1e4ce3d3c07ee42df7f1f5368,6d92994a4e6b79a169173ea9b819a7c0a0803bbab4b7f68f053785d5ff7e7ebf,accepted
+1542122039,CC_0,ICARUS Bhutan Nawang Norbu,2026-09-28T16:46:07Z,45f0832439f17570d1784282344a0eae,0244de44a8012170cb483eb59bb84f206aa3f2e65655b736adf44ded87941a15,accepted
+2765563865,CC_BY,Reproductive success of Bornean orangutan males: spread out in time but clustered in space,2026-09-28T16:46:11Z,2757b7e231b4349a6fc1a05a78fc8cf4,196973b1aa8e32b9ddede0e608f48d7ccf384328aa2caca040fd070e087676e3,accepted
+6428591553,CC_0,Geese Tracking Japan 2021_Aleutian Cackling Goose,2026-09-28T16:46:17Z,bcd613ecfcd8aa982f95a09591cbbdac,01f1915555dc73fb85fe5d7e8a857e6ac5475c51597dbac928bd2cfb0a6043c4,accepted
+6733649994,CC_BY,Tree Pipit geolocation in Czechia,2026-09-28T16:46:22Z,11e42129d51edc0bbcbe4924d17b2d4d,5eb33ace5860763a7cd6d59a691a7c4eec03c89bb468fcbeca51bbada37e6416,accepted
+24442409,CC_BY,LifeTrack White Stork Bavaria,"2026-09-28 (test run, before the bulk run)",3584fcbaab31e6a2f9e1dccaeeb0b97f,2c3553521d4a0ccc35503660ee6ec22312cf16a68b8e518e0ea7f6239949d4e1,accepted
+1410257352,CC_0,mixed,2026-09-28T16:46:28Z,638f8f5e78f2811ea9c79ad7e5d887ff,9654dffcd6272feb2bb6adcab517482e8b976fe8cee2654cdc1a5287a0c004be,accepted
+613825248,CC_BY,"MCP Rusty Blackbird Alberta, Alaska & New Hampshire",2026-09-28T16:46:32Z,41bef393fbd0687437a74b698bdd6ec6,d2b6244f28fdb5eee00e0805d0460f7e569501e4bbb759bbb6c288c527ace190,accepted
+1649411628,CC_0,"King cobra (Ophiophagus hannah), Elapidae, Thailand",2026-09-28T16:46:36Z,eb0d568c5cd510bef860c59fe8b05810,59930a156a6ab827bd6cb2a50083253c5a2d91bb75f7c9bc026bf737524ffbb2,accepted
+1906271210,CC_BY,"Dragons (Calotes versicolor), Balouch et al., Pakistan",2026-09-28T16:46:40Z,573cd22855152548c56a4524ef673e0a,64b0346a28f77a3771161bfaf5202e56b2753f6990ef355d2551c8229781cb65,accepted
+1554008783,CC_0,"Atlantic puffins; common murre; thick-billed murre; razorbill; Gannet Islands, Canada; Acadia University; Mallory",2026-09-28T16:46:45Z,4a50743a520fe2bcc014578e8c40346a,db2c57243151aa98313842a35ac040165c573396c9b3333087ac7ee7e3fc2d72,accepted
+3073786945,CC_BY,Nhumirim Carnivores,2026-09-28T16:46:49Z,e3e1384a2945589b488945b7782fe293,d281ecdb669590273d901c99fe0cf28ce1f979a69ee3d060b545013571d93066,accepted
+2290252202,CC_BY,Goose flight around New Year in W-Europe 2014-2021,2026-09-28T16:46:54Z,907244339c675a4f3ef8da56634aa035,c9b977c53d152aff179f1c01ee1fb39f10c537ab07beef8b0cfff5b03e67b818,accepted
+1962595,CC_BY,Seaducks in the Fehmarn Belt (southern Baltic),2026-09-28T16:47:00Z,27cef4bd51a83ee22079d26b32c98be5,d69331e544b91d4fca397e3ddc2229cb6abea047e96aa894e20af4387ac71b15,accepted
+6708221942,CC_0,Baffin Bay narwhal- 2009 to 2012 Argos data- Fisheries and Oceans Canada,2026-09-28T16:47:04Z,f48cd648c09d2b00f1e1c232451f006f,bcd34c1dd983ed44e8da53acbbccc4bd161be60af4990590e712e7ce34915396,accepted
+278258431,CC_BY,Black-headed gull -  Chroicocephalus ridibundus -  PP382 - Forez France,2026-09-28T16:47:08Z,72747608843c97ab518c89eb24faa09e,b9e92cb4c346739fc186ee9c784cbd931af77297495ccfd0736ab21f0bb370b2,accepted
+6510132327,CC_0,"Home range reduction of Tapirus terrestris raised by the Sarayaku community, Pastaza, Ecuador",2026-09-28T16:47:13Z,f0eafab552c33bd6a995a8a13177be69,981b0292dc0dfa0c47eb2c1a5ea1d70b2e1ce0a4e2a6c77de7224c2e26d9c382,accepted
+2602389249,CC_0,Arctic fox Bylot - Accelerometry,2026-09-28T16:47:18Z,4e51157a94a5cc5339df651151aaafba,2faca1451d7c55c5f78783dfe114666b618cb944821b1fe7acb431f1da658e79,accepted
+942774711,CC_0,Arctic fox Bylot - Argos tracking,2026-09-28T16:47:22Z,392a91cf67b1cbea57b942928717a8cf,0a50767df831c2d1e0945ddb77e52516ef0b3b22ae89eeea48e50f778df670ab,accepted
+1241071371,CC_0,Arctic fox Bylot - GPS-UHF tracking,2026-09-28T16:47:27Z,99c378e65f4bda2afb8dca421ca289c8,eaa2379e29f4cd2a77b18cc2ffe700394d8f72d2c652d860ee7ce59b994a06aa,accepted
+1371484814,CC_0,Arctic fox Herschel - Argos tracking,2026-09-28T16:47:32Z,028441d6da0cdf51900edd9890c5f40b,a6efb6f5bf72e97ffd45a14688c01d0cc97f21d1bbb628e4c3246f01bcc0608d,accepted
+887332716,CC_0,Arctic hare Alert - Argos tracking,2026-09-28T16:47:36Z,a64fcba7f04617291cf37c08ba77095a,c1118497dc9881069401a525d15f4b73b3b0da21639ab2e1e4d68ab06b134327,accepted
+4015912608,CC_0,"Eurasian Curlew in Flanders, Belgium: habitat use and breeding success",2026-09-28T16:47:39Z,77b4b5d7850fdc473e3cb58e145c39db,8c77f8e8d0a2e10e8bcf1d94b32fc44bd5d8d09280eaf426c3f9a8295a343f47,accepted
+1190932284,CC_0,"Abundance, connectivity, and seasonal movements of Light-footed Ridgway's Rails",2026-09-28T16:47:43Z,a78844fc5935e6538677af6051d1e1f4,23fae209e1655533020746b8ad4642f9802ee80767a23effd6dd98b2da2bb53f,accepted
+1349878794,CC_0,Biology of birds practical,2026-09-28T16:47:46Z,b77f460b33129aecaeab076ac9b9041a,a29e10351b70e56e8f661ad85ced9f66bc23eace309463e2f7204eaaef255e15,accepted
+2728151646,CC_0,"Fishing cat (Prionairulus viverrinus) study in Khao Sam Roi Yot, Thailand",2026-09-28T16:47:51Z,33225a623eb26e644617aa17b4744f2c,f07f5197d4d95a77642f8ba13abd1a08c823258e466790910fdd5c064a804199,accepted
+1498695900,CC_BY,ICARUS Russia Cuckoo Yenisey,2026-09-28T16:47:55Z,417b1dfaa7e57ae67363ce84676b7d00,9d7f66b86cf1169ba93050a9585a77ef25a6f7fe719caaaff67519c6db439ebd,accepted
+6321660560,CC_BY,GPS tracking of Texas Tortoises in South Texas USA (Guerra et al. 2025),2026-09-28T16:48:00Z,f10b2714b1229c08cf01c9c531a691ef,d1aba05d012a90b69510460b3d054bc0503d4dd02c97ddeffad021cedaba4d7e,accepted
+2782906165,CC_0,Elephant Research - Lobeke NP (Cameroon) - Collar 39840 [2005-2007],2026-09-28T16:48:06Z,c6ea270e02c25a3d5d9b743594b09b82,8d495811845301838bf77936cca62025f736a140a1b8be04eb61b2dbdf76e5f6,accepted
+3512638819,CC_0,"Locations of second-year rufa Red Knots in Florida, 2024",2026-09-28T16:48:11Z,9c3ede4a5654927a296ac1c0773b2047,6ad5914402173d35eec11895323f6df889bb46e182af83d4ade68468aa59d364,accepted
+1509697502,CC_0,Delmarva Wintering Waterfowl AIV and Poultry,2026-09-28T16:48:16Z,7b74a1aede29f71e6d8d48738438b3a2,d5f4db510eb290a682fb7554bde710450523a778c3d93f627a0ac33a99047c57,accepted
+2411977220,CC_0,Starling navigation SigFox MPIAB NIOO 2,2026-09-28T16:48:22Z,cc99c44ff78b9e1870d6d6763e03f48c,4fd9a35f19b885a85751b74e2de316a969633aeb8bfd043640a75b1139ab8b18,accepted
+2784086541,CC_0,Elephant Research - Lobeke NP (Cameroon) - Collar 39840 [2003-2004],2026-09-28T16:48:28Z,083361cf0761bb3c5a59c308606943d2,01b41e97e5bb26759544567c08da1f8d0f0cdbb28a2cb748b7e171b180b484d1,accepted
+4474483266,CC_0,"Migration routes of the Common Kestrel passing through Guiyang, China",2026-09-28T16:48:34Z,ecaa9396ed5aad7d830b2ac253524ee8,94c9863a183e1d95f501a794109d1e700a2df4d498b8348cf0ae479144e6ba72,accepted
+3578422072,CC_0,Galapagos barn owl project,2026-09-28T16:48:38Z,493b7d895d0cf8cf0239f573129e70d3,b436933b2d06ae2e51d76bdaf6cbb47fbf6931f82fed6232aff2951a8b18d110,accepted
+1424957626,CC_BY,pacifica Dunlin,2026-09-28T16:48:43Z,eb5732a51208f1ddd9ae97f0aefcdb58,9495cfb6ad12edf363e182815890d31d5cedd39f0436940fac8404ff0e2668ee,accepted
+1544656061,CC_0,ICARUS Cuckoo South Korea,2026-09-28T16:48:49Z,727b4c07a47f7c709178f05bc067b0a2,f10397432aa8ac3b8c7c39620b6818f2c4bb4372dcd6be1978df551b994928ba,accepted
+1915629500,CC_BY,Pied Avocet in China,2026-09-28T16:48:53Z,e71c077463d491bc6ccb5f8d2e1276db,1cf9526069a141f845352b015974f40b9fe14c0e2b0e9eeee589ef91b0fe5aa8,accepted
+8332508820,CC_0,bear - PZ - Virginia - location,2026-09-28T16:48:56Z,d2ff7c50730046501cf9b90dad32addc,f0705d043d440c62ff0c2f18b8be3a38c3aa511733c4f98d46d3a43372a6d7f7,accepted
+2122748764,CC_0,Peru Los Amigos SigFox ,2026-09-28T16:49:00Z,d64daa365cf6bbb3ef63107ff53f9789,9ce8d4f5321f02d4da51d2b8379a88525371454efe0c249873656dba6607dbe8,accepted
+1442168341,CC_0,Wading Bird Telemetry Gulf of Mexico,2026-09-28T16:49:05Z,f2add4c6f0e34f0e6e51f37113c01f28,2f7e15f44bae0d21f3f4955ef3da86ad68223f3baed8d8c11212872cc1887367,accepted
+3056865342,CC_0,Starling navigation ICARUS TinyFox 2023,2026-09-28T16:49:11Z,cedfe1adbe5a9a9e64b9dc3762b2c06c,a1b07282636dfe00018333c0b1f360aea67cbfbd4d1da5ff84deba124603d6d7,accepted
+1715067447,CC_0,ICARUS South Africa 2021,2026-09-28T16:49:15Z,1fd8bba282624dd62395b71ceb3da7ec,5d246b68f257ae5a73a8f9204fc0f0c850e6e940619ccb0e730d6a850e06ca9f,accepted
+3168000943,CC_0,Northern Gannet (Diving Bird Study),2026-09-28T16:49:19Z,7dde5a61a256541eb595ccaec3465e8b,05ee240356d39bae21e7e968cd71de178b3f3e5f4af078673d7afedd26cad4d4,accepted
+849807214,CC_BY,"Canadian Ringed Plover geolocation tracking, Bylot Island, Canada (data from Léandri-Breton et al. 2019)",2026-09-28T16:49:24Z,e30f895c7124f56f708050a183b3bc0a,046aab2a97db930c33cf3ca0837d6728e6682ac17c47cfd642a6930c0fd59060,accepted
+8037578518,CC_BY,Nyctalus leisleri - C. Scholz - Germany - GPS,2026-09-28T16:49:28Z,d3d9caa5b65a6dface697f896786030d,174cdb92953e09842bc41ae59e3e2acdbd3ad6ea5d22c8e03a14c62cef396079,accepted
+6456209836,CC_0,Wild pigs in Clemson Experimental Forest (South Carolina USA),2026-09-28T16:49:31Z,eb09577f6ba6858231ed51809de38477,f20c8ce99820f8e4590ac3591e4ef4f844e9a6b0597c1a99d18f69eba849d5cf,accepted
+8391597947,CC_0,Andrea's elephant- Iris project,2026-09-28T16:49:35Z,92e8ffaa6e1700d4434d279423bb7127,f1365a7155ed398b2df3f34d8324869646997a75f55e5ba512921ab80d8d0ddd,accepted
+1715076072,CC_0,ICARUS South Africa Ear tags,2026-09-28T16:49:41Z,2b8092be4ce3699c1a2afb7122a43a55,0c8a06fadd78609ec1ca230f2c86d65ff7436a78c87161e919e4bfca6d8eb239,accepted
+8391598072,CC_BY,andreas elephant iris project,2026-09-28T16:49:44Z,de85ba9b372a2666d351739fc2df6ee8,916c635c35a710643455e53824c616e3ba33a34d4f12122afdf21331fb6904dd,accepted
+78970444,CC_0,Painted Bunting ABM 2015,2026-09-28T16:49:48Z,73254d21495e39aa1a8879704561ca58,8469f58508f0560ac4c13099beb8e504667ccd9e7c0fe3923f74d8f408820aa3,accepted
+2782778381,CC_0,Elephant Research - Lobeke NP (Cameroon) - Collar 47574 [Dec 2005-2006],2026-09-28T16:49:52Z,f5a0c6b0185c91be09edbcf9456bbf70,544e98096ca28b8b4a27611b8bd8b989470a753c7335b14ba0c02b271295c0e7,accepted
+1725991696,CC_0,BTO - Bangor 2021 - Black Guillemot,2026-09-28T16:49:55Z,f069881b74d2d8bb967e2df2e04f217a,8cc55eaf8b98c9aeb7070a3056b9e69238c4c81c8fb4cf834c8d4daa01034188,accepted
+2780856017,CC_0,Elephant Research - Dja Reserve (Cameroon) - Collar 46178,2026-09-28T16:49:59Z,1dbafa6ce79173a09a55e9ecb4f7bd2f,118d7d25698d9d49ff7d420f7c71ede10dd8afd20124217556adf3557be88e84,accepted
+2780885956,CC_0,Elephant Research - Benoue National Park (Cameroon) - Collar 47792,2026-09-28T16:50:03Z,4912981d5a1c98eaadefe29d04afd0c2,600ff7b16ddf2172135c1d70d0c0d2dfe47d6f0c893f2a178d9f2886b60cca4e,accepted
+7786170775,CC_BY,Domestic mountain goat-HuaCheng-China,2026-09-28T16:50:11Z,3b959652e076a8889395252ae1ddcfd4,b11169e6a7f5ee657c4abe5189563abc756c60a0a4c9f1ecdf5cdef1c31457ab,accepted
+305974507,CC_BY,"Northern gannets, Les Etacs, Alderney",2026-09-28T16:50:18Z,63ed95c75f15f7a5ff154e5305d3389c,d1b034499fab589bf4f1b0ecca62bfe69f72bc13be01c75ed8b991464dcf0a32,accepted
+1321461925,CC_0,Grazing personalities of beef cattle: cross-sectional data set,2026-09-28T16:50:24Z,df7dea056fcfd687b39f928c904caf42,0ff1874c476e7b020b5c899568152ab036f545205c891ee3ae1e641d39df2ae1,accepted
+1321429570,CC_0,Grazing personalities of beef cattle: longitudinal data set,2026-09-28T16:50:28Z,77d39399acce6daa4fba7a3e97fd5ffd,929079eb44acb6fd989ee54366ca93e9078b4d88f8ccd7549bb5edc9ba500df2,accepted
+2282953625,CC_BY,Non-breeding movements of Bicknell’s Thrush using archival high-resolution GPS tags,2026-09-28T16:50:32Z,2d96d7afd64d3ced4d1607399810e907,0acbdf91d7747a902b182a7bf39f87335395543d34d70c1e10b77af2554e96d1,accepted
+1162722581,CC_0,Foraging ecology of masked boobies (Sula dactylatra) in the world’s largest “oceanic desert”,2026-09-28T16:50:36Z,b25b0dbf95d82876905c93989ff3bcbf,6683924a83024b069143cd9b2061e9a3a2e1c18d64b380bd696f035db144a7cd,accepted
+2784539839,CC_0,Elephant Research - Lobeke NP (Cameroon) - Collar 47574 [2004],2026-09-28T16:50:43Z,ef23c3c36afa16ef3a26586b6faca6a1,e94e07cad2be4741cd143d58b9251a9b9995027c4e3af624b9b2fe5a6b81ce14,accepted
+67281010,CC_BY,NC Wood Stork Tracking,2026-09-28T16:50:52Z,727daef4e94e9f31dc828f9bb03b00e6,bfcacdaca4b193382b47ca832b5e4492139f42108a0f057bf1250d6f3c19f695,accepted
+6793037828,CC_0,Age-dependent response to anthropogenic habitat during migration of an endangered raptor,2026-09-28T16:50:57Z,b1d9324834f7cab8cab2a1867903e33d,33fc770949b2e88641f779914183c99cf8f0f3c72f51293e94c63d524f713ec9,accepted
+3168030668,CC_0,Red-throated Loon (Diving Bird Study),2026-09-28T16:51:02Z,197ca044ee998fcd778c1327d642132c,4d2fa7ccaeb3c87a8c1b7b439becafc40c77133dc5125d2df51a69f3a3777de4,accepted
+2782814829,CC_0,Elephant Research - Lobeke NP (Cameroon) - Collar 47574 [Sep-Oct 2005],2026-09-28T16:51:06Z,7ba774153d5e10cd7f9f302b4e103118,35d947bd5b22e2f39673ef8bfc21448f1f9176209d618c80c64102b6c51140c9,accepted
+5022396890,CC_0,Juan Fernández Petrel Pterodroma externa Geolocator Tracking,2026-09-28T16:51:11Z,f70259cc91527d9223923f1cb2419a9e,239065b6adde91897b332a71c670f843f175d5a214b75850cd46a5dbbbe9154d,accepted
+2225554945,CC_0,Denali National Park Critical Connections - Arctic Warbler,2026-09-28T16:51:17Z,dd03d1d9d93a5c7d59b67e0077337d41,897c0d98e610be6878df72159de6574e6cd8d877612be2693a30f4848bfd561e,accepted
+3360767360,CC_0,Surf Scoter (Diving Bird Study),2026-09-28T16:51:20Z,76edb4ce1d7022e06487474b9b2d14dd,0438ac4a05909cfb012c6a1ff13ecd902a50c1ed347ad0e59eef073da8744412,accepted
+2607973338,CC_0,Eli,2026-09-28T16:51:25Z,1dfc00fc060843da6a464fdfdf0a4612,a415e7e6935b2676589423a850a6a938dfe3ae205f8fcf5112ad1fdafbfb552d,accepted
+1605024900,CC_0,Forest Park Living Lab,2026-09-28T16:51:32Z,79e7402e1cd9a4c5d550a0f31414f138,81d3028552fa58796cdf3fccc0360fa81655eeec7606c20adbb0fcfd5da2eda7,accepted
+1942479572,CC_0,Kruger Hounds,2026-09-28T16:51:37Z,c7b7fb61dc5bf59a11706f10b8089dd0,42a78c39a5830848a5fd52a34009be1fc96597106b469dabcba7539dda12df25,accepted
+4247144513,CC_0,STRETCH MOANA KAI,2026-09-28T16:51:41Z,58ee751949875a8b0c31b908e7f94c38,7c8e5b5742f545296916e7fcdab496ab42ec6f2c886a50447dfc5e1b179db621,accepted
+1727177831,CC_0,BTO - Copeland 2021 - Black Guillemot,2026-09-28T16:51:46Z,4436f0936c25816e12b811b7743c3f2a,766e70f8d825fefdd5e368d5fd6a2fcc9f63381c89afb4942d4c16cb368641ab,accepted
+2928116,CC_BY,Galapagos Tortoise Movement Ecology Programme,2026-09-28T16:51:51Z,0b223b1963b2c804927708e7a4e958a4,222874bdf93bbf579ad7a86c6ebfee8c78c04aae7e9fe16a3db86c931a167faa,accepted
+1490219581,CC_0,Atlantic Eiders - GSM,2026-09-28T16:51:56Z,5caa2f5ba2b521c8fd8d9d81390bcc05,8f0f0e8863cdea3789240ec9efb9376c139e16b3ac75a479248cf3e166ff41f5,accepted
+7657698270,CC_BY,Water rail_Tay Reedbed Scotland_Geolocator,2026-09-28T16:52:00Z,0beafd4dbe2db9f5d8aeca92fe0468aa,3a0ad5ff480f8c2ac123cbe779e82e80d7a91465b890ebc39707cd6fda726cd9,accepted
+2549043743,CC_0,Wyoming Sublette Mule Deer (2018-2020),2026-09-28T16:52:06Z,32c3b65b5ab1007ee97a63a5e974bf69,45a8c7a00c6f2680e11e61f206bbbe3db3526a36667996a023abaa1654c22af7,accepted
+3597178490,CC_0,Common Buzzard B.Buteo FR2023 The Netherlands,2026-09-28T16:52:15Z,4c16a7b7a37dc6585e516f80b6f0156b,149fb7803abf36791f98c236d582d79bbf30c6fd02da348a118a95ec6aafa221,accepted
+1285079529,CC_BY,Monitoring of Capra ibex (Bovidae) populations  in  the western alps (project ALCOTRA LEMED-IBEX),2026-09-28T16:52:19Z,81bf90126c095e8bc242e9121abd408d,2d5d5bd1dfaa5296cbb10b9635261a9fa93b033efe99c10b7716f29b1faf00ac,accepted
+9022680555,CC_BY,"White and Seavey Islands, New Hampshire MBON common tern GPS telemetry 2024",2026-09-28T16:52:23Z,938545b5ffeff48ea2dfe250eb9aea1e,abf9ec9aa5ee95c661464191d6071571cab08a5059ee4fec79046dc3819081a6,accepted
+8531131637,CC_BY,Water buffalo (Bubalus bubalis) - Djelk IPA - GPS,2026-09-28T16:52:27Z,25a43333d5cce734ad1cb29ad42c90d4,d09ce12c53486391100a5088eeb6ef825e13a67304ea1434449987bf821a2aac,accepted
+1736857677,CC_0,Feral cats and fenced reserves,2026-09-28T16:52:32Z,f0549af4c905585d4d8c0927e8197a09,77e1bbe3f6ea5a6ba7d059bf5273beb31e3e51e681437fd86b5faa16489a2cc3,accepted
+9291121074,CC_0,"Movement of a crop-foraging chacma baboon in South Africa (data from Walton et al., 2021)",2026-09-28T16:52:36Z,ec974bca7694cabc74c0c68ac17e3474,effb66e0accf8a2dbc4e634a9489ed7d762bfeb9d50b87598c588b23a6a2b063,accepted
+2782709943,CC_0,Elephant Research - Benoue National Park (Cameroon) - Collar 47574,2026-09-28T16:52:40Z,50731688be76357ec170911acd234289,dc4409918a761abfdd0ea17f4ad10c394c41aa297608559deb4b923e61d1068b,accepted
+384172482,CC_BY,Osprey in North and South America 1995-2002 (Martell),2026-09-28T16:52:44Z,463cb59aa024e349ffa9c6916e0a1a6c,70b27d0d8b2179451db940bb5ee88dff214029e8df2d6c5976aaddbb5af9a2eb,accepted
+3066962629,CC_0,"Brandt's Cormorant BRAC, Salish Sea BC Canada (GPS)",2026-09-28T16:52:49Z,acc7a38850d079e5bb8ff4b00907e682,f475974695baeaa05bd69e03bb0c03eb6471968bf7b559c29356337b60386f8e,accepted
+8288433050,CC_BY,Lesser White fronted goose in Greece,2026-09-28T16:52:53Z,7a4b8c6893e8f3016f92bca5dd86992e,38b24bb955b6fe7063c98a51e30da818fc6473261d684a22117bdc2dd986af30,accepted
+2553108901,CC_0,GPS tracking of white-tailed deer in western Virginia,2026-09-28T16:52:58Z,1472397051b85ec16b3fdf95bf2c58d3,732084904e46772de68b9010531968331d0a535d2e2547a6839df5e48e0d68fc,accepted
+2564825948,CC_BY,American black bear movement ecology in Connecticut,2026-09-28T16:53:02Z,af6a8655f2d58625064696fc4f47f884,5c511cdd9584d2ed034655f50e400efd521c9aeb0e5bbb78cd8f317ad687577e,accepted
+2575458863,CC_0,GPS tracking of wild pigs in southern Florida (2019-2021),2026-09-28T16:53:06Z,b2db5b0b6bf296a2a2492687ef9ac6ff,66bcbe2ea48d2382011c677896ca831983f94576b371a0f94166375ec8862ffa,accepted
+259354593,CC_0,Golden Eagle Nevada,2026-09-28T16:53:10Z,51362a70b84820823bfbd35a36b2f9ea,e06f78bfb1920d4a55a8231dd84f6c5a700feba0d85811b7347487b344a5cd75,accepted
+1450604622,CC_0,GPS tracking of American Goshawks--Nevada Department of Wildlife,2026-09-28T16:53:13Z,2e21d274bf5f1656b6a6dd7e2f5c0438,8ff4333a3532f7097a5a1230f7d1338432b563c58af45127518a0ed780b5c374,accepted
+7577228439,CC_BY,Migratory trajectory of the Northern Boobook,2026-09-28T16:53:17Z,293e63bda742df1c770d2fc207be3784,7cde4771d6305be446faff6029a40d3ba4709f6875cbb10f048985143708ae5c,accepted
+2561156373,CC_0,GPS tracking of cougars in Utah by UDWR (2019-2020),2026-09-28T16:53:20Z,1ee1005152eedf7ea071ef4b099e2201,a191792bd425019ba45e14ec5d726789b518f61d1959dca036b08f87aa350c06,accepted
+7364502758,CC_0,GPS tracking of ungulates in Utah by UDWR (2019-2020),2026-09-28T16:53:26Z,c115dca2cc081f59e9896eab4a4916de,239a77cb02b98d6e7f0e5c46cec8fe0491844f04e04a0bca552c06644e20fb60,accepted
+2782472379,CC_0,Elephant Research - Waza National Park (Cameroon) - Collar 47573,2026-09-28T16:53:30Z,1242737904cb7e0073413abea1d2c5a7,ab84e50e2fe4e4a18db836b62beb67ffe657f079bdd485ea1f11b2d0d61913b6,accepted
+2782743400,CC_0,Elephant Research - Waza National Park (Cameroon) - Collar 47571,2026-09-28T16:53:33Z,f46310518b680e1d1e1bac1244e0533b,75be2657c49a645cc73d71e77dc6c9102b04a2e609d7a69bfa8deb1a62a35348,accepted
+1996035916,CC_BY,GPS tracking of American crows in central Pennsylvania,2026-09-28T16:53:37Z,e70bf084e2a57c341943f71aed538a28,3f099a4be91a3243f4334792553a4cad908045d28535cd471fd4193f73c04d66,accepted
+2768923571,CC_0,Elephant Research - Mt. Cameroon - Collar 73057,2026-09-28T16:53:41Z,cea6bff481dcf47e50528dbe30ca699f,5bca7507b885aaeb33193426ef91cd2521a43c651d962298f9cda4764ba67fde,accepted
+2768980754,CC_0,Elephant Research - Mt. Cameroon - Collar 87528,2026-09-28T16:53:44Z,3f67eb98c84d683a984ba9f10d2e1ec0,b0c8d69ff8061b5afde6c088ffa35930391e427d0c7223301d70b7531e196ec3,accepted
+2783911041,CC_0,Elephant Research - Waza National Park (Cameroon) - Collar 47793,2026-09-28T16:53:49Z,5231a1d9fc39537d401e406f36b71630,fad45526ac545c4cd1ecc57d50b656c2c738fdc3a5a7bda919647d4dba775e24,accepted
+2769077832,CC_0,Elephant Research - Mt. Cameroon - Collar 99094,2026-09-28T16:53:54Z,5080041c0ad9b17aadff3168d91fa5b8,36afca0585a265e9c43c28c8914c0cae31be1f68f50a662f01c47ab2813365b3,accepted
+2769152411,CC_0,Elephant Research - Mt. Cameroon - Collar 99095,2026-09-28T16:53:59Z,beeb232fbd6a765ee7b256cddb87eebf,e237971854110b4e6462a4b3944726e5b8dc2a65bcc98fbb4ab7872f2b7d60c9,accepted
+8828410463,CC_BY,Pedionomus torquatus - Zoos Victoria - Victorian Northern Plains - Tracking Telemetry,2026-09-28T16:54:02Z,244e27fdbc1776ce681e607f5e56f06c,d86fd291329f9937b7075871a7645d15741e0ea4a522b4e827e5ca3b27bed766,accepted
+2770987821,CC_0,Elephant Research - Yankari Game Reserve (Nigeria) - Collar 126820,2026-09-28T16:54:06Z,81985cfb45a57eb136aec088c7cb9158,5a6fdfb1075a0c28af9314fc83b2225143e4254998df6277443cfec92743c42a,accepted
+1884059896,CC_0,Movement Ecology of Campo Miners Geositta poeciloptera,2026-09-28T16:54:14Z,a99b3ffc64a09a12589b1a155a9a9db2,c9ddd4981ac071dea25f169787b8cd99d85b9b078ccdbae9f7a4337cec5039a7,accepted
+2771026805,CC_0,Elephant Research - Yankari Game Reserve (Nigeria) - Collar 126821,2026-09-28T16:54:18Z,d99227879f322dc002787ca1158c8897,1f22555ab6afd7643e0878a0765edd62198c00e7e9837bf2a4a43543ca7bed6f,accepted
+2784018067,CC_0,Elephant Research - Nki National Park (Cameroon) - Collar 40480,2026-09-28T16:54:23Z,d2a072d52c8ff9e5e2e960d07d38df34,784c81bb0e08f54b8939516e177ca37a86b928e4b60c1f684a7102eec4903af3,accepted
+902300371,CC_0,LifeTrack Common Buzzard SWGermany MPIAB,2026-09-28T16:54:29Z,db13dc8aeb7cae2670ed2188248e3187,afe943371c5874892e2ea12038d4982d362e6f34a89b01c4108f00e25568237f,accepted
+2789567971,CC_0,Elephant Research - Benoue National Park (Cameroon) - Collar 09105,2026-09-28T16:54:34Z,c1ceedbb75de8cca9d2563641da2e840,d6eceeef4becfcbe4c5229a7fa7c305c6710467f5b6de2a13e8c4ee06ca3a0db,accepted
+2789865394,CC_0,Elephant Research - Waza National Park (Cameroon) - Collar 03273,2026-09-28T16:54:40Z,1d3029c2b5e21342d5daebf0cc5c66df,4f5115eefb5ba01ccc3755ac2d48dcfef09de771a75fdb66196547727d61f54d,accepted
+2789883238,CC_0,Elephant Research - Lobeke National Park (Cameroon) - Collar 14118,2026-09-28T16:54:44Z,d92fba8a763b354bc077b3769dcd0f21,7b96fb1767c71ea1aa5c7595c349424fe0db21e6d4300efced59d71d68a7df08,accepted
+2789984192,CC_0,Elephant Research - Waza National Park (Cameroon) - Collar 09105,2026-09-28T16:54:49Z,972cebc61b15faeb377549a2c0e8f316,be274e5ccdc5ff31ee4bc01504c92364606dba19ee60bdc31d390af4ecb4887b,accepted
+2174892854,CC_0,Performance of six lightweight automated tracking devices for birds - data archive,2026-09-28T16:54:53Z,8410581d2968931931309f26e291a3f9,125875835f7f42c2ec65fbd60c2a34940b39c8e0c307e5af0808698449892684,accepted
+2789896888,CC_0,Elephant Research - Lobeke National Park (Cameroon) - Collar 14120,2026-09-28T16:54:57Z,d830e4c458ca9e7be1e99647baf61603,c37cacd8dbd65467cfa0448ccd3353e7c51edd61f310e347fded3e82a97035ca,accepted
+2789946082,CC_0,Elephant Research - Kalamaloue National Park (Cameroon) - Collar 14191,2026-09-28T16:55:01Z,976082b9db23f546c8fb5722a0236873,5d2b8a5aabf8a80194bda44447cbb8d72cb3fbcd94d6463f11e47a1371f27967,accepted
+2791438231,CC_0,Elephant Research - Benoue National Park (Cameroon) - Collar 09104,2026-09-28T16:55:04Z,09943d0e50fc52077f6c02732a23dce0,2dd1c2e76ace11c352c860e891121118e73e182e0e2641e7f593a9e4a3d31042,accepted
+9103351859,CC_BY,"Carpathia vultures, return of griffon vultures in Romania",2026-09-28T16:55:09Z,2d7050000fff8378984af4e6ccc57473,2ef16513fa88eef884ac85129e84fb3977d30abc1570f2d7b5f99bf70cb6f1e7,accepted
+19148474,CC_0,Post-hibernation and early migration in noctule bats (data from Dechmann et al. 2014),2026-09-28T16:55:13Z,6e62826302f55bd3456ef83117b76f04,43c766ba8e8969a1d94881157136210db5feeb8b4f776c287a4ff394b4ce217e,accepted
+2791458509,CC_0,Elephant Research - Benoue National Park (Cameroon) - Collar 14121,2026-09-28T16:55:17Z,d25000d28418837b2ab3617cd2a51ab8,f3e5dfdc9adc0785ebcea258223c97bcafed9099a8583b7f04fbdc6801285487,accepted
+2791483275,CC_0,Elephant Research - Bouba Njida National Park (Cameroon) - Collar 14117,2026-09-28T16:55:20Z,6a50787835c55f182777e73b15fcfcf9,4a225422aaec7fec4c2aa09c13068f9481d38bb496679921687dc6822893f1a5,accepted
+9158384718,CC_BY,black kite—rongcanzhong—guangdongchina—GPS,2026-09-28T16:55:23Z,953eedc823d1a57c4bd584d41f743fae,130750d2d3e609f061087854ea2ad7f17c20d7a1ecb6a92289881dbc3a429f1e,accepted
+259966228,CC_0,Movement syndromes across vertebrate taxa (data from Abrahms et al. 2017),2026-09-28T16:55:27Z,f98faa6324597bfc59af5b7da8459e4e,49fc0ab51562a7cef6d86419bfc2325bb24434ea5c5e153703c991520efdc962,accepted
+17471653,CC_BY,Leadership in homing pigeon flocks (Columba livia) (data from Santos et al. 2014),2026-09-28T16:55:33Z,0096d11496f975e9cdf9879a9e508970,f7b2cbdfb461d3b3c5cd5448ab042fd2ec1e2a9b038f4c9e6dea40d6914528c3,accepted
+9257722039,CC_BY,Red Foxes - Vulpes vulpes - Carlisle Heath,2026-09-28T16:55:37Z,e3caa4338ffd3375c2a2878c672ecf0a,b649e76f73ddc42491f2c5fa961a2ea91e757663e1b6ee63ff9a9fa97181dd6d,accepted
+9054332304,CC_BY,Long-nosed Potoroo - Potorous tridactylus - Carlisle Heath,2026-09-28T16:55:41Z,3399e7db96b4d58f29b4f91ce1f28f0b,233c7b9484e4a9d74d8d04857baea30f6ea4227d9a5c09814ee041a6c2ec6151,accepted
+9257692971,CC_BY,Feral Cats - Felis catus - Carlisle Heath,2026-09-28T16:55:45Z,0229f53c02bd70ac4fd81bef67074955,a19ee6ea5d58c372d88dbd87da5e73afa367f8c763cd9b379788fcc1ce3051f2,accepted
+1233933180,CC_0,Multi-Scale Spatial and Movement Ecology of Gray Hawks in a Fragmented Subtropical Landscape,2026-09-28T16:55:51Z,b9468fe309906752c281c2d82dc3d1e3,5f2d9473788295ecfcf14deddcd0d032bcc6b8d00f50a363196b5ceff8957b4e,accepted
+1942427602,CC_0,Tracking of migration strategies of Eurasian whimbrel (Numenius phaeopus) in stopover in Vendée ,2026-09-28T16:55:56Z,af820845ad758dc75dfc19f43117400a,f02ac55dacb3d43c7779047e563ea8aa0083e93f5532d020f69adfdfc19688fd,accepted
+9344797460,CC_0,Releases from bird care centres in Germany,2026-09-28T16:55:59Z,afffeb25fdf38f395433b92d7eff68a5,0802317be37188dbb340b11b81dbe291b706b39195b7559bdcfb45f65b18e8ad,accepted
+2932936747,CC_0,Daily movements of the Common Crane. Kondrakova et al.,2026-09-28T16:56:04Z,557d9859ed561731df930b7352f2eae5,c9545a15057a8aa13f4f68c7ffa12152ac70724a8386c005b83e50b18a34a76c,accepted
+2082834654,CC_0,Starling navigation SigFox MPIAB NIOO,2026-09-28T16:56:12Z,27875d7d6625e01eaef7812d88f94c9d,14a53afa88dd5faa474a6ba58b749127362ea604af6d435b4cfdde8b2a779fe3,accepted
+2660463330,CC_BY,Movement of female barn swallows during breeding in Colorado 2021 from Kenny-Duddela et al. 2025,2026-09-28T16:56:18Z,7d89507c9c94cbbd2b3e0ddbd011aeef,534a8bc55ac3970f1526e613ba6ef126f07af5eae75ef493001e43f04488b6d3,accepted
+446667,CC_BY,MPIAB White Stork South African Population Argos,2026-09-28T16:56:22Z,4a958f627f89e2dc83e897c5cad21bfe,6c15ee0db97d44fe798b4464c7e52f37adb990b6a101aeeeadcc9a431a9c084a,accepted
+1229945587,CC_0,Common Crane 2020 (Lithuanian University of Educational Studies; LEU),2026-09-28T16:56:27Z,162bde91aaece7f7f8e7a49b0f98099a,fdb47c260466da22e7c3497a634743f4eb01b040a650ab0ec008be3d57388396,accepted
+49535504,CC_BY,Foraging behaviour and fuel accumulation of pink-footed geese (data from Chudzińska et al. 2016),2026-09-28T16:56:32Z,bc283415c4cbd2cd90d1df57ddf0ea62,8937a61408bf381a46387731eb910281b4ec5d20d47a1f41190a762253d81f4e,accepted
+3192699325,CC_0,stgeese,2026-09-28T16:56:36Z,48c3f0905ed7fa13a13eea9214f0ffc5,7d1bf57f065c91617ff3d3b0e19d25516270b0001cae1b23466dd2aa990f2f9b,accepted
+3196411187,CC_0,Wildlife Tracker,2026-09-28T16:56:41Z,f55f8b6f47cc8acf6bfffd3a846a1271,09c91b811832c1b8877fe41050caa5dbd2523d256d9319ab219918421bbc31eb,accepted
+5161274049,CC_0,Humpback whale and climate change,2026-09-28T16:56:46Z,e4e396b8e88847d76df00da938535352,e52b3deb11d4d85d0d49d1a183dc9c992ca17119475e84b91dfa656c2b88520b,accepted
+1863036795,CC_BY,"Large predator movements, Carnivora from Addo Elephant National Park, South Africa",2026-09-28T16:56:51Z,bc13ead17e164662d082502fd2f9b410,9b066ef4b5371425f7c53cbe5ae61579c443e9b8d5c2a4dd2ee677a28621a6b2,accepted
+2782529952,CC_0,Brown Pelican_Virginia,2026-09-28T16:56:58Z,a780d8e4e78a4c281a57370d678f27b2,3d943aebd2bfa3ada8210f230109f6dffe026703731ed4ae754125ffebd503f9,accepted
+3594988095,CC_0,AFRICAN WHITE BACKED VULTURE(GYPS AFRICANUS),2026-09-28T16:57:01Z,233b79af7ee15de14afeddbf382f6b9c,716cfce11d43de9bbdc746edfca03b34c21dea64bb1d1a788864b34056860ffd,accepted
+964631790,CC_BY,Lagostrophus fasciatus Faure Island WA,2026-09-28T16:57:05Z,a63c681288084c1d6612bfd824a872b1,c95362d0e5f5a98120983e3d237b5455572291c810daa3afad6c468403400b0e,accepted
+225606,CC_0,"Orchid bees on Barro Colorado Island, Panama",2026-09-28T16:57:09Z,19b2284d326e1dc9092ccdcc36801ba4,be2677ebc48b9e8beb87cc90c6165b65e7bdc4819e5bc78d92dba92e7532e718,accepted
+3940890775,CC_0,Study animal trajectory learning,2026-09-28T16:57:12Z,65a1e12730e9085925d7e4b73b1bd9e5,91e489d6144a9de347f232ff33d0d1d56f102b5ae3d606fdde10ce808b141c83,accepted
+3948206249,CC_0,Flamingo Namibia MPIAB ICARUS SigFox,2026-09-28T16:57:18Z,8a0e2fbe63a06f587643184fe8c2811a,0d7013e9c5390fb33043d69451e18903b41ccfbc053d456c314ce6843ea8452f,accepted
+1401935050,CC_0,"Atlantic Puffin, High Arctic Institute, northwest Greenland",2026-09-28T16:57:23Z,1c5cec47d23fc058c2c4dc2a5e4ce406,ea5d2cff99e1fd9b74ee784365e2aadbc587288784f46cc1cd84e1d3ae17b625,accepted
+5868290211,CC_0,"Caribou GPS Data Fortymile Herd, Alaska, 1998-1999",2026-09-28T16:57:27Z,745fbb69cb90bc4e77cdc34bbaca781f,3ff9a6f57ec09405ccb0bbe21aa1a4d47ee812f99c9eb6e7147f4bb9144d2479,accepted
+3237913659,CC_BY,Ciconia Ciconia Sudewiesen_1,2026-09-28T16:57:30Z,18e4f21b2439a56b68fd469e751c54be,cf1210a67a22eb78bda45e58240cd35a4f8910a075cf3bdea8f5993fad161115,accepted
+2784424144,CC_0,Elephant Research - Lobeke National Park (Cameroon) - Collar 46179,2026-09-28T16:57:34Z,df1d3f6dce0e3ce9025b0b6fea13e6d9,faa0787f14c9299c878c09ff45c6fbb9455469be25a605f2e785f029ea3e118d,accepted
+959128259,CC_0,Snow Bunting Migration Phenology,2026-09-28T16:57:38Z,62da8810cef544a2b23403b339e967b0,98163dd2115846bddbc20a9415da96a6b817367e4838d5cb2f773a44e7db1328,accepted
+158573792,CC_0,Space use of bumblebees (data from Hagen et al. 2011),2026-09-28T16:57:41Z,8992e69ebce6e46a60a7fcfb89e5bb09,c1cde8679764c19e6161e28c6cf78b82a4b604cc910e06b6f382c11bc4de1fed,accepted
+908798191,CC_BY,"Lagostrophus fasciatus, Mount Gibson, WA",2026-09-28T16:57:45Z,fae55b2ef9426983043399dd14a6eafd,93620937588c968594b85fe4f3da965d1766ccd419ecd05ff5d8b6a29b79b29f,accepted
+12112706,CC_BY,Snowy owl - North America,2026-09-28T16:57:50Z,579e9cdc8183bdb9682cadc04dedc2fc,2be8e27718c014eb7a710af59361eeea3cd3cab3191861cc35c1a25aa57dbe43,accepted
+1204811528,CC_BY,"Banded Krait (Bungarus fasciatus), Elapidae, Thailand",2026-09-28T16:57:54Z,b6b998cc110784aabc33b1ea58b2d1b2,8b0336a6363b650a576793cbf5c9acf6fd37ec27a7b825f8266850fdbccd86c2,accepted
+1701253716,CC_0,ICARUS Bass-Rock Gannets,2026-09-28T16:57:59Z,e6bf8e2b43491f472b6f69ba5a17d910,0a4ae17149430d76185964cfc504068351a6a1f31c1162be9d9e94f9f72c0739,accepted
+1199929756,CC_0,Spatial ecology of urban copperheads,2026-09-28T16:58:07Z,82e2a7950118fcbd8d1a2bfa871f2cf2,51b3ba9cd243cf99b0626bfa14a82ebf5069074ed5a6b564441fce54202be354,accepted
+619061097,CC_BY,Earthspan Peregrines,2026-09-28T16:58:13Z,f8270108b62b51243bed26797a47d105,adf67a08e02d7085e0fded76edc9345e7e041b83dea762b15ad40061f4ba10c9,accepted
+892924356,CC_0,Milvus migrans,2026-09-28T16:58:17Z,6a546bb931adc45d0fa820582324b521,e16d53e3ecc4ade3391b35ec8bcca67f90ec9423ac62f95eb70cdc05cdc68739,accepted
+1830874036,CC_BY,Spanish sparrow (Passer hispaniolensis) Bulgaria,2026-09-28T16:58:22Z,ed40ef7bcb55c52f1f0de7a111d423db,ef102ea86635548bde3534fb47504fc7eef3a968586e139da059fca26987355f,accepted
+1402467516,CC_0,Black kites of different age and sex show similar avoidance responses to wind turbines during migration,2026-09-28T16:58:26Z,d141efd3101a0d3cf8bf5a795ec39ff5,697c9ae6f08c6724c7c0ea8fd72af6c7f375d341f443530e7f5d76e267d9f0f5,accepted
+7249090,CC_0,"Peregrine Falcon, High Arctic Institute, northwest Greenland",2026-09-28T16:58:31Z,44302cf6efdc59fff2e9d2ce04b09b91,6a14995f648abed0e3edc09e64d4c33cc6d158e12f453911c235513a80203979,accepted
+920008781,CC_0,Ringed seals Igloolik,2026-09-28T16:58:35Z,08b675b386e61193cc5bc3c17fac6b0e,5b4fb64762b854e2dd45e217149d5038aadad7bd609180d2a11ceacab11d80a6,accepted
+2204980653,CC_BY,Migration of red knots on Kiawah-Seabrook Island,2026-09-28T16:58:39Z,5e91b6c0dd5a0ce5ddea7a3a4c70dff9,a1b1d83a4850277e5bf462b21437e8545cde178d114f6f0631f9f0bcbfb917bc,accepted
+1071134107,CC_0,"Herring Gulls (Larus Argentatus); Ronconi; Brier Island, Canada",2026-09-28T16:58:44Z,585c7324f2ce9a7349965688ef88aa15,27f7a641c4df93d5843225ce03e3d95803e7c815ea4256c3f87e3dc85f2627f5,accepted
+467038889,CC_0,Ringed Seals Resolute,2026-09-28T16:58:48Z,abfd39245d7aecb29d8d108ff1ed02bc,2e83fee677c51268c4f064f46eaf761656f5942022582ab3e703cf7b0338b9f6,accepted
+939826359,CC_BY,arcticola Dunlin,2026-09-28T16:58:53Z,135c651ff7bdeef7caf8bbd7a4300402,2c02221883d9d6212426df8ee3481dbc6402cfea66cb40778b6f728821b79afd,accepted
+958302149,CC_0,Overwintering areas of eastern whip-poor-will,2026-09-28T16:58:58Z,f2ab0706ec0dbea59b9c3ca5e0d5f424,9750936f38d6e028fd6e6505d09b883977c9fef84a6e8241f7cf0fcd8b7ff00e,accepted
+1007425032,CC_0,Hippocampus and route fidelity in homing pigeons (data from Gagliardo et al. 2020),2026-09-28T16:59:03Z,cbdf24a264d6c746e460ea4419e0398e,b139cb115d1ec9c08a4e602797e2d4738c258d36a211873b688bb44e70c0cc24,accepted
+122281720,CC_BY,Mangabey monkeys in Uganda (data from Waser 1975),2026-09-28T16:59:07Z,56fb63afeedf2de49adba4bf4147572a,f380a1ae9aedcd0c640ddbb503dd1caf4100cf5a1d7cd7353f337449ea6e6dd2,accepted
+230394,CC_BY,NYSDEC Indiana Bats,2026-09-28T16:59:14Z,82e9b00bf2b29ab5f129a7c2080d0af5,3e465f4554df23b150bc1aff427e6854c1a6fce4adaa493a3c4ce6ebb187e761,accepted
+2200106206,CC_0,Vulpes rueppelli in southern Israel,2026-09-28T16:59:18Z,9ef86937b2f51b855db71d18c618275e,068ea59d67346547c5f8e85d2d655c833953bd548be2b2834812798c66ea17f3,accepted
+1543123177,CC_0,ICARUS Seychelles Sooty terns,2026-09-28T16:59:23Z,694c124eaec6f2eb885b1843bf3085ba,57be761bf472bde4f39e375fe50165bc07b1ce27dce61feb1f4f11fc78de691d,accepted
+1127417283,CC_0,Red Knot Piersma Paula Greenland (data from Kok et al. 2020),2026-09-28T16:59:28Z,5915941cb7b275f62bdafd53203a77c6,4fb59c64f7a69f5f74264ae2b02020f9f02d70cd130f8a36c51543b9851bb3d6,accepted
+1559596686,CC_0,ICARUS Ocean Drifter,2026-09-28T16:59:33Z,5b455ebcd3ef1d35bd30992890395c6f,f8d97efbf694f5bb99394dd77cd38084911e003c1fdbd6ec8dcc06ecf9dc8ec0,accepted
+1351344771,CC_0,"MurreGLS, Takahashi, St.Lawrence Island, Alaska",2026-09-28T16:59:37Z,046b52c61d7977745fd80892974969c5,212e9895c4c3d59248afae8882f353da9b975609dab2b02f7df2e5bbe9031205,accepted
+446487,CC_BY,MPIAB Bar Headed Goose Argos,2026-09-28T16:59:41Z,3f2b4bf7c602a7537e55d9440fa29bb9,48648e0b77f7ec9de955459dbf08b257b1afc3b609a20d4f16fa401edbaf43ca,accepted
+1395952585,CC_0,FTZ: Migrating curlews (data from Schwemmer et al. 2021),2026-09-28T16:59:44Z,8f627968ef2ff1f5ab70771e38aee03a,9fef990f9b69078a6c3cef404e11825a381d86ef70c62dc4c55dd96a2ed36a78,accepted
+897981076,CC_0,"Ya Ha Tinda elk project, Banff National Park, 2001-2024 (females)",2026-09-28T16:59:51Z,e0919bb4de3bfa550f80ca513572d5e3,0d560efb15315897c2041b86077989d4479772911b07b59460bdc4efd1b07f41,accepted
+577905925,CC_BY,Individual specialization in the use of space by frugivorous bats ,2026-09-28T16:59:55Z,da58277302d813d743b15fc98f41f281,a283a81e44cc1cc3f71b66bab2005ddfc61e6c4744b510079fb811a25d8013f4,accepted
+978749,CC_BY,MPIAB Ruddy Shelduck,2026-09-28T16:59:59Z,a3bd75aceceb0c19a0519b840d5c9935,06cb313f17a4852807ee804b2879f8f60db651fdc10387900fda3e20a836a105,accepted
+942509734,CC_BY,NPS Dall Sheep Gates of the Arctic,2026-09-28T17:00:04Z,83e7f6bdee729d4fceca0db9fb0e53fb,dadf7df97ccbcc823c47f223225b3e72605e731c0e2b19817171f44139cc6ecd,accepted
+216040785,CC_BY,Mountain caribou in British Columbia,2026-09-28T17:00:10Z,65f5187abc85645e0101229c87a6d93f,b9c7c0703cf8b25bc21b67c41f8acbcd170878ba57f17dbab7ef3bd4c97d3694,accepted
+1767692280,CC_BY,Glaucous gull Elliott Coats,2026-09-28T17:00:15Z,327528e471788bd0ab95c5cc597d87e2,f6382078f13f749ac2dba8b4338dd52130ae227f826ef813210d752a0bce5958,accepted
+1115272968,CC_0,Use of visual familiar cues in anosmic pigeons,2026-09-28T17:00:22Z,4a3156abf49396507fa18503510c4e4f,e6c7ed88820b00cee83c5c531000dd03c2aa0c15167c8d15c775305367ed24aa,accepted
+1497315344,CC_BY,Western cuckoo migration - LCR to Gran Chaco 2011-2012,2026-09-28T17:00:26Z,f9b82f436f20ed7b67a3bc3fa9ade0bd,76bfe622b69560c492db37d883029f3fe0731387d506f077a5ed5c408bac33aa,accepted
+172255794,CC_BY,Lifetrack Oilbirds Costa Rica,2026-09-28T17:00:30Z,fb7c7e5aa05c73c21b5e314dae272662,e5511ae546dbb2ff6c81cf910c6805bd93f8b96c1145837cdc4a148b1a31e452,accepted
+2088496890,CC_BY,"Marbled Murrelets at Clayoquot Sound, British Columbia, Canada (2000-2002)",2026-09-28T17:00:34Z,f7d4b5b6671b165945bdafc7eec50a04,3a3cf4fc6dd7794034b130972d21a9d25ada62c1a6d5cb4d9ef54016a79c0a99,accepted
+3186161092,CC_0,Dendrocygna bicolor movement from Mexico City Manuel Grosselet,2026-09-28T17:00:38Z,7f7617d2e512d6f95a91c908cc383b1f,89e6d96a96944ac25d9c713eaccd004802638f324a725f43ce14adc9f2739ed3,accepted
+2088516816,CC_BY,"Marbled Murrelets at Desolation Sound, British Columbia, Canada (1998-2001)",2026-09-28T17:00:43Z,ef81c681ff18ff80d62c9cf580b17879,95dbfecb064a184e8b0df9652a2f8bf51f450584ba26e56ca670273a8e9dfe4f,accepted
+1049826825,CC_0,The gateway to Africa: what determines sea crossing performance of a migratory soaring bird at the strait of Gibraltar?,2026-09-28T17:00:47Z,3593a1f4ee6b92593e40304967fc661d,ec3cb12d6443b45945dffd4635927cf1d518dab1d73ef8b99e71a48dec4faf44,accepted
+1099486001,CC_0,Pintail in Olonne Marsh (France),2026-09-28T17:00:54Z,a8ec737deda2e0a2038756f78bb4e0b9,42e4ee553627b8ffa154472ed1bd9d6041b76af428bedc7d060550b93c95d83c,accepted
+2736765655,CC_0,Elephant Research - Ivory Coast - Collar 1630,2026-09-28T17:00:59Z,4fe7d8ae8b9957176ab50fd545b69541,be0e127cd803c41958437f092ebca5a6ed353dd6af327858e6415aa51108f31e,accepted
+1092737859,CC_BY,GPS calibration data (global),2026-09-28T17:01:04Z,9aa90157e2c504e97513c8f43190e4b2,c66147cde0152a10093bb915625fb9c3414ae77366824abcc785839ba0ce0c71,accepted
+606508137,CC_BY,Arctic shorebird migration tracking study - Semipalmated Sandpiper,2026-09-28T17:01:08Z,e1c453002e9e0c18f1316353206c667f,d2579f65c91df6e362c7900a0bd011891ace2a0a61fb593e04231b99314cea6f,accepted
+1284391628,CC_0,Movements of water rails from Norway,2026-09-28T17:01:14Z,7dea98da1b38c0c7f0d790c263466a47,ed695147013021a02cb7ab7e3049c42760fd1a4d3b1c7233170ff1b85fe7cad3,accepted
+11223924,CC_BY,Bean Goose Anser fabalis Finnmark.,2026-09-28T17:01:19Z,9d2bf4b88428489c81a638d26cfe25f9,275380a0f3eb7a2bf4fa2a7d71d4cb4d396e9ccca25576bb23005b0f8e560ae2,accepted
+944655375,CC_BY,Rough-legged Buzzard in variable environment,2026-09-28T17:01:24Z,7e5fa70d45b88828ff8d59e413928751,bd9bd9b3086db081b41d5b572d90fc897d4b96a9cb5335fcd1a0c60f33fd62e8,accepted
+11815535,CC_0,"Herring Gulls (Larus Argentatus); Gilchrist; East Bay Island, Canada",2026-09-28T17:01:29Z,c5bbb6d3ec2eb4ae5cb51e671c5c83ba,9845dd601cca8a7ef11339bca7c16332cbb21f70250689834f2112432dcec822,accepted
+123413,CC_0,"Ocelots on Barro Colorado Island, Panama",2026-09-28T17:01:34Z,ad8a96bd01ea44a3a056e040ad9b05e3,310866dd3141c251a53d9d7689d10c68474097d1b088c29f70e88173040a49f8,accepted
+1495582,CC_BY,Brant Geese Sean Boyd 2002,2026-09-28T17:01:37Z,84f59490e7b667325cc7b14b7b7b4726,0ca33d14a3471ec25c94a157f429bb66c978ff4411532b5d094fba8783f353aa,accepted
+2405949088,CC_0,Two subspecies of a songbird migrant optimise departure from a coastal stopover with regard to weather and the route lying ahead,2026-09-28T17:01:41Z,29307a10285350d9e1a4e769a912192f,91eda0ac9d9dfb839917880978f563321ebbd7dd7a376d2ea3fb4ed6453e64b7,accepted
+12170798,CC_0,USGS Woodcock Migration,2026-09-28T17:01:45Z,448e0ca3591df8287c4422374e5e0e22,24ae98217a1d559bd9b3cce64ea95651ea41ab5052d76eef69e98aa87e82843a,accepted
+3017348705,CC_0,Litzinger Box Turtle Project,2026-09-28T17:01:49Z,064d14534554fe97d9a4cd2e0ef8c995,d1c6b7468760a5b0451791e891faa4adc63b022d52ebddc4488be25b950820e5,accepted
+1030734949,CC_0,Biotelemetry of Bewick's swans,2026-09-28T17:01:53Z,c43d33f3fa61d5e211aedffe53a2ecbb,8742154e300262921f8e38c0fe9b28af8adac6a9f8c8a5ac4f8caf7d39dae73e,accepted
+294524920,CC_0,Black Kites at the Strait of Gibraltar (data from Marques et al. 2019),2026-09-28T17:01:58Z,3f5fb6056113df505036f0b16074dc4d,85959b82d590f82b8cfc89b74e35d5c58b867f082c80096ec89f4c2cb9bd1696,accepted
+312057662,CC_0,3D flights of European free-tailed bats,2026-09-28T17:02:05Z,550c040e405a8ba8ab045a22b8841bbe,765168e1b7fdd61212aade2b79e9a1521f9cc364f0d1dc8c6c70342c8755b6ee,accepted
+2425475445,CC_0,Vulture Conservation Bangladesh,2026-09-28T17:02:12Z,5867711f93bf30e67ba7f535c53bf28c,7bd046f9d3a758227bf52c07e2514c240756248061e4fec8bce35770741130ab,accepted
+1542161732,CC_0,ICARUS Cameroon Tom Smith,2026-09-28T17:02:17Z,7596eeb0b3113f990629d82d67b5e8e4,2c131b7713336f67b9056c912ca5aebb0642cca828599bfa1742a9f457b4c71e,accepted
+416289710,CC_BY,Dolphin_Union_Caribou_UAV,2026-09-28T17:02:23Z,54b01562df90333a251a67783d8ebd89,c10fc76da17d4fd37cd9355b6a3645cc6b3951ad64724367213dfe55a4fd9712,accepted
+287187244,CC_0,Thick-billed murre Gilchrist and Elliott Coats 2016,2026-09-28T17:02:27Z,1beef509b9c299d6a3ec87aa6154344d,f8101754d94ad529c8b1361d93dd36f5961784714a6fbc12df0167eba8a80e63,accepted
+358865092,CC_0,Thick-billed murre Gilchrist and Elliott Digges 2015,2026-09-28T17:02:31Z,164d40544b6285dacde2193525874b5b,c503852e2f29442738856187cfbd21ac04d1a3a4ccab47e4d1500e8828df16ba,accepted
+1852945982,CC_0,"Movements of the Christmas Island flying fox, Australia",2026-09-28T17:02:36Z,7896b9523dca78d9faafb1f41273fb49,a6e7c39aac08dc74b5352af2128a4d5a52cc659a508df51b9b00aa0b76018931,accepted
+33622846,CC_0,"Thick-billed Murres; Gilchrist; Cape Graham Moore, Canada",2026-09-28T17:02:40Z,3afc10a1f8e7fdfe3050d64b5e7d946d,36a36c0ec3f69210135b1538a0253edb1d898f0b543c9a13016bc9880eb51847,accepted
+10006517,CC_0,"Thick-billed Murres; Gilchrist; Digges Island, Canada",2026-09-28T17:02:44Z,67913dd32386ede1b9677860420000a8,415af89d43e56cb89816f785a62a74aafbb0fe43340e8a9c4d3a84481f99f419,accepted
+1724475305,CC_0,Yellow-legged Gulls,2026-09-28T17:02:48Z,95fd045838d5c9fd4ffbc61ff7ee43e1,43395c7e0c9b68cf5c5c799d96bd0e9276a11a82796b11eda09a300871ed3631,accepted
+1728787796,CC_BY,"Feral Cats - Sumhal, Spain",2026-09-28T17:02:52Z,541369b21826226c57da28a0356efced,1a4af6d49bdff631763602c3a21a4f3f68eb023198f408887ae7d2f24fb5fefa,accepted
+312267867,CC_0,Solovki Larus Track,2026-09-28T17:02:57Z,6525fd3f9f8b5c275cc0ac87b27613c6,c6f95b51e7ab609d14e2733f6498b8876626b6b22c645e36ed30162cacd734b3,accepted
+1081716933,CC_BY,Tracking Data for Lesser Scaup (Aythya affinis),2026-09-28T17:03:00Z,8e0d46a368c556435832c55c3de72c60,a8ce7f2baeb13c9f204a8093868472edb45de38ac249e83c249180866d6cb8a3,accepted
+556564170,CC_BY,"King cobra (Ophiophagus hannah), Elapidae, Thailand 2014-03-22 to 2015-12-31",2026-09-28T17:03:03Z,c2e36f8d2368a5466fc841ec509e966b,ea2904bc4081a4aedfd2bd7edee057ceb0b33b313b13310f60b0b3edb2faec36,accepted
+1404033416,CC_0,NC Breeding ABDU,2026-09-28T17:03:08Z,957d61b9ec128aa1a2e13d165798c4f0,88bff597d13d014915461d3d047884840cf37aa65d739fbdcbd2d470f1726935,accepted
+1542174679,CC_0,ICARUS Canada 2021,2026-09-28T17:03:13Z,c4fbea0a4e7b0cb71d47ba58c505164e,836f53b8bae4a95efa5a35853ba9f6bfdcb2803ef22f53fb5bc7de266a8dc738,accepted
+248994009,CC_0,Thick-billed murre Elliott Coats 2010,2026-09-28T17:03:17Z,b3d77a8c36f0521554d7cb3091d185c3,3f29d96f1f79f80febe25d898e0603826e4f5b6022b957f397bdec09b5328964,accepted
+1481243,CC_0,Steller's eider (Polysticta stelleri) in northern Europe and northwest Russia (data from Petersen et al. 2006),2026-09-28T17:03:21Z,fc21c3ed6fcc80f2c27baa5d03a312f0,cc805ee9ff6d194b9345551e22a11f1dd63c80992323e829bf320711ebc5eabe,accepted
+2129965494,CC_0,Bearded Vulture Gavashelishvili Caucasus,2026-09-28T17:03:25Z,f75edaa6beaebca0fc4ff531d009b300,7e292b30a5c249c31e6f2b4bb1650097132b3a234c212be16491494632e5a0b0,accepted
+2105214573,CC_0,North-East American Canada goose migration 2015-2021,2026-09-28T17:03:30Z,39d4e5e384bb7fc66efd9b18cac80bec,42029788c2b26470a6594f6e5735d22095e1ff215de67878c5f1f6a3d5f2bf8b,accepted
+1909487338,CC_0,Poultry network China 2022,2026-09-28T17:03:34Z,dbcfecb6ad15833463d9e998b7ada8db,3f6660b3a2cd7ba9e0fb79e87c87409abfdea84319b13809bedb13f1e550c3b5,accepted
+1338487915,CC_0,Geographic barriers and pigeon homing (data from Gagliardo et al. 2021),2026-09-28T17:03:38Z,8656e73528aff89d872403b47ad66246,aaad04819637ecf2dd6bc606642477a6e8ac5584e2f3a6adce3224de9b946a19,accepted
+7895692,CC_BY,"Blue Manakin, White-shouldered Fire-eye, Rufous-breasted Leaftosser (Hansbauer, Mata Atlantica Brazil)",2026-09-28T17:03:41Z,3a166183e3d64ce30d3a66dc6c5c03ae,9fc00ceded5712a56473bdbce5e08a728cea9f0e47629ed618fc4278f55358fb,accepted
+1910442974,CC_0,Purple martin Progne subis movement ecology in southern Quebec,2026-09-28T17:03:45Z,bd0e034a480484d39b0b7b1b1d51f573,dbfbbca4c23de8f723837fca4645c32f49c05869d5cd4e8490510b3a1a159852,accepted
+1810804830,CC_BY,Thick-billed murre Patterson Coats meps13890,2026-09-28T17:03:50Z,fe6aaa7e6546af0a701cb8cb4e47fd11,91d81508e5bf192456b00f86625dbdcefc1b04717421f073064818572b09da1c,accepted
+2391441038,CC_BY,"Antarctic blue whales, east Antarctic sector of the Southern Ocean",2026-09-28T17:03:54Z,bbeaffca93c4e096b06ce090b8871248,027b5554d870750d1a49d55b2219030fee3a589bf30ebadcac92614fde0570bd,accepted
+630478736,CC_BY,Foraging habitat of white-tailed tropicbirds (data from Santos et al. 2019),2026-09-28T17:03:57Z,a2026a43ffffd607051771fa217b4d9f,35abc4c441078e1f5dbc9c86c3e385c02e7730e4955e24ac44d77624cd3fdd59,accepted
+1541892445,CC_0,ICARUS Galapagos tortoises,2026-09-28T17:04:01Z,aba1a6664d2fe39a11c63acc9d65871c,97de1c906de271664586cfb71d2a9f4c25e8c52f931e5a4ab8cf18447ec54e1f,accepted
+714362126,CC_BY,Long-tailed ducks GLS 2018,2026-09-28T17:04:04Z,70a445185941e1b2bb3d291b21288c0f,b3a0bc392b5a48075e427fed2a9be60a4e2db62616a0b041b03ce8d5a638d818,accepted
+411155573,CC_BY,Red-necked Phalarope southern Chukotka (data from Mu et al. 2018),2026-09-28T17:04:10Z,db9f558b3f8bab843a16dd82fd74af08,09f58197d2d5688122fc1d771ba938140692a24d6443150fbbdfaf6113923fbe,accepted
+3030282201,CC_0,Marine bioresource conservation and restoration research,2026-09-28T17:04:18Z,5eefda8dca3e183638690650a7fc1f87,64628ca1278dea2f9a72508c5fcd380ce1073bad252d4a12f0dca52c89e85d1b,accepted
+1418023557,CC_0,"Space use and activity of a major songbird nest predator in a tropical Thailand forest, Boiga cyanea",2026-09-28T17:04:22Z,e3b591a6dc6d0792dd9e5cc2de25ef08,38dbc21e87f61d4a7fe0910087c977291355392bf2dba01f1f68d43e9d24e7b2,accepted
+3218698288,CC_0,rynchops niger,2026-09-28T17:04:26Z,a7fc6a1db174b14cf373bf1dbd4de057,70c8a94a2da05ae2fda9fe421a409855010d6b55000f0a66925615279e94b33c,accepted
+2742086566,CC_0,Elephant Research - Ivory Coast - Collar 5990,2026-09-28T17:04:31Z,30f38012c4e627af11fd76dd0a918e21,ec961842796ec472fcec13b1f58beab71ec1ffc90f175bee8d8f600e47bb9616,accepted
+236023,CC_0,"Suburban coyotes and other carnivores, Bogan and Kays, Albany NY",2026-09-28T17:04:35Z,332d44852e5bfedcf2c3d3fa39ea1278,99838dca91ff2c289de39eedd7254ac1d0cd1abeeb16e8375a6321990459c09a,accepted
+1895314026,CC_BY,GPS tracking of eastern whip-poor-will,2026-09-28T17:04:39Z,4ed2271fa099ab1f870e82c4fa04a770,32d4526f2a2bfa408788076f5801412fdcf34d11df32d06cf866015ba4d94a30,accepted
+1941203363,CC_0,South Africa vultures VfA MPIAB,2026-09-28T17:04:44Z,7f83e7195fd60f69ba0673a6fbb6c5ed,fd9fe80daa3d80ae9324d7ba3766e48f463c7126c8b94982f18abe7d4ae10a77,accepted
+1450495172,CC_0,The Northern Black Swift: Migration Path And Wintering Area Revealed,2026-09-28T17:04:50Z,36ac6c0af779dd2f02deaf7e98088e67,59ec06d5a3a2e72154766ca346b4f406f6dc333c5c243b64966bcacf6eb62b0e,accepted
+2120324708,CC_0,Cinereous Vulture Gavashelishvili Caucasus,2026-09-28T17:04:54Z,40dc15cf0b006f55f6fdba01e08f6664,8e8f88f138b994a4524e60d56395e03502ed605eb0dcc04149a2e84583cc9938,accepted
+492444603,CC_0,Boutin Alberta Grey Wolf,2026-09-28T17:04:58Z,5ca3dcd3523b6f16b5668bf1822e18c6,dc5689f3f226e3cfc20eaee7011025af803879ed1b907c14b52c4a48d2748c2d,accepted
+274355544,CC_BY,Bill Cochran Peregrine falcon migration 1973-75,2026-09-28T17:05:02Z,5142ca6eece481eded1d3d959a842ba7,7f44452b5f48e2295eef2287f6fcb6c7905f4989fcc3463a793df886431f6bf3,accepted
+1208105916,CC_0,Caspian Gulls - Poland,2026-09-28T17:05:08Z,5267a99e13ab2aaa7b5a6931eadaeda3,7b49362a6c31186901a328f88b74dfd0a45fe7a86c7a3863cee145ea2d20d3bd,accepted
+965936538,CC_0,"Weak migratory connectivity, loop migration and multiple non-breeding site use in British breeding Whinchats Saxicola rubetra",2026-09-28T17:05:12Z,692e6bb6ca0b5252af2c509272b38130,a3a2f057341642e357fcb403a1dfc355017cc6881cbc14f3a672930efcd583b7,accepted
+394802766,CC_BY,Thick-billed murre Gaston PLI 2014,2026-09-28T17:05:17Z,ade8d6a5be47009ac040e42519cc5c72,b98cfaeada0fffa7fb325fda86ddc987815c92267d4d197d464e1e64047e5739,accepted
+1260272117,CC_0,Short-term movements on the Dark-headed cat snake Boiga nigriceps in Kubah National Park,2026-09-28T17:05:20Z,9e57306e9ad8e4d0837e08a24ea1e52e,3ef5b88eafb08a9a361087843025c9db5f45cc96b6b7fbe65a93ec8618e2b74c,accepted
+1544910859,CC_BY,Hawaiian Crow,2026-09-28T17:05:25Z,5077ebc2968ad562b09d10008ad78b84,261267b0185e534671817c7c2dd9d09737d371a761a61086261f9a8e9f95a43c,accepted
+1436452445,CC_0,Double-crested Cormorants - East Sand Island - 2008 & 2009,2026-09-28T17:05:29Z,3249ed5093151271ec81f7d3f5759eb5,6d4625a8bebb18b5d45ada1fd3e09f076e62f82020722156e040b41aadb59b3a,accepted
+14703885,CC_BY,Levant Sparrowhawk Armenia,2026-09-28T17:05:33Z,d963b0b00ba819e9cdf3fe24a2905866,511bc2daabb70979463f4a0453d3a686148122709599ac10cd1c684bb4aacc85,accepted
+1260886163,CC_0,"Cheetah Pilanesberg National Park, South Africa, 2014-2015",2026-09-28T17:05:36Z,add04754da214a7f4ad232b0c3c3ba3a,7bc2fb645abcc3f39da59f542fecdf21bd734490db77eb2592b58630ff59b473,accepted
+915037836,CC_0,"Gyrfalcon, High Arctic Institute, northwest Greenland",2026-09-28T17:05:41Z,a45697fd140acec65584428aedf290c1,30000b00d58dfee836d71b2ccd7e34d3a7f6210a53b9d4cac7198d81afa84a2c,accepted
+915166703,CC_0,"Gyrfalcon, High Arctic Institute, east Greenland trapping station",2026-09-28T17:05:45Z,88b7aa2d981e690889a8863a6216bd9f,1c1af70d6c56d180f2e61380eabf8fb23f44766e4ff3629655b6b3723c583144,accepted
+4732684199,CC_0,"Bradypus variegatus, The Sloth Conservation Foundation, Puerto Viejo de Talamanca Costa Rica",2026-09-28T17:05:50Z,dee77ef0933e3d3666d3dd4e4847e2cd,2755d390ed7dd1238d539580709e0f3b118eeff8095a4aebc7aea8b94243f5d0,accepted
+917906795,CC_0,"Gyrfalcon, High Arctic Institute, Maniitsoq trapping station",2026-09-28T17:05:55Z,91e5aa3a0c3e89f7a167065635aa4eed,4d9c4b3a21dae58df18fdd2b19f9a052d821a2617bf39f13542006cfd2c6a5df,accepted
+917901503,CC_0,"Gyrfalcon, High Arctic Institute, central-west Greenland",2026-09-28T17:06:00Z,6a74b754f1e0f71a36c485af418b3b81,0abbe18e1b086449fb8fbb399c9fac289732ef8fe0d2664b62f0012c74321803,accepted
+1087068449,CC_0,Von der Decken's hornbill (Jetz Kenya),2026-09-28T17:06:05Z,94de42601f17075dcc4defd76e73e863,c87f04d0a5f84150cb215b2aa630063cf170c214548c44c85eafb4c349b5cbbc,accepted
+252807846,CC_0,Blackcap Light Logger Southern Germany,2026-09-28T17:06:12Z,d5d20255f23f4a12011488f4e7bee53c,45711dfbf84c6621b408d977fa30bc08735f162206046afb6476c946014b3346,accepted
+376145741,CC_0,Thick-billed murre Elliott Coats 2013,2026-09-28T17:06:17Z,995802bacaa7b040967757a71e396bf2,2d7196f63f1f4f0ab3f9aebed76fe332a8df2863f713f90f01914000de1cb6f3,accepted
+533427629,CC_0,Migration of red-backed shrikes from southern Scandinavia (data from Pedersen et al. 2018),2026-09-28T17:06:22Z,466fdd2ca5a4cc9c42c06237fd6996de,92239051ea041dde4f0a648ced0fb9f8dfa59e0e0b3f812e9394c4eec23a150e,accepted
+249266943,CC_0,Thick-billed murre Elliott Coats 2011,2026-09-28T17:06:29Z,8fab64f10f9d5d14d824f428709bc0da,211b277b81bcad31fa8e37de60b98c11a099f12758a6d30610ad5e710c8d1fc6,accepted
+40012605,CC_BY,"Thick-billed Murres; Gaston/Akearok, Prince Leopold Island, Nunavut, Canada",2026-09-28T17:06:34Z,c900ca1ad79d9a705d2c21d32233a1a5,cfc8536a9282367c1adcdcd8b1424f3776d95e783ec8901da406787101efc1a7,accepted
+14381504,CC_BY,TBMUCOMU.GastonMontevecchi.NWAtlantic,2026-09-28T17:06:38Z,70971908e5c5ff9557ee89b0e47a0fdc,188506b8dbcc1c22114475c95fb46a9cb6f15123fb7ffa5f99faf98ede50a163,accepted
+270079388,CC_0,Thick-billed murre Gilchrist Cape Graham Moore 2016,2026-09-28T17:06:43Z,e559c8ab324115aa0d6bc7cf7ac7367c,18f8d326e7a95ea2b852ff21c8bd5b608e76ab77fa8423879283cfd3d3100518,accepted
+920007556,CC_0,Bowhead whale Admiralty Inlet,2026-09-28T17:06:48Z,89b4d9c3750a6af60851b30f60280407,8d64c6ccad3520f24f39b7418b9e1d70de9e2d3f21b25d54ed1da71522302239,accepted
+467034665,CC_0,Bowhead whale Cumberland Sound,2026-09-28T17:06:54Z,34a646a96bf9b1dc6ed28e21e9d90357,f8ea4bab7b88ceba55cc0d0b91b7d44a4890fe484484066fb65c42840ee8c59d,accepted
+467031755,CC_0,Bowhead whale Foxe Basin,2026-09-28T17:06:59Z,f25493044967958957779b644379cd5e,a424c09bc000b2a41c86a09e3df7998fa703a4d939d8d302787ec807a981b5ed,accepted
+1623435186,CC_0,"Roseate tern (Sterna dougalii), North Brother Island, Canada; McKnight",2026-09-28T17:07:03Z,72d732cb5743065172a2434928737d53,03be138812f78d76012f87cf8081127bca84cba0f3cc98cf3fa763772cc7bbf6,accepted
+1283461962,CC_0,"Daily satellite location data for leopard management in the North West Province, South Africa, 2014-2020",2026-09-28T17:07:07Z,6689e2d182922c940ad76459859ad2fc,6e18f1f0774bf64b2658fb6f31435c3d75fdb4ddf7188ba2bbce82d95a27ed96,accepted
+1406291704,CC_BY,Jaguar Rescue,2026-09-28T17:07:13Z,757a3e5f38696db72bbb25eefa56eeb7,03e3540d7e2ce730959389abba4d48e3df0c4dd27868d8ad9b9862345e3e5e49,accepted
+1898591,CC_BY,MPIAB White Stork Prinzesschen,2026-09-28T17:07:17Z,cb2f339e34bcac2d0caa76509df2b2fb,2c20f1a81ad593fdc2d9da03f0c5086bbd1382211adc71232b1f6b1f89d9a4f0,accepted
+446659,CC_BY,MPIAB White Stork Greece Argos,2026-09-28T17:07:20Z,da9977e7d8bce351eda9c03e013c1c70,f5adff03630757a47e062c8e94c6550f77ea8b6f3d5fcb3303f057475dbf0b03,accepted
+446663,CC_BY,MPIAB White Stork Oriental Argos,2026-09-28T17:07:25Z,d9ec41295f20e74a9934ae067d854cf3,9934e56c837835289eb5b3ee03c93dd442b035f840a7673e9689977d649bf33d,accepted
+29799425,CC_0,Migration timing in barnacle geese (Barents Sea) (data from Kölzsch et al. and Shariatinajafabadi et al. 2014),2026-09-28T17:07:29Z,19ea3bc8a987cafad21e99d1d92ae3b3,e1d48ff01f38a7a8d679c83ee5ff60c5c3b1b911d50a7498c15d74f331e86645,accepted
+3062819236,CC_0,Stejneger's Petrel Pterodroma longirostris Geolocator Tracking,2026-09-28T17:07:34Z,2607af2984ffaea920d9f1c98cdb9348,f7afc1a9da8c4f5a5579fbcc572d2385c3bd061be7565b457b258fd319bfe796,accepted
+40008075,CC_BY,"Black-legged Kittiwakes; Mallory/Gaston/Akearok, Prince Leopold Island, Nunavut, Canada",2026-09-28T17:07:39Z,3f90b9b1f5a221742377000a759384a5,c714a762c5e8f6721901a2b8800daa8070e2645d3d1b7eadb6f52eaf807652bf,accepted
+304527187,CC_BY,Sabine's Gulls in the Juan de Fuca Eddy,2026-09-28T17:07:43Z,c519a6145c187576c9f31c4d84f59885,280b9df53318aa8db47d452b6843beee4960ec339fedb4e0892d7066744e10fd,accepted
+208672795,CC_0,Migration of Sabine's gulls from the Canadian High Arctic,2026-09-28T17:07:48Z,6b454985fbfc224d5f0b9f538e8b776b,bcbe7078144d96abac1a77b4ae85295dfe2f9f59629ecef375b2e8e12717fe94,accepted
+1566232520,CC_0,Navigation with hippocampal lesion in homing pigeons (data from Gagliardo et al. 2021),2026-09-28T17:07:52Z,d31272970f23177179501efd5c789be3,3545e96cf5f19f1814a1e202d6a6b7a8fc33c2f6b67bba7b38664269b9b1d852,accepted
+1376966969,CC_BY,Migrations of Common Terns (Sterna hirundo),2026-09-28T17:07:57Z,ef06b513aeb93d054634be0303d4b050,a8169f7e04c483f760160f414d7accdc0cfc9fdedf5579aa213373f49f025339,accepted
+1169168747,CC_0,Home range and movement patterns of the Andean Fox in Cotopaxi National Park Ecuador,2026-09-28T17:08:03Z,7563fde3cc8e31080e9063c8d9c4ad54,eb492c5860afe6229ca9c2f79e3fbb969e18c7583f51bd6981bf7664b897a666,accepted
+8317873,CC_BY,"Common/King Eiders; Nuuk/Disko Bay/Upernavik, Greenland; Mosbech/Merkel; 2002 and 2003",2026-09-28T17:08:07Z,48d8930e39c0efe2ccc197ab39d9de95,8a3e2e6a7e1f161734b0949f5b5f6b6057e8aef7599d2fbd6f2bd872c52d381e,accepted
+43747715,CC_BY,"Common/King Eiders; East Bay Island, Nunavut; Gilchrist/Mosbech/Sonne 2001 and 2003",2026-09-28T17:08:14Z,74e0dbd8c0f6de204c545082c5be8308,e49ac94c5a96446b6ac6cc05625a11fa1e0045e374cb3f63adf1e9e43b3c5532,accepted
+1077432441,CC_0,"Grey-headed flying fox, Adelaide, 2015-2018",2026-09-28T17:08:19Z,c22e19c8fc54e6169130f00e0d84f359,40d3d8ccbb619620a973531eee4dd171a21a55f980245f68e4a6ef606f444647,accepted
+1236374912,CC_0,Red-necked Stint southern Chukotka,2026-09-28T17:08:25Z,8521ba1358e157ff2323bb2e2fa30faa,e175e732e4e8614b14c24243b56ee7596531f29be9aaf1c39259aeac874edcbd,accepted
+377236888,CC_0,Snail Kite Brazil,2026-09-28T17:08:29Z,e82d0a198e55218b8b397d33b921de9b,2d9013a2c8ef8f1f02c45167bc8e71c62dbe58955ca8f57e00cac5fe771601f1,accepted
+1009590724,CC_0,"Gray-cheeked Thrush_Whitaker_Newfoundland, Canada",2026-09-28T17:08:35Z,0cd410e0f1cc06334ba6835ab54ede98,cbd2d35315a5fd3d5e8474199fe6106c91a12cc515a5d4f47fca6ee4990ebda8,accepted
+1978859802,CC_BY,Long-tailed Jaeger - PTT - Canadian Arctic,2026-09-28T17:08:41Z,53193803206d5131f514c8bce5b8762b,2e190053d88cfee3df298a2806b708f35a98079bd5c829dfb2dfe94774e90a37,accepted
+467005392,CC_0,"Soaring flight in Eurasian griffon vultures (HUJ) (data from Harel and Nathan, 2018)",2026-09-28T17:08:45Z,7e253a9dde6ef58e595faa1fcfaa0145,59563808994c79a3d9bd9a58959c8cac4518d6096b8ac7a87b8e79a9e04c3421,accepted
+2919708,CC_0,"HUJ MoveEcol Lab Israel: Foraging search efficiency in white backed & lappet-faced vultures, Namibia (data from Spiegel et al. 2013)",2026-09-28T17:08:49Z,02649fb55e22792dd9a8de5651264705,497781c04095f42c634124edee1d6fc10fb937ade096220d82e45866b65806ed,accepted
+16748598,CC_0,Fruit bats in Ghana (data from Sapir et al. 2014),2026-09-28T17:08:55Z,4e0dfc4865b24dc17ea207ef190d96ad,6b946b87b7b26ddbebc662f8864a2e90665218713bd33d858dcd6d983baed001,accepted
+914913822,CC_0,Landscape-dependent optimisations in pelicans_Functional Ecology,2026-09-28T17:09:00Z,a8768c061e9201aa7f94153ea31fb182,a4c76292d91308b63646f4aa57bb0969d7bae2c8d31703161474e79697b1e691,accepted
+2988333,CC_0,Navigation experiments in lesser black-backed gulls (data from Wikelski et al. 2015),2026-09-28T17:09:04Z,e115bda915334635192a02ec4c58e8a6,e6daf3aee76e8ef070ed6e806e18afeba7f16c028ad0a6d4e5f9d38ea2e89e93,accepted
+49520609,CC_0,Poultry network China (data from Choi et al. 2016),2026-09-28T17:09:08Z,f34a99a4f4341d222a5a372b3f45f0e7,a8ecf5a118184a6ec9970c81a174a57e747692c3705595a08d23432e88cbb6eb,accepted
+433126,CC_0,Flight speed in Brazilian free-tailed bats (data from McCracken et al. 2016),2026-09-28T17:09:12Z,9851a473e8919bf362a26dd6fbe62877,2e91ae90a052ab272d979f75be8233a838cfd4852103f9b3ed924265bea3dbf2,accepted
+37350671,CC_0,Hornbill telemetry in northeast India,2026-09-28T17:09:16Z,306ac0a2292eb02b9b42d1b5faeca786,4516444313862253c2b2c745f35bbeff70bed3b6926e844b0a116a4ca711f33c,accepted
+47899041,CC_0,Movement coordination in trawling bats (data from Giuggioli et al. 2015),2026-09-28T17:09:21Z,fc78b15b1b5cb38644b0c70772abca9f,ea6b686681e1b8f5fdfe6821c131032553ba6ee0df9a3fe28b8f1a4a57d7a809,accepted
+19411459,CC_0,"Movement ecology of the jaguar in the largest floodplain of the world, the Brazilian Pantanal",2026-09-28T17:09:26Z,64bbab206cbbe19e1a3602e10330d1a4,18fc2c0cd4d4186216270367ac9bbea85c88433781d859592c469d5230aacb28,accepted
+1410035327,CC_0,HUJ MPIAB White Stork E-Obs (subset for Carlson et al. 2021),2026-09-28T17:09:31Z,61ec93ff6103be5389f5127ca560990c,ff0fc26ab8d5de92463224e5792688791c5d42a0f0a7996730c818b31a46805c,accepted
+18072398,CC_BY,Eastern whip-poor-will migrations (data from English et al. 2017),2026-09-28T17:09:36Z,4548ebcdc66abcee4d79ebb92db0aa1f,6fa6a27b1d8212bd1c64a7e760331073e9fbb1c965e91703e752193064898226,accepted
+732458683,CC_0,Migratory patterns of Fork-tailed Flycatchers (Tyrannus s. savana),2026-09-28T17:09:41Z,3b5e2be0fff9f3fd1a42d5b0eef756c9,f12761a7c905a24d271c32c0d93776ea2c31e656eb34475ab19a062a0513913a,accepted
+66480086,CC_0,Continental black-tailed godwits (data from Senner et al. 2015),2026-09-28T17:09:45Z,29a3364e85ed27615b652c54c43d8330,67e480b38cb08b1d4d41abd08675913bf7ec9d59c748359f6134c1b2d9e371ba,accepted
+13978569,CC_BY,Striated Caracara Falkland Islands,2026-09-28T17:09:50Z,087aaadcef922152d619beb8a12aadf8,231dc91bad80fb284d49c56fb0af52a799761bcb422cddd3cfc5c93e055eac36,accepted
+14671003,CC_BY,Hooded Vulture Africa,2026-09-28T17:09:54Z,dc94fa1c1e8546cb33032438161ee1f6,7dc2695984fa9c7d91d6aab6b4b716db7532262462d3835b302ad64aea710da1,accepted
+177841261,CC_0,Distribution of spectacled eiders in Russia and Alaska 1993-1996 (data from Petersen et al. 1999),2026-09-28T17:09:58Z,9adb76e16f13d8c0baae6542e39f11f2,ed1a149218a2620195980352de9cd3ef9311db7eb52e302861424b1386c06512,accepted
+746910348,CC_BY,"Satellite tracking of black-capped petrels, 2019",2026-09-28T17:10:01Z,caf0126f40800a6925e6b56fbb6fc628,186ea83844b32ae53ed0053eae82b2b54d5ed7a695a503041dd6c1a13001f112,accepted
+1915270109,CC_0,ECHA Brent 2022,2026-09-28T17:10:11Z,d7daaed5b501d0f65ef0bc02c9e3261b,24f93b73f989feb8b1f087a5a3f61abe84c1dcec2636cf1ee8ac9eb0c26deb0e,accepted
+268904527,CC_0,"Swamp wallabies on Phillips Island, Australia",2026-09-28T17:10:16Z,480c801f54cc3f2da4e8a6f30cc4da9a,bf41e1e089068daf390b881bca7702ecc646335947cc6ee543ecd3ade9ad26c4,accepted
+2611337538,CC_0,CLSW_Nebraska_2022,2026-09-28T17:10:22Z,931b30427db049cb5ff8905941a120bf,c8af762586616010afc4cbe19f06d8172a79c1e47568e54044a54f860306b470,accepted
+1842351574,CC_0,Egyptian vulture migration survey,2026-09-28T17:10:28Z,a7f1c656e57290adc16687c139340272,2603675ec1a98a145c393cbfb0259c50d812e0717d50c0a391599f75af5d8fb3,accepted
+1542147820,CC_0,ICARUS Bhutan Sherub,2026-09-28T17:10:34Z,786e851f7becf932bc70e0c01279f459,ab0ca88a77b5555475e386d10f465fc91957ec7c3e6a57bb7fe086f335b088e6,accepted
+182746263,CC_0,High-altitude flights of Himalayan vultures (data from Sherub et al. 2016),2026-09-28T17:10:39Z,71373f436cd5830eb182014cab232cf1,bb592e1307ae86429f38a957cb7a905d5241840b00351ed4e1d5bced6ac92a0e,accepted
+217784323,CC_BY,Vultures Acopian Center USA 2003-2016,2026-09-28T17:10:44Z,5d52b6d1be67870b4023ec3d88eb641d,a9024a54d5b58ae6081c5c3bb856195397e036fab02362388e9627d2318b21fd,accepted
+208092450,CC_BY,Right hemisphere advantage in route fidelity in homing pigeons (data from Pollonara et al. 2017),2026-09-28T17:10:49Z,4f2a99a27af7ad45b0d6b1e918cb639b,6847d98d5297753d42c224e4e2273571dc05aafe735e0534d83b922ad50af8af,accepted
+58672150,CC_BY,Oenanthe oenanthe Turdidae Uppsala,2026-09-28T17:10:55Z,1ed579d376a25cb10fb6d8f7cde51b2a,0a638b7e6583db6eb66cc70663356f6ae70488f5443e9f56ff7e2df89cdd415b,accepted
+62400821,CC_0,Re-colonization by common eiders (Somateria mollissima) in the Aleutian Archipelago (data from Petersen et al. 2015),2026-09-28T17:11:00Z,ac82baba017579c0eb0f992662970112,4c6df00eab5929d8c5fbae12e24fed9cb4604be871d39f94b2d6e326422912a7,accepted
+140391801,CC_0,"Movement of long-tailed ducks marked on the Yukon-Kuskokwim Delta, Alaska 1998-2000 (data from Petersen et al. 2003)",2026-09-28T17:11:04Z,09936eb281d4375e4db84864fbdba77c,0cf5380e1e068a0626bbd9b8f84ce95c78cbf913b3aa6152a8b6e7831d7c8557,accepted
+3615655,CC_0,"Domestic Cats in the Albany Pine Bush, New York",2026-09-28T17:11:08Z,13ed24deae49e495f9c5e2a42add74a5,8eee08a4c28928614e3bb594426fa22e7bc4b81174e0c41230947415bfa90816,accepted
+2116900796,CC_BY,A case of home range analysis of Japanese Sparrowhawks during the nestling period ,2026-09-28T17:11:12Z,742094495d7ad13e2bdb25325911b440,dbe6521ef140d31adb72ae20fc9520a6eb3ec5bbfccb5e24f4fafe502df3940c,accepted
+2007011428,CC_BY,Eastern whip-poor-will GPS migration tracks (data from Korpach et al. 2022),2026-09-28T17:11:16Z,3d99f9142f3736f7ab25fdf4afb5c459,fa7c8de4935217ab7c9e44992933fc7339580b89b2f7217ded9fa2e86599e798,accepted
+1978212368,CC_BY,Long-tailed Jaeger - GLS - Canadian Arctic,2026-09-28T17:11:21Z,38609cb4dfab09bea2203c910336147b,2ab3fa72b7e7592ad9b3119372fb86aa03a336bd34410bf1751654b6f2154568,accepted
+121041109,CC_BY,"Antarctic petrel 3D flights, Svarthamaren, Antarctica (data from Tarroux et al. 2016)",2026-09-28T17:11:24Z,28080cd6503fe5d4b77f2de1b207a487,b88d95f35efe8c9cc3868e9aeb23dc386600ac6deab5b5053760fd5b0875f46b,accepted
+196932952,CC_0,Fringe-lipped bat BCI Panama (data from Jones et al. 2017),2026-09-28T17:11:28Z,f842f65780b804e0aca2842726070ff9,8416285d71c1201fb0f42d272ac53f0b512b7c3b95f2a8188318b9d78a5b1f7e,accepted
+509393372,CC_0,Foraging heights of common noctules (data from O'Mara et al. 2019),2026-09-28T17:11:33Z,e740a6cfb76b60d0bdaa63cb940c2104,af6f7f735a8822fad6f81eaec3f3d7e60f0cba8c2d28f7a35bbf3e8cdc8480cf,accepted
+2130389462,CC_0,Griffon Vulture Gavashelishvili Caucasus,2026-09-28T17:11:37Z,07914d9e33c3c7ce9d7a9e89aa42b4f8,d94c94b8de75047b3f49bc1dc8d9a4fdbc8440a9a1f2fafc8523c96442df4839,accepted
+3791354435,CC_0,African Lion - Panthera Lion Central Kalahari Game Reserve,2026-09-28T17:11:42Z,305c6d536ee3e813a6c267cb0b10c6c5,ce84bcebabbdaa73d7830719fae536c0d23b5164beb8220505b7c54a4ce776e0,accepted
+1931904768,CC_0,Thailand ducks 2022,2026-09-28T17:11:45Z,ff82a9c5fde04a83e4b7e130997868a4,9a18e2325597ab75a237d91d3a767e1d8d2b088b60527d6885cd3e72bc3418da,accepted
+1480583194,CC_BY,Migrations of Caspian terns in family groups,2026-09-28T17:11:49Z,14268724c32be2008b3f35cb72140b7b,5633794ac125cbf8d369aaa2fa0eabd617e36d12175a079f71ab2ed2bfb86bf3,accepted
+1438605615,CC_BY,Central Valley shorebird movements and wetland connectivity,2026-09-28T17:11:53Z,6db911aff43d5321090b4fc4ab71fd39,84c9c991beb69ec10fa84154f5f3162b06daa94121343bda45529df25198fc13,accepted
+1841261165,CC_BY,Eurasian wigeon (Mareca penelope) Netherlands Lithuania 2018-2019,2026-09-28T17:11:56Z,1f2ef5b6744baa9f0432d4b9929b9fab,d9a16bbf8e63cab560f1d3b634b434adace30266f5246209abfa796638f7a825,accepted
+1437646021,CC_BY,"Long-billed Dowitchers (Linmodromus scolopaceous) radio-tagged in Klamath Basin and tracked to Central Valley, CA, USA",2026-09-28T17:12:01Z,8d4e68cf59897ead8509cff31e6a7116,3d084b1cd55784130ba7ed1739a8ec9588b264182ec00cf78c8a8a8c5da7ce0d,accepted
+1448377103,CC_0,Wood stork (Mycteria americana) Southeastern US 2004-2019,2026-09-28T17:12:08Z,b889efc4ccf732f4a19a4ca1ec4567ad,a7bc7b9555fa0d74581c998f695f0473dcbd338f53b67082005ed6805a5393af,accepted
+1371322147,CC_0,Red fox Bylot - Argos tracking,2026-09-28T17:12:14Z,9559cb1b1cca51e9f3fd69812e5e22dc,b9e9a296afe02d789e224cdec7b2f2ca7dc65e8e7dea4fb4a437e2660d7203e5,accepted
+1371529289,CC_0,Red fox Herschel - Argos tracking,2026-09-28T17:12:19Z,436e8205d0c2973115e2024b146a6ad5,8f566f2ce81727ab9153406ffa3895eaffdd75fcc2943109819a1960bb12396e,accepted
+1972027330,CC_0,stork at coesmes,2026-09-28T17:12:24Z,dd369a3915ee819ab1d684341bb7e299,ad0349ed78e99b090d7347e0dc855e3678e31e323e72851de2d7005e28b98439,accepted
+2950149,CC_0,Coatis on BCI Panama (data from Powell et al. 2017),2026-09-28T17:12:31Z,e884f11f5135bcd3896588132693b8fb,a0f5b7da9beb4502a11472b7d6031c97cc4f67c632bbdf88f90677263ee9c51a,accepted
+11948467,CC_0,NCSU Mammalogy Campus Carnivores,2026-09-28T17:12:36Z,4e183a659cf3f8632299380525808992,4e1518b25b6442e47511cc7b9fa72ad1fd1b03ce86ff8268629f71b5ab788b7c,accepted
+1344681768,CC_0,White-bellied Sea-Eagle (Haliaeetus leucogaster) movements post-rehabilitation and release,2026-09-28T17:12:41Z,812b5850f9bbe32ad6c3a6157458e534,195bb4980e834a765d65b83f6c361222802e68b6516c65aa632d09fd8ac0bf39,accepted
+1897273090,CC_0,"Ancient murrelet ANMU, Wilson, Ramsay Island BC Canada",2026-09-28T17:12:46Z,40e3e4a029d7a32a4dfc166389c04ad5,9b785d8502c125212af88322a370da64717f4efa30e068eb0e048b01ff065fa7,accepted
+2636372210,CC_BY,GPS tracking of bobcats and coyotes in northern Washington,2026-09-28T17:12:50Z,2253e05d47fd240054a126f011845acf,d977f3b7e25c052c05c687f52e09363fbe5b2bcbc07938f9d8567c20d7a7a751,accepted
+1498452485,CC_0,Variability of White Stork flight patterns prior to earthquakes,2026-09-28T17:12:56Z,2c86d2682745f14e24d60257c8dedcd5,72d501fcb4a2bc2ec2032f6d01255633fdd61c896386b6142e23c1f628cc47c6,accepted
+1245488040,CC_0,Foraging flights of Japanese greater horseshoe bat (data from Fujioka et al. 2020),2026-09-28T17:13:02Z,908c9d95737e8ec9920a029d674e50e9,25e940da4c2db9d4bb2939ea7a59204ae71ad7dac616f4b798a9771a01870cf5,accepted
+1707353581,CC_0,White-lipped peccary_Reyna-Hurtado_Calakmul,2026-09-28T17:13:06Z,068a59138b83dc9fed2874c54f3d4e48,88a8f9ac69175f9aab100120532b775c6722dc166b65b2b488d3cabb12233f60,accepted
+933711994,CC_BY,Elk in southwestern Alberta,2026-09-28T17:13:10Z,7c3b610a2235970402f4bd405217dba1,899431cbf44116713bb61d0d2bc7ea2c3b4c03c4b62df620542730ea0080dfaa,accepted
+2783096023,CC_0,"Red Knot Tracking Project, Mispillion Harbor, DE - Delaware Shorebird Project",2026-09-28T17:13:15Z,e082b31ac3763d463d4a9ce0f92aef1d,9df1e0a8343a35b91ac77be3eaf0afbac90c40639ce7d478a6d916c3c66dbfad,accepted
+2190520177,CC_0,Larus michahellis X Larus cachinnans hybrids,2026-09-28T17:13:22Z,74e2d51a18f25b53f44b0b07103241b0,af0ad0d345ed548329a25e8c029d0adca3e4b2e412dda01157124eb62d8bed5b,accepted
+2258814165,CC_BY,Deconstructing the flight paths of hippocampal-lesioned homing pigeons (data from Gagliardo et al. 2022),2026-09-28T17:13:28Z,be616dc7deade7a48075c4cda5f59004,6c13989f6a3c6b3ac737819c7c953679faca19881619f415377b3384ba6b3fc5,accepted
+1322558986,CC_BY,Data from: Juvenile emperor penguin Aptenodytes forsteri range calls for extended conservation measures in the Southern Ocean,2026-09-28T17:13:32Z,406333187a73c6f2a735dc6ede604baa,fbe5ed84d5f2bc89c9ddf51a7d342dbc3eb428670dcb879601030a2549728537,accepted
+2434921399,CC_0,Blackbird Czechia ICARUS TinyFox 2022,2026-09-28T17:13:37Z,580842c4cc8633202118e81c0688739c,1061b19028226a0a9a0ad93adfd4a80de50adba44468ab2e95e60384ae9c3ee7,accepted
+3030068329,CC_BY,Movements of Australia's east coast humpback whales,2026-09-28T17:13:43Z,66a2a9e758ab98b9203b21a496825428,0951f073dddb95a77fd74a7db84e7e7a8efde028f444af5718ede9ed6d3bd645,accepted
+968984187,CC_BY,"Arctic Skua, van Bemmelen, Norway",2026-09-28T17:13:49Z,55a4548508ea047fbf3b396bd0acc445,0b659f1b75c69952bf7ecfb4ff493d2198148a1b1d29077f3597dc23bfbd1926,accepted
+976692287,CC_BY,"Arctic Skua, van Bemmelen, Tobseda",2026-09-28T17:13:55Z,a44f8eae9d05c5a5c766ec9b6e52f142,2fce617d7511e21012ccf241016bb46d82ecc05888a38be647a51dcda4ad464c,accepted
+3114407141,CC_0,Medium tree finch_2020_Kleindorfer_Floreana_Galapagos,2026-09-28T17:14:02Z,ba8369a454be5484f93e0291f8e1fa6b,0835ec73b7a994e7734c5000f20fcedfc745cc783501732453c0efd1f96ac89d,accepted
+5808436651,CC_0,Caribou GPS data Nelchina Herd AK 1999-2002,2026-09-28T17:14:08Z,a05dd3e03d18021c7a02e0bb0679d11f,9d22e39b2b7249d9eaaffbcff032572c57bc2f7fa333f56cf5b6dd72a2fc70e3,accepted
+2980294,CC_BY,MPIAB Gadwall,2026-09-28T17:14:18Z,de9d844aa4362b4a5b01a49ea6b99054,b74cf08fa8c9edf0c5daac2dd1a21493371e4051900472f58e4573320ca1f9a3,accepted
+5960106361,CC_BY,Steppe Eagle_ACBK_West Kazakhstan_GSMTags_1,2026-09-28T17:14:24Z,dc7a82d2d3f749c8698476dbe92fc9e2,33cdf98bc559f882bb4526f23927160a8ad6cb7d2e5504d25f373b23108b5dce,accepted
+1818825,CC_BY,Forest Elephant Telemetry Programme,2026-09-28T17:14:31Z,382a59d7c266837edcd80a44dd390296,c72e6c7811169778c4489ebc6337b75600edd03468ce4f7ac08f5dd1df4863ab,accepted
+2976678046,CC_BY,White-tailed Deer Movement Florida,2026-09-28T17:14:37Z,d29201bd871183bae61a1f105035b9bc,a9c932d582d6e3369f15c72bf9fda653bd990ace5989dc2b2c2dcb5c2b975263,accepted
+208413731,CC_BY,White-bearded wildebeest (Connochaetes taurinus) movements - Kenya,2026-09-28T17:14:42Z,19ebcecefff9ecf716a0bf95ef0ef18b,9f8079426e1a1d9a669c4f442d3e30dc4202a3c6f8fd2ef7f98099bad04a153a,accepted
+2378397732,CC_0,GFHRadio,2026-09-28T17:14:48Z,0478f0da56ebaf176e4edcf2379f6401,80edd28b297de7b6f718e46037b7f10161869476728868ec179b34d96c7005d6,accepted
+2804692115,CC_BY,Bio-logging of tropicbirds,2026-09-28T17:14:55Z,110f6f861e3759268c88561d819e4187,8775d10fcfcd501cd16401c54442d04e90369208230285e7b9faa0dd8f71aaf7,accepted
+3046636757,CC_0,"California sea lion (Zalophus californianus), Oregon, 2003-2007, Wright et al. 2010",2026-09-28T17:15:02Z,c8f3da5817ae020012ab5a4cad36cdef,3f382d87f0e12bee5080ad598bf2c65611ffee8671d56f8d4f40345ac2754887,accepted
+8019591,CC_BY,Missouri Bison Tracking Project,2026-09-28T17:15:07Z,4bae1f24e3c3b84e195c2aba37baf1e7,56932cd5fed6ee57a6d05f20f47e52f454eececa31281cc58973796025dd8992,accepted
+1252230318,CC_0,White stork Ciconidae Western Poland,2026-09-28T17:15:14Z,cd40471d6a8d08e93be5b2d5c6ac778c,d0b1be8a777ce637ae4788e6eed4dcf896b38b0e2cfc6e4ee95cdb12c1b92707,accepted
+1623175929,CC_0,MPIAB Wiesner Chamois Conservation ,2026-09-28T17:15:19Z,6dbe0c9230517690904db2523d57f2c5,8b32be33c31733ab55d50a9ee5f6bcc2832815513c7037a2b1232848e2ea0588,accepted
+321852752,CC_0,MPIAB pigeon env buoys,2026-09-28T17:15:25Z,d512d91dff301d989ac2fdcd00f5aaa6,af0536196a3d54190961205b3de7649339cf6f23f0dc05ab1f644424b2b25e80,accepted
+2944153255,CC_0,"American Herring Gulls - GPS - Lobster Bay, Southwest Nova Scotia, Canada",2026-09-28T17:15:29Z,031c91a743ea9797034ea2d391441636,9c34178267e763202b25583babe515add4f42c1a6bacf119e592fc1a9e058524,accepted
+943122207,CC_BY,Atlantic puffin in Iceland (Petersen),2026-09-28T17:15:34Z,46b1c1871b2efafb006ec9ee83f99171,22326b50b068967812e8242caae480b925c990f78c689552e2b892ef01472f07,accepted
+19186107,CC_BY,Magnificent Frigatebird_BVI_GPS-PTT_2014-2016,2026-09-28T17:15:42Z,bae09f32b6301de335b3160ec575af8b,31cc12157854c100f4927501ee2eb71cd419e85b4a9f07241f7f6f3db204d8f5,accepted
+193545363,CC_0,"Site fidelity in cougars and coyotes, Utah/Idaho USA (data from Mahoney et al. 2016)",2026-09-28T17:15:50Z,06f15501035d4f2d1cb9a5e45a1bab7b,9d7a97b40979d6fc39e1972ef4143fb2a6ae328e3dff7d50f0ac252772637b3c,accepted
+3225293084,CC_BY,Breeding season movements of Golden-crowned Sparrows in Alaska,2026-09-28T17:15:55Z,f63b7ba2467457887938e0952e5a4fd1,6e0556c26e34c1ca0e3d4b3ad9ab60b2da968c1e7b4848cdd8ab4ef789de95c3,accepted
+446603,CC_BY,MPIAB Pink Footed Shearwater Argos,2026-09-28T17:15:59Z,0f45984b0a3f8a930ddb8ef605832cc6,da7d9764ee5658539265ead15d4829e642d648773096bc248cada423a329c391,accepted
+180290122,CC_BY,"At-sea distribution Antarctic Petrel, Antarctica 2012 (data from Descamps et al. 2016)",2026-09-28T17:16:06Z,fce82eae515370e3f53e70541dcbbc96,66f7d846b696e0e0ca2aee494462f51845eedac5ef522ddf8143328c9d714081,accepted
+225376313,CC_0,Migration of red-backed shrikes from the Iberian Peninsula (data from Tøttrup et al. 2017),2026-09-28T17:16:13Z,30db7852de07f80f9c4e69d73543fd27,37059ea4dd7bb2853a7f5df096a9a9ef30d988713f664dbaf2c4e2bd4b6b344f,accepted
+178797918,CC_BY,Migration of white-crested Elaenia (data from Bravo et al. 2017),2026-09-28T17:16:22Z,8f1c007f6e6f7aa742df429041e12230,ad362c72f0fde92e2c258690dc5a877ab60292eb27c485f4747d0249239948c8,accepted
+242477586,CC_BY,Argentine Barn Swallows,2026-09-28T17:16:29Z,3ee68004621767ce01163c66b42493e3,a80753f83e64c11614a781440c63d64f477c8e8f130ba64ae4c70820e978d951,accepted
+1904388965,CC_BY,"GPS data from: More grazing, more damage? Assessed yield loss on agricultural grassland relates non-linearly to goose grazing pressure",2026-09-28T17:16:35Z,46964e668efa723f4ce5729ff1975237,6e6e6dfc9d14a6b5dc5b2980b062ebac1a0bd82373722b1c6af6810403a42a62,accepted
+74496970,CC_BY,MPIAB white stork lifetime tracking data (2013-2014),2026-09-28T17:16:41Z,b0c61f353a31041885cb90723ca03725,23f579a83be56b7ad3196d682274e22a8cc7589d6564e83b9e82614eb52cba3d,accepted
+92261778,CC_BY,LifeTrack Whooper Swan Latvia,2026-09-28T17:16:47Z,83587f46246f6c313c9405ab3daa536c,084871b7dc24cfa3ce5b8467cec60846be8e81d4fa0cd1fe9186df1bbea91696,accepted
+133992043,CC_BY,Migration timing in white-fronted geese (data from Kölzsch et al. 2016),2026-09-28T17:16:52Z,52b58524185a9b94df9c46e857165941,09e9e20d0d71c143deb6d60d150ebf43e143cf24fc2fb9c9a9d810b16becafdd,accepted
+1720094461,CC_BY,Richard's Pipit (Anthus richardi),2026-09-28T17:16:59Z,8954e5096557e8bc190c78b5076ec5bd,98c8b237663829da98f8a1ce8997b0f532314a721c302ff8797994fbfd656784,accepted
+10449535,CC_BY,LifeTrack White Stork Greece Evros Delta,2026-09-28T17:17:04Z,e07dfb8ff906a7edf0eadabb7a9c574b,477873ee97eb962601de8efd8e44a5699c7e9559fa17a4a142b6a1e3316bac1a,accepted
+10596067,CC_BY,LifeTrack White Stork Moscow,2026-09-28T17:17:09Z,29df7a728ba884d62e02fb0234c8eed9,29c220958e561d473e5b8eef0d2b67556261b842ae070224a3de99dd194f3e97,accepted
+1744814602,CC_BY,Eastern Whooping Crane Population Migration Timing,2026-09-28T17:17:14Z,55e63bb1d95178e820a0db6c8205aa82,35e0975a14140144d70ffe5d21a4213129b85ec3f2517cab8a70237a7198c8ce,accepted
+175720577,CC_BY,LifeTrack White Stork Kosova,2026-09-28T17:17:19Z,e8c560d513e231af642fb321662f5dfd,680b6cc40b5a3dc3f65968aafe2903f4bacaf46613ee3f966af51453e0370694,accepted
+8849813,CC_0,LifeTrack - Great Egrets,2026-09-28T17:17:25Z,526deeda81f0632d5c08f2cfbddaf169,3540e464a1e33cedfecfbb8f600eff47df12c7c878c0a9aeef36e328317e0b06,accepted
+1080341737,CC_0,"Herring Gulls (Larus Argentatus); Ronconi; Sable Island, Canada",2026-09-28T17:17:30Z,07c87f8dfade335b1ee47a59c1900d0f,d930c5d22f9af295b2afe937076b3854be276252c23be1991f43d1d5225796cb,accepted
+154820583,CC_BY,LifeTrack Griffon Vulture Croatia,2026-09-28T17:17:34Z,a5643b23dbce436abe8dc7946c471484,928cda1343e3d5c00f224b4970171876e5d1c134241ff3146cae47b8324b14f9,accepted
+1539583795,CC_0,ICARUS Cuckoo Holland,2026-09-28T17:17:40Z,1e8a9aa8cefd2588539d275b62f94c85,1763ff168c1d88b26998078395316c47dba257e1fd7d1d8f31844ccd1083e571,accepted
+1071101052,CC_0,"Herring Gulls (Larus Argentatus); Ronconi; Kent Island, Canada",2026-09-28T17:17:45Z,a278558d923859bed979d2afac2d1e40,6fef584989673cb0b5fd7d0e3f47916cab88dbb7bca4a8fe226eb1d3107204b4,accepted
+79206236,CC_BY,LifeTrack White Stork Sicily,2026-09-28T17:17:50Z,3a24fe9640b74fc7f71130e1d8a66b57,1366f6b8dcab91afeb6c595d9572aca76772b4c7d0fc4c751440a96c12db3f6d,accepted
+176207818,CC_BY,Stray Dogs Prishtina,2026-09-28T17:17:57Z,6df1a9b3aa7dc466252247545817d65e,a6cff5fd07145905faf395b7792f14a358ebe367681aa89c87be1fadca544290,accepted
+2927282,CC_BY,Lake Constance Ducks,2026-09-28T17:18:05Z,7ae0a272f9da88df8832d95008b4d26d,854c6aad86a854437e16e79c0f7b5286cb80dff194dcc165400c4a47fb500b18,accepted
+8927992,CC_BY,LifeTrack - Evros Delta,2026-09-28T17:18:11Z,53b90eb5dd2c7474038f112f92b648e8,c9461d58e591298f61c0ee955a70ea86a04f638a19ec88b076560a23ba631dbd,accepted
+82684,CC_BY,Trumpeter Hornbills Kwa Zulu Natal,2026-09-28T17:18:17Z,837f56d0050ed7b22874dd6c5281e1c2,53d2080907ac5da004352cece621ee286dd76a9972e074d69f27754f3dd075e8,accepted
+446635,CC_BY,MPIAB Trumpeter Hornbill Argos,2026-09-28T17:18:23Z,cd1c626e02a589e5c39d07d5ffe4a6bd,9ae30fdd8fd2085e7fa714ad0d11467798d042c2035218e8b73e6a367c1b1139,accepted
+1073231887,CC_BY,Red-tailed hawks in North America (Bloom),2026-09-28T17:18:28Z,ee765c74e6a76b985e6a6880ab5664e0,144e9c711bfd7e9116365c4f60ddb02277934d0823e4a266f7dd5bab0b17fc21,accepted
+657674643,CC_BY,North Sea population tracks of greater white-fronted geese 2014-2017 (data from Kölzsch et al. 2019),2026-09-28T17:18:34Z,6d618fe187c090021b8c45e08bbf74c7,f86abc92cbbc9a6841ffe3178cc89ab10f06f86c9de5849b69a19cb204754913,accepted
+657965212,CC_BY,Pannonic population tracks of greater white-fronted geese 2013-2017 (data from Kölzsch et al. 2019),2026-09-28T17:18:39Z,0ebd7b3cb724e3a008dcbbf696aebbfb,672cee5f89ad72c2bafdcb8dc4f97f67bf0056aa53769fa006bb993db305e6b8,accepted
+1049685237,CC_0,Greater white-fronted goose family migration flight,2026-09-28T17:18:44Z,13e9c17161716162b282048a2f10a38b,e2b189a797e14ecaddb0aa4fdae7e81abfda61d655ce894a2306272d884cb3e4,accepted
+446579,CC_BY,MPIAB Lake Constance Mallards GPS,2026-09-28T17:18:50Z,8b33771adbae09ab35d79478a056df5b,8532c2542aa1da1678a7ecd9a2bea4144bad024a4a005fd2e6a5cc35a0e2349a,accepted
+136953438,CC_0,ABoVE: Boelman Alberta American Robins,2026-09-28T17:18:55Z,81f695b42bed7bcfa4f06a948ed8cbca,8b500c6147c3bc87542845fec44be466dfb19693e7a5fbb3d47e00ed85acd4b4,accepted
+1265808304,CC_0,Spain Tarragona - Long term study on migratory movement of Alpine swifts (Apus melba),2026-09-28T17:19:01Z,69aa36240b5dc3125f087f7c3a5f7f94,7ae3ddbf08779ea408f8b1287c2e4ad4c0b797512cf3c880139bfc0979222e91,accepted
+673728219,CC_BY,NPS Dall Sheep in Yukon-Charley Rivers National Preserve,2026-09-28T17:19:05Z,e4156817f329f37e7930e53bfa7d7571,b64ae6aa9eabbac280fcb61aec991790a6df1432b7fa7c2de66072e3517aa173,accepted
+1080341217,CC_0,"Herring Gulls (Larus Argentatus); Clark; Massachussets, United States",2026-09-28T17:19:10Z,d512a82915e51c401aa312467f80cbb6,c413b9beff101936111864e36df90d23852ee14b451918763d0c37dc9668c1a0,accepted
+1266783506,CC_0,Switzerland Baden - Long term study on migratory movement of Alpine swifts (Apus melba),2026-09-28T17:19:18Z,0db5cd9d13b24c5a32d250baaa0fae1e,c9b0fdbbff9c3f6d0280cd8d69b88231cfd7c114c94e427016e62ad147a8eeec,accepted
+1266895841,CC_0,Switzerland Biel - Long term study on migratory movement of Alpine swifts (Apus melba),2026-09-28T17:19:26Z,1713d02a0b6ca91d2e2d15f3b52e3e70,e1c698d2031a863d7ac7a16753f3602803a1c4676a19caf64abdbb94b17558e6,accepted
+69724677,CC_0,FTZ Geese Wadden Sea,2026-09-28T17:19:30Z,c625369971e067fbd2ad86341a3af5f5,6cb9557019268b727d537be5b9f41c5967874e4a1d792471708fdfd334b25d53,accepted
+1266897111,CC_0,Switzerland Lausanne - Long term study on migratory movement of Alpine swifts (Apus melba),2026-09-28T17:19:37Z,fe2ebc7d12b8e299a686f2feefcdea5c,e5f27c7cc4fc1924de1ac95ed03d7f9b999958af4d3695ecf13896853049ac88,accepted
+10763606,CC_BY,LifeTrack White Stork Poland,2026-09-28T17:19:42Z,c040e7141bbacff7aaba643668262257,452175e641465e917491e9bcc3f7fab9ad6092b8b1f53b43253762f4d8f2edcd,accepted
+1263827241,CC_0,Migration of red-backed shrike populations (data from Pedersen et al. 2020),2026-09-28T17:19:49Z,a0f8c8061e90777af81c46cfd51f166c,b6e670300c39493424d4404a8d3825ebb2ea4b48be2b49bce43aa8aa54f4190b,accepted
+1542182482,CC_0,ICARUS Pinyon Jay,2026-09-28T17:19:54Z,0a3bc527ba202523e1003358e2695c59,76ce6b353f69819814faf91540d2444405817728e0962b4374c4a6f6b611c336,accepted
+1266894561,CC_0,Switzerland Luzern - Long term study on migratory movement of Alpine swifts (Apus melba),2026-09-28T17:19:59Z,efc75749b7ce01ffe5028fb8871ced30,ad8ba7eac8e802a80c23f7fc4382da067533ace0f10d87cbad51e8acc63a30a1,accepted
+1266886176,CC_0,Switzerland Lenzburg - Long term study on migratory movement of Alpine swifts (Apus melba),2026-09-28T17:20:07Z,395a7c768617eda35db73cf00ba42a8b,c8b22350a82da41f6d04fe83874e614b84b4727cdb4c1240d883198d693f79e6,accepted
+939718445,CC_0,Cassin's Vireo Sierra Nevada Geolocator Study,2026-09-28T17:20:15Z,d43a51d43778f173e2531ad41c0841f5,c77ef974112b59267f1c6fee9ec69e479d02b1e5db9a7ccb04dd68f25e790cbe,accepted
+1266896491,CC_0,Switzerland Solothurn - Long term study on migratory movement of Alpine swifts (Apus melba),2026-09-28T17:20:24Z,429e476a88625f55512369e7b1a44502,9cea7ea6d811cc65fbf09c193f929ef42beca6fc7d01cb850d69829b20eeec41,accepted
+20202974,CC_BY,e-Obs GPRS Himalayan Griffon - Bhutan-MPIAB,2026-09-28T17:20:30Z,111e3b74befce9463ec345cba7e65d53,70b035cf89aea722bb36c28f66a332d5077d933af62243accf47e49701ecb90b,accepted
+1542155599,CC_0,ICARUS Mongolia cuckoos Nymba,2026-09-28T17:20:37Z,ad238d28e479339abef51c635d248716,38ebc3fee3432f3d4c0d31596c4e06d47c076489691122de472b6038a3c8a00a,accepted
+1541820092,CC_0,ICARUS Turkey Cagan,2026-09-28T17:20:42Z,8f779c0618a6ad569892df5795689c44,3c0a0c8434518a2e84d86cd20f56dbe68a69d3fd49be6f70e529b475a804bc04,accepted
+1259710536,CC_0,Turkey Pirasali - Long term study on migratory movement of Alpine swifts (Apus melba),2026-09-28T17:20:49Z,e0cf2db8612079d40c8cd76ef8c9c31d,2091a9061e4da7689fe6d730d240a0e99fed272c138b961eea6f60c606fd033b,accepted
+246511326,CC_BY,"Striped Mud Turtles (Kinosternon baurii) Lakeland, FL",2026-09-28T17:20:55Z,9254b4c568d9a5e40d0f9f68bb985f4e,94081b6c9f2bc574c65bd842785295765cb2ab0e7e9e4ba8cb62948efddfda10,accepted
+163020445,CC_0,Foraging by white-fronted geese after disturbance (data from Nolet et al. 2016),2026-09-28T17:21:01Z,ed99a460b3028f2e573e1f9449d678e0,8bcadba651d38700c8bb98c237cf7a9753e2bc838335a5d4a0e0324bcce0454f,accepted
+532621861,CC_BY,"Common cuckoo, Khakassia",2026-09-28T17:21:06Z,faa030b6e7a17696a457a0c76f5a2002,56e72b59445a8b836787950825edca0c160f7c53244f945a43cb941a0353a43b,accepted
+1902221,CC_BY,Collared Peccary on BCI,2026-09-28T17:21:11Z,0c3047dffdee1620921f8e4f954eeb84,933b3cac8003d83ae42238c9b59d0c385cc759482827c58f24f8e6eb9de56162,accepted
+890556697,CC_0,Migration of male and female red-backed shrikes from southern Scandinavia (data from Pedersen et al. 2019),2026-09-28T17:21:15Z,927e6c348006d56d9860f36af7292135,a8cda5bf3f1533b3d9300e7f157e2bae0608591bc05524c957541d15da630db2,accepted
+8008999,CC_BY,LifeTrack White Stork South Africa,2026-09-28T17:21:21Z,f9eb7237862cad62e086e30b3a57b9b8,6ecd5fe633311ac3e396ba56779360e8acf59a0bdcd2e55d179297c83a9572cf,accepted
+25166516,CC_BY,LifeTrack White Stork Poland ECG,2026-09-28T17:21:26Z,3611e3735fd498256fda94eb5719488d,5af03c157f5c116d0313d2bba656497a8478deed9409161d81ccab23bd012ae8,accepted
+1326534946,CC_BY,Black-legged Kittiwake Rissa tridactyla Middleton Island,2026-09-28T17:21:31Z,634308dae99c51160263fad746467966,77f20f0ed1aacbf93cbb78973a321c4cfc3167492d187a6cfc66b4056b661b47,accepted
+930926243,CC_0,Migration Timing and Wintering Areas of Three Species of Flycatchers (Tyrannus) Breeding in the Great Plains of North America,2026-09-28T17:21:36Z,27e46d8ce40cd024411b1436038fb7dc,55d341a1c9dc899dc846209405719baf4fcdd92afcde2d313f139cce4c98dd24,accepted
+7023252,CC_0,Collective movement in wild baboons,2026-09-28T17:21:40Z,c3ffe862d4da1811b8bb2b7081b5249e,965e97d91489dd80527466ea5aa4a438c5ded3833259ff38dd9a6fd99d6f13e7,accepted
+439735878,CC_BY,Hypsignathus monstrosus Olson Central Africa,2026-09-28T17:21:44Z,b174163a3acfa051fc0543a838aa4e7e,26bd375a663826b6402d6f3fcb0745d592461b0ba7f8f644158777d7888f3a53,accepted
+560041066,CC_BY,Eastern flyway spring migration of adult white storks (data from Rotics et al. 2018),2026-09-28T17:21:49Z,3bec1d03d3593a2c6b30646b88f75b78,1b172b028e198ee05ae0a130b74372eea6baae84e05e35211f3ca15523c14283,accepted
+53460105,CC_BY,Collective movement in wild baboons (data from Strandburg-Peshkin et al. 2015),2026-09-28T17:21:55Z,a0f3da95da1c8a4369c3a4ef2d3aa2b4,255bb340293a263fe638b6ae50976a2aabbde4e72cb81a425e3575e96261f3c4,accepted
+2930072,CC_0,Oilbirds (data from Holland et al. 2009),2026-09-28T17:22:00Z,adadbdd3759a7f20658bfb4eca8b1914,a408fd954cef6e6788cedcb671dbd5ea12d1f9460eacfbca5a6a425804e868e7,accepted
+183770262,CC_0,Long-distance seed dispersal by straw-coloured fruit bats (data from Abedi-Lartey et al. 2016),2026-09-28T17:22:09Z,a81a8ac7b7924e5ccfeb6b111ff87fea,9875e005eb84a4e443bfe976dad2464c1c1d93cba3ed6c50de4656f3b805a415,accepted
+182459847,CC_BY,Whooper swans in Latvia 2016,2026-09-28T17:22:15Z,696eeb0d4398d4546fd5482faff0a9d4,ada546216bb0cea9b9b20a32d4efaf1c8a6c59ab791d186f9dbf1793803daae9,accepted
+1153270750,CC_BY,Whale shark movements in Gulf of Mexico,2026-09-28T17:22:22Z,1bdbb79fd40046a0b89a25fdf5aa3916,f0a614e33b5279d2d00273b7fc47f45239fa0fd02adc283e997786728c95fd23,accepted
+176770813,CC_BY,Vermont Center for Ecostudies Upland Sandpiper Annual Life Cycle Ecology,2026-09-28T17:22:29Z,350f1e3e52f56bac88ffdbd116c8df25,1a301ba2e5503aa16dcb4379e37354238278cd83295508fd38e9b78b93e7c848,accepted
+177002088,CC_0,"Baboon group movement, South Africa (data from Bonnell et al. 2016)",2026-09-28T17:22:33Z,17e4fca6559bc34b6094d2f8ccca505a,9b8beaeed2ff51a536122282dd615df66f0d794b9f80b5a8e85d28fd39423ca3,accepted
+332044860,CC_BY,Fall migration of white storks in 2014,2026-09-28T17:22:39Z,016b83138bcc74eaf38faccc3da87541,db5f5814cfde76a16523517bfc145ca3c3a5b8bfc026ee9ecf90839fd914f8d4,accepted
+467107447,CC_BY,White-fronted goose full year tracks 2006-2010 Alterra IWWR,2026-09-28T17:22:44Z,67cfe8e6f13156a3f298b898921bba13,c0bb49edffdbe5694d43874714ab9da7e2b029fa43877941d6e25ed60e34c3b0,accepted
+99265106,CC_0,Common Cuckoos from Rybachy,2026-09-28T17:22:48Z,59f01c649f6804f9feba7b77b9ffa4a2,887f01c0495781d8abe23af4ddb1a0df147f7e60d53d90658bf71143155328bf,accepted
+7431347,CC_BY,MPIAB Argos white stork tracking (1991-2017),2026-09-28T17:22:53Z,633902d4cf2f59910c2a9ae96e7d31b2,021323e966be6a92d260387e96ad04a1e5d7e2f7fa714a36a84ac73cb942565d,accepted
+1666470874,CC_0,Pfoetchenalarm VOX 2021,2026-09-28T17:22:58Z,67ec4108e9a1615c3ca4dc3eca4ad755,4605da9cd2a3d4b85e05b73ac1736489ef092dd927bb37ca342cb82048d1d569,accepted
+1894170572,CC_0,Pet cat Germany MPIAB 2022,2026-09-28T17:23:02Z,0b90c99d70d1be1060f321380745a00b,24a19c435f40e0c8ecdb97a4a08ffc316177ae62ac1f4e276194cce57a0a8d58,accepted
+395654442,CC_0,Plumbeous Pigeon Brazil,2026-09-28T17:23:06Z,6f19849cfb4cfbfd3fa7aadbc21c6ac3,27551768534629ebea76e2d95245cdf84c7812e126d5e7b3a21524fcc9ab2ecd,accepted
+9493881,CC_BY,LifeTrack White Stork Uzbekistan,2026-09-28T17:23:11Z,c1e4d8578310b0491ab5bd85ca46757f,ef4da6f2e6c556b7c1e54f20761eee95bc605ba1c8763be7fa807b7602aebaba,accepted
+83912796,CC_0,MPIAB training flights of juvenile greylag geese,2026-09-28T17:23:17Z,fc9d811cf47b26c3e13451febf344056,98d102184217128a0c5db4ec9c0b1c0c4f3277daeaf0bb212ac0e6ae999d64bc,accepted
+1895716931,CC_0,"Ancient murrelet ANMU, Wilson, George Island BC Canada",2026-09-28T17:23:22Z,fcb05b8307cdbfc7d6f973ab33833d8e,b642c2f48a670e0fbd519a5ab2d4a721f4b822e1e7a136a54a5f9dd1754d7c7f,accepted
+1207235729,CC_0,Coyote (Canis latrans) movement in the northern blue ridge mountains - Virginia,2026-09-28T17:23:27Z,f5de0db72bb0d374718cd32590910354,57227db579aa59afc2c044fefe6c4f3c826674152258838a4d239db7dba21347,accepted
+924418031,CC_0,Common Snipe GPS-GSM logger Poland-Russia,2026-09-28T17:23:33Z,87b1f3833cb4042168bc55d6d7ea64d9,fa95bf8eeb201729139307b6248192b367760c987223d363eb10725554b3e3dd,accepted
+1577975863,CC_0,"Space use and habitat selection of an invasive mesopredator (Felis catus) and sympatric, native apex predator (Canis dingo)",2026-09-28T17:23:40Z,797e0f25aea8f07a875ca9dee4df6b76,b25dddbc5882ac5df3fb11b404de23e83296f69cef11bb776a6415e49c675621,accepted
+467037497,CC_0,Ringed seals Sanikiluaq,2026-09-28T17:23:44Z,7a342e511be05b6d0ab9f2e9c9aeb17a,a2c1a573d219c421b75239f20a75753290cd776502d272adef2efef1b5cbe54e,accepted
+3809257699,CC_BY,African lions in Central Kalahari Botswana,2026-09-28T17:23:48Z,1bbe1c69895a236d4d0c386a17aa21c6,99218e9802ecf8ac4eae334bc446901f1d874ee2d3b1e3d4438b4e4fca60c144,accepted
+212096177,CC_BY,LifeTrack White Stork Oberschwaben,2026-09-28T17:23:55Z,5621fc6177e5a5e02c5c3732536bce66,b8884bc27875c479c4b31d84b68ca555283155571d4f37e46c674a3ee19f4480,accepted
+2930370782,CC_BY,Arctic and red fox coexistence at the edge of Arctic,2026-09-28T17:23:59Z,c187b2016b3d81ed762a169d63c852e8,63e42f4eec3ac67bdd0d9f23f22b601482082b4376fcd4afc504577de6b1b5b8,accepted
+4124813,CC_BY,Black-necked crane Bhutan (UWICE-MPIAB),2026-09-28T17:24:05Z,d6c12d4955ec610714209911098afc0b,894214dbc6c62b6c1b421e75fa758e6aed2a643fa5273d230c8794d6623cc057,accepted
+913538699,CC_BY,"Marbled Murrelet satellite tracking data from British Columbia, Canada 2014-2016",2026-09-28T17:24:08Z,aee814bca8141a52c3943bfa417b9115,5b7ad23ba70f829749e878d529c4bd6653d54334702cea21096e2499560734c5,accepted
+4154763386,CC_BY,"Cassin's Auklet at Triangle Island, northeast Pacific (1999-2001)",2026-09-28T17:24:12Z,61f168128cc77688c33f8a786063ef79,bad901f3d6642b0aeab19b59dd36fee4e68a2d09abd86a48fb4499bfcf605573,accepted
+446571,CC_BY,MPIAB Griffon Vulture Argos,2026-09-28T17:24:17Z,03633c4708f61900440202de4a907743,e1d1c054d6bec9a259a0590f593544a4d1d36fbdcb8783aa9b02f79fc1287c05,accepted
+173641633,CC_BY,LifeTrack White Stork Vorarlberg,2026-09-28T17:24:23Z,87a1b7e7dc2d70b32b5c04f2c1ce62d5,a012d9be9f3af003a4460d045aad52a6e128b97e94bac2b4dc1675a15bb39d35,accepted
+574659339,CC_BY,Death's-head hawkmoth migration Europe,2026-09-28T17:24:26Z,ab4fc0a244746e3e10fd1be8670c6a99,b19d65c7749df6d7fae7ea84ec12319cf6b362fdc69ed3e04a5fcf7f6e5e72f1,accepted
+1518377,CC_BY,Brant Geese Sean Boyd 2005,2026-09-28T17:24:30Z,b57530782c3de375fd859b24f6071638,902443f13eb87502942dd13dd476a005ee1e1411054b8f04bcac4eeb35d90a6e,accepted
+4353860777,CC_0,Use of multiple South American nonbreeding regions and seasonally distinct migration routes by an individual Scarlet Tanager (Piranga olivacea). Data from Raybuck et al. 2024.,2026-09-28T17:24:38Z,c10193ea32bd616b7d1b995d7249e47b,e1c440aa0ddea2db4f3cd8a615d7c62f6e52a993161664acabd7e68a1f41eaa9,accepted
+18993393,CC_0,Feral cats interaction with fire/grazing regimes,2026-09-28T17:24:45Z,3bacb2351b6e7408d7ef9d7afc8a24de,590a86ab56b88d17a164bb0a7e7cfbe85d1c38187e9006798db06e99f9cef279,accepted
+4447816442,CC_0,BTO - Whinnyfold 2021 - Kittiwake,2026-09-28T17:24:50Z,e5ee644aa87d0e0f7206360ba01d64da,9abc9ff49da257c4165392b52cd14e5c0362d9dbe7fbafc6393ba3bd03b9264f,accepted
+2989306200,CC_0,Galapagos Swallow-tailed Gull,2026-09-28T17:24:56Z,7458c44eb0fbdd02d45a10ff76ebeb12,f2ea31152b912a3ecd93c9be3ebcfdbf027a17eb1738b63d1e83b1daecfefc18,accepted
+2658117564,CC_BY,UoG Northern gannet (breeders) Bass Rock HPAIV outbreak August 2022,2026-09-28T17:25:00Z,110e8cd2136c33892081ab13701d2f77,5bdc3a4bdfd7cbd06e088588491e1b999d01f79403206c4df9e3ed9efe073305,accepted
+76367850,CC_BY,LifeTrack White Stork Rheinland-Pfalz,2026-09-28T17:25:07Z,949c8f361e997e3bb849a6abaa8646e8,539cfd53ef69a9403d656cb2c82405ed4476bf9f1fe3826dea75723f359387b6,accepted
+4725153649,CC_0,"Choloepus hoffmanni, The Sloth Conservation Foundation, Puerto Viejo de Talamanca Costa Rica",2026-09-28T17:25:13Z,56f9cf866e1d67bfe2f8cb800317dba5,f208d3a217fe17fdd4e9958ad198f4fcca2c0c59dc1ab24fb94c0fdebd6798e1,accepted
+943824007,CC_BY,Blue and fin whales Southern California 2014-2015 - Fastloc GPS data,2026-09-28T17:25:19Z,ea01f7f6c325b0f0afa8df4e47c482b3,646923f7d9d04eef391dc1a830fe1e34a965241ed7fa0435d98a68d4a5937b62,accepted
+650188969,CC_BY,Blue whales Eastern North Pacific 1993-2008 - Argos data,2026-09-28T17:25:26Z,7a76e4201a285359381d8ba113dbf929,bb38fe20ad6918a18e6676066fe67e4a2680d25a10949840f86ff728c4010e47,accepted
+4739876185,CC_0,King Rail Movements in Southwest Louisiana,2026-09-28T17:25:32Z,f50dcd5ae5d81fcc427c3e5f66b78ad3,4b052321d2179390a82718e8b6f536e234812c1206c325947a886830e881f5ed,accepted
+1109284853,CC_0,"Andean Condor Vultur gryphus Bariloche, Argentina, 2013-2018",2026-09-28T17:25:38Z,0f113895938ec616d784eea3844a2122,2d882c910782ded8c001d189daa6b8818b4c629a7ccd8fe7108e233b0ae1857c,accepted
+146932094,CC_BY,"Common Crane Lithuania GPS, 2015-2016",2026-09-28T17:25:44Z,6ee144c87d15b845f854d90a238bc435,842e3b005b0528bf73f8c640b04d6abb2bbb409f001f28146f82f8b08df484ad,accepted
+227843945,CC_BY,Sperm whales Gulf of California 2007-2008 ADB Tags Fastloc GPS data,2026-09-28T17:25:51Z,6f422aad2684af4d81e285d0ae943a1a,91bc1e84bf12a7a1eeb13fba8da219d96a6ab1abb3b03511f52bb99009d07970,accepted
+1903018561,CC_0,SNGO migration tracking,2026-09-28T17:25:56Z,358272532657aa212db40198c76e5bd6,5e0cd1470d6fbc53cdfc16a4220c1f30befda81774a147d3fd17d8ffb965a1fc,accepted
+1381387450,CC_BY,Sperm whales Gulf of California 2007-2008 ADB Tags Argos data,2026-09-28T17:26:04Z,8c5805aa87732e527a04cccdb4a9bbbb,4a365c87f2518827ebcc105fdf20e1aa32046d2bc6191937f25e5c88451ae4b7,accepted
+1445058753,CC_0,Larus heuglini_1,2026-09-28T17:26:11Z,61b9455b6b894eaba707c3bca016b90c,c461429f67520216cf524da17377466ffdd24f3c5d7e9b9142b50a92195de2c4,accepted
+2956085063,CC_0,Greater spear-nosed bat (Phyllostomus hastatus) in Bocas del Toro 2023,2026-09-28T17:26:18Z,6410584557e0eee50b9eb9cdc2a3a9c2,975b12937f032e02766b62646714599b8d31ebd60c15f7d462c9d33a1848dcfc,accepted
+145038719,CC_BY,"Foraging movements of greater spear-nosed bats, Bocas del Toro",2026-09-28T17:26:24Z,93a6b320c078c422dcb0e4af7a1cd1fa,d81e57ab38d43587c4f6d7108c2be2ffbf61a484e17dee4730e82658dd037da8,accepted
+1990236627,CC_0,Greater spear-nosed bat (Phyllostomus hastatus) in Bocas del Toro 2021-2022,2026-09-28T17:26:31Z,4012b23dbcffc0f2d19cf5f475c0e415,8bd1e23f0e0a8cae9590da4f134dfafc5e6b5ecec03040b8b03d030cf98a4e44,accepted
+3240092491,CC_0,"Siberian rubythroat tracking from Qinghai, China",2026-09-28T17:26:39Z,d35e7da08f10bb5b7fb13a92b78ab5a1,a42d4b6f3b2ba7d459aae9705074ef689f3e256967bb1a1fad79d36c7e029ee4,accepted
+5175345606,CC_0,Bobcat habitat connectivity study in central California,2026-09-28T17:26:47Z,3587e149705749f7b028582063f300c4,6688761581df93605c014212c1c13d0b62ae43165e7c426d671df6c716fe4860,accepted
+3179890710,CC_0,Red Fox (Vulpes vulpes) in UK wet grasslands,2026-09-28T17:26:52Z,ffa36f79defe10eac9fe70f6502a17e0,d55a87ee629c2263486aaf6c9872153c62d8fc6b6e7e852a48fb62a290fe5785,accepted
+3389603083,CC_BY,Bar-tailed Godwit geolocator tracking New Zealand 2013-2014,2026-09-28T17:26:57Z,b0a8dbad4cf4971cebd6bbb2ba0a31b5,d4a7bf4e5a153086b035c45c8f7605b2d7f063d1350d46233ae16b0a6c96251e,accepted
+3389607769,CC_BY,Red Knot geolocator tracking New Zealand 2013,2026-09-28T17:27:01Z,acc9f34bd614026e8ab399b9f812c716,2d2c3383a196f951821178f8fea6fc7b374b907abcd4acae81ec2b34dafdb1dc,accepted
+2379775078,CC_0,Hammer-headed fruit bats (Hypsignathus monstrosus) in the Republic of Congo,2026-09-28T17:27:07Z,c70b7fad240d8b64e34acbeb3ef7020f,778747dc964d43e9870a87a5a734e8c4d5f0da9175369cf0846c5ee092c40cb7,accepted
+4900735626,CC_BY,Common noctule migration SigFox MPIAB,2026-09-28T17:27:12Z,8ff3381105bb5459cdc6433f1c68649c,6e8793dcc7f12f1b197696937af96f267d08af3f2925dcb8b717e5b6e3b1cda7,accepted
+2793281264,CC_0,Tapir in the Maya Forest,2026-09-28T17:27:17Z,eadf3d21ea492301f0e8e8eb1f7fc2ad,53253f6b3bd8ac60e0e73207f11e7e8e052aac08958c96f68e7b8e23455e0bdb,accepted
+934079034,CC_BY,Tracking movements of Peregrine Falcons Falco peregrinus from breeding populations in Arctic Eurasia,2026-09-28T17:27:21Z,164ad28f78af90d39f3851e7cc7ad327,acdf7eb03e2338108da8306fce04902aa5a22b2f0f03a201deb5184542cd6d5f,accepted
+922820594,CC_BY,Tracking post-fledging dispersal and migration of juvenile Peregrine Falcons Falco peregrinus in Arctic Russia,2026-09-28T17:27:26Z,0ac13ff6c6ca327b5d5eb773f15f5ead,748fc1a673f19604dbbac8c340c23d08eb6714f54f86b306d1e39d5ca4bbda35,accepted
+2984378217,CC_BY,1000 Cranes. Ukraine.,2026-09-28T17:27:30Z,2356f868c6830db0fc009f3df51b36db,f97f398a9d5bc53d3fdb7f64f97f2f806364a796b418f3a90272e44bf73987dc,accepted
+249737372,CC_0,Thick-billed murre Gilchrist and Elliott Digges 2016,2026-09-28T17:27:34Z,2aa20aefe91653735da0695b47bc2b70,eb0cd231d4f869f6a8c1313f991265df4583f27f804e41ed3f5da56947e232f2,accepted
+247850178,CC_0,Audubon Canyon Ranch egret telemetry project,2026-09-28T17:27:41Z,38088e061f4cff0230558d692a4602e1,7990e04a4ef6aa2a5c0dd18cd4abb832faf7e832051090c592b37a62c1cb4d69,accepted
+3392345835,CC_BY,Effects of artificial feeding on post-fledging movements of Egyptian vultures,2026-09-28T17:27:45Z,46a0583ac5fcd1df655ffccc4c6e878b,f32a0b64e601033182a15fa68af8c8af658b2aa4d3a744d147f39d269dd77163,accepted
+2742048829,CC_0,Elephant Research - Ivory Coast - Collar 2970 (Part I),2026-09-28T17:27:51Z,56012ba2acdfd8582c80e59ec63ef46a,3663c02ec460d95c3b6486059fdcd974894ef04034584ca132af89a93b326317,accepted
+5601779025,CC_0,Elephant Research - Ivory Coast - Collar 2970 (Part II),2026-09-28T17:27:55Z,0b2617947acb2000a1887ecc5d5808c1,736ac1c971a7048a9f613b6a1482365707c643a40c0912481bc20b5384400f76,accepted
+136461320,CC_BY,The Leap of the Cat,2026-09-28T17:28:02Z,f3f9119e9fecd7d25835e07601a740d0,828f77c7f10babb1daf8ffeec48dbd4ff40deb61dc7a81c753f82602dbd28897,accepted
+10722328,CC_BY,"GPS telemetry of Common Cranes, Sweden",2026-09-28T17:28:07Z,05c39c3e33b4b1c3a3917ee424346d28,264c09ccd31e261aa3927e5432ea070ed47e893c6aa0abc2ae3cb007e2b37b42,accepted
+186171846,CC_BY,Migratory connectivity of purple martins (data from Fraser et al. 2016),2026-09-28T17:28:16Z,28b198e6b0a037113a82723f52c2ef70,0111dbe0e4fbcd65384fda5dea5cfdf9b93184aa46e300c06fb68e7726de911b,accepted
+3267664208,CC_BY,"Green turtles (Chelonia Mydas); Hays; Chagos Archipelago, Western Indian Ocean",2026-09-28T17:28:24Z,8f4c9c114d8ad5bbd3899ee08e26128d,17abc6dec09ab1989827b3c64cd26f726014e0401792cfca9b14ff0341362bf6,accepted
+2886960828,CC_BY,Homing pigeon flight kinematics,2026-09-28T17:28:32Z,8d91721820ad691d29d0ab9f2ea4deff,78a0ccbd3898b7d867e2217650a71a161af215844784f26f229dd95d7b45f6bc,accepted
+1027467132,CC_BY,Blue and fin whales Southern California 2014-2015 - Argos data,2026-09-28T17:28:38Z,448995dd42f500fa521b9d893280c22b,cef472d1df5c96bb3668d5090afe0f92bca6f99d94479d8ff795db0c489f7b05,accepted
+1120088177,CC_0,Migration of breeding white-crested Elaenia in Cape Horn,2026-09-28T17:28:44Z,2b32441dac19be2f57a7e04b7c8d4990,642ed08e623a52e1bd0e72c692009d8e94d9573ad9bb5286e9b9721d74d95c82,accepted
+229457444,CC_BY,Blue whales Eastern North Pacific 2003 State-space model output,2026-09-28T17:28:51Z,094614352fc0a2de84f3e699a63e3748,56110e2b8c9a9c4260468a96a3831dcb69628754ed0f5ff54f403593ff0a4416,accepted
+1206927877,CC_0,Pigeon Adriatic Sea DMS,2026-09-28T17:28:55Z,01787f53e445c99e6ec9a014a3e82a63,fed4db3d64ed8590bdde06114ad6e0ce6d0aee45fef4e36ff7d9eed3188e015b,accepted
+2924922,CC_0,MPIAB Capercaillie Black Forest,2026-09-28T17:29:00Z,a4cc21163d829dfb9510a3dcd4dbbf72,eda5b45cd8ba284465897da544c8b31ac223ad7050a91b198a8382f36b89f8fb,accepted
+3492555233,CC_BY,Re-visiting the Relationship between the Avian Visual Wulst and Homing Pigeon Navigation,2026-09-28T17:29:04Z,259f8c8436fdf534a6cdbd1a26df2d98,f4b25d396b80acd11f49aa1a34043a26fcb336816e1c70c5c5401c2dd331e1e3,accepted
+1165647238,CC_0,MCP Mountain Plover Colorado,2026-09-28T17:29:08Z,61e312540415f5ecf82ac01140a422f0,c9b1a8a3f2c8450858d9b5d30fb271b1cbe486a5b23a88b46db38afb6f327eee,accepted
+3780829,CC_BY,Eagle owl Reinhard Vohwinkel MPIAB,2026-09-28T17:29:13Z,9974dafb23241daabef65f06ecf82be5,6a5ef30ff9b1995747b8e4b7001d337d75237e9a80681c33b304fa6853cb6b74,accepted
+959756713,CC_0,"A boreal songbird's migration across North America and the Atlantic Ocean, Setophaga striata",2026-09-28T17:29:17Z,dffebdfbd4f64b4feca6e59b47e23951,dcb5cacf868e31e222c39ec009a7d3ae32167dd804ca784605e276b42d1d44f5,accepted
+2923486,CC_0,Kinkajous on Pipeline Road Panama (data from Powell et al. 2017),2026-09-28T17:29:22Z,6e1743b4b2a919df0f3b4167c94786d9,0e4876eb0bbf56a11d20932ebbb03083b0ef0e5edf4388ae1b5e22416ae739b5,accepted
+462476569,CC_0,Navigation in homing pigeons (data from Zannoni et al. 2020),2026-09-28T17:29:28Z,16e57df84c94248627446ebc0266d9dd,d583a9d6a95b7f32211e084848851b553ce0973a15e14a15ba6ec910150ea9b7,accepted
+404939825,CC_0,Straw-colored fruit bats (Eidolon helvum) in Africa 2009-2014,2026-09-28T17:29:33Z,0c425190026247aaa8f2a582edfe3c15,a1916b7e5054fd99883150181090eec91ec564fcb7c60d2f84adc7a22aae47d5,accepted
+300222057,CC_0,Pet Cats United Kingdom,2026-09-28T17:29:38Z,f8410e07875f311a87b38121c5d5c5c0,fa716ca665d73434e35285a23aa800f299cb0b151422ef6b33be1b79a216b6ab,accepted
+681056756,CC_0,Foraging movements of Lyle's flying foxes in Cambodia (data from Choden et al. 2019),2026-09-28T17:29:43Z,7c0cf5abe75f4e465225b10df736cb6d,6dad0746717186e828e8e27d4f1b69341f9f705e6a82b849d3595026ef119ffc,accepted
+15661938,CC_BY,Sperm whales Gulf of Mexico 2011-2013 - Fastloc GPS data,2026-09-28T17:29:50Z,eaaab3e451643c46db5ec3f91a5e1783,ce87600d178ab5496faa65bd9a22222e48ed6e6084c0251b42118c7717f5e3b9,accepted
+1070994859,CC_0,Spatial ecology of copperhead snakes in an urban park,2026-09-28T17:29:55Z,3f4cd204740c0544a272089836697e21,7201e5baa6692f0e6b1d6cd770c9903d5118b4e58acd3992c5365752cb56b9f0,accepted
+452187673,CC_BY,Fin whales Gulf of California 2001 - Argos data,2026-09-28T17:30:00Z,5e61da0dd7d3761997940c5b0c37cac3,d74ced27e45cfb31ce46c8d0ca372981bfdd67f67d167f1aa85892e3dc07585c,accepted
+1093338949,CC_BY,Sperm whales Gulf of Mexico 2011-2013 ADB Tags - Argos data,2026-09-28T17:30:04Z,b596bd8608a9f2b058e498f670ce2ef5,9a424212b90c3e3edfa65292a5ae7b57294cac01f20a0e1e6572ed7c5a810587,accepted

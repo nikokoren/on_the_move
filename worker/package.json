@@ -1,0 +1,17 @@
+{
+  "name": "on-the-move-worker",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "check": "node check.mjs && node test/refresh-check.mjs",
+    "record": "node test/record.mjs",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

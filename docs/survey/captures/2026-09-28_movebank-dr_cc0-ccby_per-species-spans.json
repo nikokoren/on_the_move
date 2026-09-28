@@ -1,0 +1,1325 @@
+{
+ "(none)": {
+  "packages": 2,
+  "animals": 19,
+  "full_cycle": 0,
+  "max_span_days": 33,
+  "longest": "Data from: Prolonged stopover duration characterises migration strateg"
+ },
+ "Acinonyx jubatus": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "max_span_days": 302,
+  "longest": "Data from: A note on the reestablishment of the cheetah population in "
+ },
+ "Actitis hypoleucos": {
+  "packages": 1,
+  "animals": 10,
+  "full_cycle": 8,
+  "max_span_days": 1098,
+  "longest": "Data from: Non\u2010breeding areas and timing of migration in relation to w"
+ },
+ "Agkistrodon contortrix": {
+  "packages": 2,
+  "animals": 80,
+  "full_cycle": 45,
+  "max_span_days": 385,
+  "longest": "Data from: Cozy in the city: the morphology and spatial ecology of cop"
+ },
+ "Ammodramus savannarum": {
+  "packages": 1,
+  "animals": 34,
+  "full_cycle": 34,
+  "max_span_days": 384,
+  "longest": "Data from: Migratory patterns and connectivity of two North American g"
+ },
+ "Anas acuta": {
+  "packages": 1,
+  "animals": 3,
+  "full_cycle": 1,
+  "max_span_days": 343,
+  "longest": "Data from: As the duck flies: estimating the dispersal of low-pathogen"
+ },
+ "Anas crecca": {
+  "packages": 1,
+  "animals": 7,
+  "full_cycle": 3,
+  "max_span_days": 387,
+  "longest": "Data from: Study \"Eurasian teal, Giunchi, Italy\""
+ },
+ "Anas penelope": {
+  "packages": 1,
+  "animals": 38,
+  "full_cycle": 13,
+  "max_span_days": 890,
+  "longest": "Data from: Study \"Eurasian wigeon (Mareca penelope) Netherlands Lithua"
+ },
+ "Anas platyrhynchos": {
+  "packages": 2,
+  "animals": 135,
+  "full_cycle": 1,
+  "max_span_days": 375,
+  "longest": "Data from: As the duck flies: estimating the dispersal of low-pathogen"
+ },
+ "Anastomus oscitans": {
+  "packages": 1,
+  "animals": 5,
+  "full_cycle": 5,
+  "max_span_days": 2073,
+  "longest": "Data from: Satellite telemetry tracks flyways of Asian Openbill storks"
+ },
+ "Anser albifrons": {
+  "packages": 4,
+  "animals": 35,
+  "full_cycle": 17,
+  "max_span_days": 1654,
+  "longest": "Data from: Flyway connectivity and exchange primarily driven by moult "
+ },
+ "Anser anser": {
+  "packages": 1,
+  "animals": 144,
+  "full_cycle": 0,
+  "max_span_days": 47,
+  "longest": "Data from: Dynamic body acceleration increases by 20% during flight on"
+ },
+ "Anser brachyrhynchus": {
+  "packages": 1,
+  "animals": 11,
+  "full_cycle": 8,
+  "max_span_days": 876,
+  "longest": "Data from: Foraging behaviour and fuel accumulation of capital breeder"
+ },
+ "Antilocapra americana": {
+  "packages": 1,
+  "animals": 32,
+  "full_cycle": 24,
+  "max_span_days": 732,
+  "longest": "Data from: Study \"Pronghorn (Antilocapra americana), Wyoming/Colorado,"
+ },
+ "Antrostomus vociferus": {
+  "packages": 2,
+  "animals": 15,
+  "full_cycle": 3,
+  "max_span_days": 337,
+  "longest": "Data from: Remote estimation of overwintering home ranges in an elusiv"
+ },
+ "Aptenodytes forsteri": {
+  "packages": 1,
+  "animals": 8,
+  "full_cycle": 3,
+  "max_span_days": 374,
+  "longest": "Data from: Juvenile emperor penguin range calls for extended conservat"
+ },
+ "Apus melba": {
+  "packages": 9,
+  "animals": 217,
+  "full_cycle": 118,
+  "max_span_days": 1634,
+  "longest": "Data from: Study \"Turkey Pirasali - Long term study on migratory movem"
+ },
+ "Aquila chrysaetos": {
+  "packages": 3,
+  "animals": 64,
+  "full_cycle": 36,
+  "max_span_days": 2061,
+  "longest": "Data from: Study \"Golden Eagle Nevada\""
+ },
+ "Ara glaucogularis": {
+  "packages": 1,
+  "animals": 3,
+  "full_cycle": 1,
+  "max_span_days": 483,
+  "longest": "Data from: Satellite telemetry of Blue-throated Macaws in Barba Azul N"
+ },
+ "Ardea alba": {
+  "packages": 1,
+  "animals": 10,
+  "full_cycle": 2,
+  "max_span_days": 1054,
+  "longest": "Data from: Study \"Audubon Canyon Ranch egret telemetry project\""
+ },
+ "Ardea purpurea": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "max_span_days": 132,
+  "longest": "Data from: Post-fledging habitat selection of a Purple Heron Ardea pur"
+ },
+ "Asio flammeus": {
+  "packages": 1,
+  "animals": 5,
+  "full_cycle": 1,
+  "max_span_days": 970,
+  "longest": "Data from: New York State bald eagle report 2010"
+ },
+ "Astur atricapillus": {
+  "packages": 1,
+  "animals": 7,
+  "full_cycle": 3,
+  "max_span_days": 518,
+  "longest": "Data from: Study \"GPS tracking of American Goshawks--Nevada Department"
+ },
+ "Ateles geoffroyi": {
+  "packages": 1,
+  "animals": 16,
+  "full_cycle": 0,
+  "max_span_days": 195,
+  "longest": "Data from: Multi-scale movement syndromes for comparative analyses of "
+ },
+ "Balaenoptera musculus": {
+  "packages": 4,
+  "animals": 161,
+  "full_cycle": 1,
+  "max_span_days": 503,
+  "longest": "Data from: Behavioural estimation of blue whale movements in the North"
+ },
+ "Balaenoptera physalus": {
+  "packages": 3,
+  "animals": 18,
+  "full_cycle": 0,
+  "max_span_days": 175,
+  "longest": "Data from: Fin whale movements in the Gulf of California, Mexico, from"
+ },
+ "Bartramia longicauda": {
+  "packages": 1,
+  "animals": 9,
+  "full_cycle": 9,
+  "max_span_days": 1181,
+  "longest": "Data from: Migration patterns of upland sandpipers in the western hemi"
+ },
+ "Bos taurus": {
+  "packages": 2,
+  "animals": 42,
+  "full_cycle": 0,
+  "max_span_days": 0,
+  "longest": ""
+ },
+ "Brachylagus idahoensis": {
+  "packages": 1,
+  "animals": 20,
+  "full_cycle": 0,
+  "max_span_days": 28,
+  "longest": "Data from: Evaluation of micro-GPS receivers for tracking small-bodied"
+ },
+ "Brachyramphus marmoratus": {
+  "packages": 3,
+  "animals": 139,
+  "full_cycle": 108,
+  "max_span_days": 842,
+  "longest": "Data from: Study \"Marbled Murrelets at Desolation Sound, British Colum"
+ },
+ "Branta leucopsis": {
+  "packages": 2,
+  "animals": 11,
+  "full_cycle": 2,
+  "max_span_days": 376,
+  "longest": "Data from: Effects of multiple targeted repelling measures on the beha"
+ },
+ "Buteo lagopus": {
+  "packages": 1,
+  "animals": 3,
+  "full_cycle": 2,
+  "max_span_days": 921,
+  "longest": "Data from: Longer days enable higher diurnal activity for migratory bi"
+ },
+ "Buteo plagiatus": {
+  "packages": 1,
+  "animals": 47,
+  "full_cycle": 17,
+  "max_span_days": 1746,
+  "longest": "Data from: Study \"Multi-Scale Spatial and Movement Ecology of Gray Haw"
+ },
+ "Calidris alpina": {
+  "packages": 1,
+  "animals": 26,
+  "full_cycle": 26,
+  "max_span_days": 1091,
+  "longest": "Data from: Migration strategies of the Baltic Dunlin: rapid jump migra"
+ },
+ "Calidris canutus": {
+  "packages": 2,
+  "animals": 9,
+  "full_cycle": 7,
+  "max_span_days": 613,
+  "longest": "Data from: Kiawah and Seabrook islands are a critical site for the ruf"
+ },
+ "Calidris ferruginea": {
+  "packages": 1,
+  "animals": 13,
+  "full_cycle": 6,
+  "max_span_days": 527,
+  "longest": "Data from: Migration strategy as an indicator of resilience to change "
+ },
+ "Calidris ruficollis": {
+  "packages": 2,
+  "animals": 20,
+  "full_cycle": 5,
+  "max_span_days": 364,
+  "longest": "Data from: Migration strategy as an indicator of resilience to change "
+ },
+ "Calonectris diomedea": {
+  "packages": 1,
+  "animals": 29,
+  "full_cycle": 0,
+  "max_span_days": 32,
+  "longest": "Data from: Olfaction and topography, but not magnetic cues, control na"
+ },
+ "Canis": {
+  "packages": 1,
+  "animals": 26,
+  "full_cycle": 0,
+  "max_span_days": 192,
+  "longest": "Data from: Where do livestock guardian dogs go? Movement patterns of f"
+ },
+ "Canis latrans": {
+  "packages": 3,
+  "animals": 57,
+  "full_cycle": 21,
+  "max_span_days": 1307,
+  "longest": "Data from: Study \"GPS tracking of bobcats and coyotes in northern Wash"
+ },
+ "Canis lupus": {
+  "packages": 3,
+  "animals": 47,
+  "full_cycle": 12,
+  "max_span_days": 1507,
+  "longest": "Data from: Study \"Wolves, Stahler, Yellowstone National Park\" [part]"
+ },
+ "Canis mesomelas": {
+  "packages": 1,
+  "animals": 7,
+  "full_cycle": 4,
+  "max_span_days": 808,
+  "longest": "Data from: Resource-driven encounters among consumers and implications"
+ },
+ "Capra hircus": {
+  "packages": 1,
+  "animals": 13,
+  "full_cycle": 8,
+  "max_span_days": 362,
+  "longest": "Data from: Home range use and movement patterns of non-native feral go"
+ },
+ "Caprimulgus vociferus": {
+  "packages": 1,
+  "animals": 26,
+  "full_cycle": 12,
+  "max_span_days": 355,
+  "longest": "Data from: Tracking the migration of a nocturnal aerial insectivore in"
+ },
+ "Caracal caracal": {
+  "packages": 1,
+  "animals": 33,
+  "full_cycle": 0,
+  "max_span_days": 190,
+  "longest": "Data from: Study \"Caracal movement ecology study in Cape Town, South A"
+ },
+ "Caretta caretta": {
+  "packages": 1,
+  "animals": 11,
+  "full_cycle": 0,
+  "max_span_days": 268,
+  "longest": "Data from: Study \"Satellite Tracking of Oceanic Loggerhead Turtles in "
+ },
+ "Carpodacus erythrinus": {
+  "packages": 1,
+  "animals": 22,
+  "full_cycle": 12,
+  "max_span_days": 397,
+  "longest": "Data from: The Indo-European Flyway: opportunities and constraints ref"
+ },
+ "Cathartes aura": {
+  "packages": 5,
+  "animals": 108,
+  "full_cycle": 69,
+  "max_span_days": 3115,
+  "longest": "Data from: Environmental drivers of variability in the movement ecolog"
+ },
+ "Cathartes melambrotus": {
+  "packages": 1,
+  "animals": 2,
+  "full_cycle": 1,
+  "max_span_days": 393,
+  "longest": "Data from: Scouts vs usurpers: alternative foraging strategies facilit"
+ },
+ "Cebus capucinus": {
+  "packages": 1,
+  "animals": 16,
+  "full_cycle": 0,
+  "max_span_days": 107,
+  "longest": "Data from: Multi-scale movement syndromes for comparative analyses of "
+ },
+ "Cervus elaphus": {
+  "packages": 1,
+  "animals": 143,
+  "full_cycle": 96,
+  "max_span_days": 1710,
+  "longest": "Data from: Human selection of elk behavioural traits in a landscape of"
+ },
+ "Charadrius hiaticula": {
+  "packages": 1,
+  "animals": 20,
+  "full_cycle": 20,
+  "max_span_days": 729,
+  "longest": "Data from: Seasonal variation in migration strategies used to cross ec"
+ },
+ "Chelonia mydas": {
+  "packages": 1,
+  "animals": 33,
+  "full_cycle": 5,
+  "max_span_days": 553,
+  "longest": "Data from: Study \"Green turtles (Chelonia Mydas); Hays; Chagos Archipe"
+ },
+ "Chelonoidis": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 1,
+  "max_span_days": 1953,
+  "longest": "Data from: Migration triggers in a large herbivore: Gala\u0301pagos giant t"
+ },
+ "Chelonoidis donfaustoi": {
+  "packages": 3,
+  "animals": 23,
+  "full_cycle": 23,
+  "max_span_days": 2051,
+  "longest": "Data from: Migration triggers in a large herbivore: Gala\u0301pagos giant t"
+ },
+ "Chelonoidis hoodensis": {
+  "packages": 3,
+  "animals": 19,
+  "full_cycle": 19,
+  "max_span_days": 1711,
+  "longest": "Data from: Flexible characterization of animal movement pattern using "
+ },
+ "Chelonoidis porteri": {
+  "packages": 3,
+  "animals": 37,
+  "full_cycle": 26,
+  "max_span_days": 1608,
+  "longest": "Data from: Flexible characterization of animal movement pattern using "
+ },
+ "Chironectes minimus": {
+  "packages": 1,
+  "animals": 10,
+  "full_cycle": 4,
+  "max_span_days": 803,
+  "longest": "Data from: Spatial ecology of the water opossum Chironectes minimus in"
+ },
+ "Chiroxiphia caudata": {
+  "packages": 1,
+  "animals": 63,
+  "full_cycle": 4,
+  "max_span_days": 603,
+  "longest": "Data from: Movements of neotropical understory passerines affected by "
+ },
+ "Chondestes grammacus": {
+  "packages": 1,
+  "animals": 6,
+  "full_cycle": 4,
+  "max_span_days": 365,
+  "longest": "Data from: Individual variation in migratory path and behavior among E"
+ },
+ "Chordeiles minor": {
+  "packages": 1,
+  "animals": 3,
+  "full_cycle": 3,
+  "max_span_days": 379,
+  "longest": "Data from: Non-breeding ecology of a Neotropical-Nearctic migrant, the"
+ },
+ "Ciconia ciconia": {
+  "packages": 17,
+  "animals": 698,
+  "full_cycle": 154,
+  "max_span_days": 4018,
+  "longest": "Data from: The price of being late: short- and long-term consequences "
+ },
+ "Circus pygargus": {
+  "packages": 1,
+  "animals": 2,
+  "full_cycle": 0,
+  "max_span_days": 297,
+  "longest": "Data from: Migratory connectivity and population specific migration ro"
+ },
+ "Clangula hyemalis": {
+  "packages": 1,
+  "animals": 14,
+  "full_cycle": 0,
+  "max_span_days": 228,
+  "longest": "Data from: Movement of long-tailed ducks marked on the Yukon-Kuskokwim"
+ },
+ "Columba livia": {
+  "packages": 11,
+  "animals": 3873,
+  "full_cycle": 0,
+  "max_span_days": 6,
+  "longest": "Data from: Unilateral hippocampal lesions and the navigational perform"
+ },
+ "Connochaetes taurinus": {
+  "packages": 1,
+  "animals": 36,
+  "full_cycle": 24,
+  "max_span_days": 964,
+  "longest": "Data from: Comparison of movement strategies of three populations of w"
+ },
+ "Coracias garrulus": {
+  "packages": 1,
+  "animals": 17,
+  "full_cycle": 17,
+  "max_span_days": 723,
+  "longest": "Data from: A pan-European, multi-population assessment of migratory co"
+ },
+ "Coragyps atratus": {
+  "packages": 4,
+  "animals": 44,
+  "full_cycle": 31,
+  "max_span_days": 3019,
+  "longest": "Data from: Study \"Vultures tagged in the southeastern United States\" ["
+ },
+ "Corvus brachyrhynchos": {
+  "packages": 1,
+  "animals": 7,
+  "full_cycle": 1,
+  "max_span_days": 537,
+  "longest": "Data from: Space and resource use by American crow (Corvus brachyrhync"
+ },
+ "Creagrus furcatus": {
+  "packages": 1,
+  "animals": 130,
+  "full_cycle": 0,
+  "max_span_days": 1,
+  "longest": "Data from: The owl gull: exclusively nocturnal foraging by the Swallow"
+ },
+ "Cuculus gularis": {
+  "packages": 1,
+  "animals": 5,
+  "full_cycle": 4,
+  "max_span_days": 1493,
+  "longest": "Data from: Intra-African movements of the African Cuckoo Cuculus gular"
+ },
+ "Egretta tricolor": {
+  "packages": 1,
+  "animals": 37,
+  "full_cycle": 6,
+  "max_span_days": 677,
+  "longest": "Data from: Movement of White Ibis and Tricolored Herons tagged with sa"
+ },
+ "Eidolon helvum": {
+  "packages": 2,
+  "animals": 91,
+  "full_cycle": 0,
+  "max_span_days": 17,
+  "longest": "Data from: Overall dynamic body acceleration in straw-colored fruit ba"
+ },
+ "Elaenia albiceps": {
+  "packages": 2,
+  "animals": 30,
+  "full_cycle": 20,
+  "max_span_days": 1050,
+  "longest": "Data from: White-crested Elaenias (Elaenia albiceps chilensis) breedin"
+ },
+ "Equus ferus": {
+  "packages": 1,
+  "animals": 29,
+  "full_cycle": 18,
+  "max_span_days": 799,
+  "longest": "Data from: Study \"Feral horse (Equus ferus caballus), Wyoming/Colorado"
+ },
+ "Eudocimus albus": {
+  "packages": 2,
+  "animals": 23,
+  "full_cycle": 5,
+  "max_span_days": 826,
+  "longest": "Data from: Movement of White Ibis and Tricolored Herons tagged with sa"
+ },
+ "Exaerete frontalis": {
+  "packages": 1,
+  "animals": 16,
+  "full_cycle": 0,
+  "max_span_days": 7,
+  "longest": "Data from: Large-range movements of neotropical orchid bees observed v"
+ },
+ "Falco naumanni": {
+  "packages": 1,
+  "animals": 178,
+  "full_cycle": 0,
+  "max_span_days": 247,
+  "longest": "Data from: Why do kestrels soar?"
+ },
+ "Falco peregrinus": {
+  "packages": 2,
+  "animals": 11,
+  "full_cycle": 2,
+  "max_span_days": 815,
+  "longest": "Data from: The history and range expansion of peregrine falcons in the"
+ },
+ "Falco rusticolus": {
+  "packages": 4,
+  "animals": 48,
+  "full_cycle": 4,
+  "max_span_days": 445,
+  "longest": "Data from: Seasonal movements of Gyrfalcons Falco rusticolus include e"
+ },
+ "Falco tinnunculus": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 1,
+  "max_span_days": 405,
+  "longest": "Data from: Study \"Migration routes of the Common Kestrel passing throu"
+ },
+ "Felis catus": {
+  "packages": 7,
+  "animals": 1018,
+  "full_cycle": 3,
+  "max_span_days": 548,
+  "longest": "Data from: The small home ranges and large local ecological impacts of"
+ },
+ "Ficedula hypoleuca": {
+  "packages": 1,
+  "animals": 27,
+  "full_cycle": 10,
+  "max_span_days": 387,
+  "longest": "Data from: Geolocators reveal variation and sex-specific differences i"
+ },
+ "Fratercula arctica": {
+  "packages": 1,
+  "animals": 10,
+  "full_cycle": 10,
+  "max_span_days": 726,
+  "longest": "Data from: Migratory movements of Atlantic puffins Fratercula arctica "
+ },
+ "Gelochelidon nilotica": {
+  "packages": 1,
+  "animals": 6,
+  "full_cycle": 5,
+  "max_span_days": 954,
+  "longest": "Data from: Satellite telemetry reveals strong fidelity to migration ro"
+ },
+ "Grus grus": {
+  "packages": 2,
+  "animals": 10,
+  "full_cycle": 2,
+  "max_span_days": 2069,
+  "longest": "Data from: Study \"Common Crane Lithuania GPS, 2015-2016\""
+ },
+ "Grus nigricollis": {
+  "packages": 1,
+  "animals": 7,
+  "full_cycle": 5,
+  "max_span_days": 634,
+  "longest": "Data from: Study \"Black-necked crane Bhutan (UWICE-MPIAB)\""
+ },
+ "Gyps fulvus": {
+  "packages": 1,
+  "animals": 17,
+  "full_cycle": 9,
+  "max_span_days": 722,
+  "longest": "Data from: The characteristic time scale of perceived information for "
+ },
+ "Gyps himalayensis": {
+  "packages": 2,
+  "animals": 9,
+  "full_cycle": 6,
+  "max_span_days": 741,
+  "longest": "Data from: Longer days enable higher diurnal activity for migratory bi"
+ },
+ "Haliaeetus leucocephalus": {
+  "packages": 2,
+  "animals": 44,
+  "full_cycle": 31,
+  "max_span_days": 1472,
+  "longest": "Data from: New York State bald eagle report 2010"
+ },
+ "Halichoerus grypus": {
+  "packages": 1,
+  "animals": 16,
+  "full_cycle": 1,
+  "max_span_days": 557,
+  "longest": "Data from: A novel approach to quantifying the spatiotemporal behavior"
+ },
+ "Hirundo rustica": {
+  "packages": 2,
+  "animals": 29,
+  "full_cycle": 9,
+  "max_span_days": 347,
+  "longest": "Data from: Long-distance range expansion and rapid adjustment of migra"
+ },
+ "Hydrobates pelagicus": {
+  "packages": 1,
+  "animals": 7,
+  "full_cycle": 2,
+  "max_span_days": 688,
+  "longest": "Data from: Partial migration in the Mediterranean storm petrel Hydroba"
+ },
+ "Hydroprogne caspia": {
+  "packages": 2,
+  "animals": 71,
+  "full_cycle": 60,
+  "max_span_days": 1268,
+  "longest": "Data from: Study \"Tracking of Caspian Terns (Hydroprogne caspia) in th"
+ },
+ "Hypsignathus monstrosus": {
+  "packages": 1,
+  "animals": 30,
+  "full_cycle": 0,
+  "max_span_days": 20,
+  "longest": "Data from: Foraging and mating behaviors of Hypsignathus monstrosus at"
+ },
+ "Lanius collurio": {
+  "packages": 4,
+  "animals": 109,
+  "full_cycle": 98,
+  "max_span_days": 1114,
+  "longest": "Data from: Remarkably similar migration patterns between different red"
+ },
+ "Larus argentatus": {
+  "packages": 1,
+  "animals": 10,
+  "full_cycle": 1,
+  "max_span_days": 347,
+  "longest": "Data from: Study \"Herring Gulls (Larus Argentatus); Gilchrist; East Ba"
+ },
+ "Larus canus": {
+  "packages": 1,
+  "animals": 4,
+  "full_cycle": 0,
+  "max_span_days": 59,
+  "longest": "Data from: Effects of agricultural practices on foraging habitats of a"
+ },
+ "Larus fuscus": {
+  "packages": 2,
+  "animals": 27,
+  "full_cycle": 0,
+  "max_span_days": 220,
+  "longest": "Data from: True navigation in migrating gulls requires intact olfactor"
+ },
+ "Larus hyperboreus": {
+  "packages": 1,
+  "animals": 3,
+  "full_cycle": 3,
+  "max_span_days": 713,
+  "longest": "Data from: First evidence of diverging migration and overwintering str"
+ },
+ "Leopardus pardalis": {
+  "packages": 2,
+  "animals": 10,
+  "full_cycle": 5,
+  "max_span_days": 503,
+  "longest": "Data from: \u00c1mbito de hogar y actividad circadiana del ocelote (Leopard"
+ },
+ "Lepus arcticus": {
+  "packages": 1,
+  "animals": 26,
+  "full_cycle": 3,
+  "max_span_days": 368,
+  "longest": "Data from: Study \"Arctic hare Alert - Argos tracking\""
+ },
+ "Limosa haemastica": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "max_span_days": 163,
+  "longest": "Data from: Compensation for wind drift prevails for a shorebird on a l"
+ },
+ "Limosa lapponica": {
+  "packages": 1,
+  "animals": 18,
+  "full_cycle": 13,
+  "max_span_days": 396,
+  "longest": "Data from: Study \"Bar-tailed Godwit geolocator tracking New Zealand 20"
+ },
+ "Limosa limosa": {
+  "packages": 1,
+  "animals": 11,
+  "full_cycle": 5,
+  "max_span_days": 559,
+  "longest": "Data from: When Siberia came to The Netherlands: the response of conti"
+ },
+ "Loxodonta africana": {
+  "packages": 1,
+  "animals": 14,
+  "full_cycle": 14,
+  "max_span_days": 730,
+  "longest": "Data from: Fine-scale tracking of ambient temperature and movement rev"
+ },
+ "Luscinia calliope": {
+  "packages": 1,
+  "animals": 16,
+  "full_cycle": 16,
+  "max_span_days": 379,
+  "longest": "Data from: Study \"Siberian rubythroat tracking from Qinghai, China\""
+ },
+ "Lycalopex culpaeus": {
+  "packages": 1,
+  "animals": 2,
+  "full_cycle": 0,
+  "max_span_days": 196,
+  "longest": "Data from: A pilot study on the home range and movement patterns of th"
+ },
+ "Lynx rufus": {
+  "packages": 4,
+  "animals": 90,
+  "full_cycle": 26,
+  "max_span_days": 704,
+  "longest": "Data from: Study \"GPS tracking of bobcats and coyotes in northern Wash"
+ },
+ "Manta": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "max_span_days": 67,
+  "longest": "Data from: Correcting for missing and irregular data in home-range est"
+ },
+ "Megaptera novaeangliae": {
+  "packages": 1,
+  "animals": 50,
+  "full_cycle": 0,
+  "max_span_days": 286,
+  "longest": "Data from: Australia\u2019s east coast humpback whales: satellite tag deriv"
+ },
+ "Meleagris gallopavo": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "max_span_days": 218,
+  "longest": "Data from: Study \"GPS tracking of wild turkeys in the southeastern US\""
+ },
+ "Mergus merganser": {
+  "packages": 1,
+  "animals": 9,
+  "full_cycle": 2,
+  "max_span_days": 425,
+  "longest": "Data from: Post-fledging movements of juvenile common mergansers (Merg"
+ },
+ "Milvus milvus": {
+  "packages": 1,
+  "animals": 3,
+  "full_cycle": 1,
+  "max_span_days": 527,
+  "longest": "Data from: Flight behaviour of Red Kites within their breeding area in"
+ },
+ "Mobula": {
+  "packages": 1,
+  "animals": 14,
+  "full_cycle": 6,
+  "max_span_days": 853,
+  "longest": "Data from: Residency and use of an important nursery habitat, Raja Amp"
+ },
+ "Morus bassanus": {
+  "packages": 2,
+  "animals": 71,
+  "full_cycle": 0,
+  "max_span_days": 49,
+  "longest": "Data from: Strong breeding colony fidelity in northern gannets followi"
+ },
+ "Mycteria americana": {
+  "packages": 1,
+  "animals": 133,
+  "full_cycle": 65,
+  "max_span_days": 4070,
+  "longest": "Data from: Study \"Wood stork (Mycteria americana) Southeastern US 2004"
+ },
+ "Myotis vivesi": {
+  "packages": 1,
+  "animals": 15,
+  "full_cycle": 0,
+  "max_span_days": 3,
+  "longest": "Data from: Acoustic evaluation of behavioral states predicted from GPS"
+ },
+ "Nasua narica": {
+  "packages": 1,
+  "animals": 37,
+  "full_cycle": 0,
+  "max_span_days": 129,
+  "longest": "Data from: Multi-scale movement syndromes for comparative analyses of "
+ },
+ "Neophron percnopterus": {
+  "packages": 1,
+  "animals": 14,
+  "full_cycle": 9,
+  "max_span_days": 1203,
+  "longest": "Data from: Satellite tracking a wide\u2010ranging endangered vulture specie"
+ },
+ "Ninox japonica": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 1,
+  "max_span_days": 382,
+  "longest": "Data from: Case Report: Long-distance overwater migration of the North"
+ },
+ "Noctilio albiventris": {
+  "packages": 1,
+  "animals": 26,
+  "full_cycle": 0,
+  "max_span_days": 22,
+  "longest": "Data from: Seasonal shifts in tropical insect ephemerality drive bat f"
+ },
+ "Nyctalus noctula": {
+  "packages": 2,
+  "animals": 100,
+  "full_cycle": 0,
+  "max_span_days": 53,
+  "longest": "Data from: Bats surf storm fronts during spring migration"
+ },
+ "Nyctereutes procyonoides": {
+  "packages": 1,
+  "animals": 30,
+  "full_cycle": 5,
+  "max_span_days": 639,
+  "longest": "Data from: Ice cover and partner removal increase movements of invasiv"
+ },
+ "Odocoileus hemionus": {
+  "packages": 1,
+  "animals": 3,
+  "full_cycle": 0,
+  "max_span_days": 70,
+  "longest": "Data from: Study \"GPS tracking of ungulates in Utah by UDWR (2019-2020"
+ },
+ "Odocoileus virginianus": {
+  "packages": 1,
+  "animals": 3,
+  "full_cycle": 3,
+  "max_span_days": 1036,
+  "longest": "Data from: Study \"GPS tracking of white-tailed deer in western Virgini"
+ },
+ "Oenanthe oenanthe": {
+  "packages": 4,
+  "animals": 64,
+  "full_cycle": 60,
+  "max_span_days": 786,
+  "longest": "Data from: Locally adapted migration strategies: Comparing routes and "
+ },
+ "Ovis aries": {
+  "packages": 1,
+  "animals": 8,
+  "full_cycle": 0,
+  "max_span_days": 166,
+  "longest": "Data from: Where do livestock guardian dogs go? Movement patterns of f"
+ },
+ "Pandion haliaetus": {
+  "packages": 2,
+  "animals": 134,
+  "full_cycle": 59,
+  "max_span_days": 1128,
+  "longest": "Data from: Fall migration routes, timing, and wintering sites of North"
+ },
+ "Panthera onca": {
+  "packages": 1,
+  "animals": 13,
+  "full_cycle": 2,
+  "max_span_days": 597,
+  "longest": "Data from: Jaguar movement database\u2014a GPS-based movement dataset of an"
+ },
+ "Panthera pardus": {
+  "packages": 1,
+  "animals": 14,
+  "full_cycle": 3,
+  "max_span_days": 544,
+  "longest": "Data from: Repatriating leopards into novel landscapes of a South Afri"
+ },
+ "Papio": {
+  "packages": 1,
+  "animals": 26,
+  "full_cycle": 0,
+  "max_span_days": 14,
+  "longest": "Data from: Shared decision-making drives collective movement in wild b"
+ },
+ "Papio anubis": {
+  "packages": 2,
+  "animals": 32,
+  "full_cycle": 3,
+  "max_span_days": 376,
+  "longest": "Data from: Study \"Leopards, vervets, and baboons in Laikipia, Kenya\" ["
+ },
+ "Pekania pennanti": {
+  "packages": 1,
+  "animals": 2,
+  "full_cycle": 0,
+  "max_span_days": 65,
+  "longest": "Data from: Study \"Carnivore movements near Black Rock Forest New York\""
+ },
+ "Pelecanus occidentalis": {
+  "packages": 3,
+  "animals": 33,
+  "full_cycle": 10,
+  "max_span_days": 756,
+  "longest": "Data from: Annual-cycle movement patterns of Eastern Brown Pelicans fr"
+ },
+ "Phaethon rubricauda": {
+  "packages": 1,
+  "animals": 111,
+  "full_cycle": 0,
+  "max_span_days": 3,
+  "longest": "Data from: Thermal soaring in tropicbirds suggests that diverse seabir"
+ },
+ "Phalaropus lobatus": {
+  "packages": 1,
+  "animals": 2,
+  "full_cycle": 2,
+  "max_span_days": 365,
+  "longest": "Data from: Migratory routes of red-necked phalaropes Phalaropus lobatu"
+ },
+ "Phascolarctos cinereus": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "max_span_days": 0,
+  "longest": ""
+ },
+ "Phylloscopus sibilatrix": {
+  "packages": 1,
+  "animals": 4,
+  "full_cycle": 2,
+  "max_span_days": 671,
+  "longest": "Data from: Loop-migration and non-breeding locations of British breedi"
+ },
+ "Phyllostomus hastatus": {
+  "packages": 2,
+  "animals": 47,
+  "full_cycle": 0,
+  "max_span_days": 24,
+  "longest": "Data from: Greater spear nosed bats commute long distances alone, rest"
+ },
+ "Physeter macrocephalus": {
+  "packages": 3,
+  "animals": 68,
+  "full_cycle": 0,
+  "max_span_days": 226,
+  "longest": "Data from: Study \"Sperm whales Gulf of Mexico 2011-2013 - Argos data\""
+ },
+ "Pluvialis squatarola": {
+  "packages": 1,
+  "animals": 14,
+  "full_cycle": 3,
+  "max_span_days": 1016,
+  "longest": "Data from: Migration routes and strategies of Grey Plovers (Pluvialis "
+ },
+ "Polysticta stelleri": {
+  "packages": 1,
+  "animals": 20,
+  "full_cycle": 20,
+  "max_span_days": 621,
+  "longest": "Data from: Breeding and moulting locations and migration patterns of t"
+ },
+ "Potos flavus": {
+  "packages": 2,
+  "animals": 46,
+  "full_cycle": 5,
+  "max_span_days": 422,
+  "longest": "Data from: The social organization of the kinkajou Potos flavus (Procy"
+ },
+ "Prionailurus viverrinus": {
+  "packages": 1,
+  "animals": 13,
+  "full_cycle": 0,
+  "max_span_days": 134,
+  "longest": "Data from: Study \"Fishing cat (Prionairulus viverrinus) study in Khao "
+ },
+ "Procyon lotor": {
+  "packages": 2,
+  "animals": 5,
+  "full_cycle": 1,
+  "max_span_days": 497,
+  "longest": "Data from: Eastern coyote home range, habitat selection and survival i"
+ },
+ "Protonotaria citrea": {
+  "packages": 1,
+  "animals": 33,
+  "full_cycle": 3,
+  "max_span_days": 358,
+  "longest": "Data from: Concentration of a widespread breeding population in few cr"
+ },
+ "Pterodroma externa": {
+  "packages": 1,
+  "animals": 7,
+  "full_cycle": 7,
+  "max_span_days": 742,
+  "longest": "Data from: Dispersive migration of breeding Juan Fern\u00e1ndez Petrels Pte"
+ },
+ "Pterodroma hasitata": {
+  "packages": 1,
+  "animals": 10,
+  "full_cycle": 0,
+  "max_span_days": 255,
+  "longest": "Data from: Study \"Satellite tracking of black-capped petrels, 2019\""
+ },
+ "Pterodroma longirostris": {
+  "packages": 1,
+  "animals": 10,
+  "full_cycle": 10,
+  "max_span_days": 762,
+  "longest": "Data from: Trans-equatorial migration links oceanic frontal habitats a"
+ },
+ "Pteroglossus torquatus": {
+  "packages": 1,
+  "animals": 3,
+  "full_cycle": 0,
+  "max_span_days": 6,
+  "longest": "Data from: The effect of feeding time on dispersal of Virola seeds by "
+ },
+ "Pteropus poliocephalus": {
+  "packages": 1,
+  "animals": 4,
+  "full_cycle": 0,
+  "max_span_days": 63,
+  "longest": "Data from: Spring foraging movements of an urban population of grey-he"
+ },
+ "Puffinus puffinus": {
+  "packages": 1,
+  "animals": 707,
+  "full_cycle": 0,
+  "max_span_days": 14,
+  "longest": "Data from: Shearwaters know the direction and distance home but fail t"
+ },
+ "Puffinus yelkouan": {
+  "packages": 3,
+  "animals": 113,
+  "full_cycle": 0,
+  "max_span_days": 38,
+  "longest": "Data from: Pre-laying movements of Yelkouan Shearwaters (Puffinus yelk"
+ },
+ "Puma concolor": {
+  "packages": 1,
+  "animals": 2,
+  "full_cycle": 0,
+  "max_span_days": 323,
+  "longest": "Data from: Uncovering behavioural states from animal activity and site"
+ },
+ "Pyriglena leucoptera": {
+  "packages": 1,
+  "animals": 25,
+  "full_cycle": 1,
+  "max_span_days": 452,
+  "longest": "Data from: Movements of neotropical understory passerines affected by "
+ },
+ "Rallus aquaticus": {
+  "packages": 2,
+  "animals": 21,
+  "full_cycle": 9,
+  "max_span_days": 370,
+  "longest": "Data from: Migratory and breeding behaviour of Water Rails Rallus aqua"
+ },
+ "Ramphastos sulfuratus": {
+  "packages": 1,
+  "animals": 3,
+  "full_cycle": 0,
+  "max_span_days": 7,
+  "longest": "Data from: The effect of feeding time on dispersal of Virola seeds by "
+ },
+ "Ramphastos swainsonii": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "max_span_days": 8,
+  "longest": "Data from: The effect of feeding time on dispersal of Virola seeds by "
+ },
+ "Rangifer tarandus": {
+  "packages": 2,
+  "animals": 148,
+  "full_cycle": 118,
+  "max_span_days": 3389,
+  "longest": "Data from: Science update for the South Peace Northern Caribou (Rangif"
+ },
+ "Rynchops niger": {
+  "packages": 1,
+  "animals": 8,
+  "full_cycle": 0,
+  "max_span_days": 321,
+  "longest": "Data from: Trans-Andean and divergent migration of Black Skimmers (Ryn"
+ },
+ "Sarcoramphus papa": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 1,
+  "max_span_days": 493,
+  "longest": "Data from: Scouts vs usurpers: alternative foraging strategies facilit"
+ },
+ "Saxicola rubetra": {
+  "packages": 1,
+  "animals": 20,
+  "full_cycle": 15,
+  "max_span_days": 792,
+  "longest": "Data from: Weak migratory connectivity, loop migration and multiple no"
+ },
+ "Sclerurus scansor": {
+  "packages": 1,
+  "animals": 20,
+  "full_cycle": 3,
+  "max_span_days": 631,
+  "longest": "Data from: Movements of neotropical understory passerines affected by "
+ },
+ "Scolopax minor": {
+  "packages": 1,
+  "animals": 6,
+  "full_cycle": 1,
+  "max_span_days": 356,
+  "longest": "Data from: Migration phenology and patterns of American woodcock in ce"
+ },
+ "Setophaga kirtlandii": {
+  "packages": 1,
+  "animals": 27,
+  "full_cycle": 27,
+  "max_span_days": 380,
+  "longest": "Data from: Light-level geolocation reveals wintering distribution, mig"
+ },
+ "Somateria fischeri": {
+  "packages": 1,
+  "animals": 88,
+  "full_cycle": 0,
+  "max_span_days": 281,
+  "longest": "Data from: At-sea distribution of spectacled eiders: a 120-year-old my"
+ },
+ "Somateria mollissima": {
+  "packages": 1,
+  "animals": 56,
+  "full_cycle": 35,
+  "max_span_days": 1010,
+  "longest": "Data from: Re-colonization by common eiders (Somateria mollissima) in "
+ },
+ "Somateria spectabilis": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 1,
+  "max_span_days": 366,
+  "longest": "Data from: Study \"King Eider Alaska (UAF / USGS)\""
+ },
+ "Spilogale interrupta": {
+  "packages": 1,
+  "animals": 15,
+  "full_cycle": 1,
+  "max_span_days": 599,
+  "longest": "Data from: Study \"Spatial ecology of plains spotted skunks in a Texas "
+ },
+ "Stercorarius longicaudus": {
+  "packages": 2,
+  "animals": 49,
+  "full_cycle": 23,
+  "max_span_days": 562,
+  "longest": "Data from: Study \"Long-tailed Jaeger - GLS - Canadian Arctic\""
+ },
+ "Sturnella magna": {
+  "packages": 1,
+  "animals": 10,
+  "full_cycle": 8,
+  "max_span_days": 373,
+  "longest": "Data from: Migratory patterns and connectivity of two North American g"
+ },
+ "Sus scrofa": {
+  "packages": 3,
+  "animals": 36,
+  "full_cycle": 5,
+  "max_span_days": 477,
+  "longest": "Data from: Study \"Wild Pig/Boar GPS Study on Rangeland-Sus scrofa-Okla"
+ },
+ "Syncerus caffer": {
+  "packages": 1,
+  "animals": 9,
+  "full_cycle": 0,
+  "max_span_days": 253,
+  "longest": "Data from: Nonparameteric kernel methods for constructing home ranges "
+ },
+ "Tachycineta bicolor": {
+  "packages": 1,
+  "animals": 102,
+  "full_cycle": 93,
+  "max_span_days": 394,
+  "longest": "Data from: Constructing and evaluating a continent-wide migratory song"
+ },
+ "Tadarida brasiliensis": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "max_span_days": 0,
+  "longest": ""
+ },
+ "Tadarida teniotis": {
+  "packages": 1,
+  "animals": 8,
+  "full_cycle": 0,
+  "max_span_days": 8,
+  "longest": "Data from: European free-tailed bats use topography and nocturnal updr"
+ },
+ "Tapirus terrestris": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "max_span_days": 227,
+  "longest": "Data from: Home range reduction of Tapirus terrestris raised by the Sa"
+ },
+ "Tetrax tetrax": {
+  "packages": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "max_span_days": 156,
+  "longest": "Data from: Feeling the heat: elevated temperature affects male display"
+ },
+ "Thalassoica antarctica": {
+  "packages": 1,
+  "animals": 61,
+  "full_cycle": 51,
+  "max_span_days": 736,
+  "longest": "Data from: At-sea distribution and prey selection of Antarctic petrels"
+ },
+ "Trachops cirrhosus": {
+  "packages": 1,
+  "animals": 6,
+  "full_cycle": 0,
+  "max_span_days": 9,
+  "longest": "Data from: Foraging and roosting behaviour of the fringe-lipped bat, T"
+ },
+ "Tyrannus savana": {
+  "packages": 1,
+  "animals": 28,
+  "full_cycle": 19,
+  "max_span_days": 727,
+  "longest": "Data from: Breeding latitude predicts timing but not rate of spring mi"
+ },
+ "Tyto furcata": {
+  "packages": 2,
+  "animals": 43,
+  "full_cycle": 0,
+  "max_span_days": 70,
+  "longest": "Data from: Habitat selection by a predator of rodent pests is resilien"
+ },
+ "Uria lomvia": {
+  "packages": 4,
+  "animals": 583,
+  "full_cycle": 135,
+  "max_span_days": 745,
+  "longest": "Thick-billed murre Patterson Coats meps13890_part-reference-data"
+ },
+ "Urocyon cinereoargenteus": {
+  "packages": 2,
+  "animals": 3,
+  "full_cycle": 0,
+  "max_span_days": 256,
+  "longest": "Data from: Eastern coyote home range, habitat selection and survival i"
+ },
+ "Ursus americanus": {
+  "packages": 1,
+  "animals": 8,
+  "full_cycle": 8,
+  "max_span_days": 1959,
+  "longest": "Data from: Study \"American black bear movement ecology in Connecticut\""
+ },
+ "Vulpes lagopus": {
+  "packages": 3,
+  "animals": 213,
+  "full_cycle": 100,
+  "max_span_days": 1195,
+  "longest": "Data from: Study \"Arctic fox Bylot - Argos tracking\""
+ },
+ "Vulpes vulpes": {
+  "packages": 5,
+  "animals": 84,
+  "full_cycle": 3,
+  "max_span_days": 790,
+  "longest": "Data from: Study \"Red fox Bylot - Argos tracking\""
+ },
+ "Xema sabini": {
+  "packages": 1,
+  "animals": 36,
+  "full_cycle": 0,
+  "max_span_days": 329,
+  "longest": "Data from: Migratory connectivity at high latitudes: Sabine\u2019s gulls (X"
+ }
+}

@@ -4,7 +4,7 @@ Read this first in every session. The repo is the memory: agents keep nothing be
 
 ## Status (2026-09-28)
 
-Set-up only. No code, no data, no design yet. Next step is **task 0, the data survey** (`docs/survey/README.md`). Nothing gets designed or built before task 0 has answered D1 and D2.
+Deployed 2026-09-28 by the owner (Worker `on-the-move`, KV namespace `on_the_move`, secrets set, cron `23 */6 * * *` registered). Endpoint checked from here: en/de payloads, viewer's local day, 1.2 to 1.5 KB. First cron refresh not yet observed (`npx wrangler tail`). Not yet set up in TRMNL, not seen on a device (R25). Worker URL stays out of the docs (Nextbike practice). Open items in `docs/FULL_VIEW.md`; species table (R8) and smaller views still to do.
 
 ## Where things are
 
@@ -14,10 +14,16 @@ Set-up only. No code, no data, no design yet. Next step is **task 0, the data su
 | `docs/DECISIONS.md` | Decided and open decisions (D1 to D4 and later ones), dated. |
 | `docs/SOURCES.md` | Facts about outside systems (Movebank, GBIF, TRMNL, CC). Each fact carries its source URL, date checked and who checked it. |
 | `docs/survey/` | Task 0: method, per-study records, raw captured responses, results. |
-| `data/studies.json` | Study whitelist (R4). Empty until task 0 produces eligible studies. Schema in `data/studies.schema.json`. |
+| `data/studies.json` | Study whitelist (R4): the 11 Movebank studies behind the featured animals, built by `pipeline/build_whitelist.py`. Schema in `data/studies.schema.json`. |
+| `worker/`, `template/` | The Worker (payload, cron refresh, `wrangler.toml`, tests) and the TRMNL templates; each has a README with its checks. |
+| `docs/FULL_VIEW.md` | Plan for the full view: what is on screen, which code it reuses (with line numbers), open questions. |
+| `docs/CATALOG.md` | What the catalog contains, pipeline rules, known gaps, featured proposal, UX draft. |
+| `pipeline/build_catalog.py` | Builds the catalog from Movebank and the Movebank Data Repository. Needs Movebank credentials in the environment; caches in `pipeline/.cache/` (git-ignored). |
+| `data/catalog.json`, `data/usual/`, `data/featured.json` | Built catalog, per-animal day-of-year tables, the 12 featured species (F1). Regenerate with the pipeline; do not edit by hand. |
+| `docs/survey/acceptance/` | Record of the 556 Movebank license acceptances. |
 | `data/permissions/` | Written permissions from data owners (section 2 of the brief). A whitelist entry that is not CC0 or CC BY must point to a file here. |
 
-Planned later (not created yet, do not create before the decision that needs them): `worker/` (Cloudflare Worker, R1, R2), `recipe/` (TRMNL templates, section 8), `fixtures/` (R23), `docs/TEXT_REQUIREMENTS.md` (R16, before any copy), `data/species.json` (R8).
+Planned later (not created yet, do not create before the decision that needs them): `fixtures/` (R23, storefront data), `docs/TEXT_REQUIREMENTS.md` (R16, before any copy), `data/species.json` (R8).
 
 ## Working method (adopted 2026-09-27, applies to every TRMNL recipe)
 
@@ -43,7 +49,12 @@ The full text is in `docs/BRIEF.md`. Short form:
 
 ## Cross-repo references
 
-The brief reuses patterns from two other recipes that are **not in this repo**: Aurora Watch (map rules in its CLAUDE.md, LOCALES pattern, `fixtures/` generator, view layout) and Nearby Nextbike (Cloudflare Worker setup). Checked 2026-09-28: this session's GitHub access covers only `nikokoren/on_the_move`. Before relying on those patterns, add the repo to the session and read the actual files; do not reconstruct them from memory.
+Patterns reused from the owner's other recipes, **not in this repo**:
+- Nearby Nextbike (`nikokoren/nearby-nextbike`): the map (TRMNLMaps/MapLibre, fractional zoom, loading fallbacks) and the off-screen edge callout, `template/shared.liquid`; the Worker setup, `worker/`.
+- Map of the Day (`nikokoren/map_of_the_day`, public): the bottom-left text box, `trmnl/example-markup.liquid`, and the viewer's local day, `trmnl/selection.liquid`.
+- Aurora Watch: map rules, LOCALES pattern, `fixtures/` generator. Not read yet.
+
+Read 2026-09-28 (Nextbike at 1f30394, Map of the Day at db89223); the mapping with line numbers is in `docs/FULL_VIEW.md`. Re-read the actual files before copying; do not reconstruct them from memory.
 
 ## Git
 

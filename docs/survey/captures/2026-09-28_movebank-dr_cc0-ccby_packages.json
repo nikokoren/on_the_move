@@ -1,0 +1,6509 @@
+[
+ {
+  "title": "Data from: Science update for the South Peace Northern Caribou (Rangifer tarandus caribou pop. 15) in British Columbia",
+  "doi": "doi:10.5441/001/1.p5bn656k",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Rangifer tarandus",
+   "Rangifer tarandus",
+   "Rangifer tarandus"
+  ],
+  "animals_metadata": "260",
+  "movebank_study": "216040785",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 140,
+  "animals_ge330d": 112,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Arctic fox Bylot - Argos tracking\"",
+  "doi": "doi:10.5441/001/1.3gg33bd4",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Vulpes lagopus"
+  ],
+  "animals_metadata": "170",
+  "movebank_study": "942774711",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 202,
+  "animals_ge330d": 99,
+  "files": 3
+ },
+ {
+  "title": "Data from: Human selection of elk behavioural traits in a landscape of fear",
+  "doi": "doi:10.5441/001/1.j484vk24",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Cervus elaphus"
+  ],
+  "animals_metadata": "171",
+  "movebank_study": "933711994",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 143,
+  "animals_ge330d": 96,
+  "files": 3
+ },
+ {
+  "title": "Data from: Constructing and evaluating a continent-wide migratory songbird network across the annual cycle",
+  "doi": "doi:10.5441/001/1.25551gr6",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Tachycineta bicolor"
+  ],
+  "animals_metadata": "133",
+  "movebank_study": "412081739",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 102,
+  "animals_ge330d": 93,
+  "files": 3
+ },
+ {
+  "title": "Data from: Northwest range shifts and shorter wintering period of an Arctic seabird in response to four decades of changing ocean climate",
+  "doi": "doi:10.5441/001/1.p1m75qn1",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Uria lomvia"
+  ],
+  "animals_metadata": "71",
+  "movebank_study": "1810804830",
+  "sensors": [
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 86,
+  "animals_ge330d": 83,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Wood stork (Mycteria americana) Southeastern US 2004\u20132019\"",
+  "doi": "doi:10.5441/001/1.r0h6725k",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Mycteria americana"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 133,
+  "animals_ge330d": 65,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Turkey Pirasali - Long term study on migratory movement of Alpine swifts (Apus melba)\"",
+  "doi": "doi:10.5441/001/1.34k562m5",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "51",
+  "movebank_study": "1259710536",
+  "sensors": [
+   "Barometer"
+  ],
+  "animals_with_span": 61,
+  "animals_ge330d": 61,
+  "files": 6
+ },
+ {
+  "title": "Data from: Study \"Tracking of Caspian Terns (Hydroprogne caspia) in the Swedish Baltic Sea 2017-2020\"",
+  "doi": "doi:10.5441/001/1.hg1v55ct",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Hydroprogne caspia"
+  ],
+  "animals_metadata": "69",
+  "movebank_study": "1575973021",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 69,
+  "animals_ge330d": 60,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Marbled Murrelets at Desolation Sound, British Columbia, Canada (1998-2001)\"",
+  "doi": "doi:10.5441/001/1.hr82ph6n",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Brachyramphus marmoratus"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 61,
+  "animals_ge330d": 57,
+  "files": 6
+ },
+ {
+  "title": "Data from: Fall migration routes, timing, and wintering sites of North American ospreys as determined by satellite telemetry",
+  "doi": "doi:10.5441/001/1.sv6335t3",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Pandion haliaetus"
+  ],
+  "animals_metadata": "114",
+  "movebank_study": "384172482",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 130,
+  "animals_ge330d": 56,
+  "files": 3
+ },
+ {
+  "title": "Thick-billed murre Patterson Coats meps13890_part-reference-data",
+  "doi": "doi:10.5441/001/1.81bs0nf7/5",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Uria lomvia"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 52,
+  "animals_ge330d": 52,
+  "files": 2
+ },
+ {
+  "title": "Data from: At-sea distribution and prey selection of Antarctic petrels and commercial krill fisheries",
+  "doi": "doi:10.5441/001/1.q4gn4q56",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Thalassoica antarctica"
+  ],
+  "animals_metadata": "156",
+  "movebank_study": "180290122",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 61,
+  "animals_ge330d": 51,
+  "files": 5
+ },
+ {
+  "title": "Data from: Study \"Marbled Murrelets at Clayoquot Sound, British Columbia, Canada (2000-2002)\"",
+  "doi": "doi:10.5441/001/1.kg210889",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Brachyramphus marmoratus"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 51,
+  "animals_ge330d": 51,
+  "files": 6
+ },
+ {
+  "title": "Data from: Study \"MPIAB Argos white stork tracking (1991-2017)\"",
+  "doi": "doi:10.5441/001/1.k29d81dh",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 214,
+  "animals_ge330d": 47,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"GPS tracking of bobcats and coyotes in northern Washington\"",
+  "doi": "doi:10.5441/001/1.gm93267b",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Canis latrans",
+   "Lynx rufus",
+   "Canis latrans"
+  ],
+  "animals_metadata": "70",
+  "movebank_study": "2636372210",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 70,
+  "animals_ge330d": 46,
+  "files": 3
+ },
+ {
+  "title": "Data from: Remarkably similar migration patterns between different red-backed shrike populations suggest that migration rather than breeding area phenology determines the annual cycle",
+  "doi": "doi:10.5441/001/1.4bt7365c",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Lanius collurio"
+  ],
+  "animals_metadata": "44",
+  "movebank_study": "1263827241",
+  "sensors": [],
+  "animals_with_span": 48,
+  "animals_ge330d": 42,
+  "files": 5
+ },
+ {
+  "title": "Data from: New York State bald eagle report 2010",
+  "doi": "doi:10.5441/001/1.s65q50j0",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Aquila chrysaetos",
+   "Asio flammeus",
+   "Haliaeetus leucocephalus",
+   "Pandion haliaetus",
+   "Falco peregrinus"
+  ],
+  "animals_metadata": "78",
+  "movebank_study": "2943485",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 56,
+  "animals_ge330d": 37,
+  "files": 4
+ },
+ {
+  "title": "Data from: Re-colonization by common eiders (Somateria mollissima) in the Aleutian Archipelago following removal of introduced arctic foxes (Vulpes lagopus)",
+  "doi": "doi:10.5441/001/1.s528h83q",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Somateria mollissima"
+  ],
+  "animals_metadata": "56",
+  "movebank_study": "62400821",
+  "sensors": [
+   "Accessory Measurements"
+  ],
+  "animals_with_span": 56,
+  "animals_ge330d": 35,
+  "files": 7
+ },
+ {
+  "title": "Data from: Migratory patterns and connectivity of two North American grassland bird species [grasshopper sparrows]",
+  "doi": "doi:10.5441/001/1.c6b47s0r",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ammodramus savannarum"
+  ],
+  "animals_metadata": "34",
+  "movebank_study": "348283339",
+  "sensors": [
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 34,
+  "animals_ge330d": 34,
+  "files": 6
+ },
+ {
+  "title": "Data from: Locally adapted migration strategies: Comparing routes and timing of northern wheatears from alpine and lowland European populations [Switzerland]",
+  "doi": "doi:10.5441/001/1.vp61g6gd",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Oenanthe oenanthe"
+  ],
+  "animals_metadata": "31",
+  "movebank_study": "2066005750",
+  "sensors": [
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 33,
+  "animals_ge330d": 33,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Vultures tagged in the southeastern United States\" [part]",
+  "doi": "doi:10.5441/001/1.666",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Cathartes aura",
+   "Coragyps atratus"
+  ],
+  "animals_metadata": "57",
+  "movebank_study": "24797204",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 57,
+  "animals_ge330d": 33,
+  "files": 3
+ },
+ {
+  "title": "Data from: Migration triggers in a large herbivore: Gala\u0301pagos giant tortoises navigating resource gradients on volcanoes",
+  "doi": "doi:10.5441/001/1.6gr485fk",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Chelonoidis donfaustoi",
+   "Chelonoidis hoodensis",
+   "Chelonoidis porteri"
+  ],
+  "animals_metadata": "96",
+  "movebank_study": "2928116",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 35,
+  "animals_ge330d": 29,
+  "files": 3
+ },
+ {
+  "title": "Data from: Sex-specific difference in migration schedule as a precursor of protandry in a long-distance migratory bird",
+  "doi": "doi:10.5441/001/1.j71640kh",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Lanius collurio"
+  ],
+  "animals_metadata": "29",
+  "movebank_study": "890556697",
+  "sensors": [],
+  "animals_with_span": 31,
+  "animals_ge330d": 28,
+  "files": 5
+ },
+ {
+  "title": "Data from: Light-level geolocation reveals wintering distribution, migration routes, and primary stopover locations of an endangered long-distance migratory songbird",
+  "doi": "doi:10.5441/001/1.h2b30454",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Setophaga kirtlandii"
+  ],
+  "animals_metadata": "27",
+  "movebank_study": "185539659",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 27,
+  "animals_ge330d": 27,
+  "files": 4
+ },
+ {
+  "title": "Data from: Cozy in the city: the morphology and spatial ecology of copperheads in an urban forest",
+  "doi": "doi:10.5441/001/1.1rs3j824",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Agkistrodon contortrix"
+  ],
+  "animals_metadata": "44",
+  "movebank_study": "1199929756",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 44,
+  "animals_ge330d": 26,
+  "files": 7
+ },
+ {
+  "title": "Data from: Migration strategies of the Baltic Dunlin: rapid jump migration in the autumn but slower skipping type spring migration",
+  "doi": "doi:10.5441/001/1.1rr405mg",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Calidris alpina"
+  ],
+  "animals_metadata": "26",
+  "movebank_study": "360360276",
+  "sensors": [
+   "Accessory Measurements"
+  ],
+  "animals_with_span": 26,
+  "animals_ge330d": 26,
+  "files": 4
+ },
+ {
+  "title": "Data from: Flexible characterization of animal movement pattern using net squared displacement and a latent state model",
+  "doi": "doi:10.5441/001/1.356nb5mf",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Chelonoidis donfaustoi",
+   "Chelonoidis hoodensis",
+   "Chelonoidis porteri"
+  ],
+  "animals_metadata": "86",
+  "movebank_study": "190490326",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 30,
+  "animals_ge330d": 25,
+  "files": 4
+ },
+ {
+  "title": "Data from: Comparison of movement strategies of three populations of white-bearded wildebeest",
+  "doi": "doi:10.5441/001/1.h0t27719",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Connochaetes taurinus"
+  ],
+  "animals_metadata": "36",
+  "movebank_study": "208413731",
+  "sensors": [
+   "Accessory Measurements"
+  ],
+  "animals_with_span": 36,
+  "animals_ge330d": 24,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Pronghorn (Antilocapra americana), Wyoming/Colorado, USA\"",
+  "doi": "doi:10.5441/001/1.74pf3n2p",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Antilocapra americana"
+  ],
+  "animals_metadata": "32",
+  "movebank_study": "2478177417",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 32,
+  "animals_ge330d": 24,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Long-tailed Jaeger - GLS - Canadian Arctic\"",
+  "doi": "doi:10.5441/001/1.558kn337",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Stercorarius longicaudus"
+  ],
+  "animals_metadata": "35",
+  "movebank_study": "1978212368",
+  "sensors": [],
+  "animals_with_span": 39,
+  "animals_ge330d": 23,
+  "files": 10
+ },
+ {
+  "title": "Data from: Study \"LifeTrack White Stork Rheinland-Pfalz\" (2015-2023)",
+  "doi": "doi:10.5441/001/1.4192t2j4_2",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "108",
+  "movebank_study": "76367850",
+  "sensors": [
+   "Orientation",
+   "Magnetometer",
+   "Acceleration",
+   "GPS"
+  ],
+  "animals_with_span": 89,
+  "animals_ge330d": 20,
+  "files": 16
+ },
+ {
+  "title": "Data from: Seasonal variation in migration strategies used to cross ecological barriers in a Nearctic migrant wintering in Africa",
+  "doi": "doi:10.5441/001/1.f01v7r80",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Charadrius hiaticula"
+  ],
+  "animals_metadata": "20",
+  "movebank_study": "849807214",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 20,
+  "animals_ge330d": 20,
+  "files": 4
+ },
+ {
+  "title": "Data from: Fitness, behavioral, and energetic trade-offs of different migratory strategies in a partially migratory species",
+  "doi": "doi:10.5441/001/1.283",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "131",
+  "movebank_study": "",
+  "sensors": [
+   "GPS",
+   "Acceleration"
+  ],
+  "animals_with_span": 42,
+  "animals_ge330d": 20,
+  "files": 12
+ },
+ {
+  "title": "Data from: Breeding and moulting locations and migration patterns of the Atlantic population of Steller's eiders Polysticta stelleri as determined from satellite telemetry",
+  "doi": "doi:10.5441/001/1.2k536j54",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Polysticta stelleri"
+  ],
+  "animals_metadata": "20",
+  "movebank_study": "1481243",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 20,
+  "animals_ge330d": 20,
+  "files": 4
+ },
+ {
+  "title": "Data from: Full-year tracking suggests endogenous control of migration timing in a long-distance migratory songbird",
+  "doi": "doi:10.5441/001/1.7mf48770",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Lanius collurio"
+  ],
+  "animals_metadata": "20",
+  "movebank_study": "533427629",
+  "sensors": [
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 22,
+  "animals_ge330d": 20,
+  "files": 5
+ },
+ {
+  "title": "Data from: Study \"Golden Eagle Nevada\"",
+  "doi": "doi:10.5441/001/1.693",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Aquila chrysaetos"
+  ],
+  "animals_metadata": "27",
+  "movebank_study": "259354593",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 29,
+  "animals_ge330d": 20,
+  "files": 3
+ },
+ {
+  "title": "Data from: Breeding latitude predicts timing but not rate of spring migration in a widespread migratory bird in South America",
+  "doi": "doi:10.5441/001/1.d95m633h",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Tyrannus savana"
+  ],
+  "animals_metadata": "28",
+  "movebank_study": "732458683",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 28,
+  "animals_ge330d": 19,
+  "files": 4
+ },
+ {
+  "title": "Data from: Spatial ecology of copperhead snakes (Agkistrodon contortrix) in response to urban park trails",
+  "doi": "doi:10.5441/001/1.3v106n1n",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Agkistrodon contortrix"
+  ],
+  "animals_metadata": "36",
+  "movebank_study": "1070994859",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 36,
+  "animals_ge330d": 19,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Feral horse (Equus ferus caballus), Wyoming/Colorado, USA\"",
+  "doi": "doi:10.5441/001/1.4q2t4fn8",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Equus ferus"
+  ],
+  "animals_metadata": "29",
+  "movebank_study": "2478104452",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 29,
+  "animals_ge330d": 18,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Vultures Acopian Center USA GPS\" (2003-2021)",
+  "doi": "doi:10.5441/001/1.f3qt46r2",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Cathartes aura",
+   "Coragyps atratus"
+  ],
+  "animals_metadata": "84",
+  "movebank_study": "481458",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 31,
+  "animals_ge330d": 18,
+  "files": 4
+ },
+ {
+  "title": "Data from: Environmental drivers of variability in the movement ecology of turkey vultures (Cathartes aura) in North and South America",
+  "doi": "doi:10.5441/001/1.46ft1k05",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Cathartes aura"
+  ],
+  "animals_metadata": "19",
+  "movebank_study": "16880941",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 19,
+  "animals_ge330d": 18,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"LifeTrack White Stork SW Germany\" (2013-2023)",
+  "doi": "doi:10.5441/001/1.ck04mn78_2",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "92",
+  "movebank_study": "21231406",
+  "sensors": [
+   "GPS",
+   "Acceleration"
+  ],
+  "animals_with_span": 83,
+  "animals_ge330d": 17,
+  "files": 11
+ },
+ {
+  "title": "Data from: Study \"Bulgaria Sofia - Long term study on migratory movement of Alpine swifts (Apus melba)\"",
+  "doi": "doi:10.5441/001/1.7kd62k00",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "23",
+  "movebank_study": "1265804894",
+  "sensors": [],
+  "animals_with_span": 27,
+  "animals_ge330d": 17,
+  "files": 6
+ },
+ {
+  "title": "Data from: Study \"Spain Tarragona - Long term study on migratory movement of Alpine swifts (Apus melba)\"",
+  "doi": "doi:10.5441/001/1.96t76sg0",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "11",
+  "movebank_study": "1265808304",
+  "sensors": [],
+  "animals_with_span": 17,
+  "animals_ge330d": 17,
+  "files": 6
+ },
+ {
+  "title": "Data from: A pan-European, multi-population assessment of migratory connectivity in a near-threatened migrant bird",
+  "doi": "doi:10.5441/001/1.874gb577",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Coracias garrulus"
+  ],
+  "animals_metadata": "17",
+  "movebank_study": "73878861",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 17,
+  "animals_ge330d": 17,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Multi-Scale Spatial and Movement Ecology of Gray Hawks in a Fragmented Subtropical Landscape\"",
+  "doi": "https://doi.org/10.5441/001/1.664",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Buteo plagiatus"
+  ],
+  "animals_metadata": "62",
+  "movebank_study": "1233933180",
+  "sensors": [
+   "GPS",
+   "Acceleration",
+   "Magnetometer"
+  ],
+  "animals_with_span": 47,
+  "animals_ge330d": 17,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Siberian rubythroat tracking from Qinghai, China\"",
+  "doi": "doi:10.5441/001/1.333",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Luscinia calliope"
+  ],
+  "animals_metadata": "16",
+  "movebank_study": "3240092491",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 16,
+  "animals_ge330d": 16,
+  "files": 3
+ },
+ {
+  "title": "Data from: Fine-scale assessment of home ranges and activity patterns for resident black vultures (Coragyps atratus) and turkey vultures (Cathartes aura)",
+  "doi": "doi:10.5441/001/1.67f77j31",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Cathartes aura",
+   "Coragyps atratus"
+  ],
+  "animals_metadata": "18",
+  "movebank_study": "288396691",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 18,
+  "animals_ge330d": 16,
+  "files": 3
+ },
+ {
+  "title": "Data from: Wing size but not wing shape is related to migratory behavior in a soaring bird",
+  "doi": "doi:10.5441/001/1.37r2b884",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Cathartes aura",
+   "Coragyps atratus"
+  ],
+  "animals_metadata": "65",
+  "movebank_study": "217784323",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 27,
+  "animals_ge330d": 15,
+  "files": 3
+ },
+ {
+  "title": "Data from: Weak migratory connectivity, loop migration and multiple non-breeding site use in British breeding Whinchats Saxicola rubetra",
+  "doi": "doi:10.5441/001/1.4c7h5d1g",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Saxicola rubetra"
+  ],
+  "animals_metadata": "20",
+  "movebank_study": "965936538",
+  "sensors": [
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 20,
+  "animals_ge330d": 15,
+  "files": 4
+ },
+ {
+  "title": "Data from: Allometric and temporal scaling of movement characteristics in Galapagos tortoises",
+  "doi": "doi:10.5441/001/1.2cp86266",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Chelonoidis donfaustoi",
+   "Chelonoidis hoodensis",
+   "Chelonoidis porteri"
+  ],
+  "animals_metadata": "46",
+  "movebank_study": "174165487",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 15,
+  "animals_ge330d": 15,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"HawkWatch International Golden Eagles\"",
+  "doi": "doi:10.5441/001/1.95r77m9k",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Aquila chrysaetos"
+  ],
+  "animals_metadata": "33",
+  "movebank_study": "171287018",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 33,
+  "animals_ge330d": 14,
+  "files": 4
+ },
+ {
+  "title": "Data from: Fine-scale tracking of ambient temperature and movement reveals shuttling behavior of elephants to water",
+  "doi": "doi:10.5441/001/1.403h24q5",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Loxodonta africana"
+  ],
+  "animals_metadata": "14",
+  "movebank_study": "736029750",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 14,
+  "animals_ge330d": 14,
+  "files": 3
+ },
+ {
+  "title": "Data from: Locally adapted migration strategies: Comparing routes and timing of northern wheatears from alpine and lowland European populations [Austria]",
+  "doi": "doi:10.5441/001/1.tn4h3kt0",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Oenanthe oenanthe"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 13,
+  "animals_ge330d": 13,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Bar-tailed Godwit geolocator tracking New Zealand 2013-2014\"",
+  "doi": "doi:10.5441/001/1.327",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Limosa lapponica"
+  ],
+  "animals_metadata": "18",
+  "movebank_study": "3389603083",
+  "sensors": [
+   "Solar Geolocator Twilight",
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 18,
+  "animals_ge330d": 13,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Eurasian wigeon (Mareca penelope) Netherlands Lithuania 2018-2019\"",
+  "doi": "doi:10.5441/001/1.dv5mm289",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "39",
+  "movebank_study": "1841261165",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 38,
+  "animals_ge330d": 13,
+  "files": 3
+ },
+ {
+  "title": "Data from: The Indo-European Flyway: opportunities and constraints reflected by common rosefinches breeding across Europe",
+  "doi": "doi:10.5441/001/1.034jj41h",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Carpodacus erythrinus"
+  ],
+  "animals_metadata": "22",
+  "movebank_study": "1371882702",
+  "sensors": [],
+  "animals_with_span": 22,
+  "animals_ge330d": 12,
+  "files": 6
+ },
+ {
+  "title": "Data from: Flyway connectivity and exchange primarily driven by moult migration in geese [North Sea population]",
+  "doi": "doi:10.5441/001/1.ct72m82n",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anser albifrons"
+  ],
+  "animals_metadata": "81",
+  "movebank_study": "657674643",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 18,
+  "animals_ge330d": 12,
+  "files": 3
+ },
+ {
+  "title": "Data from: Tracking the migration of a nocturnal aerial insectivore in the Americas",
+  "doi": "doi:10.5441/001/1.66jq0844",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "22",
+  "movebank_study": "18072398",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 26,
+  "animals_ge330d": 12,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Wolves, Stahler, Yellowstone National Park\" [part]",
+  "doi": "doi:10.5441/001/1.717",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Canis lupus"
+  ],
+  "animals_metadata": "18",
+  "movebank_study": "2390963697",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 20,
+  "animals_ge330d": 11,
+  "files": 3
+ },
+ {
+  "title": "Data from: Movement of White Ibis and Tricolored Herons tagged with satellite transmitters in coastal Alabama, U.S.",
+  "doi": "doi:10.5441/001/1.697",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Egretta tricolor",
+   "Eudocimus albus"
+  ],
+  "animals_metadata": "87",
+  "movebank_study": "1442168341",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 58,
+  "animals_ge330d": 11,
+  "files": 3
+ },
+ {
+  "title": "Data from: White-crested Elaenias (Elaenia albiceps chilensis) breeding across Patagonia exhibit similar spatial and temporal movement patterns throughout the year",
+  "doi": "doi:10.5441/001/1.325",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Elaenia albiceps"
+  ],
+  "animals_metadata": "15",
+  "movebank_study": "1120088177",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 15,
+  "animals_ge330d": 10,
+  "files": 3
+ },
+ {
+  "title": "Data from: Migratory movements of Atlantic puffins Fratercula arctica naumanni from High Arctic Greenland",
+  "doi": "doi:10.5441/001/1.nr8qv005",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Fratercula arctica"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "1401935050",
+  "sensors": [
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 10,
+  "animals_ge330d": 10,
+  "files": 3
+ },
+ {
+  "title": "Data from: Geolocators reveal variation and sex-specific differences in the migratory strategies of a long-distance migrant",
+  "doi": "doi:10.5441/001/1.1732qn7j",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ficedula hypoleuca"
+  ],
+  "animals_metadata": "26",
+  "movebank_study": "1077841344",
+  "sensors": [
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 27,
+  "animals_ge330d": 10,
+  "files": 3
+ },
+ {
+  "title": "Data from: Migratory timing, rate, routes and wintering areas of white-crested elaenia (Elaenia albiceps chilensis), a key seed disperser for Patagonian forest regeneration",
+  "doi": "doi:10.5441/001/1.406327g0",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Elaenia albiceps"
+  ],
+  "animals_metadata": "15",
+  "movebank_study": "178797918",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 15,
+  "animals_ge330d": 10,
+  "files": 4
+ },
+ {
+  "title": "Data from: Trans-equatorial migration links oceanic frontal habitats across the Pacific Ocean: year-round movements and foraging activity of a small gadfly petrel",
+  "doi": "doi:10.5441/001/1.301",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Pterodroma longirostris"
+  ],
+  "animals_metadata": "10",
+  "movebank_study": "3062819236",
+  "sensors": [
+   "Solar Geolocator Raw",
+   "Solar Geolocator Twilight",
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 10,
+  "animals_ge330d": 10,
+  "files": 5
+ },
+ {
+  "title": "Data from: Wind estimation based on thermal soaring of birds",
+  "doi": "doi:10.5441/001/1.bj96m274",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "60",
+  "movebank_study": "332044860",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 54,
+  "animals_ge330d": 9,
+  "files": 4
+ },
+ {
+  "title": "Data from: Long-distance range expansion and rapid adjustment of migration in a newly established population of Barn Swallows breeding in Argentina",
+  "doi": "doi:10.5441/001/1.rt00m81v",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Hirundo rustica"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "242477586",
+  "sensors": [
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 9,
+  "animals_ge330d": 9,
+  "files": 4
+ },
+ {
+  "title": "Data from: The characteristic time scale of perceived information for decision-making: departure from thermal columns in soaring birds",
+  "doi": "doi:10.5441/001/1.46t5141d",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Gyps fulvus"
+  ],
+  "animals_metadata": "17",
+  "movebank_study": "467005392",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 17,
+  "animals_ge330d": 9,
+  "files": 3
+ },
+ {
+  "title": "Data from: Satellite tracking a wide\u2010ranging endangered vulture species to target conservation actions in the Middle East and East Africa",
+  "doi": "doi:10.5441/001/1.385gk270",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Neophron percnopterus"
+  ],
+  "animals_metadata": "16",
+  "movebank_study": "9651291",
+  "sensors": [
+   "Accessory Measurements"
+  ],
+  "animals_with_span": 14,
+  "animals_ge330d": 9,
+  "files": 5
+ },
+ {
+  "title": "Data from: Migration patterns of upland sandpipers in the western hemisphere",
+  "doi": "doi:10.5441/001/1.3pt25757",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Bartramia longicauda"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "176770813",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 9,
+  "animals_ge330d": 9,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Switzerland Solothurn - Long term study on migratory movement of Alpine swifts (Apus melba)\"",
+  "doi": "doi:10.5441/001/1.nn518dc4",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "9",
+  "movebank_study": "1266896491",
+  "sensors": [
+   "Barometer"
+  ],
+  "animals_with_span": 9,
+  "animals_ge330d": 9,
+  "files": 6
+ },
+ {
+  "title": "Data from: Migratory and breeding behaviour of Water Rails Rallus aquaticus in east-central Scotland revealed by geolocators",
+  "doi": "doi:10.5441/001/1.735",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Rallus aquaticus"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "7657698270",
+  "sensors": [
+   "Solar Geolocator Raw",
+   "Solar Geolocator Twilight",
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 10,
+  "animals_ge330d": 9,
+  "files": 5
+ },
+ {
+  "title": "Data from: Migration of red-backed shrikes from the Iberian Peninsula: optimal or sub-optimal detour?",
+  "doi": "doi:10.5441/001/1.32m2335q",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Lanius collurio"
+  ],
+  "animals_metadata": "6",
+  "movebank_study": "225376313",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 8,
+  "animals_ge330d": 8,
+  "files": 4
+ },
+ {
+  "title": "Data from: Non\u2010breeding areas and timing of migration in relation to weather of Scottish\u2010breeding common sandpipers Actitis hypoleucos",
+  "doi": "doi:10.5441/001/1.9cj0t65k",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Actitis hypoleucos"
+  ],
+  "animals_metadata": "10",
+  "movebank_study": "642453013",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 10,
+  "animals_ge330d": 8,
+  "files": 4
+ },
+ {
+  "title": "Data from: Home range use and movement patterns of non-native feral goats in a tropical island montane dry landscape",
+  "doi": "doi:10.5441/001/1.86v62sd5",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Capra hircus"
+  ],
+  "animals_metadata": "13",
+  "movebank_study": "50850228",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 13,
+  "animals_ge330d": 8,
+  "files": 3
+ },
+ {
+  "title": "Data from: Prolonged stopover duration characterises migration strategy and constraints of a long-distant migrant songbird",
+  "doi": "doi:10.5441/001/1.nn55rh75",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Oenanthe oenanthe"
+  ],
+  "animals_metadata": "28",
+  "movebank_study": "58672150",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 28,
+  "animals_ge330d": 8,
+  "files": 6
+ },
+ {
+  "title": "Data from: Migratory patterns and connectivity of two North American grassland bird species [eastern meadowlarks]",
+  "doi": "doi:10.5441/001/1.04qr5q47",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Sturnella magna"
+  ],
+  "animals_metadata": "10",
+  "movebank_study": "369184377",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 10,
+  "animals_ge330d": 8,
+  "files": 3
+ },
+ {
+  "title": "Data from: Foraging behaviour and fuel accumulation of capital breeders during spring migration as derived from a combination of satellite- and ground-based observations",
+  "doi": "doi:10.5441/001/1.s9s86319",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anser brachyrhynchus"
+  ],
+  "animals_metadata": "11",
+  "movebank_study": "49535504",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 11,
+  "animals_ge330d": 8,
+  "files": 4
+ },
+ {
+  "title": "Data from: Movements of neotropical understory passerines affected by anthropogenic forest edges in the Brazilian Atlantic Rainforest",
+  "doi": "doi:10.5441/001/1.rj5sc2bk",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Chiroxiphia caudata",
+   "Pyriglena leucoptera",
+   "Sclerurus scansor"
+  ],
+  "animals_metadata": "108",
+  "movebank_study": "7895692",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 108,
+  "animals_ge330d": 8,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"American black bear movement ecology in Connecticut\"",
+  "doi": "doi:10.5441/001/1.706",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Ursus americanus"
+  ],
+  "animals_metadata": "21",
+  "movebank_study": "2564825948",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 8,
+  "animals_ge330d": 8,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Switzerland Biel - Long term study on migratory movement of Alpine swifts (Apus melba)\"",
+  "doi": "doi:10.5441/001/1.k4g9f2n2",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "7",
+  "movebank_study": "1266895841",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 7,
+  "files": 6
+ },
+ {
+  "title": "Data from: Dispersive migration of breeding Juan Fern\u00e1ndez Petrels Pterodroma externa across the eastern Pacific Ocean and overlap with tropical tuna fisheries",
+  "doi": "doi:10.5441/001/1.733",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Pterodroma externa"
+  ],
+  "animals_metadata": "7",
+  "movebank_study": "5022396890",
+  "sensors": [
+   "Solar Geolocator",
+   "Solar Geolocator Twilight",
+   "Solar Geolocator Raw",
+   "Accessory Measurements"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 7,
+  "files": 6
+ },
+ {
+  "title": "Data from: Migration strategy as an indicator of resilience to change in two shorebird species with contrasting population trajectories [curlew sandpipers]",
+  "doi": "doi:10.5441/001/1.g2n3ps20",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Calidris ferruginea"
+  ],
+  "animals_metadata": "13",
+  "movebank_study": "1300703741",
+  "sensors": [
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 13,
+  "animals_ge330d": 6,
+  "files": 6
+ },
+ {
+  "title": "Data from: The challenges of the first migration: movement and behavior of juvenile versus adult white storks with insights regarding juvenile mortality",
+  "doi": "doi:10.5441/001/1.hn1bd23k",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "122",
+  "movebank_study": "150450794",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 46,
+  "animals_ge330d": 6,
+  "files": 7
+ },
+ {
+  "title": "Data from: Timing is critical: consequences of asynchronous migration for the performance and destination of a long-distance migrant",
+  "doi": "doi:10.5441/001/1.137cn005",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "69",
+  "movebank_study": "multiple",
+  "sensors": [
+   "Acceleration",
+   "GPS",
+   "Barometer"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 6,
+  "files": 19
+ },
+ {
+  "title": "Data from: Influence of density-dependent competition on foraging and migratory behavior of a subtropical colonial seabird",
+  "doi": "doi:10.5441/001/1.7856r086",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Pelecanus occidentalis"
+  ],
+  "animals_metadata": "81",
+  "movebank_study": "296027617",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 23,
+  "animals_ge330d": 6,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Reindeer movement in East Iceland\"",
+  "doi": "doi:10.5441/001/1.vp4cf4qg",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Rangifer tarandus",
+   "Rangifer tarandus"
+  ],
+  "animals_metadata": "8",
+  "movebank_study": "1917386905",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 8,
+  "animals_ge330d": 6,
+  "files": 4
+ },
+ {
+  "title": "Data from: The price of being late: short- and long-term consequences of a delayed migration timing [delayed birds]",
+  "doi": "doi:10.5441/001/1.276",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "40",
+  "movebank_study": "908232414",
+  "sensors": [
+   "GPS",
+   "Acceleration"
+  ],
+  "animals_with_span": 20,
+  "animals_ge330d": 6,
+  "files": 7
+ },
+ {
+  "title": "Data from: Residency and use of an important nursery habitat, Raja Ampat\u2019s Wayag lagoon, by juvenile reef manta rays (Mobula alfredi)",
+  "doi": "doi:10.5441/001/1.n95c7182",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Mobula hypostoma",
+   "Mobula hypostoma",
+   "Mobula hypostoma",
+   "Mobula hypostoma"
+  ],
+  "animals_metadata": "14",
+  "movebank_study": "1546153444",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 14,
+  "animals_ge330d": 6,
+  "files": 4
+ },
+ {
+  "title": "Data from: Locally adapted migration strategies: Comparing routes and timing of northern wheatears from alpine and lowland European populations [Germany]",
+  "doi": "doi:10.5441/001/1.b285q8gh",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Oenanthe oenanthe"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 6,
+  "animals_ge330d": 6,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Black-necked crane Bhutan (UWICE-MPIAB)\"",
+  "doi": "doi:10.5441/001/1.601",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Grus nigricollis"
+  ],
+  "animals_metadata": "13",
+  "movebank_study": "4124813",
+  "sensors": [
+   "GPS",
+   "Acceleration"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 5,
+  "files": 4
+ },
+ {
+  "title": "Data from: Longer days enable higher diurnal activity for migratory birds [Himalayan griffons]",
+  "doi": "doi:10.5441/001/1.4n2501f5",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Gyps himalayensis"
+  ],
+  "animals_metadata": "17",
+  "movebank_study": "20202974",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 5,
+  "animals_ge330d": 5,
+  "files": 4
+ },
+ {
+  "title": "Data from: Costs of migratory decisions: a comparison across eight white stork populations",
+  "doi": "doi:10.5441/001/1.78152p3q",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "72",
+  "movebank_study": "74496970",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 36,
+  "animals_ge330d": 5,
+  "files": 7
+ },
+ {
+  "title": "Data from: Ice cover and partner removal increase movements of invasive mesopredator in the coastal island mosaic",
+  "doi": "doi:10.5441/001/1.659",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Nyctereutes procyonoides"
+  ],
+  "animals_metadata": "30",
+  "movebank_study": "4656276921",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 30,
+  "animals_ge330d": 5,
+  "files": 3
+ },
+ {
+  "title": "Data from: Satellite telemetry reveals strong fidelity to migration routes and wintering grounds for the gull-billed tern (Gelochelidon nilotica)",
+  "doi": "doi:10.5441/001/1.d73t7vt8",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Gelochelidon nilotica"
+  ],
+  "animals_metadata": "6",
+  "movebank_study": "1421896275",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 6,
+  "animals_ge330d": 5,
+  "files": 3
+ },
+ {
+  "title": "Data from: Satellite telemetry tracks flyways of Asian Openbill storks in relation to H5N1 avian influenza spread and ecological change",
+  "doi": "doi:10.5441/001/1.1j802v05",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anastomus oscitans"
+  ],
+  "animals_metadata": "5",
+  "movebank_study": "463520202",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 5,
+  "animals_ge330d": 5,
+  "files": 3
+ },
+ {
+  "title": "Data from: When Siberia came to The Netherlands: the response of continental black-tailed godwits to a rare spring weather event",
+  "doi": "doi:10.5441/001/1.m3b75054",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Limosa limosa"
+  ],
+  "animals_metadata": "30",
+  "movebank_study": "66480086",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 11,
+  "animals_ge330d": 5,
+  "files": 3
+ },
+ {
+  "title": "Data from: The social organization of the kinkajou Potos flavus (Procyonidae)",
+  "doi": "doi:10.5441/001/1.hp37j8cb",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Potos flavus"
+  ],
+  "animals_metadata": "13",
+  "movebank_study": "80479",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 13,
+  "animals_ge330d": 5,
+  "files": 3
+ },
+ {
+  "title": "Data from: \u00c1mbito de hogar y actividad circadiana del ocelote (Leopardus pardalis) en la Isla de Barro Colorado, Panam\u00e1",
+  "doi": "doi:10.5441/001/1.pb653nk3",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Leopardus pardalis"
+  ],
+  "animals_metadata": "11",
+  "movebank_study": "123413",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 9,
+  "animals_ge330d": 5,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Green turtles (Chelonia Mydas); Hays; Chagos Archipelago, Western Indian Ocean\"",
+  "doi": "doi:10.5441/001/1.313",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Chelonia mydas"
+  ],
+  "animals_metadata": "33",
+  "movebank_study": "3267664208",
+  "sensors": [
+   "GPS",
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 33,
+  "animals_ge330d": 5,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Wild Pig/Boar GPS Study on Rangeland-Sus scrofa-Oklahoma\" [part]",
+  "doi": "doi:10.5441/001/1.672",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Sus scrofa"
+  ],
+  "animals_metadata": "18",
+  "movebank_study": "3006923937",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 19,
+  "animals_ge330d": 5,
+  "files": 3
+ },
+ {
+  "title": "Data from: Spatial ecology of the water opossum Chironectes minimus in Atlantic Forest streams",
+  "doi": "doi:10.5441/001/1.4rr97k10",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Chironectes minimus"
+  ],
+  "animals_metadata": "10",
+  "movebank_study": "68964337",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 10,
+  "animals_ge330d": 4,
+  "files": 6
+ },
+ {
+  "title": "Data from: Study \"LifeTrack White Stork Oberschwaben\" (2014-2023)",
+  "doi": "doi:10.5441/001/1.c42j3js7_2",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "18",
+  "movebank_study": "212096177",
+  "sensors": [
+   "Acceleration",
+   "GPS"
+  ],
+  "animals_with_span": 14,
+  "animals_ge330d": 4,
+  "files": 4
+ },
+ {
+  "title": "Data from: Resource-driven encounters among consumers and implications for the spread of infectious disease",
+  "doi": "doi:10.5441/001/1.n1r7ds5r",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Canis mesomelas"
+  ],
+  "animals_metadata": "22",
+  "movebank_study": "304875150",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 4,
+  "files": 4
+ },
+ {
+  "title": "Data from: Intra-African movements of the African Cuckoo Cuculus gularis as revealed by satellite telemetry",
+  "doi": "doi:10.5441/001/1.b800b7c3",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Cuculus gularis"
+  ],
+  "animals_metadata": "5",
+  "movebank_study": "374990463",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 5,
+  "animals_ge330d": 4,
+  "files": 3
+ },
+ {
+  "title": "Data from: Longer days enable higher diurnal activity for migratory birds [greater white-fronted geese]",
+  "doi": "doi:10.5441/001/1.254rd102",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anser albifrons"
+  ],
+  "animals_metadata": "20",
+  "movebank_study": "9589196",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 8,
+  "animals_ge330d": 4,
+  "files": 7
+ },
+ {
+  "title": "Data from: Study \"Red Knot geolocator tracking New Zealand 2013\"",
+  "doi": "doi:10.5441/001/1.328",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Calidris canutus"
+  ],
+  "animals_metadata": "6",
+  "movebank_study": "3389607769",
+  "sensors": [
+   "Solar Geolocator Twilight",
+   "Solar Geolocator",
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 6,
+  "animals_ge330d": 4,
+  "files": 5
+ },
+ {
+  "title": "Data from: Individual variation in migratory path and behavior among Eastern Lark Sparrows",
+  "doi": "doi:10.5441/001/1.5jd56s8h",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Chondestes grammacus"
+  ],
+  "animals_metadata": "6",
+  "movebank_study": "11468393",
+  "sensors": [],
+  "animals_with_span": 6,
+  "animals_ge330d": 4,
+  "files": 4
+ },
+ {
+  "title": "Data from: Annual-cycle movement patterns of Eastern Brown Pelicans from the northern end of their breeding range",
+  "doi": "https://doi.org/10.5441/001/1.715",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Pelecanus occidentalis"
+  ],
+  "animals_metadata": "7",
+  "movebank_study": "2782529952",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 4,
+  "files": 3
+ },
+ {
+  "title": "Data from: Juvenile emperor penguin range calls for extended conservation measures in the Southern Ocean",
+  "doi": "doi:10.5441/001/1.sg2s0f7q",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Aptenodytes forsteri"
+  ],
+  "animals_metadata": "8",
+  "movebank_study": "1322558986",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 8,
+  "animals_ge330d": 3,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Leopards, vervets, and baboons in Laikipia, Kenya\" [baboons]",
+  "doi": "doi:10.5441/001/1.625",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Papio anubis"
+  ],
+  "animals_metadata": "6",
+  "movebank_study": "17629305",
+  "sensors": [
+   "Acceleration",
+   "GPS"
+  ],
+  "animals_with_span": 6,
+  "animals_ge330d": 3,
+  "files": 4
+ },
+ {
+  "title": "Data from: Repatriating leopards into novel landscapes of a South African province",
+  "doi": "doi:10.5441/001/1.s6r7r28b",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Panthera pardus"
+  ],
+  "animals_metadata": "16",
+  "movebank_study": "1283461962",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 14,
+  "animals_ge330d": 3,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"LifeTrack White Stork Vorarlberg\" (2016-2023)",
+  "doi": "doi:10.5441/001/1.71r7pp6q_2",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "26",
+  "movebank_study": "173641633",
+  "sensors": [
+   "Acceleration",
+   "GPS",
+   "Orientation",
+   "Magnetometer"
+  ],
+  "animals_with_span": 13,
+  "animals_ge330d": 3,
+  "files": 9
+ },
+ {
+  "title": "Data from: Concentration of a widespread breeding population in few critically important nonbreeding areas: migratory connectivity in the Prothonotary Warbler",
+  "doi": "doi:10.5441/001/1.j8s36d40",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Protonotaria citrea"
+  ],
+  "animals_metadata": "33",
+  "movebank_study": "663311231",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 33,
+  "animals_ge330d": 3,
+  "files": 4
+ },
+ {
+  "title": "Data from: Seasonal movements of Gyrfalcons Falco rusticolus include extensive periods at sea [Maniitsoq]",
+  "doi": "doi:10.5441/001/1.qv4p2cg7",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Falco rusticolus"
+  ],
+  "animals_metadata": "11",
+  "movebank_study": "917906795",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 11,
+  "animals_ge330d": 3,
+  "files": 3
+ },
+ {
+  "title": "Data from: The price of being late: short- and long-term consequences of a delayed migration timing [naturally-timed birds]",
+  "doi": "doi:10.5441/001/1.277",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "40",
+  "movebank_study": "1176017658",
+  "sensors": [
+   "GPS",
+   "Acceleration"
+  ],
+  "animals_with_span": 55,
+  "animals_ge330d": 3,
+  "files": 7
+ },
+ {
+  "title": "Data from: Study \"Red fox Bylot - Argos tracking\"",
+  "doi": "doi:10.5441/001/1.8qf0ct89",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Vulpes vulpes"
+  ],
+  "animals_metadata": "2",
+  "movebank_study": "1371322147",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 4,
+  "animals_ge330d": 3,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"LifeTrack White Stork Kosova\"",
+  "doi": "doi:10.5441/001/1.s367rd3k",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "8",
+  "movebank_study": "175720577",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 5,
+  "animals_ge330d": 3,
+  "files": 4
+ },
+ {
+  "title": "Data from: Migration routes and strategies of Grey Plovers (Pluvialis squatarola) on the East Atlantic Flyway as revealed by satellite tracking",
+  "doi": "doi:10.5441/001/1.vv0ft02m",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Pluvialis squatarola"
+  ],
+  "animals_metadata": "14",
+  "movebank_study": "533575900",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 14,
+  "animals_ge330d": 3,
+  "files": 3
+ },
+ {
+  "title": "Data from: Kiawah and Seabrook islands are a critical site for the rufa Red Knot (Calidris canutus rufa)",
+  "doi": "doi:10.5441/001/1.vd88t77s",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Calidris canutus"
+  ],
+  "animals_metadata": "3",
+  "movebank_study": "2204980653",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 3,
+  "animals_ge330d": 3,
+  "files": 3
+ },
+ {
+  "title": "Data from: Non-breeding ecology of a Neotropical-Nearctic migrant, the Common Nighthawk (Chordeiles minor): Habitat, activity patterns, molt, and migration",
+  "doi": "doi:10.5441/001/1.287",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Chordeiles minor"
+  ],
+  "animals_metadata": "3",
+  "movebank_study": "2873131778",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 3,
+  "animals_ge330d": 3,
+  "files": 3
+ },
+ {
+  "title": "Data from: First evidence of diverging migration and overwintering strategies in glaucous gulls (Larus hyperboreus) from the Canadian Arctic",
+  "doi": "doi:10.5441/001/1.tj948m64",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Larus hyperboreus"
+  ],
+  "animals_metadata": "7",
+  "movebank_study": "1767692280",
+  "sensors": [
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 3,
+  "animals_ge330d": 3,
+  "files": 6
+ },
+ {
+  "title": "Data from: The small home ranges and large local ecological impacts of pet cats [United States]",
+  "doi": "doi:10.5441/001/1.bg0v5531",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Felis catus"
+  ],
+  "animals_metadata": "154",
+  "movebank_study": "10857031",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 154,
+  "animals_ge330d": 3,
+  "files": 3
+ },
+ {
+  "title": "Data from: Remote estimation of overwintering home ranges in an elusive migratory nocturnal bird",
+  "doi": "doi:10.5441/001/1.6v110sv8",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Antrostomus vociferus"
+  ],
+  "animals_metadata": "11",
+  "movebank_study": "958302149",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 11,
+  "animals_ge330d": 3,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Eurasian teal, Giunchi, Italy\"",
+  "doi": "doi:10.5441/001/1.250",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anas crecca"
+  ],
+  "animals_metadata": "48",
+  "movebank_study": "14512695",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 3,
+  "files": 3
+ },
+ {
+  "title": "Data from: Tracking the migration of red-necked stint (Calidris ruficollis) reveals marathon flights and unexpected conservation challenges",
+  "doi": "doi:10.5441/001/1.fd53sn40",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Calidris ruficollis"
+  ],
+  "animals_metadata": "3",
+  "movebank_study": "1236374912",
+  "sensors": [
+   "Accessory Measurements"
+  ],
+  "animals_with_span": 3,
+  "animals_ge330d": 3,
+  "files": 6
+ },
+ {
+  "title": "Data from: Study \"Arctic hare Alert - Argos tracking\"",
+  "doi": "doi:10.5441/001/1.d5d912c4",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Lepus arcticus"
+  ],
+  "animals_metadata": "25",
+  "movebank_study": "887332716",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 26,
+  "animals_ge330d": 3,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"GPS tracking of white-tailed deer in western Virginia\"",
+  "doi": "doi:10.5441/001/1.718",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Odocoileus virginianus"
+  ],
+  "animals_metadata": "34",
+  "movebank_study": "2553108901",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 3,
+  "animals_ge330d": 3,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"GPS tracking of American Goshawks--Nevada Department of Wildlife\"",
+  "doi": "doi:10.5441/001/1.665",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Astur atricapillus"
+  ],
+  "animals_metadata": "7",
+  "movebank_study": "1450604622",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 3,
+  "files": 3
+ },
+ {
+  "title": "Data from: Post-fledging movements of juvenile common mergansers (Mergus merganser) in Alaska as inferred by satellite telemetry",
+  "doi": "doi:10.5441/001/1.3gc013f3",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Mergus merganser"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "157278223",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 9,
+  "animals_ge330d": 2,
+  "files": 6
+ },
+ {
+  "title": "Data from: Study \"Common Crane Lithuania GPS, 2015-2016\"",
+  "doi": "doi:10.5441/001/1.604",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Grus grus"
+  ],
+  "animals_metadata": "3",
+  "movebank_study": "146932094",
+  "sensors": [
+   "GPS",
+   "Acceleration",
+   "Magnetometer",
+   "Barometer",
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 3,
+  "animals_ge330d": 2,
+  "files": 3
+ },
+ {
+  "title": "Data from: The price of being late: short- and long-term consequences of a delayed migration timing [control birds]",
+  "doi": "doi:10.5441/001/1.271",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "19",
+  "movebank_study": "927364554",
+  "sensors": [
+   "GPS",
+   "Acceleration"
+  ],
+  "animals_with_span": 9,
+  "animals_ge330d": 2,
+  "files": 4
+ },
+ {
+  "title": "Data from: Migration strategy as an indicator of resilience to change in two shorebird species with contrasting population trajectories [red-necked stints]",
+  "doi": "doi:10.5441/001/1.s07tk38d",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Calidris ruficollis"
+  ],
+  "animals_metadata": "17",
+  "movebank_study": "1300780234",
+  "sensors": [],
+  "animals_with_span": 17,
+  "animals_ge330d": 2,
+  "files": 6
+ },
+ {
+  "title": "Data from: Migratory routes of red-necked phalaropes Phalaropus lobatus breeding in southern Chukotka revealed by geolocators",
+  "doi": "doi:10.5441/001/1.p41784h5",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Phalaropus lobatus"
+  ],
+  "animals_metadata": "2",
+  "movebank_study": "411155573",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 2,
+  "animals_ge330d": 2,
+  "files": 4
+ },
+ {
+  "title": "Data from: Individual environmental niches in mobile organisms",
+  "doi": "doi:10.5441/001/1.rj21g1p1",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "48",
+  "movebank_study": "1410035327",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 2,
+  "animals_ge330d": 2,
+  "files": 3
+ },
+ {
+  "title": "Data from: As the duck flies: estimating the dispersal of low-pathogenic avian influenza viruses by migrating mallards",
+  "doi": "doi:10.5441/001/1.3fv21n7m",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anas acuta",
+   "Anas platyrhynchos"
+  ],
+  "animals_metadata": "39",
+  "movebank_study": "350174730",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 26,
+  "animals_ge330d": 2,
+  "files": 3
+ },
+ {
+  "title": "Data from: Effects of multiple targeted repelling measures on the behaviour of individually tracked birds in an area of increasing human-wildlife conflict",
+  "doi": "doi:10.5441/001/1.vd7jb526",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Branta leucopsis"
+  ],
+  "animals_metadata": "70",
+  "movebank_study": "2296102400",
+  "sensors": [],
+  "animals_with_span": 10,
+  "animals_ge330d": 2,
+  "files": 3
+ },
+ {
+  "title": "Data from: Jaguar movement database\u2014a GPS-based movement dataset of an apex predator in the Neotropics",
+  "doi": "doi:10.5441/001/1.3c4fv0m4",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Panthera onca"
+  ],
+  "animals_metadata": "13",
+  "movebank_study": "19411459",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 13,
+  "animals_ge330d": 2,
+  "files": 3
+ },
+ {
+  "title": "Data from: Longer days enable higher diurnal activity for migratory birds [rough-legged buzzards]",
+  "doi": "doi:10.5441/001/1.dg3sm625",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Buteo lagopus"
+  ],
+  "animals_metadata": "15",
+  "movebank_study": "9493874",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 3,
+  "animals_ge330d": 2,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Switzerland Lenzburg - Long term study on migratory movement of Alpine swifts (Apus melba)\"",
+  "doi": "doi:10.5441/001/1.31v444sc",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "25",
+  "movebank_study": "1266886176",
+  "sensors": [
+   "Barometer"
+  ],
+  "animals_with_span": 35,
+  "animals_ge330d": 2,
+  "files": 6
+ },
+ {
+  "title": "Data from: Study \"Switzerland Baden - Long term study on migratory movement of Alpine swifts (Apus melba)\"",
+  "doi": "doi:10.5441/001/1.d6n476k0",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "39",
+  "movebank_study": "1266783506",
+  "sensors": [
+   "Barometer"
+  ],
+  "animals_with_span": 51,
+  "animals_ge330d": 2,
+  "files": 6
+ },
+ {
+  "title": "Data from: Partial migration in the Mediterranean storm petrel Hydrobates pelagicus melitensis",
+  "doi": "doi:10.5441/001/1.4h490c02",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Hydrobates pelagicus"
+  ],
+  "animals_metadata": "7",
+  "movebank_study": "360546360",
+  "sensors": [
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 2,
+  "files": 4
+ },
+ {
+  "title": "Data from: Scouts vs usurpers: alternative foraging strategies facilitate coexistence between Neotropical cathartid vultures",
+  "doi": "doi:10.5441/001/1.320",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Cathartes melambrotus",
+   "Sarcoramphus papa"
+  ],
+  "animals_metadata": "10",
+  "movebank_study": "1573471517",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 3,
+  "animals_ge330d": 2,
+  "files": 3
+ },
+ {
+  "title": "Data from: Loop-migration and non-breeding locations of British breeding Wood Warblers Phylloscopus sibilatrix",
+  "doi": "doi:10.5441/001/1.kg7732nb",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "4",
+  "movebank_study": "1069948124",
+  "sensors": [
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 4,
+  "animals_ge330d": 2,
+  "files": 3
+ },
+ {
+  "title": "Data from: The history and range expansion of peregrine falcons in the Thule area, northwest Greenland",
+  "doi": "doi:10.5441/001/1.b3b511d2",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Falco peregrinus"
+  ],
+  "animals_metadata": "8",
+  "movebank_study": "7249090",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 8,
+  "animals_ge330d": 2,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Switzerland Lausanne - Long term study on migratory movement of Alpine swifts (Apus melba)\"",
+  "doi": "doi:10.5441/001/1.ff3138d1",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "2",
+  "movebank_study": "1266897111",
+  "sensors": [
+   "Barometer"
+  ],
+  "animals_with_span": 2,
+  "animals_ge330d": 2,
+  "files": 6
+ },
+ {
+  "title": "Data from: Study \"Audubon Canyon Ranch egret telemetry project\"",
+  "doi": "doi:10.5441/001/1.641",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ardea alba"
+  ],
+  "animals_metadata": "22",
+  "movebank_study": "247850178",
+  "sensors": [
+   "GPS",
+   "Acceleration"
+  ],
+  "animals_with_span": 10,
+  "animals_ge330d": 2,
+  "files": 4
+ },
+ {
+  "title": "Data from: Scaring waterfowl as a management tool: how much more do geese forage after disturbance?",
+  "doi": "doi:10.5441/001/1.7tp81b7b",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anser albifrons"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "163020445",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 8,
+  "animals_ge330d": 1,
+  "files": 4
+ },
+ {
+  "title": "Data from: Early arrival at breeding grounds: causes, costs and a trade-off with overwintering latitude",
+  "doi": "doi:10.5441/001/1.v8d24552",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "36",
+  "movebank_study": "560041066",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 2,
+  "animals_ge330d": 1,
+  "files": 5
+ },
+ {
+  "title": "Data from: Eastern coyote home range, habitat selection and survival in the Albany pine bush landscape",
+  "doi": "doi:10.5441/001/1.56pf8220",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Canis latrans",
+   "Procyon lotor",
+   "Urocyon cinereoargenteus",
+   "Vulpes vulpes"
+  ],
+  "animals_metadata": "32",
+  "movebank_study": "5376563",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 9,
+  "animals_ge330d": 1,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Herring Gulls (Larus Argentatus); Gilchrist; East Bay Island, Canada\"",
+  "doi": "doi:10.5441/001/1.1r1s4v8d",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Larus argentatus"
+  ],
+  "animals_metadata": "16",
+  "movebank_study": "11815535",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 10,
+  "animals_ge330d": 1,
+  "files": 3
+ },
+ {
+  "title": "Data from: A novel approach to quantifying the spatiotemporal behavior of instrumented grey seals used to sample the environment",
+  "doi": "doi:10.5441/001/1.910p0c20",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Halichoerus grypus"
+  ],
+  "animals_metadata": "16",
+  "movebank_study": "66507017",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 16,
+  "animals_ge330d": 1,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"King Eider Alaska (UAF / USGS)\"",
+  "doi": "doi:10.5441/001/1.339",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Somateria spectabilis"
+  ],
+  "animals_metadata": "166",
+  "movebank_study": "213511247",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 1,
+  "files": 3
+ },
+ {
+  "title": "Data from: Satellite telemetry of Blue-throated Macaws in Barba Azul Nature Reserve (Beni, Bolivia) reveals likely breeding areas",
+  "doi": "doi:10.5441/001/1.5nd951n8",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ara glaucogularis"
+  ],
+  "animals_metadata": "3",
+  "movebank_study": "1732557429",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 3,
+  "animals_ge330d": 1,
+  "files": 3
+ },
+ {
+  "title": "Data from: Flight behaviour of Red Kites within their breeding area in relation to local weather variables: conclusions with regard to wind turbine collision mitigation",
+  "doi": "doi:10.5441/001/1.338",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Milvus milvus"
+  ],
+  "animals_metadata": "4",
+  "movebank_study": "878431870",
+  "sensors": [
+   "Magnetometer",
+   "Barometer",
+   "Acceleration",
+   "GPS"
+  ],
+  "animals_with_span": 3,
+  "animals_ge330d": 1,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Arctic fox Herschel - Argos tracking\"",
+  "doi": "doi:10.5441/001/1.c2c52046",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Vulpes lagopus"
+  ],
+  "animals_metadata": "2",
+  "movebank_study": "1371484814",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 2,
+  "animals_ge330d": 1,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Switzerland Luzern - Long term study on migratory movement of Alpine swifts (Apus melba)\"",
+  "doi": "doi:10.5441/001/1.21nq5932",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "8",
+  "movebank_study": "1266894561",
+  "sensors": [
+   "Barometer"
+  ],
+  "animals_with_span": 8,
+  "animals_ge330d": 1,
+  "files": 6
+ },
+ {
+  "title": "Data from: Behavioural estimation of blue whale movements in the Northeast Pacific from state-space model analysis of satellite tracks",
+  "doi": "doi:10.5441/001/1.5ph88fk2",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Balaenoptera musculus"
+  ],
+  "animals_metadata": "143",
+  "movebank_study": "650188969",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 143,
+  "animals_ge330d": 1,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Migration routes of the Common Kestrel passing through Guiyang, China\"",
+  "doi": "doi:10.5441/001/1.606",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Falco tinnunculus"
+  ],
+  "animals_metadata": "1",
+  "movebank_study": "4474483266",
+  "sensors": [
+   "GNSS"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 1,
+  "files": 3
+ },
+ {
+  "title": "Data from: Uncovering behavioural states from animal activity and site fidelity patterns",
+  "doi": "doi:10.5441/001/1.7d8301h2",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Canis latrans",
+   "Puma concolor"
+  ],
+  "animals_metadata": "18",
+  "movebank_study": "193545363",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 19,
+  "animals_ge330d": 1,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Hebblewhite Alberta-BC Wolves\"",
+  "doi": "doi:10.5441/001/1.662",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Canis lupus"
+  ],
+  "animals_metadata": "68",
+  "movebank_study": "209824313",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 11,
+  "animals_ge330d": 1,
+  "files": 3
+ },
+ {
+  "title": "Data from: Migration phenology and patterns of American woodcock in central North America derived using satellite telemetry",
+  "doi": "doi:10.5441/001/1.8764q39q",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Scolopax minor"
+  ],
+  "animals_metadata": "71",
+  "movebank_study": "12170798",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 6,
+  "animals_ge330d": 1,
+  "files": 4
+ },
+ {
+  "title": "Gyrfalcon, High Arctic Institute, northwest Greenland-reference-data",
+  "doi": "doi:10.5441/001/1.3833b9n1/2",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Falco rusticolus"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 23,
+  "animals_ge330d": 1,
+  "files": 2
+ },
+ {
+  "title": "Data from: Behavioural adaptations to flight into thin air",
+  "doi": "doi:10.5441/001/1.143v2p2k",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Gyps himalayensis"
+  ],
+  "animals_metadata": "23",
+  "movebank_study": "182746263",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 4,
+  "animals_ge330d": 1,
+  "files": 3
+ },
+ {
+  "title": "Data from: Case Report: Long-distance overwater migration of the Northern Boobook, Ninox japonica, revealed by year-round GPS tracking",
+  "doi": "doi:10.5441/001/1.745",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Ninox japonica"
+  ],
+  "animals_metadata": "1",
+  "movebank_study": "7577228439",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 1,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Spatial ecology of plains spotted skunks in a Texas coastal prairie rangeland (Perkins 2019-2021)\" [part]",
+  "doi": "doi:10.5441/001/1.713",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Spilogale interrupta"
+  ],
+  "animals_metadata": "10",
+  "movebank_study": "3266430241",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 15,
+  "animals_ge330d": 1,
+  "files": 3
+ },
+ {
+  "title": "Data from: Space and resource use by American crow (Corvus brachyrhynchos) in an area endemic for chronic wasting disease",
+  "doi": "https://doi.org/10.5441/001/1.742",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Corvus brachyrhynchos"
+  ],
+  "animals_metadata": "12",
+  "movebank_study": "1996035916",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 1,
+  "files": 3
+ },
+ {
+  "title": "Data from: The small home ranges and large local ecological impacts of pet cats [United Kingdom]",
+  "doi": "doi:10.5441/001/1.pf315732",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Felis catus"
+  ],
+  "animals_metadata": "101",
+  "movebank_study": "300222057",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 101,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Herring Gulls (Larus Argentatus); Ronconi; Sable Island, Canada\"",
+  "doi": "doi:10.5441/001/1.3264ss3v",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Larus argentatus"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "1080341737",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"NC Wood Stork Tracking\"",
+  "doi": "doi:10.5441/001/1.303",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Mycteria americana"
+  ],
+  "animals_metadata": "2",
+  "movebank_study": "67281010",
+  "sensors": [
+   "Accessory Measurements",
+   "Acceleration",
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 5
+ },
+ {
+  "title": "Data from: An integrated approach to modeling grazing pressure in pastoral systems: the case of the Logone Floodplain (Cameroon)",
+  "doi": "doi:10.5441/001/1.j682ds56",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Bos taurus"
+  ],
+  "animals_metadata": "33",
+  "movebank_study": "412206724",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 33,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Greater spear nosed bats commute long distances alone, rest together, but forage apart",
+  "doi": "doi:10.5441/001/1.282",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Phyllostomus hastatus"
+  ],
+  "animals_metadata": "22",
+  "movebank_study": "145038719",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 22,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Only natural local odours allow homeward orientation in homing pigeons released at unfamiliar sites",
+  "doi": "doi:10.5441/001/1.dn1b937k",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "52",
+  "movebank_study": "510147801",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Factors influencing foraging search efficiency: Why do scarce lappet-faced vultures outperform ubiquitous white-backed vultures? (V2)",
+  "doi": "doi:10.5441/001/1.mf903197",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Torgos tracheliotus",
+   "Gyps africanus"
+  ],
+  "animals_metadata": "15",
+  "movebank_study": "2919708",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Factors influencing foraging search efficiency: Why do scarce lappet-faced vultures outperform ubiquitous white-backed vultures?",
+  "doi": "doi:10.5441/001/1.pr1vj29n",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Gyps africanus",
+   "Torgos tracheliotus"
+  ],
+  "animals_metadata": "15",
+  "movebank_study": "2919708",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Acoustic evaluation of behavioral states predicted from GPS tracking: a case study of a marine fishing bat",
+  "doi": "doi:10.5441/001/1.kk3bg2f4",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Myotis vivesi"
+  ],
+  "animals_metadata": "11",
+  "movebank_study": "797650867",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 15,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Ecological impact of inside/outside house cats around a suburban nature preserve",
+  "doi": "doi:10.5441/001/1.s6t84pb5",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Felis catus"
+  ],
+  "animals_metadata": "12",
+  "movebank_study": "3615655",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 12,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Coexistence of two sympatric predators in a transitional ecosystem under constraining environmental conditions: a perspective from space and habitat use",
+  "doi": "doi:10.5441/001/1.291",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Vulpes vulpes",
+   "Vulpes lagopus"
+  ],
+  "animals_metadata": "17",
+  "movebank_study": "2930370782",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 22,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Classification of animal movement behavior through residence in space and time",
+  "doi": "doi:10.5441/001/1.694p666h",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Thalassarche chrysostoma"
+  ],
+  "animals_metadata": "24",
+  "movebank_study": "220078181",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Tracking post-hibernation behavior and early migration does not reveal the expected sex-differences in a \"female-migrating\u201c bat",
+  "doi": "doi:10.5441/001/1.f01815nq",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Nyctalus noctula"
+  ],
+  "animals_metadata": "33",
+  "movebank_study": "19148474",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Tracking domestic ducks: a novel approach for documenting poultry market chains in the context of avian influenza transmission",
+  "doi": "doi:10.5441/001/1.38f467s7",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anas platyrhynchos",
+   "Cairina moschata"
+  ],
+  "animals_metadata": "40",
+  "movebank_study": "49520609",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Home range size of domestic cats in Spain",
+  "doi": "doi:10.5441/001/1.296",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Felis catus"
+  ],
+  "animals_metadata": "63",
+  "movebank_study": "1728787796",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 67,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Right hemisphere advantage in the development of route fidelity in homing pigeons",
+  "doi": "doi:10.5441/001/1.245kb7r6",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "35",
+  "movebank_study": "208092450",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Winter GPS tagging reveals home ranges during the breeding season for a boreal-nesting migrant songbird, the Golden-crowned Sparrow",
+  "doi": "doi:10.5441/001/1.307",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Zonotrichia atricapilla"
+  ],
+  "animals_metadata": "19",
+  "movebank_study": "3225293084",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Forecasting spring from afar? Timing of migration and predictability of phenology along different migration routes of an avian herbivore [Svalbard data]",
+  "doi": "doi:10.5441/001/1.5k6b1364",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Branta leucopsis"
+  ],
+  "animals_metadata": "22",
+  "movebank_study": "31888520",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Ideal Free Distributions of mobile pastoralists within multiple seasonal grazing areas",
+  "doi": "doi:10.5441/001/1.md069588",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Homo sapiens"
+  ],
+  "animals_metadata": "276",
+  "movebank_study": "1026666852",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Movement patterns of a keystone waterbird species are highly predictable from landscape configuration",
+  "doi": "doi:10.5441/001/1.p9c4nc97",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anas platyrhynchos"
+  ],
+  "animals_metadata": "109",
+  "movebank_study": "132686329",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 112,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Consistent long-distance foraging flights across years and seasons at colony level in a neotropical bat [2023]",
+  "doi": "doi:10.5441/001/1.322",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Phyllostomus hastatus"
+  ],
+  "animals_metadata": "25",
+  "movebank_study": "2956085063",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 25,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Abundance, diet and foraging of Gal\u00e1pagos Barn Owls (Tyto furcata punctatissima)",
+  "doi": "doi:10.5441/001/1.699",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Tyto furcata"
+  ],
+  "animals_metadata": "8",
+  "movebank_study": "3578422072",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 11,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Herring Gulls (Larus Argentatus); Ronconi; Brier Island, Canada\"",
+  "doi": "doi:10.5441/001/1.282vr7kd",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Larus argentatus"
+  ],
+  "animals_metadata": "11",
+  "movebank_study": "1071134107",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: GPS-profiling of retrograde navigational impairments associated with hippocampal lesion in homing pigeons",
+  "doi": "doi:10.5441/001/1.vr6d4p42",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "30",
+  "movebank_study": "1566232520",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 149,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Strong breeding colony fidelity in northern gannets following high pathogenicity avian influenza HPAIV outbreak",
+  "doi": "doi:10.5441/001/1.608",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Morus bassanus"
+  ],
+  "animals_metadata": "10",
+  "movebank_study": "2658117564",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 10,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: High foraging site fidelity and spatial segregation among individual great black-backed gulls",
+  "doi": "doi:10.5441/001/1.ht5jf68h",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Larus marinus"
+  ],
+  "animals_metadata": "7",
+  "movebank_study": "1007794443",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Direction matching for sparse movement datasets: determining interaction rules in social groups",
+  "doi": "doi:10.5441/001/1.t2212r18",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "14",
+  "movebank_study": "177002088",
+  "sensors": [
+   "Natural Mark"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: The small home ranges and large local ecological impacts of pet cats [New Zealand]",
+  "doi": "doi:10.5441/001/1.8q8m8q2f",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Felis catus"
+  ],
+  "animals_metadata": "233",
+  "movebank_study": "47449884",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 232,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: The spatiotemporal properties of artificial feeding schemes influence the post-fledging movement of Egyptian Vultures",
+  "doi": "doi:10.5441/001/1.318",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Neophron percnopterus"
+  ],
+  "animals_metadata": "18",
+  "movebank_study": "3392345835",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Seasonal shifts in tropical insect ephemerality drive bat foraging effort",
+  "doi": "doi:10.5441/001/1.297",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Noctilio albiventris"
+  ],
+  "animals_metadata": "23",
+  "movebank_study": "836714638",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 26,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Moving beyond curve-fitting: using complementary data to assess alternative explanations for long movements of three vulture species",
+  "doi": "doi:10.5441/001/1.8c56f72s",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Gyps africanus",
+   "Gyps fulvus",
+   "Torgos tracheliotus"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "33643212",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Seasonal movements of Gyrfalcons Falco rusticolus include extensive periods at sea [Central-West Greenland]",
+  "doi": "doi:10.5441/001/1.v81b20p9",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Falco rusticolus"
+  ],
+  "animals_metadata": "7",
+  "movebank_study": "917901503",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Common noctules exploit low levels of the aerosphere",
+  "doi": "doi:10.5441/001/1.7t4b97qf",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Nyctalus noctula"
+  ],
+  "animals_metadata": "8",
+  "movebank_study": "509393372",
+  "sensors": [
+   "Accessory Measurements"
+  ],
+  "animals_with_span": 8,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Bobcat spatial ecology study in the Olympic Peninsula, Washington\"",
+  "doi": "doi:10.5441/001/1.658",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Lynx rufus"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "5482391833",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 9,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Diverse foraging strategies of breeding Swinhoe's Storm-Petrel in the productive marginal sea of Northwest Pacific",
+  "doi": "doi:10.5441/001/1.306",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Oceanodroma monorhis"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "1719986633",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Australia\u2019s east coast humpback whales: satellite tag derived movements on breeding grounds, feeding grounds and along the northern and southern migration.",
+  "doi": "doi:10.5441/001/1.294",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Megaptera novaeangliae"
+  ],
+  "animals_metadata": "50",
+  "movebank_study": "3030068329",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 50,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: True navigation in migrating gulls requires intact olfactory nerves",
+  "doi": "doi:10.5441/001/1.q986rc29",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "127",
+  "movebank_study": "2988333",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 19,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Collective movement in wild baboons\"",
+  "doi": "doi:10.5441/001/1.3q2131q5",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Papio anubis"
+  ],
+  "animals_metadata": "26",
+  "movebank_study": "7023252",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 26,
+  "animals_ge330d": 0,
+  "files": 10
+ },
+ {
+  "title": "Data from: Study \"Northern Gannet Breeding Season GPS Data from Cape St. Mary's, NL, Canada: 2019 to 2022\"",
+  "doi": "doi:10.5441/001/1.5km7v2s3",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Morus bassanus"
+  ],
+  "animals_metadata": "25",
+  "movebank_study": "2630711281",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: More grazing, more damage? Assessed yield loss on agricultural grassland relates non-linearly to goose grazing pressure",
+  "doi": "doi:10.5441/001/1.fk899541",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Branta leucopsis",
+   "Anser albifrons",
+   "Anser anser"
+  ],
+  "animals_metadata": "185",
+  "movebank_study": "1904388965",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Post-fledging habitat selection of a Purple Heron Ardea purpurea revealed by GPS/GSM telemetry",
+  "doi": "doi:10.5441/001/1.6tn1208h",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ardea purpurea"
+  ],
+  "animals_metadata": "1",
+  "movebank_study": "463066244",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Wind farm turbines cause functional habitat loss for migratory soaring birds",
+  "doi": "doi:10.5441/001/1.q23p1t84",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Milvus migrans"
+  ],
+  "animals_metadata": "130",
+  "movebank_study": "294524920",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Thermal soaring in tropicbirds suggests that diverse seabirds may use this strategy to reduce flight costs",
+  "doi": "doi:10.5441/001/1.251",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Phaethon rubricauda"
+  ],
+  "animals_metadata": "57",
+  "movebank_study": "2804692115",
+  "sensors": [
+   "Magnetometer",
+   "Acceleration",
+   "Barometer",
+   "GPS"
+  ],
+  "animals_with_span": 111,
+  "animals_ge330d": 0,
+  "files": 9
+ },
+ {
+  "title": "Data from: Why do kestrels soar?",
+  "doi": "doi:10.5441/001/1.sj8t3r11",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Falco naumanni"
+  ],
+  "animals_metadata": "51",
+  "movebank_study": "16615296",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 178,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: \ufeff\ufeffGPS tracking technology and re-visiting the relationship between the avian visual wulst and homing pigeon navigation",
+  "doi": "doi:10.5441/001/1.326",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "37",
+  "movebank_study": "3492555233",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 372,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Behavioural flexibility in an Arctic seabird using two distinct marine habitats to survive the energetic constraints of winter",
+  "doi": "doi:10.5441/001/1.81bs0nf7",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Uria lomvia"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 5
+ },
+ {
+  "title": "Data from: Study \"Locations of second-year rufa Red Knots in Florida, 2024\"",
+  "doi": "doi:10.5441/001/1.654",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Calidris canutus"
+  ],
+  "animals_metadata": "13",
+  "movebank_study": "3512638819",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Forecasting spring from afar? Timing of migration and predictability of phenology along different migration routes of an avian herbivore [Greenland data]",
+  "doi": "doi:10.5441/001/1.5d3f0664",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Branta leucopsis"
+  ],
+  "animals_metadata": "7",
+  "movebank_study": "31987083",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Deconstructing the flight paths of hippocampal-lesioned homing pigeons as they navigate near home offers insight into spatial perception and memory without a hippocampus",
+  "doi": "doi:10.5441/001/1.fs61hr7v",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 205,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Autumn migration and wintering site of a wood warbler Phylloscopus sibilatrix breeding in Denmark identified using geolocation",
+  "doi": "doi:10.5441/001/1.5jp8mq2v",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "1",
+  "movebank_study": "618423679",
+  "sensors": [
+   "Solar Geolocator Raw"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 5
+ },
+ {
+  "title": "Data from: Toward reliable population density estimates of partially marked populations using spatially explicit mark-resight methods",
+  "doi": "doi:10.5441/001/1.72hh609t",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Vulpes vulpes"
+  ],
+  "animals_metadata": "22",
+  "movebank_study": "444539014",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 26,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Individual tracking reveals long-distance flightpath control in a nocturnally-migrating moth",
+  "doi": "doi:10.5441/001/1.f4r24r5r",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Acherontia atropos"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"GPS tracking of eastern whip-poor-will\"",
+  "doi": "doi:10.5441/001/1.k6s7916g",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Antrostomus vociferus"
+  ],
+  "animals_metadata": "51",
+  "movebank_study": "1895314026",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 4,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Stink or swim: techniques to meet the challenges for the study and conservation of small critters that hide, swim or climb and may otherwise make themselves unpleasant.",
+  "doi": "doi:10.5441/001/1.41076dq1",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Nasua narica",
+   "Potos flavus"
+  ],
+  "animals_metadata": "4",
+  "movebank_study": "multiple",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 7
+ },
+ {
+  "title": "Data from: Goose parents lead migration V",
+  "doi": "doi:10.5441/001/1.ms87s2m6",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anser albifrons"
+  ],
+  "animals_metadata": "13",
+  "movebank_study": "1049685237",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Productivity changes in the Mediterranean Sea drive foraging movements of yelkouan shearwater Puffinus yelkouan from the core of its global breeding range",
+  "doi": "doi:10.5441/001/1.k49p9t60",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Puffinus yelkouan"
+  ],
+  "animals_metadata": "21",
+  "movebank_study": "1566542752",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 34,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Is pre-breeding prospecting behaviour affected by snow cover in the irruptive snowy owl? A test using state-space modelling and environmental data annotated via Movebank",
+  "doi": "doi:10.5441/001/1.32rf091b",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Bubo scandiacus"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "54108884",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Compensation for wind drift prevails for a shorebird on a long-distance, transoceanic flight",
+  "doi": "doi:10.5441/001/1.t81488n5",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Limosa haemastica"
+  ],
+  "animals_metadata": "25",
+  "movebank_study": "950270455",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Flexibility of continental navigation and migration in European mallards",
+  "doi": "doi:10.5441/001/1.8dc0v84m",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anas platyrhynchos"
+  ],
+  "animals_metadata": "79",
+  "movebank_study": "11017705",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: A pilot study on the home range and movement patterns of the Andean Fox Lycalopex culpaeus (Molina, 1782) in Cotopaxi National Park, Ecuador",
+  "doi": "doi:10.5441/001/1.1q2c075p",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Lycalopex culpaeus"
+  ],
+  "animals_metadata": "1",
+  "movebank_study": "1169168747",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 2,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"1000 Cranes. Russia. Volga-Ural Interfluve.\"",
+  "doi": "doi:10.5441/001/1.595",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Anthropoides virgo"
+  ],
+  "animals_metadata": "29",
+  "movebank_study": "496136836",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Terrestrial and marine foraging strategies of an opportunistic seabird species breeding in the Wadden Sea",
+  "doi": "doi:10.5441/001/1.nk286sc0",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Larus fuscus"
+  ],
+  "animals_metadata": "8",
+  "movebank_study": "183209639",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 8,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"GPS telemetry of Common Cranes, Sweden\"",
+  "doi": "doi:10.5441/001/1.597",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Grus grus"
+  ],
+  "animals_metadata": "19",
+  "movebank_study": "10722328",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: How far do Asian forest hornbills disperse seeds?",
+  "doi": "doi:10.5441/001/1.14sm8k1d",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Buceros bicornis",
+   "Rhyticeros undulatus"
+  ],
+  "animals_metadata": "6",
+  "movebank_study": "37350671",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Urbanization and artificial light at night reduce the functional connectivity of migratory aerial habitat",
+  "doi": "doi:10.5441/001/1.242g6p0r",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "20",
+  "movebank_study": "2007011428",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Home range reduction of Tapirus terrestris raised by the Sarayaku community, Pastaza, Ecuador",
+  "doi": "doi:10.5441/001/1.677",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Tapirus terrestris"
+  ],
+  "animals_metadata": "1",
+  "movebank_study": "6510132327",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"1000 Cranes. Russia. Taman. Azov.\"",
+  "doi": "doi:10.5441/001/1.594",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Anthropoides virgo"
+  ],
+  "animals_metadata": "29",
+  "movebank_study": "496130871",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Defensive fruit metabolites obstruct seed dispersal by altering bat behavior and physiology at multiple temporal scales",
+  "doi": "doi:10.5441/001/1.bc72jg61",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Carollia castanea",
+   "Carollia perspicillata"
+  ],
+  "animals_metadata": "17",
+  "movebank_study": "69142590",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Elliptical Time-Density model to estimate wildlife utilization distributions",
+  "doi": "doi:10.5441/001/1.f321pf80",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Loxodonta africana"
+  ],
+  "animals_metadata": "2",
+  "movebank_study": "22646468",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Suite of simple metrics reveals common movement syndromes across vertebrate taxa",
+  "doi": "doi:10.5441/001/1.hm5nk220",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Antidorcas marsupialis",
+   "Canis mesomelas",
+   "Chelonoidis hoodensis",
+   "Chelonoidis porteri",
+   "Gyps africanus",
+   "Loxodonta africana",
+   "Mirounga angustirostris",
+   "Phoebastria irrorata",
+   "Syncerus caffer",
+   "Zalophus californianus"
+  ],
+  "animals_metadata": "103",
+  "movebank_study": "259966228",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Turbulence causes kinematic and behavioural adjustments in a flapping flier",
+  "doi": "doi:10.5441/001/1.284",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "2886960828",
+  "sensors": [
+   "Barometer",
+   "Acceleration",
+   "GPS"
+  ],
+  "animals_with_span": 122,
+  "animals_ge330d": 0,
+  "files": 13
+ },
+ {
+  "title": "Data from: Homing pigeons only navigate in air with intact environmental odours: a test of the olfactory activation hypothesis with GPS data loggers [partial dataset]",
+  "doi": "doi:10.5441/001/1.q8b02dc5",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "22",
+  "movebank_study": "3850406",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Development of the navigational system in homing pigeons: increase in complexity of the navigational map",
+  "doi": "doi:10.5441/001/1.41c87nh1",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "54",
+  "movebank_study": "444752703",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 197,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Movements of the Christmas Island flying fox, Australia\"",
+  "doi": "doi:10.5441/001/1.mn019k4d",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Pteropus melanotus"
+  ],
+  "animals_metadata": "27",
+  "movebank_study": "1852945982",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Flying on their own wings: young and adult cuckoos respond similarly to long-distance displacement during migration",
+  "doi": "doi:10.5441/001/1.vk36vq82",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Cuculus canorus"
+  ],
+  "animals_metadata": "51",
+  "movebank_study": "99265106",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Migratory connectivity and population specific migration routes in a long-distance migratory bird",
+  "doi": "doi:10.5441/001/1.tb272jc1",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Circus pygargus"
+  ],
+  "animals_metadata": "34",
+  "movebank_study": "14727777",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 2,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Evidence for pre-mnemonic, perceptual neglect of environmental features in hippocampal lesioned pigeons during homing",
+  "doi": "doi:10.5441/001/1.fh860r2f",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "19",
+  "movebank_study": "21897548",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Herring Gulls (Larus Argentatus); Fifield; Witless Bay, Canada\"",
+  "doi": "doi:10.5441/001/1.27244v55",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Larus argentatus"
+  ],
+  "animals_metadata": "8",
+  "movebank_study": "1080340626",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Importance of the hippocampus for the learning of route fidelity in homing pigeons",
+  "doi": "doi:10.5441/001/1.6v5c77t3",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "24",
+  "movebank_study": "1007425032",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 350,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Space use and interactions of two introduced mesopredators, European red fox and feral cat, in an arid landscape",
+  "doi": "doi:10.5441/001/1.6m6h9s33",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Felis catus"
+  ],
+  "animals_metadata": "25",
+  "movebank_study": "104235994",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 10,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"LifeTrack White Stork Sicily\"",
+  "doi": "doi:10.5441/001/1.4v8q16qf",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "7",
+  "movebank_study": "79206236",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: State-switching continuous-time correlated random walks",
+  "doi": "doi:10.5441/001/1.m7j2263r",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Halichoerus grypus"
+  ],
+  "animals_metadata": "1",
+  "movebank_study": "654043458",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Nonparameteric kernel methods for constructing home ranges and utilization distributions",
+  "doi": "doi:10.5441/001/1.j900f88t",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Syncerus caffer"
+  ],
+  "animals_metadata": "6",
+  "movebank_study": "1764627",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 9,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Airplane tracking documents the fastest flight speeds recorded for bats",
+  "doi": "doi:10.5441/001/1.td71sn54",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Tadarida brasiliensis"
+  ],
+  "animals_metadata": "7",
+  "movebank_study": "433126",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Long-distance seed dispersal by straw-coloured fruit bats varies by season and landscape",
+  "doi": "doi:10.5441/001/1.44183438",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Eidolon helvum"
+  ],
+  "animals_metadata": "29",
+  "movebank_study": "183770262",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 28,
+  "animals_ge330d": 0,
+  "files": 5
+ },
+ {
+  "title": "Data from: Thieving rodents as substitute dispersers of megafaunal seeds",
+  "doi": "doi:10.5441/001/1.9t0m888q",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "224",
+  "movebank_study": "6328729",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Underestimated scale of songbird offshore migration across the south-eastern North Sea during autumn",
+  "doi": "doi:10.5441/001/1.kt323qm0",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Acrocephalus schoenobaenus",
+   "Erithacus rubecula",
+   "Prunella modularis",
+   "Sturnus vulgaris",
+   "Sylvia atricapilla",
+   "Sylvia borin",
+   "Sylvia communis",
+   "Turdus merula",
+   "Turdus philomelos"
+  ],
+  "animals_metadata": "259",
+  "movebank_study": "1762674843",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Unilateral hippocampal lesions and the navigational performance of homing pigeons as revealed by GPS-tracking",
+  "doi": "doi:10.5441/001/1.8vt33535",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "31",
+  "movebank_study": "2297102844",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 345,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Flyway connectivity and exchange primarily driven by moult migration in geese [Pannonic population]",
+  "doi": "doi:10.5441/001/1.46b0mq21",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anser albifrons"
+  ],
+  "animals_metadata": "10",
+  "movebank_study": "657965212",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"LifeTrack White Stork Bavaria\" (2014-2023)",
+  "doi": "doi:10.5441/001/1.v1cs4nn0_2",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ciconia ciconia"
+  ],
+  "animals_metadata": "67",
+  "movebank_study": "24442409",
+  "sensors": [
+   "GPS",
+   "Acceleration"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 7
+ },
+ {
+  "title": "Data from: Latitudinal cline in the ratio of foraging dichotomy in the North Pacific population of loggerhead turtles revealed a priority conservation area",
+  "doi": "doi:10.5441/001/1.m3c90703",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Caretta caretta"
+  ],
+  "animals_metadata": "12",
+  "movebank_study": "1417866900",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: The small home ranges and large local ecological impacts of pet cats [Australia]",
+  "doi": "doi:10.5441/001/1.289p5s77",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Felis catus"
+  ],
+  "animals_metadata": "442",
+  "movebank_study": "64283289",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 442,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Evaluation of micro-GPS receivers for tracking small-bodied mammals",
+  "doi": "doi:10.5441/001/1.b0g6rq1t",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Brachylagus idahoensis"
+  ],
+  "animals_metadata": "17",
+  "movebank_study": "243688044",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 20,
+  "animals_ge330d": 0,
+  "files": 8
+ },
+ {
+  "title": "Data from: Study \"Sperm whales Gulf of Mexico 2011-2013 - Argos data\"",
+  "doi": "doi:10.5441/001/1.tj291471",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Physeter macrocephalus"
+  ],
+  "animals_metadata": "17",
+  "movebank_study": "1093338949",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 23,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Great flexibility in autumn movement patterns of European Gadwalls (Anas strepera)",
+  "doi": "doi:10.5441/001/1.26dg08hv",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "10",
+  "movebank_study": "7959902",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Flexible flight response to challenging wind conditions in a commuting Antarctic seabird: do you catch the drift?",
+  "doi": "doi:10.5441/001/1.q206rm6b",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Thalassoica antarctica"
+  ],
+  "animals_metadata": "75",
+  "movebank_study": "121041109",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Foraging habitat choice of white-tailed tropicbirds revealed by fine-scale GPS tracking and remote sensing",
+  "doi": "doi:10.5441/001/1.649s6f21",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Phaethon lepturus"
+  ],
+  "animals_metadata": "15",
+  "movebank_study": "630478736",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Paternal transmission of migration knowledge in a long-distance bird migrant",
+  "doi": "doi:10.5441/001/1.352qf1cv",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Hydroprogne caspia"
+  ],
+  "animals_metadata": "27",
+  "movebank_study": "1480583194",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 2,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: First three-dimensional tracks of bat migration reveal large amounts of individual behavioral flexibility",
+  "doi": "doi:10.5441/001/1.5d736bf0",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Nyctalus noctula"
+  ],
+  "animals_metadata": "5",
+  "movebank_study": "625284084",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Habitat selection by a predator of rodent pests is resilient to wildfire in a vineyard agroecosystem",
+  "doi": "doi:10.5441/001/1.82b5h1rk",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Tyto furcata"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 32,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Shearwaters know the direction and distance home but fail to encode intervening obstacles after free-ranging foraging trips",
+  "doi": "doi:10.5441/001/1.k20j58qt",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Puffinus puffinus"
+  ],
+  "animals_metadata": "359",
+  "movebank_study": "961039869",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 707,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Forecasting spring from afar? Timing of migration and predictability of phenology along different migration routes of an avian herbivore [Barents Sea data]",
+  "doi": "doi:10.5441/001/1.ps244r11",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Branta leucopsis"
+  ],
+  "animals_metadata": "15",
+  "movebank_study": "29799425",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Determining fine-scale migratory connectivity and habitat selection for a migratory songbird by using new GPS technology",
+  "doi": "doi:10.5441/001/1.5q5gn84d",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Progne subis"
+  ],
+  "animals_metadata": "14",
+  "movebank_study": "186171846",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Blue and fin whales Southern California 2014-2015 - Argos data\"",
+  "doi": "doi:10.5441/001/1.98f5r6d0",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Balaenoptera physalus",
+   "Balaenoptera musculus"
+  ],
+  "animals_metadata": "13",
+  "movebank_study": "1027467132",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 13,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Sperm whale dive behavior characteristics derived from intermediate-duration archival tag data",
+  "doi": "doi:10.5441/001/1.rj857167",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Physeter macrocephalus"
+  ],
+  "animals_metadata": "27",
+  "movebank_study": "227843945",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 27,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Pastoralist refugee crisis tests the resilience of open property regime in the Logone Floodplain, Cameroon",
+  "doi": "doi:10.5441/001/1.c45f2p05",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Homo sapiens"
+  ],
+  "animals_metadata": "538",
+  "movebank_study": "958426706",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Pre-laying movements of Yelkouan Shearwaters (Puffinus yelkouan) in the Central Mediterranean [2016-2017]",
+  "doi": "doi:10.5441/001/1.td50n8q0",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Puffinus yelkouan"
+  ],
+  "animals_metadata": "24",
+  "movebank_study": "363865056",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 28,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Long-tailed Jaeger - PTT - Canadian Arctic\"",
+  "doi": "doi:10.5441/001/1.384g5hc7",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Stercorarius longicaudus"
+  ],
+  "animals_metadata": "10",
+  "movebank_study": "1978859802",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 10,
+  "animals_ge330d": 0,
+  "files": 5
+ },
+ {
+  "title": "Data from: Animal behavior, cost-based corridor models, and real corridors",
+  "doi": "doi:10.5441/001/1.2tp2j43g",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "8",
+  "movebank_study": "6925808",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Right hemisphere advantage in the development of route fidelity in homing pigeons",
+  "doi": "doi:10.5441/001/1.73h2s043",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "35",
+  "movebank_study": "208092450",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Changes in behaviour drive inter\u2010annual variability in the at\u2010sea distribution of northern gannets",
+  "doi": "doi:10.5441/001/1.30r98tb3",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Morus bassanus"
+  ],
+  "animals_metadata": "61",
+  "movebank_study": "305974507",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 61,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Behavioural traits of individual homing pigeons, Columba livia f. domestica, in their homing flights",
+  "doi": "doi:10.5441/001/1.pk8g6s2h",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "176",
+  "movebank_study": "466196195",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 1710,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Anosmia impairs homing orientation but not foraging behaviour in free-ranging shearwaters",
+  "doi": "doi:10.5441/001/1.c741t5b6",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Calonectris diomedea"
+  ],
+  "animals_metadata": "27",
+  "movebank_study": "317481491",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"American Herring Gulls - GPS - Lobster Bay, Southwest Nova Scotia, Canada\"",
+  "doi": "doi:10.5441/001/1.292",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Larus smithsonianus"
+  ],
+  "animals_metadata": "15",
+  "movebank_study": "2944153255",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Pre-laying movements of Yelkouan Shearwaters (Puffinus yelkouan) in the Central Mediterranean [2012-2014]",
+  "doi": "doi:10.5441/001/1.66n12c36",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Puffinus yelkouan"
+  ],
+  "animals_metadata": "48",
+  "movebank_study": "108322181",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 51,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Satellite Tracking of Oceanic Loggerhead Turtles in the Mediterranean\"",
+  "doi": "doi:10.5441/001/1.1f1h87r8",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Caretta caretta"
+  ],
+  "animals_metadata": "11",
+  "movebank_study": "1134407259",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 11,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Cassin's Auklet at Triangle Island, northeast Pacific (1999-2001)\"",
+  "doi": "doi:10.5441/001/1.349",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ptychoramphus aleuticus"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "4154763386",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Red fox Herschel - Argos tracking\"",
+  "doi": "doi:10.5441/001/1.51h30m06",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Vulpes vulpes"
+  ],
+  "animals_metadata": "2",
+  "movebank_study": "1371529289",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 2,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: The movements of a recently urbanized wading bird reveal changes in season timing and length related to resource use",
+  "doi": "doi:10.5441/001/1.8ms50757",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Eudocimus albus"
+  ],
+  "animals_metadata": "48",
+  "movebank_study": "1031414292",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 2,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: The owl gull: exclusively nocturnal foraging by the Swallow-tailed Gull Creagrus furcatus in Gal\u00e1pagos",
+  "doi": "doi:10.5441/001/1.605",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Creagrus furcatus"
+  ],
+  "animals_metadata": "129",
+  "movebank_study": "2989306200",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 130,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Consistent long-distance foraging flights across years and seasons at colony level in a neotropical bat [2021-2022]",
+  "doi": "doi:10.5441/001/1.321",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Phyllostomus hastatus"
+  ],
+  "animals_metadata": "23",
+  "movebank_study": "1990236627",
+  "sensors": [
+   "GPS",
+   "Acceleration"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 6
+ },
+ {
+  "title": "Data from: Age-dependent response to anthropogenic habitat during migration of an endangered raptor",
+  "doi": "doi:10.5441/001/1.695",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Aquila nipalensis"
+  ],
+  "animals_metadata": "21",
+  "movebank_study": "6793037828",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: A periodic Markov model to formalise animal migration on a network [white-fronted goose data]",
+  "doi": "doi:10.5441/001/1.kk38017f",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anser albifrons"
+  ],
+  "animals_metadata": "7",
+  "movebank_study": "467107447",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Foraging and roosting behaviour of the fringe-lipped bat, Trachops cirrhosus, on Barro Colorado Island, Panama\u0301",
+  "doi": "doi:10.5441/001/1.15pq1m81",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Trachops cirrhosus"
+  ],
+  "animals_metadata": "6",
+  "movebank_study": "196932952",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 6,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Full annual cycle tracking of Far Eastern Curlew (Numenius madagascariensis)\"",
+  "doi": "doi:10.5441/001/1.v8r49083",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Numenius madagascariensis"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: The effect of feeding time on dispersal of Virola seeds by toucans determined from GPS tracking and accelerometers",
+  "doi": "doi:10.5441/001/1.62r58302",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ramphastos sulfuratus"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "2931895",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 2
+ },
+ {
+  "title": "Data from: Condition-dependent foraging strategies in a coastal seabird: evidence for the rich get richer hypothesis",
+  "doi": "doi:10.5441/001/1.212g53s7",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Pelecanus occidentalis"
+  ],
+  "animals_metadata": "30",
+  "movebank_study": "621703893",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Hierarchical multi-grain models improve descriptions of species\u2019 environmental associations, distribution, and abundance",
+  "doi": "doi:10.5441/001/1.cp97k9j1",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Tockus deckeni"
+  ],
+  "animals_metadata": "18",
+  "movebank_study": "1087068449",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Foraging and mating behaviors of Hypsignathus monstrosus at the bat-human interface in central African rainforest",
+  "doi": "doi:10.5441/001/1.278",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Hypsignathus monstrosus"
+  ],
+  "animals_metadata": "32",
+  "movebank_study": "2379775078",
+  "sensors": [
+   "Acceleration",
+   "GPS"
+  ],
+  "animals_with_span": 30,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Spatial and temporal characteristics of pastoral mobility in the Far North Region, Cameroon: data analysis and modeling",
+  "doi": "doi:10.5441/001/1.pk5ps1r3",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Homo sapiens"
+  ],
+  "animals_metadata": "175",
+  "movebank_study": "406811869",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Fat, weather, and date affect migratory songbirds\u2019 departure decisions, routes, and time it takes to cross the Gulf of Mexico",
+  "doi": "doi:10.5441/001/1.12hv60k6",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Vireo olivaceus",
+   "Catharus ustulatus",
+   "Hylocichla mustelina"
+  ],
+  "animals_metadata": "244",
+  "movebank_study": "55767693",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Wild goose chase: geese flee high and far, and with aftereffects from New Year\u2019s fireworks",
+  "doi": "doi:10.5441/001/1.g51fs0jv",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anser albifrons",
+   "Anser brachyrhynchus",
+   "Anser fabalis",
+   "Branta leucopsis"
+  ],
+  "animals_metadata": "246",
+  "movebank_study": "2290252202",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Sperm whales Gulf of Mexico 2011-2013 - FastLoc GPS data\"",
+  "doi": "doi:10.5441/001/1.44cb3946",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Physeter macrocephalus"
+  ],
+  "animals_metadata": "17",
+  "movebank_study": "15661938",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 18,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Ecological opportunity leads to the emergence of an alternative behavioural phenotype in a tropical bird",
+  "doi": "doi:10.5441/001/1.f7j8vt43",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Hylophylax naevioides"
+  ],
+  "animals_metadata": "146",
+  "movebank_study": "47430992",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Milvus_milvus_Soaring_over_Adriatic_sea\"",
+  "doi": "doi:10.5441/001/1.300",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Milvus migrans"
+  ],
+  "animals_metadata": "19",
+  "movebank_study": "3131029654",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Movement seasonality in a desert-dwelling bat revealed by miniature GPS loggers",
+  "doi": "doi:10.5441/001/1.n157b4n8",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Lavia frons"
+  ],
+  "animals_metadata": "22",
+  "movebank_study": "908357795",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Migrating curlews on schedule: departure and arrival patterns of a long-distance migrant depend on time and breeding location rather than on wind conditions",
+  "doi": "doi:10.5441/001/1.715k46g2",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Numenius arquata"
+  ],
+  "animals_metadata": "23",
+  "movebank_study": "1395952585",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Landscape-dependent time versus energy optimisations in pelicans migrating through a large ecological barrier",
+  "doi": "doi:10.5441/001/1.hs79pk45",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Pelecanus onocrotalus"
+  ],
+  "animals_metadata": "18",
+  "movebank_study": "914913822",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Large-range movements of neotropical orchid bees observed via radio telemetry",
+  "doi": "doi:10.5441/001/1.qd2470d6",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "16",
+  "movebank_study": "225606",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 16,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Effects of agricultural practices on foraging habitats of a seabird species in the Baltic Sea",
+  "doi": "doi:10.5441/001/1.p44ms6mr",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Larus canus"
+  ],
+  "animals_metadata": "23",
+  "movebank_study": "74580442",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 4,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Two subspecies of a songbird migrant optimise departure from a coastal stopover with regard to weather and the route lying ahead",
+  "doi": "doi:10.5441/001/1.7nv75953",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Oenanthe oenanthe"
+  ],
+  "animals_metadata": "48",
+  "movebank_study": "2405949088",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Barn Swallow Hirundidae GPS data from Boulder County, CO, USA\"",
+  "doi": "doi:10.5441/001/1.8c9b82qk",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "20",
+  "movebank_study": "1840125335",
+  "sensors": [],
+  "animals_with_span": 20,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: A note on the reestablishment of the cheetah population in the Pilanesberg National Park, South Africa",
+  "doi": "doi:10.5441/001/1.k6b630mv",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Acinonyx jubatus"
+  ],
+  "animals_metadata": "1",
+  "movebank_study": "1260886163",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: The Environmental-Data Automated Track Annotation (Env-DATA) System: Linking animal tracks with environmental data",
+  "doi": "doi:10.5441/001/1.3hp3s250",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Phoebastria irrorata"
+  ],
+  "animals_metadata": "28",
+  "movebank_study": "2911040",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: The homing pigeons\u2019 olfactory map is affected by geographical barriers",
+  "doi": "doi:10.5441/001/1.477cd5fs",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "209",
+  "movebank_study": "1338487915",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 223,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Shared decision-making drives collective movement in wild baboons",
+  "doi": "doi:10.5441/001/1.kn0816jn",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Papio anubis"
+  ],
+  "animals_metadata": "26",
+  "movebank_study": "53460105",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 26,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Monthly variations in feeding and activity patterns of the mangabey, Cercocebus albigena (Lydekker)",
+  "doi": "doi:10.5441/001/1.k5v5539n",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Lophocebus albigena"
+  ],
+  "animals_metadata": "18",
+  "movebank_study": "122281720",
+  "sensors": [
+   "Natural Mark"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 7
+ },
+ {
+  "title": "Data from: Less is more: on-board lossy compression of accelerometer data increases biologging capacity",
+  "doi": "doi:10.5441/001/1.8ms7mm80",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Cygnus columbianus"
+  ],
+  "animals_metadata": "10",
+  "movebank_study": "1030734949",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 5
+ },
+ {
+  "title": "Data from: Circadian rhythms enable efficient resource selection in a human-modified landscape",
+  "doi": "doi:10.5441/001/1.6ss053tn",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Wallabia bicolor"
+  ],
+  "animals_metadata": "48",
+  "movebank_study": "268904527",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Identifying volatile organic compounds used for olfactory navigation by homing pigeons",
+  "doi": "doi:10.5441/001/1.7n747m19",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "163",
+  "movebank_study": "462476569",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 6
+ },
+ {
+  "title": "Data from: Migratory connectivity at high latitudes: Sabine\u2019s gulls (Xema sabini) from a colony in the Canadian High Arctic migrate to different oceans",
+  "doi": "doi:10.5441/001/1.c745vb70",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Xema sabini"
+  ],
+  "animals_metadata": "26",
+  "movebank_study": "208672795",
+  "sensors": [
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 36,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Scales of blue and fin whale feeding behavior off California, USA, with implications for prey patchiness",
+  "doi": "doi:10.5441/001/1.47h576f2",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Balaenoptera musculus",
+   "Balaenoptera physalus"
+  ],
+  "animals_metadata": "13",
+  "movebank_study": "943824007",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 13,
+  "animals_ge330d": 0,
+  "files": 5
+ },
+ {
+  "title": "Data from: Summer precipitation predicts spatial distributions of semiaquatic mammals",
+  "doi": "doi:10.5441/001/1.gd686078",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ondatra zibethicus"
+  ],
+  "animals_metadata": "20",
+  "movebank_study": "51911170",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Seasonal movements of Gyrfalcons Falco rusticolus include extensive periods at sea [Northwest Greenland]",
+  "doi": "doi:10.5441/001/1.3833b9n1",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Falco rusticolus"
+  ],
+  "animals_metadata": "23",
+  "movebank_study": "915037836",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 2
+ },
+ {
+  "title": "Data from: Wolf ecology and caribou-primary prey-wolf spatial relationships in low productivity peatland complexes in northeastern Alberta",
+  "doi": "doi:10.5441/001/1.7vr1k987",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Canis lupus"
+  ],
+  "animals_metadata": "12",
+  "movebank_study": "178979729",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 16,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Fin whale movements in the Gulf of California, Mexico, from satellite telemetry",
+  "doi": "doi:10.5441/001/1.65h5s5p2",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Balaenoptera physalus"
+  ],
+  "animals_metadata": "8",
+  "movebank_study": "452187673",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 8,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Deployment details for satellite tags deployed on Antarctic blue whales during the Antarctic blue whale voyage 2013, Ver. 2",
+  "doi": "doi:10.5441/001/1.vr276ns3",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Balaenoptera musculus"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 2,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Influence of sea ice concentration, sex, and chick age on foraging flexibility and success in an Arctic seabird",
+  "doi": "doi:10.5441/001/1.341",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Uria lomvia"
+  ],
+  "animals_metadata": "234",
+  "movebank_study": "2609400807",
+  "sensors": [
+   "GPS",
+   "TDR"
+  ],
+  "animals_with_span": 332,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Multi-scale movement syndromes for comparative analyses of animal movement patterns",
+  "doi": "doi:10.5441/001/1.295",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ateles geoffroyi",
+   "Cebus capucinus",
+   "Nasua narica",
+   "Potos flavus",
+   "Pecari tajacu"
+  ],
+  "animals_metadata": "49",
+  "movebank_study": "",
+  "sensors": [
+   "GPS",
+   "Acceleration"
+  ],
+  "animals_with_span": 102,
+  "animals_ge330d": 0,
+  "files": 11
+ },
+ {
+  "title": "Data from: Moulting sites of Latvian whooper swan Cygnus cygnus cygnets fitted with GPS-GSM transmitters",
+  "doi": "doi:10.5441/001/1.f89984gn",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Cygnus cygnus"
+  ],
+  "animals_metadata": "12",
+  "movebank_study": "182459847",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Multidimensional differentiation in foraging resource use during breeding of two sympatric raptors: space, habitat type, time and food",
+  "doi": "doi:10.5441/001/1.c6q8353q",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Buteo rufinus",
+   "Circaetus gallicus"
+  ],
+  "animals_metadata": "24",
+  "movebank_study": "34551859",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Feeling the heat: elevated temperature affects male display activity of a lekking grassland bird",
+  "doi": "doi:10.5441/001/1.6df055p6",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Tetrax tetrax"
+  ],
+  "animals_metadata": "17",
+  "movebank_study": "946455548",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: In search of greener pastures: using satellite images to predict the effects of environmental change on zebra migration",
+  "doi": "doi:10.5441/001/1.f3550b4f",
+  "license": "CC0 1.0 Universal",
+  "taxa": [],
+  "animals_metadata": "7",
+  "movebank_study": "10898263",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Herring Gulls (Larus Argentatus); Clark; Massachussets, United States\"",
+  "doi": "doi:10.5441/001/1.3th8b5q3",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Larus argentatus"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "1080341217",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Birds of three worlds: moult migration to high Arctic expands a boreal\u2011temperate flyway to a third biome",
+  "doi": "doi:10.5441/001/1.22kk5126",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anser fabalis"
+  ],
+  "animals_metadata": "44",
+  "movebank_study": "1415844328",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Overall dynamic body acceleration in straw-colored fruit bats increases in headwinds but not with airspeed",
+  "doi": "doi:10.5441/001/1.k8n02jn8",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Eidolon helvum"
+  ],
+  "animals_metadata": "63",
+  "movebank_study": "404939825",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 63,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Pigeon navigation: exposure to environmental odours prior to release is sufficient for homeward orientation, but not for homing",
+  "doi": "doi:10.5441/001/1.721tr877",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "131",
+  "movebank_study": "175963833",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Olfaction and topography, but not magnetic cues, control navigation in a pelagic seabird: displacements with shearwaters in the Mediterranean Sea",
+  "doi": "doi:10.5441/001/1.tc76g560",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Calonectris diomedea"
+  ],
+  "animals_metadata": "32",
+  "movebank_study": "71961236",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 29,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Homing pigeons only navigate in air with intact environmental odours: a test of the olfactory activation hypothesis with GPS data loggers [full dataset]",
+  "doi": "doi:10.5441/001/1.2sr7mm39",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia",
+   "Columba livia"
+  ],
+  "animals_metadata": "47",
+  "movebank_study": "3850406",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"1000 Cranes. Southern Kazakhstan.\"",
+  "doi": "doi:10.5441/001/1.591",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Anthropoides virgo"
+  ],
+  "animals_metadata": "7",
+  "movebank_study": "497138661",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Ontogenetic shifts from social to experiential learning drive avian migration timing",
+  "doi": "doi:10.5441/001/1.t23vm852",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Grus americana"
+  ],
+  "animals_metadata": "95",
+  "movebank_study": "1744814602",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: The effect of feeding time on dispersal of Virola seeds by toucans determined from GPS tracking and accelerometers",
+  "doi": "doi:10.5441/001/1.f32gn841",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Pteroglossus torquatus",
+   "Ramphastos sulfuratus"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "2931895",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Back to the wild: Post-translocation GPS monitoring of a rehabilitated ocelot (Leopardus pardalis) in a high competition, forest-agriculture matrix",
+  "doi": "doi:10.5441/001/1.348",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Leopardus pardalis"
+  ],
+  "animals_metadata": "1",
+  "movebank_study": "2526574641",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: First records of complete annual cycles in water rails Rallus aquaticus show evidence of itinerant breeding and a complex migration system",
+  "doi": "doi:10.5441/001/1.761jk64n",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Rallus aquaticus"
+  ],
+  "animals_metadata": "11",
+  "movebank_study": "1810804830",
+  "sensors": [
+   "Solar Geolocator"
+  ],
+  "animals_with_span": 11,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Simulating the transmission of foot-and-mouth disease among mobile herds in the Far North Region, Cameroon",
+  "doi": "doi:10.5441/001/1.61896g63",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Homo sapiens"
+  ],
+  "animals_metadata": "72",
+  "movebank_study": "399246220",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Commuting fruit bats beneficially modulate their flight in relation to wind",
+  "doi": "doi:10.5441/001/1.62s17b4v",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Eidolon helvum"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "16748598",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Ya Ha Tinda elk project, Banff National Park, 2001-2020 (females)\"",
+  "doi": "doi:10.5441/001/1.5g4h5t6c",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Cervus elaphus"
+  ],
+  "animals_metadata": "175",
+  "movebank_study": "897981076",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Invasive wild pig movement and space use in a mixed-use forest landscape, South Carolina",
+  "doi": "doi:10.5441/001/1.667",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Sus scrofa"
+  ],
+  "animals_metadata": "16",
+  "movebank_study": "6456209836",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 16,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Black kites of different age and sex show similar avoidance responses to wind turbines during migration",
+  "doi": "doi:10.5441/001/1.23n2m412",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Milvus migrans"
+  ],
+  "animals_metadata": "139",
+  "movebank_study": "1402467516",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Lowland tapirs, Tapirus terrestris, in Southern Brazil\"",
+  "doi": "doi:10.5441/001/1.03ck4s52",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Tapirus terrestris"
+  ],
+  "animals_metadata": "82",
+  "movebank_study": "1907973121",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Pteropus lylei primarily forages in residential areas in Kandal, Cambodia",
+  "doi": "doi:10.5441/001/1.j25661td",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Pteropus lylei"
+  ],
+  "animals_metadata": "14",
+  "movebank_study": "681056756",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Movement patterns of seed dispersing spotted nutcrackers (Nucifraga caryocatactes)\"",
+  "doi": "doi:10.5441/001/1.324",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Nucifraga caryocatactes"
+  ],
+  "animals_metadata": "31",
+  "movebank_study": "3367931169",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Miniaturized GPS tags identify non-breeding territories of a small breeding migratory songbird",
+  "doi": "doi:10.5441/001/1.h43t9j6b",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Seiurus aurocapilla"
+  ],
+  "animals_metadata": "17",
+  "movebank_study": "24795474",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Can one animal represent an entire herd? Modeling pastoral mobility using GPS/GIS technology",
+  "doi": "doi:10.5441/001/1.qr133162",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Bos taurus"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "450192766",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 9,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: East with the night\u2014longitudinal migration of the Orinoco Goose between Man\u00fa National Park, Peru and the Llanos de Moxos, Bolivia",
+  "doi": "doi:10.5441/001/1.ct8sk835",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Neochen jubata"
+  ],
+  "animals_metadata": "2",
+  "movebank_study": "6981683",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"1000 Cranes. Ukraine.\"",
+  "doi": "doi:10.5441/001/1.590",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Anthropoides virgo"
+  ],
+  "animals_metadata": "4",
+  "movebank_study": "2984378217",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Are movements of day- and night-time passerine migrants as different as day and night?",
+  "doi": "doi:10.5441/001/1.675pd8k5",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Prunella modularis",
+   "Sylvia atricapilla"
+  ],
+  "animals_metadata": "123",
+  "movebank_study": "1219442736",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Temporal and contextual consistency of leadership in homing pigeon flocks",
+  "doi": "doi:10.5441/001/1.33159h1h",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "10",
+  "movebank_study": "17471653",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 41,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Influence of visual perception on movement decisions by an ungulate prey species",
+  "doi": "doi:10.5441/001/1.293",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Odocoileus virginianus"
+  ],
+  "animals_metadata": "15",
+  "movebank_study": "2976678046",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Modelling landscape connectivity for greater horseshoe bat using an empirical quantification of resistance",
+  "doi": "doi:10.5441/001/1.3pk82706",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Rhinolophus ferrumequinum"
+  ],
+  "animals_metadata": "8",
+  "movebank_study": "494680989",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"1000 Cranes. Russia. Common Crane.\"",
+  "doi": "doi:10.5441/001/1.593",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Grus grus"
+  ],
+  "animals_metadata": "17",
+  "movebank_study": "542653863",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Pigeons remember visual landmarks after one release and rely upon them more if they are anosmic",
+  "doi": "doi:10.5441/001/1.702j854s",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Columba livia"
+  ],
+  "animals_metadata": "27",
+  "movebank_study": "1115272968",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 159,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Prey capture and selection throughout the breeding season in a deep-diving generalist seabird, the thick-billed murre",
+  "doi": "doi:10.5441/001/1.8b3k178b",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Uria lomvia"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 113,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Stink or swim: techniques to meet the challenges for the study and conservation of small critters that hide, swim or climb and may otherwise make themselves unpleasant",
+  "doi": "doi:10.5441/001/1.8d8385j0",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Nasua narica",
+   "Potos flavus"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 7
+ },
+ {
+  "title": "Data from: Study \"Bobcat habitat connectivity study in central California\"",
+  "doi": "doi:10.5441/001/1.323",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Lynx rufus"
+  ],
+  "animals_metadata": "38",
+  "movebank_study": "5175345606",
+  "sensors": [
+   "GPS",
+   "Acceleration"
+  ],
+  "animals_with_span": 40,
+  "animals_ge330d": 0,
+  "files": 12
+ },
+ {
+  "title": "Data from: Trans-Andean and divergent migration of Black Skimmers (Rynchops niger cinerascens) from the Peruvian Amazon",
+  "doi": "doi:10.5441/001/1.bs0s09c8",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Rynchops niger"
+  ],
+  "animals_metadata": "8",
+  "movebank_study": "126103076",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 8,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: European free-tailed bats use topography and nocturnal updrafts to fly high and fast",
+  "doi": "doi:10.5441/001/1.52nn82r9",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Tadarida teniotis"
+  ],
+  "animals_metadata": "8",
+  "movebank_study": "312057662",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 8,
+  "animals_ge330d": 0,
+  "files": 6
+ },
+ {
+  "title": "Data from: Study \"Satellite tracking of black-capped petrels, 2019\"",
+  "doi": "doi:10.5441/001/1.0786vv78",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Pterodroma hasitata"
+  ],
+  "animals_metadata": "10",
+  "movebank_study": "746910348",
+  "sensors": [
+   "Argos Doppler Shift",
+   "GPS"
+  ],
+  "animals_with_span": 10,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Herring Gulls (Larus Argentatus); Ronconi; Kent Island, Canada\"",
+  "doi": "doi:10.5441/001/1.t5n4s456",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Larus argentatus"
+  ],
+  "animals_metadata": "17",
+  "movebank_study": "1071101052",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Vultures respond to challenges of near-ground thermal soaring by varying bank angle",
+  "doi": "doi:10.5441/001/1.4f03k6s5",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Gyps fulvus",
+   "Gyps himalayensis"
+  ],
+  "animals_metadata": "5",
+  "movebank_study": "270967741",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Spring foraging movements of an urban population of grey-headed flying foxes (Pteropus poliocephalus)",
+  "doi": "doi:10.5441/001/1.5bd6pq55",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Pteropus poliocephalus"
+  ],
+  "animals_metadata": "4",
+  "movebank_study": "1077432441",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 4,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Correcting for missing and irregular data in home-range estimation",
+  "doi": "doi:10.5441/001/1.3gj67c2k",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Manta birostris"
+  ],
+  "animals_metadata": "1",
+  "movebank_study": "396866882",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Spatiotemporally variable snow properties drive habitat use of an Arctic mesopredator",
+  "doi": "doi:10.5441/001/1.290",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Gulo gulo"
+  ],
+  "animals_metadata": "3",
+  "movebank_study": "1895702053",
+  "sensors": [
+   "Solar Geolocator Raw",
+   "Accessory Measurements",
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 5
+ },
+ {
+  "title": "Data from: Space use by Swainson's hawk (Buteo swainsoni) in the Natomas Basin, California",
+  "doi": "doi:10.5441/001/1.6p427t2f",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Buteo swainsoni"
+  ],
+  "animals_metadata": "17",
+  "movebank_study": "164144882",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Marbled Murrelet satellite tracking data from British Columbia, Canada 2014-2016\"",
+  "doi": "doi:10.5441/001/1.j0d889f0",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Brachyramphus marmoratus"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 27,
+  "animals_ge330d": 0,
+  "files": 5
+ },
+ {
+  "title": "Data from: Study \"Caracal movement ecology study in Cape Town, South Africa\"",
+  "doi": "doi:10.5441/001/1.317_2",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Caracal caracal"
+  ],
+  "animals_metadata": "27",
+  "movebank_study": "1832666571",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 33,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"1000 Cranes. Russia. Transbaikalia.\"",
+  "doi": "doi:10.5441/001/1.592",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Anthropoides virgo",
+   "Grus vipio"
+  ],
+  "animals_metadata": "16",
+  "movebank_study": "497091077",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Delayed response and biosonar perception explain movement coordination in trawling bats",
+  "doi": "doi:10.5441/001/1.62h1f7k9",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Myotis daubentonii",
+   "Myotis daubentonii",
+   "Myotis daubentonii"
+  ],
+  "animals_metadata": "545",
+  "movebank_study": "47899041",
+  "sensors": [],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Early life and acquired experiences interact in shaping migratory and flight behaviors",
+  "doi": "doi:10.5441/001/1.298",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Neophron percnopterus"
+  ],
+  "animals_metadata": "65",
+  "movebank_study": "3094468724",
+  "sensors": [
+   "GPS",
+   "Acceleration"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: The gateway to Africa: what determines sea crossing performance of a migratory soaring bird at the strait of Gibraltar?",
+  "doi": "doi:10.5441/001/1.r9g07dr8",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Milvus migrans"
+  ],
+  "animals_metadata": "73",
+  "movebank_study": "1049826825",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: High accuracy tracking reveals how small conservation areas can protect marine megafauna",
+  "doi": "doi:10.5441/001/1.r72ph75f",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Chelonia mydas",
+   "Eretmochelys imbricata"
+  ],
+  "animals_metadata": "23",
+  "movebank_study": "1606812667",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Dynamic body acceleration increases by 20% during flight ontogeny of greylag geese (Anser anser)",
+  "doi": "doi:10.5441/001/1.1n4d187p",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anser anser"
+  ],
+  "animals_metadata": "8",
+  "movebank_study": "83912796",
+  "sensors": [
+   "Acceleration"
+  ],
+  "animals_with_span": 147,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Towards a new understanding of migration timing: slower spring than autumn migration in geese reflects different decision rules for stopover use and departure",
+  "doi": "doi:10.5441/001/1.31c2v92f",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Anser albifrons"
+  ],
+  "animals_metadata": "65",
+  "movebank_study": "133992043",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Automated telemetry reveals age specific differences in flight duration and speed are driven by wind conditions in a migratory songbird",
+  "doi": "doi:10.5441/001/1.82652t83",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Passerculus sandwichensis"
+  ],
+  "animals_metadata": "29",
+  "movebank_study": "36121409",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Bats surf storm fronts during spring migration",
+  "doi": "doi:10.5441/001/1.319",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Nyctalus noctula"
+  ],
+  "animals_metadata": "131",
+  "movebank_study": "2057805903",
+  "sensors": [
+   "GPS",
+   "Sigfox Geolocation"
+  ],
+  "animals_with_span": 92,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Red Fox (Vulpes vulpes) in UK wet grasslands\"",
+  "doi": "doi:10.5441/001/1.304",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Vulpes vulpes"
+  ],
+  "animals_metadata": "35",
+  "movebank_study": "3179890710",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 39,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Seasonal movements of Gyrfalcons Falco rusticolus include extensive periods at sea [East Greenland]",
+  "doi": "doi:10.5441/001/1.n0m7gd47",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Falco rusticolus"
+  ],
+  "animals_metadata": "7",
+  "movebank_study": "915166703",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 7,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"1000 Cranes. Russia. Altai.\"",
+  "doi": "doi:10.5441/001/1.596",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Anthropoides virgo"
+  ],
+  "animals_metadata": "2",
+  "movebank_study": "497087673",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: At-sea distribution of spectacled eiders: a 120-year-old mystery resolved",
+  "doi": "doi:10.5441/001/1.kq7t609j",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Somateria fischeri"
+  ],
+  "animals_metadata": "",
+  "movebank_study": "",
+  "sensors": [],
+  "animals_with_span": 88,
+  "animals_ge330d": 0,
+  "files": 5
+ },
+ {
+  "title": "Data from: Movement of long-tailed ducks marked on the Yukon-Kuskokwim Delta, Alaska 1998-2000 (data from Petersen et al. 2003)",
+  "doi": "doi:10.5441/001/1.1rc3hj8d",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Clangula hyemalis"
+  ],
+  "animals_metadata": "14",
+  "movebank_study": "140391801",
+  "sensors": [
+   "Argos Doppler Shift"
+  ],
+  "animals_with_span": 14,
+  "animals_ge330d": 0,
+  "files": 7
+ },
+ {
+  "title": "Data from: A multi-scale test of the forage maturation hypothesis in a partially migratory ungulate population",
+  "doi": "doi:10.5441/001/1.k8s2g5v7",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Cervus elaphus"
+  ],
+  "animals_metadata": "132",
+  "movebank_study": "72264071",
+  "sensors": [
+   "Radio Transmitter"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: The secret life of oilbirds: new insights into the movement ecology of a unique avian frugivore",
+  "doi": "doi:10.5441/001/1.35fs26kq",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Steatornis caripensis"
+  ],
+  "animals_metadata": "40",
+  "movebank_study": "2930072",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 2
+ },
+ {
+  "title": "Data from: Study \"Fishing cat (Prionairulus viverrinus) study in Khao Sam Roi Yot, Thailand\"",
+  "doi": "doi:10.5441/001/1.644",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Prionailurus viverrinus"
+  ],
+  "animals_metadata": "13",
+  "movebank_study": "2728151646",
+  "sensors": [
+   "GPS",
+   "Acceleration"
+  ],
+  "animals_with_span": 13,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Data from: Study \"Carnivore movements near Black Rock Forest New York\" [part]",
+  "doi": "doi:10.5441/001/1.652",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Lynx rufus",
+   "Pekania pennanti"
+  ],
+  "animals_metadata": "9",
+  "movebank_study": "1088836380",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 8,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Wyoming Bighorn Mountain Moose\" [part]",
+  "doi": "doi:10.5441/001/1.714",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Alces alces"
+  ],
+  "animals_metadata": "21",
+  "movebank_study": "2591181877",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"GPS tracking of wild turkeys in the southeastern US\"",
+  "doi": "doi:10.5441/001/1.671",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Meleagris gallopavo"
+  ],
+  "animals_metadata": "339",
+  "movebank_study": "5852420130",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"LifeTrack Bald Eagle\"",
+  "doi": "doi:10.5441/001/1.642",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Haliaeetus leucocephalus"
+  ],
+  "animals_metadata": "5",
+  "movebank_study": "20873986",
+  "sensors": [
+   "GPS",
+   "Acceleration"
+  ],
+  "animals_with_span": 2,
+  "animals_ge330d": 0,
+  "files": 4
+ },
+ {
+  "title": "Study \"GPS tracking of cougars in Utah by UDWR (2019-2020)\"",
+  "doi": "doi:10.5441/001/1.712",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Puma concolor"
+  ],
+  "animals_metadata": "40",
+  "movebank_study": "2561156373",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"UCSB Urban Raccoon Project\" [part]",
+  "doi": "doi:10.5441/001/1.709",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Procyon lotor"
+  ],
+  "animals_metadata": "4",
+  "movebank_study": "552493955",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 4,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"GPS tracking of wild pigs in southern Florida (2019-2021)\"",
+  "doi": "doi:10.5441/001/1.719",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Sus scrofa"
+  ],
+  "animals_metadata": "10",
+  "movebank_study": "2575458863",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Translocate or manage onsite? Similar welfare outcomes for koalas during plantation harvest",
+  "doi": "doi:10.5441/001/1.740",
+  "license": "Attribution 4.0 International",
+  "taxa": [
+   "Phascolarctos cinereus"
+  ],
+  "animals_metadata": "44",
+  "movebank_study": "5502199539",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 1,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"GPS tracking of ungulates in Utah by UDWR (2019-2020)\"",
+  "doi": "doi:10.5441/001/1.711",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Antilocapra americana",
+   "Cervus elaphus",
+   "Odocoileus hemionus",
+   "Ovis canadensis"
+  ],
+  "animals_metadata": "2694",
+  "movebank_study": "7364502758",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 3,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Wyoming Sublette Mule Deer (2018-2020)\"",
+  "doi": "doi:10.5441/001/1.708",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Odocoileus hemionus"
+  ],
+  "animals_metadata": "135",
+  "movebank_study": "2549043743",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Oceanic navigation in Cory\u2019s shearwaters\u2014evidence for a crucial role of olfactory cues for homing after displacement",
+  "doi": "doi:10.5441/001/1.nf80477p",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Calonectris borealis"
+  ],
+  "animals_metadata": "24",
+  "movebank_study": "10511147",
+  "sensors": [
+   "Argos Doppler Shift",
+   "GPS"
+  ],
+  "animals_with_span": 0,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Study \"Brown Pelican_South Atlantic Bight\" [part]",
+  "doi": "https://doi.org/10.5441/001/1.730",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Pelecanus occidentalis"
+  ],
+  "animals_metadata": "3",
+  "movebank_study": "272204692",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 3,
+  "animals_ge330d": 0,
+  "files": 3
+ },
+ {
+  "title": "Data from: Where do livestock guardian dogs go? Movement patterns of free-ranging Maremma sheepdogs",
+  "doi": "doi:10.5441/001/1.pv048q7v",
+  "license": "CC0 1.0 Universal",
+  "taxa": [
+   "Ovis aries",
+   "Canis familiaris"
+  ],
+  "animals_metadata": "22",
+  "movebank_study": "25750273",
+  "sensors": [
+   "GPS"
+  ],
+  "animals_with_span": 34,
+  "animals_ge330d": 0,
+  "files": 4
+ }
+]

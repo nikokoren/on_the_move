@@ -1,0 +1,1995 @@
+[
+ {
+  "taxon": "Larus fuscus",
+  "studies": 7,
+  "animals": 500,
+  "full_cycle": 239,
+  "live30": 23,
+  "live30_and_full": 23,
+  "max_span_days": 2913,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "8872908449",
+   "LBBG_TEXEL - Lesser black-backed gulls (Larus fusc"
+  ]
+ },
+ {
+  "taxon": "Larus armenicus",
+  "studies": 1,
+  "animals": 39,
+  "full_cycle": 12,
+  "live30": 23,
+  "live30_and_full": 6,
+  "max_span_days": 810,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "4194049025",
+   "ARMENIAN_GULL - Armenian gulls (Larus armenicus, L"
+  ]
+ },
+ {
+  "taxon": "Streptopelia turtur",
+  "studies": 2,
+  "animals": 95,
+  "full_cycle": 20,
+  "live30": 15,
+  "live30_and_full": 11,
+  "max_span_days": 873,
+  "licenses": [
+   "CC_0",
+   "CC_BY"
+  ],
+  "longest_study": [
+   "3413045568",
+   "Habitrack European Turtle Dove"
+  ]
+ },
+ {
+  "taxon": "Larus argentatus",
+  "studies": 5,
+  "animals": 315,
+  "full_cycle": 130,
+  "live30": 11,
+  "live30_and_full": 11,
+  "max_span_days": 3378,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "986040562",
+   "HG_OOSTENDE - Herring gulls (Larus argentatus, Lar"
+  ]
+ },
+ {
+  "taxon": "Ichthyaetus melanocephalus",
+  "studies": 1,
+  "animals": 20,
+  "full_cycle": 12,
+  "live30": 8,
+  "live30_and_full": 2,
+  "max_span_days": 1867,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1609400843",
+   "MEDGULL_ANTWERPEN - Mediterranean gulls (Ichthyaet"
+  ]
+ },
+ {
+  "taxon": "Milvus milvus",
+  "studies": 1,
+  "animals": 34,
+  "full_cycle": 25,
+  "live30": 7,
+  "live30_and_full": 7,
+  "max_span_days": 2688,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "501903109",
+   "Red Kite MPI-AB Baden-Wuerttemberg"
+  ]
+ },
+ {
+  "taxon": "Cathartes aura",
+  "studies": 2,
+  "animals": 76,
+  "full_cycle": 62,
+  "live30": 6,
+  "live30_and_full": 6,
+  "max_span_days": 5099,
+  "licenses": [
+   "CC_0",
+   "CC_BY"
+  ],
+  "longest_study": [
+   "481458",
+   "Vultures Acopian Center USA GPS"
+  ]
+ },
+ {
+  "taxon": "Circus aeruginosus",
+  "studies": 4,
+  "animals": 29,
+  "full_cycle": 18,
+  "live30": 6,
+  "live30_and_full": 5,
+  "max_span_days": 2289,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1278021460",
+   "BOP_RODENT - Rodent specialized birds of prey (Cir"
+  ]
+ },
+ {
+  "taxon": "Psittacula krameri",
+  "studies": 1,
+  "animals": 17,
+  "full_cycle": 0,
+  "live30": 6,
+  "live30_and_full": 0,
+  "max_span_days": 254,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "9343041295",
+   "RRP_VLAANDEREN - Rose-ringed parakeets (Psittacula"
+  ]
+ },
+ {
+  "taxon": "Buteo buteo",
+  "studies": 1,
+  "animals": 6,
+  "full_cycle": 5,
+  "live30": 5,
+  "live30_and_full": 4,
+  "max_span_days": 1942,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1278021460",
+   "BOP_RODENT - Rodent specialized birds of prey (Cir"
+  ]
+ },
+ {
+  "taxon": "Buteo platypterus",
+  "studies": 1,
+  "animals": 49,
+  "full_cycle": 21,
+  "live30": 4,
+  "live30_and_full": 4,
+  "max_span_days": 1500,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "28691134",
+   "Broad-winged Hawk habitat use, range, and movement"
+  ]
+ },
+ {
+  "taxon": "Ciconia ciconia",
+  "studies": 7,
+  "animals": 192,
+  "full_cycle": 52,
+  "live30": 3,
+  "live30_and_full": 3,
+  "max_span_days": 4478,
+  "licenses": [
+   "CC_0",
+   "CC_BY"
+  ],
+  "longest_study": [
+   "21231406",
+   "LifeTrack White Stork SW Germany"
+  ]
+ },
+ {
+  "taxon": "Coragyps atratus",
+  "studies": 1,
+  "animals": 16,
+  "full_cycle": 11,
+  "live30": 3,
+  "live30_and_full": 0,
+  "max_span_days": 3306,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "481458",
+   "Vultures Acopian Center USA GPS"
+  ]
+ },
+ {
+  "taxon": "Platalea leucorodia",
+  "studies": 1,
+  "animals": 10,
+  "full_cycle": 8,
+  "live30": 2,
+  "live30_and_full": 2,
+  "max_span_days": 1543,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "2313947453",
+   "SPOONBILL_VLAANDEREN - Eurasian spoonbills (Platal"
+  ]
+ },
+ {
+  "taxon": "Numenius arquata",
+  "studies": 2,
+  "animals": 12,
+  "full_cycle": 2,
+  "live30": 2,
+  "live30_and_full": 2,
+  "max_span_days": 2313,
+  "licenses": [
+   "CC_0",
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1841091905",
+   "CURLEW_VLAANDEREN - Eurasian curlews (Numenius arq"
+  ]
+ },
+ {
+  "taxon": "Circus pygargus",
+  "studies": 1,
+  "animals": 10,
+  "full_cycle": 6,
+  "live30": 1,
+  "live30_and_full": 1,
+  "max_span_days": 1514,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1278021460",
+   "BOP_RODENT - Rodent specialized birds of prey (Cir"
+  ]
+ },
+ {
+  "taxon": "Gyps fulvus",
+  "studies": 3,
+  "animals": 8,
+  "full_cycle": 5,
+  "live30": 1,
+  "live30_and_full": 1,
+  "max_span_days": 3706,
+  "licenses": [
+   "CC_0",
+   "CC_BY"
+  ],
+  "longest_study": [
+   "186178781",
+   "Raptors NABU Moessingen public"
+  ]
+ },
+ {
+  "taxon": "Pernis apivorus",
+  "studies": 2,
+  "animals": 17,
+  "full_cycle": 5,
+  "live30": 1,
+  "live30_and_full": 1,
+  "max_span_days": 1184,
+  "licenses": [
+   "CC_0",
+   "CC_BY"
+  ],
+  "longest_study": [
+   "186178781",
+   "Raptors NABU Moessingen public"
+  ]
+ },
+ {
+  "taxon": "Circus cyaneus",
+  "studies": 1,
+  "animals": 9,
+  "full_cycle": 4,
+  "live30": 1,
+  "live30_and_full": 1,
+  "max_span_days": 1709,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1278021460",
+   "BOP_RODENT - Rodent specialized birds of prey (Cir"
+  ]
+ },
+ {
+  "taxon": "Lynx rufus",
+  "studies": 1,
+  "animals": 7,
+  "full_cycle": 0,
+  "live30": 1,
+  "live30_and_full": 0,
+  "max_span_days": 259,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1088836380",
+   "Carnivore movements near Black Rock Forest New Yor"
+  ]
+ },
+ {
+  "taxon": "Syncerus caffer",
+  "studies": 2,
+  "animals": 171,
+  "full_cycle": 132,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 2021,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1760349",
+   "Kruger Buffalo, VHF Herd Tracking, South Africa"
+  ]
+ },
+ {
+  "taxon": "Somateria mollissima",
+  "studies": 2,
+  "animals": 175,
+  "full_cycle": 95,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1039,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1685854071",
+   "commonEider_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "(none)",
+  "studies": 15,
+  "animals": 175,
+  "full_cycle": 63,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 3148,
+  "licenses": [
+   "CC_0",
+   "CC_BY"
+  ],
+  "longest_study": [
+   "49909355",
+   "Western Marsh Harrier (A), Scania, Southern Sweden"
+  ]
+ },
+ {
+  "taxon": "Gavia adamsii",
+  "studies": 1,
+  "animals": 92,
+  "full_cycle": 62,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1250,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "506737915",
+   "yellowBilledLoon_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Haematopus ostralegus",
+  "studies": 6,
+  "animals": 182,
+  "full_cycle": 59,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1738,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1605802367",
+   "O_VLIELAND - Eurasian oystercatchers (Haematopus o"
+  ]
+ },
+ {
+  "taxon": "Cygnus columbianus",
+  "studies": 2,
+  "animals": 64,
+  "full_cycle": 53,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1497,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "446053425",
+   "tundraSwan_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Somateria fischeri",
+  "studies": 1,
+  "animals": 211,
+  "full_cycle": 50,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 879,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1169957016",
+   "spectacledEider_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Alces alces",
+  "studies": 2,
+  "animals": 54,
+  "full_cycle": 47,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1652,
+  "licenses": [
+   "CC_0",
+   "CC_BY"
+  ],
+  "longest_study": [
+   "143848765",
+   "Moose in the Upper Koyukuk Alaska"
+  ]
+ },
+ {
+  "taxon": "Neophron percnopterus",
+  "studies": 1,
+  "animals": 65,
+  "full_cycle": 35,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 2168,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "3094468724",
+   "effects of experience on migratory and flight beha"
+  ]
+ },
+ {
+  "taxon": "Melanitta nigra",
+  "studies": 1,
+  "animals": 53,
+  "full_cycle": 30,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1061,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1023074898",
+   "blackScoter_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Tringa flavipes",
+  "studies": 1,
+  "animals": 108,
+  "full_cycle": 29,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 706,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "543061768",
+   "USFWS Lesser Yellowlegs (Tringa flavipes) migrator"
+  ]
+ },
+ {
+  "taxon": "Chen canagica",
+  "studies": 1,
+  "animals": 53,
+  "full_cycle": 26,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 448,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1350186061",
+   "emperorGoose_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Anas platyrhynchos",
+  "studies": 2,
+  "animals": 108,
+  "full_cycle": 25,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1332,
+  "licenses": [
+   "CC_0",
+   "CC_BY"
+  ],
+  "longest_study": [
+   "236953686",
+   "LifeTrack Ducks Lake Constance"
+  ]
+ },
+ {
+  "taxon": "Numenius americanus",
+  "studies": 1,
+  "animals": 29,
+  "full_cycle": 24,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 4466,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1953194738",
+   "longBilledCurlew_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Phoenicopterus minor",
+  "studies": 1,
+  "animals": 25,
+  "full_cycle": 19,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1445,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "8849883",
+   "MPIAB Lesser Flamingo"
+  ]
+ },
+ {
+  "taxon": "Clangula hyemalis",
+  "studies": 1,
+  "animals": 85,
+  "full_cycle": 16,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 427,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1990733838",
+   "longTailedDuck_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Canis lupus",
+  "studies": 2,
+  "animals": 78,
+  "full_cycle": 15,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 737,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "209824313",
+   "Hebblewhite Alberta-BC Wolves"
+  ]
+ },
+ {
+  "taxon": "Aquila chrysaetos",
+  "studies": 1,
+  "animals": 33,
+  "full_cycle": 14,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1618,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "171287018",
+   "HawkWatch International Golden Eagles"
+  ]
+ },
+ {
+  "taxon": "Canis latrans",
+  "studies": 2,
+  "animals": 21,
+  "full_cycle": 13,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 742,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1720694224",
+   "USU: Coyote and Puma (Fishlake NF, UT)"
+  ]
+ },
+ {
+  "taxon": "Anas crecca",
+  "studies": 1,
+  "animals": 47,
+  "full_cycle": 13,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1678,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "14512695",
+   "Eurasian teal, Giunchi, Italy"
+  ]
+ },
+ {
+  "taxon": "Trichechus manatus",
+  "studies": 1,
+  "animals": 38,
+  "full_cycle": 12,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 2758,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1936932457",
+   "Trichechus manatus Sirenia NE Brazil"
+  ]
+ },
+ {
+  "taxon": "Limosa fedoa",
+  "studies": 2,
+  "animals": 17,
+  "full_cycle": 11,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 2663,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "547404600",
+   "marbledGodwit_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Gavia stellata",
+  "studies": 1,
+  "animals": 52,
+  "full_cycle": 11,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 626,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "506722909",
+   "redThroatedLoon_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Anas acuta",
+  "studies": 1,
+  "animals": 129,
+  "full_cycle": 11,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 525,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "927024278",
+   "northernPintail_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Numenius phaeopus",
+  "studies": 1,
+  "animals": 32,
+  "full_cycle": 10,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1856,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "854852176",
+   "whimbrel_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Fulmarus glacialis",
+  "studies": 1,
+  "animals": 19,
+  "full_cycle": 9,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 812,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1209072652",
+   "northernFulmar_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Anser fabalis",
+  "studies": 1,
+  "animals": 44,
+  "full_cycle": 8,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 538,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1415844328",
+   "Moult migration of taiga bean geese to Novaya Zeml"
+  ]
+ },
+ {
+  "taxon": "Potos flavus",
+  "studies": 2,
+  "animals": 25,
+  "full_cycle": 7,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 799,
+  "licenses": [
+   "CC_0",
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1120749252",
+   "Food for Thought: Comparative Frugivore Tracking ["
+  ]
+ },
+ {
+  "taxon": "Grus antigone",
+  "studies": 1,
+  "animals": 10,
+  "full_cycle": 7,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 849,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "47450376",
+   "Sarus Crane, van Zalinge, Cambodia"
+  ]
+ },
+ {
+  "taxon": "Botaurus lentiginosus",
+  "studies": 1,
+  "animals": 26,
+  "full_cycle": 6,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1173,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "438644854",
+   "American bittern - Huschle - USA"
+  ]
+ },
+ {
+  "taxon": "Cygnus cygnus",
+  "studies": 1,
+  "animals": 17,
+  "full_cycle": 6,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 824,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1418292565",
+   "whooperSwan_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Puma concolor",
+  "studies": 1,
+  "animals": 12,
+  "full_cycle": 6,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1437,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1720694224",
+   "USU: Coyote and Puma (Fishlake NF, UT)"
+  ]
+ },
+ {
+  "taxon": "Polysticta stelleri",
+  "studies": 1,
+  "animals": 14,
+  "full_cycle": 5,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 364,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1996478990",
+   "stellersEider_USFWS_AK_argos"
+  ]
+ },
+ {
+  "taxon": "Phalacrocorax pelagicus",
+  "studies": 1,
+  "animals": 8,
+  "full_cycle": 5,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 782,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1211010154",
+   "pelagicCormorant_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Anas discors",
+  "studies": 1,
+  "animals": 42,
+  "full_cycle": 5,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 641,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "446107870",
+   "blueWingedTeal_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Melanitta perspicillata",
+  "studies": 1,
+  "animals": 25,
+  "full_cycle": 4,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 426,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "861839307",
+   "surfScoter_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Gelochelidon nilotica",
+  "studies": 1,
+  "animals": 6,
+  "full_cycle": 4,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 952,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1421896275",
+   "Western Gull-billed Tern Migration (2012-2019)"
+  ]
+ },
+ {
+  "taxon": "Odobenus rosmarus",
+  "studies": 1,
+  "animals": 871,
+  "full_cycle": 3,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 520,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1420256397",
+   "pacificWalrus_USGS_ASC_argosGPS"
+  ]
+ },
+ {
+  "taxon": "Larus smithsonianus",
+  "studies": 1,
+  "animals": 10,
+  "full_cycle": 3,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 617,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1091848505",
+   "gullSpecies_USGS_ASC_argosGPS"
+  ]
+ },
+ {
+  "taxon": "Tryngites subruficollis",
+  "studies": 1,
+  "animals": 115,
+  "full_cycle": 3,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 926,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1128676353",
+   "buffBreastedSandpiper_USGS_ASC_argosGPS"
+  ]
+ },
+ {
+  "taxon": "Canis aureus",
+  "studies": 2,
+  "animals": 8,
+  "full_cycle": 3,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 734,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "3258977407",
+   "Golden jackals in and around Ramat Hanadiv"
+  ]
+ },
+ {
+  "taxon": "Tyto furcata",
+  "studies": 1,
+  "animals": 29,
+  "full_cycle": 3,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 772,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1426277950",
+   "Barn Owl Breeding Napa Valley, California"
+  ]
+ },
+ {
+  "taxon": "Setophaga",
+  "studies": 1,
+  "animals": 5,
+  "full_cycle": 3,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 363,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "126313959",
+   "Blackpoll Warbler eastern North America (data from"
+  ]
+ },
+ {
+  "taxon": "Fregata magnificens",
+  "studies": 1,
+  "animals": 5,
+  "full_cycle": 3,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1332,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "6770990",
+   "MPIAB PNIC hurricane frigate tracking"
+  ]
+ },
+ {
+  "taxon": "Nycticorax nycticorax",
+  "studies": 1,
+  "animals": 21,
+  "full_cycle": 3,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 786,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "2830157729",
+   "Black-crowned night herons nesting at Lincoln Park"
+  ]
+ },
+ {
+  "taxon": "Larus glaucescens",
+  "studies": 1,
+  "animals": 7,
+  "full_cycle": 2,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 658,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1091848505",
+   "gullSpecies_USGS_ASC_argosGPS"
+  ]
+ },
+ {
+  "taxon": "Haliaeetus leucocephalus",
+  "studies": 1,
+  "animals": 5,
+  "full_cycle": 2,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 2486,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "20873986",
+   "LifeTrack Bald Eagle"
+  ]
+ },
+ {
+  "taxon": "Panthera leo",
+  "studies": 1,
+  "animals": 3,
+  "full_cycle": 2,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 642,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "220229",
+   "Tsavo Lion Study"
+  ]
+ },
+ {
+  "taxon": "Felis catus",
+  "studies": 3,
+  "animals": 829,
+  "full_cycle": 2,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 548,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "10857031",
+   "Pet Cats United States"
+  ]
+ },
+ {
+  "taxon": "Gyps africanus",
+  "studies": 1,
+  "animals": 2,
+  "full_cycle": 2,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 391,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "33643212",
+   "Long-range adult movements of 3 vulture species (d"
+  ]
+ },
+ {
+  "taxon": "Mergus merganser",
+  "studies": 1,
+  "animals": 9,
+  "full_cycle": 2,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 419,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "157278223",
+   "Post-fledging movements of common mergansers (Merg"
+  ]
+ },
+ {
+  "taxon": "Pandion haliaetus",
+  "studies": 1,
+  "animals": 22,
+  "full_cycle": 2,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 940,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "10204361",
+   "Pandion haliaetus Osprey - SouthEast Michigan"
+  ]
+ },
+ {
+  "taxon": "Phalacrocorax carbo",
+  "studies": 1,
+  "animals": 11,
+  "full_cycle": 2,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 765,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "2988309",
+   "Great Cormorant Lake Constance MPIAB"
+  ]
+ },
+ {
+  "taxon": "Aphriza virgata",
+  "studies": 1,
+  "animals": 4,
+  "full_cycle": 1,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 351,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "3945977313",
+   "Surfbird_UAF_SteeseNCA"
+  ]
+ },
+ {
+  "taxon": "Larus hyperboreus",
+  "studies": 1,
+  "animals": 23,
+  "full_cycle": 1,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 825,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1091848505",
+   "gullSpecies_USGS_ASC_argosGPS"
+  ]
+ },
+ {
+  "taxon": "Asio flammeus",
+  "studies": 1,
+  "animals": 5,
+  "full_cycle": 1,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1021,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1278021460",
+   "BOP_RODENT - Rodent specialized birds of prey (Cir"
+  ]
+ },
+ {
+  "taxon": "Lepus timidus",
+  "studies": 1,
+  "animals": 17,
+  "full_cycle": 1,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 380,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "2147218",
+   "Irish hare radiotelemetry, Northern Ireland (UK)"
+  ]
+ },
+ {
+  "taxon": "Torgos tracheliotus",
+  "studies": 1,
+  "animals": 1,
+  "full_cycle": 1,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 379,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "33643212",
+   "Long-range adult movements of 3 vulture species (d"
+  ]
+ },
+ {
+  "taxon": "Dasyprocta punctata",
+  "studies": 1,
+  "animals": 20,
+  "full_cycle": 1,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 533,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "8191213",
+   "Agouti Radio Tracking on BCI"
+  ]
+ },
+ {
+  "taxon": "Ardea alba",
+  "studies": 1,
+  "animals": 1,
+  "full_cycle": 1,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 1767,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "2988321",
+   "MPIAB Great Egret"
+  ]
+ },
+ {
+  "taxon": "Nasua narica",
+  "studies": 1,
+  "animals": 17,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 129,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1120749252",
+   "Food for Thought: Comparative Frugivore Tracking ["
+  ]
+ },
+ {
+  "taxon": "Cebus capucinus",
+  "studies": 1,
+  "animals": 8,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 105,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1120749252",
+   "Food for Thought: Comparative Frugivore Tracking ["
+  ]
+ },
+ {
+  "taxon": "Ateles geoffroyi",
+  "studies": 1,
+  "animals": 8,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 195,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1120749252",
+   "Food for Thought: Comparative Frugivore Tracking ["
+  ]
+ },
+ {
+  "taxon": "Pecari tajacu",
+  "studies": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 28,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1120749252",
+   "Food for Thought: Comparative Frugivore Tracking ["
+  ]
+ },
+ {
+  "taxon": "Melanitta fusca",
+  "studies": 1,
+  "animals": 4,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 74,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "6432602888",
+   "Brooding Common Eider and Velvet Scoter 2025"
+  ]
+ },
+ {
+  "taxon": "Calidris virgata",
+  "studies": 1,
+  "animals": 5,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 103,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "3945977313",
+   "Surfbird_UAF_SteeseNCA"
+  ]
+ },
+ {
+  "taxon": "Dendrocygna javanica",
+  "studies": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 135,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1879445455",
+   "Poultry network Thailand 2022"
+  ]
+ },
+ {
+  "taxon": "Fulica atra",
+  "studies": 1,
+  "animals": 2,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 135,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1879445455",
+   "Poultry network Thailand 2022"
+  ]
+ },
+ {
+  "taxon": "Homo sapiens",
+  "studies": 3,
+  "animals": 3,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 89,
+  "licenses": [
+   "CC_0",
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1879445455",
+   "Poultry network Thailand 2022"
+  ]
+ },
+ {
+  "taxon": "Milvus migrans",
+  "studies": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 90,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1879445455",
+   "Poultry network Thailand 2022"
+  ]
+ },
+ {
+  "taxon": "Bubo sumatranus",
+  "studies": 1,
+  "animals": 2,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 0,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": null
+ },
+ {
+  "taxon": "Accipiter trivirgatus",
+  "studies": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 87,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1879445455",
+   "Poultry network Thailand 2022"
+  ]
+ },
+ {
+  "taxon": "Nisaetus alboniger",
+  "studies": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 15,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1879445455",
+   "Poultry network Thailand 2022"
+  ]
+ },
+ {
+  "taxon": "Gyps himalayensis",
+  "studies": 1,
+  "animals": 2,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 90,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1879445455",
+   "Poultry network Thailand 2022"
+  ]
+ },
+ {
+  "taxon": "Tyto alba",
+  "studies": 1,
+  "animals": 7,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 135,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1879445455",
+   "Poultry network Thailand 2022"
+  ]
+ },
+ {
+  "taxon": "Chelonia mydas",
+  "studies": 2,
+  "animals": 4,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 245,
+  "licenses": [
+   "CC_0",
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1606812667",
+   "Hawksbill/green turtles Chagos Archipelago Western"
+  ]
+ },
+ {
+  "taxon": "Varanus salvator",
+  "studies": 1,
+  "animals": 4,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 132,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1879445455",
+   "Poultry network Thailand 2022"
+  ]
+ },
+ {
+  "taxon": "Fratercula cirrhata",
+  "studies": 1,
+  "animals": 4,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 64,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1214247548",
+   "tuftedPuffin_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Uria lomvia",
+  "studies": 1,
+  "animals": 17,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 257,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1208480466",
+   "thickBilledMurre_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Phalacrocorax urile",
+  "studies": 1,
+  "animals": 2,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 222,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1212921445",
+   "redFacedCormorant_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Larus",
+  "studies": 1,
+  "animals": 2,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 136,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1091848505",
+   "gullSpecies_USGS_ASC_argosGPS"
+  ]
+ },
+ {
+  "taxon": "Uria aalge",
+  "studies": 1,
+  "animals": 28,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 169,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1207331095",
+   "commonMurre_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Turdus merula",
+  "studies": 1,
+  "animals": 18,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 238,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1280147897",
+   "ICARUS Global Thrush Project CH Jura"
+  ]
+ },
+ {
+  "taxon": "Brachyramphus brevirostris",
+  "studies": 1,
+  "animals": 47,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 157,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "932384583",
+   "kittlitzsMurrelet_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Apus apus",
+  "studies": 1,
+  "animals": 2,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 13,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "4266133937",
+   "ICARUS Sigfox 2024, Slovakia -Migration Routes of "
+  ]
+ },
+ {
+  "taxon": "Crex crex",
+  "studies": 1,
+  "animals": 6,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 160,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "9058311756",
+   "CREX_VLAANDEREN - Corn crakes (Crex crex, Rallidae"
+  ]
+ },
+ {
+  "taxon": "Columba livia",
+  "studies": 1,
+  "animals": 31,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 101,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "2297102844",
+   "Navigation with unilateral hippocampal lesion in h"
+  ]
+ },
+ {
+  "taxon": "Limosa lapponica",
+  "studies": 1,
+  "animals": 62,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 316,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1718959411",
+   "barTailedGodwit_USGS_ASC_argos"
+  ]
+ },
+ {
+  "taxon": "Dasyprocta",
+  "studies": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 7,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "82207",
+   "BCI Agouti GPS"
+  ]
+ },
+ {
+  "taxon": "Sus scrofa",
+  "studies": 1,
+  "animals": 23,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 34,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1286005281",
+   "boar_study_austria"
+  ]
+ },
+ {
+  "taxon": "Calidris alpina",
+  "studies": 1,
+  "animals": 25,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 74,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1419917362",
+   "Day and night habitat associations of wintering du"
+  ]
+ },
+ {
+  "taxon": "Limnodromus scolopaceus",
+  "studies": 1,
+  "animals": 4,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 16,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1419917362",
+   "Day and night habitat associations of wintering du"
+  ]
+ },
+ {
+  "taxon": "Eretmochelys imbricata",
+  "studies": 1,
+  "animals": 21,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 272,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1606812667",
+   "Hawksbill/green turtles Chagos Archipelago Western"
+  ]
+ },
+ {
+  "taxon": "Buteo albigula",
+  "studies": 1,
+  "animals": 3,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 257,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "125221",
+   "Marc Bechard Hawks "
+  ]
+ },
+ {
+  "taxon": "Lemur catta",
+  "studies": 1,
+  "animals": 7,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 289,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "40906102",
+   "Ring-tailed lemur O'Mara Beza"
+  ]
+ },
+ {
+  "taxon": "Diomedea exulans",
+  "studies": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 2,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "3032262361",
+   "Wandering albatross, Diomedea exulans, Possesion I"
+  ]
+ },
+ {
+  "taxon": "Phoebastria irrorata",
+  "studies": 1,
+  "animals": 28,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 147,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "2911040",
+   "Galapagos Albatrosses"
+  ]
+ },
+ {
+  "taxon": "Falco peregrinus",
+  "studies": 1,
+  "animals": 1,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 14,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1748399252",
+   "ICARUS Pacific Coast Peregrine"
+  ]
+ },
+ {
+  "taxon": "Prunella modularis",
+  "studies": 1,
+  "animals": 65,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 41,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1219442736",
+   "Are movements of day- and night-time passerine mig"
+  ]
+ },
+ {
+  "taxon": "Sylvia atricapilla",
+  "studies": 1,
+  "animals": 58,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 40,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "1219442736",
+   "Are movements of day- and night-time passerine mig"
+  ]
+ },
+ {
+  "taxon": "Pteroglossus torquatus",
+  "studies": 1,
+  "animals": 3,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 6,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "2931895",
+   "Toucan movement and seed dispersal, Gamboa, Panama"
+  ]
+ },
+ {
+  "taxon": "Ramphastos swainsonii",
+  "studies": 1,
+  "animals": 2,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 5,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "2931895",
+   "Toucan movement and seed dispersal, Gamboa, Panama"
+  ]
+ },
+ {
+  "taxon": "Ramphastos sulfuratus",
+  "studies": 1,
+  "animals": 4,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 6,
+  "licenses": [
+   "CC_0"
+  ],
+  "longest_study": [
+   "2931895",
+   "Toucan movement and seed dispersal, Gamboa, Panama"
+  ]
+ },
+ {
+  "taxon": "Pekania pennanti",
+  "studies": 1,
+  "animals": 2,
+  "full_cycle": 0,
+  "live30": 0,
+  "live30_and_full": 0,
+  "max_span_days": 65,
+  "licenses": [
+   "CC_BY"
+  ],
+  "longest_study": [
+   "1088836380",
+   "Carnivore movements near Black Rock Forest New Yor"
+  ]
+ }
+]
