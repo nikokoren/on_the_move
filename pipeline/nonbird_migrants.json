@@ -1,0 +1,177 @@
+{
+ "about": "Non-bird species treated as migratory (Decision S2). Status is Claude judgement from general knowledge, NOT a sourced classification: verify each against a published source when building data/species.json (R8). cmsListed = present in Species+ taxonomy=cms, checked 2026-09-28.",
+ "species": {
+  "Acherontia atropos": {
+   "status": "migratory",
+   "cmsListed": false
+  },
+  "Anax junius": {
+   "status": "migratory",
+   "cmsListed": false
+  },
+  "Antilocapra americana": {
+   "status": "migratory",
+   "cmsListed": false
+  },
+  "Balaena mysticetus": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Balaenoptera musculus": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Balaenoptera physalus": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Callorhinus ursinus": {
+   "status": "migratory",
+   "cmsListed": false
+  },
+  "Carcharodon carcharias": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Caretta caretta": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Cervus canadensis": {
+   "status": "partial",
+   "cmsListed": false
+  },
+  "Cervus elaphus": {
+   "status": "partial",
+   "cmsListed": true
+  },
+  "Cetorhinus maximus": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Chelonia mydas": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Connochaetes taurinus": {
+   "status": "migratory",
+   "cmsListed": false
+  },
+  "Danaus plexippus": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Delphinapterus leucas": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Dermochelys coriacea": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Eidolon helvum": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Equus quagga": {
+   "status": "partial",
+   "cmsListed": false
+  },
+  "Eretmochelys imbricata": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Eschrichtius robustus": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Lasiurus cinereus": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Lepidochelys kempii": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Lepidochelys olivacea": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Leptonycteris nivalis": {
+   "status": "migratory",
+   "cmsListed": false
+  },
+  "Manta birostris": {
+   "status": "migratory",
+   "cmsListed": false
+  },
+  "Megaptera novaeangliae": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Mirounga angustirostris": {
+   "status": "migratory",
+   "cmsListed": false
+  },
+  "Mirounga leonina": {
+   "status": "migratory",
+   "cmsListed": false
+  },
+  "Mobula birostris": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Monodon monoceros": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Nyctalus leisleri": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Nyctalus noctula": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Odobenus rosmarus": {
+   "status": "migratory",
+   "cmsListed": false
+  },
+  "Odocoileus hemionus": {
+   "status": "partial",
+   "cmsListed": false
+  },
+  "Physeter macrocephalus": {
+   "status": "partial",
+   "cmsListed": true
+  },
+  "Pipistrellus nathusii": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Procapra gutturosa": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Rangifer tarandus": {
+   "status": "migratory",
+   "cmsListed": false
+  },
+  "Rhincodon typus": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Saiga tatarica": {
+   "status": "migratory",
+   "cmsListed": true
+  },
+  "Tadarida brasiliensis": {
+   "status": "partial",
+   "cmsListed": true
+  },
+  "Vanessa cardui": {
+   "status": "migratory",
+   "cmsListed": false
+  }
+ }
+}
