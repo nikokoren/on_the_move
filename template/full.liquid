@@ -1,0 +1,260 @@
+{% comment %}
+  Full view (decision V1). A map of where the animal is today: its last fix
+  if live, otherwise where it usually is on this day. A solid line back to
+  where this leg began, a dotted line to where it is usually headed, a
+  callout on the frame edge when that place is off screen, and a text box
+  bottom left.
+
+  Every word comes from the Worker (R15). The map script is adapted from
+  nearby-nextbike template/shared.liquid (read 2026-09-28 at 1f30394): the
+  loading, the fractional zoom, the ink, the fallbacks and the edge pointer
+  are its, with the reasons in its comments and map-view.md. The text box
+  is map_of_the_day trmnl/example-markup.liquid:242.
+{% endcomment %}
+
+<div class="layout">
+  <div id="otm-map" class="map stretch w--full">
+
+    {% comment %} Shown until the map draws, and instead of it if it never
+       does: the words alone still answer the question. {% endcomment %}
+    <div id="otm-map-waiting" class="absolute inset--1 flex flex--col flex--center-x flex--center-y">
+      <span class="value value--large">{{ species }}</span>
+      <span class="label">{{ where }}</span>
+    </div>
+
+    <div id="otm-toward" hidden>{{ toward | escape }}</div>
+
+    <div id="otm-box" class="absolute bottom--2 left--2 z--3 p--2 w--max-[62cqw] lg:w--max-[55cqw] bg--canvas outline outline--strong">
+      {% comment %} One line per span, stacked: inside .content the spans ran
+         on as one paragraph (seen in the first render). {% endcomment %}
+      <div class="flex flex--col flex--left gap--xsmall text--left">
+        <span class="title title--small">{{ species }}{% if name != "" %} · {{ name }}{% endif %}</span>
+        <span class="label">{{ where }}</span>
+        <span class="label label--small">{{ status }}</span>
+        <span class="description">{{ fact }}</span>
+        <span class="label label--small label--gray">{{ credit }}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<link rel="preconnect" href="https://trmnl.com" crossorigin>
+<link rel="preconnect" href="https://maps.trmnl.com" crossorigin>
+<link rel="stylesheet" href="https://trmnl.com/js/maplibre-gl/5.24.0/maplibre-gl.css">
+<script src="https://trmnl.com/js/maplibre-gl/5.24.0/maplibre-gl.js"></script>
+
+<script type="text/javascript">
+  // ---- map script ----
+
+  function sayItInWords(what) {
+    // The map could not be drawn; the text box still stands, so only the
+    // map area changes. Nextbike: a blank panel reads as a broken device.
+    var w = document.getElementById("otm-map-waiting");
+    if (w) { w.style.display = "flex"; }
+  }
+
+  function bootstrap() {
+    var el = "otm-map";
+    var GEO = {{ geo }};
+    // Read from the DOM, not printed into the script: a quote in any
+    // translation would otherwise end the string and the script with it.
+    var TOWARD = (document.getElementById("otm-toward") || {}).textContent || "";
+
+    var missing = [];
+    if (typeof maplibregl === "undefined") { missing.push("maplibregl"); }
+    if (typeof TRMNLMaps === "undefined") { missing.push("TRMNLMaps"); }
+    if (typeof TRMNLPaint === "undefined") { missing.push("TRMNLPaint"); }
+    if (missing.length) { sayItInWords(missing.join(", ")); return; }
+
+    var PAD_PX = 14;
+    var MAX_ZOOM = 10;
+    var DRAW_DEADLINE_MS = 2000;
+    var WATCHDOG_MS = 4000;
+    // Nextbike, measured: MapLibre puts the world in 512 px at zoom 0.
+    var MERCATOR_BASE = 78271.51696;
+    var ARROWS = ["↑", "↗", "→", "↘", "↓", "↙", "←", "↖"];
+    var EDGES = ["flex--center-x flex--top", "flex--right flex--top",
+                 "flex--right flex--center-y", "flex--right flex--bottom",
+                 "flex--center-x flex--bottom", "flex--left flex--bottom",
+                 "flex--left flex--center-y", "flex--left flex--top"];
+
+    function mpx(n) { return TRMNLPaint.px(n, { el: el }); }
+
+    function inkFor() {
+      var slot = TRMNLPaint.slot("map-label", { el: el, kind: "text" });
+      return (slot && (slot.ink || slot.color)) || "#000";
+    }
+
+    // The frame (V1): the short side covers GEO.r km each way from the animal,
+    // which the Worker set to the last 10 days of track or 250 km. Mercator
+    // scale at the animal's latitude; over a few hundred km that is close
+    // enough, and nothing here depends on it being exact.
+    function zoomFor() {
+      var box = document.getElementById(el);
+      var w = box.clientWidth || 800, h = box.clientHeight || 480;
+      var usable = Math.max(1, Math.min(w, h) - 2 * mpx(PAD_PX));
+      var perPx0 = MERCATOR_BASE * Math.cos(GEO.pos[1] * Math.PI / 180);
+      var z = Math.log(perPx0 / ((2 * GEO.r * 1000) / usable)) / Math.LN2;
+      return Math.min(MAX_ZOOM, Math.max(0, z));
+    }
+
+    function line(coords) {
+      return { type: "Feature", properties: {}, geometry: { type: "LineString", coordinates: coords } };
+    }
+
+    // The callout's side of the frame, from the direction the destination
+    // lies in on screen (not the compass bearing: on a Mercator map the two
+    // differ over long distances, and the screen is what the reader sees).
+    function sectorOnScreen(map, from, to) {
+      var a = map.project(from), b = map.project(to);
+      var deg = (Math.atan2(b.x - a.x, a.y - b.y) * 180 / Math.PI + 360) % 360;
+      return Math.round(deg / 45) % 8;
+    }
+
+    function onScreen(map, p) {
+      var box = document.getElementById(el);
+      var q = map.project(p);
+      return q.x >= 0 && q.y >= 0 && q.x <= box.clientWidth && q.y <= box.clientHeight;
+    }
+
+    function pointerEl(sector, text, ink, paper) {
+      var wrap = document.createElement("div");
+      wrap.className = "absolute inset--2 flex flex--row " + EDGES[sector] + " z--2";
+      wrap.style.pointerEvents = "none";
+      var tag = document.createElement("div");
+      tag.className = "flex flex--row flex--center-y gap--small px--2 py--1";
+      tag.style.background = paper;
+      tag.style.border = "2px solid " + ink;
+      tag.style.borderRadius = "999px";
+      tag.style.color = ink;
+      tag.style.maxWidth = "46%";
+      tag.style.font = "700 13px/1.35 system-ui, sans-serif";
+      var arrow = document.createElement("span");
+      arrow.textContent = ARROWS[sector];
+      arrow.style.fontSize = "18px";
+      tag.appendChild(arrow);
+      var says = document.createElement("span");
+      says.textContent = text;
+      tag.appendChild(says);
+      wrap.appendChild(tag);
+      return wrap;
+    }
+
+    // The text box owns the bottom left. A callout on the left or bottom edge
+    // that would sit on it moves up clear of it.
+    // Also the map's attribution (TRMNL renders it as span.map__attribution), bottom right: the tile licence requires it to
+    // stay readable (seen: a callout covering it).
+    function clearOfBox(wrap) {
+      var keep = [document.getElementById("otm-box"),
+                  document.querySelector("#" + el + " .map__attribution, #" + el + " .maplibregl-ctrl-attrib")];
+      for (var i = 0; i < keep.length; i++) {
+        if (!keep[i]) { continue; }
+        var t = wrap.firstChild.getBoundingClientRect(), b = keep[i].getBoundingClientRect();
+        var hit = !(t.right < b.left || t.left > b.right || t.bottom < b.top || t.top > b.bottom);
+        if (hit) {
+          // Lift the pill until its bottom sits 8 px above the obstacle's top.
+          var now = parseFloat(wrap.style.paddingBottom) || 0;
+          wrap.style.paddingBottom = (now + (t.bottom - b.top) + 8) + "px";
+        }
+      }
+    }
+    // The box only has its final height once the fonts are in, so check again
+    // then (the first render measured it early and left a few px of overlap).
+    function clearLater(wrap) {
+      clearOfBox(wrap);
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(function () { clearOfBox(wrap); });
+      }
+      setTimeout(function () { clearOfBox(wrap); }, 500);
+    }
+
+    var watchRan = false, anyMarks = false;
+
+    TRMNLMaps.watch(el, function () {
+      watchRan = true;
+      var zoom = zoomFor();
+      var map = new maplibregl.Map(TRMNLMaps.options({ el: el, preset: "streets", center: GEO.pos, zoom: zoom }));
+      // options() rounds the zoom; set the exact one on the camera (Nextbike).
+      map.jumpTo({ center: GEO.pos, zoom: zoom });
+      window.__otmMap = map;
+      var ink = inkFor(), paper = "#fff";
+      var drewLayers = false, drewMarks = false;
+
+      function drawLayers() {
+        if (drewLayers) { return; }
+        var style = map.getStyle();
+        if (!style || !style.layers || !style.layers.length) { return; }
+        drewLayers = true;
+        map.resize();
+        map.addSource("otm-past", { type: "geojson", data: line(GEO.past) });
+        map.addLayer({ id: "otm-past-halo", type: "line", source: "otm-past",
+          layout: { "line-cap": "round", "line-join": "round" },
+          paint: { "line-color": paper, "line-width": mpx(7) } });
+        map.addLayer({ id: "otm-past", type: "line", source: "otm-past",
+          layout: { "line-cap": "round", "line-join": "round" },
+          paint: { "line-color": ink, "line-width": mpx(3.5) } });
+        map.addSource("otm-ahead", { type: "geojson", data: line(GEO.ahead) });
+        map.addLayer({ id: "otm-ahead-halo", type: "line", source: "otm-ahead",
+          layout: { "line-cap": "round" },
+          paint: { "line-color": paper, "line-width": mpx(6) } });
+        map.addLayer({ id: "otm-ahead", type: "line", source: "otm-ahead",
+          layout: { "line-cap": "round" },
+          paint: { "line-color": ink, "line-width": mpx(2.5), "line-dasharray": [1, 2] } });
+      }
+
+      function drawMarks() {
+        if (drewMarks) { return; }
+        drewMarks = true;
+        anyMarks = true;
+        var waiting = document.getElementById("otm-map-waiting");
+        if (waiting) { waiting.style.display = "none"; }
+        map.resize();
+
+        // The animal: a filled disc in a paper ring, the one solid thing on the map.
+        var me = document.createElement("div");
+        me.style.width = "22px"; me.style.height = "22px"; me.style.borderRadius = "50%";
+        me.style.background = ink; me.style.border = "4px solid " + paper;
+        me.style.boxShadow = "0 0 0 2px " + ink;
+        new maplibregl.Marker({ element: me }).setLngLat(GEO.pos).addTo(map);
+
+        if (GEO.dest && TOWARD) {
+          if (onScreen(map, GEO.dest)) {
+            var goal = document.createElement("div");
+            goal.style.width = "14px"; goal.style.height = "14px"; goal.style.borderRadius = "50%";
+            goal.style.background = paper; goal.style.border = "3px solid " + ink;
+            new maplibregl.Marker({ element: goal }).setLngLat(GEO.dest).addTo(map);
+            var tag = pointerEl(sectorOnScreen(map, GEO.pos, GEO.dest), TOWARD, ink, paper);
+            document.getElementById(el).appendChild(tag);
+            clearLater(tag);
+          } else {
+            var ptr = pointerEl(sectorOnScreen(map, GEO.pos, GEO.dest), TOWARD, ink, paper);
+            document.getElementById(el).appendChild(ptr);
+            clearLater(ptr);
+          }
+        }
+      }
+
+      function drawAll() { drawLayers(); drawMarks(); }
+      map.on("load", drawAll);
+      map.on("styledata", drawAll);
+      setTimeout(drawMarks, DRAW_DEADLINE_MS);
+      return map;
+    });
+
+    setTimeout(function () {
+      if (anyMarks) { return; }
+      sayItInWords(watchRan ? "the draw" : "TRMNLMaps.watch");
+    }, WATCHDOG_MS);
+  }
+
+  function start() {
+    try { bootstrap(); } catch (err) { sayItInWords(String((err && err.message) || err)); }
+  }
+  // ---- end map script ----
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", start);
+  } else {
+    start();
+  }
+</script>

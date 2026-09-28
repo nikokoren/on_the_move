@@ -60,7 +60,7 @@ def load_places():
 MARINE = {"Balaenoptera musculus", "Caretta caretta"}
 
 
-def place_of(layers, lat, lon, marine=False):
+def place_of(layers, lat, lon, marine=False, stay=False):
     """Desert, else country, else sea. Coarse or coastal points often land on the
     wrong side of a 1:50m coastline, so a land animal off the coast takes the
     nearest country within about 1 degree, and a marine animal on land takes the
@@ -84,9 +84,43 @@ def place_of(layers, lat, lon, marine=False):
     if marine:
         return inside("ne_50m_geography_marine_polys") or near("ne_50m_geography_marine_polys", 2.0) \
             or inside("ne_50m_admin_0_countries")
+    # Stays are named by country: at 1:50m the desert polygons reach into the
+    # Sahel (seen: a turtle dove wintering at Abéche, Chad, named "Libyan Desert").
+    # Deserts name the places passed on the way.
+    if stay:
+        return inside("ne_50m_admin_0_countries") or near("ne_50m_admin_0_countries") \
+            or inside("ne_50m_geography_marine_polys") or near("ne_50m_geography_marine_polys", 2.0)
     return inside("ne_50m_geography_regions_polys") or inside("ne_50m_admin_0_countries") \
         or near("ne_50m_admin_0_countries") or inside("ne_50m_geography_marine_polys") \
         or near("ne_50m_geography_marine_polys", 2.0)
+
+
+def smooth(pts, half):
+    n, out = len(pts), []
+    for d in range(n):
+        win = [pts[(d + k) % n] for k in range(-half, half + 1) if pts[(d + k) % n]]
+        if not pts[d] or len(win) < half:
+            out.append(pts[d])
+            continue
+        la = sorted(w[0] for w in win)[len(win) // 2]
+        lo = sorted(w[1] for w in win)[len(win) // 2]
+        out.append([la, lo])
+    return out
+
+
+def to_sea(layers, t):
+    from shapely.geometry import Point
+    from shapely.ops import nearest_points
+    pt = Point(t[1], t[0])
+    tree, geoms, _ = layers["ne_50m_admin_0_countries"]
+    if not any(geoms[i].contains(pt) for i in tree.query(pt)):
+        return t
+    mtree, mgeoms, _ = layers["ne_50m_geography_marine_polys"]
+    g = mgeoms[mtree.nearest(pt)]
+    q = nearest_points(g, pt)[0]
+    # a step past the coastline into the sea polygon
+    q = Point(q.x + (q.x - pt.x) * 0.05, q.y + (q.y - pt.y) * 0.05)
+    return [round(q.y, 2), round(q.x, 2)] + list(t[2:])
 
 
 # ---------- stays ----------
@@ -177,6 +211,16 @@ def main():
             # radius to the animal's own day-to-day noise.
             steps = sorted(km(pts[i], pts[i + 1]) for i in range(365) if pts[i] and pts[i + 1])
             stay_km = max(STAY_KM, 2.5 * steps[len(steps) // 2]) if steps else STAY_KM
+            if stay_km > STAY_KM:
+                # Same noise, drawn: a 15-day running median, so the map shows the
+                # journey rather than the geolocator's scatter (seen: shrike).
+                pts = smooth(pts, 7)
+                tab = [[p[0], p[1], t[2], t[3]] if p and t else None for p, t in zip(pts, tab)]
+            if taxon in MARINE:
+                # Rounding to 1 degree (R14) can put a coastal whale on land; move
+                # such points to the nearest sea, keeping the coarse grid otherwise.
+                tab = [to_sea(layers, t) if t else None for t in tab]
+                pts = [t[:2] if t else None for t in tab]
             st = stays_of(pts, stay_km)
             hops = [km(st[i][2:4], st[(i + 1) % len(st)][2:4]) for i in range(len(st))] if len(st) > 1 else [0]
             if max(hops) < MIN_JOURNEY_KM:
@@ -203,7 +247,7 @@ def main():
                 if key not in cache:
                     cache[key] = pid(place_of(layers, t[0], t[1], taxon in MARINE))
                 day_place.append(cache[key])
-            stays = [[s[0], s[1], s[3], s[2], pid(place_of(layers, s[2], s[3], taxon in MARINE))] for s in st]  # [from, to, lng, lat, place]
+            stays = [[s[0], s[1], s[3], s[2], pid(place_of(layers, s[2], s[3], taxon in MARINE, stay=True))] for s in st]  # [from, to, lng, lat, place]
             # Numbers for facts: straight-line km between consecutive known days, summed over the year.
             # Weekly steps, not daily: geolocator positions jitter by ~200 km a day, which
             # summed daily gave a shrike 83,035 km a year (seen 2026-09-28).

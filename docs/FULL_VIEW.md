@@ -67,3 +67,22 @@ t_arrow       pattern for the callout, e.g. "{km} km bis {dest}"
 3. Place names for from/to and destination: R7 plans Natural Earth country and region polygons in the Worker.
 4. The fact pool: curated facts for the 12 species come from the species table (R8, in progress); data-derived facts need their own wording rules (R16).
 5. Does the reader's own location appear (brief R6 distance from you)? Not in the owner's full-view design; could be one line in the text box.
+
+## Status (2026-09-28): first build
+
+Built: `pipeline/build_featured.py` → `worker/data/featured.json`; `worker/src/` (payload, en/de strings); `template/full.liquid`. Checks:
+
+- `node worker/check.mjs`: 12 species + "all" × en/de × 366 days × 2 UTC offsets = 19,032 payloads, 0 failures, largest 1,751 bytes.
+- `cd template && npm i && node render-check.mjs`: 16 cases rendered in Chromium with TRMNL's plugins.css/js, MapLibre 5.24.0 and live tiles, 800 × 480 (`screen--og`): 16/16 drawn, 0 errors, 0 overlaps between the callout and the text box or the map attribution. Before/after for the attribution guard: 1/16 overlap with it off, 0/16 with it on. The harness fetches through Node because Chromium here does not trust the proxy CA.
+- Previews: `docs/previews/`.
+- **Not confirmed on a device** (R25).
+
+Open:
+
+1. Live positions are the pipeline's snapshot; the Worker cron refresh from Movebank (R2) is not built. The date is always shown, so nothing claims to be live that is not (D3).
+2. The basemap labels are in local scripts (Korean, Arabic). TRMNL's framework draws them; changing them means replacing its labels. Owner's call.
+3. Geolocator tracks are smoothed but still coarse: the wheatear "stays" on the Mediterranean on its way south; stays for land birds far from any coast keep sea names.
+4. Coastal marine animals sit on the coastline after R14 rounding (blue whale).
+5. Facts are only data-derived so far; curated species facts wait for the species table (R8).
+6. No `wrangler.toml` or deployment yet; the polling URL has to pass `species`, `lang` and `utc_offset` (whether TRMNL can put the user's UTC offset into a polling URL is unverified).
+7. Other screen sizes, portrait, and the smaller views (V1: later).

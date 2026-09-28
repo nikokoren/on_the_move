@@ -180,13 +180,15 @@ function animalView(data, sp, a, t, lang, now, localDoy, slot) {
     fact: pickFact(t, lang, a, slot),
     credit: credit(t, a.credit),
     toward,
-    staying: leg.staying,
-    pos: unwrap([here], ref)[0],
-    past: unwrap(thin(past, MAX_LINE_POINTS), ref),
-    ahead: unwrap(thin(future, MAX_LINE_POINTS), ref),
-    dest: dest ? unwrap([dest], ref)[0] : null,
-    bearing: dest ? Math.round(bearing(here, dest)) : null,
-    radius_km: Math.round(radius)
+    // Everything the map script needs, as one JSON string: Liquid prints it into
+    // the script as is, the way Nextbike sends its map points.
+    geo: JSON.stringify({
+      pos: unwrap([here], ref)[0],
+      past: unwrap(thin(past, MAX_LINE_POINTS), ref),
+      ahead: unwrap(thin(future, MAX_LINE_POINTS), ref),
+      dest: dest ? unwrap([dest], ref)[0] : null,
+      r: Math.round(radius)
+    })
   };
 }
 

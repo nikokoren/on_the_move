@@ -25,9 +25,13 @@ for (const lang of ["en", "de"]) {
         if (s.length > LIMIT) bad.push(`payload ${s.length} bytes`);
         if (/\{\w+\}|undefined|NaN|null →|→ null/.test(s)) bad.push("unfilled or broken text");
         if (v.state === "ok") {
-          for (const k of ["species", "status", "where", "fact", "credit", "pos", "past", "ahead", "radius_km"]) {
+          for (const k of ["species", "status", "where", "fact", "credit", "geo"]) {
             if (v[k] === undefined || v[k] === "") bad.push(`missing ${k}`);
           }
+          const g = JSON.parse(v.geo);
+          if (!g.pos || !g.past.length || !g.ahead.length || !(g.r > 0)) bad.push("geo incomplete");
+          if (!!g.dest !== !!v.toward) bad.push("callout text without destination or back");
+          v.staying = !v.where.includes("→");
           kinds[v.kind] = (kinds[v.kind] || 0) + 1;
           bySpecies[sp] = bySpecies[sp] || { ok: 0, staying: 0, travelling: 0 };
           bySpecies[sp].ok++;
