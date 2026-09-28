@@ -79,10 +79,10 @@ Built: `pipeline/build_featured.py` → `worker/data/featured.json`; `worker/src
 
 Open:
 
-1. Live positions are the pipeline's snapshot; the Worker cron refresh from Movebank (R2) is not built. The date is always shown, so nothing claims to be live that is not (D3).
+1. ~~Live refresh (R2)~~ built 2026-09-28: `worker/src/refresh.js`, cron every 6 h, KV written only on change, R5 refusal on license or terms change. Tested against recorded Movebank answers (20/20) and end to end with `wrangler dev` against live Movebank (7 studies, 16 animals, 0 errors). Not yet deployed.
 2. The basemap labels are in local scripts (Korean, Arabic). TRMNL's framework draws them; changing them means replacing its labels. Owner's call.
 3. Geolocator tracks are smoothed but still coarse: the wheatear "stays" on the Mediterranean on its way south; stays for land birds far from any coast keep sea names.
 4. Coastal marine animals sit on the coastline after R14 rounding (blue whale).
 5. Facts are only data-derived so far; curated species facts wait for the species table (R8).
-6. No `wrangler.toml` or deployment yet; the polling URL has to pass `species`, `lang` and `utc_offset` (whether TRMNL can put the user's UTC offset into a polling URL is unverified).
+6. ~~Deployment config~~ written 2026-09-28: `worker/wrangler.toml` (KV id is a placeholder until the namespace exists), `worker/README.md`, `template/settings.yml`, polling URL in `template/README.md` with `{{ trmnl.user.utc_offset }}` (as Nextbike uses it in production). Deploy needs the owner's Cloudflare account; not done.
 7. Other screen sizes, portrait, and the smaller views (V1: later).

@@ -130,7 +130,8 @@ check("poll: no KV write on read", env7.KV.writes === 0);
 const res8 = await handle(new Request("https://x/full?species=broad_winged_hawk&lang=english"), { KV: kv({ animals: {}, refused: { "28691134": "test" } }) }, NOW);
 check("poll: refused study never live", (await res8.json()).kind !== "live");
 check("settings: snake_case labels map", speciesParam("white_stork") === "Ciconia ciconia" && speciesParam("weissstorch") === "Ciconia ciconia"
-  && speciesParam("all") === "all" && langParam("deutsch") === "de" && langParam("english") === "en");
+  && speciesParam("all_of_them_in_turn") === "all" && speciesParam("european_turtle_dove") === "Streptopelia turtur"
+  && speciesParam("nonsense") === "all" && langParam("deutsch") === "de" && langParam("english") === "en");
 const err = await handle(new Request("https://x/full"), { KV: { get: async () => { throw new Error("kv down"); } } }, NOW);
 check("poll: KV failure still answers 200 with an error state", err.status === 200 && (await err.json()).state === "error");
 

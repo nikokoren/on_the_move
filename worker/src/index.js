@@ -18,7 +18,7 @@ const snake = (s) => String(s || "").toLowerCase().replace(/ß/g, "ss").normaliz
 
 export function speciesParam(value) {
   const v = snake(value);
-  if (!v || v === "all" || v === "all_featured" || v === "alle") return "all";
+  if (!v || v === "all" || v === "all_of_them_in_turn" || v === "alle") return "all";
   for (const sp of featured.species) {
     const keys = [sp.taxon, sp.names.en, sp.names.de].map(snake);
     if (keys.includes(v)) return sp.taxon;

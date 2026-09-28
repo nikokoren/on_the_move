@@ -4,7 +4,7 @@ Read this first in every session. The repo is the memory: agents keep nothing be
 
 ## Status (2026-09-28)
 
-Catalog built (decision S2, `docs/CATALOG.md`): 3,617 animals of 154 migratory species in `data/catalog.json` and `data/usual/`, 76 of them live. Featured set decided: 12 species (decision F1, `data/featured.json`). License terms accepted for all 556 CC0/CC BY Movebank studies (decision A1). Next: R8 species table for the 12, R16 text requirements, and the UX draft in `docs/CATALOG.md`, before any Worker or template code.
+Full view built and checked, not deployed, not seen on a device. Worker (`worker/`): payload, live refresh cron with KV and R5 refusal, deployment config; `npm run check` in `worker/` runs the payload sweep and the refresh tests. Template: `template/full.liquid`, `settings.yml`, `render-check.mjs` (Chromium). Data: 12 featured species (F1), 3,617-animal catalog, study whitelist `data/studies.json` (11 studies). Next: deploy (owner's Cloudflare account: KV namespace, secrets), set the polling URL in TRMNL, check on a device (R25). Open items in `docs/FULL_VIEW.md`; species table (R8) and smaller views still to do.
 
 ## Where things are
 
@@ -15,6 +15,7 @@ Catalog built (decision S2, `docs/CATALOG.md`): 3,617 animals of 154 migratory s
 | `docs/SOURCES.md` | Facts about outside systems (Movebank, GBIF, TRMNL, CC). Each fact carries its source URL, date checked and who checked it. |
 | `docs/survey/` | Task 0: method, per-study records, raw captured responses, results. |
 | `data/studies.json` | Study whitelist (R4). Empty until task 0 produces eligible studies. Schema in `data/studies.schema.json`. |
+| `worker/`, `template/` | The Worker (payload, cron refresh, `wrangler.toml`, tests) and the TRMNL templates; each has a README with its checks. |
 | `docs/FULL_VIEW.md` | Plan for the full view: what is on screen, which code it reuses (with line numbers), open questions. |
 | `docs/CATALOG.md` | What the catalog contains, pipeline rules, known gaps, featured proposal, UX draft. |
 | `pipeline/build_catalog.py` | Builds the catalog from Movebank and the Movebank Data Repository. Needs Movebank credentials in the environment; caches in `pipeline/.cache/` (git-ignored). |
