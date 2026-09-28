@@ -73,6 +73,17 @@ def mb_csv(params, cache_name):
     return list(csv.DictReader(io.StringIO(cached(cache_name, lambda: http(url, auth=True)))))
 
 
+def coord(la, lo):
+    """Parsed (lat, lon), or None if missing, NaN or out of range (seen: literal NaN, 2026-09-28)."""
+    try:
+        la, lo = float(la), float(lo)
+    except (TypeError, ValueError):
+        return None
+    if not (math.isfinite(la) and math.isfinite(lo) and -90 <= la <= 90 and -180 <= lo <= 180):
+        return None
+    return la, lo
+
+
 def ts(s):
     try:
         return dt.datetime.fromisoformat(s[:19])
@@ -277,12 +288,13 @@ def dr_stage(avonet, nonbird, covered_study_ids):
                                 for row in rd:
                                     a = row.get("individual-local-identifier")
                                     t = ts(row.get("timestamp", ""))
-                                    if not a or not t or not row.get("location-lat") or not row.get("location-long") or row.get("visible", "true") == "false":
+                                    c = coord(row.get("location-lat"), row.get("location-long"))
+                                    if not a or not t or not c or row.get("visible", "true") == "false":
                                         continue
                                     if (a, t.date()) in seen:
                                         continue
                                     seen.add((a, t.date()))
-                                    part[a].append((t, float(row["location-lat"]), float(row["location-long"])))
+                                    part[a].append((t, *c))
                                     part_tax[a] = (row.get("individual-taxon-canonical-name") or "").strip()
                         for a, v in part.items():
                             fixes[a] += v
@@ -353,8 +365,8 @@ def main():
         sid = s["id"]
         try:
             ind = mb_csv({"entity_type": "individual", "study_id": sid,
-                          "attributes": "id,local_identifier,nick_name,taxon_canonical_name,timestamp_start,timestamp_end"},
-                         f"ind_{sid}.csv")
+                          "attributes": "id,local_identifier,nick_name,taxon_canonical_name,timestamp_start,timestamp_end,mortality_date,death_comments"},
+                         f"ind2_{sid}.csv")
         except PermissionError:
             stats["study_terms_not_accepted"] += 1
             continue
@@ -378,15 +390,19 @@ def main():
             stats["study_events_failed"] += 1
             continue
         by_local = {v[0]["local_identifier"]: k for k, v in cand.items() if v[0]["local_identifier"]}
+        # Movebank mortality_date: fixes from that day on are not the living animal (seen 2026-09-28:
+        # two dead red kites' tags reporting from Bhutan, a year after death)
+        died = {k: ts(v[0]["mortality_date"]) for k, v in cand.items() if ts(v[0].get("mortality_date") or "")}
         fixes = defaultdict(list)
         for e in ev:
             # EURING_01 rows carry individual_local_identifier, not individual_id (checked 2026-09-28);
             # rows from tags not deployed on an animal have it empty and are dropped here
             iid = by_local.get(e.get("individual_local_identifier") or "")
-            if iid in cand and e.get("location_lat") and e.get("location_long") and e.get("visible", "true") != "false":
+            c = coord(e.get("location_lat"), e.get("location_long"))
+            if iid in cand and c and e.get("visible", "true") != "false":
                 t = ts(e["timestamp"])
-                if t and t <= NOW:
-                    fixes[iid].append((t, float(e["location_lat"]), float(e["location_long"])))
+                if t and t <= NOW and (iid not in died or t < died[iid]):
+                    fixes[iid].append((t, *c))
         out = {}
         for iid, (i, taxon, (status, src)) in cand.items():
             tab, cover = doy_table(fixes.get(iid, []))
@@ -401,7 +417,7 @@ def main():
             step = coarsen_for(sp["iucn"])
             last = max(fixes[iid])[0]
             lastfix = max(fixes[iid])
-            live = (NOW - last).days <= LIVE_DAYS
+            live = (NOW - last).days <= LIVE_DAYS and iid not in died
             aid = f"mb-{sid}-{iid}"
             out[aid] = [[rnd(x[0], step), rnd(x[1], step), x[2], x[3]] if x else None for x in tab]
             catalog["animals"].append({
@@ -430,6 +446,33 @@ def main():
                    "animals": out}, open(os.path.join(ROOT, "data", "usual", f"{sid}.json"), "w"), separators=(",", ":"))
     for k, v in d["stats"].items():
         stats["dr_" + k] += v
+    # de-duplicate: the same animal published in several studies gives an identical table (seen: shrike 13813 x3)
+    tables = {}
+    for f in os.listdir(os.path.join(ROOT, "data", "usual")):
+        tables.update({k: (f, v) for k, v in json.load(open(os.path.join(ROOT, "data", "usual", f)))["animals"].items()})
+    seen, drop = {}, set()
+    for a in sorted(catalog["animals"], key=lambda a: (not a["live"], -a["doyCovered"], a["id"])):
+        sig = (a["taxon"], hashlib.sha1(json.dumps(tables[a["id"]][1]).encode()).hexdigest())
+        if sig in seen:
+            drop.add(a["id"])
+        else:
+            seen[sig] = a["id"]
+    if drop:
+        catalog["animals"] = [a for a in catalog["animals"] if a["id"] not in drop]
+        by_file = defaultdict(list)
+        for aid in drop:
+            by_file[tables[aid][0]].append(aid)
+        for f, ids in by_file.items():
+            p = os.path.join(ROOT, "data", "usual", f)
+            d = json.load(open(p))
+            for aid in ids:
+                d["animals"].pop(aid, None)
+            if d["animals"]:
+                json.dump(d, open(p, "w"), separators=(",", ":"))
+            else:
+                os.remove(p)
+        stats["animal_duplicate_dropped"] = len(drop)
+    catalog["studies"] = {k: v for k, v in catalog["studies"].items() if any(a["studyId"] == k for a in catalog["animals"])}
     catalog["stats"] = dict(stats)
     json.dump(catalog, open(os.path.join(ROOT, "data", "catalog.json"), "w"), indent=1, ensure_ascii=False)
     log("done", dict(stats), "species", len(catalog["species"]))
