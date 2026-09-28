@@ -22,7 +22,8 @@ export const STRINGS = {
       yearKm: "Covers at least {km} km a year between the places it stays.",
       southmost: "Its year reaches as far south as {lat}.",
       northmost: "Its year reaches as far north as {lat}.",
-      span: "The two farthest points of its year are {km} km apart."
+      span: "The two farthest points of its year are {km} km apart.",
+      travelDays: "Spends about {n} days a year travelling between the places it stays."
     },
     north: "{v}° N",
     south: "{v}° S",
@@ -45,7 +46,8 @@ export const STRINGS = {
       yearKm: "Mindestens {km} km im Jahr zwischen den Aufenthaltsorten.",
       southmost: "Südlichster Punkt des Jahres: {lat}.",
       northmost: "Nördlichster Punkt des Jahres: {lat}.",
-      span: "Die zwei entferntesten Punkte des Jahres liegen {km} km auseinander."
+      span: "Die zwei entferntesten Punkte des Jahres liegen {km} km auseinander.",
+      travelDays: "Rund {n} Tage im Jahr unterwegs zwischen den Aufenthaltsorten."
     },
     north: "{v}° N",
     south: "{v}° S",

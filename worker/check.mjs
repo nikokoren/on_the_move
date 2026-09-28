@@ -4,7 +4,7 @@
 //
 //     node worker/check.mjs
 import fs from "fs";
-import { buildFull } from "./src/view.js";
+import { buildFull, factIndex } from "./src/view.js";
 
 const data = JSON.parse(fs.readFileSync(new URL("./data/featured.json", import.meta.url)));
 const LIMIT = 5120;
@@ -48,6 +48,39 @@ for (const lang of ["en", "de"]) {
     }
   }
 }
+// Fact rotation: over 50 cycles of every pool size in use, each cycle shows every
+// fact once, and no fact follows itself across a cycle boundary.
+let rotFails = 0, rotTurns = 0;
+for (const sp of data.species) {
+  for (const a of sp.animals) {
+    for (let n = 1; n <= sp.facts.length + 5; n++) {
+      let last = -1;
+      for (let c = 0; c < 50; c++) {
+        const seen = new Set();
+        for (let p = 0; p < n; p++) {
+          const i = factIndex(n, c * n + p, a.id);
+          rotTurns++;
+          if (seen.has(i) || i < 0 || i >= n || (n > 1 && i === last)) rotFails++;
+          seen.add(i); last = i;
+        }
+      }
+    }
+  }
+}
+if (rotFails) fails++;
+// Every fact the pools can produce, whatever day or turn picks it (R16: 140 chars).
+const facts = new Set();
+for (const lang of ["en", "de"]) {
+  for (const sp of data.species.map((s) => s.taxon)) {
+    for (let turn = 0; turn < 200; turn++) {
+      const v = buildFull(data, { species: sp, lang, now: new Date(Date.UTC(2026, 0, 1, 12) + turn * 900000 + (turn % 366) * 86400000) });
+      if (v.fact) facts.add(`${lang} ${sp}: ${v.fact}`);
+    }
+  }
+}
+const longFacts = [...facts].filter((f) => f.split(": ").slice(1).join(": ").length > 140);
+if (longFacts.length) fails++;
+console.log(`fact rotation: ${rotTurns} turns, ${rotFails} failures; ${facts.size} distinct facts seen, ${longFacts.length} over 140 chars`);
 console.log(`runs ${runs}, failures ${fails}, empty ${empty}, largest payload ${maxBytes} bytes, kinds ${JSON.stringify(kinds)}`);
 for (const [k, v] of Object.entries(bySpecies)) console.log(`  ${k.padEnd(28)} ok ${v.ok}  staying ${v.staying}  travelling ${v.travelling}`);
 problems.forEach((p) => console.log("  FAIL " + p));

@@ -83,7 +83,7 @@ Open:
 2. The basemap labels are in local scripts (Korean, Arabic). TRMNL's framework draws them; changing them means replacing its labels. Owner's call.
 3. Geolocator tracks are smoothed but still coarse: the wheatear "stays" on the Mediterranean on its way south; stays for land birds far from any coast keep sea names.
 4. Coastal marine animals sit on the coastline after R14 rounding (blue whale).
-5. ~~Species facts~~ done 2026-09-28: one sourced fact per species (R8, `data/species.json`) leads the rotation, then the animal's own numbers.
+5. ~~Species facts~~ done 2026-09-28: 8 sourced facts per species (R8, `data/species.json`) plus the animal's own numbers, shuffled per cycle without repeats (decision R8a).
 6. ~~Deployment config~~ written 2026-09-28: `worker/wrangler.toml` (KV id is a placeholder until the namespace exists), `worker/README.md`, `template/settings.yml`, polling URL in `template/README.md` with `{{ trmnl.user.utc_offset }}` (as Nextbike uses it in production). Deploy needs the owner's Cloudflare account; not done.
 7. Other screen sizes, portrait, and the smaller views (V1: later).
 

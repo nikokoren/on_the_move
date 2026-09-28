@@ -233,11 +233,11 @@ def main():
         # moving within France outranked one flying the Netherlands to Morocco.
         cands.sort(key=lambda c: (not c[0]["live"], max(c[3]) < 1000, -c[0]["doyCovered"], name_of(c[0]) == "", c[0]["id"]))
         chosen = cands[:BACKUPS + 1]
-        # Names and the species fact from the species table's sources (R8,
+        # Names and the species facts from the species table's sources (R8,
         # pipeline/species_curated.json), not the provisional GBIF names.
         c = curated[taxon]
         entry = {"taxon": taxon, "names": {k: c["names"][k] for k in ("en", "de")}, "iucn": sp["iucn"],
-                 "fact": {k: c["fact"][k] for k in ("en", "de")}, "animals": []}
+                 "facts": [{k: f[k] for k in ("en", "de")} for f in c["facts"]], "animals": []}
         for a, tab, st, hops in chosen:
             study = cat["studies"][a["studyId"]]
             track, day_place = [], []
