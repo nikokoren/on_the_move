@@ -4,6 +4,13 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### R8a Eight facts per species, rotated without repeats (owner, 2026-09-28)
+
+- Decision: one fact on screen, drawn from a pool; 8 sourced facts per species (96 in all).
+- Built: `pipeline/species_curated.json` holds a `facts` list per species, each with source and quote; `pipeline/verify_sources.py` found 96/96 quotes on 25 pages on 2026-09-28. The Worker adds the animal's own numbers: km a year, span, south/northmost point, and days travelling between stays (new). The pool is 9 to 13 facts per animal.
+- Rotation (`worker/src/view.js`, `factIndex`): the pool is shuffled once per cycle with a seed from the animal and the cycle number; every fact shows once per cycle, and a new cycle never starts with the fact the last one ended on. The fact turns every 15-minute slot when following one species, once per round in "all" mode. No stored state: every refresh in a slot agrees. Checked by `worker/check.mjs`: 154,700 turns, 0 repeats within a cycle, 0 at the boundaries.
+- Not built: "countries crossed" (the place list mixes countries, deserts and seas, so a count would be wrong) and "fastest day" (geolocator jitter of about 200 km a day would make it up).
+
 ### C1 Cron slot freed in nearby-nextbike (owner, 2026-09-28)
 
 - The first deploy failed to register the cron: the account had used the free plan's 5 cron triggers (code 10072). The owner deleted nearby-nextbike's `0 4 * * *` trigger, which only pre-warmed `getSystemIndex()`; that function refreshes itself when older than 24 h and is only needed when resolving a new address (nearby-nextbike `worker/index.js` lines 417 and 635, read 2026-09-28). The owner also removes it from nearby-nextbike's local, untracked `wrangler.toml`, or its next deploy would hit the limit again.

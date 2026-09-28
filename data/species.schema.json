@@ -17,7 +17,7 @@
      "iucn",
      "migration",
      "windows",
-     "fact",
+     "facts",
      "tracked"
     ],
     "properties": {
@@ -379,33 +379,37 @@
        }
       }
      },
-     "fact": {
-      "type": "object",
-      "required": [
-       "en",
-       "de",
-       "source"
-      ],
-      "properties": {
-       "en": {
-        "type": "string",
-        "minLength": 1,
-        "maxLength": 140
-       },
-       "de": {
-        "type": "string",
-        "minLength": 1,
-        "maxLength": 140
-       },
-       "source": {
+     "facts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
         "type": "object",
         "required": [
-         "title",
-         "url",
-         "quote"
-        ]
+         "en",
+         "de",
+         "source"
+        ],
+        "properties": {
+         "en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 140
+         },
+         "de": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 140
+         },
+         "source": {
+          "type": "object",
+          "required": [
+           "title",
+           "url",
+           "quote"
+          ]
+         }
+        }
        }
-      }
      },
      "tracked": {
       "type": "object",

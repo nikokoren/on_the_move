@@ -4,7 +4,7 @@ Read this first in every session. The repo is the memory: agents keep nothing be
 
 ## Status (2026-09-28)
 
-Deployed 2026-09-28 by the owner (Worker `on-the-move`, KV namespace `on_the_move`, secrets set, cron `23 */6 * * *` registered). Endpoint checked from here: en/de payloads, viewer's local day, 1.2 to 1.5 KB. First cron refresh not yet observed (`npx wrangler tail`). Not yet set up in TRMNL, not seen on a device (R25). Worker URL stays out of the docs (Nextbike practice). Species table (R8) done 2026-09-28: `data/species.json`, facts shown on screen. Open items in `docs/FULL_VIEW.md` (design review: 2-bit greys, credit on screen); smaller views still to do.
+Deployed 2026-09-28 by the owner (Worker `on-the-move`, KV namespace `on_the_move`, secrets set, cron `23 */6 * * *` registered). Endpoint checked from here: en/de payloads, viewer's local day, 1.2 to 1.5 KB. First cron refresh not yet observed (`npx wrangler tail`). Not yet set up in TRMNL, not seen on a device (R25). Worker URL stays out of the docs (Nextbike practice). Species table (R8) done 2026-09-28: `data/species.json`; 8 sourced facts per species (96, verified 96/96), rotated without repeats (decision R8a). Not deployed yet: the owner redeploys with `npm run deploy` in `worker/`. Open items in `docs/FULL_VIEW.md` (design review: 2-bit greys, credit on screen); smaller views still to do.
 
 ## Where things are
 

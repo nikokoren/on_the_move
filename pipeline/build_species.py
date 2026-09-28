@@ -115,7 +115,7 @@ def main():
                 "note": None if allw else "Too few animals move 500 km or more between summer and winter to give windows (e.g. sea turtles roam rather than shuttle).",
             },
             "summerRegion": region(summer), "winterRegion": region(winter),
-            "fact": cur[taxon]["fact"],
+            "facts": cur[taxon]["facts"],
             "tracked": {"animals": len(animals), "migrated": len(summer), "centralEuropeSummer": len(ce_ids),
                         "studies": [{"id": s, "animals": n, "name": cat["studies"][s]["name"]} for s, n in studies.most_common()]},
         })

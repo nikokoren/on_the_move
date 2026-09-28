@@ -112,22 +112,72 @@ function credit(t, c) {
   return fill(t.credit, { source: `${who}, ${lic}` });
 }
 
-function pickFact(t, lang, sp, a, slot) {
+// Days of the year not inside any stay: the time it spends travelling.
+function travelDays(stays) {
+  let stayed = 0;
+  for (const [from, to] of stays) stayed += (to - from + 366) % 366 + 1;
+  return 366 - stayed;
+}
+
+// Seeded shuffle (mulberry32 + Fisher-Yates): the same turn always gives the
+// same order, so every refresh in a cycle agrees without any stored state.
+function shuffled(n, seed) {
+  let a = seed >>> 0;
+  const rnd = () => {
+    a = (a + 0x6D2B79F5) >>> 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+  const idx = [...Array(n).keys()];
+  for (let i = n - 1; i > 0; i--) {
+    const j = Math.floor(rnd() * (i + 1));
+    [idx[i], idx[j]] = [idx[j], idx[i]];
+  }
+  return idx;
+}
+
+function hash(str) {
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i++) h = Math.imul(h ^ str.charCodeAt(i), 16777619);
+  return h >>> 0;
+}
+
+// Fact n of the endless sequence for this pool: pools are shuffled per cycle,
+// so every fact shows once before any repeats. Each new cycle is a fresh
+// order, and its first fact is never the one the last cycle ended on.
+export function factIndex(n, turn, key) {
+  if (n <= 2) return turn % n;  // nothing to shuffle; alternating never repeats
+  const cycle = Math.floor(turn / n), pos = turn % n;
+  const order = shuffled(n, hash(key) ^ cycle);
+  if (cycle > 0) {
+    const before = shuffled(n, hash(key) ^ (cycle - 1));
+    if (order[0] === before[n - 1]) [order[0], order[1]] = [order[1], order[0]];
+  }
+  return order[pos];
+}
+
+function factPool(t, lang, sp, a) {
   const f = a.facts;
-  const all = [
-    // The species fact first (R8, sourced in data/species.json), then the
-    // animal's own numbers.
-    sp.fact && (sp.fact[lang] || sp.fact.en),
+  const days = travelDays(a.stays);
+  return [
+    // Sourced species facts (R8, data/species.json), then the animal's own numbers.
+    ...(sp.facts || []).map((x) => x[lang] || x.en),
     fill(t.facts.yearKm, { km: fmtKm(f.yearKmMin, lang) }),
     fill(t.facts.span, { km: fmtKm(f.spanKm, lang) }),
     f.southmost < 0 || f.northmost - f.southmost > 20 ? fill(t.facts.southmost, { lat: fmtLat(t, f.southmost) }) : null,
-    f.northmost > 50 ? fill(t.facts.northmost, { lat: fmtLat(t, f.northmost) }) : null
+    f.northmost > 50 ? fill(t.facts.northmost, { lat: fmtLat(t, f.northmost) }) : null,
+    a.stays.length > 1 && days >= 5 && days <= 300 ? fill(t.facts.travelDays, { n: days }) : null
   ].filter(Boolean);
-  return all[slot % all.length];
+}
+
+function pickFact(t, lang, sp, a, turn) {
+  const pool = factPool(t, lang, sp, a);
+  return pool[factIndex(pool.length, turn, a.id)];
 }
 
 // One animal on one day. Returns null when this animal has no position today.
-function animalView(data, sp, a, t, lang, now, localDoy, slot) {
+function animalView(data, sp, a, t, lang, now, localDoy, turn) {
   const places = data.places;
   const name = (i) => (i >= 0 && places[i] ? places[i][lang] : t.somewhere);
   const lastFix = a.lastFix ? new Date(a.lastFix + "T12:00:00Z") : null;
@@ -180,7 +230,7 @@ function animalView(data, sp, a, t, lang, now, localDoy, slot) {
     name: a.name,
     status,
     where,
-    fact: pickFact(t, lang, sp, a, slot),
+    fact: pickFact(t, lang, sp, a, turn),
     credit: credit(t, a.credit),
     toward,
     // Everything the map script needs, as one JSON string: Liquid prints it into
@@ -214,10 +264,13 @@ export function buildFull(data, { species = "all", lang = "en", now = new Date()
     order = list.filter((s) => s.taxon === species);
     if (!order.length) order = list;
   }
+  // The fact turns once per visit: every slot when following one species, once
+  // per round of all species in "all" mode (each species is shown once a round).
+  const turn = species === "all" ? Math.floor(slot / list.length) : slot;
   // Star first, then its backups; in "all" mode, then the next species.
   for (const sp of order) {
     for (const a of sp.animals) {
-      const v = animalView(data, sp, a, t, lang, now, localDoy, slot);
+      const v = animalView(data, sp, a, t, lang, now, localDoy, turn);
       if (v) return v;
     }
     if (species !== "all") break;
