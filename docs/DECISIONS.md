@@ -4,6 +4,12 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### F1 Featured species: 12 (owner, 2026-09-28)
+
+- Decision (project owner, in session: "go with the 12, keep the gull"): white stork, common crane, European honey buzzard, European turtle dove, lesser black-backed gull, red-backed shrike, northern wheatear, Far Eastern curlew, broad-winged hawk, turkey vulture, blue whale, loggerhead turtle. In `data/featured.json`.
+- Together: 738 animals, 64 live (catalog of 2026-09-28). 6 of the 12 have live animals.
+- Criteria: live animals first; one species per kind of journey; recognisable to en/de users; backups only needed for live species. The other 142 catalog species stay in the pool (backups, possible guests later). Gull kept over cuckoo as the most reliable live species (17 live).
+
 ### S2 Content model: selectable animals, live or "usually" (owner, 2026-09-28)
 
 - Decision (project owner, in session): every migratory species without a live track gets a "usually" entry derived from historic full-cycle tracks, and is part of the selectable set. Users either pick one animal and follow it, or pick several or all and the screen cycles through where each one is on the map today: the latest position if live, otherwise its "usually" position for this day of year.

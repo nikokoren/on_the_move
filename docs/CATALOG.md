@@ -14,7 +14,7 @@ Built 2026-09-28 by Claude with `pipeline/build_catalog.py` (decision S2). Re-ru
 Files:
 - `data/catalog.json`: species (provisional en/de names, IUCN, migration status and its source), studies (license, citation, DOI where given), animals (study, label, years, days of year covered, last fix, live flag, last position if live, coarsening).
 - `data/usual/<study>.json`: per animal, 366 entries `[lat, lon, year, quality]` for 1 Jan to 31 Dec. Quality: `f` fix that day, `i` interpolated (gap up to 7 days), `s` stationary hold (gap up to 150 days, ends within 300 km), `r` straight-line route estimate (gap up to 21 days). `null` = unknown that day.
-- `data/featured.json`: **proposal** for the selectable species (below). Not decided.
+- `data/featured.json`: the 12 featured species (decision F1).
 
 Build log (2026-09-28): 702 eligible studies; 300 without a migratory species, 160 without an animal tracked a full year; 1,477 + 3,080 animals dropped for too little year coverage; 67 duplicates dropped (the same animal published in several studies); 6 repository files over 400 MB skipped.
 
@@ -35,14 +35,9 @@ Build log (2026-09-28): 702 eligible studies; 300 without a migratory species, 1
 - Animal labels are often tag codes ("DER AU050 (eobs 3264)"). A display-name rule is still needed.
 - `data/usual/` is 30 MB. Fine in git for now; move to KV or R2 once the Worker exists.
 
-## Featured species (proposal)
+## Featured species (decided, F1)
 
-41 species, 1,232 animals behind them, 64 of them live. Chosen for long distances in our own data, spread across regions and kinds of animal, and at least 3 animals each (except blue whale 1 and whooping crane 2, kept because they are iconic).
-
-- **Europe and Africa (17):** white stork, lesser black-backed gull, European turtle dove, honey buzzard, common crane, red-backed shrike, northern wheatear, whinchat, pied flycatcher, common cuckoo, Montagu's harrier, Egyptian vulture, demoiselle crane, barnacle goose, common ringed plover, short-toed snake eagle, steppe eagle.
-- **Americas (13):** turkey vulture, broad-winged hawk, osprey, blackpoll warbler, lesser yellowlegs, whimbrel, snow goose, tundra swan, fork-tailed flycatcher, prothonotary warbler, buff-breasted sandpiper, whooping crane, snowy owl.
-- **Oceans and poles (8):** long-tailed jaeger, Sabine's gull, Atlantic puffin, Stejneger's petrel, thick-billed murre, blue whale, bowhead whale, loggerhead turtle.
-- **Asia and Pacific (3):** Far Eastern curlew, white-naped crane, greater white-fronted goose.
+12 species, 738 animals behind them, 64 live: white stork (274 animals / 28 live), common crane (23 / 1), honey buzzard (5 / 1), turtle dove (18 / 8), lesser black-backed gull (251 / 17), red-backed shrike (25), northern wheatear (13), Far Eastern curlew (11), broad-winged hawk (20 / 3), turkey vulture (89 / 6), blue whale (1), loggerhead turtle (8). Earlier proposal of 41 superseded.
 
 Per species, one "star" animal is picked automatically: live if possible, else the best year coverage, preferring a real name over a tag code. Users choose species, not animals. The full pool is used for backups (R22), variety and data-derived facts.
 
