@@ -4,7 +4,7 @@ Cloudflare Worker for On the Move (R1, R2). `GET /full` returns the full view's 
 
 ## Deploy (first time)
 
-Needs a Cloudflare account (the free plan is enough) and the project's Movebank account.
+Needs Node.js 22 or newer (Wrangler 4 refuses Node 20: seen 2026-09-28 on the owner's Mac), a Cloudflare account (the free plan is enough) and the project's Movebank account.
 
     cd worker
     npm i
