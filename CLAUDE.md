@@ -4,7 +4,7 @@ Read this first in every session. The repo is the memory: agents keep nothing be
 
 ## Status (2026-09-28)
 
-Set-up only. No code, no data, no design yet. Next step is **task 0, the data survey** (`docs/survey/README.md`). Nothing gets designed or built before task 0 has answered D1 and D2.
+Task 0 first pass done 2026-09-28 (`docs/survey/results.md`): Mode A viable but thin (4 eligible fresh animals measured), Mode B not viable around Munich under the licensing rule. Waiting on the owner: accept license terms for 5 studies, decide on permission requests, decide D1 and D2. Nothing gets designed or built before D1 and D2 are decided.
 
 ## Where things are
 

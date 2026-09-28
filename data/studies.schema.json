@@ -34,7 +34,7 @@
       "properties": {
         "studyId": { "type": "integer" },
         "licenseType": {
-          "description": "License as returned by the Movebank API. PLACEHOLDER: the values 'CC_0' and 'CC_BY' in the if/then rule below are guesses, not yet seen in a live response. Replace them with the real API values during task 0.",
+          "description": "License as returned by the Movebank API. Values seen live on 2026-09-28 (Movebank direct-read, entity_type=study): CC_0, CC_BY, CC_BY_NC, CUSTOM. The if/then rule below uses CC_0 and CC_BY. Re-check if Movebank adds values.",
           "type": "string"
         },
         "licenseTermsHash": {

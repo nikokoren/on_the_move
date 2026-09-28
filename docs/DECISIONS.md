@@ -19,8 +19,8 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 | ID | Question | Depends on | Recommendation in brief | Status |
 |---|---|---|---|---|
-| D1 | Mode A, Mode B, or both (as a setting) | Task 0 | Mode A first; Mode B primary if nothing eligible and fresh exists | open |
-| D2 | Species and animals to feature | Task 0 | White stork plus one or two long-distance species with eligible public tracks | open |
-| D3 | Freshness promise | Task 0 (embargo findings) | Always show the date of the last position | open |
+| D1 | Mode A, Mode B, or both (as a setting) | Task 0 | Mode A first; Mode B primary if nothing eligible and fresh exists | open; task 0 (2026-09-28) recommends Mode A only, see `survey/results.md` |
+| D2 | Species and animals to feature | Task 0 | White stork plus one or two long-distance species with eligible public tracks | open; task 0 recommends white stork plus honey buzzard, pending terms acceptance and permission requests |
+| D3 | Freshness promise | Task 0 (embargo findings) | Always show the date of the last position | open; task 0 found delays from under 4 hours to about 6 months by study |
 | D4 | Exact or coarsened positions | D2, R14 | Coarsen for threatened species and nesting sites | open |
 | R17b | Second voice besides "facts" | D1 | Optional | open |

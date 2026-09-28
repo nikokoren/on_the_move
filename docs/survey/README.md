@@ -2,7 +2,7 @@
 
 Goal: find out whether enough **eligible** (CC0 or CC BY, or written permission) and **fresh** public tracking data exists to build Mode A, and whether GBIF is fresh enough for Mode B. The outcome decides D1 and D2 (see `../DECISIONS.md`).
 
-Status 2026-09-28: not started.
+Status 2026-09-28: first pass done, see `results.md`. Open: 5 CC0/CC BY studies need the owner to accept their license terms before their freshness can be measured (list in `results.md`, "Owner actions").
 
 ## Prerequisites
 

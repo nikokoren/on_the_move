@@ -2,7 +2,7 @@
 
 Every fact about an outside system goes here with its source, the date it was checked, and who checked it. **Re-fetch before relying on any entry.** Where this file and the live web disagree, the web wins; update the entry and date it.
 
-Status 2026-09-28: nothing below has been re-verified in this repo yet. Entries marked "brief" come from `docs/BRIEF.md`, whose author checked them in September 2026.
+Status 2026-09-28: Movebank API and GBIF API facts below re-verified by task 0 ("Claude, task 0"). Entries marked "brief" come from `docs/BRIEF.md` and are not re-verified yet.
 
 ## Source links (unversioned)
 
@@ -15,8 +15,10 @@ Status 2026-09-28: nothing below has been re-verified in this repo yet. Entries 
 | eBird Status and Trends terms (excluded) | https://science.ebird.org/mn/status-and-trends/products-access-terms-of-use |
 | TRMNL Creator Fund | https://trmnl.com/blog/creator-fund |
 | CC NonCommercial interpretation | https://wiki.creativecommons.org/NonCommercial_interpretation |
+| Movebank REST API documentation (found 2026-09-28) | https://github.com/movebank/movebank-api-doc/blob/master/movebank-api.md |
+| GBIF occurrence API reference (found 2026-09-28) | https://techdocs.gbif.org/en/openapi/v1/occurrence (machine-readable: https://techdocs.gbif.org/openapi/occurrence.json) |
 
-To add during task 0 (find, then record the URL and date here): Movebank REST API documentation, GBIF occurrence API reference (gbif.org, not only rgbif), GBIF citation guidelines, Natural Earth terms of use, TRMNL polling/webhook size limits, TRMNL Framework docs.
+Still to find (record the URL and date here): GBIF citation guidelines, Natural Earth terms of use, TRMNL polling/webhook size limits, TRMNL Framework docs.
 
 ## Facts
 
@@ -31,3 +33,13 @@ To add during task 0 (find, then record the URL and date here): Movebank REST AP
 | Creator Fund: 80% of TRMNL+ revenue plus 10 to 15% of hardware sales; payouts from playlist age, presence and impressions; threshold 50 installs plus forks | TRMNL blog | 2026-09 | brief | re-fetch |
 | TRMNL webhooks capped at 2 KB (5 KB with TRMNL+) | not linked in brief | 2026-09 | brief | find source, re-fetch |
 | Natural Earth data is public domain | not linked in brief | 2026-09 | brief | find source, re-fetch |
+| Movebank `license_type` values returned by the API: `CC_0`, `CC_BY`, `CC_BY_NC`, `CUSTOM` (counts over 1000 downloadable studies: 448, 254, 219, 79) | live API, `direct-read?entity_type=study` | 2026-09-28 | Claude, task 0 | verified live |
+| Movebank rate limit: one concurrent request per IP, 20 total | Movebank REST API doc (header note) | 2026-09-28 | Claude, task 0 | re-fetch |
+| Studies requiring terms acceptance return the terms page with header `accept-license: true` instead of data, for `event` **and** `individual` requests. Acceptance: via web download, or API with `license-md5=<md5 of terms page>` and a session cookie | live API + REST API doc | 2026-09-28 | Claude, task 0 | verified live (8 studies) |
+| Study attribute `go_public_license_type` appears in the doc's example output but a request listing it in `attributes` fails with HTTP 500 | live API | 2026-09-28 | Claude, task 0 | verified live |
+| Study-level summary stats (`timestamp_last_deployed_location` etc.) are updated about once per day; they can lag and can include data the account cannot download | REST API doc + live comparison | 2026-09-28 | Claude, task 0 | verified live |
+| Event downloads include rows with empty `individual_id` (tags not deployed on an animal) | live API | 2026-09-28 | Claude, task 0 | verified live |
+| GBIF occurrence search: no key; parameters `taxonKey`, `geoDistance` (e.g. `48.137,11.575,50km`), `eventDate` (range `a,b`), `license` (repeatable: `CC0_1_0`, `CC_BY_4_0`), `occurrenceStatus` | GBIF OpenAPI | 2026-09-28 | Claude, task 0 | verified live |
+| GBIF occurrence records have no "first published" date; available: `modified` (publisher), `lastCrawled`, `lastParsed`, `lastInterpreted` | live record keys | 2026-09-28 | Claude, task 0 | verified live |
+| GBIF dataset licenses: iNaturalist Research-grade Observations CC BY-NC (records individually CC0/CC BY/CC BY-NC), Observation.org CC BY-NC, NABU\|naturgucker CC BY (last modified 2025-10-29) | `api.gbif.org/v1/dataset/{key}` | 2026-09-28 | Claude, task 0 | re-fetch |
+| GBIF API resets connections intermittently; retry with backoff | live | 2026-09-28 | Claude, task 0 | observed |
