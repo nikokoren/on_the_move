@@ -12,6 +12,13 @@
   is map_of_the_day trmnl/example-markup.liquid:242.
 {% endcomment %}
 
+{% if state != "ok" %}
+{% comment %} R20: error or no data. The Worker has worded it; no map. {% endcomment %}
+<div class="layout layout--col layout--center gap--medium">
+  {% if species != blank %}<span class="title">{{ species }}</span>{% endif %}
+  <span class="description text--center">{{ status }}</span>
+</div>
+{% else %}
 <div class="layout">
   <div id="otm-map" class="map stretch w--full">
 
@@ -258,3 +265,4 @@
     start();
   }
 </script>
+{% endif %}
