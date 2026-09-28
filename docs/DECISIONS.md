@@ -4,6 +4,12 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### V1 Full view first; framing (owner, 2026-09-28)
+
+- Decision (project owner, in session): build the full view first, smaller views later. Framing as proposed in `FULL_VIEW.md`: centre on the animal's position today; the short side of the map covers the last 10 days of its track or 500 km, whichever is larger. The line back to the leg start may run off screen; an off-screen destination gets the edge callout.
+- Place names (R7): Natural Earth (public domain) desert polygons first, then country, then sea or ocean, en/de from the data's own name fields.
+- Stays and legs: a stay is at least 14 days within 100 km in the animal's own year; a leg runs between stays. Thresholds are Claude's first guess, to be checked against real tracks.
+
 ### F1 Featured species: 12 (owner, 2026-09-28)
 
 - Decision (project owner, in session: "go with the 12, keep the gull"): white stork, common crane, European honey buzzard, European turtle dove, lesser black-backed gull, red-backed shrike, northern wheatear, Far Eastern curlew, broad-winged hawk, turkey vulture, blue whale, loggerhead turtle. In `data/featured.json`.
