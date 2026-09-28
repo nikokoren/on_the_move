@@ -11,3 +11,4 @@ dist/
 
 # Pipeline download cache
 pipeline/.cache/
+__pycache__/
