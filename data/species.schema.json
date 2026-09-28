@@ -1,0 +1,422 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Species table (brief R8)",
+ "type": "object",
+ "required": [
+  "species"
+ ],
+ "properties": {
+  "species": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "taxon",
+     "names",
+     "namesSource",
+     "iucn",
+     "migration",
+     "windows",
+     "fact",
+     "tracked"
+    ],
+    "properties": {
+     "taxon": {
+      "type": "string"
+     },
+     "names": {
+      "type": "object",
+      "required": [
+       "en",
+       "de"
+      ],
+      "properties": {
+       "en": {
+        "type": "string",
+        "minLength": 1
+       },
+       "de": {
+        "type": "string",
+        "minLength": 1
+       }
+      }
+     },
+     "namesSource": {
+      "type": "object",
+      "required": [
+       "title",
+       "url"
+      ]
+     },
+     "iucn": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "migration": {
+      "enum": [
+       "migratory",
+       "partial"
+      ]
+     },
+     "windows": {
+      "type": "object",
+      "properties": {
+       "centralEurope": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "properties": {
+         "autumnDeparture": {
+          "type": [
+           "object",
+           "null"
+          ],
+          "required": [
+           "median",
+           "from",
+           "to",
+           "n"
+          ],
+          "properties": {
+           "median": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "from": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "to": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "n": {
+            "type": "integer",
+            "minimum": 3
+           }
+          }
+         },
+         "autumnArrival": {
+          "type": [
+           "object",
+           "null"
+          ],
+          "required": [
+           "median",
+           "from",
+           "to",
+           "n"
+          ],
+          "properties": {
+           "median": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "from": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "to": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "n": {
+            "type": "integer",
+            "minimum": 3
+           }
+          }
+         },
+         "springDeparture": {
+          "type": [
+           "object",
+           "null"
+          ],
+          "required": [
+           "median",
+           "from",
+           "to",
+           "n"
+          ],
+          "properties": {
+           "median": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "from": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "to": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "n": {
+            "type": "integer",
+            "minimum": 3
+           }
+          }
+         },
+         "springArrival": {
+          "type": [
+           "object",
+           "null"
+          ],
+          "required": [
+           "median",
+           "from",
+           "to",
+           "n"
+          ],
+          "properties": {
+           "median": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "from": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "to": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "n": {
+            "type": "integer",
+            "minimum": 3
+           }
+          }
+         }
+        }
+       },
+       "allTracked": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "properties": {
+         "autumnDeparture": {
+          "type": [
+           "object",
+           "null"
+          ],
+          "required": [
+           "median",
+           "from",
+           "to",
+           "n"
+          ],
+          "properties": {
+           "median": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "from": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "to": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "n": {
+            "type": "integer",
+            "minimum": 3
+           }
+          }
+         },
+         "autumnArrival": {
+          "type": [
+           "object",
+           "null"
+          ],
+          "required": [
+           "median",
+           "from",
+           "to",
+           "n"
+          ],
+          "properties": {
+           "median": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "from": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "to": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "n": {
+            "type": "integer",
+            "minimum": 3
+           }
+          }
+         },
+         "springDeparture": {
+          "type": [
+           "object",
+           "null"
+          ],
+          "required": [
+           "median",
+           "from",
+           "to",
+           "n"
+          ],
+          "properties": {
+           "median": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "from": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "to": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "n": {
+            "type": "integer",
+            "minimum": 3
+           }
+          }
+         },
+         "springArrival": {
+          "type": [
+           "object",
+           "null"
+          ],
+          "required": [
+           "median",
+           "from",
+           "to",
+           "n"
+          ],
+          "properties": {
+           "median": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "from": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "to": {
+            "type": "string",
+            "pattern": "^\\d\\d-\\d\\d$"
+           },
+           "n": {
+            "type": "integer",
+            "minimum": 3
+           }
+          }
+         }
+        }
+       },
+       "note": {
+        "type": [
+         "string",
+         "null"
+        ]
+       }
+      }
+     },
+     "summerRegion": {
+      "type": [
+       "array",
+       "null"
+      ],
+      "items": {
+       "type": "object",
+       "required": [
+        "en",
+        "de",
+        "animals"
+       ],
+       "properties": {
+        "en": {
+         "type": "string"
+        },
+        "de": {
+         "type": "string"
+        },
+        "animals": {
+         "type": "integer",
+         "minimum": 1
+        }
+       }
+      }
+     },
+     "winterRegion": {
+      "type": [
+       "array",
+       "null"
+      ],
+      "items": {
+       "type": "object",
+       "required": [
+        "en",
+        "de",
+        "animals"
+       ],
+       "properties": {
+        "en": {
+         "type": "string"
+        },
+        "de": {
+         "type": "string"
+        },
+        "animals": {
+         "type": "integer",
+         "minimum": 1
+        }
+       }
+      }
+     },
+     "fact": {
+      "type": "object",
+      "required": [
+       "en",
+       "de",
+       "source"
+      ],
+      "properties": {
+       "en": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 140
+       },
+       "de": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 140
+       },
+       "source": {
+        "type": "object",
+        "required": [
+         "title",
+         "url",
+         "quote"
+        ]
+       }
+      }
+     },
+     "tracked": {
+      "type": "object",
+      "required": [
+       "animals",
+       "migrated",
+       "studies"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

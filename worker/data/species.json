@@ -1,0 +1,1468 @@
+{
+ "about": "Species table (R8) for the 12 featured species (F1). Names and facts: pipeline/species_curated.json, sources verified by pipeline/verify_sources.py. Windows and regions: computed by pipeline/build_species.py from the tracked animals listed under 'tracked' (citations in data/catalog.json). Dates are MM-DD; 'from'/'to' span the middle half of the animals. Re-run before relying on the numbers.",
+ "built": "2026-09-28",
+ "centralEuropeBox": [
+  45,
+  56,
+  5,
+  25
+ ],
+ "species": [
+  {
+   "taxon": "Ciconia ciconia",
+   "names": {
+    "en": "White Stork",
+    "de": "Weißstorch"
+   },
+   "namesSource": {
+    "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+    "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+    "checked": "2026-09-28"
+   },
+   "iucn": "LC",
+   "iucnSource": "GBIF species API, iucnRedListCategory, checked 2026-09-28",
+   "migration": "migratory",
+   "migrationSource": "AVONET",
+   "windows": {
+    "centralEurope": {
+     "autumnDeparture": {
+      "median": "08-23",
+      "from": "08-17",
+      "to": "09-01",
+      "n": 124
+     },
+     "autumnArrival": {
+      "median": "09-18",
+      "from": "09-04",
+      "to": "10-27",
+      "n": 123
+     },
+     "springDeparture": {
+      "median": "02-27",
+      "from": "02-13",
+      "to": "03-20",
+      "n": 124
+     },
+     "springArrival": {
+      "median": "03-28",
+      "from": "03-08",
+      "to": "04-29",
+      "n": 124
+     }
+    },
+    "allTracked": {
+     "autumnDeparture": {
+      "median": "08-20",
+      "from": "08-08",
+      "to": "08-30",
+      "n": 210
+     },
+     "autumnArrival": {
+      "median": "10-03",
+      "from": "09-09",
+      "to": "11-25",
+      "n": 208
+     },
+     "springDeparture": {
+      "median": "03-02",
+      "from": "02-11",
+      "to": "03-25",
+      "n": 210
+     },
+     "springArrival": {
+      "median": "04-17",
+      "from": "03-17",
+      "to": "05-19",
+      "n": 210
+     }
+    },
+    "note": null
+   },
+   "summerRegion": [
+    {
+     "en": "Germany",
+     "de": "Deutschland",
+     "animals": 92
+    },
+    {
+     "en": "Turkey",
+     "de": "Türkei",
+     "animals": 17
+    },
+    {
+     "en": "Spain",
+     "de": "Spanien",
+     "animals": 16
+    }
+   ],
+   "winterRegion": [
+    {
+     "en": "Spain",
+     "de": "Spanien",
+     "animals": 66
+    },
+    {
+     "en": "Sudan",
+     "de": "Sudan",
+     "animals": 31
+    },
+    {
+     "en": "Morocco",
+     "de": "Marokko",
+     "animals": 16
+    }
+   ],
+   "fact": {
+    "en": "Storks taking the western route rarely fly on to Africa today; they winter on the Iberian Peninsula instead.",
+    "de": "Weißstörche auf der Westroute ziehen heute kaum mehr nach Afrika, sie überwintern auf der Iberischen Halbinsel.",
+    "source": {
+     "title": "NABU, Weißstorch: Verbreitung & Bestand",
+     "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/artenschutz/weissstorch/03587.html",
+     "quote": "Diese ziehen heute kaum mehr nach Afrika, sondern verbringen den Winter auf der Iberischen Halbinsel"
+    }
+   },
+   "tracked": {
+    "animals": 274,
+    "migrated": 210,
+    "centralEuropeSummer": 132,
+    "studies": [
+     {
+      "id": "dr-aae5d565-fd19-4fd4-8e2c-b6b5ca88ac5a",
+      "animals": 50,
+      "name": "Data from: Study \"MPIAB Argos white stork tracking (1991-2017)\""
+     },
+     {
+      "id": "24442409",
+      "animals": 36,
+      "name": "LifeTrack White Stork Bavaria"
+     },
+     {
+      "id": "7431347",
+      "animals": 31,
+      "name": "MPIAB Argos white stork tracking (1991-2017)"
+     },
+     {
+      "id": "76367850",
+      "animals": 30,
+      "name": "LifeTrack White Stork Rheinland-Pfalz"
+     },
+     {
+      "id": "74496970",
+      "animals": 21,
+      "name": "MPIAB white stork lifetime tracking data (2013-2014)"
+     },
+     {
+      "id": "21231406",
+      "animals": 21,
+      "name": "LifeTrack White Stork SW Germany"
+     },
+     {
+      "id": "9493881",
+      "animals": 13,
+      "name": "LifeTrack White Stork Uzbekistan"
+     },
+     {
+      "id": "10449318",
+      "animals": 12,
+      "name": "LifeTrack White Stork Loburg"
+     },
+     {
+      "id": "173641633",
+      "animals": 10,
+      "name": "LifeTrack White Stork Vorarlberg"
+     },
+     {
+      "id": "212096177",
+      "animals": 8,
+      "name": "LifeTrack White Stork Oberschwaben"
+     },
+     {
+      "id": "1252230318",
+      "animals": 7,
+      "name": "White stork Ciconidae Western Poland"
+     },
+     {
+      "id": "10449698",
+      "animals": 6,
+      "name": "HUJ MPIAB White Stork GSM 2013"
+     },
+     {
+      "id": "10596067",
+      "animals": 4,
+      "name": "LifeTrack White Stork Moscow"
+     },
+     {
+      "id": "175720577",
+      "animals": 4,
+      "name": "LifeTrack White Stork Kosova"
+     },
+     {
+      "id": "7002955",
+      "animals": 4,
+      "name": "HUJ MPIAB White Stork GSM E-Obs"
+     },
+     {
+      "id": "25166516",
+      "animals": 3,
+      "name": "LifeTrack White Stork Poland ECG"
+     },
+     {
+      "id": "1562253659",
+      "animals": 3,
+      "name": "LifeTrack White Stork Sarralbe [ID_PROG 1093]"
+     },
+     {
+      "id": "446667",
+      "animals": 2,
+      "name": "MPIAB White Stork South African Population Argos"
+     },
+     {
+      "id": "10449535",
+      "animals": 2,
+      "name": "LifeTrack White Stork Greece Evros Delta"
+     },
+     {
+      "id": "10763606",
+      "animals": 2,
+      "name": "LifeTrack White Stork Poland"
+     },
+     {
+      "id": "10157679",
+      "animals": 2,
+      "name": "LifeTrack White Stork Tunisia"
+     },
+     {
+      "id": "10236270",
+      "animals": 2,
+      "name": "LifeTrack White Stork Armenia"
+     },
+     {
+      "id": "1898591",
+      "animals": 1,
+      "name": "MPIAB White Stork Prinzesschen"
+     }
+    ]
+   }
+  },
+  {
+   "taxon": "Grus grus",
+   "names": {
+    "en": "Common Crane",
+    "de": "Kranich"
+   },
+   "namesSource": {
+    "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+    "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+    "checked": "2026-09-28"
+   },
+   "iucn": "LC",
+   "iucnSource": "GBIF species API, iucnRedListCategory, checked 2026-09-28",
+   "migration": "migratory",
+   "migrationSource": "AVONET",
+   "windows": {
+    "centralEurope": {
+     "autumnDeparture": {
+      "median": "10-12",
+      "from": "09-29",
+      "to": "10-29",
+      "n": 4
+     },
+     "autumnArrival": {
+      "median": "11-13",
+      "from": "10-06",
+      "to": "12-19",
+      "n": 4
+     },
+     "springDeparture": {
+      "median": "03-08",
+      "from": "02-10",
+      "to": "03-22",
+      "n": 4
+     },
+     "springArrival": {
+      "median": "03-26",
+      "from": "03-02",
+      "to": "04-12",
+      "n": 4
+     }
+    },
+    "allTracked": {
+     "autumnDeparture": {
+      "median": "09-27",
+      "from": "09-18",
+      "to": "10-04",
+      "n": 20
+     },
+     "autumnArrival": {
+      "median": "11-03",
+      "from": "10-22",
+      "to": "11-25",
+      "n": 20
+     },
+     "springDeparture": {
+      "median": "03-07",
+      "from": "02-26",
+      "to": "03-20",
+      "n": 20
+     },
+     "springArrival": {
+      "median": "04-03",
+      "from": "03-23",
+      "to": "04-13",
+      "n": 20
+     }
+    },
+    "note": null
+   },
+   "summerRegion": [
+    {
+     "en": "Russia",
+     "de": "Russland",
+     "animals": 10
+    },
+    {
+     "en": "Sweden",
+     "de": "Schweden",
+     "animals": 4
+    },
+    {
+     "en": "Lithuania",
+     "de": "Litauen",
+     "animals": 3
+    }
+   ],
+   "winterRegion": [
+    {
+     "en": "Israel",
+     "de": "Israel",
+     "animals": 7
+    },
+    {
+     "en": "Spain",
+     "de": "Spanien",
+     "animals": 4
+    },
+    {
+     "en": "Germany",
+     "de": "Deutschland",
+     "animals": 3
+    }
+   ],
+   "fact": {
+    "en": "Around 400,000 cranes cross Germany each year on a south-western route, to winter in Spain, Portugal or north-west Africa.",
+    "de": "Rund 400.000 Kraniche ziehen jedes Jahr auf der Südwestroute über Deutschland, bis Spanien, Portugal oder Nordwestafrika.",
+    "source": {
+     "title": "NABU, Kranich",
+     "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/artenschutz/kranich/index.html",
+     "quote": "Rund 400.000 Kraniche wählen alljährlich eine südwestliche Zugroute, auf der sie Deutschland in schmaler Front überqueren"
+    }
+   },
+   "tracked": {
+    "animals": 23,
+    "migrated": 20,
+    "centralEuropeSummer": 6,
+    "studies": [
+     {
+      "id": "542653863",
+      "animals": 12,
+      "name": "1000 Cranes. Russia. Common Crane."
+     },
+     {
+      "id": "10722328",
+      "animals": 8,
+      "name": "GPS telemetry of Common Cranes, Sweden"
+     },
+     {
+      "id": "146932094",
+      "animals": 2,
+      "name": "Common Crane Lithuania GPS, 2015-2016"
+     },
+     {
+      "id": "1229945587",
+      "animals": 1,
+      "name": "Common Crane 2020 (Lithuanian University of Educational Studies; LEU)"
+     }
+    ]
+   }
+  },
+  {
+   "taxon": "Pernis apivorus",
+   "names": {
+    "en": "European Honey Buzzard",
+    "de": "Wespenbussard"
+   },
+   "namesSource": {
+    "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+    "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+    "checked": "2026-09-28"
+   },
+   "iucn": "LC",
+   "iucnSource": "GBIF species API, iucnRedListCategory, checked 2026-09-28",
+   "migration": "migratory",
+   "migrationSource": "AVONET",
+   "windows": {
+    "centralEurope": null,
+    "allTracked": null,
+    "note": "Too few animals move 500 km or more between summer and winter to give windows (e.g. sea turtles roam rather than shuttle)."
+   },
+   "summerRegion": [
+    {
+     "en": "Germany",
+     "de": "Deutschland",
+     "animals": 1
+    },
+    {
+     "en": "Russia",
+     "de": "Russland",
+     "animals": 1
+    }
+   ],
+   "winterRegion": [
+    {
+     "en": "Liberia",
+     "de": "Liberia",
+     "animals": 1
+    },
+    {
+     "en": "Cameroon",
+     "de": "Kamerun",
+     "animals": 1
+    }
+   ],
+   "fact": {
+    "en": "Despite its size, the honey buzzard lives mainly on wasps and their larvae, digging the nests out of the ground.",
+    "de": "Wespenbussarde fressen trotz ihrer Größe vor allem Wespen und deren Larven, die sie aus dem Boden graben.",
+    "source": {
+     "title": "NABU, Vogelporträt Wespenbussard",
+     "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/wespenbussard/",
+     "quote": "Trotz seiner stattlichen Größe ernährt er sich in erster Linie von Wespen, deren Larven"
+    }
+   },
+   "tracked": {
+    "animals": 5,
+    "migrated": 2,
+    "centralEuropeSummer": 1,
+    "studies": [
+     {
+      "id": "49904341",
+      "animals": 3,
+      "name": "European Honey-Buzzard, Southern Sweden"
+     },
+     {
+      "id": "186178781",
+      "animals": 2,
+      "name": "Raptors NABU Moessingen public"
+     }
+    ]
+   }
+  },
+  {
+   "taxon": "Streptopelia turtur",
+   "names": {
+    "en": "European Turtle Dove",
+    "de": "Turteltaube"
+   },
+   "namesSource": {
+    "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+    "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+    "checked": "2026-09-28"
+   },
+   "iucn": "VU",
+   "iucnSource": "GBIF species API, iucnRedListCategory, checked 2026-09-28",
+   "migration": "migratory",
+   "migrationSource": "AVONET",
+   "windows": {
+    "centralEurope": {
+     "autumnDeparture": {
+      "median": "09-11",
+      "from": "09-05",
+      "to": "09-13",
+      "n": 3
+     },
+     "autumnArrival": {
+      "median": "09-26",
+      "from": "09-22",
+      "to": "09-27",
+      "n": 3
+     },
+     "springDeparture": {
+      "median": "04-14",
+      "from": "04-14",
+      "to": "04-25",
+      "n": 3
+     },
+     "springArrival": {
+      "median": "05-08",
+      "from": "05-06",
+      "to": "05-10",
+      "n": 3
+     }
+    },
+    "allTracked": {
+     "autumnDeparture": {
+      "median": "09-17",
+      "from": "09-12",
+      "to": "09-22",
+      "n": 17
+     },
+     "autumnArrival": {
+      "median": "10-01",
+      "from": "09-24",
+      "to": "10-07",
+      "n": 17
+     },
+     "springDeparture": {
+      "median": "04-19",
+      "from": "04-17",
+      "to": "04-25",
+      "n": 17
+     },
+     "springArrival": {
+      "median": "05-08",
+      "from": "05-04",
+      "to": "05-18",
+      "n": 17
+     }
+    },
+    "note": null
+   },
+   "summerRegion": [
+    {
+     "en": "Spain",
+     "de": "Spanien",
+     "animals": 6
+    },
+    {
+     "en": "Czech Republic",
+     "de": "Tschechien",
+     "animals": 3
+    },
+    {
+     "en": "France",
+     "de": "Frankreich",
+     "animals": 3
+    }
+   ],
+   "winterRegion": [
+    {
+     "en": "Mali",
+     "de": "Mali",
+     "animals": 5
+    },
+    {
+     "en": "Chad",
+     "de": "Tschad",
+     "animals": 4
+    },
+    {
+     "en": "Senegal",
+     "de": "Senegal",
+     "animals": 3
+    }
+   ],
+   "fact": {
+    "en": "Turtle doves breeding in Britain travel up to about 4,800 km each way to and from West Africa.",
+    "de": "Turteltauben aus Großbritannien fliegen bis zu etwa 4.800 km pro Strecke nach Westafrika und zurück.",
+    "source": {
+     "title": "RSPB, Turtle Dove",
+     "url": "https://www.rspb.org.uk/birds-and-wildlife/turtle-dove",
+     "quote": "UK-breeding Turtle Doves travel up to 3,000 miles each way to and from West Africa"
+    }
+   },
+   "tracked": {
+    "animals": 18,
+    "migrated": 17,
+    "centralEuropeSummer": 3,
+    "studies": [
+     {
+      "id": "3413045568",
+      "animals": 16,
+      "name": "Habitrack European Turtle Dove"
+     },
+     {
+      "id": "7675204759",
+      "animals": 2,
+      "name": "TURTUR_VLAANDEREN - European turtle doves (Streptopelia turtur, Columbidae) breeding in Flanders (Belgium)"
+     }
+    ]
+   }
+  },
+  {
+   "taxon": "Larus fuscus",
+   "names": {
+    "en": "Lesser Black-backed Gull",
+    "de": "Heringsmöwe"
+   },
+   "namesSource": {
+    "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+    "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+    "checked": "2026-09-28"
+   },
+   "iucn": "LC",
+   "iucnSource": "GBIF species API, iucnRedListCategory, checked 2026-09-28",
+   "migration": "partial",
+   "migrationSource": "AVONET",
+   "windows": {
+    "centralEurope": {
+     "autumnDeparture": {
+      "median": "08-08",
+      "from": "07-31",
+      "to": "08-11",
+      "n": 19
+     },
+     "autumnArrival": {
+      "median": "11-11",
+      "from": "08-24",
+      "to": "12-03",
+      "n": 19
+     },
+     "springDeparture": {
+      "median": "03-18",
+      "from": "03-10",
+      "to": "03-28",
+      "n": 19
+     },
+     "springArrival": {
+      "median": "04-02",
+      "from": "03-19",
+      "to": "04-12",
+      "n": 19
+     }
+    },
+    "allTracked": {
+     "autumnDeparture": {
+      "median": "09-01",
+      "from": "08-04",
+      "to": "11-09",
+      "n": 218
+     },
+     "autumnArrival": {
+      "median": "11-17",
+      "from": "09-28",
+      "to": "11-30",
+      "n": 218
+     },
+     "springDeparture": {
+      "median": "03-20",
+      "from": "03-06",
+      "to": "03-31",
+      "n": 218
+     },
+     "springArrival": {
+      "median": "04-01",
+      "from": "03-19",
+      "to": "04-13",
+      "n": 217
+     }
+    },
+    "note": null
+   },
+   "summerRegion": [
+    {
+     "en": "Netherlands",
+     "de": "Niederlande",
+     "animals": 114
+    },
+    {
+     "en": "Belgium",
+     "de": "Belgien",
+     "animals": 65
+    },
+    {
+     "en": "France",
+     "de": "Frankreich",
+     "animals": 19
+    }
+   ],
+   "winterRegion": [
+    {
+     "en": "Spain",
+     "de": "Spanien",
+     "animals": 78
+    },
+    {
+     "en": "Morocco",
+     "de": "Marokko",
+     "animals": 67
+    },
+    {
+     "en": "Portugal",
+     "de": "Portugal",
+     "animals": 17
+    }
+   ],
+   "fact": {
+    "en": "More and more lesser black-backed gulls stay on the North Sea for the winter instead of flying south.",
+    "de": "Heringsmöwen bleiben immer häufiger auch im Winter auf der Nordsee, statt nach Süden zu ziehen.",
+    "source": {
+     "title": "NABU, Vogelporträt Heringsmöwe",
+     "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/heringsmoewe/",
+     "quote": "Heringsmöwen bleiben immer häufiger auch im Winter in unseren Breiten auf der Nordsee"
+    }
+   },
+   "tracked": {
+    "animals": 251,
+    "migrated": 218,
+    "centralEuropeSummer": 21,
+    "studies": [
+     {
+      "id": "985143423",
+      "animals": 85,
+      "name": "LBBG_ZEEBRUGGE - Lesser black-backed gulls (Larus fuscus, Laridae) breeding at the southern North Sea coast (Belgium and the Netherlands)"
+     },
+     {
+      "id": "1258895879",
+      "animals": 55,
+      "name": "DELTATRACK - Herring gulls (Larus argentatus, Laridae) and lesser black-backed gulls (Larus fuscus, Laridae) breeding at Neeltje Jans (Netherlands)"
+     },
+     {
+      "id": "8872908449",
+      "animals": 46,
+      "name": "LBBG_TEXEL - Lesser black-backed gulls (Larus fuscus, Laridae) breeding in Texel (the Netherlands)"
+     },
+     {
+      "id": "2988333",
+      "animals": 18,
+      "name": "Navigation experiments in lesser black-backed gulls (data from Wikelski et al. 2015)"
+     },
+     {
+      "id": "8872901376",
+      "animals": 17,
+      "name": "LBBG_SCHIERMONNIKOOG - Lesser black-backed gulls (Larus fuscus, Laridae) breeding in Schiermonnikoog (the Netherlands)"
+     },
+     {
+      "id": "2298738353",
+      "animals": 12,
+      "name": "LBBG_ADULT - Lesser black-backed gulls (Larus fuscus, Laridae) breeding in Belgium"
+     },
+     {
+      "id": "8872890087",
+      "animals": 9,
+      "name": "LBBG_IJMUIDEN - Lesser black-backed gulls (Larus fuscus, Laridae) breeding in IJmuiden (the Netherlands)"
+     },
+     {
+      "id": "1259686571",
+      "animals": 8,
+      "name": "LBBG_JUVENILE - Juvenile lesser black-backed gulls (Larus fuscus, Laridae) and herring gulls (Larus argentatus, Laridae) hatched in Zeebrugge (Belgium)"
+     },
+     {
+      "id": "1445058753",
+      "animals": 1,
+      "name": "Larus heuglini_1"
+     }
+    ]
+   }
+  },
+  {
+   "taxon": "Lanius collurio",
+   "names": {
+    "en": "Red-backed Shrike",
+    "de": "Neuntöter"
+   },
+   "namesSource": {
+    "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+    "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+    "checked": "2026-09-28"
+   },
+   "iucn": "LC",
+   "iucnSource": "GBIF species API, iucnRedListCategory, checked 2026-09-28",
+   "migration": "migratory",
+   "migrationSource": "AVONET",
+   "windows": {
+    "centralEurope": {
+     "autumnDeparture": {
+      "median": "07-11",
+      "from": "07-03",
+      "to": "07-26",
+      "n": 9
+     },
+     "autumnArrival": {
+      "median": "12-14",
+      "from": "12-09",
+      "to": "01-05",
+      "n": 8
+     },
+     "springDeparture": {
+      "median": "01-29",
+      "from": "01-21",
+      "to": "02-24",
+      "n": 9
+     },
+     "springArrival": {
+      "median": "05-23",
+      "from": "05-13",
+      "to": "06-10",
+      "n": 6
+     }
+    },
+    "allTracked": {
+     "autumnDeparture": {
+      "median": "07-28",
+      "from": "07-11",
+      "to": "08-07",
+      "n": 21
+     },
+     "autumnArrival": {
+      "median": "12-07",
+      "from": "11-20",
+      "to": "12-20",
+      "n": 20
+     },
+     "springDeparture": {
+      "median": "01-26",
+      "from": "01-20",
+      "to": "02-18",
+      "n": 21
+     },
+     "springArrival": {
+      "median": "05-30",
+      "from": "05-20",
+      "to": "06-06",
+      "n": 17
+     }
+    },
+    "note": null
+   },
+   "summerRegion": [
+    {
+     "en": "Sweden",
+     "de": "Schweden",
+     "animals": 5
+    },
+    {
+     "en": "Germany",
+     "de": "Deutschland",
+     "animals": 4
+    },
+    {
+     "en": "Spain",
+     "de": "Spanien",
+     "animals": 4
+    }
+   ],
+   "winterRegion": [
+    {
+     "en": "Namibia",
+     "de": "Namibia",
+     "animals": 8
+    },
+    {
+     "en": "Mozambique",
+     "de": "Mosambik",
+     "animals": 4
+    },
+    {
+     "en": "South Africa",
+     "de": "Südafrika",
+     "animals": 3
+    }
+   ],
+   "fact": {
+    "en": "Red-backed shrikes fly a loop of about 22,000 km a year, coming back north across the Arabian Peninsula.",
+    "de": "Neuntöter fliegen jedes Jahr eine Schleife von rund 22.000 km, zurück nach Norden über die Arabische Halbinsel.",
+    "source": {
+     "title": "Tøttrup et al. 2012, Proc. R. Soc. B 279: 1008-1016",
+     "url": "https://doi.org/10.1098/rspb.2011.1323",
+     "europepmc": "DOI:10.1098/rspb.2011.1323",
+     "quote": "The birds performed a distinct loop migration (22 000 km) where spring distance, including a detour across the Arabian Peninsula"
+    }
+   },
+   "tracked": {
+    "animals": 25,
+    "migrated": 21,
+    "centralEuropeSummer": 9,
+    "studies": [
+     {
+      "id": "533427629",
+      "animals": 13,
+      "name": "Migration of red-backed shrikes from southern Scandinavia (data from Pedersen et al. 2018)"
+     },
+     {
+      "id": "225376313",
+      "animals": 6,
+      "name": "Migration of red-backed shrikes from the Iberian Peninsula (data from Tøttrup et al. 2017)"
+     },
+     {
+      "id": "890556697",
+      "animals": 6,
+      "name": "Migration of male and female red-backed shrikes from southern Scandinavia (data from Pedersen et al. 2019)"
+     }
+    ]
+   }
+  },
+  {
+   "taxon": "Oenanthe oenanthe",
+   "names": {
+    "en": "Northern Wheatear",
+    "de": "Steinschmätzer"
+   },
+   "namesSource": {
+    "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+    "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+    "checked": "2026-09-28"
+   },
+   "iucn": "LC",
+   "iucnSource": "GBIF species API, iucnRedListCategory, checked 2026-09-28",
+   "migration": "migratory",
+   "migrationSource": "AVONET",
+   "windows": {
+    "centralEurope": {
+     "autumnDeparture": {
+      "median": "08-30",
+      "from": "08-08",
+      "to": "09-15",
+      "n": 11
+     },
+     "autumnArrival": {
+      "median": "10-11",
+      "from": "10-05",
+      "to": "10-12",
+      "n": 11
+     },
+     "springDeparture": {
+      "median": "04-03",
+      "from": "03-18",
+      "to": "04-08",
+      "n": 11
+     },
+     "springArrival": {
+      "median": "04-25",
+      "from": "04-21",
+      "to": "04-26",
+      "n": 11
+     }
+    },
+    "allTracked": {
+     "autumnDeparture": {
+      "median": "08-30",
+      "from": "08-08",
+      "to": "09-15",
+      "n": 11
+     },
+     "autumnArrival": {
+      "median": "10-11",
+      "from": "10-05",
+      "to": "10-12",
+      "n": 11
+     },
+     "springDeparture": {
+      "median": "04-03",
+      "from": "03-18",
+      "to": "04-08",
+      "n": 11
+     },
+     "springArrival": {
+      "median": "04-25",
+      "from": "04-21",
+      "to": "04-26",
+      "n": 11
+     }
+    },
+    "note": null
+   },
+   "summerRegion": [
+    {
+     "en": "Switzerland",
+     "de": "Schweiz",
+     "animals": 6
+    },
+    {
+     "en": "Austria",
+     "de": "Österreich",
+     "animals": 3
+    },
+    {
+     "en": "Germany",
+     "de": "Deutschland",
+     "animals": 2
+    }
+   ],
+   "winterRegion": [
+    {
+     "en": "Mali",
+     "de": "Mali",
+     "animals": 5
+    },
+    {
+     "en": "Niger",
+     "de": "Niger",
+     "animals": 2
+    },
+    {
+     "en": "Benin",
+     "de": "Benin",
+     "animals": 2
+    }
+   ],
+   "fact": {
+    "en": "Wheatears breeding in Alaska fly about 14,500 km each way to Africa, weighing only about 25 g.",
+    "de": "Steinschmätzer aus Alaska fliegen rund 14.500 km pro Strecke nach Afrika, bei nur etwa 25 g Gewicht.",
+    "source": {
+     "title": "Bairlein et al. 2012, Biol. Lett. 8: 505-507",
+     "url": "https://doi.org/10.1098/rsbl.2011.1223",
+     "europepmc": "DOI:10.1098/rsbl.2011.1223",
+     "quote": "with Alaskan birds travelling approximately 14 500 km each way"
+    }
+   },
+   "tracked": {
+    "animals": 13,
+    "migrated": 11,
+    "centralEuropeSummer": 11,
+    "studies": [
+     {
+      "id": "dr-d9ff92aa-47b8-4c41-881a-ae5e59e11daa",
+      "animals": 6,
+      "name": "Data from: Locally adapted migration strategies: Comparing routes and timing of northern wheatears from alpine and lowland European populations [Switzerland]"
+     },
+     {
+      "id": "dr-33fd8766-cd94-4835-af96-013840dc32f7",
+      "animals": 5,
+      "name": "Data from: Locally adapted migration strategies: Comparing routes and timing of northern wheatears from alpine and lowland European populations [Austria]"
+     },
+     {
+      "id": "dr-bc44a6b0-188f-44e7-b9fb-b687f4f201b5",
+      "animals": 2,
+      "name": "Data from: Locally adapted migration strategies: Comparing routes and timing of northern wheatears from alpine and lowland European populations [Germany]"
+     }
+    ]
+   }
+  },
+  {
+   "taxon": "Numenius madagascariensis",
+   "names": {
+    "en": "Far Eastern Curlew",
+    "de": "Isabellbrachvogel"
+   },
+   "namesSource": {
+    "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+    "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+    "checked": "2026-09-28"
+   },
+   "iucn": "EN",
+   "iucnSource": "GBIF species API, iucnRedListCategory, checked 2026-09-28",
+   "migration": "migratory",
+   "migrationSource": "AVONET",
+   "windows": {
+    "centralEurope": null,
+    "allTracked": {
+     "autumnDeparture": {
+      "median": "07-13",
+      "from": "07-01",
+      "to": "08-01",
+      "n": 10
+     },
+     "autumnArrival": {
+      "median": "09-28",
+      "from": "08-25",
+      "to": "10-22",
+      "n": 10
+     },
+     "springDeparture": {
+      "median": "03-25",
+      "from": "03-18",
+      "to": "04-09",
+      "n": 10
+     },
+     "springArrival": {
+      "median": "05-03",
+      "from": "04-08",
+      "to": "06-06",
+      "n": 10
+     }
+    },
+    "note": null
+   },
+   "summerRegion": [
+    {
+     "en": "People's Republic of China",
+     "de": "Volksrepublik China",
+     "animals": 5
+    },
+    {
+     "en": "Russia",
+     "de": "Russland",
+     "animals": 3
+    },
+    {
+     "en": "North Korea",
+     "de": "Nordkorea",
+     "animals": 1
+    }
+   ],
+   "winterRegion": [
+    {
+     "en": "Australia",
+     "de": "Australien",
+     "animals": 10
+    }
+   ],
+   "fact": {
+    "en": "Australia's largest shorebird flies to Russia and north-eastern China every year to breed.",
+    "de": "Australiens größter Watvogel fliegt jedes Jahr zum Brüten nach Russland und Nordostchina.",
+    "source": {
+     "title": "Australian Government DCCEEW, Species Profile and Threats Database: Numenius madagascariensis",
+     "url": "http://www.environment.gov.au/cgi-bin/sprat/public/publicspecies.pl?taxon_id=847",
+     "quote": "The eastern curlew is Australia’s largest shorebird"
+    }
+   },
+   "tracked": {
+    "animals": 11,
+    "migrated": 10,
+    "centralEuropeSummer": 0,
+    "studies": [
+     {
+      "id": "dr-a09b1cb2-d2ed-4197-82ea-e6248f0d67c0",
+      "animals": 11,
+      "name": "Data from: Study \"Full annual cycle tracking of Far Eastern Curlew (Numenius madagascariensis)\""
+     }
+    ]
+   }
+  },
+  {
+   "taxon": "Buteo platypterus",
+   "names": {
+    "en": "Broad-winged Hawk",
+    "de": "Breitflügelbussard"
+   },
+   "namesSource": {
+    "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+    "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+    "checked": "2026-09-28"
+   },
+   "iucn": "LC",
+   "iucnSource": "GBIF species API, iucnRedListCategory, checked 2026-09-28",
+   "migration": "migratory",
+   "migrationSource": "AVONET",
+   "windows": {
+    "centralEurope": null,
+    "allTracked": {
+     "autumnDeparture": {
+      "median": "09-12",
+      "from": "09-08",
+      "to": "09-17",
+      "n": 14
+     },
+     "autumnArrival": {
+      "median": "11-05",
+      "from": "10-14",
+      "to": "11-10",
+      "n": 14
+     },
+     "springDeparture": {
+      "median": "03-12",
+      "from": "03-04",
+      "to": "03-23",
+      "n": 14
+     },
+     "springArrival": {
+      "median": "04-24",
+      "from": "04-17",
+      "to": "04-29",
+      "n": 14
+     }
+    },
+    "note": null
+   },
+   "summerRegion": [
+    {
+     "en": "United States of America",
+     "de": "Vereinigte Staaten",
+     "animals": 11
+    },
+    {
+     "en": "Canada",
+     "de": "Kanada",
+     "animals": 3
+    }
+   ],
+   "winterRegion": [
+    {
+     "en": "Peru",
+     "de": "Peru",
+     "animals": 4
+    },
+    {
+     "en": "Colombia",
+     "de": "Kolumbien",
+     "animals": 3
+    },
+    {
+     "en": "Costa Rica",
+     "de": "Costa Rica",
+     "animals": 2
+    }
+   ],
+   "fact": {
+    "en": "In autumn most broad-winged hawks pass the hawk-watch sites within just two weeks, often in flocks of thousands.",
+    "de": "Im Herbst ziehen die meisten Breitflügelbussarde binnen nur zwei Wochen an den Zählstellen vorbei, oft zu Tausenden.",
+    "source": {
+     "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+     "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+     "quote": "in autumn the majority of individuals pass migration watchsites during a brief and concentrated two-week period"
+    }
+   },
+   "tracked": {
+    "animals": 20,
+    "migrated": 14,
+    "centralEuropeSummer": 0,
+    "studies": [
+     {
+      "id": "28691134",
+      "animals": 20,
+      "name": "Broad-winged Hawk habitat use, range, and movement ecology"
+     }
+    ]
+   }
+  },
+  {
+   "taxon": "Cathartes aura",
+   "names": {
+    "en": "Turkey Vulture",
+    "de": "Truthahngeier"
+   },
+   "namesSource": {
+    "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+    "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+    "checked": "2026-09-28"
+   },
+   "iucn": "LC",
+   "iucnSource": "GBIF species API, iucnRedListCategory, checked 2026-09-28",
+   "migration": "partial",
+   "migrationSource": "AVONET",
+   "windows": {
+    "centralEurope": null,
+    "allTracked": {
+     "autumnDeparture": {
+      "median": "10-04",
+      "from": "09-26",
+      "to": "10-13",
+      "n": 66
+     },
+     "autumnArrival": {
+      "median": "10-28",
+      "from": "10-10",
+      "to": "11-21",
+      "n": 66
+     },
+     "springDeparture": {
+      "median": "03-19",
+      "from": "03-02",
+      "to": "04-05",
+      "n": 66
+     },
+     "springArrival": {
+      "median": "04-05",
+      "from": "03-18",
+      "to": "04-29",
+      "n": 66
+     }
+    },
+    "note": null
+   },
+   "summerRegion": [
+    {
+     "en": "United States of America",
+     "de": "Vereinigte Staaten",
+     "animals": 37
+    },
+    {
+     "en": "Canada",
+     "de": "Kanada",
+     "animals": 16
+    },
+    {
+     "en": "Brazil",
+     "de": "Brasilien",
+     "animals": 6
+    }
+   ],
+   "winterRegion": [
+    {
+     "en": "Mexico",
+     "de": "Mexiko",
+     "animals": 21
+    },
+    {
+     "en": "Argentina",
+     "de": "Argentinien",
+     "animals": 12
+    },
+    {
+     "en": "Venezuela",
+     "de": "Venezuela",
+     "animals": 10
+    }
+   ],
+   "fact": {
+    "en": "Turkey vultures are the most migratory of all vultures and find carrion by smell as well as by sight.",
+    "de": "Truthahngeier sind die zugfreudigsten aller Geier und finden Aas mit dem Geruchssinn wie mit den Augen.",
+    "source": {
+     "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+     "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+     "quote": "Have an acute sense of smell, which enables them to find carrion by both smell and sight"
+    }
+   },
+   "tracked": {
+    "animals": 89,
+    "migrated": 66,
+    "centralEuropeSummer": 0,
+    "studies": [
+     {
+      "id": "217784323",
+      "animals": 30,
+      "name": "Vultures Acopian Center USA 2003-2016"
+     },
+     {
+      "id": "481458",
+      "animals": 27,
+      "name": "Vultures Acopian Center USA GPS"
+     },
+     {
+      "id": "16880941",
+      "animals": 18,
+      "name": "Turkey vultures in North and South America (data from Dodge et al. 2014)"
+     },
+     {
+      "id": "dr-1777d9ed-d62e-480c-83d7-82476ba09c5c",
+      "animals": 14,
+      "name": "Data from: Study \"Vultures tagged in the southeastern United States\" [part]"
+     }
+    ]
+   }
+  },
+  {
+   "taxon": "Balaenoptera musculus",
+   "names": {
+    "en": "Blue Whale",
+    "de": "Blauwal"
+   },
+   "namesSource": {
+    "title": "NOAA Fisheries (en); German Wikipedia taxobox (de)",
+    "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+    "url_de": "https://de.wikipedia.org/wiki/Blauwal",
+    "checked": "2026-09-28"
+   },
+   "iucn": "EN",
+   "iucnSource": "GBIF species API, iucnRedListCategory, checked 2026-09-28",
+   "migration": "migratory",
+   "migrationSource": "curated (verify, R8)",
+   "windows": {
+    "centralEurope": null,
+    "allTracked": null,
+    "note": "Too few animals move 500 km or more between summer and winter to give windows (e.g. sea turtles roam rather than shuttle)."
+   },
+   "summerRegion": [
+    {
+     "en": "Pacific Ocean",
+     "de": "Pazifischer Ozean",
+     "animals": 1
+    }
+   ],
+   "winterRegion": [
+    {
+     "en": "Gulf of California",
+     "de": "Golf von Kalifornien",
+     "animals": 1
+    }
+   ],
+   "fact": {
+    "en": "Blue whales of the eastern North Pacific feed off the US West Coast in summer and spend winter off Mexico and Central America.",
+    "de": "Blauwale des östlichen Nordpazifiks fressen im Sommer vor der US-Westküste und überwintern vor Mexiko und Mittelamerika.",
+    "source": {
+     "title": "NOAA Fisheries, Blue Whale",
+     "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+     "quote": "eastern North Pacific blue whales are believed to spend winters off of Mexico and Central America"
+    }
+   },
+   "tracked": {
+    "animals": 1,
+    "migrated": 1,
+    "centralEuropeSummer": 0,
+    "studies": [
+     {
+      "id": "650188969",
+      "animals": 1,
+      "name": "Blue whales Eastern North Pacific 1993-2008 - Argos data"
+     }
+    ]
+   }
+  },
+  {
+   "taxon": "Caretta caretta",
+   "names": {
+    "en": "Loggerhead Turtle",
+    "de": "Unechte Karettschildkröte"
+   },
+   "namesSource": {
+    "title": "NOAA Fisheries (en); German Wikipedia taxobox (de)",
+    "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+    "url_de": "https://de.wikipedia.org/wiki/Unechte_Karettschildkr%C3%B6te",
+    "checked": "2026-09-28"
+   },
+   "iucn": "VU",
+   "iucnSource": "GBIF species API, iucnRedListCategory, checked 2026-09-28",
+   "migration": "migratory",
+   "migrationSource": "curated (verify, R8)",
+   "windows": {
+    "centralEurope": null,
+    "allTracked": null,
+    "note": "Too few animals move 500 km or more between summer and winter to give windows (e.g. sea turtles roam rather than shuttle)."
+   },
+   "summerRegion": [
+    {
+     "en": "Korea Strait",
+     "de": "Koreastraße",
+     "animals": 1
+    },
+    {
+     "en": "Pacific Ocean",
+     "de": "Pazifischer Ozean",
+     "animals": 1
+    }
+   ],
+   "winterRegion": [
+    {
+     "en": "Sea of Japan",
+     "de": "Japanisches Meer",
+     "animals": 1
+    },
+    {
+     "en": "Pacific Ocean",
+     "de": "Pazifischer Ozean",
+     "animals": 1
+    }
+   ],
+   "fact": {
+    "en": "Young loggerheads from Japan cross the whole Pacific to feed off Mexico, nearly 13,000 km away.",
+    "de": "Junge Unechte Karettschildkröten aus Japan durchqueren den Pazifik bis vor Mexiko, fast 13.000 km weit.",
+    "source": {
+     "title": "NOAA Fisheries, Loggerhead Turtle",
+     "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+     "quote": "Hatchlings from nesting beaches in Japan and Australia have been tracked migrating across the Pacific"
+    }
+   },
+   "tracked": {
+    "animals": 8,
+    "migrated": 2,
+    "centralEuropeSummer": 0,
+    "studies": [
+     {
+      "id": "dr-0a818ffd-e318-4c56-9cba-3ee578bb7a88",
+      "animals": 5,
+      "name": "Data from: Latitudinal cline in the ratio of foraging dichotomy in the North Pacific population of loggerhead turtles revealed a priority conservation area"
+     },
+     {
+      "id": "3030282201",
+      "animals": 2,
+      "name": "Marine bioresource conservation and restoration research"
+     },
+     {
+      "id": "dr-9500806c-2712-4906-99d3-64a46c1f877b",
+      "animals": 1,
+      "name": "Data from: Study \"Satellite Tracking of Oceanic Loggerhead Turtles in the Mediterranean\""
+     }
+    ]
+   }
+  }
+ ]
+}
