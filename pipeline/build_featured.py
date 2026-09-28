@@ -91,8 +91,8 @@ def place_of(layers, lat, lon, marine=False):
 
 # ---------- stays ----------
 
-def stays_of(tab):
-    """Runs of at least STAY_DAYS days within STAY_KM of their first day, on the
+def stays_of(tab, stay_km=STAY_KM):
+    """Runs of at least STAY_DAYS days within stay_km of their first day, on the
     circular year. Returns [start_doy, end_doy, lat, lon] with the median position."""
     n = len(tab)
     still = [False] * n
@@ -100,7 +100,7 @@ def stays_of(tab):
         if not tab[d]:
             continue
         win = [tab[(d + k) % n] for k in range(STAY_DAYS)]
-        if all(win) and max(km(win[0], w) for w in win) <= STAY_KM:
+        if all(win) and max(km(win[0], w) for w in win) <= stay_km:
             for k in range(STAY_DAYS):
                 still[(d + k) % n] = True
     if all(still):
@@ -171,7 +171,13 @@ def main():
         cands = []
         for a in animals:
             tab = tables[a["id"]]
-            st = stays_of([t[:2] if t else None for t in tab])
+            pts = [t[:2] if t else None for t in tab]
+            # Geolocator positions jitter by ~100-200 km a day, which hides real stays
+            # at 100 km (seen: a shrike's Sahel and southern Africa winters). Scale the
+            # radius to the animal's own day-to-day noise.
+            steps = sorted(km(pts[i], pts[i + 1]) for i in range(365) if pts[i] and pts[i + 1])
+            stay_km = max(STAY_KM, 2.5 * steps[len(steps) // 2]) if steps else STAY_KM
+            st = stays_of(pts, stay_km)
             hops = [km(st[i][2:4], st[(i + 1) % len(st)][2:4]) for i in range(len(st))] if len(st) > 1 else [0]
             if max(hops) < MIN_JOURNEY_KM:
                 stats["skipped_no_journey"] += 1
