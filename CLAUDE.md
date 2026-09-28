@@ -14,7 +14,7 @@ Full view built and checked, not deployed, not seen on a device. Worker (`worker
 | `docs/DECISIONS.md` | Decided and open decisions (D1 to D4 and later ones), dated. |
 | `docs/SOURCES.md` | Facts about outside systems (Movebank, GBIF, TRMNL, CC). Each fact carries its source URL, date checked and who checked it. |
 | `docs/survey/` | Task 0: method, per-study records, raw captured responses, results. |
-| `data/studies.json` | Study whitelist (R4). Empty until task 0 produces eligible studies. Schema in `data/studies.schema.json`. |
+| `data/studies.json` | Study whitelist (R4): the 11 Movebank studies behind the featured animals, built by `pipeline/build_whitelist.py`. Schema in `data/studies.schema.json`. |
 | `worker/`, `template/` | The Worker (payload, cron refresh, `wrangler.toml`, tests) and the TRMNL templates; each has a README with its checks. |
 | `docs/FULL_VIEW.md` | Plan for the full view: what is on screen, which code it reuses (with line numbers), open questions. |
 | `docs/CATALOG.md` | What the catalog contains, pipeline rules, known gaps, featured proposal, UX draft. |
@@ -23,7 +23,7 @@ Full view built and checked, not deployed, not seen on a device. Worker (`worker
 | `docs/survey/acceptance/` | Record of the 556 Movebank license acceptances. |
 | `data/permissions/` | Written permissions from data owners (section 2 of the brief). A whitelist entry that is not CC0 or CC BY must point to a file here. |
 
-Planned later (not created yet, do not create before the decision that needs them): `worker/` (Cloudflare Worker, R1, R2), `recipe/` (TRMNL templates, section 8), `fixtures/` (R23), `docs/TEXT_REQUIREMENTS.md` (R16, before any copy), `data/species.json` (R8).
+Planned later (not created yet, do not create before the decision that needs them): `fixtures/` (R23, storefront data), `docs/TEXT_REQUIREMENTS.md` (R16, before any copy), `data/species.json` (R8).
 
 ## Working method (adopted 2026-09-27, applies to every TRMNL recipe)
 
