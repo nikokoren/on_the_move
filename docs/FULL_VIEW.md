@@ -38,7 +38,7 @@
 - **Scale.** Nextbike spans about 1 km and uses flat metre arithmetic (`along`, `metresBetween`, `within`). Our tracks span thousands of km. Use `map.project()` to test what is in the frame and great-circle maths for distance and bearing; flat maths is wrong by hundreds of km at this size.
 - **Framing.** Nextbike fixes the scale around the reader. Ours has to frame an animal: proposal, centre on today's position, short side covering the last 10 days of track or 500 km, whichever is larger. The leg start and destination may fall outside; the solid line simply runs off, the destination gets the callout. To decide.
 - **Antimeridian.** The curlew, whale and turtle tracks can cross 180°. Unwrap longitudes before drawing.
-- **Payload limit: conflicting notes.** Nextbike's CLAUDE.md says TRMNL truncates at 5 KB; Map of the Day's comment says 95 KB; our brief says about 10 KB. Check the TRMNL docs before designing the payload. Estimate for this view: about 2 KB (two lines of 40 points each as bare number lists, plus about 400 bytes of text).
+- **Payload limit: conflicting notes.** Nextbike's CLAUDE.md says TRMNL truncates at 5 KB (observed); Map of the Day's comment says 95 KB; our brief says about 10 KB; a web search summary on 2026-09-28 said about 100 KB for polling and 2 KB (5 KB with TRMNL+) for webhooks (help.trmnl.com private plugins, docs.trmnl.com webhooks; summary only, not the pages themselves). Design to stay under 5 KB so every figure holds: this view needs about 2 KB (two lines of 40 points each as bare number lists, plus about 400 bytes of text). Settle it with a real test when the Worker exists.
 
 ## Payload sketch (full view)
 
