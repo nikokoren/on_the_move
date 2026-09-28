@@ -4,7 +4,7 @@ Read this first in every session. The repo is the memory: agents keep nothing be
 
 ## Status (2026-09-28)
 
-Deployed 2026-09-28 by the owner (Worker `on-the-move`, KV namespace `on_the_move`, secrets set, cron `23 */6 * * *` registered). Endpoint checked from here: en/de payloads, viewer's local day, 1.2 to 1.5 KB. First cron refresh not yet observed (`npx wrangler tail`). Not yet set up in TRMNL, not seen on a device (R25). Worker URL stays out of the docs (Nextbike practice). Open items in `docs/FULL_VIEW.md`; species table (R8) and smaller views still to do.
+Deployed 2026-09-28 by the owner (Worker `on-the-move`, KV namespace `on_the_move`, secrets set, cron `23 */6 * * *` registered). Endpoint checked from here: en/de payloads, viewer's local day, 1.2 to 1.5 KB. First cron refresh not yet observed (`npx wrangler tail`). Not yet set up in TRMNL, not seen on a device (R25). Worker URL stays out of the docs (Nextbike practice). Species table (R8) done 2026-09-28: `data/species.json`, facts shown on screen. Open items in `docs/FULL_VIEW.md` (design review: 2-bit greys, credit on screen); smaller views still to do.
 
 ## Where things are
 
@@ -20,10 +20,12 @@ Deployed 2026-09-28 by the owner (Worker `on-the-move`, KV namespace `on_the_mov
 | `docs/CATALOG.md` | What the catalog contains, pipeline rules, known gaps, featured proposal, UX draft. |
 | `pipeline/build_catalog.py` | Builds the catalog from Movebank and the Movebank Data Repository. Needs Movebank credentials in the environment; caches in `pipeline/.cache/` (git-ignored). |
 | `data/catalog.json`, `data/usual/`, `data/featured.json` | Built catalog, per-animal day-of-year tables, the 12 featured species (F1). Regenerate with the pipeline; do not edit by hand. |
+| `data/species.json` | Species table (R8): sourced names and facts (`pipeline/species_curated.json`, checked by `pipeline/verify_sources.py`), windows and regions from the tracks (`pipeline/build_species.py`). |
+| `docs/TEXT_REQUIREMENTS.md` | Text slots, measured lengths and copy rules (R16); enforced by `worker/check.mjs`. |
 | `docs/survey/acceptance/` | Record of the 556 Movebank license acceptances. |
 | `data/permissions/` | Written permissions from data owners (section 2 of the brief). A whitelist entry that is not CC0 or CC BY must point to a file here. |
 
-Planned later (not created yet, do not create before the decision that needs them): `fixtures/` (R23, storefront data), `docs/TEXT_REQUIREMENTS.md` (R16, before any copy), `data/species.json` (R8).
+Planned later (not created yet, do not create before the decision that needs them): `fixtures/` (R23, storefront data).
 
 ## Working method (adopted 2026-09-27, applies to every TRMNL recipe)
 

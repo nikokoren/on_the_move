@@ -83,6 +83,19 @@ Open:
 2. The basemap labels are in local scripts (Korean, Arabic). TRMNL's framework draws them; changing them means replacing its labels. Owner's call.
 3. Geolocator tracks are smoothed but still coarse: the wheatear "stays" on the Mediterranean on its way south; stays for land birds far from any coast keep sea names.
 4. Coastal marine animals sit on the coastline after R14 rounding (blue whale).
-5. Facts are only data-derived so far; curated species facts wait for the species table (R8).
+5. ~~Species facts~~ done 2026-09-28: one sourced fact per species (R8, `data/species.json`) leads the rotation, then the animal's own numbers.
 6. ~~Deployment config~~ written 2026-09-28: `worker/wrangler.toml` (KV id is a placeholder until the namespace exists), `worker/README.md`, `template/settings.yml`, polling URL in `template/README.md` with `{{ trmnl.user.utc_offset }}` (as Nextbike uses it in production). Deploy needs the owner's Cloudflare account; not done.
 7. Other screen sizes, portrait, and the smaller views (V1: later).
+
+## Design review topics (raised by the owner, 2026-09-28, after the first real render)
+
+The owner's screenshot shows the white stork Kiki in German, with TRMNL's "Refreshed" badge, so it is TRMNL's own render and not the Chromium harness.
+
+1. **Greys do not survive on 2-bit screens.** The sea is white like the land and coastlines have almost vanished (compare `docs/previews/`, rendered in Chromium, where the sea is mid grey). To investigate: how TRMNLPaint's slots resolve at 2-bit versus the browser; whether the `streets` preset relies on greys the panel drops; how Nearby Nextbike looks on the same device (its notes say the basemap dithers legibly at 1 bit). The harness renders colour, so it cannot catch this: it needs a 1-bit and 2-bit mode, or a device check.
+2. **Does the data credit have to be on every render?**
+   - Brief R18 as written: yes, every view shows the credit, with an abbreviated form allowed when space is short.
+   - CC BY 4.0 legal code, section 3(a)(2) (checked 2026-09-28, creativecommons.org/licenses/by/4.0/legalcode.en): attribution may be given "in any reasonable manner based on the medium, means, and context", and "it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information".
+   - CC0 studies need no attribution at all.
+   - The OpenStreetMap credit on the map is a separate matter (the tiles' licence) and stays.
+   - Options: (a) keep a short credit on screen; (b) credit only in the plugin's About section and README, which changes R18 and needs a decision; (c) show the credit only for CC BY animals. Movebank's own citation guidelines are still to be read before deciding. Not legal advice.
+3. Also visible in the screenshot: the edge callout runs under TRMNL's "Refreshed" badge (top right, probably only in the preview), and map labels in local script (طنجة for Tangier), which is already open item 2 above.

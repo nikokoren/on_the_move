@@ -1,0 +1,249 @@
+{
+ "about": "Curated part of the species table (R8): names and one fact per species, each with its source and the exact sentence it rests on. Checked 2026-09-28 by Claude; pipeline/verify_sources.py re-fetches every source and confirms each quote. Facts are within the R16 limit (140 chars).",
+ "species": {
+  "Ciconia ciconia": {
+   "names": {
+    "en": "White Stork",
+    "de": "Weißstorch",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-28"
+    }
+   },
+   "fact": {
+    "en": "Storks taking the western route rarely fly on to Africa today; they winter on the Iberian Peninsula instead.",
+    "de": "Weißstörche auf der Westroute ziehen heute kaum mehr nach Afrika, sie überwintern auf der Iberischen Halbinsel.",
+    "source": {
+     "title": "NABU, Weißstorch: Verbreitung & Bestand",
+     "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/artenschutz/weissstorch/03587.html",
+     "quote": "Diese ziehen heute kaum mehr nach Afrika, sondern verbringen den Winter auf der Iberischen Halbinsel"
+    }
+   }
+  },
+  "Grus grus": {
+   "names": {
+    "en": "Common Crane",
+    "de": "Kranich",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-28"
+    }
+   },
+   "fact": {
+    "en": "Around 400,000 cranes cross Germany each year on a south-western route, to winter in Spain, Portugal or north-west Africa.",
+    "de": "Rund 400.000 Kraniche ziehen jedes Jahr auf der Südwestroute über Deutschland, bis Spanien, Portugal oder Nordwestafrika.",
+    "source": {
+     "title": "NABU, Kranich",
+     "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/artenschutz/kranich/index.html",
+     "quote": "Rund 400.000 Kraniche wählen alljährlich eine südwestliche Zugroute, auf der sie Deutschland in schmaler Front überqueren"
+    }
+   }
+  },
+  "Pernis apivorus": {
+   "names": {
+    "en": "European Honey Buzzard",
+    "de": "Wespenbussard",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-28"
+    }
+   },
+   "fact": {
+    "en": "Despite its size, the honey buzzard lives mainly on wasps and their larvae, digging the nests out of the ground.",
+    "de": "Wespenbussarde fressen trotz ihrer Größe vor allem Wespen und deren Larven, die sie aus dem Boden graben.",
+    "source": {
+     "title": "NABU, Vogelporträt Wespenbussard",
+     "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/wespenbussard/",
+     "quote": "Trotz seiner stattlichen Größe ernährt er sich in erster Linie von Wespen, deren Larven"
+    }
+   }
+  },
+  "Streptopelia turtur": {
+   "names": {
+    "en": "European Turtle Dove",
+    "de": "Turteltaube",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-28"
+    }
+   },
+   "fact": {
+    "en": "Turtle doves breeding in Britain travel up to about 4,800 km each way to and from West Africa.",
+    "de": "Turteltauben aus Großbritannien fliegen bis zu etwa 4.800 km pro Strecke nach Westafrika und zurück.",
+    "source": {
+     "title": "RSPB, Turtle Dove",
+     "url": "https://www.rspb.org.uk/birds-and-wildlife/turtle-dove",
+     "quote": "UK-breeding Turtle Doves travel up to 3,000 miles each way to and from West Africa"
+    }
+   }
+  },
+  "Larus fuscus": {
+   "names": {
+    "en": "Lesser Black-backed Gull",
+    "de": "Heringsmöwe",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-28"
+    }
+   },
+   "fact": {
+    "en": "More and more lesser black-backed gulls stay on the North Sea for the winter instead of flying south.",
+    "de": "Heringsmöwen bleiben immer häufiger auch im Winter auf der Nordsee, statt nach Süden zu ziehen.",
+    "source": {
+     "title": "NABU, Vogelporträt Heringsmöwe",
+     "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/heringsmoewe/",
+     "quote": "Heringsmöwen bleiben immer häufiger auch im Winter in unseren Breiten auf der Nordsee"
+    }
+   }
+  },
+  "Lanius collurio": {
+   "names": {
+    "en": "Red-backed Shrike",
+    "de": "Neuntöter",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-28"
+    }
+   },
+   "fact": {
+    "en": "Red-backed shrikes fly a loop of about 22,000 km a year, coming back north across the Arabian Peninsula.",
+    "de": "Neuntöter fliegen jedes Jahr eine Schleife von rund 22.000 km, zurück nach Norden über die Arabische Halbinsel.",
+    "source": {
+     "title": "Tøttrup et al. 2012, Proc. R. Soc. B 279: 1008-1016",
+     "url": "https://doi.org/10.1098/rspb.2011.1323",
+     "europepmc": "DOI:10.1098/rspb.2011.1323",
+     "quote": "The birds performed a distinct loop migration (22 000 km) where spring distance, including a detour across the Arabian Peninsula"
+    }
+   }
+  },
+  "Oenanthe oenanthe": {
+   "names": {
+    "en": "Northern Wheatear",
+    "de": "Steinschmätzer",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-28"
+    }
+   },
+   "fact": {
+    "en": "Wheatears breeding in Alaska fly about 14,500 km each way to Africa, weighing only about 25 g.",
+    "de": "Steinschmätzer aus Alaska fliegen rund 14.500 km pro Strecke nach Afrika, bei nur etwa 25 g Gewicht.",
+    "source": {
+     "title": "Bairlein et al. 2012, Biol. Lett. 8: 505-507",
+     "url": "https://doi.org/10.1098/rsbl.2011.1223",
+     "europepmc": "DOI:10.1098/rsbl.2011.1223",
+     "quote": "with Alaskan birds travelling approximately 14 500 km each way"
+    }
+   }
+  },
+  "Numenius madagascariensis": {
+   "names": {
+    "en": "Far Eastern Curlew",
+    "de": "Isabellbrachvogel",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-28"
+    }
+   },
+   "fact": {
+    "en": "Australia's largest shorebird flies to Russia and north-eastern China every year to breed.",
+    "de": "Australiens größter Watvogel fliegt jedes Jahr zum Brüten nach Russland und Nordostchina.",
+    "source": {
+     "title": "Australian Government DCCEEW, Species Profile and Threats Database: Numenius madagascariensis",
+     "url": "http://www.environment.gov.au/cgi-bin/sprat/public/publicspecies.pl?taxon_id=847",
+     "quote": "The eastern curlew is Australia’s largest shorebird"
+    }
+   }
+  },
+  "Buteo platypterus": {
+   "names": {
+    "en": "Broad-winged Hawk",
+    "de": "Breitflügelbussard",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-28"
+    }
+   },
+   "fact": {
+    "en": "In autumn most broad-winged hawks pass the hawk-watch sites within just two weeks, often in flocks of thousands.",
+    "de": "Im Herbst ziehen die meisten Breitflügelbussarde binnen nur zwei Wochen an den Zählstellen vorbei, oft zu Tausenden.",
+    "source": {
+     "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+     "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+     "quote": "in autumn the majority of individuals pass migration watchsites during a brief and concentrated two-week period"
+    }
+   }
+  },
+  "Cathartes aura": {
+   "names": {
+    "en": "Turkey Vulture",
+    "de": "Truthahngeier",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-28"
+    }
+   },
+   "fact": {
+    "en": "Turkey vultures are the most migratory of all vultures and find carrion by smell as well as by sight.",
+    "de": "Truthahngeier sind die zugfreudigsten aller Geier und finden Aas mit dem Geruchssinn wie mit den Augen.",
+    "source": {
+     "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+     "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+     "quote": "Have an acute sense of smell, which enables them to find carrion by both smell and sight"
+    }
+   }
+  },
+  "Balaenoptera musculus": {
+   "names": {
+    "en": "Blue Whale",
+    "de": "Blauwal",
+    "source": {
+     "title": "NOAA Fisheries (en); German Wikipedia taxobox (de)",
+     "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+     "url_de": "https://de.wikipedia.org/wiki/Blauwal",
+     "checked": "2026-09-28"
+    }
+   },
+   "fact": {
+    "en": "Blue whales of the eastern North Pacific feed off the US West Coast in summer and spend winter off Mexico and Central America.",
+    "de": "Blauwale des östlichen Nordpazifiks fressen im Sommer vor der US-Westküste und überwintern vor Mexiko und Mittelamerika.",
+    "source": {
+     "title": "NOAA Fisheries, Blue Whale",
+     "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+     "quote": "eastern North Pacific blue whales are believed to spend winters off of Mexico and Central America"
+    }
+   }
+  },
+  "Caretta caretta": {
+   "names": {
+    "en": "Loggerhead Turtle",
+    "de": "Unechte Karettschildkröte",
+    "source": {
+     "title": "NOAA Fisheries (en); German Wikipedia taxobox (de)",
+     "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+     "url_de": "https://de.wikipedia.org/wiki/Unechte_Karettschildkr%C3%B6te",
+     "checked": "2026-09-28"
+    }
+   },
+   "fact": {
+    "en": "Young loggerheads from Japan cross the whole Pacific to feed off Mexico, nearly 13,000 km away.",
+    "de": "Junge Unechte Karettschildkröten aus Japan durchqueren den Pazifik bis vor Mexiko, fast 13.000 km weit.",
+    "source": {
+     "title": "NOAA Fisheries, Loggerhead Turtle",
+     "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+     "quote": "Hatchlings from nesting beaches in Japan and Australia have been tracked migrating across the Pacific"
+    }
+   }
+  }
+ }
+}

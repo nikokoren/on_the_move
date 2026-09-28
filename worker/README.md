@@ -18,7 +18,8 @@ Then set the polling URL in TRMNL (`template/README.md`). Keep the Worker URL ou
 
 ## Updating the data
 
-    python3 pipeline/build_featured.py && python3 pipeline/build_whitelist.py
+    python3 pipeline/verify_sources.py      # species facts still on their sources
+    python3 pipeline/build_featured.py && python3 pipeline/build_whitelist.py && python3 pipeline/build_species.py
     npm run check && npx wrangler deploy
 
 ## Checks

@@ -112,9 +112,12 @@ function credit(t, c) {
   return fill(t.credit, { source: `${who}, ${lic}` });
 }
 
-function pickFact(t, lang, a, slot) {
+function pickFact(t, lang, sp, a, slot) {
   const f = a.facts;
   const all = [
+    // The species fact first (R8, sourced in data/species.json), then the
+    // animal's own numbers.
+    sp.fact && (sp.fact[lang] || sp.fact.en),
     fill(t.facts.yearKm, { km: fmtKm(f.yearKmMin, lang) }),
     fill(t.facts.span, { km: fmtKm(f.spanKm, lang) }),
     f.southmost < 0 || f.northmost - f.southmost > 20 ? fill(t.facts.southmost, { lat: fmtLat(t, f.southmost) }) : null,
@@ -177,7 +180,7 @@ function animalView(data, sp, a, t, lang, now, localDoy, slot) {
     name: a.name,
     status,
     where,
-    fact: pickFact(t, lang, a, slot),
+    fact: pickFact(t, lang, sp, a, slot),
     credit: credit(t, a.credit),
     toward,
     // Everything the map script needs, as one JSON string: Liquid prints it into
