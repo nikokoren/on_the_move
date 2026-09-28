@@ -15,6 +15,7 @@ Catalog built (decision S2, `docs/CATALOG.md`): 3,617 animals of 154 migratory s
 | `docs/SOURCES.md` | Facts about outside systems (Movebank, GBIF, TRMNL, CC). Each fact carries its source URL, date checked and who checked it. |
 | `docs/survey/` | Task 0: method, per-study records, raw captured responses, results. |
 | `data/studies.json` | Study whitelist (R4). Empty until task 0 produces eligible studies. Schema in `data/studies.schema.json`. |
+| `docs/FULL_VIEW.md` | Plan for the full view: what is on screen, which code it reuses (with line numbers), open questions. |
 | `docs/CATALOG.md` | What the catalog contains, pipeline rules, known gaps, featured proposal, UX draft. |
 | `pipeline/build_catalog.py` | Builds the catalog from Movebank and the Movebank Data Repository. Needs Movebank credentials in the environment; caches in `pipeline/.cache/` (git-ignored). |
 | `data/catalog.json`, `data/usual/`, `data/featured.json` | Built catalog, per-animal day-of-year tables, the 12 featured species (F1). Regenerate with the pipeline; do not edit by hand. |
@@ -47,7 +48,12 @@ The full text is in `docs/BRIEF.md`. Short form:
 
 ## Cross-repo references
 
-The brief reuses patterns from two other recipes that are **not in this repo**: Aurora Watch (map rules in its CLAUDE.md, LOCALES pattern, `fixtures/` generator, view layout) and Nearby Nextbike (Cloudflare Worker setup). Checked 2026-09-28: this session's GitHub access covers only `nikokoren/on_the_move`. Before relying on those patterns, add the repo to the session and read the actual files; do not reconstruct them from memory.
+Patterns reused from the owner's other recipes, **not in this repo**:
+- Nearby Nextbike (`nikokoren/nearby-nextbike`): the map (TRMNLMaps/MapLibre, fractional zoom, loading fallbacks) and the off-screen edge callout, `template/shared.liquid`; the Worker setup, `worker/`.
+- Map of the Day (`nikokoren/map_of_the_day`, public): the bottom-left text box, `trmnl/example-markup.liquid`, and the viewer's local day, `trmnl/selection.liquid`.
+- Aurora Watch: map rules, LOCALES pattern, `fixtures/` generator. Not read yet.
+
+Read 2026-09-28 (Nextbike at 1f30394, Map of the Day at db89223); the mapping with line numbers is in `docs/FULL_VIEW.md`. Re-read the actual files before copying; do not reconstruct them from memory.
 
 ## Git
 
