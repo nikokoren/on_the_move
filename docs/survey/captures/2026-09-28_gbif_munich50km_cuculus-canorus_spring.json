@@ -1,0 +1,92 @@
+{
+ "query": {
+  "taxonKey": 5231918,
+  "species": "Cuculus canorus",
+  "geoDistance": "48.137,11.575,50km",
+  "license": [
+   "CC0_1_0",
+   "CC_BY_4_0"
+  ],
+  "eventDate": "2026-03-01,2026-05-31",
+  "occurrenceStatus": "PRESENT",
+  "fetched": "2026-09-28"
+ },
+ "count": 5,
+ "results": [
+  {
+   "key": 6195118170,
+   "eventDate": "2026-04-12T00:00",
+   "modified": null,
+   "lastCrawled": "2026-09-10T16:53:54.400+00:00",
+   "lastParsed": "2026-09-10T18:06:03.485+00:00",
+   "lastInterpreted": "2026-09-10T18:06:03.485+00:00",
+   "datasetKey": "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+   "datasetName": null,
+   "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+   "basisOfRecord": "HUMAN_OBSERVATION",
+   "decimalLatitude": 48.26,
+   "decimalLongitude": 11.57,
+   "coordinateUncertaintyInMeters": 25.0
+  },
+  {
+   "key": 6195125774,
+   "eventDate": "2026-04-11T00:00",
+   "modified": null,
+   "lastCrawled": "2026-09-10T16:53:54.400+00:00",
+   "lastParsed": "2026-09-10T18:04:04.452+00:00",
+   "lastInterpreted": "2026-09-10T18:04:04.452+00:00",
+   "datasetKey": "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+   "datasetName": null,
+   "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+   "basisOfRecord": "HUMAN_OBSERVATION",
+   "decimalLatitude": 47.91,
+   "decimalLongitude": 11.51,
+   "coordinateUncertaintyInMeters": 25.0
+  },
+  {
+   "key": 6273372480,
+   "eventDate": "2026-04-24T19:19:42",
+   "modified": "2026-05-12T17:58:55.000+00:00",
+   "lastCrawled": "2026-09-10T19:15:51.157+00:00",
+   "lastParsed": "2026-09-11T05:58:29.949+00:00",
+   "lastInterpreted": "2026-09-11T05:58:29.949+00:00",
+   "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+   "datasetName": "iNaturalist research-grade observations",
+   "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+   "basisOfRecord": "HUMAN_OBSERVATION",
+   "decimalLatitude": 48.12,
+   "decimalLongitude": 11.16,
+   "coordinateUncertaintyInMeters": 227.0
+  },
+  {
+   "key": 6253109535,
+   "eventDate": "2026-05-03T19:27:44",
+   "modified": "2026-05-04T17:28:56.000+00:00",
+   "lastCrawled": "2026-09-10T19:15:51.157+00:00",
+   "lastParsed": "2026-09-11T05:22:23.339+00:00",
+   "lastInterpreted": "2026-09-11T05:22:23.339+00:00",
+   "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+   "datasetName": "iNaturalist research-grade observations",
+   "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+   "basisOfRecord": "HUMAN_OBSERVATION",
+   "decimalLatitude": 47.93,
+   "decimalLongitude": 11.14,
+   "coordinateUncertaintyInMeters": 80.0
+  },
+  {
+   "key": 6352266794,
+   "eventDate": "2026-05-21T09:36",
+   "modified": "2026-06-01T22:34:44.000+00:00",
+   "lastCrawled": "2026-09-10T19:15:51.157+00:00",
+   "lastParsed": "2026-09-11T05:39:29.152+00:00",
+   "lastInterpreted": "2026-09-11T05:39:29.152+00:00",
+   "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+   "datasetName": "iNaturalist research-grade observations",
+   "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+   "basisOfRecord": "HUMAN_OBSERVATION",
+   "decimalLatitude": 48.46,
+   "decimalLongitude": 11.73,
+   "coordinateUncertaintyInMeters": 15.0
+  }
+ ]
+}

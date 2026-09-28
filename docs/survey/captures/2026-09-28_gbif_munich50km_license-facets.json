@@ -1,0 +1,348 @@
+{
+ "spring|Ciconia ciconia": {
+  "total": 68,
+  "license": {
+   "CC_BY_NC_4_0": 66,
+   "CC_BY_4_0": 2
+  },
+  "topDatasets": [
+   [
+    "8a863029-f435-446a-821e-275f4f641165",
+    37
+   ],
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    30
+   ],
+   [
+    "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+    1
+   ]
+  ]
+ },
+ "spring|Hirundo rustica": {
+  "total": 50,
+  "license": {
+   "CC_BY_NC_4_0": 50
+  },
+  "topDatasets": [
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    39
+   ],
+   [
+    "8a863029-f435-446a-821e-275f4f641165",
+    11
+   ]
+  ]
+ },
+ "spring|Apus apus": {
+  "total": 49,
+  "license": {
+   "CC_BY_NC_4_0": 49
+  },
+  "topDatasets": [
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    36
+   ],
+   [
+    "8a863029-f435-446a-821e-275f4f641165",
+    13
+   ]
+  ]
+ },
+ "spring|Cuculus canorus": {
+  "total": 38,
+  "license": {
+   "CC_BY_NC_4_0": 33,
+   "CC_BY_4_0": 5
+  },
+  "topDatasets": [
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    21
+   ],
+   [
+    "8a863029-f435-446a-821e-275f4f641165",
+    15
+   ],
+   [
+    "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+    2
+   ]
+  ]
+ },
+ "spring|Delichon urbicum": {
+  "total": 6,
+  "license": {
+   "CC_BY_NC_4_0": 6
+  },
+  "topDatasets": [
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    5
+   ],
+   [
+    "8a863029-f435-446a-821e-275f4f641165",
+    1
+   ]
+  ]
+ },
+ "spring|Phylloscopus collybita": {
+  "total": 384,
+  "license": {
+   "CC_BY_NC_4_0": 348,
+   "CC_BY_4_0": 36
+  },
+  "topDatasets": [
+   [
+    "8a863029-f435-446a-821e-275f4f641165",
+    297
+   ],
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    53
+   ],
+   [
+    "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+    32
+   ],
+   [
+    "b1047888-ae52-4179-9dd5-5448ea342a24",
+    2
+   ]
+  ]
+ },
+ "spring|Grus grus": {
+  "total": 13,
+  "license": {
+   "CC_BY_4_0": 8,
+   "CC_BY_NC_4_0": 5
+  },
+  "topDatasets": [
+   [
+    "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+    8
+   ],
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    5
+   ]
+  ]
+ },
+ "last30|Ciconia ciconia": {
+  "total": 2,
+  "license": {
+   "CC_BY_4_0": 1,
+   "CC_BY_NC_4_0": 1
+  },
+  "topDatasets": [
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    2
+   ]
+  ]
+ },
+ "last30|Hirundo rustica": {
+  "total": 3,
+  "license": {
+   "CC_BY_NC_4_0": 3
+  },
+  "topDatasets": [
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    3
+   ]
+  ]
+ },
+ "last30|Apus apus": {
+  "total": 0,
+  "license": {},
+  "topDatasets": []
+ },
+ "last30|Cuculus canorus": {
+  "total": 0,
+  "license": {},
+  "topDatasets": []
+ },
+ "last30|Delichon urbicum": {
+  "total": 0,
+  "license": {},
+  "topDatasets": []
+ },
+ "last30|Phylloscopus collybita": {
+  "total": 1,
+  "license": {
+   "CC_BY_NC_4_0": 1
+  },
+  "topDatasets": [
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    1
+   ]
+  ]
+ },
+ "last30|Grus grus": {
+  "total": 0,
+  "license": {},
+  "topDatasets": []
+ },
+ "spring2025|Ciconia ciconia": {
+  "total": 62,
+  "license": {
+   "CC_BY_NC_4_0": 47,
+   "CC_BY_4_0": 15
+  },
+  "topDatasets": [
+   [
+    "8a863029-f435-446a-821e-275f4f641165",
+    33
+   ],
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    17
+   ],
+   [
+    "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+    12
+   ]
+  ]
+ },
+ "spring2025|Hirundo rustica": {
+  "total": 42,
+  "license": {
+   "CC_BY_NC_4_0": 27,
+   "CC_BY_4_0": 14,
+   "CC0_1_0": 1
+  },
+  "topDatasets": [
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    26
+   ],
+   [
+    "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+    10
+   ],
+   [
+    "6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b",
+    3
+   ],
+   [
+    "8a863029-f435-446a-821e-275f4f641165",
+    3
+   ]
+  ]
+ },
+ "spring2025|Apus apus": {
+  "total": 34,
+  "license": {
+   "CC_BY_4_0": 27,
+   "CC_BY_NC_4_0": 7
+  },
+  "topDatasets": [
+   [
+    "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+    27
+   ],
+   [
+    "8a863029-f435-446a-821e-275f4f641165",
+    5
+   ],
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    2
+   ]
+  ]
+ },
+ "spring2025|Cuculus canorus": {
+  "total": 62,
+  "license": {
+   "CC_BY_4_0": 37,
+   "CC_BY_NC_4_0": 24,
+   "CC0_1_0": 1
+  },
+  "topDatasets": [
+   [
+    "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+    36
+   ],
+   [
+    "8a863029-f435-446a-821e-275f4f641165",
+    15
+   ],
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    10
+   ],
+   [
+    "6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b",
+    1
+   ]
+  ]
+ },
+ "spring2025|Delichon urbicum": {
+  "total": 6,
+  "license": {
+   "CC_BY_4_0": 3,
+   "CC_BY_NC_4_0": 3
+  },
+  "topDatasets": [
+   [
+    "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+    3
+   ],
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    2
+   ],
+   [
+    "8a863029-f435-446a-821e-275f4f641165",
+    1
+   ]
+  ]
+ },
+ "spring2025|Phylloscopus collybita": {
+  "total": 167,
+  "license": {
+   "CC_BY_4_0": 118,
+   "CC_BY_NC_4_0": 49
+  },
+  "topDatasets": [
+   [
+    "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+    109
+   ],
+   [
+    "8a863029-f435-446a-821e-275f4f641165",
+    25
+   ],
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    24
+   ],
+   [
+    "6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b",
+    9
+   ]
+  ]
+ },
+ "spring2025|Grus grus": {
+  "total": 3,
+  "license": {
+   "CC_BY_4_0": 2,
+   "CC_BY_NC_4_0": 1
+  },
+  "topDatasets": [
+   [
+    "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+    2
+   ],
+   [
+    "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    1
+   ]
+  ]
+ }
+}

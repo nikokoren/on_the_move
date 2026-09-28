@@ -1,0 +1,32 @@
+{
+ "query": {
+  "taxonKey": 2481912,
+  "species": "Ciconia ciconia",
+  "geoDistance": "48.137,11.575,50km",
+  "license": [
+   "CC0_1_0",
+   "CC_BY_4_0"
+  ],
+  "eventDate": "2026-08-29,2026-09-28",
+  "occurrenceStatus": "PRESENT",
+  "fetched": "2026-09-28"
+ },
+ "count": 1,
+ "results": [
+  {
+   "key": 6519521326,
+   "eventDate": "2026-09-04T07:37",
+   "modified": "2026-09-04T05:49:02.000+00:00",
+   "lastCrawled": "2026-09-10T19:15:51.157+00:00",
+   "lastParsed": "2026-09-11T05:41:03.590+00:00",
+   "lastInterpreted": "2026-09-11T05:41:03.590+00:00",
+   "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+   "datasetName": "iNaturalist research-grade observations",
+   "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+   "basisOfRecord": "HUMAN_OBSERVATION",
+   "decimalLatitude": 48.18,
+   "decimalLongitude": 11.17,
+   "coordinateUncertaintyInMeters": 3.0
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+individual_id,individual_local_identifier,timestamp,location_lat,location_long,visible,individual_taxon_canonical_name
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-08-29 18:30:07.000,43.2612248,-4.4574226,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-08-30 18:00:07.000,43.2626364,-4.492968,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-08-31 18:00:23.000,43.2626597,-4.4928591,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-01 18:30:06.000,43.0867528,-3.8793594,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-02 18:30:06.000,43.245845,-4.4508198,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-03 18:31:53.000,43.2625595,-4.4928979,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-04 18:30:41.000,43.2626154,-4.4927339,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-05 18:30:23.000,43.2626315,-4.4924656,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-06 18:30:19.000,43.2663429,-4.4874983,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-07 18:30:11.000,43.2635921,-4.4238751,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-08 18:30:07.000,43.2360002,-4.2703007,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-09 18:30:06.000,43.258985,-4.5161712,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-10 18:30:26.000,43.2629261,-4.4915748,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-12 18:00:23.000,43.2626033,-4.4926531,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-13 18:30:07.000,43.2626209,-4.4927611,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-15 18:30:07.000,43.2626374,-4.4927058,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-16 18:00:07.000,43.2122789,-4.3496897,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-18 18:30:23.000,43.2626234,-4.4928203,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-19 18:30:07.000,43.1671724,-4.3407448,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-20 18:30:07.000,43.2626289,-4.492786,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-22 18:00:53.000,42.9566092,-4.3632817,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-23 18:30:06.000,43.0286398,-4.045815,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-24 18:40:05.000,43.2626094,-4.4928247,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-25 18:30:23.000,43.2626046,-4.4927432,true,Gyps fulvus
+186182027,Griffon Vulture 3647 (DEH AA011522 gold / AW24 black right),2026-09-27 18:30:23.000,43.1534688,-4.1613807,true,Gyps fulvus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-08-29 22:02:31.000,40.1688811,-1.1028058,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-08-30 22:02:31.000,38.0530768,-2.5312009,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-08-31 22:02:31.000,37.0023084,-4.7059185,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-01 22:02:31.000,35.0338368,-5.6529935,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-02 22:02:31.000,32.479938,-6.2244452,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-03 21:32:31.000,29.9137933,-6.7524512,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-04 22:02:31.000,26.5435768,-8.5556289,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-05 22:02:31.000,24.2673094,-10.3979136,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-06 22:02:31.000,21.6571976,-12.5816447,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-07 22:02:31.000,20.7500426,-12.2457788,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-08 22:02:31.000,18.7905914,-11.5700567,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-09 22:02:31.000,16.0042225,-9.7816346,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-10 22:02:31.000,14.6896991,-8.7199972,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-11 22:02:31.000,13.7061775,-8.2817435,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-12 22:02:31.000,11.3868358,-8.4149197,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-13 22:02:31.000,9.4580152,-8.9336587,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-14 21:02:32.000,8.7596644,-9.0374936,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-15 22:02:31.000,7.5028669,-8.7986201,true,Pernis apivorus
+2842545544,Honey Buzzard 12212 (DER KT2169),2026-09-16 13:05:24.000,7.4063564,-8.7838108,true,Pernis apivorus

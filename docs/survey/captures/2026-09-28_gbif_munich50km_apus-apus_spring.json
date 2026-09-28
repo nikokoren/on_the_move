@@ -1,0 +1,16 @@
+{
+ "query": {
+  "taxonKey": 5228676,
+  "species": "Apus apus",
+  "geoDistance": "48.137,11.575,50km",
+  "license": [
+   "CC0_1_0",
+   "CC_BY_4_0"
+  ],
+  "eventDate": "2026-03-01,2026-05-31",
+  "occurrenceStatus": "PRESENT",
+  "fetched": "2026-09-28"
+ },
+ "count": 0,
+ "results": []
+}

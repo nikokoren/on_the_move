@@ -1,0 +1,4 @@
+individual_id,individual_local_identifier,timestamp,location_lat,location_long,visible,individual_taxon_canonical_name
+1600899302,"Noé (CK16336 FRUH, 180815)",2026-08-29 19:09:33.000,40.952884674072266,-1.475423336029053,true,Ciconia ciconia
+1600899302,"Noé (CK16336 FRUH, 180815)",2026-08-30 19:08:42.000,40.975284576416016,-1.521998286247253,true,Ciconia ciconia
+1600899302,"Noé (CK16336 FRUH, 180815)",2026-08-31 09:07:24.000,40.878116607666016,-1.708904981613159,true,Ciconia ciconia
