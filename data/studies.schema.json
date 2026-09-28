@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Movebank study whitelist (brief R4, R5)",
+  "description": "Draft 2026-09-28. Field names may change once task 0 shows the real Movebank license values; keep this schema in step with them.",
+  "type": "object",
+  "required": ["studies"],
+  "properties": {
+    "studies": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/study" }
+    }
+  },
+  "$defs": {
+    "localized": {
+      "type": "object",
+      "required": ["en", "de"],
+      "properties": {
+        "en": { "type": "string", "minLength": 1 },
+        "de": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "study": {
+      "type": "object",
+      "required": [
+        "studyId",
+        "licenseType",
+        "licenseTermsHash",
+        "citation",
+        "ownerContact",
+        "dateAccepted",
+        "animals"
+      ],
+      "properties": {
+        "studyId": { "type": "integer" },
+        "licenseType": {
+          "description": "License as returned by the Movebank API. PLACEHOLDER: the values 'CC_0' and 'CC_BY' in the if/then rule below are guesses, not yet seen in a live response. Replace them with the real API values during task 0.",
+          "type": "string"
+        },
+        "licenseTermsHash": {
+          "description": "SHA-256 of the license terms text accepted, or of an empty string if none were shown.",
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "citation": { "type": "string", "minLength": 1 },
+        "citationShort": {
+          "description": "On-screen credit (R18), e.g. 'Data: Movebank, <owner>, CC BY'.",
+          "type": "string"
+        },
+        "ownerContact": { "type": "string" },
+        "dateAccepted": { "type": "string", "format": "date" },
+        "permissionRef": {
+          "description": "Path under data/permissions/. Required unless the license is CC0 or CC BY (R5).",
+          "type": "string"
+        },
+        "coarsenDegrees": {
+          "description": "R14: round positions to this many degrees, if set.",
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "animals": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["individualId", "displayName"],
+            "properties": {
+              "individualId": { "type": ["integer", "string"] },
+              "displayName": { "$ref": "#/$defs/localized" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false,
+      "if": {
+        "properties": { "licenseType": { "not": { "enum": ["CC_0", "CC_BY"] } } }
+      },
+      "then": { "required": ["permissionRef"] }
+    }
+  }
+}
