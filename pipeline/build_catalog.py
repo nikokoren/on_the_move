@@ -377,9 +377,12 @@ def main():
             log("events failed", sid, e)
             stats["study_events_failed"] += 1
             continue
+        by_local = {v[0]["local_identifier"]: k for k, v in cand.items() if v[0]["local_identifier"]}
         fixes = defaultdict(list)
         for e in ev:
-            iid = e.get("individual_id")
+            # EURING_01 rows carry individual_local_identifier, not individual_id (checked 2026-09-28);
+            # rows from tags not deployed on an animal have it empty and are dropped here
+            iid = by_local.get(e.get("individual_local_identifier") or "")
             if iid in cand and e.get("location_lat") and e.get("location_long") and e.get("visible", "true") != "false":
                 t = ts(e["timestamp"])
                 if t and t <= NOW:
