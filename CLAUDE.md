@@ -4,7 +4,7 @@ Read this first in every session. The repo is the memory: agents keep nothing be
 
 ## Status (2026-09-28)
 
-Scope widened 2026-09-28 to a global, many-species database (DECISIONS S1). Task 0 (Munich, `docs/survey/results.md`) and task 0b (global, `docs/survey/global.md`) done as first passes: 47 live, eligible, full-cycle migrants worldwide today; 128 species with full-cycle tracks in CC0/CC BY Movebank Data Repository packages; GBIF sightings give seasonal patterns (e.g. monarch). Waiting on the owner: terms acceptance for locked studies, the content model, and the D3/R9 labelling conflict. Nothing gets designed or built before those are decided.
+Catalog built (decision S2, `docs/CATALOG.md`): 3,617 animals of 154 migratory species in `data/catalog.json` and `data/usual/`, 76 of them live. Proposed featured set of 41 species in `data/featured.json`, waiting for the owner to confirm. License terms accepted for all 556 CC0/CC BY Movebank studies (decision A1). Next: owner confirms the featured set; then R8 species table, R16 text requirements, and the UX draft in `docs/CATALOG.md`, before any Worker or template code.
 
 ## Where things are
 
@@ -15,6 +15,10 @@ Scope widened 2026-09-28 to a global, many-species database (DECISIONS S1). Task
 | `docs/SOURCES.md` | Facts about outside systems (Movebank, GBIF, TRMNL, CC). Each fact carries its source URL, date checked and who checked it. |
 | `docs/survey/` | Task 0: method, per-study records, raw captured responses, results. |
 | `data/studies.json` | Study whitelist (R4). Empty until task 0 produces eligible studies. Schema in `data/studies.schema.json`. |
+| `docs/CATALOG.md` | What the catalog contains, pipeline rules, known gaps, featured proposal, UX draft. |
+| `pipeline/build_catalog.py` | Builds the catalog from Movebank and the Movebank Data Repository. Needs Movebank credentials in the environment; caches in `pipeline/.cache/` (git-ignored). |
+| `data/catalog.json`, `data/usual/`, `data/featured.json` | Built catalog, per-animal day-of-year tables, featured species proposal. Regenerate with the pipeline; do not edit by hand. |
+| `docs/survey/acceptance/` | Record of the 556 Movebank license acceptances. |
 | `data/permissions/` | Written permissions from data owners (section 2 of the brief). A whitelist entry that is not CC0 or CC BY must point to a file here. |
 
 Planned later (not created yet, do not create before the decision that needs them): `worker/` (Cloudflare Worker, R1, R2), `recipe/` (TRMNL templates, section 8), `fixtures/` (R23), `docs/TEXT_REQUIREMENTS.md` (R16, before any copy), `data/species.json` (R8).

@@ -1,0 +1,457 @@
+{
+ "status": "PROPOSAL 2026-09-28, not decided (owner to confirm, DECISIONS S2)",
+ "criteria": "long-distance movement in our own data (median annual range per species, see docs/CATALOG.md), spread across regions and kinds of animal, prefer species with live animals and with 3+ animals as backups; mammals with near-zero range in our data left out",
+ "species": [
+  {
+   "taxon": "Ciconia ciconia",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "White Stork",
+    "de": "Weißstorch"
+   },
+   "animals": 274,
+   "live": 28,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Larus fuscus",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "Lesser Black-backed Gull",
+    "de": "Heringsmöwe"
+   },
+   "animals": 251,
+   "live": 17,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Streptopelia turtur",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "European Turtle Dove",
+    "de": "Turteltaube"
+   },
+   "animals": 18,
+   "live": 8,
+   "iucn": "VU"
+  },
+  {
+   "taxon": "Pernis apivorus",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "European Honey Buzzard",
+    "de": "Wespenbussard"
+   },
+   "animals": 5,
+   "live": 1,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Grus grus",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "Common Crane",
+    "de": "Kranich"
+   },
+   "animals": 23,
+   "live": 1,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Lanius collurio",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "Red-backed Shrike",
+    "de": "Neuntöter"
+   },
+   "animals": 25,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Oenanthe oenanthe",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "Northern Wheatear",
+    "de": "Steinschmätzer"
+   },
+   "animals": 13,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Saxicola rubetra",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "Whinchat",
+    "de": "Braunkehlchen"
+   },
+   "animals": 12,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Ficedula hypoleuca",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "European Pied Flycatcher",
+    "de": "Trauerschnäpper"
+   },
+   "animals": 14,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Cuculus canorus",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "Common Cuckoo",
+    "de": "Kuckuck"
+   },
+   "animals": 4,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Circus pygargus",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "Montagu's Harrier",
+    "de": "Wiesenweihe"
+   },
+   "animals": 32,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Neophron percnopterus",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "Egyptian Vulture",
+    "de": "Schmutzgeier"
+   },
+   "animals": 11,
+   "live": 0,
+   "iucn": "EN"
+  },
+  {
+   "taxon": "Anthropoides virgo",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "Demoiselle Crane",
+    "de": "Jungfernkranich"
+   },
+   "animals": 19,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Branta leucopsis",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "Barnacle Goose",
+    "de": "Weißwangengans"
+   },
+   "animals": 13,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Charadrius hiaticula",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "Common Ringed Plover",
+    "de": "Sandregenpfeifer"
+   },
+   "animals": 17,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Circaetus gallicus",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "Short-toed Snake Eagle",
+    "de": "Schlangenadler"
+   },
+   "animals": 8,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Aquila nipalensis",
+   "group": "Europe & Africa",
+   "names": {
+    "en": "Steppe Eagle",
+    "de": "Steppenadler"
+   },
+   "animals": 3,
+   "live": 0,
+   "iucn": "EN"
+  },
+  {
+   "taxon": "Cathartes aura",
+   "group": "Americas",
+   "names": {
+    "en": "Turkey Vulture",
+    "de": "Truthahngeier"
+   },
+   "animals": 89,
+   "live": 6,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Buteo platypterus",
+   "group": "Americas",
+   "names": {
+    "en": "Broad-winged Hawk",
+    "de": "Breitflügelbussard"
+   },
+   "animals": 20,
+   "live": 3,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Pandion haliaetus",
+   "group": "Americas",
+   "names": {
+    "en": "Osprey",
+    "de": "Fischadler"
+   },
+   "animals": 45,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Setophaga striata",
+   "group": "Americas",
+   "names": {
+    "en": "Blackpoll Warbler",
+    "de": "Kappenwaldsänger"
+   },
+   "animals": 14,
+   "live": 0,
+   "iucn": "NT"
+  },
+  {
+   "taxon": "Tringa flavipes",
+   "group": "Americas",
+   "names": {
+    "en": "Lesser Yellowlegs",
+    "de": "Gelbschenkel"
+   },
+   "animals": 26,
+   "live": 0,
+   "iucn": "VU"
+  },
+  {
+   "taxon": "Numenius phaeopus",
+   "group": "Americas",
+   "names": {
+    "en": "Whimbrel",
+    "de": "Regenbrachvogel"
+   },
+   "animals": 10,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Chen caerulescens",
+   "group": "Americas",
+   "names": {
+    "en": "Snow Goose",
+    "de": "Schneegans"
+   },
+   "animals": 45,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Cygnus columbianus",
+   "group": "Americas",
+   "names": {
+    "en": "Tundra Swan",
+    "de": "Zwergschwan"
+   },
+   "animals": 53,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Tyrannus savana",
+   "group": "Americas",
+   "names": {
+    "en": "Fork-tailed Flycatcher",
+    "de": "Gabeltyrann"
+   },
+   "animals": 12,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Protonotaria citrea",
+   "group": "Americas",
+   "names": {
+    "en": "Prothonotary Warbler",
+    "de": "Zitronenwaldsänger"
+   },
+   "animals": 22,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Tryngites subruficollis",
+   "group": "Americas",
+   "names": {
+    "en": "Buff-breasted Sandpiper",
+    "de": "Grasläufer"
+   },
+   "animals": 3,
+   "live": 0,
+   "iucn": "VU"
+  },
+  {
+   "taxon": "Grus americana",
+   "group": "Americas",
+   "names": {
+    "en": "Whooping Crane",
+    "de": "Schreikranich"
+   },
+   "animals": 2,
+   "live": 0,
+   "iucn": "EN"
+  },
+  {
+   "taxon": "Bubo scandiacus",
+   "group": "Americas",
+   "names": {
+    "en": "Snowy Owl",
+    "de": "Schnee-Eule"
+   },
+   "animals": 28,
+   "live": 0,
+   "iucn": "VU"
+  },
+  {
+   "taxon": "Stercorarius longicaudus",
+   "group": "Oceans & poles",
+   "names": {
+    "en": "Long-tailed Jaeger",
+    "de": "Falkenraubmöwe"
+   },
+   "animals": 8,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Xema sabini",
+   "group": "Oceans & poles",
+   "names": {
+    "en": "Sabine's Gull",
+    "de": "Schwalbenmöwe"
+   },
+   "animals": 10,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Fratercula arctica",
+   "group": "Oceans & poles",
+   "names": {
+    "en": "Atlantic Puffin",
+    "de": "Papageitaucher"
+   },
+   "animals": 12,
+   "live": 0,
+   "iucn": "VU"
+  },
+  {
+   "taxon": "Pterodroma longirostris",
+   "group": "Oceans & poles",
+   "names": {
+    "en": "Stejneger's Petrel",
+    "de": "Stejneger-Sturmvogel"
+   },
+   "animals": 10,
+   "live": 0,
+   "iucn": "VU"
+  },
+  {
+   "taxon": "Uria lomvia",
+   "group": "Oceans & poles",
+   "names": {
+    "en": "Thick-billed Murre",
+    "de": "Dickschnabellumme"
+   },
+   "animals": 44,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Balaenoptera musculus",
+   "group": "Oceans & poles",
+   "names": {
+    "en": "Blue Whale",
+    "de": "Blauwal"
+   },
+   "animals": 1,
+   "live": 0,
+   "iucn": "EN"
+  },
+  {
+   "taxon": "Balaena mysticetus",
+   "group": "Oceans & poles",
+   "names": {
+    "en": "Bowhead",
+    "de": "Bogenkopf"
+   },
+   "animals": 8,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Caretta caretta",
+   "group": "Oceans & poles",
+   "names": {
+    "en": "Loggerhead",
+    "de": "Unechte Karettschildkröte"
+   },
+   "animals": 8,
+   "live": 0,
+   "iucn": "VU"
+  },
+  {
+   "taxon": "Numenius madagascariensis",
+   "group": "Asia & Pacific",
+   "names": {
+    "en": "Far Eastern Curlew",
+    "de": "Isabell-Brachvogel"
+   },
+   "animals": 11,
+   "live": 0,
+   "iucn": "EN"
+  },
+  {
+   "taxon": "Grus vipio",
+   "group": "Asia & Pacific",
+   "names": {
+    "en": "White-naped Crane",
+    "de": "Weißnackenkranich"
+   },
+   "animals": 4,
+   "live": 0,
+   "iucn": "VU"
+  },
+  {
+   "taxon": "Anser albifrons",
+   "group": "Asia & Pacific",
+   "names": {
+    "en": "Greater White-fronted Goose",
+    "de": "Blässgans"
+   },
+   "animals": 5,
+   "live": 0,
+   "iucn": "LC"
+  }
+ ]
+}
