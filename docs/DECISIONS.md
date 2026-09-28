@@ -4,6 +4,18 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### S2 Content model: selectable animals, live or "usually" (owner, 2026-09-28)
+
+- Decision (project owner, in session): every migratory species without a live track gets a "usually" entry derived from historic full-cycle tracks, and is part of the selectable set. Users either pick one animal and follow it, or pick several or all and the screen cycles through where each one is on the map today: the latest position if live, otherwise its "usually" position for this day of year.
+- Resolves the D3/R9 conflict noted in S1: historic positions are always labelled "usually" (plus the year the track is from); they are never shown as a live position. R9's "present-moment wording only" is amended for "usually" items: they describe a typical position on this date, not a live one. Exact wording goes through R16 (TEXT_REQUIREMENTS) first.
+- Implementation (Claude, 2026-09-28): `pipeline/build_catalog.py` builds `data/catalog.json` and `data/usual/<study>.json`. "Usually" = the animal's own position on this day of year from its most recent tracked year, with gap filling flagged per day; not averaged across animals (averaging two flyways lands in the sea). Migratory = AVONET status 2 or 3 for birds (sourced); non-birds from `pipeline/nonbird_migrants.json` (curated, verify in R8). Details and thresholds in the script header.
+- Open for the owner: minimum coverage (currently 240 of 366 days; sweep on 54 sparse geolocator animals kept 19 at 240, 4 at 330). Whether partial migrants (AVONET 2: gulls, red kite, turkey vulture) are in by default (currently in, flagged).
+
+### A1 Movebank license terms accepted for all 556 CC0/CC BY studies (owner, 2026-09-28)
+
+- Decision (project owner, in session: "accept all 556, go ahead"). Accepted via the API `license-md5` method on the project's Movebank account; log with per-study terms MD5 and SHA-256 in `survey/acceptance/2026-09-28_acceptance-log.csv`.
+- What was accepted: see `SOURCES.md` (generic Movebank acceptance page plus the study's CC0/CC BY license; no study-specific extra terms).
+
 ### S1 Scope widened to a global, many-species database (owner, 2026-09-28)
 
 - Decision (project owner, in session): not limited to Munich. Build a database of many migrating animals worldwide. Content kinds: (A) live now and live every year; (B) complete data for at least one full migration, used to say what usually happens at this time of year.
