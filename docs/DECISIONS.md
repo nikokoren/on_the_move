@@ -4,6 +4,11 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### C1 Cron slot freed in nearby-nextbike (owner, 2026-09-28)
+
+- The first deploy failed to register the cron: the account had used the free plan's 5 cron triggers (code 10072). The owner deleted nearby-nextbike's `0 4 * * *` trigger, which only pre-warmed `getSystemIndex()`; that function refreshes itself when older than 24 h and is only needed when resolving a new address (nearby-nextbike `worker/index.js` lines 417 and 635, read 2026-09-28). The owner also removes it from nearby-nextbike's local, untracked `wrangler.toml`, or its next deploy would hit the limit again.
+- Brief R2 (Worker cron) stands unchanged. Fallback if slots run out again: refresh on poll when the KV state is older than 6 h, one study per poll (proposed 2026-09-28, not built).
+
 ### V1 Full view first; framing (owner, 2026-09-28)
 
 - Decision (project owner, in session): build the full view first, smaller views later. Framing as proposed in `FULL_VIEW.md`: centre on the animal's position today; the short side of the map covers the last 10 days of its track or 500 km, whichever is larger. The line back to the leg start may run off screen; an off-screen destination gets the edge callout.

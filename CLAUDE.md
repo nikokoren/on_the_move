@@ -4,7 +4,7 @@ Read this first in every session. The repo is the memory: agents keep nothing be
 
 ## Status (2026-09-28)
 
-Full view built and checked, not deployed, not seen on a device. Worker (`worker/`): payload, live refresh cron with KV and R5 refusal, deployment config; `npm run check` in `worker/` runs the payload sweep and the refresh tests. Template: `template/full.liquid`, `settings.yml`, `render-check.mjs` (Chromium). Data: 12 featured species (F1), 3,617-animal catalog, study whitelist `data/studies.json` (11 studies). Next: deploy (owner's Cloudflare account: KV namespace, secrets), set the polling URL in TRMNL, check on a device (R25). Open items in `docs/FULL_VIEW.md`; species table (R8) and smaller views still to do.
+Deployed 2026-09-28 by the owner (Worker `on-the-move`, KV namespace `on_the_move`, secrets set, cron `23 */6 * * *` registered). Endpoint checked from here: en/de payloads, viewer's local day, 1.2 to 1.5 KB. First cron refresh not yet observed (`npx wrangler tail`). Not yet set up in TRMNL, not seen on a device (R25). Worker URL stays out of the docs (Nextbike practice). Open items in `docs/FULL_VIEW.md`; species table (R8) and smaller views still to do.
 
 ## Where things are
 
