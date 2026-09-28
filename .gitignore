@@ -1,0 +1,10 @@
+# Secrets (Movebank credentials etc.)
+.dev.vars
+.env
+.env.*
+
+# Tooling
+node_modules/
+.wrangler/
+dist/
+.DS_Store
