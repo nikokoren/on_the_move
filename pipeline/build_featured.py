@@ -180,6 +180,7 @@ def main():
     for f in os.listdir(os.path.join(ROOT, "data", "usual")):
         tables.update(json.load(open(os.path.join(ROOT, "data", "usual", f)))["animals"])
     layers = load_places()
+    curated = json.load(open(os.path.join(ROOT, "pipeline", "species_curated.json"), encoding="utf-8"))["species"]
     places, place_ids = [], {}
 
     def pid(name):
@@ -232,7 +233,11 @@ def main():
         # moving within France outranked one flying the Netherlands to Morocco.
         cands.sort(key=lambda c: (not c[0]["live"], max(c[3]) < 1000, -c[0]["doyCovered"], name_of(c[0]) == "", c[0]["id"]))
         chosen = cands[:BACKUPS + 1]
-        entry = {"taxon": taxon, "names": sp["names"], "iucn": sp["iucn"], "animals": []}
+        # Names and the species fact from the species table's sources (R8,
+        # pipeline/species_curated.json), not the provisional GBIF names.
+        c = curated[taxon]
+        entry = {"taxon": taxon, "names": {k: c["names"][k] for k in ("en", "de")}, "iucn": sp["iucn"],
+                 "fact": {k: c["fact"][k] for k in ("en", "de")}, "animals": []}
         for a, tab, st, hops in chosen:
             study = cat["studies"][a["studyId"]]
             track, day_place = [], []

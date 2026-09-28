@@ -31,7 +31,7 @@ Build log (2026-09-28): 702 eligible studies; 300 without a migratory species, 1
 
 - Data Repository animals: `mortality_date` is not read yet, so a dead bird's final stationary days can appear as "usually". To do: read `deployment-end-type` and `deploy-off-date` from the reference files.
 - Mammals barely move in our data. Median annual range: reindeer 64 km, blue wildebeest 24 km, pronghorn 25 km, red deer 22 km. These are resident populations, not the famous migrations. They stay in the pool but are not featured.
-- Common names are provisional (the most frequent GBIF vernacular name per language). Some German ones are odd ("Ren", "Hutschins Zwergkanadagans"). R8 replaces them.
+- Common names in the catalog are provisional (the most frequent GBIF vernacular name per language; some German ones are odd, "Ren"). The 12 featured species use sourced names from the species table (R8, `data/species.json`).
 - Animal labels are often tag codes ("DER AU050 (eobs 3264)"). A display-name rule is still needed.
 - `data/usual/` is 30 MB. Fine in git for now; move to KV or R2 once the Worker exists.
 
