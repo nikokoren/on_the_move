@@ -13,7 +13,7 @@ crons = ["23 */6 * * *"]
 # The id is not a secret; create it with `npx wrangler kv namespace create KV`.
 [[kv_namespaces]]
 binding = "KV"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "ebe03f8af1904bc6afc5b828aeeb44c4"  # "on_the_move", created by the owner 2026-09-28
 
 # Secrets, never in this file (CLAUDE.md): MOVEBANK_USERNAME, MOVEBANK_PASSWORD.
 # Set with `npx wrangler secret put ...`; locally in worker/.dev.vars (git-ignored).
