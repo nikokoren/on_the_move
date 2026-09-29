@@ -56,7 +56,7 @@ for (const lang of ["en", "de"]) {
 let rotFails = 0, rotTurns = 0;
 for (const sp of data.species) {
   for (const a of sp.animals) {
-    for (let n = 1; n <= sp.facts.length + 5; n++) {
+    for (let n = 1; n <= sp.facts.length + 8; n++) {  // + up to 5 track numbers and 3 individual facts
       let last = -1;
       for (let c = 0; c < 50; c++) {
         const seen = new Set();

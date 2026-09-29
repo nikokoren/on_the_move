@@ -22,6 +22,7 @@ Deployed 2026-09-28 by the owner (Worker `on-the-move`, KV namespace `on_the_mov
 | `data/catalog.json`, `data/usual/`, `data/featured.json` | Built catalog, per-animal day-of-year tables, the 12 featured species (F1). Regenerate with the pipeline; do not edit by hand. |
 | `data/species.json` | Species table (R8): sourced names and facts (`pipeline/species_curated.json`, checked by `pipeline/verify_sources.py`), windows and regions from the tracks (`pipeline/build_species.py`). |
 | `pipeline/species_images.json`, `pipeline/build_photos.py`, `worker/photos/`, `worker/src/photos.js` | Species photos (decision R8b): the owner's picks with their credits, and the greyscale squares the Worker serves at `/photo/<taxon>.jpg`. Credits live in the About text (`template/settings.yml`) and `README.md`. |
+| `pipeline/build_individuals.py`, `pipeline/individuals.json` | Facts about the individual animal (sex, tracking dates, hatch year) from Movebank individual records; merged by `build_featured.py`. Free-text comments: hand-curation to do (`docs/FULL_VIEW.md`). |
 | `docs/TEXT_REQUIREMENTS.md` | Text slots, measured lengths and copy rules (R16); enforced by `worker/check.mjs`. |
 | `docs/survey/acceptance/` | Record of the 556 Movebank license acceptances. |
 | `data/permissions/` | Written permissions from data owners (section 2 of the brief). A whitelist entry that is not CC0 or CC BY must point to a file here. |

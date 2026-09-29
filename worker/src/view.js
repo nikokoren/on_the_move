@@ -185,8 +185,27 @@ function factPool(t, lang, sp, a, units) {
     fill(t.facts.span, { dist: fmtDist(t, f.spanKm, lang, units) }),
     f.southmost < 0 || f.northmost - f.southmost > 20 ? fill(t.facts.southmost, { lat: fmtLat(t, f.southmost) }) : null,
     f.northmost > 50 ? fill(t.facts.northmost, { lat: fmtLat(t, f.northmost) }) : null,
-    a.stays.length > 1 && days >= 5 && days <= 300 ? fill(t.facts.travelDays, { n: days }) : null
+    a.stays.length > 1 && days >= 5 && days <= 300 ? fill(t.facts.travelDays, { n: days }) : null,
+    ...individualFacts(t, a)
   ].filter(Boolean);
+}
+
+// The animal's own record (owner, 2026-09-29): sex, when tracking ran, hatch
+// year; only what Movebank holds for it (pipeline/build_individuals.py).
+function individualFacts(t, a) {
+  const i = a.individual || {};
+  const ym = (s) => ({ month: t.monthsLong[Number(s.slice(5, 7)) - 1], year: s.slice(0, 4) });
+  const out = [];
+  if (i.sex === "f") out.push(t.facts.female);
+  if (i.sex === "m") out.push(t.facts.male);
+  if (i.trackedFrom) {
+    const from = ym(i.trackedFrom);
+    out.push(a.live || !i.trackedTo
+      ? fill(t.facts.trackedSince, from)
+      : fill(t.facts.trackedFromTo, { ...from, month2: ym(i.trackedTo).month, year2: ym(i.trackedTo).year }));
+  }
+  if (i.hatchYear) out.push(fill(i.hatchExact ? t.facts.hatched : t.facts.hatchedBy, { year: i.hatchYear }));
+  return out;
 }
 
 function pickFact(t, lang, sp, a, turn, units) {

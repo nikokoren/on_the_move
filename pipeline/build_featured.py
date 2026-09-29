@@ -191,6 +191,8 @@ def main():
         tables.update(json.load(open(os.path.join(ROOT, "data", "usual", f)))["animals"])
     layers = load_places()
     curated = json.load(open(os.path.join(ROOT, "pipeline", "species_curated.json"), encoding="utf-8"))["species"]
+    ip = os.path.join(ROOT, "pipeline", "individuals.json")
+    individuals = json.load(open(ip, encoding="utf-8"))["animals"] if os.path.exists(ip) else {}
     places, place_ids = [], {}
 
     def pid(name):
@@ -278,6 +280,8 @@ def main():
             far = max((km(tab[d][:2], tab[e][:2]) for d in range(0, 366, 7) for e in range(0, 366, 7) if tab[d] and tab[e]), default=0)
             entry["animals"].append({
                 "id": a["id"], "name": name_of(a), "live": a["live"], "lastFix": a["lastFix"],
+                # Sex, tracking dates and hatch year (pipeline/build_individuals.py).
+                "individual": individuals.get(a["id"], {}),
                 "lastPosition": [a["lastPosition"][1], a["lastPosition"][0]] if a["live"] else None,
                 "coarsen": a["coarsenDegrees"],
                 "credit": {"source": study.get("source"), "pi": study.get("pi", ""), "license": study["license"],
