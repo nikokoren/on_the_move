@@ -1,4 +1,4 @@
-// Replays recorded Movebank answers (test/fixtures, captured 2026-09-28)
+// Replays recorded Movebank answers (test/fixtures, captured 2026-09-29 after the species were added)
 // through the cron refresh and the polling endpoint (R24, R5). Each failure
 // case is the recording with one thing changed, named in the case.
 //
@@ -70,7 +70,9 @@ const r1 = replay();
 const run1 = await refresh({ KV: k1, MOVEBANK_USERNAME: "u", MOVEBANK_PASSWORD: "p" }, { featured, whitelist, now: NOW, fetchImpl: r1.fetchImpl, log: quiet });
 const s1 = run1.state;
 check("normal: requests match the recording", r1.calls === rec.calls.length, `${r1.calls} of ${rec.calls.length}`);
-check("normal: animals with a fix", Object.keys(s1.animals).length === 16, `${Object.keys(s1.animals).length}`);
+// Every animal the featured data marks live has a fix in the recording (17 on 2026-09-29).
+const LIVE = featured.species.flatMap((sp) => sp.animals).filter((a) => a.live).length;
+check("normal: animals with a fix", Object.keys(s1.animals).length === LIVE, `${Object.keys(s1.animals).length} of ${LIVE}`);
 check("normal: one KV write", k1.writes === 1, `${k1.writes}`);
 check("normal: no fix after 'now'", Object.values(s1.animals).every((a) => new Date(a.t) <= NOW));
 const coarseOk = featured.species.flatMap((s) => s.animals).filter((a) => s1.animals[a.id]).every((a) => {
@@ -92,7 +94,7 @@ await refresh({ KV: k3 }, { featured, whitelist, now: NOW, log: quiet, fetchImpl
 const s3 = JSON.parse(await k3.get(LIVE_KEY));
 check("license changed: study refused", !!s3.refused["28691134"], s3.refused["28691134"]);
 check("license changed: its animals dropped", !Object.keys(s3.animals).some((id) => studyOf(id) === "28691134"));
-check("license changed: other studies untouched", Object.keys(s3.animals).length === 16 - Object.keys(s1.animals).filter((id) => studyOf(id) === "28691134").length);
+check("license changed: other studies untouched", Object.keys(s3.animals).length === LIVE - Object.keys(s1.animals).filter((id) => studyOf(id) === "28691134").length);
 
 // 4. Terms changed (the terms page captured for study 24442409, served for the stork study 24442409).
 const k4 = kv(s1);
@@ -117,7 +119,7 @@ await refresh({ KV: k6 }, { featured, whitelist, now: NOW, log: quiet, fetchImpl
   c.url.includes("entity_type=event") && c.url.includes("study_id=481458") ? new Error("connection reset") : null).fetchImpl })
   .catch((e) => check("down: refresh survives a network error", false, e.message));
 const s6 = (await k6.get(LIVE_KEY, "json"));
-check("down: last good positions kept", Object.keys(s6.animals).length === 16, `${Object.keys(s6.animals).length}`);
+check("down: last good positions kept", Object.keys(s6.animals).length === LIVE, `${Object.keys(s6.animals).length}`);
 
 // 7. The polling endpoint with the refreshed state.
 const env7 = { KV: kv(s1) };

@@ -34,6 +34,74 @@
    ]
   },
   {
+   "studyId": 2943485,
+   "licenseType": "CC_0",
+   "licenseTermsHash": "e194387027a2221e06b2e6f0ff886ee41df4f477bd8d7675c7f902f533a1ec20",
+   "citation": "Nye P, Hewitt G, Swenson T, Kays R. 2018. Data from: New York State bald eagle report 2010. Movebank Data Repository. https://www.doi.org/10.5441/001/1.s65q50j0 Li Z, Han J, Ding B, Kays R. 2012. Mining periodic behaviors of object movements for animal and biological sustainability studies. Dat Min Knowl Disc. 24(2):355-386. https://doi.org/10.1007/s10618-011-0227-9 Nye P. 2010. New York State bald eagle report 2010. Albany (NY): New York State Department of Environmental Conservation. 43 p. Martell MS, Henny CJ, Nye PE, Solensky MJ. 2001. Fall migration routes, timing, and wintering sites of North American ospreys as determined by satellite telemetry. Condor. 103(4):715-724. https://doi.org/10.1650/0010-5422(2001)103[0715:FMRTAW]2.0.CO;2 Rodriguez F, Martell M, Nye P, Bildstein KL. 2001. Osprey migration through Cuba. In: Bildstein K, Klem D Jr, editors. Hawkwatching in the Americas. North Wales (PA): Hawk Migration Association of North America. p. 107-117. Bautz L, Nye P. 1987. Spring movement of an adult bald eagle from southeastern New York to central Ontario. The Eyas. 10(1):32-33.",
+   "citationShort": "Data: Movebank, NYSDEC Raptor Tracking, CC0",
+   "ownerContact": "",
+   "dateAccepted": "2026-09-28",
+   "animals": [
+    {
+     "individualId": 2943518,
+     "displayName": {
+      "en": "Bald Eagle 2943518",
+      "de": "Weißkopf-Seeadler 2943518"
+     }
+    },
+    {
+     "individualId": 2943519,
+     "displayName": {
+      "en": "Bald Eagle 2943519",
+      "de": "Weißkopf-Seeadler 2943519"
+     }
+    },
+    {
+     "individualId": 2943520,
+     "displayName": {
+      "en": "Bald Eagle 2943520",
+      "de": "Weißkopf-Seeadler 2943520"
+     }
+    }
+   ]
+  },
+  {
+   "studyId": 7249090,
+   "licenseType": "CC_0",
+   "licenseTermsHash": "6a14995f648abed0e3edc09e64d4c33cc6d158e12f453911c235513a80203979",
+   "citation": "Burnham KK. 2020. Data from: The history and range expansion of peregrine falcons in the Thule area, northwest Greenland. Movebank Data Repository. https://www.doi.org/10.5441/001/1.b3b511d2 Burnham KK, Burnham WA, Newton I, Johnson JA, Gosle AG. 2012. The history and range expansion of peregrine falcons in the Thule area, northwest Greenland. Bioscience (Monographs on Greenland 353) 60. Copenhagen (DK): Museum Tusculanum Press, University of Copenhagen. 106 p. ISBN: 9788763539005",
+   "citationShort": "Data: Movebank, Kurt K. Burnham, CC0",
+   "ownerContact": "Kurt K. Burnham",
+   "dateAccepted": "2026-09-28",
+   "animals": [
+    {
+     "individualId": 7541652,
+     "displayName": {
+      "en": "Peregrine Falcon 7541652",
+      "de": "Wanderfalke 7541652"
+     }
+    }
+   ]
+  },
+  {
+   "studyId": 10204361,
+   "licenseType": "CC_0",
+   "licenseTermsHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "citation": "Pandion haliaetus Osprey - SouthEast Michigan. Movebank study 10204361, https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study10204361",
+   "citationShort": "Data: Movebank, Barb Jensen, CC0",
+   "ownerContact": "Barb Jensen",
+   "dateAccepted": "2026-09-28",
+   "animals": [
+    {
+     "individualId": 29656376,
+     "displayName": {
+      "en": "Osprey 29656376",
+      "de": "Fischadler 29656376"
+     }
+    }
+   ]
+  },
+  {
    "studyId": 24442409,
    "licenseType": "CC_BY",
    "licenseTermsHash": "2c3553521d4a0ccc35503660ee6ec22312cf16a68b8e518e0ea7f6239949d4e1",
@@ -152,6 +220,31 @@
    ]
   },
   {
+   "studyId": 384172482,
+   "licenseType": "CC_BY",
+   "licenseTermsHash": "70b27d0d8b2179451db940bb5ee88dff214029e8df2d6c5976aaddbb5af9a2eb",
+   "citation": "Martell MS, Douglas D. 2019. Data from: Fall migration routes, timing, and wintering sites of North American ospreys as determined by satellite telemetry. Movebank Data Repository. https://www.doi.org/10.5441/001/1.sv6335t3 Henny CJ, Martell MS. 2017. Satellite-tagged osprey nearly sets longevity record and productivity response to initial captures. J Raptor Res. 51(2):180-183. https://doi.org/10.3356/JRR-16-71.1 Martell MS, Bierregaard RO, Jr, Washburn BE, Elliott JE, Henny CJ, Kennedy RS, MacLeod I. 2014. The spring migration of adult North American ospreys. J Raptor Res. 48(4):309-324. https://doi.org/10.3356/JRR-14-00035.1 Washburn BE, Martell MS, Bierregaard RO, Jr, Henny CJ, Dorr BS, Olexa TJ. 2014. Wintering ecology of adult North American ospreys. J Raptor Res. 48(4):325-333. https://doi.org/10.3356/JRR-OSPR-13-01.1 Farmer CJ, Safi K, Barber DR, Newton I, Martell M, Bildstein KL. 2010. Efficacy of migration counts for monitoring continental populations of raptors: an example using the osprey (Pandion haliaetus). Auk. 127(4):863-870. https://doi.org/10.1525/auk.2010.09152 DeCandido R, Bierregaard RO, Jr, Martell MS, Bildstein KL. 2006. Evidence of nocturnal migration by osprey (Pandion haliaetus) in North America and western Europe. J Raptor Res. 40(2):156-158. https://doi.org/10.3356/0892-1016(2006)40[156:EONMBO]2.0.CO;2 Martell MS, McMillian MA, Solensky MJ, Mealy BK. 2004. Partial migration and wintering use of Florida by ospreys. J Raptor Res. 38(1):55-61. Houston CS, Martell M. 2002. Speedy migration: Saskatchewan's first osprey satellite transmitter. Blue Jay. 60(2):74-79. Martell MS, Henny CJ, Nye PE, Solensky MJ. 2001. Fall migration routes, timing, and wintering sites of North American ospreys as determined by satellite telemetry. Condor. 103(4):715-724. https://doi.org/10.1650/0010-5422(2001)103[0715:FMRTAW]2.0.CO;2 Rodriguez F, Martell M, Nye P, Bildstein KL. 2001. Osprey migration through Cuba. In: Bildstein K, Klem D Jr, editors. Hawkwatching in the Americas. North Wales (PA): Hawk Migration Association of North America. P. 107-117. Martell MS, Kennedy MJ, Henny CJ, Nye PE. 1998. Highway to the tropics: using satellite telemetry and the internet to track ospreys in the western hemisphere. In: Leshem Y, Lachman E, Berhold P, editors. Migrating birds know no boundaries: scientific and educational aspects of migrating bird conservation; 1997 August 31-September 6; Tel Aviv, Israel. Torgos. 28. p. 163-172.",
+   "citationShort": "Data: Movebank, Mark Martell, CC BY",
+   "ownerContact": "Mark Martell",
+   "dateAccepted": "2026-09-28",
+   "animals": [
+    {
+     "individualId": 407258153,
+     "displayName": {
+      "en": "Osprey 407258153",
+      "de": "Fischadler 407258153"
+     }
+    },
+    {
+     "individualId": 407258154,
+     "displayName": {
+      "en": "Osprey 407258154",
+      "de": "Fischadler 407258154"
+     }
+    }
+   ]
+  },
+  {
    "studyId": 533427629,
    "licenseType": "CC_0",
    "licenseTermsHash": "92239051ea041dde4f0a648ced0fb9f8dfa59e0e0b3f812e9394c4eec23a150e",
@@ -191,12 +284,30 @@
       "en": "Candrat",
       "de": "Candrat"
      }
+    }
+   ]
+  },
+  {
+   "studyId": 619061097,
+   "licenseType": "CC_BY",
+   "licenseTermsHash": "adf67a08e02d7085e0fded76edc9345e7e041b83dea762b15ad40061f4ba10c9",
+   "citation": "Fuller MR, Seegar WS, Schueck LS (1998) Routes and travel rates of migrating peregrine falcons Falco peregrinus and Swainson's Hawks Buteo swainsoni in the Western Hemisphere. Journal of Avian Biology 29: 433–440. doi:10.2307/3677162 Ganusevich SA, Maechtle TL, Seegar WS, Yates MA, McGrady MJ, Fuller M, Schueck L, Dayton J, Henny CJ (2004) Autumn migration and wintering areas of peregrine falcons Falco peregrinus nesting on the Kola Peninsula, northern Russia. Ibis 146: 291–297. doi:10.1046/j.1474-919X.2004.00253.x Henny CJ, Seegar WS, Yates MA, Maechtle TL, Ganusevich SA, Fuller MR (2000) Contaminants and wintering areas of peregrine falcons, Falco peregrinus, from the Kola Peninsula, Russia. in Chancellor RD and Meyburg B-U, eds. Raptors at Risk, WWGBP/Hancock House, p. 871–878. McGrady MJ, Young GS, Seegar WS (2006) Migration of a peregrine falcon Faclo peregrinus over water in the vicinity of a hurricane. Ringing & Migration 23: 80–84. doi:10.1080/03078698.2006.9674348 Seegar WS, Cutchis PN, Fuller MR, Suter JJ, Bhatnagar V, Wall JG (1996) Fifteen years of satellite tracking development and application to wildlife research and conservation. Johns Hopkins APL Technical Digest 17(4): 401–411.",
+   "citationShort": "Data: Movebank, Michael Yates, CC BY",
+   "ownerContact": "Michael Yates",
+   "dateAccepted": "2026-09-28",
+   "animals": [
+    {
+     "individualId": 619067331,
+     "displayName": {
+      "en": "Peregrine Falcon 619067331",
+      "de": "Wanderfalke 619067331"
+     }
     },
     {
-     "individualId": 959787093,
+     "individualId": 619067440,
      "displayName": {
-      "en": "Cuvey",
-      "de": "Cuvey"
+      "en": "Peregrine Falcon 619067440",
+      "de": "Wanderfalke 619067440"
      }
     }
    ]
@@ -245,6 +356,56 @@
    ]
   },
   {
+   "studyId": 959756713,
+   "licenseType": "CC_0",
+   "licenseTermsHash": "dcb5cacf868e31e222c39ec009a7d3ae32167dd804ca784605e276b42d1d44f5",
+   "citation": "DeLuca, WV, BK Woodworth, SA Mackenzie, AEM Newman, HA Cooke, LM Phillips, NE Freeman, AO Sutton, L Tauzer, C McIntyre, IJ Stenhouse, S Weidensaul, PD Taylor, DR Norris. 2019. A boreal songbirds's 20,00 km migration across North America and the Atlantic Ocean",
+   "citationShort": "Data: Movebank, DeLuca, William V., CC0",
+   "ownerContact": "DeLuca, William V.",
+   "dateAccepted": "2026-09-28",
+   "animals": [
+    {
+     "individualId": 959768811,
+     "displayName": {
+      "en": "Blackpoll Warbler 959768811",
+      "de": "Streifenwaldsänger 959768811"
+     }
+    },
+    {
+     "individualId": 959768820,
+     "displayName": {
+      "en": "Blackpoll Warbler 959768820",
+      "de": "Streifenwaldsänger 959768820"
+     }
+    },
+    {
+     "individualId": 959768832,
+     "displayName": {
+      "en": "Blackpoll Warbler 959768832",
+      "de": "Streifenwaldsänger 959768832"
+     }
+    }
+   ]
+  },
+  {
+   "studyId": 1229945587,
+   "licenseType": "CC_0",
+   "licenseTermsHash": "fdb47c260466da22e7c3497a634743f4eb01b040a650ab0ec008be3d57388396",
+   "citation": "Unpublished & ongoing study by Lithuanian University of Educational Sciences (LEU)",
+   "citationShort": "Data: Movebank, Petras Kurlavičius, CC0",
+   "ownerContact": "Petras Kurlavičius",
+   "dateAccepted": "2026-09-28",
+   "animals": [
+    {
+     "individualId": 1229967013,
+     "displayName": {
+      "en": "Common Crane 1229967013",
+      "de": "Kranich 1229967013"
+     }
+    }
+   ]
+  },
+  {
    "studyId": 1258895879,
    "licenseType": "CC_0",
    "licenseTermsHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -272,6 +433,70 @@
      "displayName": {
       "en": "Maya",
       "de": "Maya"
+     }
+    }
+   ]
+  },
+  {
+   "studyId": 1509697502,
+   "licenseType": "CC_0",
+   "licenseTermsHash": "d5f4db510eb290a682fb7554bde710450523a778c3d93f627a0ac33a99047c57",
+   "citation": "Delmarva Wintering Waterfowl AIV and Poultry. Movebank study 1509697502, https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study1509697502",
+   "citationShort": "Data: Movebank, Chris Williams, CC0",
+   "ownerContact": "Chris Williams",
+   "dateAccepted": "2026-09-28",
+   "animals": [
+    {
+     "individualId": 1892665268,
+     "displayName": {
+      "en": "Snow Goose 1892665268",
+      "de": "Schneegans 1892665268"
+     }
+    },
+    {
+     "individualId": 1892675591,
+     "displayName": {
+      "en": "Snow Goose 1892675591",
+      "de": "Schneegans 1892675591"
+     }
+    },
+    {
+     "individualId": 1892699911,
+     "displayName": {
+      "en": "Snow Goose 1892699911",
+      "de": "Schneegans 1892699911"
+     }
+    },
+    {
+     "individualId": 1892704459,
+     "displayName": {
+      "en": "Canada Goose 1892704459",
+      "de": "Kanadagans 1892704459"
+     }
+    }
+   ]
+  },
+  {
+   "studyId": 2105214573,
+   "licenseType": "CC_0",
+   "licenseTermsHash": "42029788c2b26470a6594f6e5735d22095e1ff215de67878c5f1f6a3d5f2bf8b",
+   "citation": "Sorais M., Patenaude-Monette M., Sharp C., Askren R., LaRocque A., Leblon B., and Giroux J.-F.",
+   "citationShort": "Data: Movebank, Manon Sorais, CC0",
+   "ownerContact": "Manon Sorais",
+   "dateAccepted": "2026-09-28",
+   "animals": [
+    {
+     "individualId": 2105313543,
+     "displayName": {
+      "en": "Canada Goose 2105313543",
+      "de": "Kanadagans 2105313543"
+     }
+    },
+    {
+     "individualId": 2105313545,
+     "displayName": {
+      "en": "Canada Goose 2105313545",
+      "de": "Kanadagans 2105313545"
      }
     }
    ]

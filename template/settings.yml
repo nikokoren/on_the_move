@@ -8,7 +8,7 @@
   field_type: author_bio
   name: About This Plugin
   description: |
-    Follow migrating animals on a map: white storks, cranes, honey buzzards, turtle doves, gulls, shrikes, wheatears, curlews, hawks, vultures, a blue whale and a loggerhead turtle. Animals with a working GPS tag show their last position and its date. The others show where they usually are on this day, from a full year of their own published tracking data. A thick line shows where the journey began, a thin line where it usually goes next.<br><br>
+    Follow migrating animals on a map: white storks, cranes, honey buzzards, turtle doves, gulls, shrikes, wheatears, curlews, hawks, vultures, ospreys, snow geese, Canada geese, bald eagles, blackpoll warblers, peregrine falcons, a blue whale and a loggerhead turtle. Animals with a working GPS tag show their last position and its date. The others show where they usually are on this day, from a full year of their own published tracking data. A thick line shows where the journey began, a thin line where it usually goes next.<br><br>
     Tracking data: Movebank and the Movebank Data Repository (CC0 and CC BY studies only). Map places: Natural Earth.<br><br>
     Species photos, cropped and converted to greyscale for e-ink (modified from the originals). Licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, without warranties:<br>
     White Stork: (c) SteveM4560, some rights reserved (CC BY), <a href="https://www.inaturalist.org/observations/202678318">iNaturalist</a><br>
@@ -40,8 +40,14 @@
   - Far Eastern Curlew
   - Broad-winged Hawk
   - Turkey Vulture
+  - Osprey
+  - Snow Goose
+  - Canada Goose
+  - Bald Eagle
+  - Blackpoll Warbler
   - Blue Whale
   - Loggerhead Turtle
+  - Peregrine Falcon
 - keyname: show_photo
   field_type: boolean
   name: Species photo

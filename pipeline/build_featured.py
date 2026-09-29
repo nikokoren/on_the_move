@@ -146,9 +146,17 @@ def stays_of(tab, stay_km=STAY_KM):
             s = d
             run = []
             while still[d] and steps < n:
+                # A jump between two still days ends the stay: the table stitches
+                # years together (seen 2026-09-29: a Canada goose near Montreal in
+                # 2023 until day 305, in Delaware in 2022 from day 310, merged into
+                # one 260-day "stay in the USA").
+                # Twice the stay radius, so ordinary moves inside a stay do not split it.
+                if run and km(run[-1][:2], tab[d][:2]) > 2 * stay_km:
+                    break
                 run.append(tab[d])
                 d, steps = (d + 1) % n, steps + 1
-            out.append([s, (d - 1) % n] + med(run))
+            if len(run) >= STAY_DAYS:  # a piece left short by a split is no stay
+                out.append([s, (d - 1) % n] + med(run))
         else:
             d, steps = (d + 1) % n, steps + 1
     return out
@@ -168,7 +176,9 @@ def display_name(label, species_en=""):
     if species_en and species_en.lower().split()[-1] in (label or "").lower():
         return ""
     head = re.split(r"\s*[/(]\s*|\s+\+|\s+\d", label or "")[0].strip(" +")
-    return head if re.fullmatch(r"[A-Za-zÀ-ÿ'\- ]{3,}", head) and not re.search(r"\d", head) else ""
+    # All capitals is a code, not a name (seen 2026-09-29: snow geese "GSGO - EM",
+    # the banding code for Greater Snow Goose plus initials).
+    return head if re.fullmatch(r"[A-Za-zÀ-ÿ'\- ]{3,}", head) and not re.search(r"\d", head) and re.search(r"[a-zà-ÿ]", head) else ""
 
 
 # ---------- main ----------
@@ -240,7 +250,9 @@ def main():
         # Names and the species facts from the species table's sources (R8,
         # pipeline/species_curated.json), not the provisional GBIF names.
         c = curated[taxon]
-        entry = {"taxon": taxon, "names": {k: c["names"][k] for k in ("en", "de")}, "iucn": sp["iucn"],
+        # A photo only where one has been picked and built (pipeline/build_photos.py).
+        has_photo = os.path.exists(os.path.join(ROOT, "worker", "photos", taxon.lower().replace(" ", "_") + ".jpg"))
+        entry = {"taxon": taxon, "names": {k: c["names"][k] for k in ("en", "de")}, "iucn": sp["iucn"], "photo": has_photo,
                  "facts": [{k: f[k] for k in ("en", "de")} for f in c["facts"]], "animals": []}
         for a, tab, st, hops in chosen:
             study = cat["studies"][a["studyId"]]

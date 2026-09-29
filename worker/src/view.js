@@ -281,7 +281,8 @@ export function buildFull(data, { species = "all", lang = "en", now = new Date()
   // The fact turns once per visit: every slot when following one species, once
   // per round when several take turns (each is shown once a round).
   const turn = Math.floor(slot / pool.length);
-  const done = (sp, v) => ({ ...v, photo: photoBase ? photoBase + sp.taxon.toLowerCase().replace(/ /g, "_") + ".jpg" : "" });
+  // No photo for a species without one yet (sp.photo, set by build_featured.py).
+  const done = (sp, v) => ({ ...v, photo: photoBase && sp.photo ? photoBase + sp.taxon.toLowerCase().replace(/ /g, "_") + ".jpg" : "" });
   // Star first, then its backups; then the next species in the pool.
   for (const sp of order) {
     for (const a of sp.animals) {

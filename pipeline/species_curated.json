@@ -1032,6 +1032,519 @@
      }
     }
    ]
+  },
+  "Pandion haliaetus": {
+   "names": {
+    "en": "Osprey",
+    "de": "Fischadler",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-29"
+    }
+   },
+   "facts": [
+    {
+     "en": "Ospreys live on every continent except Antarctica.",
+     "de": "Fischadler leben auf allen Kontinenten außer der Antarktis.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Are a cosmopolitan species with populations on all continents except Antarctica."
+     }
+    },
+    {
+     "en": "Ospreys add to their nests every year; some nests end up weighing up to 180 kg.",
+     "de": "Fischadler bauen jedes Jahr an ihren Horsten weiter; manche wiegen am Ende bis zu 180 kg.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Ospreys add material to their nests each year, and sometimes build massive structures weighing up to 400 pounds."
+     }
+    },
+    {
+     "en": "Ospreys carry their fish head first, which makes it more streamlined in flight.",
+     "de": "Fischadler tragen ihre Beute mit dem Kopf voran, das ist im Flug windschnittiger.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Carry fish head first to make them more aerodynamic in flight."
+     }
+    },
+    {
+     "en": "Reversible outer toes and spiny foot pads help ospreys hold on to slippery fish.",
+     "de": "Wendezehen und stachelige Fußsohlen helfen Fischadlern, glitschige Fische festzuhalten.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Have reversible outer toes and spiny foot pads that help them catch and hold fish."
+     }
+    },
+    {
+     "en": "An extra eyelid, a bit like a contact lens, protects an osprey's eyes when it dives.",
+     "de": "Ein zusätzliches Augenlid, fast wie eine Kontaktlinse, schützt beim Tauchen die Augen der Fischadler.",
+     "source": {
+      "title": "RSPB, Osprey",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/osprey",
+      "quote": "They have a special extra eyelid – a bit like a contact lens – that helps to protect their eyes when they hunt under water."
+     }
+    },
+    {
+     "en": "Ospreys can catch fish down to about one metre below the surface.",
+     "de": "Fischadler erbeuten Fische bis in etwa einen Meter Wassertiefe.",
+     "source": {
+      "title": "NABU, Vogelporträt Fischadler",
+      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/fischadler/",
+      "quote": "so kann er sie in bis zu einem Meter Wassertiefe noch erbeuten"
+     }
+    },
+    {
+     "en": "After the DDT ban in 1972, many North American osprey populations recovered.",
+     "de": "Nach dem DDT-Verbot 1972 erholten sich viele Fischadlerbestände in Nordamerika.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Following the ban on the widespread use of this pesticide in 1972, many populations of Ospreys recovered."
+     }
+    },
+    {
+     "en": "The name Pandion comes from a mythical king of Athens; haliaetus is Greek for sea eagle.",
+     "de": "Der Name Pandion stammt von einem sagenhaften König Athens, haliaetus ist griechisch für Seeadler.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Get their scientific name from Pandion, a mythical king of Athens and haliaetus, which is Greek for sea eagle."
+     }
+    }
+   ]
+  },
+  "Chen caerulescens": {
+   "names": {
+    "en": "Snow Goose",
+    "de": "Schneegans",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-29",
+     "note": "IOC lists it as Anser caerulescens; the catalog uses Chen caerulescens (GBIF)."
+    }
+   },
+   "facts": [
+    {
+     "en": "The 'Blue Goose' is not a separate species but a colour form of the snow goose.",
+     "de": "Die „Blaugans“ ist keine eigene Art, sondern eine Farbvariante der Schneegans.",
+     "source": {
+      "title": "Audubon Field Guide, Snow Goose",
+      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
+      "quote": "now known to be only a color morph of the smaller race of Snow (Lesser Snow Goose)"
+     }
+    },
+    {
+     "en": "Snow geese often migrate along narrow corridors, stopping at the same traditional places.",
+     "de": "Schneegänse ziehen oft in schmalen Korridoren und rasten an traditionellen Plätzen.",
+     "source": {
+      "title": "Audubon Field Guide, Snow Goose",
+      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
+      "quote": "In many regions the Snow Geese migrate along rather narrow corridors, with traditional stopover points en route."
+     }
+    },
+    {
+     "en": "Snow geese span 1.3 to 1.7 m from wingtip to wingtip.",
+     "de": "Schneegänse haben eine Flügelspannweite von 1,3 bis 1,7 m.",
+     "source": {
+      "title": "Audubon Field Guide, Snow Goose",
+      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
+      "quote": "wingspan: 4 ft 5 in-5 ft 5 in (1.3-1.7 m)"
+     }
+    },
+    {
+     "en": "In summer snow geese nest on the Arctic tundra, usually within about 8 km of the coast.",
+     "de": "Im Sommer brüten Schneegänse in der arktischen Tundra, meist höchstens etwa 8 km von der Küste.",
+     "source": {
+      "title": "Audubon Field Guide, Snow Goose",
+      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
+      "quote": "In summer on Arctic tundra usually within 5 miles of coast"
+     }
+    },
+    {
+     "en": "Snow goose chicks leave the nest a few hours after hatching and find their own food.",
+     "de": "Junge Schneegänse verlassen wenige Stunden nach dem Schlüpfen das Nest und suchen ihr Futter selbst.",
+     "source": {
+      "title": "Audubon Field Guide, Snow Goose",
+      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
+      "quote": "A young Snow Goose will usually leave nest within a few hours after hatching; they find their own food"
+     }
+    },
+    {
+     "en": "In winter snow geese often feed on grain left over in harvested fields.",
+     "de": "Im Winter fressen Schneegänse oft liegen gebliebenes Getreide auf abgeernteten Feldern.",
+     "source": {
+      "title": "Audubon Field Guide, Snow Goose",
+      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
+      "quote": "Winter flocks often feed on waste grain in agricultural fields."
+     }
+    },
+    {
+     "en": "Around 1900 only 2,000 to 3,000 greater snow geese were left; they have since recovered.",
+     "de": "Um 1900 gab es nur noch 2.000 bis 3.000 Große Schneegänse; der Bestand hat sich erholt.",
+     "source": {
+      "title": "Audubon Field Guide, Snow Goose",
+      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
+      "quote": "Population of Greater Snow Goose was reduced to only 2,000-3,000 around year 1900, has made satisfactory recovery."
+     }
+    },
+    {
+     "en": "After a run of very cold Arctic summers, snow geese may raise very few young.",
+     "de": "Nach mehreren sehr kalten arktischen Sommern ziehen Schneegänse oft nur wenige Junge groß.",
+     "source": {
+      "title": "Audubon Field Guide, Snow Goose",
+      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
+      "quote": "in series of exceptionally cold summers, Snow Geese may raise very few young"
+     }
+    }
+   ]
+  },
+  "Branta canadensis": {
+   "names": {
+    "en": "Canada Goose",
+    "de": "Kanadagans",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-29"
+    }
+   },
+   "facts": [
+    {
+     "en": "V-formations of Canada geese, north in spring and south in autumn, mark the seasons across North America.",
+     "de": "Keilformationen der Kanadagänse, im Frühling nach Norden, im Herbst nach Süden, zeigen in Nordamerika die Jahreszeiten an.",
+     "source": {
+      "title": "Audubon Field Guide, Canada Goose",
+      "url": "https://www.audubon.org/field-guide/bird/canada-goose",
+      "quote": "flights of Canada Geese passing over in V-formation -- northbound in spring, southbound in fall -- are universally recognized as signs of the changing seasons"
+     }
+    },
+    {
+     "en": "Many Canada geese in cities and on refuges no longer migrate and stay all year.",
+     "de": "Viele Kanadagänse in Städten und Schutzgebieten ziehen nicht mehr und bleiben das ganze Jahr.",
+     "source": {
+      "title": "Audubon Field Guide, Canada Goose",
+      "url": "https://www.audubon.org/field-guide/bird/canada-goose",
+      "quote": "Today many geese in urban areas and on refuges are permanent residents."
+     }
+    },
+    {
+     "en": "The smallest forms of Canada goose are now counted as a separate species, the cackling goose.",
+     "de": "Die kleinsten Formen der Kanadagans gelten heute als eigene Art, die Zwergkanadagans.",
+     "source": {
+      "title": "Audubon Field Guide, Canada Goose",
+      "url": "https://www.audubon.org/field-guide/bird/canada-goose",
+      "quote": "the smallest ones are now regarded as a separate species, Cackling Goose"
+     }
+    },
+    {
+     "en": "Canada geese vary hugely in size: from 2.9 to 8.9 kg.",
+     "de": "Kanadagänse sind sehr unterschiedlich groß: sie wiegen 2,9 bis 8,9 kg.",
+     "source": {
+      "title": "Audubon Field Guide, Canada Goose",
+      "url": "https://www.audubon.org/field-guide/bird/canada-goose",
+      "quote": "weight: 6 lb 9 oz-19 lb 13 oz (2.9-8.9 kg)"
+     }
+    },
+    {
+     "en": "While the female incubates the eggs, the male Canada goose stands guard nearby.",
+     "de": "Während das Weibchen brütet, hält das Männchen der Kanadagans in der Nähe Wache.",
+     "source": {
+      "title": "Audubon Field Guide, Canada Goose",
+      "url": "https://www.audubon.org/field-guide/bird/canada-goose",
+      "quote": "Incubation is by female, 25-28 days; male stands guard nearby."
+     }
+    },
+    {
+     "en": "Young Canada geese usually first fly at 7 to 9 weeks old.",
+     "de": "Junge Kanadagänse fliegen meist mit 7 bis 9 Wochen zum ersten Mal.",
+     "source": {
+      "title": "Audubon Field Guide, Canada Goose",
+      "url": "https://www.audubon.org/field-guide/bird/canada-goose",
+      "quote": "Age at first flight varies, usually 7-9 weeks"
+     }
+    },
+    {
+     "en": "Canada geese nest in odd places: on cliff ledges, muskrat houses, in trees or on platforms.",
+     "de": "Kanadagänse brüten an ungewöhnlichen Orten: auf Felsbändern, Bisamburgen, in Bäumen oder auf Plattformen.",
+     "source": {
+      "title": "Audubon Field Guide, Canada Goose",
+      "url": "https://www.audubon.org/field-guide/bird/canada-goose",
+      "quote": "may nest on cliff ledges, on muskrat houses, in trees, on artificial platforms"
+     }
+    },
+    {
+     "en": "Once a symbol of wilderness, the Canada goose now nests by park ponds and on golf courses.",
+     "de": "Einst ein Symbol der Wildnis, brütet die Kanadagans heute an Parkteichen und auf Golfplätzen.",
+     "source": {
+      "title": "Audubon Field Guide, Canada Goose",
+      "url": "https://www.audubon.org/field-guide/bird/canada-goose",
+      "quote": "Once considered a symbol of wilderness, this goose has adapted well to civilization, nesting around park ponds and golf courses"
+     }
+    }
+   ]
+  },
+  "Haliaeetus leucocephalus": {
+   "names": {
+    "en": "Bald Eagle",
+    "de": "Weißkopf-Seeadler",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-29"
+    }
+   },
+   "facts": [
+    {
+     "en": "The bald eagle has been the national symbol of the United States since 1782.",
+     "de": "Der Weißkopf-Seeadler ist seit 1782 das Wappentier der Vereinigten Staaten.",
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "quote": "When America adopted the bald eagle as the national symbol in 1782"
+     }
+    },
+    {
+     "en": "In 1963 only 417 nesting pairs of bald eagles were known in the lower 48 US states.",
+     "de": "1963 waren in den 48 südlichen US-Staaten nur 417 Brutpaare des Weißkopf-Seeadlers bekannt.",
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "quote": "By 1963, with only 417 nesting pairs of bald eagles known to exist, the species was in danger of extinction."
+     }
+    },
+    {
+     "en": "By 2018-19 the lower 48 US states had about 316,700 bald eagles, with 71,467 breeding pairs.",
+     "de": "2018/19 lebten in den 48 südlichen US-Staaten rund 316.700 Weißkopf-Seeadler, davon 71.467 Brutpaare.",
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "quote": "total 316,700 individuals, including 71,467 breeding pairs"
+     }
+    },
+    {
+     "en": "Bald eagles recovered so well that they left the US endangered species list in 2007.",
+     "de": "Weißkopf-Seeadler erholten sich so gut, dass sie 2007 von der US-Liste bedrohter Arten gestrichen wurden.",
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "quote": "bald eagles were delisted from the Endangered Species Act in August 2007"
+     }
+    },
+    {
+     "en": "Some bald eagle nests are up to 2.4 m across and weigh almost two tons.",
+     "de": "Manche Horste des Weißkopf-Seeadlers sind bis zu 2,4 m breit und fast zwei Tonnen schwer.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Bald Eagle",
+      "url": "https://www.hawkmountain.org/raptors/bald-eagle",
+      "quote": "Some of their nests are up to 8 feet across and weigh almost two tons."
+     }
+    },
+    {
+     "en": "Young bald eagles only get their white head and tail in their fourth or fifth year.",
+     "de": "Junge Weißkopf-Seeadler bekommen den weißen Kopf und Schwanz erst im vierten oder fünften Jahr.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Bald Eagle",
+      "url": "https://www.hawkmountain.org/raptors/bald-eagle",
+      "quote": "Juvenile Bald Eagles do not get their adult plumage until their fourth or fifth year."
+     }
+    },
+    {
+     "en": "Bald eagles often steal prey from other raptors, especially ospreys.",
+     "de": "Weißkopf-Seeadler jagen anderen Greifvögeln oft die Beute ab, vor allem Fischadlern.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Bald Eagle",
+      "url": "https://www.hawkmountain.org/raptors/bald-eagle",
+      "quote": "Often steal prey from other raptors, especially Ospreys"
+     }
+    },
+    {
+     "en": "More than a thousand bald eagles gather on Alaska's Chilkat River to feast on spent salmon.",
+     "de": "Über tausend Weißkopf-Seeadler versammeln sich am Chilkat River in Alaska, um tote Lachse zu fressen.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Bald Eagle",
+      "url": "https://www.hawkmountain.org/raptors/bald-eagle",
+      "quote": "More than a thousand eagles, for example, regularly congregate along the Chilkat River in Alaska"
+     }
+    }
+   ]
+  },
+  "Setophaga striata": {
+   "names": {
+    "en": "Blackpoll Warbler",
+    "de": "Streifenwaldsänger",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-29"
+    }
+   },
+   "facts": [
+    {
+     "en": "In autumn blackpoll warblers fly non-stop over the Atlantic, 2,270 to 2,770 km, weighing just 12 g.",
+     "de": "Im Herbst fliegen Streifenwaldsänger nonstop über den Atlantik, 2.270 bis 2.770 km weit, bei nur 12 g Gewicht.",
+     "source": {
+      "title": "DeLuca et al. 2015, Biol. Lett. 11: 20141045",
+      "url": "https://doi.org/10.1098/rsbl.2014.1045",
+      "europepmc": "DOI:10.1098/rsbl.2014.1045",
+      "quote": "completes an autumn transoceanic migration ranging from 2270 to 2770 km"
+     }
+    },
+    {
+     "en": "The blackpoll's ocean crossing takes up to 3 days of flying without a break.",
+     "de": "Die Überquerung des Ozeans dauert für Streifenwaldsänger bis zu 3 Tage Flug ohne Pause.",
+     "source": {
+      "title": "DeLuca et al. 2015, Biol. Lett. 11: 20141045",
+      "url": "https://doi.org/10.1098/rsbl.2014.1045",
+      "europepmc": "DOI:10.1098/rsbl.2014.1045",
+      "quote": "requiring up to 3 days (62 h ± 10) of non-stop flight"
+     }
+    },
+    {
+     "en": "In spring blackpoll warblers go back north the slow way, via the West Indies and Florida.",
+     "de": "Im Frühling kehren Streifenwaldsänger gemächlich über die Karibik und Florida nach Norden zurück.",
+     "source": {
+      "title": "Audubon Field Guide, Blackpoll Warbler",
+      "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
+      "quote": "In spring they are more leisurely, traveling via the West Indies and Florida"
+     }
+    },
+    {
+     "en": "Blackpoll warblers breed as far north as beyond the Arctic Circle and the tree line.",
+     "de": "Streifenwaldsänger brüten bis jenseits des Polarkreises und der Baumgrenze.",
+     "source": {
+      "title": "Audubon Field Guide, Blackpoll Warbler",
+      "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
+      "quote": "in alder thickets north of the Arctic Circle and north of treeline"
+     }
+    },
+    {
+     "en": "A blackpoll warbler weighs 12 to 17 g.",
+     "de": "Ein Streifenwaldsänger wiegt 12 bis 17 g.",
+     "source": {
+      "title": "Audubon Field Guide, Blackpoll Warbler",
+      "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
+      "quote": "weight: 0.4-0.6 oz (12-17 g)"
+     }
+    },
+    {
+     "en": "Every autumn, up to 100 or more lost blackpoll warblers turn up on the Pacific coast.",
+     "de": "Jeden Herbst tauchen 100 oder mehr verirrte Streifenwaldsänger an der Pazifikküste auf.",
+     "source": {
+      "title": "Audubon Field Guide, Blackpoll Warbler",
+      "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
+      "quote": "Every fall, many (to 100 or more) lost strays appear along Pacific Coast."
+     }
+    },
+    {
+     "en": "Female blackpolls return to last year's nest site and pair with whichever male holds it.",
+     "de": "Weibchen kehren an den Brutplatz des Vorjahres zurück und verpaaren sich mit dem Männchen, das ihn gerade besetzt.",
+     "source": {
+      "title": "Audubon Field Guide, Blackpoll Warbler",
+      "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
+      "quote": "Females return to nest site of previous year and mate with male holding that territory"
+     }
+    },
+    {
+     "en": "In their tropical winter quarters, blackpoll warblers live in forests up to about 2,400 m high.",
+     "de": "In den tropischen Winterquartieren leben Streifenwaldsänger in Wäldern bis in etwa 2.400 m Höhe.",
+     "source": {
+      "title": "Audubon Field Guide, Blackpoll Warbler",
+      "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
+      "quote": "up to 7,800 ft elevation"
+     }
+    }
+   ]
+  },
+  "Falco peregrinus": {
+   "names": {
+    "en": "Peregrine Falcon",
+    "de": "Wanderfalke",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-09-29"
+    }
+   },
+   "facts": [
+    {
+     "en": "'Peregrine' is Latin for wanderer, and some peregrines migrate up to 25,000 km a year.",
+     "de": "„Peregrine“ heißt auf Lateinisch Wanderer, und manche Wanderfalken ziehen bis zu 25.000 km im Jahr.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "some individuals migrate distances up to 25,000 km annually"
+     }
+    },
+    {
+     "en": "In a hunting dive, a peregrine can reach up to about 320 km/h.",
+     "de": "Im Sturzflug erreichen Wanderfalken bis zu etwa 320 km/h.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "stoop at up to 200 mph"
+     }
+    },
+    {
+     "en": "Peregrines live on every continent except Antarctica.",
+     "de": "Wanderfalken leben auf allen Kontinenten außer der Antarktis.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "Peregrines are found on every continent except Antarctica"
+     }
+    },
+    {
+     "en": "Female peregrines are much bigger: up to 1,500 g, against as little as 450 g for a male.",
+     "de": "Weibliche Wanderfalken sind viel größer: bis zu 1.500 g, Männchen oft nur 450 g.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "Male Peregrine Falcons weigh as little as 450 grams; females weigh as much as 1,500 grams."
+     }
+    },
+    {
+     "en": "There are 19 subspecies of peregrine falcon, three of them in North America.",
+     "de": "Es gibt 19 Unterarten des Wanderfalken, drei davon in Nordamerika.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "There are 19 subspecies of Peregrine Falcons, three of which are found in North America."
+     }
+    },
+    {
+     "en": "Peregrines nest on cliffs and in forests, but also on church towers and bridge pillars.",
+     "de": "Wanderfalken brüten an Felswänden und in Wäldern, aber auch in Kirchtürmen und an Brückenpfeilern.",
+     "source": {
+      "title": "NABU, Vogelporträt Wanderfalke",
+      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/wanderfalke/",
+      "quote": "brütet in Waldgebieten und an steilen Felswänden, aber auch in Kirchtürmen oder an Brückenpfeilern"
+     }
+    },
+    {
+     "en": "Near cities, peregrines live largely on pigeons.",
+     "de": "In Städten ernähren sich Wanderfalken zum großen Teil von Tauben.",
+     "source": {
+      "title": "NABU, Vogelporträt Wanderfalke",
+      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/wanderfalke/",
+      "quote": "In Stadtnähe ernährt er sich zu einem Großteil von Tauben"
+     }
+    },
+    {
+     "en": "Peregrines declined across North America and Europe because of DDT and have since rebounded.",
+     "de": "Wegen DDT gingen Wanderfalken in Nordamerika und Europa stark zurück; inzwischen haben sie sich erholt.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "Populations of Peregrine Falcons have recently rebounded in both North America and Europe."
+     }
+    }
+   ]
   }
  }
 }

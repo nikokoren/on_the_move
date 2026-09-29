@@ -69,3 +69,10 @@ Per species, one "star" animal is picked automatically: live if possible, else t
 | Buff-breasted Sandpiper | 3 (3) | 79 % | 2020 | Canada 3 | Brazil, Uruguay | VU: 1 degree |
 
 Weak: Whooping Crane (2 animals, 17 % fix days, EN so 1 degree), Common Nighthawk (no full year apart), Snowy Owl (irregular), Peregrine Falcon (tracks mostly Eurasian), Bowhead (3 migrated, stays in Canada).
+
+Added to the featured list on 2026-09-29 (decision F2): Osprey, Snow Goose, Canada Goose, Bald Eagle, Blackpoll Warbler, and Peregrine Falcon (its featured animal is a Greenland to Honduras bird, 1997).
+
+Pipeline rules added 2026-09-29 (re-check when the catalog is rebuilt):
+- Studies whose only location sensor is a solar geolocator (Movebank `sensor_type_ids`, cached in `pipeline/.cache/study_sensors.csv`) get their latitudes within 14 days of 20 March and 22 September replaced by a straight line in time between the nearest fixes outside that window (`equinox_latitudes`). 22 studies. The Data Repository stage is not corrected yet.
+- Latitudes within 0.001 degrees of the equator are placeholders and dropped (`coord`).
+- A stay ends where two consecutive days jump more than twice the stay radius, and pieces shorter than the stay minimum are dropped (`stays_of` in `build_featured.py`).
