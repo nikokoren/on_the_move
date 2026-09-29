@@ -102,7 +102,10 @@
       var usable = Math.max(1, Math.min(w, h) - 2 * mpx(PAD_PX));
       var perPx0 = MERCATOR_BASE * Math.cos(GEO.pos[1] * Math.PI / 180);
       var z = Math.log(perPx0 / ((2 * GEO.r * 1000) / usable)) / Math.LN2;
-      return Math.min(MAX_ZOOM, Math.max(0, z));
+      // Whole zoom levels only: the framework dithers the map's fills only at an
+      // integer zoom (plugins.js mapDeviceOrigin), and without that pass a 2-bit
+      // panel shows the sea as white. Rounded down, so the frame still holds GEO.r.
+      return Math.min(MAX_ZOOM, Math.max(0, Math.floor(z)));
     }
 
     function line(coords) {
@@ -181,32 +184,26 @@
       watchRan = true;
       var zoom = zoomFor();
       var map = new maplibregl.Map(TRMNLMaps.options({ el: el, preset: "streets", center: GEO.pos, zoom: zoom }));
-      // options() rounds the zoom; set the exact one on the camera (Nextbike).
-      map.jumpTo({ center: GEO.pos, zoom: zoom });
       window.__otmMap = map;
       var ink = inkFor(), paper = "#fff";
       var drewLayers = false, drewMarks = false;
 
+      // Lines and dots through the framework (TRMNLMaps.route/dot), not our own
+      // layers or HTML markers: it widens them into crisp fills, cases them in
+      // the contrast colour and keeps them above its dither layer at 1 and 2 bit
+      // (seen 2026-09-29: an HTML marker vanished under that layer). The two
+      // lines are two steps of the series ramp; route() has no dashes.
       function drawLayers() {
         if (drewLayers) { return; }
         var style = map.getStyle();
         if (!style || !style.layers || !style.layers.length) { return; }
         drewLayers = true;
-        map.resize();
-        map.addSource("otm-past", { type: "geojson", data: line(GEO.past) });
-        map.addLayer({ id: "otm-past-halo", type: "line", source: "otm-past",
-          layout: { "line-cap": "round", "line-join": "round" },
-          paint: { "line-color": paper, "line-width": mpx(7) } });
-        map.addLayer({ id: "otm-past", type: "line", source: "otm-past",
-          layout: { "line-cap": "round", "line-join": "round" },
-          paint: { "line-color": ink, "line-width": mpx(3.5) } });
-        map.addSource("otm-ahead", { type: "geojson", data: line(GEO.ahead) });
-        map.addLayer({ id: "otm-ahead-halo", type: "line", source: "otm-ahead",
-          layout: { "line-cap": "round" },
-          paint: { "line-color": paper, "line-width": mpx(6) } });
-        map.addLayer({ id: "otm-ahead", type: "line", source: "otm-ahead",
-          layout: { "line-cap": "round" },
-          paint: { "line-color": ink, "line-width": mpx(2.5), "line-dasharray": [1, 2] } });
+        TRMNLMaps.route(map, GEO.past, { el: el, id: "past", i: 0, n: 2, width: 4 });
+        TRMNLMaps.route(map, GEO.ahead, { el: el, id: "ahead", i: 1, n: 2, width: 3 });
+        if (GEO.dest && onScreen(map, GEO.dest)) {
+          TRMNLMaps.dot(map, GEO.dest, { el: el, id: "dest", i: 0, n: 2, radius: 5, hollow: true });
+        }
+        TRMNLMaps.dot(map, GEO.pos, { el: el, id: "animal", i: 0, n: 2, radius: 8 });
       }
 
       function drawMarks() {
@@ -215,29 +212,11 @@
         anyMarks = true;
         var waiting = document.getElementById("otm-map-waiting");
         if (waiting) { waiting.style.display = "none"; }
-        map.resize();
-
-        // The animal: a filled disc in a paper ring, the one solid thing on the map.
-        var me = document.createElement("div");
-        me.style.width = "22px"; me.style.height = "22px"; me.style.borderRadius = "50%";
-        me.style.background = ink; me.style.border = "4px solid " + paper;
-        me.style.boxShadow = "0 0 0 2px " + ink;
-        new maplibregl.Marker({ element: me }).setLngLat(GEO.pos).addTo(map);
 
         if (GEO.dest && TOWARD) {
-          if (onScreen(map, GEO.dest)) {
-            var goal = document.createElement("div");
-            goal.style.width = "14px"; goal.style.height = "14px"; goal.style.borderRadius = "50%";
-            goal.style.background = paper; goal.style.border = "3px solid " + ink;
-            new maplibregl.Marker({ element: goal }).setLngLat(GEO.dest).addTo(map);
-            var tag = pointerEl(sectorOnScreen(map, GEO.pos, GEO.dest), TOWARD, ink, paper);
-            document.getElementById(el).appendChild(tag);
-            clearLater(tag);
-          } else {
-            var ptr = pointerEl(sectorOnScreen(map, GEO.pos, GEO.dest), TOWARD, ink, paper);
-            document.getElementById(el).appendChild(ptr);
-            clearLater(ptr);
-          }
+          var tag = pointerEl(sectorOnScreen(map, GEO.pos, GEO.dest), TOWARD, ink, paper);
+          document.getElementById(el).appendChild(tag);
+          clearLater(tag);
         }
       }
 

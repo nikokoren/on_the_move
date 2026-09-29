@@ -38,9 +38,14 @@ const tpl = fs.readFileSync(path.join(HERE, "full.liquid"), "utf8");
 // Every featured species on one day in English, plus German and other days
 // for the ones whose state changes (travelling, staying, live).
 const DAY = process.env.OTM_DAY || "2026-09-28";
-const cases = data.species.map((s) => [s.taxon, "en", DAY]);
+let cases = data.species.map((s) => [s.taxon, "en", DAY]);
 cases.push(["Ciconia ciconia", "de", "2026-08-25"], ["Lanius collurio", "de", "2026-10-10"],
            ["Streptopelia turtur", "de", "2026-10-05"], ["Numenius madagascariensis", "en", "2026-08-20"]);
+// OTM_ONLY="Ciconia ciconia" renders only that species' cases.
+if (process.env.OTM_ONLY) cases = cases.filter((c) => c[0] === process.env.OTM_ONLY);
+// The screen's classes: model and bit-depth mode, e.g. OTM_SCREEN="screen--ogv2" or
+// "screen--og screen--2bit". The device's depth changes how the framework paints the map.
+const SCREEN = process.env.OTM_SCREEN || "screen--og";
 
 function chromiumPath() {
   const root = process.env.PLAYWRIGHT_BROWSERS_PATH;
@@ -62,7 +67,7 @@ for (const [taxon, lang, day] of cases) {
 <link rel="stylesheet" href="file://${path.join(CACHE, "plugins.css")}">
 <script src="file://${path.join(CACHE, "plugins.js")}"></script>
 <style>html,body{margin:0;padding:0}</style></head><body class="trmnl">
-<div class="screen screen--og"><div class="view view--full">${html}</div></div></body></html>`;
+<div class="screen ${SCREEN}"><div class="view view--full">${html}</div></div></body></html>`;
   const file = path.join(OUT, "page.html");
   fs.writeFileSync(file, page);
   const tab = await browser.newPage({ viewport: { width: 800, height: 480 } });
@@ -97,10 +102,17 @@ for (const [taxon, lang, day] of cases) {
     const overlap = tags.some((t) => hits(t, box) || hits(t, attrib));
     const inside = (b) => b.left >= screen.left && b.top >= screen.top && b.right <= screen.right + 0.5 && b.bottom <= screen.bottom + 0.5;
     return {
-      drawn: !!map && !!map.getLayer("otm-past") && !!map.getLayer("otm-ahead"),
+      drawn: !!map && !!map.getLayer("trmnl-route-past") && !!map.getLayer("trmnl-dot-animal"),
       waitingShown: getComputedStyle(document.getElementById("otm-map-waiting")).display !== "none",
       zoom: map ? +map.getZoom().toFixed(2) : null,
-      callouts: tags.length, overlap, boxInside: inside(box), tagsInside: tags.every(inside)
+      callouts: tags.length, overlap, boxInside: inside(box), tagsInside: tags.every(inside),
+      // What the framework's map pass left: its canvases (the dither layer is one)
+      // and whether the map settled. Printed with OTM_DEBUG=1.
+      debug: {
+        ready: window.TRMNL_PLUGINS_READY, loaded: map && map.loaded(), tiles: map && map.areTilesLoaded(),
+        depth: getComputedStyle(document.querySelector(".screen")).getPropertyValue("--framework-bit-depth"),
+        canvases: [...document.querySelectorAll("#otm-map canvas")].map((c) => `${c.className || "-"}:${c.width}x${c.height}:${c.style.visibility || "visible"}`)
+      }
     };
   });
   const png = path.join(OUT, `${taxon.replace(/ /g, "_")}_${lang}_${day}.png`);
@@ -115,6 +127,7 @@ for (const r of rows) {
   const ok = r.drawn && !r.waitingShown && !r.overlap && r.boxInside && r.tagsInside && !r.errors;
   if (!ok) bad++;
   console.log(`${ok ? "ok  " : "FAIL"} ${r.taxon.padEnd(26)} ${r.lang} ${r.day} ${r.kind.padEnd(5)} zoom ${r.zoom} callouts ${r.callouts} overlap ${r.overlap} errors ${r.errors}`);
+  if (process.env.OTM_DEBUG) console.log("     " + JSON.stringify(r.debug));
 }
 console.log(`\n${rows.length} cases, ${bad} failed. PNGs in ${OUT}`);
 process.exit(bad ? 1 : 0);
