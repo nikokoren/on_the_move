@@ -37,8 +37,32 @@ function fmtDate(t, date, withYear) {
     { d: date.getUTCDate(), m: t.months[date.getUTCMonth()], y: date.getUTCFullYear() });
 }
 
-function fmtKm(n, lang) {
-  return Math.round(n).toLocaleString(lang === "de" ? "de-DE" : "en-GB");
+function fmtNum(n, lang, decimals = 0) {
+  return Number(n).toLocaleString(lang === "de" ? "de-DE" : "en-GB",
+    { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+}
+
+const KM_PER_MI = 1.609344;
+
+// A distance in the viewer's units (setting "units", owner 2026-09-29).
+function fmtDist(t, km, lang, units) {
+  return units === "imperial"
+    ? `${fmtNum(Math.round(km / KM_PER_MI), lang)} ${t.units.mi}`
+    : `${fmtNum(Math.round(km), lang)} ${t.units.km}`;
+}
+
+// Measurements in the sourced facts are written {metric|imperial}, e.g.
+// "{5.6 km|3.5 mi}" or "{2.9-8.9 kg|6.5-19.8 lb}" (pipeline/species_curated.json):
+// both values come from the source or are rounded from it, so an imperial source
+// reads as it was written. The chosen side is formatted for the language.
+export function renderUnits(text, t, lang, units) {
+  return String(text).replace(/\{([^{}|]+)\|([^{}|]+)\}/g, (all, metric, imperial) => {
+    const m = (units === "imperial" ? imperial : metric).trim().match(/^([\d.]+)(?:-([\d.]+))?\s+(\S+)$/);
+    if (!m) return all;
+    const num = (x) => fmtNum(Number(x), lang, (x.split(".")[1] || "").length);
+    const value = m[2] ? fill(t.range, { a: num(m[1]), b: num(m[2]) }) : num(m[1]);
+    return `${value} ${t.units[m[3]] || m[3]}`;
+  });
 }
 
 function fmtLat(t, lat) {
@@ -106,21 +130,6 @@ function unwrap(pts, ref) {
   });
 }
 
-function credit(t, c) {
-  const lic = c.license === "CC_0" ? "CC0" : c.license === "CC_BY" ? "CC BY" : c.license;
-  // "JIGUET Frédéric" -> "Frédéric Jiguet": some PI fields are surname first in capitals.
-  let pi = (c.pi || "").trim();
-  const m = pi.match(/^([A-ZÀ-Þ][A-ZÀ-Þ'\-]+)\s+(.+)$/);
-  if (m && m[1] === m[1].toUpperCase() && m[2] !== m[2].toUpperCase()) {
-    pi = `${m[2]} ${m[1][0]}${m[1].slice(1).toLowerCase()}`;
-  }
-  c = { ...c, pi };
-  const who = c.source === "Movebank Data Repository"
-    ? `Movebank Data Repository${c.doi ? ", " + c.doi.replace(/^doi:/, "doi:") : ""}`
-    : `Movebank, ${c.pi || c.study}`;
-  return fill(t.credit, { source: `${who}, ${lic}` });
-}
-
 // Days of the year not inside any stay: the time it spends travelling.
 function travelDays(stays) {
   let stayed = 0;
@@ -166,27 +175,46 @@ export function factIndex(n, turn, key) {
   return order[pos];
 }
 
-function factPool(t, lang, sp, a) {
+function factPool(t, lang, sp, a, units) {
   const f = a.facts;
   const days = travelDays(a.stays);
   return [
     // Sourced species facts (R8, data/species.json), then the animal's own numbers.
-    ...(sp.facts || []).map((x) => x[lang] || x.en),
-    fill(t.facts.yearKm, { km: fmtKm(f.yearKmMin, lang) }),
-    fill(t.facts.span, { km: fmtKm(f.spanKm, lang) }),
+    ...(sp.facts || []).map((x) => renderUnits(x[lang] || x.en, t, lang, units)),
+    fill(t.facts.yearKm, { dist: fmtDist(t, f.yearKmMin, lang, units) }),
+    fill(t.facts.span, { dist: fmtDist(t, f.spanKm, lang, units) }),
     f.southmost < 0 || f.northmost - f.southmost > 20 ? fill(t.facts.southmost, { lat: fmtLat(t, f.southmost) }) : null,
     f.northmost > 50 ? fill(t.facts.northmost, { lat: fmtLat(t, f.northmost) }) : null,
-    a.stays.length > 1 && days >= 5 && days <= 300 ? fill(t.facts.travelDays, { n: days }) : null
+    a.stays.length > 1 && days >= 5 && days <= 300 ? fill(t.facts.travelDays, { n: days }) : null,
+    ...individualFacts(t, a)
   ].filter(Boolean);
 }
 
-function pickFact(t, lang, sp, a, turn) {
-  const pool = factPool(t, lang, sp, a);
+// The animal's own record (owner, 2026-09-29): sex, when tracking ran, hatch
+// year; only what Movebank holds for it (pipeline/build_individuals.py).
+function individualFacts(t, a) {
+  const i = a.individual || {};
+  const ym = (s) => ({ month: t.monthsLong[Number(s.slice(5, 7)) - 1], year: s.slice(0, 4) });
+  const out = [];
+  if (i.sex === "f") out.push(t.facts.female);
+  if (i.sex === "m") out.push(t.facts.male);
+  if (i.trackedFrom) {
+    const from = ym(i.trackedFrom);
+    out.push(a.live || !i.trackedTo
+      ? fill(t.facts.trackedSince, from)
+      : fill(t.facts.trackedFromTo, { ...from, month2: ym(i.trackedTo).month, year2: ym(i.trackedTo).year }));
+  }
+  if (i.hatchYear) out.push(fill(i.hatchExact ? t.facts.hatched : t.facts.hatchedBy, { year: i.hatchYear }));
+  return out;
+}
+
+function pickFact(t, lang, sp, a, turn, units) {
+  const pool = factPool(t, lang, sp, a, units);
   return pool[factIndex(pool.length, turn, a.id)];
 }
 
 // One animal on one day. Returns null when this animal has no position today.
-function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0) {
+function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, units = "metric") {
   const places = data.places;
   const name = (i) => (i >= 0 && places[i] ? places[i][lang] : t.somewhere);
   const lastFix = a.lastFix ? new Date(a.lastFix + "T12:00:00Z") : null;
@@ -236,18 +264,18 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0) {
     : stop
       ? fill(t.resting, { place: name(stop[4]), date: fmtDate(t, until(stop), false) })
       : from === to ? to : fill(t.journey, { from, to, date: fmtDate(t, arrive, false) });
-  const toward = dest ? fill(t.toward, { place: to, km: fmtKm(km(here, dest), lang) }) : "";
+  const toward = dest ? fill(t.toward, { place: to, dist: fmtDist(t, km(here, dest), lang, units) }) : "";
 
   const ref = here[0];
   return {
     state: "ok",
     kind: live ? "live" : "usual",
     species: sp.names[lang] || sp.names.en,
-    name: a.name,
+    // Individual names in quotes (owner, 2026-09-29): „Arvin“ / “Arvin”.
+    name: a.name ? fill(t.named, { name: a.name }) : "",
     status,
     where,
-    fact: pickFact(t, lang, sp, a, turn),
-    credit: credit(t, a.credit),
+    fact: pickFact(t, lang, sp, a, turn, units),
     toward,
     // Everything the map script needs, as one JSON string: Liquid prints it into
     // the script as is, the way Nextbike sends its map points.
@@ -264,7 +292,7 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0) {
 // means all). With more than one, they take turns, one per refresh slot.
 // photoBase: where the species photos are served ("https://.../photo/"), or
 // null when the viewer turned the photo off.
-export function buildFull(data, { species = "all", lang = "en", now = new Date(), utcOffset = 0, photoBase = null }) {
+export function buildFull(data, { species = "all", lang = "en", now = new Date(), utcOffset = 0, photoBase = null, units = "metric" }) {
   const t = STRINGS[lang] || STRINGS.en;
   lang = STRINGS[lang] ? lang : "en";
   const local = new Date(now.getTime() + utcOffset * 1000);
@@ -286,13 +314,13 @@ export function buildFull(data, { species = "all", lang = "en", now = new Date()
   // Star first, then its backups; then the next species in the pool.
   for (const sp of order) {
     for (const a of sp.animals) {
-      const v = animalView(data, sp, a, t, lang, now, localDoy, turn);
+      const v = animalView(data, sp, a, t, lang, now, localDoy, turn, 0, units);
       if (v) return done(sp, v);
     }
   }
   // Nobody has today: the star's last known position before the gap.
   for (const sp of order) {
-    const v = animalView(data, sp, sp.animals[0], t, lang, now, localDoy, turn, LOOK_BACK_DAYS);
+    const v = animalView(data, sp, sp.animals[0], t, lang, now, localDoy, turn, LOOK_BACK_DAYS, units);
     if (v) return done(sp, v);
   }
   return { state: "empty", species: order[0] ? order[0].names[lang] : "", status: t.noData };

@@ -101,7 +101,7 @@ The owner's screenshot shows the white stork Kiki in German, with TRMNL's "Refre
      - (b) The zoom is rounded down, so the frame is up to twice as wide as the V1 rule.
      - (c) Framework place labels can sit on the animal dot (Sevilla).
 
-2. **Does the data credit have to be on every render?**
+2. ~~**Does the data credit have to be on every render?**~~ Decided 2026-09-29 (C2): no; moved to the About text and README, per Movebank's citation guidelines.
    - Brief R18 as written: yes, every view shows the credit, with an abbreviated form allowed when space is short.
    - CC BY 4.0 legal code, section 3(a)(2) (checked 2026-09-28, creativecommons.org/licenses/by/4.0/legalcode.en): attribution may be given "in any reasonable manner based on the medium, means, and context", and "it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information".
    - CC0 studies need no attribution at all.
@@ -147,3 +147,10 @@ Open from this round:
 - ~~The shrike has no position 5 Mar to 2 Apr~~ (all three tracks are blank at the spring equinox once the placeholders are dropped). Owner, 2026-09-29: show the last position instead. When no animal of the species has today, the star's last known day (up to 60 days back) is shown, labelled "No position for today; last known around 3 Mar". Empty payloads in the sweep: 116 -> 0.
 - Coastal whale positions still sit on the coastline after 1-degree rounding (at zoom 3 this reads as "off the coast").
 - Labels in local scripts; the pill's inline styling (topic 9).
+
+## Design review, session 1 (owner, 2026-09-29)
+
+- Text on screen explained (what shows when); decisions: names in quotes, new position line, credit off screen (C2), units setting (U1). Pill logic stays; its placement and visibility across devices is topic 10.
+- Individual facts, decided 2026-09-29: only sex, when tracking ran ("Besendert seit Juni 2023" / "von … bis …") and hatch year ("Geschlüpft 2023", or "2020 oder früher" when Movebank's latest_date_born is only an upper bound); built in `pipeline/build_individuals.py`, in the fact rotation. 44 of 52 featured animals have a record (30 with sex, 6 with hatch year); Data Repository animals have none.
+- **To do (owner: "super interesting"): curate the free-text comments** into hand-written, translated facts, and check each for sensitive places (R14).
+- Earlier note on what Movebank holds: Movebank's individual records (checked 2026-09-29 for the 15 Movebank star animals) hold, where filled: sex (11 of 15), ring number, tracking start and end, number of positions, hatch year (Kiki, 2023), and free-text comments (Kiki: "elder of 2 chicks"; the honey buzzard: found weak in Reutlingen in May 2023, cared for at the NABU centre Mössingen and released with the logger in June 2023; a bald eagle seen alive in 2013 after its tag came off). Comments are English or German free text and need curating and translating by hand. Hatch and capture coordinates exist for some and must not be shown (R14).

@@ -25,4 +25,6 @@ Worst case in lines: 1 + 2 + 2 + 2 + 1 = 8 lines ≈ 16 + 40 + 24 + 24 + 12 = 11
 - Numbers and dates in the language's format: "3,415 km" / "3.415 km", "25 Aug" / "25. Aug.".
 - A fact must be true of the animal on screen: data facts come from its own track; species facts must hold for the species as a whole and carry a published source with the exact sentence they rest on (R8, `pipeline/species_curated.json`; `pipeline/verify_sources.py` must find every quote). Converted figures (miles, feet, pounds, US tons) are rounded, never made more precise than the source.
 - Place names come from Natural Earth as they are (R7); they are not edited.
+- Animal names in quotes: „Name“ in German, “Name” in English (2026-09-29).
+- Measurements in facts follow the Units setting; sourced facts write them `{metric|imperial}` (decision U1). No data credit on screen (decision C2).
 - New copy goes through real payloads in every state before shipping (working method rule 6): `node worker/check.mjs`, then `node template/render-check.mjs`.

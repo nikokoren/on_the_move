@@ -1,0 +1,223 @@
+{
+ "about": "Individual facts for the featured animals, from Movebank individual records (sex, timestamp_start/end, latest_date_born). Built by pipeline/build_individuals.py.",
+ "animals": {
+  "mb-10204361-29656376": {
+   "sex": "f",
+   "trackedFrom": "2014-07",
+   "trackedTo": "2017-02"
+  },
+  "mb-1229945587-1229967013": {
+   "trackedFrom": "2020-08",
+   "trackedTo": "2026-09"
+  },
+  "mb-1258895879-1774067789": {
+   "sex": "m",
+   "trackedFrom": "2021-05",
+   "trackedTo": "2026-09"
+  },
+  "mb-1258895879-1774067800": {
+   "sex": "m",
+   "trackedFrom": "2021-05",
+   "trackedTo": "2026-09"
+  },
+  "mb-1258895879-1774067803": {
+   "sex": "f",
+   "trackedFrom": "2021-05",
+   "trackedTo": "2026-09"
+  },
+  "mb-1509697502-1892665268": {
+   "sex": "f",
+   "trackedFrom": "2021-04",
+   "trackedTo": "2023-01"
+  },
+  "mb-1509697502-1892675591": {
+   "sex": "f",
+   "trackedFrom": "2021-05",
+   "trackedTo": "2023-03"
+  },
+  "mb-1509697502-1892699911": {
+   "sex": "f",
+   "trackedFrom": "2021-05",
+   "trackedTo": "2023-03"
+  },
+  "mb-1509697502-1892704459": {
+   "sex": "f",
+   "trackedFrom": "2020-12",
+   "trackedTo": "2023-11"
+  },
+  "mb-173641633-2847777258": {
+   "sex": "f",
+   "trackedFrom": "2023-06",
+   "trackedTo": "2026-09",
+   "hatchYear": 2023,
+   "hatchExact": true
+  },
+  "mb-186178781-2842545544": {
+   "sex": "m",
+   "trackedFrom": "2023-06",
+   "trackedTo": "2026-09",
+   "hatchYear": 2020,
+   "hatchExact": false
+  },
+  "mb-186178781-2781173687": {
+   "sex": "m",
+   "trackedFrom": "2023-05",
+   "trackedTo": "2024-05",
+   "hatchYear": 2020,
+   "hatchExact": false
+  },
+  "mb-2105214573-2105313543": {
+   "sex": "f",
+   "trackedFrom": "2015-04",
+   "trackedTo": "2016-09"
+  },
+  "mb-2105214573-2105313545": {
+   "sex": "f",
+   "trackedFrom": "2015-04",
+   "trackedTo": "2019-01"
+  },
+  "mb-24442409-4003322822": {
+   "sex": "m",
+   "trackedFrom": "2024-06",
+   "trackedTo": "2026-09",
+   "hatchYear": 2024,
+   "hatchExact": true
+  },
+  "mb-24442409-4003322823": {
+   "sex": "m",
+   "trackedFrom": "2024-06",
+   "trackedTo": "2026-09",
+   "hatchYear": 2024,
+   "hatchExact": true
+  },
+  "mb-28691134-2277782263": {
+   "trackedFrom": "2022-08",
+   "trackedTo": "2026-09"
+  },
+  "mb-28691134-2305127726": {
+   "trackedFrom": "2022-08",
+   "trackedTo": "2026-09"
+  },
+  "mb-28691134-3056590143": {
+   "sex": "f",
+   "trackedFrom": "2023-09",
+   "trackedTo": "2026-09"
+  },
+  "mb-2943485-2943518": {
+   "sex": "m",
+   "trackedFrom": "2005-06",
+   "trackedTo": "2007-02"
+  },
+  "mb-2943485-2943519": {
+   "sex": "m",
+   "trackedFrom": "2005-07",
+   "trackedTo": "2007-02"
+  },
+  "mb-2943485-2943520": {
+   "sex": "f",
+   "trackedFrom": "2005-07",
+   "trackedTo": "2007-01"
+  },
+  "mb-3030282201-3030523279": {
+   "sex": "f",
+   "trackedFrom": "2021-08",
+   "trackedTo": "2022-10"
+  },
+  "mb-3413045568-7625503924": {
+   "sex": "m",
+   "trackedFrom": "2025-06",
+   "trackedTo": "2026-09"
+  },
+  "mb-3413045568-7625566309": {
+   "sex": "m",
+   "trackedFrom": "2025-06",
+   "trackedTo": "2026-09"
+  },
+  "mb-3413045568-8626200722": {
+   "trackedFrom": "2025-05",
+   "trackedTo": "2026-09"
+  },
+  "mb-384172482-407258153": {
+   "sex": "f",
+   "trackedFrom": "2001-04",
+   "trackedTo": "2002-03"
+  },
+  "mb-384172482-407258154": {
+   "sex": "m",
+   "trackedFrom": "2000-03",
+   "trackedTo": "2002-05"
+  },
+  "mb-481458-1498439947": {
+   "trackedFrom": "2021-04",
+   "trackedTo": "2026-09"
+  },
+  "mb-481458-602962568": {
+   "trackedFrom": "2018-09",
+   "trackedTo": "2026-09"
+  },
+  "mb-481458-603003183": {
+   "trackedFrom": "2018-09",
+   "trackedTo": "2026-09"
+  },
+  "mb-49904341-49905918": {
+   "trackedFrom": "2005-08",
+   "trackedTo": "2007-03"
+  },
+  "mb-533427629-533437125": {
+   "sex": "m",
+   "trackedFrom": "2014-06",
+   "trackedTo": "2015-06"
+  },
+  "mb-542653863-959736994": {
+   "trackedFrom": "2019-09",
+   "trackedTo": "2022-05",
+   "hatchYear": 2019,
+   "hatchExact": true
+  },
+  "mb-542653863-959785201": {
+   "trackedFrom": "2019-09",
+   "trackedTo": "2022-03"
+  },
+  "mb-619061097-619067331": {
+   "sex": "f",
+   "trackedFrom": "1996-10",
+   "trackedTo": "1997-11"
+  },
+  "mb-619061097-619067440": {
+   "sex": "f",
+   "trackedFrom": "1995-10",
+   "trackedTo": "1996-12"
+  },
+  "mb-650188969-663214424": {
+   "trackedFrom": "2004-08",
+   "trackedTo": "2006-01"
+  },
+  "mb-7249090-7541652": {
+   "sex": "f",
+   "trackedFrom": "2001-08",
+   "trackedTo": "2003-11"
+  },
+  "mb-890556697-890583086": {
+   "sex": "f",
+   "trackedFrom": "2014-07",
+   "trackedTo": "2015-06"
+  },
+  "mb-890556697-890594634": {
+   "sex": "f",
+   "trackedFrom": "2009-07",
+   "trackedTo": "2010-06"
+  },
+  "mb-959756713-959768811": {
+   "trackedFrom": "2016-06",
+   "trackedTo": "2017-06"
+  },
+  "mb-959756713-959768820": {
+   "trackedFrom": "2016-06",
+   "trackedTo": "2017-06"
+  },
+  "mb-959756713-959768832": {
+   "trackedFrom": "2016-06",
+   "trackedTo": "2017-06"
+  }
+ }
+}

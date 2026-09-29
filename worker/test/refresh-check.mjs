@@ -143,6 +143,10 @@ const two = await (await handle(new Request("https://x/full?species=" + encodeUR
 check("poll: two species, photo on", ["White Stork", "Loggerhead Turtle"].includes(two.species) && /^https:\/\/x\/photo\/(ciconia_ciconia|caretta_caretta)\.jpg$/.test(two.photo), `${two.species} ${two.photo}`);
 const noPhoto = await (await handle(new Request("https://x/full?species=white_stork&photo=false"), { KV: kv() }, NOW)).json();
 check("poll: photo off sends an empty photo", noPhoto.photo === "", JSON.stringify(noPhoto.photo));
+// Units (owner, 2026-09-29): imperial turns the pill's distance into miles.
+const imp = await (await handle(new Request("https://x/full?species=lesser_black_backed_gull&units=imperial"), { KV: kv() }, NOW)).json();
+const met = await (await handle(new Request("https://x/full?species=lesser_black_backed_gull"), { KV: kv() }, NOW)).json();
+check("poll: units imperial in miles, default in km", / mi away$/.test(imp.toward) && / km away$/.test(met.toward), `${imp.toward} | ${met.toward}`);
 const err = await handle(new Request("https://x/full"), { KV: { get: async () => { throw new Error("kv down"); } } }, NOW);
 check("poll: KV failure still answers 200 with an error state", err.status === 200 && (await err.json()).state === "error");
 

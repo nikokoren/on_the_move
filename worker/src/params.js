@@ -51,3 +51,9 @@ export function langParam(value) {
   const v = snake(value);
   return v === "de" || v === "deutsch" || v === "german" ? "de" : "en";
 }
+
+// Units for distances and the measurements in facts (owner, 2026-09-29).
+// The select sends "metric" or "imperial"; anything else is metric.
+export function unitsParam(value) {
+  return snake(value) === "imperial" ? "imperial" : "metric";
+}
