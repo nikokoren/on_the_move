@@ -117,6 +117,12 @@ The owner's screenshot shows the white stork Kiki in German, with TRMNL's "Refre
 6. ~~**Image of the animal:** an optional picture of the species that users can switch on and off.~~ Done 2026-09-29: owner's picks (`pipeline/species_images.json`), greyscale 240 px squares served by the Worker at `/photo/<taxon>.jpg`, shown 112 px on the left of the text box (`image image--cover w--28 h--28 no-shrink`); setting `show_photo`, default on. Credits in the About text and README (decision R8b). Not confirmed on a device.
 7. **Position marker:** replace the dot with a bird's-eye-view icon of the animal shown.
 8. ~~**Species setting as a multi-select**~~ Done 2026-09-29: `multiple: true`; none ticked = all in turn, several = those in turn, one = that one. The polling URL joins the ticks with `join: ","`; the Worker accepts commas, spaces or a JSON array, since TRMNL does not document the format (check with `npx wrangler tail` after the first real poll). Not confirmed on a device.
+10. **Destination pill across screen sizes and orientations (owner, 2026-09-29, TRMNL preview of the gull Arvin heading for Morocco).** Topic only, not yet worked on.
+   - OG landscape: right. The destination is off screen, and the pill points south-west.
+   - OG portrait: the pill is hidden behind the text box. The box is narrower and taller in portrait, and the pill's clearance (`clearOfBox`) did not lift it above the box.
+   - X portrait: the destination ring is visible on screen, but the pill still shows. The template decides this once (`onScreen`, map size at first draw); a likely cause is a map resized after that decision, not yet checked.
+   - The pill's placement and its show/hide rule need to follow the actual frame of each device and orientation. The render check covers only OG landscape today, so it needs portrait and other models too.
+   - The photo inside the text box works in all three (owner): the "photo above the box" idea is dropped.
 9. **Framework-native layout and styling only, no "Extrawürstl" (owner, 2026-09-29).** All layout and styling through TRMNL Framework classes and components, no custom CSS or inline styles. Known deviation today: the edge callout in `template/full.liquid` is styled inline in the script (background, 2 px border, pill radius, system-ui font, font sizes, max width), carried over from Nearby Nextbike. The text box already uses framework classes only. The map lines are MapLibre layer paint, not page styling.
 
 ## Device feedback, round 1 (owner, 2026-09-29, photos of the deployed version)
