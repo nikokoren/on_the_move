@@ -231,7 +231,11 @@ def main():
         # Star first: live, then a real migration (1,000 km between stays), then days
         # covered, then a real name. Seen 2026-09-28: without the migration rank a gull
         # moving within France outranked one flying the Netherlands to Morocco.
-        cands.sort(key=lambda c: (not c[0]["live"], max(c[3]) < 1000, -c[0]["doyCovered"], name_of(c[0]) == "", c[0]["id"]))
+        # Then away from the date line: the framework's map does not wrap the world
+        # and cannot centre there (seen 2026-09-29: a loggerhead at 175 W pushed
+        # into the frame's corner, in open water).
+        near180 = lambda tab: any(t and abs(t[1]) > 170 for t in tab)
+        cands.sort(key=lambda c: (not c[0]["live"], near180(c[1]), max(c[3]) < 1000, -c[0]["doyCovered"], name_of(c[0]) == "", c[0]["id"]))
         chosen = cands[:BACKUPS + 1]
         # Names and the species facts from the species table's sources (R8,
         # pipeline/species_curated.json), not the provisional GBIF names.

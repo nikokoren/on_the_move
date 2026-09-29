@@ -124,7 +124,7 @@ const env7 = { KV: kv(s1) };
 const res = await handle(new Request("https://x/full?species=broad_winged_hawk&lang=deutsch&utc_offset=7200"), env7, NOW);
 const body = await res.json();
 check("poll: 200 with a live payload", res.status === 200 && body.state === "ok" && body.kind === "live", `${body.kind}`);
-check("poll: German", /Letzte Position/.test(body.status), body.status);
+check("poll: German", /Zuletzt geortet/.test(body.status), body.status);
 check("poll: under 5 KB", JSON.stringify(body).length < 5120, `${JSON.stringify(body).length} bytes`);
 check("poll: no KV write on read", env7.KV.writes === 0);
 const res8 = await handle(new Request("https://x/full?species=broad_winged_hawk&lang=english"), { KV: kv({ animals: {}, refused: { "28691134": "test" } }) }, NOW);

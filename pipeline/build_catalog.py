@@ -74,12 +74,20 @@ def mb_csv(params, cache_name):
 
 
 def coord(la, lo):
-    """Parsed (lat, lon), or None if missing, NaN or out of range (seen: literal NaN, 2026-09-28)."""
+    """Parsed (lat, lon), or None if missing, NaN or out of range (seen: literal NaN, 2026-09-28).
+
+    A latitude within 0.001 degrees of the equator is a placeholder, not a fix:
+    geolocators cannot measure latitude around the equinoxes, and studies store
+    0 or 0.001 for those weeks (seen 2026-09-29: red-backed shrikes "at the
+    equator" 6 Sep to 7 Oct, drawn as 90-degree bends; study 533427629 has
+    0.001 in 1,106 of 4,994 rows). A real fix that close is about 100 m wide."""
     try:
         la, lo = float(la), float(lo)
     except (TypeError, ValueError):
         return None
     if not (math.isfinite(la) and math.isfinite(lo) and -90 <= la <= 90 and -180 <= lo <= 180):
+        return None
+    if abs(la) <= 0.001:
         return None
     return la, lo
 

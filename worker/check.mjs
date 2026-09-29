@@ -5,6 +5,7 @@
 //     node worker/check.mjs
 import fs from "fs";
 import { buildFull, factIndex } from "./src/view.js";
+import { speciesParam } from "./src/params.js";
 
 const data = JSON.parse(fs.readFileSync(new URL("./data/featured.json", import.meta.url)));
 const LIMIT = 5120;
@@ -35,7 +36,7 @@ for (const lang of ["en", "de"]) {
             if (v[k] === undefined || v[k] === "") bad.push(`missing ${k}`);
           }
           const g = JSON.parse(v.geo);
-          if (!g.pos || !g.past.length || !g.ahead.length || !(g.r > 0)) bad.push("geo incomplete");
+          if (!g.pos || !g.past.length || !g.ahead.length) bad.push("geo incomplete");
           if (!!g.dest !== !!v.toward) bad.push("callout text without destination or back");
           v.staying = !v.where.includes("→");
           kinds[v.kind] = (kinds[v.kind] || 0) + 1;
@@ -81,6 +82,15 @@ for (const lang of ["en", "de"]) {
 const longFacts = [...facts].filter((f) => f.split(": ").slice(1).join(": ").length > 140);
 if (longFacts.length) fails++;
 console.log(`fact rotation: ${rotTurns} turns, ${rotFails} failures; ${facts.size} distinct facts seen, ${longFacts.length} over 140 chars`);
+// Every species option in template/settings.yml reaches its own species, not
+// the "all" fallback (seen 2026-09-29: "Loggerhead" showed the white stork).
+const yml = fs.readFileSync(new URL("../template/settings.yml", import.meta.url), "utf8");
+const labels = yml.split("keyname: language")[0].split("options:")[1].split("\n")
+  .filter((l) => l.trim().startsWith("- ")).map((l) => l.trim().slice(2));
+const unmapped = labels.filter((l) => l !== "All of them in turn" && speciesParam(l, data.species) === "all");
+const mapped = new Set(labels.map((l) => speciesParam(l, data.species)).filter((x) => x !== "all"));
+if (unmapped.length || mapped.size !== data.species.length) fails++;
+console.log(`settings: ${labels.length - 1} species options, ${mapped.size} of ${data.species.length} species reachable, unmapped: ${JSON.stringify(unmapped)}`);
 console.log(`runs ${runs}, failures ${fails}, empty ${empty}, largest payload ${maxBytes} bytes, kinds ${JSON.stringify(kinds)}`);
 for (const [k, v] of Object.entries(bySpecies)) console.log(`  ${k.padEnd(28)} ok ${v.ok}  staying ${v.staying}  travelling ${v.travelling}`);
 problems.forEach((p) => console.log("  FAIL " + p));

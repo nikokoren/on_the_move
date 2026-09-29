@@ -4,8 +4,6 @@
 import { STRINGS, fill } from "./strings.js";
 
 export const LIVE_DAYS = 14;        // R21: older than this is not live
-const FRAME_DAYS = 10;              // V1: the frame holds the last 10 days of track ...
-const FRAME_MIN_RADIUS_KM = 250;    // ... or 500 km across the short side
 const MAX_LINE_POINTS = 40;         // per line; Nextbike: bare lists, ~28 bytes a point
 const CYCLE_SECONDS = 15 * 60;      // "all" moves to the next species every refresh slot
 
@@ -65,6 +63,16 @@ export function legAt(stays, d) {
     if (until < bestN) { bestN = until; next = s; }
   }
   return { staying: false, prev, here: null, next };
+}
+
+// The two longest stays are the animal's home ranges (summer and winter); any
+// other stay is a stopover on the way. Seen 2026-09-29 on a device: a crane
+// resting four weeks south of Volgograd was shown as if it lived there.
+function homeStays(stays) {
+  if (stays.length <= 2) return stays;
+  const len = (s) => (s[1] - s[0] + 366) % 366 + 1;
+  const top = [...stays].sort((a, b) => len(b) - len(a)).slice(0, 2);
+  return stays.filter((s) => top.includes(s));
 }
 
 // Track points from day a to day b on the circular year, skipping unknown days.
@@ -191,36 +199,38 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn) {
   const here = live ? a.lastPosition : a.track[d] && [a.track[d][0], a.track[d][1]];
   if (!here) return null;
   const year = a.track[d] ? a.track[d][2] : null;
-  const leg = legAt(a.stays, d);
+  // Legs run from home range to home range; a stopover on the way is part of the leg.
+  const homes = homeStays(a.stays);
+  const leg = legAt(homes, d);
+  const stop = leg.staying ? null : a.stays.find((s) => !homes.includes(s) && within(d, s[0], s[1]));
 
-  const past = slice(a.track, leg.prev ? leg.prev[1] : d, d);
+  // At home the line starts where the stay began: the journey that brought it
+  // there is over (seen on a device: a turkey vulture in summer still trailing
+  // its spring flight from Mexico).
+  const past = slice(a.track, leg.staying ? leg.here[0] : leg.prev ? leg.prev[1] : d, d);
   const future = slice(a.track, d, leg.next ? leg.next[0] : d);
   if (live) { past.push(here); future.unshift(here); }
 
-  let radius = FRAME_MIN_RADIUS_KM;
-  for (let k = 1; k <= FRAME_DAYS; k++) {
-    const p = a.track[(d - k + 366) % 366];
-    if (p) radius = Math.max(radius, km(here, p));
-  }
-
-  // A next stay under 50 km away, or with the same name, is not a journey worth
+  // A next home under 50 km away, or with the same name as this one, is not a journey worth
   // pointing at (seen: a blue whale "Pacific Ocean -> Pacific Ocean, 0 km").
+  // Nor is one named like the place it is in now (seen: a loggerhead's pill
+  // "Pacific Ocean · 691 km" while in the Pacific Ocean).
   const nextFar = leg.next && km(here, [leg.next[2], leg.next[3]]) >= 50 &&
-    !(leg.here && leg.here[4] === leg.next[4]);
+    !(leg.here && leg.here[4] === leg.next[4]) && name(leg.next[4]) !== name(a.place[d]);
   const dest = nextFar ? [leg.next[2], leg.next[3]] : null;
   const arrive = leg.next ? dateOfDoy(leg.next[0], now.getUTCFullYear()) : null;
-  const leaves = leg.here ? dateOfDoy((leg.here[1] + 1) % 366, now.getUTCFullYear()) : null;
+  const until = (s) => dateOfDoy((s[1] + 1) % 366, now.getUTCFullYear());
 
   const status = live
     ? fill(t.live, { date: fmtDate(t, lastFix, true) })
     : fill(t.usual, { date: fmtDate(t, dateOfDoy(d, now.getUTCFullYear()), false), year });
   const from = name(leg.prev[4]), to = name(leg.next[4]);
   const where = leg.staying
-    ? fill(t.staying, { place: name(leg.here[4]), date: fmtDate(t, leaves, false) })
-    : from === to ? to : fill(t.journey, { from, to });
-  const toward = !dest ? "" : leg.staying
-    ? fill(t.leaving, { date: fmtDate(t, leaves, false), place: name(leg.next[4]) })
-    : fill(t.toward, { place: name(leg.next[4]), km: fmtKm(km(here, dest), lang), date: fmtDate(t, arrive, false) });
+    ? fill(t.staying, { place: name(leg.here[4]), date: fmtDate(t, until(leg.here), false) })
+    : stop
+      ? fill(t.resting, { place: name(stop[4]), date: fmtDate(t, until(stop), false) })
+      : from === to ? to : fill(t.journey, { from, to, date: fmtDate(t, arrive, false) });
+  const toward = dest ? fill(t.toward, { place: to, km: fmtKm(km(here, dest), lang) }) : "";
 
   const ref = here[0];
   return {
@@ -239,8 +249,7 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn) {
       pos: unwrap([here], ref)[0],
       past: unwrap(thin(past, MAX_LINE_POINTS), ref),
       ahead: unwrap(thin(future, MAX_LINE_POINTS), ref),
-      dest: dest ? unwrap([dest], ref)[0] : null,
-      r: Math.round(radius)
+      dest: dest ? unwrap([dest], ref)[0] : null
     })
   };
 }

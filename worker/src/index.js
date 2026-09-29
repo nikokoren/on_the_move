@@ -12,24 +12,12 @@ import whitelist from "../data/studies.json";
 import { buildFull } from "./view.js";
 import { refresh, withLive, LIVE_KEY } from "./refresh.js";
 import { STRINGS, fill } from "./strings.js";
+import { speciesParam as mapSpecies, langParam } from "./params.js";
 
-const snake = (s) => String(s || "").toLowerCase().replace(/ß/g, "ss").normalize("NFKD").replace(/[̀-ͯ]/g, "")
-  .replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
-
-export function speciesParam(value) {
-  const v = snake(value);
-  if (!v || v === "all" || v === "all_of_them_in_turn" || v === "alle") return "all";
-  for (const sp of featured.species) {
-    const keys = [sp.taxon, sp.names.en, sp.names.de].map(snake);
-    if (keys.includes(v)) return sp.taxon;
-  }
-  return "all";
-}
-
-export function langParam(value) {
-  const v = snake(value);
-  return v === "de" || v === "deutsch" || v === "german" ? "de" : "en";
-}
+// The settings' values mapped to a taxon or language (src/params.js). Older
+// labels stay accepted: a device keeps the value it was set up with.
+export const speciesParam = (value) => mapSpecies(value, featured.species);
+export { langParam };
 
 export async function handle(request, env, now = new Date()) {
   const url = new URL(request.url);
