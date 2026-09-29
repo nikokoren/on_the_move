@@ -9,7 +9,33 @@
   name: About This Plugin
   description: |
     Follow migrating animals on a map: white storks, cranes, honey buzzards, turtle doves, gulls, shrikes, wheatears, curlews, hawks, vultures, ospreys, snow geese, Canada geese, bald eagles, blackpoll warblers, peregrine falcons, a blue whale and a loggerhead turtle. Animals with a working GPS tag show their last position and its date. The others show where they usually are on this day, from a full year of their own published tracking data. A thick line shows where the journey began, a thin line where it usually goes next.<br><br>
-    Tracking data: Movebank and the Movebank Data Repository (CC0 and CC BY studies only). Map places: Natural Earth.<br><br>
+    Tracking data (Movebank, CC0 and CC BY studies only; used under their licences, without warranties):<br>
+    White Stork: Wolfgang Fiedler, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study173641633">LifeTrack White Stork Vorarlberg</a>, CC BY<br>
+    White Stork: Wolfgang Fiedler, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study24442409">LifeTrack White Stork Bavaria</a>, CC BY<br>
+    Common Crane: Petras Kurlavičius, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study1229945587">Common Crane 2020 (Lithuanian University of Educational Studies; LEU)</a>, CC0<br>
+    Common Crane: Elena Ilyashenko, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study542653863">1000 Cranes. Russia. Common Crane.</a>, CC BY<br>
+    European Honey Buzzard: Dr. Daniel Schmidt-Rothmund, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study186178781">Raptors NABU Moessingen public</a>, CC BY<br>
+    European Honey Buzzard: Thomas Alerstam, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study49904341">European Honey-Buzzard, Southern Sweden</a>, CC0<br>
+    European Turtle Dove: Frédéric Jiguet, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study3413045568">Habitrack European Turtle Dove</a>, CC BY<br>
+    Lesser Black-backed Gull: Eric Stienen, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study1258895879">DELTATRACK - Herring gulls (Larus argentatus, Laridae) and lesser black-backed gulls (Larus fuscus, Laridae) breeding at Neeltje Jans (Netherlands)</a>, CC0<br>
+    Red-backed Shrike: Anders Tøttrup, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study533427629">Migration of red-backed shrikes from southern Scandinavia (data from Pedersen et al. 2018)</a>, CC0<br>
+    Red-backed Shrike: Anders P. Tøttrup, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study890556697">Migration of male and female red-backed shrikes from southern Scandinavia (data from Pedersen et al. 2019)</a>, CC0<br>
+    Northern Wheatear: Movebank Data Repository, <a href="https://doi.org/10.5441/001/1.tn4h3kt0">Data from: Locally adapted migration strategies: Comparing routes and timing of northern wheatears from alpine and lowland European populations [Austria]</a>, CC0<br>
+    Far Eastern Curlew: Movebank Data Repository, <a href="https://doi.org/10.5441/001/1.v8r49083">Data from: Study "Full annual cycle tracking of Far Eastern Curlew (Numenius madagascariensis)"</a>, CC0<br>
+    Broad-winged Hawk: Laurie Goodrich, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study28691134">Broad-winged Hawk habitat use, range, and movement ecology</a>, CC BY<br>
+    Turkey Vulture: David Barber, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study481458">Vultures Acopian Center USA GPS</a>, CC BY<br>
+    Osprey: Barb Jensen, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study10204361">Pandion haliaetus Osprey - SouthEast Michigan</a>, CC0<br>
+    Osprey: Mark Martell, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study384172482">Osprey in North and South America 1995-2002 (Martell)</a>, CC BY<br>
+    Snow Goose: Chris Williams, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study1509697502">Delmarva Wintering Waterfowl AIV and Poultry</a>, CC0<br>
+    Canada Goose: Manon Sorais, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study2105214573">North-East American Canada goose migration 2015-2021</a>, CC0<br>
+    Bald Eagle: NYSDEC, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study2943485">NYSDEC Raptor Tracking</a>, CC0<br>
+    Blackpoll Warbler: DeLuca, William V., <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study959756713">A boreal songbird's migration across North America and the Atlantic Ocean, Setophaga striata</a>, CC0<br>
+    Blue Whale: Daniel Palacios, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study650188969">Blue whales Eastern North Pacific 1993-2008 - Argos data</a>, CC BY<br>
+    Loggerhead Turtle: Movebank Data Repository, <a href="https://doi.org/10.5441/001/1.m3c90703">Data from: Latitudinal cline in the ratio of foraging dichotomy in the North Pacific population of loggerhead turtles revealed a priority conservation area</a>, CC0<br>
+    Loggerhead Turtle: Yong-Rock An, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study3030282201">Marine bioresource conservation and restoration research</a>, CC0<br>
+    Peregrine Falcon: Michael Yates, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study619061097">Earthspan Peregrines</a>, CC BY<br>
+    Peregrine Falcon: Kurt K. Burnham, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study7249090">Peregrine Falcon, High Arctic Institute, northwest Greenland</a>, CC0<br>
+    Map places: Natural Earth. Map: © OpenStreetMap contributors.<br><br>
     Species photos, cropped and converted to greyscale for e-ink (modified from the originals). Licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, without warranties:<br>
     White Stork: (c) SteveM4560, some rights reserved (CC BY), <a href="https://www.inaturalist.org/observations/202678318">iNaturalist</a><br>
     Common Crane: (c) Parth Kansara, some rights reserved (CC BY), <a href="https://www.inaturalist.org/observations/141518478">iNaturalist</a><br>
@@ -60,6 +86,14 @@
   description: Show a photo of the species beside the text.
   optional: true
   default: true
+- keyname: units
+  field_type: select
+  name: Units
+  description: Distances and measurements in kilometres or miles.
+  default: metric
+  options:
+  - Metric
+  - Imperial
 - keyname: language
   field_type: select
   name: Language

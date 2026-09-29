@@ -4,7 +4,8 @@
 //
 //     node worker/check.mjs
 import fs from "fs";
-import { buildFull, factIndex } from "./src/view.js";
+import { buildFull, factIndex, renderUnits } from "./src/view.js";
+import { STRINGS } from "./src/strings.js";
 import { speciesParam, speciesList, photoParam } from "./src/params.js";
 
 const data = JSON.parse(fs.readFileSync(new URL("./data/featured.json", import.meta.url)));
@@ -16,23 +17,24 @@ const problems = [];
 for (const lang of ["en", "de"]) {
   for (const sp of species) {
     for (let doy = 0; doy < 366; doy++) {
-      for (const off of [0, 36000]) {
+      // Two offsets, one per unit system, so both units run through every day.
+      for (const [off, units] of [[0, "metric"], [36000, "imperial"]]) {
         const now = new Date(Date.UTC(2026, 0, 1, 12) + doy * 86400000);
-        const v = buildFull(data, { species: sp, lang, now, utcOffset: off });
+        const v = buildFull(data, { species: sp, lang, now, utcOffset: off, units });
         runs++;
         const s = JSON.stringify(v);
         maxBytes = Math.max(maxBytes, s.length);
         const bad = [];
         if (s.length > LIMIT) bad.push(`payload ${s.length} bytes`);
-        if (/\{\w+\}|undefined|NaN|null →|→ null/.test(s)) bad.push("unfilled or broken text");
+        if (/\{\w+\}|\{[^{}]*\|[^{}]*\}|undefined|NaN|null →|→ null/.test(s)) bad.push("unfilled or broken text");
         // R16 limits, docs/TEXT_REQUIREMENTS.md (measured 2026-09-28).
-        const LIMITS = { title: 55, where: 100, status: 140, fact: 140, credit: 73, toward: 90 };
+        const LIMITS = { title: 55, where: 100, status: 140, fact: 140, toward: 90 };
         const slot = { ...v, title: v.species + (v.name ? " · " + v.name : "") };
         for (const [k, n] of Object.entries(LIMITS)) {
           if ((slot[k] || "").length > n) bad.push(`${k} ${slot[k].length} > ${n} chars (R16)`);
         }
         if (v.state === "ok") {
-          for (const k of ["species", "status", "where", "fact", "credit", "geo"]) {
+          for (const k of ["species", "status", "where", "fact", "geo"]) {
             if (v[k] === undefined || v[k] === "") bad.push(`missing ${k}`);
           }
           const g = JSON.parse(v.geo);
@@ -82,6 +84,19 @@ for (const lang of ["en", "de"]) {
 const longFacts = [...facts].filter((f) => f.split(": ").slice(1).join(": ").length > 140);
 if (longFacts.length) fails++;
 console.log(`fact rotation: ${rotTurns} turns, ${rotFails} failures; ${facts.size} distinct facts seen, ${longFacts.length} over 140 chars`);
+// Units (owner, 2026-09-29): every sourced fact in both languages and both unit
+// systems renders without a leftover {metric|imperial} token, within 140
+// characters, and an imperial rendering names no metric unit.
+let unitFacts = 0, unitBad = [];
+for (const sp of data.species) for (const f of sp.facts) for (const lang of ["en", "de"]) for (const units of ["metric", "imperial"]) {
+  if (!/\{[^{}]*\|[^{}]*\}/.test(f[lang])) continue;
+  unitFacts++;
+  const r = renderUnits(f[lang], STRINGS[lang], lang, units);
+  if (/[{}|]/.test(r) || r.length > 140 || (units === "imperial" && /\d (km|m|cm|kg|g|t|Tonnen|tonnes)\b/.test(r))) unitBad.push(`${lang} ${units}: ${r}`);
+}
+if (unitBad.length) fails++;
+console.log(`units: ${unitFacts} renderings of facts with measurements, ${unitBad.length} bad`);
+unitBad.slice(0, 5).forEach((x) => console.log("  BAD " + x));
 // Every species option in template/settings.yml reaches its own species, not
 // the "all" fallback (seen 2026-09-29: "Loggerhead" showed the white stork).
 const yml = fs.readFileSync(new URL("../template/settings.yml", import.meta.url), "utf8");

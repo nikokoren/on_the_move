@@ -433,8 +433,8 @@
      }
     },
     {
-     "en": "Standing up to 1.2 m tall, the common crane is the tallest bird in the UK.",
-     "de": "Mit bis zu 1,2 m Höhe ist der Kranich der größte Vogel Großbritanniens.",
+     "en": "Standing up to {1.2 m|3.9 ft} tall, the common crane is the tallest bird in the UK.",
+     "de": "Mit bis zu {1.2 m|3.9 ft} Höhe ist der Kranich der größte Vogel Großbritanniens.",
      "source": {
       "title": "RSPB, Crane",
       "url": "https://www.rspb.org.uk/birds-and-wildlife/crane",
@@ -442,8 +442,8 @@
      }
     },
     {
-     "en": "A crane's bugling call can be heard up to about 5.6 km away.",
-     "de": "Den trompetenden Ruf der Kraniche hört man bis zu etwa 5,6 km weit.",
+     "en": "A crane's bugling call can be heard up to about {5.6 km|3.5 mi} away.",
+     "de": "Den trompetenden Ruf der Kraniche hört man bis zu etwa {5.6 km|3.5 mi} weit.",
      "source": {
       "title": "RSPB, Crane",
       "url": "https://www.rspb.org.uk/birds-and-wildlife/crane",
@@ -757,8 +757,8 @@
    ],
    "facts": [
     {
-     "en": "Turtle doves breeding in Britain travel up to about 4,800 km each way to and from West Africa.",
-     "de": "Turteltauben aus Großbritannien fliegen bis zu etwa 4.800 km pro Strecke nach Westafrika und zurück.",
+     "en": "Turtle doves breeding in Britain travel up to about {4800 km|3000 mi} each way to and from West Africa.",
+     "de": "Turteltauben aus Großbritannien fliegen bis zu etwa {4800 km|3000 mi} pro Strecke nach Westafrika und zurück.",
      "source": {
       "title": "RSPB, Turtle Dove",
       "url": "https://www.rspb.org.uk/birds-and-wildlife/turtle-dove",
@@ -1184,8 +1184,8 @@
    ],
    "facts": [
     {
-     "en": "Red-backed shrikes fly a loop of about 22,000 km a year, coming back north across the Arabian Peninsula.",
-     "de": "Neuntöter fliegen jedes Jahr eine Schleife von rund 22.000 km, zurück nach Norden über die Arabische Halbinsel.",
+     "en": "Red-backed shrikes fly a loop of about {22000 km|13700 mi} a year, coming back north across the Arabian Peninsula.",
+     "de": "Neuntöter fliegen jedes Jahr eine Schleife von rund {22000 km|13700 mi}, zurück nach Norden über die Arabische Halbinsel.",
      "source": {
       "title": "Tøttrup et al. 2012, Proc. R. Soc. B 279: 1008-1016",
       "url": "https://doi.org/10.1098/rspb.2011.1323",
@@ -1386,8 +1386,8 @@
    ],
    "facts": [
     {
-     "en": "Wheatears breeding in Alaska fly about 14,500 km each way to Africa, weighing only about 25 g.",
-     "de": "Steinschmätzer aus Alaska fliegen rund 14.500 km pro Strecke nach Afrika, bei nur etwa 25 g Gewicht.",
+     "en": "Wheatears breeding in Alaska fly about {14500 km|9000 mi} each way to Africa, weighing only about {25 g|0.9 oz}.",
+     "de": "Steinschmätzer aus Alaska fliegen rund {14500 km|9000 mi} pro Strecke nach Afrika, bei nur etwa {25 g|0.9 oz} Gewicht.",
      "source": {
       "title": "Bairlein et al. 2012, Biol. Lett. 8: 505-507",
       "url": "https://doi.org/10.1098/rsbl.2011.1223",
@@ -1405,8 +1405,8 @@
      }
     },
     {
-     "en": "Northern wheatears passing through Germany fly up to 15,000 km to their winter quarters.",
-     "de": "Nordische Steinschmätzer auf dem Durchzug legen bis zu 15.000 km ins Winterquartier zurück.",
+     "en": "Northern wheatears passing through Germany fly up to {15000 km|9300 mi} to their winter quarters.",
+     "de": "Nordische Steinschmätzer auf dem Durchzug legen bis zu {15000 km|9300 mi} ins Winterquartier zurück.",
      "source": {
       "title": "NABU, Vogelporträt Steinschmätzer",
       "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/steinschmaetzer/",
@@ -1450,8 +1450,8 @@
      }
     },
     {
-     "en": "Tracked wheatears averaged up to 290 km a day over their whole migration.",
-     "de": "Besenderte Steinschmätzer schafften im Schnitt bis zu 290 km am Tag über den ganzen Zug.",
+     "en": "Tracked wheatears averaged up to {290 km|180 mi} a day over their whole migration.",
+     "de": "Besenderte Steinschmätzer schafften im Schnitt bis zu {290 km|180 mi} am Tag über den ganzen Zug.",
      "source": {
       "title": "Bairlein et al. 2012, Biol. Lett. 8: 505-507",
       "url": "https://doi.org/10.1098/rsbl.2011.1223",
@@ -1623,8 +1623,8 @@
      }
     },
     {
-     "en": "A Far Eastern curlew weighs around 900 g and spans about 110 cm from wingtip to wingtip.",
-     "de": "Isabellbrachvögel wiegen rund 900 g und haben etwa 110 cm Flügelspannweite.",
+     "en": "A Far Eastern curlew weighs around {900 g|2 lb} and spans about {110 cm|43 in} from wingtip to wingtip.",
+     "de": "Isabellbrachvögel wiegen rund {900 g|2 lb} und haben etwa {110 cm|43 in} Flügelspannweite.",
      "source": {
       "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
       "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
@@ -2078,8 +2078,8 @@
      }
     },
     {
-     "en": "Ospreys add to their nests every year; some nests end up weighing up to 180 kg.",
-     "de": "Fischadler bauen jedes Jahr an ihren Horsten weiter; manche wiegen am Ende bis zu 180 kg.",
+     "en": "Ospreys add to their nests every year; some nests end up weighing up to {180 kg|400 lb}.",
+     "de": "Fischadler bauen jedes Jahr an ihren Horsten weiter; manche wiegen am Ende bis zu {180 kg|400 lb}.",
      "source": {
       "title": "Hawk Mountain Sanctuary, Osprey",
       "url": "https://www.hawkmountain.org/raptors/osprey",
@@ -2254,8 +2254,8 @@
      }
     },
     {
-     "en": "Snow geese span 1.3 to 1.7 m from wingtip to wingtip.",
-     "de": "Schneegänse haben eine Flügelspannweite von 1,3 bis 1,7 m.",
+     "en": "Snow geese span {1.3-1.7 m|4.4-5.4 ft} from wingtip to wingtip.",
+     "de": "Schneegänse haben eine Flügelspannweite von {1.3-1.7 m|4.4-5.4 ft}.",
      "source": {
       "title": "Audubon Field Guide, Snow Goose",
       "url": "https://www.audubon.org/field-guide/bird/snow-goose",
@@ -2263,8 +2263,8 @@
      }
     },
     {
-     "en": "In summer snow geese nest on the Arctic tundra, usually within about 8 km of the coast.",
-     "de": "Im Sommer brüten Schneegänse in der arktischen Tundra, meist höchstens etwa 8 km von der Küste.",
+     "en": "In summer snow geese nest on the Arctic tundra, usually within about {8 km|5 mi} of the coast.",
+     "de": "Im Sommer brüten Schneegänse in der arktischen Tundra, meist höchstens etwa {8 km|5 mi} von der Küste.",
      "source": {
       "title": "Audubon Field Guide, Snow Goose",
       "url": "https://www.audubon.org/field-guide/bird/snow-goose",
@@ -2414,8 +2414,8 @@
      }
     },
     {
-     "en": "Canada geese vary hugely in size: from 2.9 to 8.9 kg.",
-     "de": "Kanadagänse sind sehr unterschiedlich groß: sie wiegen 2,9 bis 8,9 kg.",
+     "en": "Canada geese vary hugely in size: from {2.9-8.9 kg|6.5-19.8 lb}.",
+     "de": "Kanadagänse sind sehr unterschiedlich groß: sie wiegen {2.9-8.9 kg|6.5-19.8 lb}.",
      "source": {
       "title": "Audubon Field Guide, Canada Goose",
       "url": "https://www.audubon.org/field-guide/bird/canada-goose",
@@ -2589,8 +2589,8 @@
      }
     },
     {
-     "en": "Some bald eagle nests are up to 2.4 m across and weigh almost two tons.",
-     "de": "Manche Horste des Weißkopf-Seeadlers sind bis zu 2,4 m breit und fast zwei Tonnen schwer.",
+     "en": "Some bald eagle nests are up to {2.4 m|8 ft} across and weigh almost two tons.",
+     "de": "Manche Horste des Weißkopf-Seeadlers sind bis zu {2.4 m|8 ft} breit und fast zwei Tonnen schwer.",
      "source": {
       "title": "Hawk Mountain Sanctuary, Bald Eagle",
       "url": "https://www.hawkmountain.org/raptors/bald-eagle",
@@ -2724,8 +2724,8 @@
    ],
    "facts": [
     {
-     "en": "In autumn blackpoll warblers fly non-stop over the Atlantic, 2,270 to 2,770 km, weighing just 12 g.",
-     "de": "Im Herbst fliegen Streifenwaldsänger nonstop über den Atlantik, 2.270 bis 2.770 km weit, bei nur 12 g Gewicht.",
+     "en": "In autumn blackpoll warblers fly non-stop over the Atlantic, {2270-2770 km|1410-1720 mi}, weighing just {12 g|0.4 oz}.",
+     "de": "Im Herbst fliegen Streifenwaldsänger nonstop über den Atlantik, {2270-2770 km|1410-1720 mi} weit, bei nur {12 g|0.4 oz} Gewicht.",
      "source": {
       "title": "DeLuca et al. 2015, Biol. Lett. 11: 20141045",
       "url": "https://doi.org/10.1098/rsbl.2014.1045",
@@ -2762,8 +2762,8 @@
      }
     },
     {
-     "en": "A blackpoll warbler weighs 12 to 17 g.",
-     "de": "Ein Streifenwaldsänger wiegt 12 bis 17 g.",
+     "en": "A blackpoll warbler weighs {12-17 g|0.4-0.6 oz}.",
+     "de": "Ein Streifenwaldsänger wiegt {12-17 g|0.4-0.6 oz}.",
      "source": {
       "title": "Audubon Field Guide, Blackpoll Warbler",
       "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
@@ -2789,8 +2789,8 @@
      }
     },
     {
-     "en": "In their tropical winter quarters, blackpoll warblers live in forests up to about 2,400 m high.",
-     "de": "In den tropischen Winterquartieren leben Streifenwaldsänger in Wäldern bis in etwa 2.400 m Höhe.",
+     "en": "In their tropical winter quarters, blackpoll warblers live in forests up to about {2400 m|7800 ft} high.",
+     "de": "In den tropischen Winterquartieren leben Streifenwaldsänger in Wäldern bis in etwa {2400 m|7800 ft} Höhe.",
      "source": {
       "title": "Audubon Field Guide, Blackpoll Warbler",
       "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
@@ -2866,8 +2866,8 @@
      }
     },
     {
-     "en": "The biggest blue whales may eat up to about 5.4 tonnes of krill a day.",
-     "de": "Die größten Blauwale fressen bis zu etwa 5,4 Tonnen Krill am Tag.",
+     "en": "The biggest blue whales may eat up to about {5.4 t|6 ton} of krill a day.",
+     "de": "Die größten Blauwale fressen bis zu etwa {5.4 t|6 ton} Krill am Tag.",
      "source": {
       "title": "NOAA Fisheries, Blue Whale",
       "url": "https://www.fisheries.noaa.gov/species/blue-whale",
@@ -2875,8 +2875,8 @@
      }
     },
     {
-     "en": "Blue whale calls may carry up to about 1,600 km to other whales.",
-     "de": "Die Rufe der Blauwale können andere Wale bis zu etwa 1.600 km weit hören.",
+     "en": "Blue whale calls may carry up to about {1600 km|1000 mi} to other whales.",
+     "de": "Die Rufe der Blauwale können andere Wale bis zu etwa {1600 km|1000 mi} weit hören.",
      "source": {
       "title": "NOAA Fisheries, Blue Whale",
       "url": "https://www.fisheries.noaa.gov/species/blue-whale",
@@ -2884,8 +2884,8 @@
      }
     },
     {
-     "en": "In the Antarctic, blue whales reach about 33 m and weigh more than 150 tonnes.",
-     "de": "In der Antarktis werden Blauwale bis zu etwa 33 m lang und über 150 Tonnen schwer.",
+     "en": "In the Antarctic, blue whales reach about {33 m|110 ft} and weigh more than {150 t|330000 lb}.",
+     "de": "In der Antarktis werden Blauwale bis zu etwa {33 m|110 ft} lang und über {150 t|330000 lb} schwer.",
      "source": {
       "title": "NOAA Fisheries, Blue Whale",
       "url": "https://www.fisheries.noaa.gov/species/blue-whale",
@@ -2893,8 +2893,8 @@
      }
     },
     {
-     "en": "Blue whales cruise at about 8 km/h but can speed up to more than 30 km/h in short bursts.",
-     "de": "Blauwale schwimmen meist etwa 8 km/h schnell, kurz auch über 30 km/h.",
+     "en": "Blue whales cruise at about {8 km/h|5 mph} but can speed up to more than {30 km/h|20 mph} in short bursts.",
+     "de": "Blauwale schwimmen meist etwa {8 km/h|5 mph} schnell, kurz auch über {30 km/h|20 mph}.",
      "source": {
       "title": "NOAA Fisheries, Blue Whale",
       "url": "https://www.fisheries.noaa.gov/species/blue-whale",
@@ -2980,8 +2980,8 @@
    ],
    "facts": [
     {
-     "en": "Young loggerheads from Japan cross the whole Pacific to feed off Mexico, nearly 13,000 km away.",
-     "de": "Junge Unechte Karettschildkröten aus Japan durchqueren den Pazifik bis vor Mexiko, fast 13.000 km weit.",
+     "en": "Young loggerheads from Japan cross the whole Pacific to feed off Mexico, nearly {13000 km|8000 mi} away.",
+     "de": "Junge Unechte Karettschildkröten aus Japan durchqueren den Pazifik bis vor Mexiko, fast {13000 km|8000 mi} weit.",
      "source": {
       "title": "NOAA Fisheries, Loggerhead Turtle",
       "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
@@ -3156,8 +3156,8 @@
    ],
    "facts": [
     {
-     "en": "'Peregrine' is Latin for wanderer, and some peregrines migrate up to 25,000 km a year.",
-     "de": "„Peregrine“ heißt auf Lateinisch Wanderer, und manche Wanderfalken ziehen bis zu 25.000 km im Jahr.",
+     "en": "'Peregrine' is Latin for wanderer, and some peregrines migrate up to {25000 km|15500 mi} a year.",
+     "de": "„Peregrine“ heißt auf Lateinisch Wanderer, und manche Wanderfalken ziehen bis zu {25000 km|15500 mi} im Jahr.",
      "source": {
       "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
       "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
@@ -3165,8 +3165,8 @@
      }
     },
     {
-     "en": "In a hunting dive, a peregrine can reach up to about 320 km/h.",
-     "de": "Im Sturzflug erreichen Wanderfalken bis zu etwa 320 km/h.",
+     "en": "In a hunting dive, a peregrine can reach up to about {320 km/h|200 mph}.",
+     "de": "Im Sturzflug erreichen Wanderfalken bis zu etwa {320 km/h|200 mph}.",
      "source": {
       "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
       "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
@@ -3183,8 +3183,8 @@
      }
     },
     {
-     "en": "Female peregrines are much bigger: up to 1,500 g, against as little as 450 g for a male.",
-     "de": "Weibliche Wanderfalken sind viel größer: bis zu 1.500 g, Männchen oft nur 450 g.",
+     "en": "Female peregrines are much bigger: up to {1500 g|3.3 lb}, against as little as {450 g|1 lb} for a male.",
+     "de": "Weibliche Wanderfalken sind viel größer: bis zu {1500 g|3.3 lb}, Männchen oft nur {450 g|1 lb}.",
      "source": {
       "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
       "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",

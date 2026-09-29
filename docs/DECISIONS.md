@@ -4,6 +4,22 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### C2 Data credit off the screen, into the About text (owner, 2026-09-29)
+
+- Decision: the "Daten: Movebank, …" line leaves the text box. All 25 study sources (owner, study, licence, link or DOI) are in the recipe's About text (`template/settings.yml`) and, with full citations, in `README.md`. Changes brief R18 ("every view shows the credit").
+- Basis: Movebank's citation guidelines (https://www.movebank.org/cms/movebank-content/citation-guidelines, checked 2026-09-29): "Web-based tools or products should include a page of acknowledgements or source information that lists citations … or otherwise references participating studies and owners, including the DOIs of published datasets." CC BY 4.0 section 3(a)(2) allows attribution "in any reasonable manner based on the medium" (`docs/SOURCES.md`). The OpenStreetMap credit on the map stays (tile licence). Not legal advice.
+
+### U1 Units setting, metric or imperial (owner, 2026-09-29)
+
+- Decision: a "Units" select (Metric default, Imperial). Distances in the pill and the data facts, and every measurement in the sourced facts, follow it.
+- Built: measurements in `pipeline/species_curated.json` are written `{metric|imperial}` with both values from or rounded from the source (30 in 24 facts), rendered by `renderUnits` in `worker/src/view.js`. Checked: 96 renderings, none with a leftover token or a metric unit in imperial.
+
+### Other copy changes the same day
+
+- Animal names in quotes: „Arvin“ / “Arvin”.
+- Position line: "Um den 29. Sep. meist hier. Letzte Route von 2021" / "Usually here around 29 Sep. Last route from 2021".
+- Pill logic kept as it is; when and where it shows is design review topic 10.
+
 ### F2 Six more species, for North American users (owner, 2026-09-29)
 
 - Decision: add osprey, snow goose, Canada goose, bald eagle, blackpoll warbler (from the North American shortlist in `docs/CATALOG.md`) and peregrine falcon. 18 featured species.
