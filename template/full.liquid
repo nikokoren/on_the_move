@@ -31,7 +31,11 @@
 
     <div id="otm-toward" hidden>{{ toward | escape }}</div>
 
-    <div id="otm-box" class="absolute bottom--2 left--2 z--3 p--2 {% if photo != blank %}w--max-[72cqw] lg:w--max-[64cqw]{% else %}w--max-[62cqw] lg:w--max-[55cqw]{% endif %} bg--canvas outline outline--strong">
+    {% comment %} Bottom-left corner stack (topic 10): the text box, and above it the
+       pill when the pill's own edge spot would land on the box. Flex layout does
+       the spacing on every screen size; no measured offsets. {% endcomment %}
+    <div id="otm-corner" class="absolute bottom--2 left--2 z--3 flex flex--col flex--left gap--small">
+    <div id="otm-box" class="p--2 {% if photo != blank %}w--max-[72cqw] lg:w--max-[64cqw]{% else %}w--max-[62cqw] lg:w--max-[55cqw]{% endif %} bg--canvas outline">
       {% comment %} The species photo on the left (owner, 2026-09-29), when the
          setting is on; the Worker sends photo empty when it is off. {% endcomment %}
       <div class="flex flex--row flex--left flex--top gap">
@@ -45,6 +49,7 @@
         <span class="description">{{ fact }}</span>
       </div>
       </div>
+    </div>
     </div>
   </div>
 </div>
@@ -61,12 +66,13 @@
     // The map could not be drawn; the text box still stands, so only the
     // map area changes. Nextbike: a blank panel reads as a broken device.
     var w = document.getElementById("otm-map-waiting");
-    if (w) { w.style.display = "flex"; }
+    if (w) { w.classList.remove("hidden"); }
   }
 
   function bootstrap() {
     var el = "otm-map";
     var GEO = {{ geo }};
+    window.__otmGeo = GEO;  // read by template/render-check.mjs
     // Read from the DOM, not printed into the script: a quote in any
     // translation would otherwise end the string and the script with it.
     var TOWARD = (document.getElementById("otm-toward") || {}).textContent || "";
@@ -87,10 +93,6 @@
 
     function mpx(n) { return TRMNLPaint.px(n, { el: el }); }
 
-    function inkFor() {
-      var slot = TRMNLPaint.slot("map-label", { el: el, kind: "text" });
-      return (slot && (slot.ink || slot.color)) || "#000";
-    }
 
     // One zoom for every animal (owner, 2026-09-29): at zoom 3 the framework's
     // tiles carry almost no roads, a migration reads at the scale of a continent,
@@ -118,56 +120,73 @@
       return q.x >= 0 && q.y >= 0 && q.x <= box.clientWidth && q.y <= box.clientHeight;
     }
 
-    function pointerEl(sector, text, ink, paper) {
+    // The pill, in framework classes only (owner, 2026-09-29, topic 9): canvas
+    // background, the framework outline, full rounding, bold label text. It used
+    // to be styled inline, carried over from Nextbike.
+    function pointerEl(sector, text) {
       var wrap = document.createElement("div");
+      wrap.id = "otm-pill-wrap";
       wrap.className = "absolute inset--2 flex flex--row " + EDGES[sector] + " z--2";
-      wrap.style.pointerEvents = "none";
       var tag = document.createElement("div");
-      tag.className = "flex flex--row flex--center-y gap--small px--2 py--1";
-      tag.style.background = paper;
-      tag.style.border = "2px solid " + ink;
-      tag.style.borderRadius = "999px";
-      tag.style.color = ink;
-      tag.style.maxWidth = "46%";
-      tag.style.font = "700 13px/1.35 system-ui, sans-serif";
+      tag.id = "otm-pill";
+      tag.className = "flex flex--row flex--center-y gap--small px--2 py--1 bg--canvas outline rounded--full w--max-[46cqw]";
       var arrow = document.createElement("span");
+      arrow.className = "title";
       arrow.textContent = ARROWS[sector];
-      arrow.style.fontSize = "18px";
       tag.appendChild(arrow);
       var says = document.createElement("span");
+      says.className = "label font--bold";
       says.textContent = text;
       tag.appendChild(says);
       wrap.appendChild(tag);
       return wrap;
     }
 
-    // The text box owns the bottom left. A callout on the left or bottom edge
-    // that would sit on it moves up clear of it.
-    // Also the map's attribution (TRMNL renders it as span.map__attribution), bottom right: the tile licence requires it to
-    // stay readable (seen: a callout covering it).
-    function clearOfBox(wrap) {
-      var keep = [document.getElementById("otm-box"),
-                  document.querySelector("#" + el + " .map__attribution, #" + el + " .maplibregl-ctrl-attrib")];
-      for (var i = 0; i < keep.length; i++) {
-        if (!keep[i]) { continue; }
-        var t = wrap.firstChild.getBoundingClientRect(), b = keep[i].getBoundingClientRect();
-        var hit = !(t.right < b.left || t.left > b.right || t.bottom < b.top || t.top > b.bottom);
-        if (hit) {
-          // Lift the pill until its bottom sits 8 px above the obstacle's top.
-          var now = parseFloat(wrap.style.paddingBottom) || 0;
-          wrap.style.paddingBottom = (now + (t.bottom - b.top) + 8) + "px";
-        }
+    function overlaps(a, b) {
+      if (!a || !b) { return false; }
+      var p = a.getBoundingClientRect(), q = b.getBoundingClientRect();
+      return !(p.right < q.left || p.left > q.right || p.bottom < q.top || p.top > q.bottom);
+    }
+
+    // Where the pill goes (topic 10). Its edge spot comes from the direction of the
+    // destination. If that spot lands on the text box, the pill joins the corner
+    // stack above the box instead; if it lands on the map credit (tile licence:
+    // must stay readable), it gets bottom padding, and failing that the stack.
+    // Placing again (fonts arrive, the host resizes) starts from scratch.
+    function placePill(map) {
+      var old = document.getElementById("otm-pill-wrap"), oldTag = document.getElementById("otm-pill");
+      if (old) { old.parentNode.removeChild(old); }
+      if (oldTag) { oldTag.parentNode.removeChild(oldTag); }
+      if (!GEO.dest || !TOWARD || destVisible(map)) { return; }
+      var wrap = pointerEl(sectorOnScreen(map, GEO.pos, GEO.dest), TOWARD);
+      document.getElementById(el).appendChild(wrap);
+      var tag = wrap.firstChild, box = document.getElementById("otm-box");
+      var credit = document.querySelector("#" + el + " .map__attribution, #" + el + " .maplibregl-ctrl-attrib");
+      if (!overlaps(tag, box) && overlaps(tag, credit)) { wrap.classList.add("pb--6"); }
+      if (overlaps(tag, box) || overlaps(tag, credit)) {
+        wrap.parentNode.removeChild(wrap);
+        var corner = document.getElementById("otm-corner");
+        corner.insertBefore(tag, corner.firstChild);
       }
     }
-    // The box only has its final height once the fonts are in, so check again
-    // then (the first render measured it early and left a few px of overlap).
-    function clearLater(wrap) {
-      clearOfBox(wrap);
-      if (document.fonts && document.fonts.ready) {
-        document.fonts.ready.then(function () { clearOfBox(wrap); });
-      }
-      setTimeout(function () { clearOfBox(wrap); }, 500);
+
+    // The destination counts as visible when its ring is on the map and not
+    // under the text box; only then is the pill left out.
+    function destVisible(map) {
+      var box = document.getElementById("otm-box").getBoundingClientRect();
+      var node = document.getElementById(el), frame = node.getBoundingClientRect();
+      // map.project gives layout pixels, the rects are on-screen pixels; a host
+      // that scales the screen (transform) makes them differ.
+      var k = node.offsetWidth ? frame.width / node.offsetWidth : 1;
+      var q = map.project(GEO.dest), x = frame.left + q.x * k, y = frame.top + q.y * k;
+      // A margin for the ring itself: a ring touching the box or the frame edge
+      // is not readable (seen: TRMNL X, Morocco's ring on the box's top edge).
+      var m = mpx(16) * k;
+      var onMap = x >= frame.left + m && x <= frame.right - m && y >= frame.top + m && y <= frame.bottom - m;
+      var underBox = x >= box.left - m && x <= box.right + m && y >= box.top - m && y <= box.bottom + m;
+      return onMap && !underBox;
     }
+
 
     var watchRan = false, anyMarks = false;
 
@@ -177,7 +196,6 @@
       // No preset drops the main roads; the owner has asked TRMNL for one.
       var map = new maplibregl.Map(TRMNLMaps.options({ el: el, preset: "outline", center: GEO.pos, zoom: ZOOM }));
       window.__otmMap = map;
-      var ink = inkFor(), paper = "#fff";
       var drewLayers = false, drewMarks = false;
 
       // Lines and dots through the framework (TRMNLMaps.route/dot), not our own
@@ -204,15 +222,19 @@
         drewMarks = true;
         anyMarks = true;
         var waiting = document.getElementById("otm-map-waiting");
-        if (waiting) { waiting.style.display = "none"; }
+        if (waiting) { waiting.classList.add("hidden"); }
 
         // The pill stands in for a destination the frame cannot show; one on
         // screen has its ring, and a pill there would cover it (seen on a device).
-        if (GEO.dest && TOWARD && !onScreen(map, GEO.dest)) {
-          var tag = pointerEl(sectorOnScreen(map, GEO.pos, GEO.dest), TOWARD, ink, paper);
-          document.getElementById(el).appendChild(tag);
-          clearLater(tag);
+        // Placed now, and again once the fonts have set the box's final size. A
+        // rebuilt map (the host changed size or orientation: TRMNLMaps.watch)
+        // places it afresh, so a pill from the old layout never survives (seen:
+        // TRMNL X portrait showing a pill for a destination on screen).
+        placePill(map);
+        if (document.fonts && document.fonts.ready) {
+          document.fonts.ready.then(function () { placePill(map); });
         }
+        setTimeout(function () { placePill(map); }, 500);
       }
 
       function drawAll() { drawLayers(); drawMarks(); }

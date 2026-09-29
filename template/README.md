@@ -19,4 +19,6 @@ Not confirmed on a device yet (R25).
 ## Checks
 
     npm i
-    node render-check.mjs [outdir]   # 16 cases in Chromium against TRMNL's framework, MapLibre and live tiles
+    node render-check.mjs [outdir]   # 22 cases in Chromium against TRMNL's framework, MapLibre and live tiles
+
+Options (environment): `OTM_SCREENS="screen--og;screen--og screen--portrait;screen--v2;screen--v2 screen--portrait"` runs every case on each screen (the TRMNL X is `screen--v2`); `OTM_SWITCH="screen--v2 screen--portrait"` changes the screen's classes after the first draw, as a host resize or rotation does; `OTM_ONLY`, `OTM_DAY`, `OTM_LANG`, `OTM_PHOTO=0`, `OTM_DEBUG=1`. A case fails if the pill shows while the destination ring is visible, or is missing while it is not.
