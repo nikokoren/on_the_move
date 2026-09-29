@@ -5,7 +5,7 @@
 //     node worker/check.mjs
 import fs from "fs";
 import { buildFull, factIndex } from "./src/view.js";
-import { speciesParam } from "./src/params.js";
+import { speciesParam, speciesList, photoParam } from "./src/params.js";
 
 const data = JSON.parse(fs.readFileSync(new URL("./data/featured.json", import.meta.url)));
 const LIMIT = 5120;
@@ -85,12 +85,33 @@ console.log(`fact rotation: ${rotTurns} turns, ${rotFails} failures; ${facts.siz
 // Every species option in template/settings.yml reaches its own species, not
 // the "all" fallback (seen 2026-09-29: "Loggerhead" showed the white stork).
 const yml = fs.readFileSync(new URL("../template/settings.yml", import.meta.url), "utf8");
-const labels = yml.split("keyname: language")[0].split("options:")[1].split("\n")
+const labels = yml.split("keyname: follow")[1].split("options:")[1].split("\n- keyname")[0].split("\n")
   .filter((l) => l.trim().startsWith("- ")).map((l) => l.trim().slice(2));
 const unmapped = labels.filter((l) => l !== "All of them in turn" && speciesParam(l, data.species) === "all");
 const mapped = new Set(labels.map((l) => speciesParam(l, data.species)).filter((x) => x !== "all"));
 if (unmapped.length || mapped.size !== data.species.length) fails++;
-console.log(`settings: ${labels.length - 1} species options, ${mapped.size} of ${data.species.length} species reachable, unmapped: ${JSON.stringify(unmapped)}`);
+console.log(`settings: ${labels.length} species options, ${mapped.size} of ${data.species.length} species reachable, unmapped: ${JSON.stringify(unmapped)}`);
+// Multi select (owner, 2026-09-29): every format TRMNL might send parses to the
+// same taxa, and a chosen set rotates through exactly its own species.
+const two = ["Ciconia ciconia", "Caretta caretta"];
+const forms = ["white_stork,loggerhead_turtle", "white_stork loggerhead_turtle", '["White Stork","Loggerhead Turtle"]',
+  "White Stork,Loggerhead Turtle", "loggerhead_turtle,white_stork,white_stork", ["white_stork", "loggerhead_turtle"]];
+const parseBad = forms.filter((f) => JSON.stringify(speciesList(f, data.species)) !== JSON.stringify(two));
+const emptyBad = ["", "all_of_them_in_turn", null, "nonsense"].filter((f) => speciesList(f, data.species).length !== 0);
+const photoBad = [["true", true], ["false", false], ["", true], [null, true]].filter(([v, want]) => photoParam(v) !== want);
+const seen = {}; let setRuns = 0, outside = 0, noPhoto = 0;
+for (let k = 0; k < 96 * 7; k++) {
+  const v = buildFull(data, { species: two, lang: "en", now: new Date(Date.UTC(2026, 8, 29) + k * 900000), photoBase: "https://x/photo/" });
+  setRuns++;
+  const taxon = data.species.find((sp) => (sp.names.en === v.species))?.taxon;
+  if (!two.includes(taxon)) outside++;
+  seen[taxon] = (seen[taxon] || 0) + 1;
+  if (!/^https:\/\/x\/photo\/[a-z_]+\.jpg$/.test(v.photo || "")) noPhoto++;
+}
+const off = buildFull(data, { species: two, lang: "en", now: new Date(), photoBase: null });
+if (parseBad.length || emptyBad.length || photoBad.length || outside || noPhoto || Object.keys(seen).length !== 2 || off.photo !== "") fails++;
+console.log(`multi select: ${forms.length} formats, ${parseBad.length} misparsed; ${emptyBad.length} bad "all" cases; photo flag ${photoBad.length} wrong; ` +
+  `${setRuns} slots over a week for {stork, loggerhead}: ${JSON.stringify(seen)}, ${outside} outside the set, ${noPhoto} without photo URL, photo off -> "${off.photo}"`);
 console.log(`runs ${runs}, failures ${fails}, empty ${empty}, largest payload ${maxBytes} bytes, kinds ${JSON.stringify(kinds)}`);
 for (const [k, v] of Object.entries(bySpecies)) console.log(`  ${k.padEnd(28)} ok ${v.ok}  staying ${v.staying}  travelling ${v.travelling}`);
 problems.forEach((p) => console.log("  FAIL " + p));

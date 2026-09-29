@@ -260,41 +260,39 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0) {
   };
 }
 
-// species: a taxon from the featured list, or "all" to cycle through them.
-export function buildFull(data, { species = "all", lang = "en", now = new Date(), utcOffset = 0 }) {
+// species: "all", one taxon, or a list of taxa (the multi select; an empty list
+// means all). With more than one, they take turns, one per refresh slot.
+// photoBase: where the species photos are served ("https://.../photo/"), or
+// null when the viewer turned the photo off.
+export function buildFull(data, { species = "all", lang = "en", now = new Date(), utcOffset = 0, photoBase = null }) {
   const t = STRINGS[lang] || STRINGS.en;
   lang = STRINGS[lang] ? lang : "en";
   const local = new Date(now.getTime() + utcOffset * 1000);
   const localDoy = doyOf(local);
   const slot = Math.floor(now.getTime() / 1000 / CYCLE_SECONDS);
 
-  const list = data.species;
-  let order;
-  if (species === "all") {
-    // Slot plus day: 96 slots a day is a multiple of 12, so a device refreshing at
-    // the same time every day would otherwise see the same species forever.
-    const start = (slot + Math.floor(now.getTime() / 86400000)) % list.length;
-    order = list.map((_, i) => list[(start + i) % list.length]);
-  } else {
-    order = list.filter((s) => s.taxon === species);
-    if (!order.length) order = list;
-  }
+  const wanted = species === "all" ? [] : [].concat(species);
+  let pool = data.species.filter((s) => wanted.includes(s.taxon));
+  if (!pool.length) pool = data.species;
+  // Slot plus day: 96 slots a day is a multiple of many pool sizes, so a device
+  // refreshing at the same time every day would otherwise see the same species forever.
+  const start = (slot + Math.floor(now.getTime() / 86400000)) % pool.length;
+  const order = pool.map((_, i) => pool[(start + i) % pool.length]);
   // The fact turns once per visit: every slot when following one species, once
-  // per round of all species in "all" mode (each species is shown once a round).
-  const turn = species === "all" ? Math.floor(slot / list.length) : slot;
-  // Star first, then its backups; in "all" mode, then the next species.
+  // per round when several take turns (each is shown once a round).
+  const turn = Math.floor(slot / pool.length);
+  const done = (sp, v) => ({ ...v, photo: photoBase ? photoBase + sp.taxon.toLowerCase().replace(/ /g, "_") + ".jpg" : "" });
+  // Star first, then its backups; then the next species in the pool.
   for (const sp of order) {
     for (const a of sp.animals) {
       const v = animalView(data, sp, a, t, lang, now, localDoy, turn);
-      if (v) return v;
+      if (v) return done(sp, v);
     }
-    if (species !== "all") break;
   }
   // Nobody has today: the star's last known position before the gap.
   for (const sp of order) {
     const v = animalView(data, sp, sp.animals[0], t, lang, now, localDoy, turn, LOOK_BACK_DAYS);
-    if (v) return v;
-    if (species !== "all") break;
+    if (v) return done(sp, v);
   }
   return { state: "empty", species: order[0] ? order[0].names[lang] : "", status: t.noData };
 }

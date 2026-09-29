@@ -31,7 +31,11 @@
 
     <div id="otm-toward" hidden>{{ toward | escape }}</div>
 
-    <div id="otm-box" class="absolute bottom--2 left--2 z--3 p--2 w--max-[62cqw] lg:w--max-[55cqw] bg--canvas outline outline--strong">
+    <div id="otm-box" class="absolute bottom--2 left--2 z--3 p--2 {% if photo != blank %}w--max-[72cqw] lg:w--max-[64cqw]{% else %}w--max-[62cqw] lg:w--max-[55cqw]{% endif %} bg--canvas outline outline--strong">
+      {% comment %} The species photo on the left (owner, 2026-09-29), when the
+         setting is on; the Worker sends photo empty when it is off. {% endcomment %}
+      <div class="flex flex--row flex--left flex--top gap">
+      {% if photo != blank %}<img class="image image--cover w--28 h--28 no-shrink" src="{{ photo }}" alt="">{% endif %}
       {% comment %} One line per span, stacked: inside .content the spans ran
          on as one paragraph (seen in the first render). {% endcomment %}
       <div class="flex flex--col flex--left gap--xsmall text--left">
@@ -40,6 +44,7 @@
         <span class="label label--small">{{ status }}</span>
         <span class="description">{{ fact }}</span>
         <span class="label label--small label--gray">{{ credit }}</span>
+      </div>
       </div>
     </div>
   </div>

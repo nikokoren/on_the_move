@@ -114,9 +114,9 @@ The owner's screenshot shows the white stork Kiki in German, with TRMNL's "Refre
 
 4. **Destination arrow (edge callout):** when and why does it show up? What does it show? How is that different from the text box? Where should it sit?
 5. **Text box:** what does it show, and when does it change? (The owner said "bottom right"; the current build puts it bottom left, following Map of the Day.)
-6. **Image of the animal:** an optional picture of the species that users can switch on and off.
+6. ~~**Image of the animal:** an optional picture of the species that users can switch on and off.~~ Done 2026-09-29: owner's picks (`pipeline/species_images.json`), greyscale 240 px squares served by the Worker at `/photo/<taxon>.jpg`, shown 112 px on the left of the text box (`image image--cover w--28 h--28 no-shrink`); setting `show_photo`, default on. Credits in the About text and README (decision R8b). Not confirmed on a device.
 7. **Position marker:** replace the dot with a bird's-eye-view icon of the animal shown.
-8. **Species setting as a multi-select:** none selected cycles through all species; several selected cycles through only those; one selected shows only that one. (Today: a single select with "all of them in turn", `template/settings.yml`.)
+8. ~~**Species setting as a multi-select**~~ Done 2026-09-29: `multiple: true`; none ticked = all in turn, several = those in turn, one = that one. The polling URL joins the ticks with `join: ","`; the Worker accepts commas, spaces or a JSON array, since TRMNL does not document the format (check with `npx wrangler tail` after the first real poll). Not confirmed on a device.
 9. **Framework-native layout and styling only, no "Extrawürstl" (owner, 2026-09-29).** All layout and styling through TRMNL Framework classes and components, no custom CSS or inline styles. Known deviation today: the edge callout in `template/full.liquid` is styled inline in the script (background, 2 px border, pill radius, system-ui font, font sizes, max width), carried over from Nearby Nextbike. The text box already uses framework classes only. The map lines are MapLibre layer paint, not page styling.
 
 ## Device feedback, round 1 (owner, 2026-09-29, photos of the deployed version)
