@@ -21,7 +21,7 @@
   </div>
   {% if rows %}
   <div class="hidden lg:flex flex--col gap w--full h--full" data-otm-scope>
-    <div class="map h--[38cqh] w--full no-shrink" data-otm-map data-geo="{{ geo | escape }}">
+    <div class="map h--[38cqh] portrait:h--[50cqh] w--full no-shrink" data-otm-map data-geo="{{ geo | escape }}">
       <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
         <span class="label">{{ where }}</span>
       </div>

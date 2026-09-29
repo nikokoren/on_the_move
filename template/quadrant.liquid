@@ -32,7 +32,7 @@
           <span class="label">{{ r.place }}</span>
         </div>
       </div>
-      <div class="flex flex--col flex--left px--2 py--1 {% if i == current %}bg--black text--white{% endif %}">
+      <div class="flex flex--col flex--left w--full text--left px--2 py--1 {% if i == current %}bg--black text--white{% endif %}">
         <span class="label font--bold {% if i == current %}text--white{% endif %}">{{ r.species }}{% if r.name != "" %} · {{ r.name }}{% endif %}</span>
         <span class="label label--small {% if i == current %}text--white{% endif %}">{{ r.place }} · {{ r.when }}</span>
       </div>
