@@ -13,6 +13,8 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
   - Paging (owner: "page through everyone"): the list shows one page (full 7, halves 4, quadrant 2); each refresh expands the next animal; after the page's last, the next page. Stable order (the settings order), so animals do not jump between pages; no page indicator.
 - Built: `template/shared.liquid` (components and the map script for any number of maps), `full.liquid`, `half_horizontal.liquid`, `half_vertical.liquid`, `quadrant.liquid`; `layout` parameter and `rows`/`current` in the payload (`worker/src/view.js`). X only through the framework's `lg:` classes, which the renderer sets by device model (`docs/SOURCES.md`).
 - Changes brief section 8 (Half Horizontal and Quadrant have a map on every device, not X only).
+- Checked 2026-09-29 (`template/render-check.mjs`, real data, 29 Sep, de): single layout 352/352 (4 views × OG, OG portrait, X, X portrait × 22 cases; full view: 44 cases need the pill and show it); multi layout 96/96 (4 views × 4 screens × 6 refresh slots; OG falls back to single), and 24/24 again after the last two tweaks. No text clipped, no list overflow, every page holds the shown animal. Not confirmed on a device.
+- Correction: the render check never set TRMNL's breakpoint classes before, so the full view's `lg:` box widths were never exercised on the X; now they are. The pill counts did not change: 44 (OG 17, OG portrait 10, X 10, X portrait 7), the same as the topic 10 sweep after its scale fix.
 
 ### C2 Data credit off the screen, into the About text (owner, 2026-09-29)
 
