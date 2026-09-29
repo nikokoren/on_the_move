@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T20:06Z",
+ "generated": "2026-09-29T09:03Z",
  "rules": {
   "liveDays": 14,
   "minDoyCover": 240,
@@ -15056,11 +15056,8 @@
    ],
    "doyCovered": 366,
    "lastFix": "2026-09-14",
-   "live": true,
-   "lastPosition": [
-    48.65,
-    9.86
-   ],
+   "live": false,
+   "lastPosition": null,
    "coarsenDegrees": 0.01
   },
   {
@@ -35206,7 +35203,7 @@
     2017,
     2018
    ],
-   "doyCovered": 360,
+   "doyCovered": 310,
    "lastFix": "2018-06-17",
    "live": false,
    "lastPosition": null,
@@ -35222,7 +35219,7 @@
     2017,
     2018
    ],
-   "doyCovered": 339,
+   "doyCovered": 312,
    "lastFix": "2018-05-30",
    "live": false,
    "lastPosition": null,
@@ -35238,7 +35235,7 @@
     2017,
     2018
    ],
-   "doyCovered": 362,
+   "doyCovered": 335,
    "lastFix": "2018-06-09",
    "live": false,
    "lastPosition": null,
@@ -35254,7 +35251,7 @@
     2017,
     2018
    ],
-   "doyCovered": 366,
+   "doyCovered": 340,
    "lastFix": "2018-06-10",
    "live": false,
    "lastPosition": null,
@@ -35270,7 +35267,7 @@
     2017,
     2018
    ],
-   "doyCovered": 366,
+   "doyCovered": 341,
    "lastFix": "2018-05-29",
    "live": false,
    "lastPosition": null,
@@ -35286,7 +35283,7 @@
     2017,
     2018
    ],
-   "doyCovered": 366,
+   "doyCovered": 341,
    "lastFix": "2018-05-29",
    "live": false,
    "lastPosition": null,
@@ -35302,7 +35299,7 @@
     2016,
     2017
    ],
-   "doyCovered": 336,
+   "doyCovered": 285,
    "lastFix": "2017-05-20",
    "live": false,
    "lastPosition": null,
@@ -35318,7 +35315,7 @@
     2016,
     2017
    ],
-   "doyCovered": 344,
+   "doyCovered": 315,
    "lastFix": "2017-05-29",
    "live": false,
    "lastPosition": null,
@@ -35334,7 +35331,7 @@
     2017,
     2018
    ],
-   "doyCovered": 366,
+   "doyCovered": 336,
    "lastFix": "2018-06-16",
    "live": false,
    "lastPosition": null,
@@ -35350,7 +35347,7 @@
     2016,
     2017
    ],
-   "doyCovered": 343,
+   "doyCovered": 318,
    "lastFix": "2017-05-27",
    "live": false,
    "lastPosition": null,
@@ -35366,7 +35363,7 @@
     2016,
     2017
    ],
-   "doyCovered": 350,
+   "doyCovered": 326,
    "lastFix": "2017-06-03",
    "live": false,
    "lastPosition": null,
@@ -35382,7 +35379,7 @@
     2016,
     2017
    ],
-   "doyCovered": 365,
+   "doyCovered": 335,
    "lastFix": "2017-05-27",
    "live": false,
    "lastPosition": null,
@@ -36475,7 +36472,7 @@
     2010,
     2011
    ],
-   "doyCovered": 337,
+   "doyCovered": 254,
    "lastFix": "2011-05-25",
    "live": false,
    "lastPosition": null,
@@ -36491,7 +36488,7 @@
     2011,
     2012
    ],
-   "doyCovered": 366,
+   "doyCovered": 301,
    "lastFix": "2012-07-16",
    "live": false,
    "lastPosition": null,
@@ -36507,7 +36504,7 @@
     2011,
     2012
    ],
-   "doyCovered": 348,
+   "doyCovered": 270,
    "lastFix": "2012-06-10",
    "live": false,
    "lastPosition": null,
@@ -36523,7 +36520,7 @@
     2010,
     2011
    ],
-   "doyCovered": 366,
+   "doyCovered": 301,
    "lastFix": "2011-07-02",
    "live": false,
    "lastPosition": null,
@@ -36539,7 +36536,7 @@
     2009,
     2010
    ],
-   "doyCovered": 333,
+   "doyCovered": 256,
    "lastFix": "2010-05-25",
    "live": false,
    "lastPosition": null,
@@ -36555,7 +36552,7 @@
     2012,
     2013
    ],
-   "doyCovered": 366,
+   "doyCovered": 289,
    "lastFix": "2013-07-26",
    "live": false,
    "lastPosition": null,
@@ -36571,7 +36568,7 @@
     2012,
     2013
    ],
-   "doyCovered": 366,
+   "doyCovered": 279,
    "lastFix": "2013-07-07",
    "live": false,
    "lastPosition": null,
@@ -36587,24 +36584,8 @@
     2012,
     2013
    ],
-   "doyCovered": 366,
+   "doyCovered": 291,
    "lastFix": "2013-08-19",
-   "live": false,
-   "lastPosition": null,
-   "coarsenDegrees": 0.01
-  },
-  {
-   "id": "mb-533427629-533431823",
-   "taxon": "Lanius collurio",
-   "studyId": "533427629",
-   "individualId": "533431823",
-   "label": "504",
-   "years": [
-    2012,
-    2013
-   ],
-   "doyCovered": 335,
-   "lastFix": "2013-06-21",
    "live": false,
    "lastPosition": null,
    "coarsenDegrees": 0.01
@@ -36619,7 +36600,7 @@
     2013,
     2014
    ],
-   "doyCovered": 350,
+   "doyCovered": 274,
    "lastFix": "2014-06-24",
    "live": false,
    "lastPosition": null,
@@ -36635,7 +36616,7 @@
     2014,
     2015
    ],
-   "doyCovered": 366,
+   "doyCovered": 332,
    "lastFix": "2015-06-21",
    "live": false,
    "lastPosition": null,
@@ -36652,7 +36633,7 @@
     2015,
     2016
    ],
-   "doyCovered": 366,
+   "doyCovered": 290,
    "lastFix": "2016-02-29",
    "live": false,
    "lastPosition": null,
@@ -36668,7 +36649,7 @@
     2014,
     2015
    ],
-   "doyCovered": 366,
+   "doyCovered": 278,
    "lastFix": "2015-06-04",
    "live": false,
    "lastPosition": null,
@@ -47971,7 +47952,7 @@
     2009,
     2010
    ],
-   "doyCovered": 366,
+   "doyCovered": 307,
    "lastFix": "2010-06-25",
    "live": false,
    "lastPosition": null,
@@ -47987,7 +47968,7 @@
     2009,
     2010
    ],
-   "doyCovered": 366,
+   "doyCovered": 286,
    "lastFix": "2010-07-03",
    "live": false,
    "lastPosition": null,
@@ -48003,7 +47984,7 @@
     2010,
     2011
    ],
-   "doyCovered": 335,
+   "doyCovered": 258,
    "lastFix": "2011-06-01",
    "live": false,
    "lastPosition": null,
@@ -48019,7 +48000,7 @@
     2011,
     2012
    ],
-   "doyCovered": 366,
+   "doyCovered": 306,
    "lastFix": "2012-06-05",
    "live": false,
    "lastPosition": null,
@@ -48035,7 +48016,7 @@
     2013,
     2014
    ],
-   "doyCovered": 366,
+   "doyCovered": 290,
    "lastFix": "2014-07-06",
    "live": false,
    "lastPosition": null,
@@ -48051,7 +48032,7 @@
     2014,
     2015
    ],
-   "doyCovered": 366,
+   "doyCovered": 307,
    "lastFix": "2015-06-15",
    "live": false,
    "lastPosition": null,
@@ -51015,7 +50996,7 @@
     2023,
     2024
    ],
-   "doyCovered": 274,
+   "doyCovered": 343,
    "lastFix": "2024-03-22",
    "live": false,
    "lastPosition": null,
@@ -51301,7 +51282,7 @@
     2021,
     2022
    ],
-   "doyCovered": 253,
+   "doyCovered": 366,
    "lastFix": "2022-10-02",
    "live": false,
    "lastPosition": null,
@@ -65545,15 +65526,15 @@
  "stats": {
   "study_no_migratory_taxon": 300,
   "study_no_full_cycle_animal": 160,
-  "animal_usual": 2938,
-  "animal_cover_too_low": 1477,
-  "animal_live": 76,
+  "animal_usual": 2937,
+  "animal_cover_too_low": 1479,
+  "animal_live": 75,
   "dr_pkg_covered_by_api": 242,
   "dr_animal_usual": 670,
   "dr_animal_cover_too_low": 3080,
   "dr_pkg_no_migratory_taxon": 69,
   "dr_pkg_not_cc0_ccby": 46,
   "dr_file_too_large": 6,
-  "animal_duplicate_dropped": 67
+  "animal_duplicate_dropped": 66
  }
 }

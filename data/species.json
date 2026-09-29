@@ -1,6 +1,6 @@
 {
  "about": "Species table (R8) for the 12 featured species (F1). Names and facts: pipeline/species_curated.json, sources verified by pipeline/verify_sources.py. Windows and regions: computed by pipeline/build_species.py from the tracked animals listed under 'tracked' (citations in data/catalog.json). Dates are MM-DD; 'from'/'to' span the middle half of the animals. Re-run before relying on the numbers.",
- "built": "2026-09-28",
+ "built": "2026-09-29",
  "centralEuropeBox": [
   45,
   56,
@@ -1097,9 +1097,9 @@
     "centralEurope": {
      "autumnDeparture": {
       "median": "07-11",
-      "from": "07-03",
-      "to": "07-26",
-      "n": 9
+      "from": "07-02",
+      "to": "07-25",
+      "n": 8
      },
      "autumnArrival": {
       "median": "12-14",
@@ -1108,16 +1108,16 @@
       "n": 8
      },
      "springDeparture": {
-      "median": "01-29",
-      "from": "01-21",
-      "to": "02-24",
-      "n": 9
+      "median": "02-07",
+      "from": "01-22",
+      "to": "03-26",
+      "n": 8
      },
      "springArrival": {
-      "median": "05-23",
+      "median": "05-22",
       "from": "05-13",
-      "to": "06-10",
-      "n": 6
+      "to": "06-12",
+      "n": 5
      }
     },
     "allTracked": {
@@ -1125,7 +1125,7 @@
       "median": "07-28",
       "from": "07-11",
       "to": "08-07",
-      "n": 21
+      "n": 20
      },
      "autumnArrival": {
       "median": "12-07",
@@ -1137,13 +1137,13 @@
       "median": "01-26",
       "from": "01-20",
       "to": "02-18",
-      "n": 21
+      "n": 20
      },
      "springArrival": {
-      "median": "05-30",
-      "from": "05-20",
+      "median": "05-31",
+      "from": "05-19",
       "to": "06-06",
-      "n": 17
+      "n": 16
      }
     },
     "note": null
@@ -1155,21 +1155,21 @@
      "animals": 5
     },
     {
-     "en": "Germany",
-     "de": "Deutschland",
-     "animals": 4
-    },
-    {
      "en": "Spain",
      "de": "Spanien",
      "animals": 4
+    },
+    {
+     "en": "Germany",
+     "de": "Deutschland",
+     "animals": 3
     }
    ],
    "winterRegion": [
     {
      "en": "Namibia",
      "de": "Namibia",
-     "animals": 8
+     "animals": 7
     },
     {
      "en": "Mozambique",
@@ -1258,13 +1258,13 @@
     }
    ],
    "tracked": {
-    "animals": 25,
-    "migrated": 21,
-    "centralEuropeSummer": 9,
+    "animals": 24,
+    "migrated": 20,
+    "centralEuropeSummer": 8,
     "studies": [
      {
       "id": "533427629",
-      "animals": 13,
+      "animals": 12,
       "name": "Migration of red-backed shrikes from southern Scandinavia (data from Pedersen et al. 2018)"
      },
      {
@@ -1666,27 +1666,27 @@
     "allTracked": {
      "autumnDeparture": {
       "median": "09-12",
-      "from": "09-08",
+      "from": "09-07",
       "to": "09-17",
-      "n": 14
+      "n": 16
      },
      "autumnArrival": {
       "median": "11-05",
       "from": "10-14",
-      "to": "11-10",
-      "n": 14
+      "to": "11-12",
+      "n": 16
      },
      "springDeparture": {
-      "median": "03-12",
-      "from": "03-04",
-      "to": "03-23",
-      "n": 14
+      "median": "03-10",
+      "from": "03-05",
+      "to": "03-21",
+      "n": 16
      },
      "springArrival": {
       "median": "04-24",
-      "from": "04-17",
-      "to": "04-29",
-      "n": 14
+      "from": "04-18",
+      "to": "04-30",
+      "n": 16
      }
     },
     "note": null
@@ -1695,7 +1695,7 @@
     {
      "en": "United States of America",
      "de": "Vereinigte Staaten",
-     "animals": 11
+     "animals": 13
     },
     {
      "en": "Canada",
@@ -1705,19 +1705,19 @@
    ],
    "winterRegion": [
     {
+     "en": "Colombia",
+     "de": "Kolumbien",
+     "animals": 4
+    },
+    {
      "en": "Peru",
      "de": "Peru",
      "animals": 4
     },
     {
-     "en": "Colombia",
-     "de": "Kolumbien",
+     "en": "Brazil",
+     "de": "Brasilien",
      "animals": 3
-    },
-    {
-     "en": "Costa Rica",
-     "de": "Costa Rica",
-     "animals": 2
     }
    ],
    "facts": [
@@ -1796,7 +1796,7 @@
    ],
    "tracked": {
     "animals": 20,
-    "migrated": 14,
+    "migrated": 16,
     "centralEuropeSummer": 0,
     "studies": [
      {
