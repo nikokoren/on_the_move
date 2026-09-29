@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T09:03Z",
+ "generated": "2026-09-29T12:27Z",
  "rules": {
   "liveDays": 14,
   "minDoyCover": 240,
@@ -14664,7 +14664,7 @@
     2014,
     2015
    ],
-   "doyCovered": 341,
+   "doyCovered": 316,
    "lastFix": "2015-06-23",
    "live": false,
    "lastPosition": null,
@@ -14729,7 +14729,7 @@
     2015,
     2016
    ],
-   "doyCovered": 299,
+   "doyCovered": 272,
    "lastFix": "2016-07-10",
    "live": false,
    "lastPosition": null,
@@ -14745,7 +14745,7 @@
     2015,
     2016
    ],
-   "doyCovered": 262,
+   "doyCovered": 289,
    "lastFix": "2016-06-26",
    "live": false,
    "lastPosition": null,
@@ -14825,7 +14825,7 @@
     2015,
     2016
    ],
-   "doyCovered": 292,
+   "doyCovered": 262,
    "lastFix": "2016-06-28",
    "live": false,
    "lastPosition": null,
@@ -14841,7 +14841,7 @@
     2016,
     2017
    ],
-   "doyCovered": 286,
+   "doyCovered": 311,
    "lastFix": "2017-07-02",
    "live": false,
    "lastPosition": null,
@@ -14873,7 +14873,7 @@
     2016,
     2017
    ],
-   "doyCovered": 293,
+   "doyCovered": 267,
    "lastFix": "2017-07-08",
    "live": false,
    "lastPosition": null,
@@ -14889,7 +14889,7 @@
     2016,
     2017
    ],
-   "doyCovered": 268,
+   "doyCovered": 320,
    "lastFix": "2017-07-09",
    "live": false,
    "lastPosition": null,
@@ -14905,7 +14905,7 @@
     2016,
     2017
    ],
-   "doyCovered": 260,
+   "doyCovered": 292,
    "lastFix": "2017-07-09",
    "live": false,
    "lastPosition": null,
@@ -14921,7 +14921,7 @@
     2016,
     2017
    ],
-   "doyCovered": 300,
+   "doyCovered": 275,
    "lastFix": "2017-07-08",
    "live": false,
    "lastPosition": null,
@@ -16175,7 +16175,7 @@
     2021,
     2022
    ],
-   "doyCovered": 356,
+   "doyCovered": 334,
    "lastFix": "2022-03-27",
    "live": false,
    "lastPosition": null,
@@ -16191,7 +16191,7 @@
     2022,
     2023
    ],
-   "doyCovered": 358,
+   "doyCovered": 338,
    "lastFix": "2023-03-22",
    "live": false,
    "lastPosition": null,
@@ -16207,7 +16207,7 @@
     2021,
     2022
    ],
-   "doyCovered": 366,
+   "doyCovered": 339,
    "lastFix": "2022-03-26",
    "live": false,
    "lastPosition": null,
@@ -16223,7 +16223,7 @@
     2022,
     2023
    ],
-   "doyCovered": 358,
+   "doyCovered": 338,
    "lastFix": "2023-03-22",
    "live": false,
    "lastPosition": null,
@@ -16239,7 +16239,7 @@
     2022,
     2023
    ],
-   "doyCovered": 357,
+   "doyCovered": 338,
    "lastFix": "2023-03-21",
    "live": false,
    "lastPosition": null,
@@ -16255,7 +16255,7 @@
     2022,
     2023
    ],
-   "doyCovered": 358,
+   "doyCovered": 338,
    "lastFix": "2023-03-22",
    "live": false,
    "lastPosition": null,
@@ -16273,7 +16273,7 @@
     2020,
     2021
    ],
-   "doyCovered": 361,
+   "doyCovered": 344,
    "lastFix": "2021-03-22",
    "live": false,
    "lastPosition": null,
@@ -16289,7 +16289,7 @@
     2022,
     2023
    ],
-   "doyCovered": 366,
+   "doyCovered": 337,
    "lastFix": "2023-04-02",
    "live": false,
    "lastPosition": null,
@@ -36784,7 +36784,7 @@
     2009,
     2010
    ],
-   "doyCovered": 339,
+   "doyCovered": 314,
    "lastFix": "2010-11-15",
    "live": false,
    "lastPosition": null,
@@ -36851,7 +36851,7 @@
     2008,
     2009
    ],
-   "doyCovered": 343,
+   "doyCovered": 365,
    "lastFix": "2009-12-05",
    "live": false,
    "lastPosition": null,
@@ -36867,7 +36867,7 @@
     2009,
     2010
    ],
-   "doyCovered": 320,
+   "doyCovered": 342,
    "lastFix": "2010-12-05",
    "live": false,
    "lastPosition": null,
@@ -36901,7 +36901,7 @@
     2009,
     2010
    ],
-   "doyCovered": 348,
+   "doyCovered": 366,
    "lastFix": "2010-12-05",
    "live": false,
    "lastPosition": null,
@@ -36947,7 +36947,7 @@
    "years": [
     2008
    ],
-   "doyCovered": 279,
+   "doyCovered": 307,
    "lastFix": "2008-12-08",
    "live": false,
    "lastPosition": null,
@@ -37015,7 +37015,7 @@
     2008,
     2009
    ],
-   "doyCovered": 366,
+   "doyCovered": 342,
    "lastFix": "2009-02-01",
    "live": false,
    "lastPosition": null,
@@ -37089,7 +37089,7 @@
     2010,
     2011
    ],
-   "doyCovered": 301,
+   "doyCovered": 320,
    "lastFix": "2011-01-27",
    "live": false,
    "lastPosition": null,
@@ -37123,7 +37123,7 @@
     2009,
     2010
    ],
-   "doyCovered": 293,
+   "doyCovered": 290,
    "lastFix": "2010-12-05",
    "live": false,
    "lastPosition": null,
@@ -37207,7 +37207,7 @@
     2008,
     2009
    ],
-   "doyCovered": 257,
+   "doyCovered": 278,
    "lastFix": "2009-05-24",
    "live": false,
    "lastPosition": null,
@@ -37432,7 +37432,7 @@
     2010,
     2011
    ],
-   "doyCovered": 366,
+   "doyCovered": 342,
    "lastFix": "2011-06-03",
    "live": false,
    "lastPosition": null,
@@ -37482,7 +37482,7 @@
     2010,
     2011
    ],
-   "doyCovered": 344,
+   "doyCovered": 366,
    "lastFix": "2011-06-27",
    "live": false,
    "lastPosition": null,
@@ -37960,7 +37960,7 @@
     2021,
     2022
    ],
-   "doyCovered": 310,
+   "doyCovered": 288,
    "lastFix": "2022-01-02",
    "live": false,
    "lastPosition": null,
@@ -39174,7 +39174,7 @@
     2013,
     2014
    ],
-   "doyCovered": 334,
+   "doyCovered": 321,
    "lastFix": "2014-09-21",
    "live": false,
    "lastPosition": null,
@@ -65529,6 +65529,7 @@
   "animal_usual": 2937,
   "animal_cover_too_low": 1479,
   "animal_live": 75,
+  "study_geolocator_equinox_fixed": 22,
   "dr_pkg_covered_by_api": 242,
   "dr_animal_usual": 670,
   "dr_animal_cover_too_low": 3080,

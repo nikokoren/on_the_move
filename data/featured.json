@@ -1,5 +1,5 @@
 {
- "status": "DECIDED 2026-09-28 by the project owner (decision F1): these 12, in this order",
+ "status": "DECIDED 2026-09-28 by the project owner (decision F1): the first 12; 2026-09-29 the owner added osprey, snow goose, Canada goose, bald eagle, blackpoll warbler and peregrine falcon (decision F2)",
  "criteria": "live animals first; one species per kind of journey; recognisable to en/de users; backups only needed for live species. The other catalog species stay in the pool.",
  "species": [
   {
@@ -113,6 +113,61 @@
    "iucn": "LC"
   },
   {
+   "taxon": "Pandion haliaetus",
+   "group": "Americas",
+   "names": {
+    "en": "Osprey",
+    "de": "Fischadler"
+   },
+   "animals": 45,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Chen caerulescens",
+   "group": "Americas",
+   "names": {
+    "en": "Snow Goose",
+    "de": "Schneegans"
+   },
+   "animals": 45,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Branta canadensis",
+   "group": "Americas",
+   "names": {
+    "en": "Canada Goose",
+    "de": "Kanadagans"
+   },
+   "animals": 45,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Haliaeetus leucocephalus",
+   "group": "Americas",
+   "names": {
+    "en": "Bald Eagle",
+    "de": "Weißkopf-Seeadler"
+   },
+   "animals": 45,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Setophaga striata",
+   "group": "Americas",
+   "names": {
+    "en": "Blackpoll Warbler",
+    "de": "Streifenwaldsänger"
+   },
+   "animals": 14,
+   "live": 0,
+   "iucn": "NT"
+  },
+  {
    "taxon": "Balaenoptera musculus",
    "group": "Oceans & poles",
    "names": {
@@ -133,6 +188,17 @@
    "animals": 8,
    "live": 0,
    "iucn": "VU"
+  },
+  {
+   "taxon": "Falco peregrinus",
+   "group": "Europe & Asia",
+   "names": {
+    "en": "Peregrine Falcon",
+    "de": "Wanderfalke"
+   },
+   "animals": 34,
+   "live": 0,
+   "iucn": "LC"
   }
  ]
 }

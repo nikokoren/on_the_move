@@ -18,7 +18,7 @@ from PIL import Image, ImageOps
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SIZE = 240
 # Off-centre crops, where the centre square cut the animal (checked by eye 2026-09-29).
-CENTER = {"Caretta caretta": (0.68, 0.5)}
+CENTER = {"Caretta caretta": (0.68, 0.5), "Pandion haliaetus": (0.2, 0.5)}
 
 
 def slug(taxon):

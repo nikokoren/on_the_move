@@ -4,6 +4,15 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### F2 Six more species, for North American users (owner, 2026-09-29)
+
+- Decision: add osprey, snow goose, Canada goose, bald eagle, blackpoll warbler (from the North American shortlist in `docs/CATALOG.md`) and peregrine falcon. 18 featured species.
+- Built: names from the IOC list, 8 sourced facts each (144 in all, 144/144 quotes found on 36 pages); featured tracks, species table and whitelist (22 studies, all CC0/CC BY) rebuilt. Photos: picked by the owner the same day (all six CC BY 4.0); credits in the About text and README.
+- Found on the way and fixed for all species:
+  - stays split where the day table jumps between years (a Canada goose's Montreal stop and Delaware winter were one "stay in the USA"); 9 of 52 animals changed, and the crane's featured animal became a live one;
+  - animal names in capitals are codes, not names ("GSGO - EM");
+  - solar-geolocator latitudes within 14 days of the equinoxes are interpolated (a blackpoll "flew" from 44 to 70 N and back); applied to Movebank API studies only; the Data Repository stage (wheatear, curlew) is not yet corrected.
+
 ### R8b Species photos, credited in the About text (owner, 2026-09-29)
 
 - Decision: one photo per species on screen, left of the text box, switchable (`show_photo`, default on). Photos from iNaturalist research-grade observations, CC0 or CC BY 4.0 only (same rule as L1); picks in `pipeline/species_images.json`.

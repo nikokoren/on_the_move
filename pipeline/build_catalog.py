@@ -194,6 +194,40 @@ def lerp(a, b, f):
     return a[0] + f * (b[0] - a[0]), (lo_a + f * (lo_b - lo_a) + 180) % 360 - 180
 
 
+GEOLOCATOR_SENSORS = {"Solar Geolocator", "Solar Geolocator Raw", "Solar Geolocator Twilight"}
+EQUINOX_DAYS = 14  # each side of 20 March and 22 September
+
+
+def equinox_latitudes(fixes):
+    """Solar geolocators measure latitude from day length, which is the same
+    everywhere at the equinoxes; longitude stays good. Within EQUINOX_DAYS of
+    each equinox the latitude is replaced by a straight line in time between the
+    nearest fixes outside the window (seen 2026-09-29: a blackpoll warbler
+    "flying" from 44 to 70 N and back in two weeks of late September). Fixes in
+    a window with no good fix on one side are dropped."""
+    def near_equinox(t):
+        for m, d in ((3, 20), (9, 22)):
+            e = t.replace(month=m, day=d, hour=12, minute=0, second=0, microsecond=0)
+            if abs((t - e).total_seconds()) <= EQUINOX_DAYS * 86400:
+                return True
+        return False
+    fx = sorted(fixes)
+    good = [f for f in fx if not near_equinox(f[0])]
+    out = list(good)
+    j = 0
+    for f in fx:
+        if not near_equinox(f[0]):
+            continue
+        while j < len(good) and good[j][0] < f[0]:
+            j += 1
+        if j == 0 or j == len(good):
+            continue
+        a, b = good[j - 1], good[j]
+        w = (f[0] - a[0]).total_seconds() / max(1, (b[0] - a[0]).total_seconds())
+        out.append((f[0], a[1] + w * (b[1] - a[1]), f[2]))
+    return sorted(out)
+
+
 def doy_table(fixes):
     """fixes: (datetime, lat, lon). One position per calendar day (first fix),
     gaps filled on the real timeline, then mapped to day of year taking the
@@ -363,6 +397,10 @@ def main():
                       "attributes": "id,name,citation,license_type,is_test,suspend_license_terms,taxon_ids,timestamp_last_deployed_location,principal_investigator_name"},
                      "studies.csv")
     studies = [s for s in studies if s["license_type"] in ("CC_0", "CC_BY") and s["is_test"] != "true"]
+    # Sensor types per study, to treat geolocator latitudes (equinox_latitudes).
+    sensors = {r["id"]: set(x.strip() for x in (r.get("sensor_type_ids") or "").split(",") if x.strip())
+               for r in mb_csv({"entity_type": "study", "i_have_download_access": "true", "attributes": "id,sensor_type_ids"},
+                               "study_sensors.csv")}
     log("eligible studies", len(studies))
     catalog = {"generated": NOW.strftime("%Y-%m-%dT%H:%MZ"), "rules": {
         "liveDays": LIVE_DAYS, "minDoyCover": MIN_DOY_COVER, "maxGapDays": MAX_GAP, "holdDays": HOLD_DAYS, "holdKm": HOLD_KM, "routeDays": ROUTE_DAYS,
@@ -418,8 +456,11 @@ def main():
                 if t and t <= NOW and (iid not in died or t < died[iid]):
                     fixes[iid].append((t, *c))
         out = {}
+        geo_only = bool(sensors.get(sid)) and sensors[sid] <= GEOLOCATOR_SENSORS
+        if geo_only:
+            stats["study_geolocator_equinox_fixed"] += 1
         for iid, (i, taxon, (status, src)) in cand.items():
-            tab, cover = doy_table(fixes.get(iid, []))
+            tab, cover = doy_table(equinox_latitudes(fixes.get(iid, [])) if geo_only else fixes.get(iid, []))
             if cover < MIN_DOY_COVER:
                 stats["animal_cover_too_low"] += 1
                 continue

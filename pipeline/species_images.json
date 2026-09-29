@@ -1,5 +1,5 @@
 {
- "about": "Species pictures chosen by the owner on 2026-09-29 from iNaturalist research-grade observations (CC0 or CC BY 4.0 only; no ShareAlike, no NonCommercial). Each entry keeps the licensor's attribution string as supplied (CC BY 4.0, section 3(a)(1)(A)). Images are not in the repo yet.",
+ "about": "Species pictures chosen by the owner on 2026-09-29 (12) and 2026-09-29 (6 more, decision F2) from iNaturalist research-grade observations (CC0 or CC BY 4.0 only; no ShareAlike, no NonCommercial). Each entry keeps the licensor's attribution string as supplied (CC BY 4.0, section 3(a)(1)(A)). Images are not in the repo yet.",
  "species": {
   "Balaenoptera musculus": {
    "license": "CC0 1.0",
@@ -108,6 +108,60 @@
    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/130528188/large.jpeg",
    "width": 2048,
    "height": 1582
+  },
+  "Pandion haliaetus": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) Richard Stovall, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/180352700",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/314139177/large.jpg",
+   "width": 2048,
+   "height": 1365
+  },
+  "Chen caerulescens": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) Xochitl Zambrano, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/192870953",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/338683529/large.jpeg",
+   "width": 1599,
+   "height": 1066
+  },
+  "Branta canadensis": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) Tser, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/333826594",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/606089370/large.jpg",
+   "width": 2048,
+   "height": 2048
+  },
+  "Haliaeetus leucocephalus": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) Matt Felperin, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/193272057",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/339495354/large.jpg",
+   "width": 2048,
+   "height": 1366
+  },
+  "Setophaga striata": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) Syd Cannings, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/80966849",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/132748115/large.jpeg",
+   "width": 2048,
+   "height": 1366
+  },
+  "Falco peregrinus": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) Shirley Zundell, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/12075369",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/17316283/large.jpeg",
+   "width": 2048,
+   "height": 1832
   }
  }
 }
