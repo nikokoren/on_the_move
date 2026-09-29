@@ -107,6 +107,7 @@ The owner's screenshot shows the white stork Kiki in German, with TRMNL's "Refre
    - CC0 studies need no attribution at all.
    - The OpenStreetMap credit on the map is a separate matter (the tiles' licence) and stays.
    - Options: (a) keep a short credit on screen; (b) credit only in the plugin's About section and README, which changes R18 and needs a decision; (c) show the credit only for CC BY animals. Movebank's own citation guidelines are still to be read before deciding. Not legal advice.
+   - Basemap preset (owner, 2026-09-29): `outline` instead of `streets`. The roads distract, but no framework preset has water without main roads, and `style()` can only switch off labels and buildings. At zoom 3 to 6 the two presets look almost the same (`docs/previews/presets-2bit.png`). The owner is asking TRMNL for a road-free option; we do not hide their layers ourselves (topic 9, framework-native only). Re-check `plugins.js` MAP_PRESETS when they answer.
 3. Also visible in the screenshot: the edge callout runs under TRMNL's "Refreshed" badge (top right, probably only in the preview), and map labels in local script (طنجة for Tangier), which is already open item 2 above.
 
 ### More topics (owner, 2026-09-29; topics only, not yet discussed)

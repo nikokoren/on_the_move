@@ -183,7 +183,9 @@
     TRMNLMaps.watch(el, function () {
       watchRan = true;
       var zoom = zoomFor();
-      var map = new maplibregl.Map(TRMNLMaps.options({ el: el, preset: "streets", center: GEO.pos, zoom: zoom }));
+      // "outline" (owner, 2026-09-29): the leanest framework preset with water.
+      // No preset drops the main roads; the owner has asked TRMNL for one.
+      var map = new maplibregl.Map(TRMNLMaps.options({ el: el, preset: "outline", center: GEO.pos, zoom: zoom }));
       window.__otmMap = map;
       var ink = inkFor(), paper = "#fff";
       var drewLayers = false, drewMarks = false;
