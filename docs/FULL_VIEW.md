@@ -114,7 +114,30 @@ The owner's screenshot shows the white stork Kiki in German, with TRMNL's "Refre
 
 4. **Destination arrow (edge callout):** when and why does it show up? What does it show? How is that different from the text box? Where should it sit?
 5. **Text box:** what does it show, and when does it change? (The owner said "bottom right"; the current build puts it bottom left, following Map of the Day.)
-6. **Image of the animal:** an optional picture of the species that users can switch on and off.
+6. ~~**Image of the animal:** an optional picture of the species that users can switch on and off.~~ Done 2026-09-29: owner's picks (`pipeline/species_images.json`), greyscale 240 px squares served by the Worker at `/photo/<taxon>.jpg`, shown 112 px on the left of the text box (`image image--cover w--28 h--28 no-shrink`); setting `show_photo`, default on. Credits in the About text and README (decision R8b). Not confirmed on a device.
 7. **Position marker:** replace the dot with a bird's-eye-view icon of the animal shown.
-8. **Species setting as a multi-select:** none selected cycles through all species; several selected cycles through only those; one selected shows only that one. (Today: a single select with "all of them in turn", `template/settings.yml`.)
+8. ~~**Species setting as a multi-select**~~ Done 2026-09-29: `multiple: true`; none ticked = all in turn, several = those in turn, one = that one. The polling URL joins the ticks with `join: ","`; the Worker accepts commas, spaces or a JSON array, since TRMNL does not document the format (check with `npx wrangler tail` after the first real poll). Not confirmed on a device.
 9. **Framework-native layout and styling only, no "Extrawürstl" (owner, 2026-09-29).** All layout and styling through TRMNL Framework classes and components, no custom CSS or inline styles. Known deviation today: the edge callout in `template/full.liquid` is styled inline in the script (background, 2 px border, pill radius, system-ui font, font sizes, max width), carried over from Nearby Nextbike. The text box already uses framework classes only. The map lines are MapLibre layer paint, not page styling.
+
+## Device feedback, round 1 (owner, 2026-09-29, photos of the deployed version)
+
+Confirmed on the device: the sea dithers at the panel's bit depth (the 2-bit fix works). Fixed on the branch the same day, rendered 12/12 species for 29 Sep (`docs/previews/all-species-de-2026-09-29.png`). **Not yet confirmed on the device.**
+
+| Seen | Cause | Change |
+|---|---|---|
+| Roads distracting; the wheatear's zoom looked best | zoom 4 to 6 carries the framework's main roads | one zoom for every animal: 3 (the wheatear's); `GEO.r` and the V1 frame rule dropped |
+| Crane "Aufbruch" after weeks on the way south | every stay of 14+ days was treated as home | home ranges = the two longest stays; others are stopovers ("Rast") inside the leg |
+| Turkey vulture at its summer site trails its spring flight | the past line ran from the previous stay | at home the line starts where the stay began |
+| Onward line invisible on land | series step 2 of 2 is white at 1 bit | same ink as the past line, thinner |
+| Pill over the hawk's destination ring | pill shown whenever there was a destination | pill only when the destination is off screen |
+| Pill text | owner's wording | "Ziel: X · N km entfernt" / "Destination: X · N km away" |
+| German reads unnaturally | literal patterns | new en/de strings (`worker/src/strings.js`) |
+| Shrike's 90° bends | geolocator placeholders at the equinoxes: latitude 0 or 0.001 | `build_catalog.py` drops latitudes within 0.001 of the equator; catalog rebuilt from cache: 3,617 -> 3,616 animals, 2,257 placeholder entries removed |
+| Loggerhead in open water, staircase track | 1-degree rounding (R14) at zoom 5, near the date line | zoom 3; star choice avoids tracks near 180 degrees: the Yellow Sea animal now |
+| "Loggerhead" setting showed the stork | label "Loggerhead" matched no species, fell back to "all" | label "Loggerhead Turtle", old value still accepted, `check.mjs` checks every option |
+| Blue whale "stuck", no destination | its winter stay was not the next stay; same-name pill suppressed | with home ranges it now heads for the Gulf of California |
+
+Open from this round:
+- ~~The shrike has no position 5 Mar to 2 Apr~~ (all three tracks are blank at the spring equinox once the placeholders are dropped). Owner, 2026-09-29: show the last position instead. When no animal of the species has today, the star's last known day (up to 60 days back) is shown, labelled "No position for today; last known around 3 Mar". Empty payloads in the sweep: 116 -> 0.
+- Coastal whale positions still sit on the coastline after 1-degree rounding (at zoom 3 this reads as "off the coast").
+- Labels in local scripts; the pill's inline styling (topic 9).

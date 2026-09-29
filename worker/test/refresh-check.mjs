@@ -124,7 +124,7 @@ const env7 = { KV: kv(s1) };
 const res = await handle(new Request("https://x/full?species=broad_winged_hawk&lang=deutsch&utc_offset=7200"), env7, NOW);
 const body = await res.json();
 check("poll: 200 with a live payload", res.status === 200 && body.state === "ok" && body.kind === "live", `${body.kind}`);
-check("poll: German", /Letzte Position/.test(body.status), body.status);
+check("poll: German", /Zuletzt geortet/.test(body.status), body.status);
 check("poll: under 5 KB", JSON.stringify(body).length < 5120, `${JSON.stringify(body).length} bytes`);
 check("poll: no KV write on read", env7.KV.writes === 0);
 const res8 = await handle(new Request("https://x/full?species=broad_winged_hawk&lang=english"), { KV: kv({ animals: {}, refused: { "28691134": "test" } }) }, NOW);
@@ -132,6 +132,15 @@ check("poll: refused study never live", (await res8.json()).kind !== "live");
 check("settings: snake_case labels map", speciesParam("white_stork") === "Ciconia ciconia" && speciesParam("weissstorch") === "Ciconia ciconia"
   && speciesParam("all_of_them_in_turn") === "all" && speciesParam("european_turtle_dove") === "Streptopelia turtur"
   && speciesParam("nonsense") === "all" && langParam("deutsch") === "de" && langParam("english") === "en");
+// Species photos and the multi select through the handler (owner, 2026-09-29).
+const img = await handle(new Request("https://x/photo/ciconia_ciconia.jpg"), { KV: kv() }, NOW);
+const bytes = new Uint8Array(await img.arrayBuffer());
+check("photo: served as a JPEG", img.status === 200 && img.headers.get("content-type") === "image/jpeg" && bytes[0] === 0xff && bytes[1] === 0xd8, `${img.status} ${bytes.length} bytes`);
+check("photo: unknown name is 404", (await handle(new Request("https://x/photo/nothing.jpg"), { KV: kv() }, NOW)).status === 404);
+const two = await (await handle(new Request("https://x/full?species=" + encodeURIComponent("white_stork,loggerhead_turtle") + "&photo=true"), { KV: kv() }, NOW)).json();
+check("poll: two species, photo on", ["White Stork", "Loggerhead Turtle"].includes(two.species) && /^https:\/\/x\/photo\/(ciconia_ciconia|caretta_caretta)\.jpg$/.test(two.photo), `${two.species} ${two.photo}`);
+const noPhoto = await (await handle(new Request("https://x/full?species=white_stork&photo=false"), { KV: kv() }, NOW)).json();
+check("poll: photo off sends an empty photo", noPhoto.photo === "", JSON.stringify(noPhoto.photo));
 const err = await handle(new Request("https://x/full"), { KV: { get: async () => { throw new Error("kv down"); } } }, NOW);
 check("poll: KV failure still answers 200 with an error state", err.status === 200 && (await err.json()).state === "error");
 

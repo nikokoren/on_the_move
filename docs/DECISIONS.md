@@ -4,6 +4,12 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### R8b Species photos, credited in the About text (owner, 2026-09-29)
+
+- Decision: one photo per species on screen, left of the text box, switchable (`show_photo`, default on). Photos from iNaturalist research-grade observations, CC0 or CC BY 4.0 only (same rule as L1); picks in `pipeline/species_images.json`.
+- Credits for the nine CC BY photos in the recipe's About text (`template/settings.yml`) and `README.md`, not on the screen: CC BY 4.0 section 3(a)(2) allows attribution "in any reasonable manner based on the medium", including a link to a page with the information (sources in `docs/SOURCES.md`). The credits note the modification (cropped, greyscale). Not legal advice.
+- Species selection becomes a multi select in the same change.
+
 ### R8a Eight facts per species, rotated without repeats (owner, 2026-09-28)
 
 - Decision: one fact on screen, drawn from a pool; 8 sourced facts per species (96 in all).

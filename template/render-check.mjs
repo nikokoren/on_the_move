@@ -38,7 +38,7 @@ const tpl = fs.readFileSync(path.join(HERE, "full.liquid"), "utf8");
 // Every featured species on one day in English, plus German and other days
 // for the ones whose state changes (travelling, staying, live).
 const DAY = process.env.OTM_DAY || "2026-09-28";
-let cases = data.species.map((s) => [s.taxon, "en", DAY]);
+let cases = data.species.map((s) => [s.taxon, process.env.OTM_LANG || "en", DAY]);
 cases.push(["Ciconia ciconia", "de", "2026-08-25"], ["Lanius collurio", "de", "2026-10-10"],
            ["Streptopelia turtur", "de", "2026-10-05"], ["Numenius madagascariensis", "en", "2026-08-20"]);
 // OTM_ONLY="Ciconia ciconia" renders only that species' cases.
@@ -61,7 +61,9 @@ const browser = await chromium.launch({
 
 const rows = [];
 for (const [taxon, lang, day] of cases) {
-  const v = buildFull(data, { species: taxon, lang, now: new Date(day + "T12:00:00Z") });
+  // Photos from worker/photos (what the Worker serves at /photo/); OTM_PHOTO=0 renders without.
+  const photoBase = process.env.OTM_PHOTO === "0" ? null : "file://" + path.join(HERE, "../worker/photos") + "/";
+  const v = buildFull(data, { species: taxon, lang, now: new Date(day + "T12:00:00Z"), photoBase });
   const html = await liquid.parseAndRender(tpl, v);
   const page = `<!doctype html><html><head><meta charset="utf-8">
 <link rel="stylesheet" href="file://${path.join(CACHE, "plugins.css")}">
@@ -102,7 +104,8 @@ for (const [taxon, lang, day] of cases) {
     const overlap = tags.some((t) => hits(t, box) || hits(t, attrib));
     const inside = (b) => b.left >= screen.left && b.top >= screen.top && b.right <= screen.right + 0.5 && b.bottom <= screen.bottom + 0.5;
     return {
-      drawn: !!map && !!map.getLayer("trmnl-route-past") && !!map.getLayer("trmnl-dot-animal"),
+      drawn: !!map && !!map.getLayer("trmnl-dot-animal"),
+      photo: (() => { const im = document.querySelector("#otm-box img"); return im ? `${Math.round(im.getBoundingClientRect().width)}x${Math.round(im.getBoundingClientRect().height)}${im.naturalWidth ? "" : " NOT LOADED"}` : "none"; })(),
       waitingShown: getComputedStyle(document.getElementById("otm-map-waiting")).display !== "none",
       zoom: map ? +map.getZoom().toFixed(2) : null,
       callouts: tags.length, overlap, boxInside: inside(box), tagsInside: tags.every(inside),
@@ -124,9 +127,9 @@ await browser.close();
 
 let bad = 0;
 for (const r of rows) {
-  const ok = r.drawn && !r.waitingShown && !r.overlap && r.boxInside && r.tagsInside && !r.errors;
+  const ok = r.drawn && !r.waitingShown && !r.overlap && r.boxInside && r.tagsInside && !r.errors && !/NOT LOADED/.test(r.photo);
   if (!ok) bad++;
-  console.log(`${ok ? "ok  " : "FAIL"} ${r.taxon.padEnd(26)} ${r.lang} ${r.day} ${r.kind.padEnd(5)} zoom ${r.zoom} callouts ${r.callouts} overlap ${r.overlap} errors ${r.errors}`);
+  console.log(`${ok ? "ok  " : "FAIL"} ${r.taxon.padEnd(26)} ${r.lang} ${r.day} ${r.kind.padEnd(5)} zoom ${r.zoom} callouts ${r.callouts} overlap ${r.overlap} photo ${r.photo} errors ${r.errors}`);
   if (process.env.OTM_DEBUG) console.log("     " + JSON.stringify(r.debug));
 }
 console.log(`\n${rows.length} cases, ${bad} failed. PNGs in ${OUT}`);

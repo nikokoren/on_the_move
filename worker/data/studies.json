@@ -161,24 +161,10 @@
    "dateAccepted": "2026-09-28",
    "animals": [
     {
-     "individualId": 533428340,
+     "individualId": 533437125,
      "displayName": {
-      "en": "Red-backed Shrike 533428340",
-      "de": "Neuntöter 533428340"
-     }
-    },
-    {
-     "individualId": 533430463,
-     "displayName": {
-      "en": "Red-backed Shrike 533430463",
-      "de": "Neuntöter 533430463"
-     }
-    },
-    {
-     "individualId": 533430672,
-     "displayName": {
-      "en": "Red-backed Shrike 533430672",
-      "de": "Neuntöter 533430672"
+      "en": "Red-backed Shrike 533437125",
+      "de": "Neuntöter 533437125"
      }
     }
    ]
@@ -234,6 +220,31 @@
    ]
   },
   {
+   "studyId": 890556697,
+   "licenseType": "CC_0",
+   "licenseTermsHash": "a8cda5bf3f1533b3d9300e7f157e2bae0608591bc05524c957541d15da630db2",
+   "citation": "Pedersen L, Jakobsen NM, Strandberg R, Thorup K, Tøttrup AP. 2019. Data from: Sex-specific difference in migration schedule as a precursor of protandry in a long-distance migratory bird. Movebank Data Repository. https://www.doi.org/10.5441/001/1.j71640kh Pedersen L, Jakobsen NM, Strandberg R, Thorup K, Tøttrup AP. 2019. Sex-specific difference in migration schedule as a precursor of protandry in a long-distance migratory bird. Sci Nat. 106:45. https://www.doi.org/10.1007/s00114-019-1637-6 A larger dataset containing the data in this study is available as https://www.doi.org/10.5441/001/1.4bt7365c and in the study \"Migration of red-backed shrike populations (data from Pedersen et al. 2020)\".",
+   "citationShort": "Data: Movebank, Anders P. Tøttrup, CC0",
+   "ownerContact": "Anders P. Tøttrup",
+   "dateAccepted": "2026-09-28",
+   "animals": [
+    {
+     "individualId": 890583086,
+     "displayName": {
+      "en": "Red-backed Shrike 890583086",
+      "de": "Neuntöter 890583086"
+     }
+    },
+    {
+     "individualId": 890594634,
+     "displayName": {
+      "en": "Red-backed Shrike 890594634",
+      "de": "Neuntöter 890594634"
+     }
+    }
+   ]
+  },
+  {
    "studyId": 1258895879,
    "licenseType": "CC_0",
    "licenseTermsHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -261,6 +272,24 @@
      "displayName": {
       "en": "Maya",
       "de": "Maya"
+     }
+    }
+   ]
+  },
+  {
+   "studyId": 3030282201,
+   "licenseType": "CC_0",
+   "licenseTermsHash": "64628ca1278dea2f9a72508c5fcd380ce1073bad252d4a12f0dca52c89e85d1b",
+   "citation": "Ministry of Oceans and Fisheries. 2023. Project Report: Facility Improvement and Restoration of Marine Ecosystem, Restoration of Marine Protected Species and Habitats. Ministry of Oceans and Fisheries: Sejong(Korea)",
+   "citationShort": "Data: Movebank, Yong-Rock An, CC0",
+   "ownerContact": "Yong-Rock An",
+   "dateAccepted": "2026-09-28",
+   "animals": [
+    {
+     "individualId": 3030523279,
+     "displayName": {
+      "en": "Loggerhead Turtle 3030523279",
+      "de": "Unechte Karettschildkröte 3030523279"
      }
     }
    ]

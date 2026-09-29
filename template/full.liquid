@@ -31,7 +31,11 @@
 
     <div id="otm-toward" hidden>{{ toward | escape }}</div>
 
-    <div id="otm-box" class="absolute bottom--2 left--2 z--3 p--2 w--max-[62cqw] lg:w--max-[55cqw] bg--canvas outline outline--strong">
+    <div id="otm-box" class="absolute bottom--2 left--2 z--3 p--2 {% if photo != blank %}w--max-[72cqw] lg:w--max-[64cqw]{% else %}w--max-[62cqw] lg:w--max-[55cqw]{% endif %} bg--canvas outline outline--strong">
+      {% comment %} The species photo on the left (owner, 2026-09-29), when the
+         setting is on; the Worker sends photo empty when it is off. {% endcomment %}
+      <div class="flex flex--row flex--left flex--top gap">
+      {% if photo != blank %}<img class="image image--cover w--28 h--28 no-shrink" src="{{ photo }}" alt="">{% endif %}
       {% comment %} One line per span, stacked: inside .content the spans ran
          on as one paragraph (seen in the first render). {% endcomment %}
       <div class="flex flex--col flex--left gap--xsmall text--left">
@@ -40,6 +44,7 @@
         <span class="label label--small">{{ status }}</span>
         <span class="description">{{ fact }}</span>
         <span class="label label--small label--gray">{{ credit }}</span>
+      </div>
       </div>
     </div>
   </div>
@@ -73,12 +78,8 @@
     if (typeof TRMNLPaint === "undefined") { missing.push("TRMNLPaint"); }
     if (missing.length) { sayItInWords(missing.join(", ")); return; }
 
-    var PAD_PX = 14;
-    var MAX_ZOOM = 10;
     var DRAW_DEADLINE_MS = 2000;
     var WATCHDOG_MS = 4000;
-    // Nextbike, measured: MapLibre puts the world in 512 px at zoom 0.
-    var MERCATOR_BASE = 78271.51696;
     var ARROWS = ["↑", "↗", "→", "↘", "↓", "↙", "←", "↖"];
     var EDGES = ["flex--center-x flex--top", "flex--right flex--top",
                  "flex--right flex--center-y", "flex--right flex--bottom",
@@ -92,21 +93,12 @@
       return (slot && (slot.ink || slot.color)) || "#000";
     }
 
-    // The frame (V1): the short side covers GEO.r km each way from the animal,
-    // which the Worker set to the last 10 days of track or 250 km. Mercator
-    // scale at the animal's latitude; over a few hundred km that is close
-    // enough, and nothing here depends on it being exact.
-    function zoomFor() {
-      var box = document.getElementById(el);
-      var w = box.clientWidth || 800, h = box.clientHeight || 480;
-      var usable = Math.max(1, Math.min(w, h) - 2 * mpx(PAD_PX));
-      var perPx0 = MERCATOR_BASE * Math.cos(GEO.pos[1] * Math.PI / 180);
-      var z = Math.log(perPx0 / ((2 * GEO.r * 1000) / usable)) / Math.LN2;
-      // Whole zoom levels only: the framework dithers the map's fills only at an
-      // integer zoom (plugins.js mapDeviceOrigin), and without that pass a 2-bit
-      // panel shows the sea as white. Rounded down, so the frame still holds GEO.r.
-      return Math.min(MAX_ZOOM, Math.max(0, Math.floor(z)));
-    }
+    // One zoom for every animal (owner, 2026-09-29): at zoom 3 the framework's
+    // tiles carry almost no roads, a migration reads at the scale of a continent,
+    // and R14's 1-degree rounding stays small. Whole zoom levels only: the
+    // framework dithers the fills only at an integer zoom (plugins.js
+    // mapDeviceOrigin), and without that pass a 2-bit panel shows the sea white.
+    var ZOOM = 3;
 
     function line(coords) {
       return { type: "Feature", properties: {}, geometry: { type: "LineString", coordinates: coords } };
@@ -182,10 +174,9 @@
 
     TRMNLMaps.watch(el, function () {
       watchRan = true;
-      var zoom = zoomFor();
       // "outline" (owner, 2026-09-29): the leanest framework preset with water.
       // No preset drops the main roads; the owner has asked TRMNL for one.
-      var map = new maplibregl.Map(TRMNLMaps.options({ el: el, preset: "outline", center: GEO.pos, zoom: zoom }));
+      var map = new maplibregl.Map(TRMNLMaps.options({ el: el, preset: "outline", center: GEO.pos, zoom: ZOOM }));
       window.__otmMap = map;
       var ink = inkFor(), paper = "#fff";
       var drewLayers = false, drewMarks = false;
@@ -193,15 +184,16 @@
       // Lines and dots through the framework (TRMNLMaps.route/dot), not our own
       // layers or HTML markers: it widens them into crisp fills, cases them in
       // the contrast colour and keeps them above its dither layer at 1 and 2 bit
-      // (seen 2026-09-29: an HTML marker vanished under that layer). The two
-      // lines are two steps of the series ramp; route() has no dashes.
+      // (seen 2026-09-29: an HTML marker vanished under that layer). route() has
+      // no dashes, so the way ahead is the same ink, thinner: the ramp's second
+      // step is white on a 1-bit screen and vanished on land (seen on a device).
       function drawLayers() {
         if (drewLayers) { return; }
         var style = map.getStyle();
         if (!style || !style.layers || !style.layers.length) { return; }
         drewLayers = true;
-        TRMNLMaps.route(map, GEO.past, { el: el, id: "past", i: 0, n: 2, width: 4 });
-        TRMNLMaps.route(map, GEO.ahead, { el: el, id: "ahead", i: 1, n: 2, width: 3 });
+        TRMNLMaps.route(map, GEO.past, { el: el, id: "past", i: 0, n: 2, width: 5 });
+        TRMNLMaps.route(map, GEO.ahead, { el: el, id: "ahead", i: 0, n: 2, width: 2 });
         if (GEO.dest && onScreen(map, GEO.dest)) {
           TRMNLMaps.dot(map, GEO.dest, { el: el, id: "dest", i: 0, n: 2, radius: 5, hollow: true });
         }
@@ -215,7 +207,9 @@
         var waiting = document.getElementById("otm-map-waiting");
         if (waiting) { waiting.style.display = "none"; }
 
-        if (GEO.dest && TOWARD) {
+        // The pill stands in for a destination the frame cannot show; one on
+        // screen has its ring, and a pill there would cover it (seen on a device).
+        if (GEO.dest && TOWARD && !onScreen(map, GEO.dest)) {
           var tag = pointerEl(sectorOnScreen(map, GEO.pos, GEO.dest), TOWARD, ink, paper);
           document.getElementById(el).appendChild(tag);
           clearLater(tag);

@@ -6,10 +6,11 @@
 
 Strategy: Polling. One line, no spaces or line breaks (Nextbike: anything after a break is dropped):
 
-    https://<worker-subdomain>/full?species={{ follow | url_encode }}&lang={{ language }}&utc_offset={{ trmnl.user.utc_offset }}
+    https://<worker-subdomain>/full?species={{ follow | join: "," | url_encode }}&lang={{ language }}&photo={{ show_photo }}&utc_offset={{ trmnl.user.utc_offset }}
 
 - The reader's offset is `trmnl.user.utc_offset`, in seconds; a bare `utc_offset` renders empty and every day would be UTC's (Nextbike README).
-- `follow` arrives snake_cased ("White Stork" -> `white_stork`, "All of them in turn" -> `all_of_them_in_turn`); the Worker maps both labels and taxa, and anything unknown means all.
+- `follow` is a multi select (owner, 2026-09-29). How TRMNL hands several ticks to Liquid is not documented; `join: ","` turns a list into `white_stork,blue_whale` and leaves a plain string as it is. The Worker accepts commas, spaces or a JSON array, labels, their snake_case or taxa; nothing ticked (or the old `all_of_them_in_turn`) means every species in turn. **Check after the first real poll** what arrives: `npx wrangler tail` in `worker/` prints each request's URL.
+- `show_photo` is a boolean: `true`/`false`, or empty before the settings are first saved, which counts as on.
 - Refresh: the positions change every 6 hours at most (the cron), the "all" rotation every 15 minutes, so a refresh rate of 15 to 60 minutes is enough.
 
 Not confirmed on a device yet (R25).

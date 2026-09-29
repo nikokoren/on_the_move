@@ -1,7 +1,8 @@
 // Cloudflare Worker for the On the Move recipe (R1, R2). Decision V1: full
 // view first.
 //
-//   GET /full?species=<setting>&lang=<setting>&utc_offset=<seconds>
+//   GET /full?species=<ticks, comma-separated>&lang=<setting>&photo=<true|false>&utc_offset=<seconds>
+//   GET /photo/<taxon>.jpg: the species photo (src/photos.js)
 //   cron: refresh live positions from Movebank into KV (refresh.js)
 //
 // TRMNL sends select values snake_cased from their labels ("White stork" ->
@@ -12,27 +13,28 @@ import whitelist from "../data/studies.json";
 import { buildFull } from "./view.js";
 import { refresh, withLive, LIVE_KEY } from "./refresh.js";
 import { STRINGS, fill } from "./strings.js";
+import { speciesParam as mapSpecies, speciesList as mapSpeciesList, photoParam, langParam } from "./params.js";
+import { PHOTOS } from "./photos.js";
 
-const snake = (s) => String(s || "").toLowerCase().replace(/ß/g, "ss").normalize("NFKD").replace(/[̀-ͯ]/g, "")
-  .replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
+// The settings' values mapped to a taxon or language (src/params.js). Older
+// labels stay accepted: a device keeps the value it was set up with.
+export const speciesParam = (value) => mapSpecies(value, featured.species);
+export const speciesList = (value) => mapSpeciesList(value, featured.species);
+export { langParam, photoParam };
 
-export function speciesParam(value) {
-  const v = snake(value);
-  if (!v || v === "all" || v === "all_of_them_in_turn" || v === "alle") return "all";
-  for (const sp of featured.species) {
-    const keys = [sp.taxon, sp.names.en, sp.names.de].map(snake);
-    if (keys.includes(v)) return sp.taxon;
-  }
-  return "all";
-}
-
-export function langParam(value) {
-  const v = snake(value);
-  return v === "de" || v === "deutsch" || v === "german" ? "de" : "en";
+// The species photos (pipeline/build_photos.py), served here so the template
+// can load them from the Worker's own origin.
+function photo(name) {
+  const b64 = PHOTOS[name];
+  if (!b64) return new Response("not found", { status: 404 });
+  const bytes = Uint8Array.from(atob(b64), (c) => c.charCodeAt(0));
+  return new Response(bytes, { headers: { "content-type": "image/jpeg", "cache-control": "public, max-age=604800" } });
 }
 
 export async function handle(request, env, now = new Date()) {
   const url = new URL(request.url);
+  const m = url.pathname.match(/^\/photo\/([a-z_]+)\.jpg$/);
+  if (m) return photo(m[1]);
   if (url.pathname !== "/full") return new Response("not found", { status: 404 });
   const lang = langParam(url.searchParams.get("lang"));
   let body;
@@ -40,7 +42,8 @@ export async function handle(request, env, now = new Date()) {
     // One KV read a request, never a write (Nextbike: never write on a read path).
     const live = env.KV ? await env.KV.get(LIVE_KEY, "json") : null;
     body = buildFull(withLive(featured, live), {
-      species: speciesParam(url.searchParams.get("species")),
+      species: speciesList(url.searchParams.getAll("species").join(",")),
+      photoBase: photoParam(url.searchParams.get("photo")) ? url.origin + "/photo/" : null,
       lang,
       now,
       utcOffset: Number(url.searchParams.get("utc_offset")) || 0
