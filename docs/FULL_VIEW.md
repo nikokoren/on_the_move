@@ -138,6 +138,6 @@ Confirmed on the device: the sea dithers at the panel's bit depth (the 2-bit fix
 | Blue whale "stuck", no destination | its winter stay was not the next stay; same-name pill suppressed | with home ranges it now heads for the Gulf of California |
 
 Open from this round:
-- The shrike has no position 5 Mar to 2 Apr: all three tracks are blank at the spring equinox once the placeholders are dropped. Followed alone, it shows the "no position" state then; in "all" mode it is skipped.
+- ~~The shrike has no position 5 Mar to 2 Apr~~ (all three tracks are blank at the spring equinox once the placeholders are dropped). Owner, 2026-09-29: show the last position instead. When no animal of the species has today, the star's last known day (up to 60 days back) is shown, labelled "No position for today; last known around 3 Mar". Empty payloads in the sweep: 116 -> 0.
 - Coastal whale positions still sit on the coastline after 1-degree rounding (at zoom 3 this reads as "off the coast").
 - Labels in local scripts; the pill's inline styling (topic 9).

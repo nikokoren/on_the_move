@@ -4,6 +4,7 @@
 import { STRINGS, fill } from "./strings.js";
 
 export const LIVE_DAYS = 14;        // R21: older than this is not live
+const LOOK_BACK_DAYS = 60;          // how far a gap may fall back to the last known day
 const MAX_LINE_POINTS = 40;         // per line; Nextbike: bare lists, ~28 bytes a point
 const CYCLE_SECONDS = 15 * 60;      // "all" moves to the next species every refresh slot
 
@@ -185,7 +186,7 @@ function pickFact(t, lang, sp, a, turn) {
 }
 
 // One animal on one day. Returns null when this animal has no position today.
-function animalView(data, sp, a, t, lang, now, localDoy, turn) {
+function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0) {
   const places = data.places;
   const name = (i) => (i >= 0 && places[i] ? places[i][lang] : t.somewhere);
   const lastFix = a.lastFix ? new Date(a.lastFix + "T12:00:00Z") : null;
@@ -195,7 +196,12 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn) {
   const live = a.live && age >= -1 && age <= LIVE_DAYS;
 
   // Live: the last fix, and its own day for the legs. Otherwise the viewer's day.
-  const d = live ? doyOf(lastFix) : localDoy;
+  let d = live ? doyOf(lastFix) : localDoy;
+  // With lookBack, a day without a position falls back to the last known day
+  // before it, and says so (owner, 2026-09-29: the shrikes' tracks are blank
+  // around the spring equinox; better their last position than none).
+  let back = 0;
+  while (!live && !a.track[d] && back < lookBack) { d = (d - 1 + 366) % 366; back++; }
   const here = live ? a.lastPosition : a.track[d] && [a.track[d][0], a.track[d][1]];
   if (!here) return null;
   const year = a.track[d] ? a.track[d][2] : null;
@@ -223,7 +229,7 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn) {
 
   const status = live
     ? fill(t.live, { date: fmtDate(t, lastFix, true) })
-    : fill(t.usual, { date: fmtDate(t, dateOfDoy(d, now.getUTCFullYear()), false), year });
+    : fill(back ? t.usualLast : t.usual, { date: fmtDate(t, dateOfDoy(d, now.getUTCFullYear()), false), year });
   const from = name(leg.prev[4]), to = name(leg.next[4]);
   const where = leg.staying
     ? fill(t.staying, { place: name(leg.here[4]), date: fmtDate(t, until(leg.here), false) })
@@ -282,6 +288,12 @@ export function buildFull(data, { species = "all", lang = "en", now = new Date()
       const v = animalView(data, sp, a, t, lang, now, localDoy, turn);
       if (v) return v;
     }
+    if (species !== "all") break;
+  }
+  // Nobody has today: the star's last known position before the gap.
+  for (const sp of order) {
+    const v = animalView(data, sp, sp.animals[0], t, lang, now, localDoy, turn, LOOK_BACK_DAYS);
+    if (v) return v;
     if (species !== "all") break;
   }
   return { state: "empty", species: order[0] ? order[0].names[lang] : "", status: t.noData };
