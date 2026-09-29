@@ -49,3 +49,23 @@ Per species, one "star" animal is picked automatically: live if possible, else t
 - **Edge callout** (pill shape with an arrow) where the dotted line leaves the frame: destination name, distance and "usually arrives around <date>, about N days". Staying put: "staying put, usually leaves around <date>".
 - **Text box, bottom left:** species name (en/de), animal name if it has a real one, from/to (Natural Earth lookup, R7), and one rotating fact. Facts come from the animal's own data ("flew 4,200 km last autumn in 23 days") plus curated species facts with sources (R8). The backend picks one per refresh (R15).
 - **Constraints:** one animal or fact per refresh (no animation), payload under about 10 KB (R3), so lines get thinned to a few dozen points. The quadrant and half views need simpler variants. Always show the date of the position (D3); label historic positions "usually" with their year (S2).
+
+## North American candidates (checked 2026-09-29, owner's question)
+
+82 catalog species spend at least 30 days a year between 7-75 N and 170-50 W. "Migrated" = animals whose 20 June and 15 January positions are 500+ km apart; places are each animal's own, named like the stays; "fix days" = share of the year with a real fix (the rest interpolated or held). None has a live animal. Re-run before relying on the numbers.
+
+| Species | Animals (migrated) | Fix days | Last year | Summer | Winter | Note |
+|---|---|---|---|---|---|---|
+| Osprey | 45 (36) | 40 % | 2017 | USA 34 | Brazil 8, Venezuela 7 | recognisable, long route |
+| Snow Goose | 45 (45) | 98 % | 2026 | Canada 44 | USA 44 | best data quality |
+| Blackpoll Warbler | 14 (14) | 76 % | 2017 | Hudson Bay 5, Canada 5 | Brazil 6, Venezuela 4 | the non-stop Atlantic crossing; NT, 0.1 degree |
+| Prothonotary Warbler | 22 (16) | 94 % | 2017 | USA 16 | Colombia 14 | |
+| Long-billed Curlew | 24 (21) | 67 % | 2020 | USA 21 | Mexico 13, USA 8 | |
+| Canada Goose | 45 (33) | 92 % | 2025 | Canada 33 | USA 30 | |
+| Bald Eagle | 45 (24) | 47 % | 2021 | Canada 22 | USA 22 | national bird |
+| Tundra Swan | 53 (46) | 45 % | 2026 | USA 45 (Alaska) | USA 44 | |
+| Whimbrel | 10 (10) | 40 % | 2015 | USA 10 | Mexico 3, Honduras 2 | |
+| Lesser Yellowlegs | 26 (20) | 21 % | 2021 | Canada 12, USA 8 | Argentina 7, Brazil 4 | VU: 1 degree; sparse fixes |
+| Buff-breasted Sandpiper | 3 (3) | 79 % | 2020 | Canada 3 | Brazil, Uruguay | VU: 1 degree |
+
+Weak: Whooping Crane (2 animals, 17 % fix days, EN so 1 degree), Common Nighthawk (no full year apart), Snowy Owl (irregular), Peregrine Falcon (tracks mostly Eurasian), Bowhead (3 migrated, stays in Canada).
