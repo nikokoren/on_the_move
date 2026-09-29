@@ -99,3 +99,11 @@ The owner's screenshot shows the white stork Kiki in German, with TRMNL's "Refre
    - The OpenStreetMap credit on the map is a separate matter (the tiles' licence) and stays.
    - Options: (a) keep a short credit on screen; (b) credit only in the plugin's About section and README, which changes R18 and needs a decision; (c) show the credit only for CC BY animals. Movebank's own citation guidelines are still to be read before deciding. Not legal advice.
 3. Also visible in the screenshot: the edge callout runs under TRMNL's "Refreshed" badge (top right, probably only in the preview), and map labels in local script (طنجة for Tangier), which is already open item 2 above.
+
+### More topics (owner, 2026-09-29; topics only, not yet discussed)
+
+4. **Destination arrow (edge callout):** when and why does it show up? What does it show? How is that different from the text box? Where should it sit?
+5. **Text box:** what does it show, and when does it change? (The owner said "bottom right"; the current build puts it bottom left, following Map of the Day.)
+6. **Image of the animal:** an optional picture of the species that users can switch on and off.
+7. **Position marker:** replace the dot with a bird's-eye-view icon of the animal shown.
+8. **Species setting as a multi-select:** none selected cycles through all species; several selected cycles through only those; one selected shows only that one. (Today: a single select with "all of them in turn", `template/settings.yml`.)
