@@ -1,0 +1,45 @@
+{% comment %}
+  Quadrant view (owner, 2026-09-29, wireframe board 12). Single: the map with
+  one strip of text below (place and date). Multi (X only, lg:): two mini cards,
+  each a small map with name and place; the shown animal's card is inverted.
+  Pages in pairs like the list. Needs shared.liquid.
+{% endcomment %}
+
+{% if state != "ok" %}
+{% render "otm_message", species: species, status: status %}
+{% else %}
+<div class="layout">
+  <div class="{% if rows %}lg:hidden {% endif %}flex flex--col gap--small w--full h--full" data-otm-scope>
+    <div class="map stretch" data-otm-map data-otm-small data-otm-zoom="2" data-geo="{{ geo | escape }}">
+      <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
+        <span class="label">{{ where }}</span>
+      </div>
+    </div>
+    <div class="flex flex--col flex--left w--full">
+    {% render "otm_text", size: "one", species: species, name: name, where: where, toward: toward, fact: fact, status: status %}
+    </div>
+  </div>
+  {% if rows %}
+  {% comment %} modulo, not divided_by: Ruby Liquid floors integer division, liquidjs (the render check) does not. {% endcomment %}
+  {% assign odd = current | modulo: 2 %}
+  {% assign pair = current | minus: odd %}
+  <div class="hidden lg:grid grid--cols-2 portrait:grid--cols-1 gap--small w--full h--full" data-otm-cards data-otm-page="{{ pair }} 2 {{ current }}">
+    {% for r in rows offset: pair limit: 2 %}
+    {% assign i = forloop.index0 | plus: pair %}
+    <div class="flex flex--col outline h--full" data-otm-scope>
+      <div class="map stretch" data-otm-map data-otm-small data-otm-zoom="2" data-geo="{{ r.geo | escape }}">
+        <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
+          <span class="label">{{ r.place }}</span>
+        </div>
+      </div>
+      <div class="flex flex--col flex--left px--2 py--1 {% if i == current %}bg--black text--white{% endif %}">
+        <span class="label font--bold {% if i == current %}text--white{% endif %}">{{ r.species }}{% if r.name != "" %} · {{ r.name }}{% endif %}</span>
+        <span class="label label--small {% if i == current %}text--white{% endif %}">{{ r.place }} · {{ r.when }}</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+<script>OTM.start(document.currentScript.previousElementSibling);</script>
+{% endif %}

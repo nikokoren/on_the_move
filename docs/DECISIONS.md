@@ -4,6 +4,16 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### V2 The smaller views and the multi layout (owner, 2026-09-29)
+
+- Decision: every view in every size and orientation, from the wireframe canvas (boards 2, 10, 11, 12; https://claude.ai/artifact/SB2mQ99yoN4up7AL3aqgAQ, owner's comments 2026-09-29):
+  - No title bar in any view: the space goes to content.
+  - Single layout (default, every device): the map and the text beside it (half horizontal) or below it (half vertical, quadrant, portrait). Half views carry the destination line and the fact; the quadrant the place and the date. The pill only in the full view (the only view with the text over the map).
+  - Setting "Layout": "One animal at a time" (default) or "All followed animals (TRMNL X only)". With the second and more than one species, the TRMNL X shows the list of followed animals with the shown one expanded (inverted, photo, destination, fact, date) and its map; the quadrant shows two mini cards with a map each. Other devices keep the single layout. With one species it is the single layout everywhere.
+  - Paging (owner: "page through everyone"): the list shows one page (full 7, halves 4, quadrant 2); each refresh expands the next animal; after the page's last, the next page. Stable order (the settings order), so animals do not jump between pages; no page indicator.
+- Built: `template/shared.liquid` (components and the map script for any number of maps), `full.liquid`, `half_horizontal.liquid`, `half_vertical.liquid`, `quadrant.liquid`; `layout` parameter and `rows`/`current` in the payload (`worker/src/view.js`). X only through the framework's `lg:` classes, which the renderer sets by device model (`docs/SOURCES.md`).
+- Changes brief section 8 (Half Horizontal and Quadrant have a map on every device, not X only).
+
 ### C2 Data credit off the screen, into the About text (owner, 2026-09-29)
 
 - Decision: the "Daten: Movebank, …" line leaves the text box. All 25 study sources (owner, study, licence, link or DOI) are in the recipe's About text (`template/settings.yml`) and, with full citations, in `README.md`. Changes brief R18 ("every view shows the credit").

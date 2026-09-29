@@ -1,0 +1,282 @@
+{% comment %}
+  Shared markup: TRMNL prepends it to every layout (Full, Half Horizontal,
+  Half Vertical, Quadrant; docs.trmnl.com reusing-markup, checked 2026-09-29).
+  It holds the components the layouts render and the one map script they all
+  use. Every word comes from the Worker (R15); framework classes only (owner,
+  topic 9).
+
+  Layouts (owner, 2026-09-29, wireframe board 12): one animal at a time on
+  every device; with the setting "All followed animals" the TRMNL X (lg:)
+  shows the list of followed animals with one expanded, the others keep the
+  single layout.
+{% endcomment %}
+
+{% comment %} R20: error or no data. The Worker has worded it; no map. {% endcomment %}
+{% template otm_message %}
+<div class="layout layout--col layout--center gap--medium">
+  {% if species != blank %}<span class="title">{{ species }}</span>{% endif %}
+  <span class="description text--center">{{ status }}</span>
+</div>
+{% endtemplate %}
+
+{% comment %} The text beside or below the map in the smaller single layouts:
+   "half" has room for the destination and the fact, "one" (quadrant) for the
+   place and the date only. {% endcomment %}
+{% template otm_text %}
+<div class="flex flex--col flex--left gap--xsmall text--left">
+  <span class="title title--small">{{ species }}{% if name != "" %} · {{ name }}{% endif %}</span>
+  <span class="label">{{ where }}</span>
+  {% if size == "half" %}
+  {% if toward != "" %}<span class="label">{{ toward }}</span>{% endif %}
+  <span class="description">{{ fact }}</span>
+  {% endif %}
+  <span class="label label--small">{{ status }}</span>
+</div>
+{% endtemplate %}
+
+{% comment %} The multi layout's list (owner, 2026-09-29): every followed animal
+   in a stable order, paged by the layout's own page size; the shown one expanded
+   in place, inverted, with photo, destination and fact. A filled dot marks an
+   animal on its way, an outlined one an animal staying. {% endcomment %}
+{% template otm_list %}
+{% comment %} The page holding the shown animal. modulo, not divided_by: Ruby Liquid
+   floors integer division, liquidjs (the render check) does not. {% endcomment %}
+{% assign into = current | modulo: size %}
+{% assign start = current | minus: into %}
+<div class="grid {{ grid }} gap--small w--full" data-otm-page="{{ start }} {{ size }} {{ current }}">
+  {% for r in rows offset: start limit: size %}
+  {% assign i = forloop.index0 | plus: start %}
+  {% if i == current %}
+  <div class="{{ span }} flex flex--col flex--left gap--xsmall p--2 rounded bg--black text--white text--left" data-otm-current>
+    <div class="flex flex--row flex--left flex--top gap--small">
+      {% if photo != blank %}<img class="image image--cover w--20 h--20 no-shrink" src="{{ photo }}" alt="">{% endif %}
+      <div class="flex flex--col flex--left gap--xsmall">
+        <span class="title title--small text--white">{{ species }}{% if name != "" %} · {{ name }}{% endif %}</span>
+        <span class="label text--white">{{ where }}</span>
+        {% if toward != "" %}<span class="label text--white">{{ toward }}</span>{% endif %}
+      </div>
+    </div>
+    {% if fact_on %}<span class="description text--white">{{ fact }}</span>{% endif %}
+    <span class="label label--small text--white">{{ status }}</span>
+  </div>
+  {% else %}
+  <div class="flex flex--row flex--left flex--top gap--small px--2 py--1" data-otm-row>
+    <span class="no-shrink w--3 h--3 mt--1 rounded--full {% if r.moving %}bg--black{% else %}outline{% endif %}"></span>
+    <div class="flex flex--col flex--left">
+      <span class="label font--bold">{{ r.species }}{% if r.name != "" %} · {{ r.name }}{% endif %}</span>
+      <span class="label label--small">{{ r.place }} · {{ r.when }}</span>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
+{% endtemplate %}
+
+<link rel="preconnect" href="https://trmnl.com" crossorigin>
+<link rel="preconnect" href="https://maps.trmnl.com" crossorigin>
+<link rel="stylesheet" href="https://trmnl.com/js/maplibre-gl/5.24.0/maplibre-gl.css">
+<script src="https://trmnl.com/js/maplibre-gl/5.24.0/maplibre-gl.js"></script>
+
+<script type="text/javascript">
+  // ---- map script ----
+  // Adapted from nearby-nextbike template/shared.liquid (read 2026-09-28 at
+  // 1f30394): the loading, the ink, the fallbacks and the edge pointer are its.
+  // Every layout ends with OTM.start(its .layout element). Each map is an
+  // element with data-otm-map and its GEO in data-geo; the text box, the pill's
+  // corner stack and the waiting message are looked up in the map's scope
+  // (data-otm-scope), so one page can hold several maps and several instances.
+  // Elements get their ids here: two instances in one mashup must not collide.
+  window.OTM = window.OTM || (function () {
+    var DRAW_DEADLINE_MS = 2000;
+    var WATCHDOG_MS = 4000;
+    var ARROWS = ["↑", "↗", "→", "↘", "↓", "↙", "←", "↖"];
+    var EDGES = ["flex--center-x flex--top", "flex--right flex--top",
+                 "flex--right flex--center-y", "flex--right flex--bottom",
+                 "flex--center-x flex--bottom", "flex--left flex--bottom",
+                 "flex--left flex--center-y", "flex--left flex--top"];
+    var counter = 0;
+    window.__otmMaps = window.__otmMaps || [];  // read by template/render-check.mjs
+
+    function line(coords) {
+      return { type: "Feature", properties: {}, geometry: { type: "LineString", coordinates: coords } };
+    }
+
+    // The callout's side of the frame, from the direction the destination
+    // lies in on screen (not the compass bearing: on a Mercator map the two
+    // differ over long distances, and the screen is what the reader sees).
+    function sectorOnScreen(map, from, to) {
+      var a = map.project(from), b = map.project(to);
+      var deg = (Math.atan2(b.x - a.x, a.y - b.y) * 180 / Math.PI + 360) % 360;
+      return Math.round(deg / 45) % 8;
+    }
+
+    function onScreen(node, map, p) {
+      var q = map.project(p);
+      return q.x >= 0 && q.y >= 0 && q.x <= node.clientWidth && q.y <= node.clientHeight;
+    }
+
+    // The pill, in framework classes only (owner, 2026-09-29, topic 9).
+    function pointerEl(sector, text) {
+      var wrap = document.createElement("div");
+      wrap.setAttribute("data-otm-pill-wrap", "");
+      wrap.className = "absolute inset--2 flex flex--row " + EDGES[sector] + " z--2";
+      var tag = document.createElement("div");
+      tag.setAttribute("data-otm-pill", "");
+      tag.className = "flex flex--row flex--center-y gap--small px--2 py--1 bg--canvas outline rounded--full w--max-[46cqw]";
+      var arrow = document.createElement("span");
+      arrow.className = "title";
+      arrow.textContent = ARROWS[sector];
+      tag.appendChild(arrow);
+      var says = document.createElement("span");
+      says.className = "label font--bold";
+      says.textContent = text;
+      tag.appendChild(says);
+      wrap.appendChild(tag);
+      return wrap;
+    }
+
+    function overlaps(a, b) {
+      if (!a || !b) { return false; }
+      var p = a.getBoundingClientRect(), q = b.getBoundingClientRect();
+      return !(p.right < q.left || p.left > q.right || p.bottom < q.top || p.top > q.bottom);
+    }
+
+    // The destination counts as visible when its ring is on the map and not
+    // under the text box; only then is the pill left out (topic 10).
+    function destVisible(node, box, map, GEO) {
+      var frame = node.getBoundingClientRect();
+      // map.project gives layout pixels, the rects are on-screen pixels; a host
+      // that scales the screen (transform) makes them differ.
+      var k = node.offsetWidth ? frame.width / node.offsetWidth : 1;
+      var q = map.project(GEO.dest), x = frame.left + q.x * k, y = frame.top + q.y * k;
+      // A margin for the ring itself: a ring touching the box or the frame edge
+      // is not readable (seen: TRMNL X, Morocco's ring on the box's top edge).
+      var m = TRMNLPaint.px(16, { el: node.id }) * k;
+      var onMap = x >= frame.left + m && x <= frame.right - m && y >= frame.top + m && y <= frame.bottom - m;
+      if (!onMap) { return false; }
+      if (!box) { return true; }
+      var b = box.getBoundingClientRect();
+      return !(x >= b.left - m && x <= b.right + m && y >= b.top - m && y <= b.bottom + m);
+    }
+
+    // Where the pill goes (topic 10). Its edge spot comes from the direction of
+    // the destination. If that spot lands on the text box, the pill joins the
+    // corner stack above the box; if it lands on the map credit (tile licence:
+    // must stay readable), it gets bottom padding, and failing that the stack.
+    // Placing again (fonts arrive, the host resizes) starts from scratch.
+    function placePill(node, scope, map, GEO, toward) {
+      [].slice.call(scope.querySelectorAll("[data-otm-pill-wrap], [data-otm-pill]")).forEach(function (e) {
+        if (e.parentNode) { e.parentNode.removeChild(e); }
+      });
+      var box = scope.querySelector("[data-otm-box]");
+      if (!GEO.dest || !toward || destVisible(node, box, map, GEO)) { return; }
+      var wrap = pointerEl(sectorOnScreen(map, GEO.pos, GEO.dest), toward);
+      node.appendChild(wrap);
+      var tag = wrap.firstChild;
+      var credit = node.querySelector(".map__attribution, .maplibregl-ctrl-attrib");
+      if (!overlaps(tag, box) && overlaps(tag, credit)) { wrap.classList.add("pb--6"); }
+      var corner = scope.querySelector("[data-otm-corner]");
+      if (corner && (overlaps(tag, box) || overlaps(tag, credit))) {
+        wrap.parentNode.removeChild(wrap);
+        corner.insertBefore(tag, corner.firstChild);
+      }
+    }
+
+    function drawOne(node) {
+      var scope = node.closest("[data-otm-scope]") || node.parentNode;
+      var waiting = scope.querySelector("[data-otm-waiting]");
+      function sayItInWords() {
+        // The map could not be drawn; the text still stands, only the map area
+        // changes. Nextbike: a blank panel reads as a broken device.
+        if (waiting) { waiting.classList.remove("hidden"); }
+      }
+      var GEO;
+      try { GEO = JSON.parse(node.getAttribute("data-geo")); } catch (e) { sayItInWords(); return; }
+      if (typeof maplibregl === "undefined" || typeof TRMNLMaps === "undefined" || typeof TRMNLPaint === "undefined") {
+        sayItInWords(); return;
+      }
+      node.id = "otm-map-" + (++counter);
+      var el = node.id;
+      // Read from the DOM, not printed into the script: a quote in any
+      // translation would otherwise end the string and the script with it.
+      var towardEl = scope.querySelector("[data-otm-toward]");
+      var toward = node.hasAttribute("data-otm-with-pill") && towardEl ? towardEl.textContent : "";
+      // One zoom per map (owner, 2026-09-29: zoom 3 for every animal in the full
+      // view). Whole zoom levels only: the framework dithers the fills only at
+      // an integer zoom (plugins.js mapDeviceOrigin), and without that pass a
+      // 2-bit panel shows the sea white.
+      var zoom = Number(node.getAttribute("data-otm-zoom")) || 3;
+      var watchRan = false, anyMarks = false;
+
+      TRMNLMaps.watch(el, function () {
+        watchRan = true;
+        // "outline" (owner, 2026-09-29): the leanest framework preset with water.
+        var map = new maplibregl.Map(TRMNLMaps.options({ el: el, preset: "outline", center: GEO.pos, zoom: zoom }));
+        node._otmMap = map;
+        window.__otmMaps.push(map);
+        var drewLayers = false, drewMarks = false;
+
+        // Lines and dots through the framework (TRMNLMaps.route/dot): it widens
+        // them into crisp fills, cases them in the contrast colour and keeps them
+        // above its dither layer at 1 and 2 bit (seen 2026-09-29: an HTML marker
+        // vanished under that layer). route() has no dashes, so the way ahead is
+        // the same ink, thinner (the ramp's second step is white on a 1-bit screen).
+        function drawLayers() {
+          if (drewLayers) { return; }
+          var style = map.getStyle();
+          if (!style || !style.layers || !style.layers.length) { return; }
+          drewLayers = true;
+          var small = node.hasAttribute("data-otm-small");
+          TRMNLMaps.route(map, GEO.past, { el: el, id: "past", i: 0, n: 2, width: small ? 3 : 5 });
+          TRMNLMaps.route(map, GEO.ahead, { el: el, id: "ahead", i: 0, n: 2, width: small ? 1.5 : 2 });
+          if (GEO.dest && onScreen(node, map, GEO.dest)) {
+            TRMNLMaps.dot(map, GEO.dest, { el: el, id: "dest", i: 0, n: 2, radius: small ? 4 : 5, hollow: true });
+          }
+          TRMNLMaps.dot(map, GEO.pos, { el: el, id: "animal", i: 0, n: 2, radius: small ? 6 : 8 });
+        }
+
+        function drawMarks() {
+          if (drewMarks) { return; }
+          drewMarks = true;
+          anyMarks = true;
+          if (waiting) { waiting.classList.add("hidden"); }
+          if (!toward) { return; }
+          // The pill stands in for a destination the frame cannot show. Placed
+          // now, and again once the fonts have set the box's final size. A
+          // rebuilt map (the host changed size or orientation) places it afresh.
+          var place = function () { placePill(node, scope, map, GEO, toward); };
+          place();
+          if (document.fonts && document.fonts.ready) { document.fonts.ready.then(place); }
+          setTimeout(place, 500);
+        }
+
+        function drawAll() { drawLayers(); drawMarks(); }
+        map.on("load", drawAll);
+        map.on("styledata", drawAll);
+        setTimeout(drawMarks, DRAW_DEADLINE_MS);
+        return map;
+      });
+
+      setTimeout(function () { if (!anyMarks) { sayItInWords(); } }, WATCHDOG_MS);
+    }
+
+    // Draws every map in root that is on screen: a layout can carry the single
+    // and the multi version side by side, and the framework's lg: classes hide one.
+    function start(root) {
+      function go() {
+        [].slice.call(root.querySelectorAll("[data-otm-map]")).forEach(function (node) {
+          if (!node.getClientRects().length) { return; }
+          try { drawOne(node); } catch (err) {
+            var scope = node.closest("[data-otm-scope]") || node.parentNode;
+            var w = scope.querySelector("[data-otm-waiting]");
+            if (w) { w.classList.remove("hidden"); }
+          }
+        });
+      }
+      if (document.readyState === "loading") { document.addEventListener("DOMContentLoaded", go); } else { go(); }
+    }
+
+    return { start: start };
+  })();
+  // ---- end map script ----
+</script>

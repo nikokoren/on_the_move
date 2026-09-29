@@ -1,6 +1,16 @@
 # Template
 
-`full.liquid` is the full view (decision V1; the smaller views come later). `settings.yml` is the recipe's settings form. Both are pasted into TRMNL's plugin editor by hand; neither updates the other (Nextbike CLAUDE.md).
+The recipe's markup, one file per tab of TRMNL's plugin editor, pasted by hand (neither updates the other; Nextbike CLAUDE.md):
+
+| Editor tab | File |
+|---|---|
+| Shared | `shared.liquid`: the components (`{% template %}`) and the map script; TRMNL prepends it to every layout |
+| Full | `full.liquid` |
+| Half Horizontal | `half_horizontal.liquid` |
+| Half Vertical | `half_vertical.liquid` |
+| Quadrant | `quadrant.liquid` |
+
+`settings.yml` is the settings form. What each view shows and why: decision V2 in `docs/DECISIONS.md`.
 
 ## Polling URL
 
@@ -20,6 +30,15 @@ Not confirmed on a device yet (R25).
 ## Checks
 
     npm i
-    node render-check.mjs [outdir]   # 22 cases in Chromium against TRMNL's framework, MapLibre and live tiles
+    node render-check.mjs [outdir]   # in Chromium against TRMNL's framework, MapLibre and live tiles
 
-Options (environment): `OTM_SCREENS="screen--og;screen--og screen--portrait;screen--v2;screen--v2 screen--portrait"` runs every case on each screen (the TRMNL X is `screen--v2`); `OTM_SWITCH="screen--v2 screen--portrait"` changes the screen's classes after the first draw, as a host resize or rotation does; `OTM_ONLY`, `OTM_DAY`, `OTM_LANG`, `OTM_PHOTO=0`, `OTM_DEBUG=1`. A case fails if the pill shows while the destination ring is visible, or is missing while it is not.
+Like TRMNL: `shared.liquid` is prepended to each layout and its `{% template %}` blocks become partials for `{% render %}`; the smaller views sit in a real mashup (`mashup--1Tx1B`, `1Lx1R`, `2x2`) so the framework sizes them; the screen gets the breakpoint class TRMNL's renderer adds by device model (OG `screen--md`, X `screen--lg`).
+
+Options (environment):
+- `OTM_VIEWS=full,half_horizontal,half_vertical,quadrant` (default `full`).
+- `OTM_SCREENS="screen--og;screen--og screen--portrait;screen--v2;screen--v2 screen--portrait"` (the TRMNL X is `screen--v2`).
+- `OTM_LAYOUT=multi` follows all species and renders `OTM_SLOTS` refresh slots over the day (default 6) instead of one case per species.
+- `OTM_SWITCH="screen--v2 screen--portrait"` changes the screen's classes after the first draw, as a host resize or rotation does.
+- `OTM_ONLY`, `OTM_DAY`, `OTM_LANG`, `OTM_PHOTO=0`.
+
+A case fails if a map on screen is not drawn, the fallback text shows, any text is cut off by the view or by its list, the multi layout shows where it should not (or not where it should), the list's page does not hold the shown animal, or the pill shows while the destination ring is visible (or is missing while it is not).

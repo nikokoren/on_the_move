@@ -15,7 +15,7 @@ Deployed 2026-09-28 by the owner (Worker `on-the-move`, KV namespace `on_the_mov
 | `docs/SOURCES.md` | Facts about outside systems (Movebank, GBIF, TRMNL, CC). Each fact carries its source URL, date checked and who checked it. |
 | `docs/survey/` | Task 0: method, per-study records, raw captured responses, results. |
 | `data/studies.json` | Study whitelist (R4): the 11 Movebank studies behind the featured animals, built by `pipeline/build_whitelist.py`. Schema in `data/studies.schema.json`. |
-| `worker/`, `template/` | The Worker (payload, cron refresh, `wrangler.toml`, tests) and the TRMNL templates; each has a README with its checks. |
+| `worker/`, `template/` | The Worker (payload, cron refresh, `wrangler.toml`, tests) and the TRMNL templates (`shared.liquid` plus one file per view: full, half horizontal, half vertical, quadrant; decision V2); each has a README with its checks. |
 | `docs/FULL_VIEW.md` | Plan for the full view: what is on screen, which code it reuses (with line numbers), open questions. |
 | `docs/CATALOG.md` | What the catalog contains, pipeline rules, known gaps, featured proposal, UX draft. |
 | `pipeline/build_catalog.py` | Builds the catalog from Movebank and the Movebank Data Repository. Needs Movebank credentials in the environment; caches in `pipeline/.cache/` (git-ignored). |
