@@ -86,6 +86,14 @@
   description: Show a photo of the species beside the text.
   optional: true
   default: true
+- keyname: layout
+  field_type: select
+  name: Layout
+  description: One animal at a time, or on a TRMNL X the list of all the animals you follow, with one shown in full on each refresh. Other devices always show one animal.
+  default: One animal at a time
+  options:
+  - One animal at a time
+  - All followed animals (TRMNL X only)
 - keyname: units
   field_type: select
   name: Units

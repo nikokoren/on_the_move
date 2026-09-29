@@ -214,7 +214,7 @@ function pickFact(t, lang, sp, a, turn, units) {
 }
 
 // One animal on one day. Returns null when this animal has no position today.
-function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, units = "metric") {
+function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, units = "metric", withFact = true) {
   const places = data.places;
   const name = (i) => (i >= 0 && places[i] ? places[i][lang] : t.somewhere);
   const lastFix = a.lastFix ? new Date(a.lastFix + "T12:00:00Z") : null;
@@ -265,6 +265,11 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, uni
       ? fill(t.resting, { place: name(stop[4]), date: fmtDate(t, until(stop), false) })
       : from === to ? to : fill(t.journey, { from, to, date: fmtDate(t, arrive, false) });
   const toward = dest ? fill(t.toward, { place: to, dist: fmtDist(t, km(here, dest), lang, units) }) : "";
+  // The short forms for the multi view's list rows: where, and when (the date of
+  // the last fix, or the year of the route used; D3).
+  const moving = !leg.staying && !stop && from !== to;
+  const short = leg.staying ? name(leg.here[4]) : stop ? name(stop[4]) : moving ? fill(t.rowJourney, { from, to }) : to;
+  const when = live ? fmtDate(t, lastFix, false) : fill(t.rowUsual, { year });
 
   const ref = here[0];
   return {
@@ -275,8 +280,11 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, uni
     name: a.name ? fill(t.named, { name: a.name }) : "",
     status,
     where,
-    fact: pickFact(t, lang, sp, a, turn, units),
+    fact: withFact ? pickFact(t, lang, sp, a, turn, units) : "",
     toward,
+    short,
+    moving,
+    when,
     // Everything the map script needs, as one JSON string: Liquid prints it into
     // the script as is, the way Nextbike sends its map points.
     geo: JSON.stringify({
@@ -292,7 +300,11 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, uni
 // means all). With more than one, they take turns, one per refresh slot.
 // photoBase: where the species photos are served ("https://.../photo/"), or
 // null when the viewer turned the photo off.
-export function buildFull(data, { species = "all", lang = "en", now = new Date(), utcOffset = 0, photoBase = null, units = "metric" }) {
+// layout "multi" (owner, 2026-09-29; TRMNL X only, the template decides): the
+// payload also carries one short row per followed species, in the stable pool
+// order, and which of them is shown in full (current). The template pages
+// through the rows with its own page size.
+export function buildFull(data, { species = "all", lang = "en", now = new Date(), utcOffset = 0, photoBase = null, units = "metric", layout = "single" }) {
   const t = STRINGS[lang] || STRINGS.en;
   lang = STRINGS[lang] ? lang : "en";
   const local = new Date(now.getTime() + utcOffset * 1000);
@@ -311,17 +323,29 @@ export function buildFull(data, { species = "all", lang = "en", now = new Date()
   const turn = Math.floor(slot / pool.length);
   // No photo for a species without one yet (sp.photo, set by build_featured.py).
   const done = (sp, v) => ({ ...v, photo: photoBase && sp.photo ? photoBase + sp.taxon.toLowerCase().replace(/ /g, "_") + ".jpg" : "" });
-  // Star first, then its backups; then the next species in the pool.
-  for (const sp of order) {
+  // Star first, then its backups; a species with nobody today falls back to
+  // the star's last known position before the gap.
+  const today = (sp, withFact = true) => {
     for (const a of sp.animals) {
-      const v = animalView(data, sp, a, t, lang, now, localDoy, turn, 0, units);
-      if (v) return done(sp, v);
+      const v = animalView(data, sp, a, t, lang, now, localDoy, turn, 0, units, withFact);
+      if (v) return v;
     }
+    return null;
+  };
+  const before = (sp, withFact = true) => animalView(data, sp, sp.animals[0], t, lang, now, localDoy, turn, LOOK_BACK_DAYS, units, withFact);
+  // The next species in the pool with a position today; if none has one, the
+  // next with a last known position.
+  let shown = null, v = null;
+  for (const sp of order) { v = today(sp); if (v) { shown = sp; break; } }
+  if (!v) for (const sp of order) { v = before(sp); if (v) { shown = sp; break; } }
+  if (!v) return { state: "empty", species: order[0] ? order[0].names[lang] : "", status: t.noData };
+  const out = done(shown, v);
+  if (layout === "multi" && pool.length > 1) {
+    out.current = pool.indexOf(shown);
+    out.rows = pool.map((sp) => {
+      const r = sp === shown ? v : today(sp, false) || before(sp, false);
+      return { species: sp.names[lang] || sp.names.en, name: r ? r.name : "", place: r ? r.short : "", moving: !!(r && r.moving), when: r ? r.when : "" };
+    });
   }
-  // Nobody has today: the star's last known position before the gap.
-  for (const sp of order) {
-    const v = animalView(data, sp, sp.animals[0], t, lang, now, localDoy, turn, LOOK_BACK_DAYS, units);
-    if (v) return done(sp, v);
-  }
-  return { state: "empty", species: order[0] ? order[0].names[lang] : "", status: t.noData };
+  return out;
 }

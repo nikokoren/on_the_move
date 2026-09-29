@@ -18,6 +18,9 @@ export const STRINGS = {
     staying: "{place} · usually stays until about {date}",
     resting: "{place} · a stopover, usually until about {date}",
     toward: "Destination: {place} · {dist} away",
+    // The multi view's list rows (owner, 2026-09-29): place, and when.
+    rowJourney: "{from} → {to}",
+    rowUsual: "{year} route",
     named: "“{name}”",
     range: "{a} to {b}",
     units: { km: "km", m: "m", cm: "cm", kg: "kg", g: "g", "km/h": "km/h", t: "tonnes", mi: "mi", ft: "ft", in: "in", lb: "lb", oz: "oz", mph: "mph", ton: "US tons" },
@@ -52,6 +55,8 @@ export const STRINGS = {
     staying: "{place} · bleibt meist bis etwa {date}",
     resting: "{place} · Rast, meist bis etwa {date}",
     toward: "Ziel: {place} · {dist} entfernt",
+    rowJourney: "{from} → {to}",
+    rowUsual: "Route {year}",
     named: "„{name}“",
     range: "{a} bis {b}",
     units: { km: "km", m: "m", cm: "cm", kg: "kg", g: "g", "km/h": "km/h", t: "Tonnen", mi: "Meilen", ft: "Fuß", in: "Zoll", lb: "Pfund", oz: "Unzen", mph: "mph", ton: "US-Tonnen" },
