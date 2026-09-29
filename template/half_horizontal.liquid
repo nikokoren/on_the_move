@@ -1,0 +1,37 @@
+{% comment %}
+  Half horizontal view (owner, 2026-09-29, wireframe board 12). Single: the
+  map left and the text right; in portrait the map on top and the text below.
+  Multi (X only, lg:): the list left (four animals, one expanded) and the map
+  right; in portrait the map on top and the list below in three columns.
+  Needs shared.liquid.
+{% endcomment %}
+
+{% if state != "ok" %}
+{% render "otm_message", species: species, status: status %}
+{% else %}
+<div class="layout">
+  <div class="{% if rows %}lg:hidden {% endif %}flex flex--row portrait:flex--col gap w--full h--full" data-otm-scope>
+    <div class="map w--[44cqw] portrait:w--full portrait:h--[58cqh] no-shrink" data-otm-map data-geo="{{ geo | escape }}">
+      <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
+        <span class="label">{{ where }}</span>
+      </div>
+    </div>
+    <div class="stretch flex flex--col flex--left flex--center-y portrait:flex--top">
+      {% render "otm_text", size: "half", species: species, name: name, where: where, toward: toward, fact: fact, status: status %}
+    </div>
+  </div>
+  {% if rows %}
+  <div class="hidden lg:flex flex--row portrait:flex--col-reverse gap w--full h--full" data-otm-scope>
+    <div class="w--[42cqw] portrait:w--full portrait:h--[52cqh] no-shrink flex flex--col flex--top" data-otm-list>
+      {% render "otm_list", rows: rows, current: current, size: 4, grid: "grid--cols-1 portrait:grid--cols-3", span: "col--span-1 portrait:col--span-3", fact_on: false, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo %}
+    </div>
+    <div class="map stretch" data-otm-map data-geo="{{ geo | escape }}">
+      <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
+        <span class="label">{{ where }}</span>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</div>
+<script>OTM.start(document.currentScript.previousElementSibling);</script>
+{% endif %}

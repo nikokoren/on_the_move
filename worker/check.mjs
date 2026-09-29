@@ -6,7 +6,7 @@
 import fs from "fs";
 import { buildFull, factIndex, renderUnits } from "./src/view.js";
 import { STRINGS } from "./src/strings.js";
-import { speciesParam, speciesList, photoParam } from "./src/params.js";
+import { speciesParam, speciesList, photoParam, layoutParam } from "./src/params.js";
 
 const data = JSON.parse(fs.readFileSync(new URL("./data/featured.json", import.meta.url)));
 const LIMIT = 5120;
@@ -127,6 +127,29 @@ const off = buildFull(data, { species: two, lang: "en", now: new Date(), photoBa
 if (parseBad.length || emptyBad.length || photoBad.length || outside || noPhoto || Object.keys(seen).length !== 2 || off.photo !== "") fails++;
 console.log(`multi select: ${forms.length} formats, ${parseBad.length} misparsed; ${emptyBad.length} bad "all" cases; photo flag ${photoBad.length} wrong; ` +
   `${setRuns} slots over a week for {stork, loggerhead}: ${JSON.stringify(seen)}, ${outside} outside the set, ${noPhoto} without photo URL, photo off -> "${off.photo}"`);
+// Multi view (owner, 2026-09-29): one row per followed species in a stable
+// order, the shown one marked, every row with a place and a when; over a week
+// every species gets its turn; one species or layout single sends no rows.
+{
+  const all = data.species.map((sp) => sp.taxon);
+  let slots = 0, bad = 0, emptyRows = 0, maxB = 0; const turns = {};
+  for (const lang of ["en", "de"]) for (let k = 0; k < 96 * 7; k += 3) {
+    const v = buildFull(data, { species: all, lang, now: new Date(Date.UTC(2026, 8, 29) + k * 900000), layout: "multi" });
+    slots++;
+    maxB = Math.max(maxB, Buffer.byteLength(JSON.stringify(v)));
+    const names = data.species.map((sp) => sp.names[lang]);
+    if (!v.rows || v.rows.length !== all.length || v.rows.some((r, i) => r.species !== names[i]) || v.rows[v.current].species !== v.species) bad++;
+    emptyRows += v.rows ? v.rows.filter((r) => !r.place || !r.when).length : 0;
+    turns[v.current] = (turns[v.current] || 0) + 1;
+  }
+  const one = buildFull(data, { species: ["Larus fuscus"], lang: "en", now: new Date(), layout: "multi" });
+  const single = buildFull(data, { species: all, lang: "en", now: new Date() });
+  const lp = [["All followed animals (TRMNL X)", "multi"], ["all_followed_animals_trmnl_x", "multi"], ["One animal", "single"], ["", "single"], [null, "single"]]
+    .filter(([x, want]) => layoutParam(x) !== want);
+  if (bad || emptyRows || Object.keys(turns).length !== all.length || "rows" in one || "rows" in single || lp.length) fails++;
+  console.log(`multi view: ${slots} slots, ${bad} bad row sets, ${emptyRows} rows without place or when, ${Object.keys(turns).length} of ${all.length} species shown in full, ` +
+    `largest payload ${maxB} bytes; one species or single layout sends rows: ${"rows" in one || "rows" in single}; layout param ${lp.length} wrong`);
+}
 console.log(`runs ${runs}, failures ${fails}, empty ${empty}, largest payload ${maxBytes} bytes, kinds ${JSON.stringify(kinds)}`);
 for (const [k, v] of Object.entries(bySpecies)) console.log(`  ${k.padEnd(28)} ok ${v.ok}  staying ${v.staying}  travelling ${v.travelling}`);
 problems.forEach((p) => console.log("  FAIL " + p));

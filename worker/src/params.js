@@ -57,3 +57,12 @@ export function langParam(value) {
 export function unitsParam(value) {
   return snake(value) === "imperial" ? "imperial" : "metric";
 }
+
+// The layout setting (owner, 2026-09-29): one animal at a time (default), or
+// the list of every followed animal with one shown in full (TRMNL X only; the
+// template shows it only where the framework's lg: classes apply). The select
+// sends a snake_cased label, so anything with "all" or "multi" in it counts.
+export function layoutParam(value) {
+  const v = snake(value);
+  return /(^|_)(all|multi|list|alle|mehrere)(_|$)/.test(v) ? "multi" : "single";
+}

@@ -1,5 +1,5 @@
-// Renders the full view in real Chromium against TRMNL's own framework and
-// MapLibre, with payloads built by the Worker from the real data (working
+// Renders the recipe's views in real Chromium against TRMNL's own framework
+// and MapLibre, with payloads built by the Worker from the real data (working
 // method rule 1). Page structure and asset loading follow nearby-nextbike
 // template/browser-check.mjs.
 //
@@ -7,6 +7,12 @@
 //
 // Writes one PNG per case and prints what it measured. Needs network (the
 // framework, MapLibre and the map tiles).
+//
+// Like TRMNL: shared.liquid is prepended to the layout's markup, its
+// {% template %} blocks become partials for {% render %}; the smaller views
+// sit in a real mashup so the framework sizes them; the screen carries the
+// breakpoint class the renderer adds by device model (OG screen--md, X
+// screen--lg; SOURCES.md, trmnl.com/framework/responsive, 2026-09-29).
 import fs from "fs";
 import os from "os";
 import path from "path";
@@ -32,23 +38,49 @@ for (const [name, url] of Object.entries(ASSETS)) {
 }
 
 const data = JSON.parse(fs.readFileSync(path.join(HERE, "../worker/data/featured.json")));
-const liquid = new Liquid();
-const tpl = fs.readFileSync(path.join(HERE, "full.liquid"), "utf8");
 
-// Every featured species on one day in English, plus German and other days
-// for the ones whose state changes (travelling, staying, live).
+// TRMNL's {% template name %}...{% endtemplate %}: lifted out of shared.liquid
+// into an in-memory file system that {% render "name" %} reads from.
+const partials = {};
+const shared = fs.readFileSync(path.join(HERE, "shared.liquid"), "utf8")
+  .replace(/{%-?\s*template\s+([\w/]+)\s*-?%}([\s\S]*?){%-?\s*endtemplate\s*-?%}/g, (_, name, body) => { partials[name] = body; return ""; });
+const memfs = {
+  readFileSync: (f) => partials[f], readFile: async (f) => partials[f],
+  existsSync: (f) => f in partials, exists: async (f) => f in partials,
+  contains: () => true, resolve: (_root, file) => file, sep: "/"
+};
+const liquid = new Liquid({ fs: memfs, root: ["/"], extname: "", relativeReference: false });
+
+// Where each view sits: the mashup that holds it and how many cells it has.
+const MASHUP = {
+  full: null,
+  half_horizontal: ["mashup--1Tx1B", 2],
+  half_vertical: ["mashup--1Lx1R", 2],
+  quadrant: ["mashup--2x2", 4]
+};
+const VIEWS = (process.env.OTM_VIEWS || "full").split(",");
+const LAYOUT = process.env.OTM_LAYOUT || "single";
+
+// Every featured species on one day, plus other days for the ones whose state
+// changes. The multi layout follows all species; its cases are refresh slots
+// over one day, so the shown species and the page move.
 const DAY = process.env.OTM_DAY || "2026-09-28";
-let cases = data.species.map((s) => [s.taxon, process.env.OTM_LANG || "en", DAY]);
-cases.push(["Ciconia ciconia", "de", "2026-08-25"], ["Lanius collurio", "de", "2026-10-10"],
-           ["Streptopelia turtur", "de", "2026-10-05"], ["Numenius madagascariensis", "en", "2026-08-20"]);
+const LANG = process.env.OTM_LANG || "en";
+let cases;
+if (LAYOUT === "multi") {
+  const n = Number(process.env.OTM_SLOTS || 6);
+  cases = Array.from({ length: n }, (_, i) => ["*", LANG, DAY, i * Math.ceil(96 / n)]);
+} else {
+  cases = data.species.map((s) => [s.taxon, LANG, DAY, 0]);
+  cases.push(["Ciconia ciconia", "de", "2026-08-25", 0], ["Lanius collurio", "de", "2026-10-10", 0],
+             ["Streptopelia turtur", "de", "2026-10-05", 0], ["Numenius madagascariensis", "en", "2026-08-20", 0]);
+}
 // OTM_ONLY="Ciconia ciconia" renders only that species' cases.
 if (process.env.OTM_ONLY) cases = cases.filter((c) => c[0] === process.env.OTM_ONLY);
-// The screen's classes: model and bit-depth mode, e.g. OTM_SCREEN="screen--ogv2" or
-// "screen--og screen--2bit". The device's depth changes how the framework paints the map.
-const SCREEN = process.env.OTM_SCREEN || "screen--og";
-// OTM_SCREENS="screen--og;screen--og screen--portrait;screen--v2;screen--v2 screen--portrait"
-// runs every case on each (the TRMNL X is screen--v2).
-const SCREENS = (process.env.OTM_SCREENS || SCREEN).split(";");
+// The screen's classes: model and orientation, e.g. "screen--og screen--portrait".
+// The breakpoint class follows the model, as TRMNL's renderer adds it.
+const SCREENS = (process.env.OTM_SCREENS || process.env.OTM_SCREEN || "screen--og").split(";");
+const withSize = (s) => /screen--(sm|md|lg)\b/.test(s) ? s : s + (/screen--v2\b/.test(s) ? " screen--lg" : " screen--md");
 
 function chromiumPath() {
   const root = process.env.PLAYWRIGHT_BROWSERS_PATH;
@@ -63,19 +95,27 @@ const browser = await chromium.launch({
 });
 
 const rows = [];
-for (const screen of SCREENS) for (const [taxon, lang, day] of cases) {
+for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang, day, slot] of cases) {
+  const tpl = shared + fs.readFileSync(path.join(HERE, view + ".liquid"), "utf8");
   // Photos from worker/photos (what the Worker serves at /photo/); OTM_PHOTO=0 renders without.
   const photoBase = process.env.OTM_PHOTO === "0" ? null : "file://" + path.join(HERE, "../worker/photos") + "/";
-  const v = buildFull(data, { species: taxon, lang, now: new Date(day + "T12:00:00Z"), photoBase });
+  const species = taxon === "*" ? data.species.map((s) => s.taxon) : taxon;
+  const now = new Date(Date.parse(day + "T00:00:00Z") + (12 * 4 + slot) * 900000);
+  const v = buildFull(data, { species, lang, now, photoBase, layout: LAYOUT });
   const html = await liquid.parseAndRender(tpl, v);
+  const cls = withSize(screen);
+  const [mashup, cells] = MASHUP[view] || [null, 1];
+  const inner = mashup
+    ? `<div class="mashup ${mashup}"><div class="view view--${view}" id="otm-view">${html}</div>${`<div class="view view--${view}"></div>`.repeat(cells - 1)}</div>`
+    : `<div class="view view--full" id="otm-view">${html}</div>`;
   const page = `<!doctype html><html><head><meta charset="utf-8">
 <link rel="stylesheet" href="file://${path.join(CACHE, "plugins.css")}">
 <script src="file://${path.join(CACHE, "plugins.js")}"></script>
 <style>html,body{margin:0;padding:0}</style></head><body class="trmnl">
-<div class="screen ${screen}"><div class="view view--full">${html}</div></div></body></html>`;
+<div class="screen ${cls}">${inner}</div></body></html>`;
   const file = path.join(OUT, "page.html");
   fs.writeFileSync(file, page);
-  // Large enough for any screen model or orientation; the shot is the .screen element.
+  // Large enough for any screen model or orientation; the shot is the view.
   const tab = await browser.newPage({ viewport: { width: 1400, height: 1400 } });
   const errors = [];
   tab.on("pageerror", (e) => errors.push(e.message));
@@ -101,66 +141,83 @@ for (const screen of SCREENS) for (const [taxon, lang, day] of cases) {
   // first draw, the way a host can resize or rotate a rendered screen; the map is
   // rebuilt by TRMNLMaps.watch and everything must follow.
   if (process.env.OTM_SWITCH) {
-    await tab.evaluate((cls) => { document.querySelector(".screen").className = "screen " + cls; }, process.env.OTM_SWITCH);
+    await tab.evaluate((c) => { document.querySelector(".screen").className = "screen " + c; }, withSize(process.env.OTM_SWITCH));
     await tab.waitForTimeout(6000);
   }
-  const got = await tab.evaluate(() => {
-    const map = window.__otmMap;
+  const got = await tab.evaluate((multiWanted) => {
     const r = (el) => el && el.getBoundingClientRect();
-    const box = r(document.getElementById("otm-box"));
-    const tags = [...document.querySelectorAll("#otm-pill")].map(r);
-    const screen = r(document.querySelector(".screen"));
-    const attrib = r(document.querySelector(".map__attribution, .maplibregl-ctrl-attrib"));
-    const hits = (t, b) => b && !(t.right < b.left || t.left > b.right || t.bottom < b.top || t.top > b.bottom);
-    const overlap = tags.some((t) => hits(t, box) || hits(t, attrib));
-    // Is the destination ring visible (on the map and not under the text box)?
-    // Then the pill is not needed; otherwise it is (owner, topic 10).
-    const g = window.__otmGeo, mapBox = r(document.getElementById("otm-map"));
-    let destVisible = null, destAt = null;
-    if (map && g && g.dest) {
-      // project() is in layout pixels, rects in on-screen pixels (the page may scale the screen).
-      const node = document.getElementById("otm-map"), k = node.offsetWidth ? mapBox.width / node.offsetWidth : 1;
-      const q = map.project(g.dest), x = mapBox.left + q.x * k, y = mapBox.top + q.y * k;
-      const m = k * 16 * (parseFloat(getComputedStyle(document.querySelector(".screen")).getPropertyValue("--content-scale")) || 1);
-      const onMap = x >= mapBox.left + m && x <= mapBox.right - m && y >= mapBox.top + m && y <= mapBox.bottom - m;
-      const underBox = box && x >= box.left - m && x <= box.right + m && y >= box.top - m && y <= box.bottom + m;
-      destVisible = onMap && !underBox;
-      destAt = { x: Math.round(x), y: Math.round(y), dest: g.dest, map: [mapBox.left, mapBox.top, mapBox.right, mapBox.bottom].map(Math.round), box: box && [box.left, box.top, box.right, box.bottom].map(Math.round) };
-    }
-    const pillNeeded = !!(g && g.dest) && destVisible === false;
-    // A pill counts as shown only if some of it is visible, i.e. not under the text box.
-    const pillShown = tags.some((t) => !(box && t.left >= box.left && t.right <= box.right && t.top >= box.top && t.bottom <= box.bottom));
-    const inside = (b) => b.left >= screen.left && b.top >= screen.top && b.right <= screen.right + 0.5 && b.bottom <= screen.bottom + 0.5;
-    return {
-      drawn: !!map && !!map.getLayer("trmnl-dot-animal"),
-      photo: (() => { const im = document.querySelector("#otm-box img"); return im ? `${Math.round(im.getBoundingClientRect().width)}x${Math.round(im.getBoundingClientRect().height)}${im.naturalWidth ? "" : " NOT LOADED"}` : "none"; })(),
-      waitingShown: getComputedStyle(document.getElementById("otm-map-waiting")).display !== "none",
-      zoom: map ? +map.getZoom().toFixed(2) : null,
-      callouts: tags.length, overlap, boxInside: inside(box), tagsInside: tags.every(inside),
-      pillNeeded, pillShown, pillRight: pillNeeded === pillShown,
-      // What the framework's map pass left: its canvases (the dither layer is one)
-      // and whether the map settled. Printed with OTM_DEBUG=1.
-      debug: {
-        destAt, ready: window.TRMNL_PLUGINS_READY, loaded: map && map.loaded(), tiles: map && map.areTilesLoaded(),
-        depth: getComputedStyle(document.querySelector(".screen")).getPropertyValue("--framework-bit-depth"),
-        canvases: [...document.querySelectorAll("#otm-map canvas")].map((c) => `${c.className || "-"}:${c.width}x${c.height}:${c.style.visibility || "visible"}`)
+    const shown = (el) => el && el.getClientRects().length > 0;
+    const viewEl = document.getElementById("otm-view");
+    const vr = r(viewEl);
+    const inside = (b, o = vr) => b.left >= o.left - 0.5 && b.top >= o.top - 0.5 && b.right <= o.right + 0.5 && b.bottom <= o.bottom + 0.5;
+    const maps = [...viewEl.querySelectorAll("[data-otm-map]")].filter(shown);
+    const drawn = maps.filter((n) => n._otmMap && n._otmMap.getLayer("trmnl-dot-animal")).length;
+    const waiting = [...viewEl.querySelectorAll("[data-otm-waiting]")].filter(shown).length;
+    // Every word on screen must be whole: no text clipped by the view or by its list.
+    const texts = [...viewEl.querySelectorAll("span, img")].filter((e) => shown(e) && !e.closest("[data-otm-toward]") && !e.closest(".maplibregl-ctrl"));
+    const clipped = texts.filter((e) => !inside(r(e))).map((e) => (e.textContent || e.tagName).trim().slice(0, 30));
+    const lists = [...viewEl.querySelectorAll("[data-otm-list]")].filter(shown);
+    const listOver = lists.filter((l) => [...l.querySelectorAll("span, img")].some((e) => !inside(r(e), r(l)))).length;
+    // The page must be the one holding the shown animal, starting on a page boundary.
+    const pageBad = [...viewEl.querySelectorAll("[data-otm-page]")].filter(shown).filter((e) => {
+      const [start, size, cur] = e.getAttribute("data-otm-page").split(" ").map(Number);
+      return !(start % size === 0 && start <= cur && cur < start + size);
+    }).length;
+    const multiShown = [...viewEl.querySelectorAll("[data-otm-list], [data-otm-cards]")].some(shown);
+    const current = [...viewEl.querySelectorAll("[data-otm-current], [data-otm-cards] .bg--black")].filter(shown).length;
+    // The pill (full view, single): needed when the destination ring is not
+    // visible (off the map or under the text box), and then shown (topic 10).
+    let pillNeeded = false, pillShown = false;
+    const pillMap = maps.find((n) => n.hasAttribute("data-otm-with-pill"));
+    if (pillMap && pillMap._otmMap) {
+      const scope = pillMap.closest("[data-otm-scope]");
+      const box = r(scope.querySelector("[data-otm-box]"));
+      const toward = (scope.querySelector("[data-otm-toward]") || {}).textContent || "";
+      const g = JSON.parse(pillMap.getAttribute("data-geo"));
+      const mb = r(pillMap);
+      if (g.dest && toward) {
+        // project() is in layout pixels, rects in on-screen pixels (the page may scale the screen).
+        const k = pillMap.offsetWidth ? mb.width / pillMap.offsetWidth : 1;
+        const q = pillMap._otmMap.project(g.dest), x = mb.left + q.x * k, y = mb.top + q.y * k;
+        const m = k * 16 * (parseFloat(getComputedStyle(document.querySelector(".screen")).getPropertyValue("--content-scale")) || 1);
+        const onMap = x >= mb.left + m && x <= mb.right - m && y >= mb.top + m && y <= mb.bottom - m;
+        const underBox = box && x >= box.left - m && x <= box.right + m && y >= box.top - m && y <= box.bottom + m;
+        pillNeeded = !(onMap && !underBox);
       }
+      const tags = [...scope.querySelectorAll("[data-otm-pill]")].map(r);
+      pillShown = tags.some((t) => !(box && t.left >= box.left && t.right <= box.right && t.top >= box.top && t.bottom <= box.bottom));
+    }
+    return {
+      maps: maps.length, drawn, waiting, clipped, listOver, multiShown, current, pageBad,
+      pillNeeded, pillShown,
+      size: `${Math.round(vr.width)}x${Math.round(vr.height)}`,
+      zoom: maps[0] && maps[0]._otmMap ? +maps[0]._otmMap.getZoom().toFixed(2) : null
     };
-  });
-  const tagScreen = SCREENS.length > 1 ? "_" + screen.replace(/screen--/g, "").replace(/ /g, "-") : "";
-  const png = path.join(OUT, `${taxon.replace(/ /g, "_")}_${lang}_${day}${tagScreen}.png`);
-  await tab.locator(".screen").screenshot({ path: png });
+  }, LAYOUT === "multi");
+  const tagScreen = SCREENS.length > 1 || VIEWS.length > 1 ? "_" + view + "_" + screen.replace(/screen--/g, "").replace(/ /g, "-") : "";
+  const png = path.join(OUT, `${taxon === "*" ? "multi-" + slot : taxon.replace(/ /g, "_")}_${lang}_${day}${tagScreen}.png`);
+  await tab.locator("#otm-view").screenshot({ path: png });
   await tab.close();
-  rows.push({ screen, taxon, lang, day, kind: v.kind, errors: errors.length, ...got, png: path.basename(png) });
+  // The multi layout shows on the X (lg) only, and only with rows in the payload.
+  const multiWanted = !!v.rows && /screen--lg/.test(cls);
+  rows.push({ view, screen, taxon: taxon === "*" ? `slot ${slot} ${v.species}` : taxon, lang, day, kind: v.kind, errors: errors.length, multiWanted, ...got, png: path.basename(png) });
 }
 await browser.close();
 
 let bad = 0;
 for (const r of rows) {
-  const ok = r.drawn && !r.waitingShown && !r.overlap && r.boxInside && r.tagsInside && !r.errors && !/NOT LOADED/.test(r.photo) && r.pillRight;
-  if (!ok) bad++;
-  console.log(`${ok ? "ok  " : "FAIL"} ${SCREENS.length > 1 ? r.screen.replace(/screen--/g, "").padEnd(14) : ""}${r.taxon.padEnd(26)} ${r.lang} ${r.day} ${r.kind.padEnd(5)} zoom ${r.zoom} pill needed ${r.pillNeeded} shown ${r.pillShown} overlap ${r.overlap} photo ${r.photo} errors ${r.errors}`);
-  if (process.env.OTM_DEBUG) console.log("     " + JSON.stringify(r.debug));
+  const why = [];
+  if (!r.maps || r.drawn !== r.maps) why.push(`drawn ${r.drawn}/${r.maps}`);
+  if (r.waiting) why.push("waiting shown");
+  if (r.clipped.length) why.push(`clipped ${JSON.stringify(r.clipped.slice(0, 3))}`);
+  if (r.listOver) why.push("list overflows");
+  if (r.multiShown !== r.multiWanted) why.push(`multi shown ${r.multiShown}, wanted ${r.multiWanted}`);
+  if (r.multiWanted && r.current !== 1) why.push(`${r.current} expanded`);
+  if (r.pageBad) why.push("wrong page");
+  if (r.pillNeeded !== r.pillShown) why.push(`pill needed ${r.pillNeeded} shown ${r.pillShown}`);
+  if (r.errors) why.push(`${r.errors} page errors`);
+  if (why.length) bad++;
+  console.log(`${why.length ? "FAIL" : "ok  "} ${r.view.padEnd(15)} ${r.screen.replace(/screen--/g, "").padEnd(12)} ${r.size.padEnd(9)} ${r.taxon.padEnd(30)} ${r.lang} ${r.day} ${String(r.kind).padEnd(5)} maps ${r.maps} pill ${r.pillNeeded ? "needed" : "-"}${why.length ? "  " + why.join("; ") : ""}`);
 }
 console.log(`\n${rows.length} cases, ${bad} failed. PNGs in ${OUT}`);
 process.exit(bad ? 1 : 0);
