@@ -31,7 +31,7 @@
 
     <div id="otm-toward" hidden>{{ toward | escape }}</div>
 
-    <div id="otm-box" class="absolute bottom--2 left--2 z--3 p--2 {% if photo != blank %}w--max-[72cqw] lg:w--max-[64cqw]{% else %}w--max-[62cqw] lg:w--max-[55cqw]{% endif %} bg--canvas outline outline--strong">
+    <div id="otm-box" class="absolute bottom--2 left--2 z--3 p--2 {% if photo != blank %}w--max-[72cqw] lg:w--max-[64cqw]{% else %}w--max-[62cqw] lg:w--max-[55cqw]{% endif %} bg--canvas outline">
       {% comment %} The species photo on the left (owner, 2026-09-29), when the
          setting is on; the Worker sends photo empty when it is off. {% endcomment %}
       <div class="flex flex--row flex--left flex--top gap">
@@ -61,7 +61,7 @@
     // The map could not be drawn; the text box still stands, so only the
     // map area changes. Nextbike: a blank panel reads as a broken device.
     var w = document.getElementById("otm-map-waiting");
-    if (w) { w.style.display = "flex"; }
+    if (w) { w.classList.remove("hidden"); }
   }
 
   function bootstrap() {
@@ -87,10 +87,6 @@
 
     function mpx(n) { return TRMNLPaint.px(n, { el: el }); }
 
-    function inkFor() {
-      var slot = TRMNLPaint.slot("map-label", { el: el, kind: "text" });
-      return (slot && (slot.ink || slot.color)) || "#000";
-    }
 
     // One zoom for every animal (owner, 2026-09-29): at zoom 3 the framework's
     // tiles carry almost no roads, a migration reads at the scale of a continent,
@@ -118,23 +114,20 @@
       return q.x >= 0 && q.y >= 0 && q.x <= box.clientWidth && q.y <= box.clientHeight;
     }
 
-    function pointerEl(sector, text, ink, paper) {
+    // The pill, in framework classes only (owner, 2026-09-29, topic 9): canvas
+    // background, the framework outline, full rounding, bold label text. It used
+    // to be styled inline, carried over from Nextbike.
+    function pointerEl(sector, text) {
       var wrap = document.createElement("div");
       wrap.className = "absolute inset--2 flex flex--row " + EDGES[sector] + " z--2";
-      wrap.style.pointerEvents = "none";
       var tag = document.createElement("div");
-      tag.className = "flex flex--row flex--center-y gap--small px--2 py--1";
-      tag.style.background = paper;
-      tag.style.border = "2px solid " + ink;
-      tag.style.borderRadius = "999px";
-      tag.style.color = ink;
-      tag.style.maxWidth = "46%";
-      tag.style.font = "700 13px/1.35 system-ui, sans-serif";
+      tag.className = "flex flex--row flex--center-y gap--small px--2 py--1 bg--canvas outline rounded--full w--max-[46cqw]";
       var arrow = document.createElement("span");
+      arrow.className = "title";
       arrow.textContent = ARROWS[sector];
-      arrow.style.fontSize = "18px";
       tag.appendChild(arrow);
       var says = document.createElement("span");
+      says.className = "label font--bold";
       says.textContent = text;
       tag.appendChild(says);
       wrap.appendChild(tag);
@@ -154,6 +147,8 @@
         var hit = !(t.right < b.left || t.left > b.right || t.bottom < b.top || t.top > b.bottom);
         if (hit) {
           // Lift the pill until its bottom sits 8 px above the obstacle's top.
+          // The one inline style left: a measured lift, geometry not styling;
+          // topic 10 (pill placement across devices) replaces this.
           var now = parseFloat(wrap.style.paddingBottom) || 0;
           wrap.style.paddingBottom = (now + (t.bottom - b.top) + 8) + "px";
         }
@@ -177,7 +172,6 @@
       // No preset drops the main roads; the owner has asked TRMNL for one.
       var map = new maplibregl.Map(TRMNLMaps.options({ el: el, preset: "outline", center: GEO.pos, zoom: ZOOM }));
       window.__otmMap = map;
-      var ink = inkFor(), paper = "#fff";
       var drewLayers = false, drewMarks = false;
 
       // Lines and dots through the framework (TRMNLMaps.route/dot), not our own
@@ -204,12 +198,12 @@
         drewMarks = true;
         anyMarks = true;
         var waiting = document.getElementById("otm-map-waiting");
-        if (waiting) { waiting.style.display = "none"; }
+        if (waiting) { waiting.classList.add("hidden"); }
 
         // The pill stands in for a destination the frame cannot show; one on
         // screen has its ring, and a pill there would cover it (seen on a device).
         if (GEO.dest && TOWARD && !onScreen(map, GEO.dest)) {
-          var tag = pointerEl(sectorOnScreen(map, GEO.pos, GEO.dest), TOWARD, ink, paper);
+          var tag = pointerEl(sectorOnScreen(map, GEO.pos, GEO.dest), TOWARD);
           document.getElementById(el).appendChild(tag);
           clearLater(tag);
         }
