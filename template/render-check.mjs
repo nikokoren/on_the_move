@@ -46,6 +46,9 @@ if (process.env.OTM_ONLY) cases = cases.filter((c) => c[0] === process.env.OTM_O
 // The screen's classes: model and bit-depth mode, e.g. OTM_SCREEN="screen--ogv2" or
 // "screen--og screen--2bit". The device's depth changes how the framework paints the map.
 const SCREEN = process.env.OTM_SCREEN || "screen--og";
+// OTM_SCREENS="screen--og;screen--og screen--portrait;screen--v2;screen--v2 screen--portrait"
+// runs every case on each (the TRMNL X is screen--v2).
+const SCREENS = (process.env.OTM_SCREENS || SCREEN).split(";");
 
 function chromiumPath() {
   const root = process.env.PLAYWRIGHT_BROWSERS_PATH;
@@ -60,7 +63,7 @@ const browser = await chromium.launch({
 });
 
 const rows = [];
-for (const [taxon, lang, day] of cases) {
+for (const screen of SCREENS) for (const [taxon, lang, day] of cases) {
   // Photos from worker/photos (what the Worker serves at /photo/); OTM_PHOTO=0 renders without.
   const photoBase = process.env.OTM_PHOTO === "0" ? null : "file://" + path.join(HERE, "../worker/photos") + "/";
   const v = buildFull(data, { species: taxon, lang, now: new Date(day + "T12:00:00Z"), photoBase });
@@ -69,10 +72,11 @@ for (const [taxon, lang, day] of cases) {
 <link rel="stylesheet" href="file://${path.join(CACHE, "plugins.css")}">
 <script src="file://${path.join(CACHE, "plugins.js")}"></script>
 <style>html,body{margin:0;padding:0}</style></head><body class="trmnl">
-<div class="screen ${SCREEN}"><div class="view view--full">${html}</div></div></body></html>`;
+<div class="screen ${screen}"><div class="view view--full">${html}</div></div></body></html>`;
   const file = path.join(OUT, "page.html");
   fs.writeFileSync(file, page);
-  const tab = await browser.newPage({ viewport: { width: 800, height: 480 } });
+  // Large enough for any screen model or orientation; the shot is the .screen element.
+  const tab = await browser.newPage({ viewport: { width: 1400, height: 1400 } });
   const errors = [];
   tab.on("pageerror", (e) => errors.push(e.message));
   // Network requests go through Node's fetch, which verifies TLS against this
@@ -93,15 +97,36 @@ for (const [taxon, lang, day] of cases) {
   });
   await tab.goto("file://" + file);
   await tab.waitForTimeout(6000);
+  // OTM_SWITCH="screen--og screen--portrait": change the screen's classes after the
+  // first draw, the way a host can resize or rotate a rendered screen; the map is
+  // rebuilt by TRMNLMaps.watch and everything must follow.
+  if (process.env.OTM_SWITCH) {
+    await tab.evaluate((cls) => { document.querySelector(".screen").className = "screen " + cls; }, process.env.OTM_SWITCH);
+    await tab.waitForTimeout(6000);
+  }
   const got = await tab.evaluate(() => {
     const map = window.__otmMap;
     const r = (el) => el && el.getBoundingClientRect();
     const box = r(document.getElementById("otm-box"));
-    const tags = [...document.querySelectorAll("#otm-map > .absolute.inset--2")].map((w) => r(w.firstChild));
+    const tags = [...document.querySelectorAll("#otm-pill")].map(r);
     const screen = r(document.querySelector(".screen"));
     const attrib = r(document.querySelector(".map__attribution, .maplibregl-ctrl-attrib"));
     const hits = (t, b) => b && !(t.right < b.left || t.left > b.right || t.bottom < b.top || t.top > b.bottom);
     const overlap = tags.some((t) => hits(t, box) || hits(t, attrib));
+    // Is the destination ring visible (on the map and not under the text box)?
+    // Then the pill is not needed; otherwise it is (owner, topic 10).
+    const g = window.__otmGeo, mapBox = r(document.getElementById("otm-map"));
+    let destVisible = null;
+    if (map && g && g.dest) {
+      const q = map.project(g.dest), x = mapBox.left + q.x, y = mapBox.top + q.y;
+      const m = 16 * (parseFloat(getComputedStyle(document.querySelector(".screen")).getPropertyValue("--content-scale")) || 1);
+      const onMap = x >= mapBox.left + m && x <= mapBox.right - m && y >= mapBox.top + m && y <= mapBox.bottom - m;
+      const underBox = box && x >= box.left - m && x <= box.right + m && y >= box.top - m && y <= box.bottom + m;
+      destVisible = onMap && !underBox;
+    }
+    const pillNeeded = !!(g && g.dest) && destVisible === false;
+    // A pill counts as shown only if some of it is visible, i.e. not under the text box.
+    const pillShown = tags.some((t) => !(box && t.left >= box.left && t.right <= box.right && t.top >= box.top && t.bottom <= box.bottom));
     const inside = (b) => b.left >= screen.left && b.top >= screen.top && b.right <= screen.right + 0.5 && b.bottom <= screen.bottom + 0.5;
     return {
       drawn: !!map && !!map.getLayer("trmnl-dot-animal"),
@@ -109,6 +134,7 @@ for (const [taxon, lang, day] of cases) {
       waitingShown: getComputedStyle(document.getElementById("otm-map-waiting")).display !== "none",
       zoom: map ? +map.getZoom().toFixed(2) : null,
       callouts: tags.length, overlap, boxInside: inside(box), tagsInside: tags.every(inside),
+      pillNeeded, pillShown, pillRight: pillNeeded === pillShown,
       // What the framework's map pass left: its canvases (the dither layer is one)
       // and whether the map settled. Printed with OTM_DEBUG=1.
       debug: {
@@ -118,18 +144,19 @@ for (const [taxon, lang, day] of cases) {
       }
     };
   });
-  const png = path.join(OUT, `${taxon.replace(/ /g, "_")}_${lang}_${day}.png`);
+  const tagScreen = SCREENS.length > 1 ? "_" + screen.replace(/screen--/g, "").replace(/ /g, "-") : "";
+  const png = path.join(OUT, `${taxon.replace(/ /g, "_")}_${lang}_${day}${tagScreen}.png`);
   await tab.locator(".screen").screenshot({ path: png });
   await tab.close();
-  rows.push({ taxon, lang, day, kind: v.kind, errors: errors.length, ...got, png: path.basename(png) });
+  rows.push({ screen, taxon, lang, day, kind: v.kind, errors: errors.length, ...got, png: path.basename(png) });
 }
 await browser.close();
 
 let bad = 0;
 for (const r of rows) {
-  const ok = r.drawn && !r.waitingShown && !r.overlap && r.boxInside && r.tagsInside && !r.errors && !/NOT LOADED/.test(r.photo);
+  const ok = r.drawn && !r.waitingShown && !r.overlap && r.boxInside && r.tagsInside && !r.errors && !/NOT LOADED/.test(r.photo) && r.pillRight;
   if (!ok) bad++;
-  console.log(`${ok ? "ok  " : "FAIL"} ${r.taxon.padEnd(26)} ${r.lang} ${r.day} ${r.kind.padEnd(5)} zoom ${r.zoom} callouts ${r.callouts} overlap ${r.overlap} photo ${r.photo} errors ${r.errors}`);
+  console.log(`${ok ? "ok  " : "FAIL"} ${SCREENS.length > 1 ? r.screen.replace(/screen--/g, "").padEnd(14) : ""}${r.taxon.padEnd(26)} ${r.lang} ${r.day} ${r.kind.padEnd(5)} zoom ${r.zoom} pill needed ${r.pillNeeded} shown ${r.pillShown} overlap ${r.overlap} photo ${r.photo} errors ${r.errors}`);
   if (process.env.OTM_DEBUG) console.log("     " + JSON.stringify(r.debug));
 }
 console.log(`\n${rows.length} cases, ${bad} failed. PNGs in ${OUT}`);
