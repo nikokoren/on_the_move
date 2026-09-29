@@ -174,11 +174,14 @@
     // under the text box; only then is the pill left out.
     function destVisible(map) {
       var box = document.getElementById("otm-box").getBoundingClientRect();
-      var frame = document.getElementById(el).getBoundingClientRect();
-      var q = map.project(GEO.dest), x = frame.left + q.x, y = frame.top + q.y;
+      var node = document.getElementById(el), frame = node.getBoundingClientRect();
+      // map.project gives layout pixels, the rects are on-screen pixels; a host
+      // that scales the screen (transform) makes them differ.
+      var k = node.offsetWidth ? frame.width / node.offsetWidth : 1;
+      var q = map.project(GEO.dest), x = frame.left + q.x * k, y = frame.top + q.y * k;
       // A margin for the ring itself: a ring touching the box or the frame edge
       // is not readable (seen: TRMNL X, Morocco's ring on the box's top edge).
-      var m = mpx(16);
+      var m = mpx(16) * k;
       var onMap = x >= frame.left + m && x <= frame.right - m && y >= frame.top + m && y <= frame.bottom - m;
       var underBox = x >= box.left - m && x <= box.right + m && y >= box.top - m && y <= box.bottom + m;
       return onMap && !underBox;

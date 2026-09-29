@@ -116,13 +116,16 @@ for (const screen of SCREENS) for (const [taxon, lang, day] of cases) {
     // Is the destination ring visible (on the map and not under the text box)?
     // Then the pill is not needed; otherwise it is (owner, topic 10).
     const g = window.__otmGeo, mapBox = r(document.getElementById("otm-map"));
-    let destVisible = null;
+    let destVisible = null, destAt = null;
     if (map && g && g.dest) {
-      const q = map.project(g.dest), x = mapBox.left + q.x, y = mapBox.top + q.y;
-      const m = 16 * (parseFloat(getComputedStyle(document.querySelector(".screen")).getPropertyValue("--content-scale")) || 1);
+      // project() is in layout pixels, rects in on-screen pixels (the page may scale the screen).
+      const node = document.getElementById("otm-map"), k = node.offsetWidth ? mapBox.width / node.offsetWidth : 1;
+      const q = map.project(g.dest), x = mapBox.left + q.x * k, y = mapBox.top + q.y * k;
+      const m = k * 16 * (parseFloat(getComputedStyle(document.querySelector(".screen")).getPropertyValue("--content-scale")) || 1);
       const onMap = x >= mapBox.left + m && x <= mapBox.right - m && y >= mapBox.top + m && y <= mapBox.bottom - m;
       const underBox = box && x >= box.left - m && x <= box.right + m && y >= box.top - m && y <= box.bottom + m;
       destVisible = onMap && !underBox;
+      destAt = { x: Math.round(x), y: Math.round(y), dest: g.dest, map: [mapBox.left, mapBox.top, mapBox.right, mapBox.bottom].map(Math.round), box: box && [box.left, box.top, box.right, box.bottom].map(Math.round) };
     }
     const pillNeeded = !!(g && g.dest) && destVisible === false;
     // A pill counts as shown only if some of it is visible, i.e. not under the text box.
@@ -138,7 +141,7 @@ for (const screen of SCREENS) for (const [taxon, lang, day] of cases) {
       // What the framework's map pass left: its canvases (the dither layer is one)
       // and whether the map settled. Printed with OTM_DEBUG=1.
       debug: {
-        ready: window.TRMNL_PLUGINS_READY, loaded: map && map.loaded(), tiles: map && map.areTilesLoaded(),
+        destAt, ready: window.TRMNL_PLUGINS_READY, loaded: map && map.loaded(), tiles: map && map.areTilesLoaded(),
         depth: getComputedStyle(document.querySelector(".screen")).getPropertyValue("--framework-bit-depth"),
         canvases: [...document.querySelectorAll("#otm-map canvas")].map((c) => `${c.className || "-"}:${c.width}x${c.height}:${c.style.visibility || "visible"}`)
       }
