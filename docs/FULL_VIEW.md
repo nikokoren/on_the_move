@@ -91,11 +91,30 @@ Open:
 
 The owner's screenshot shows the white stork Kiki in German, with TRMNL's "Refreshed" badge, so it is TRMNL's own render and not the Chromium harness.
 
-1. **Greys do not survive on 2-bit screens.** The sea is white like the land and coastlines have almost vanished (compare `docs/previews/`, rendered in Chromium, where the sea is mid grey). To investigate: how TRMNLPaint's slots resolve at 2-bit versus the browser; whether the `streets` preset relies on greys the panel drops; how Nearby Nextbike looks on the same device (its notes say the basemap dithers legibly at 1 bit). The harness renders colour, so it cannot catch this: it needs a 1-bit and 2-bit mode, or a device check.
+1. **Greys do not survive on 2-bit screens.** Cause found 2026-09-29, fix on the branch, **not confirmed on a device** (R25).
+   - We already use TRMNL's own basemap (`TRMNLMaps.options`, preset `streets`). At 1 and 2 bit the framework paints the land and sea fills as flat "key colours" and repaints them as dither patterns on each idle, but only at an integer zoom (`plugins.js`, `mapDeviceOrigin`: `if (!Number.isInteger(zoom)) return null`). `options()` rounds the zoom for that reason; our template, copied from Nextbike, put the fractional zoom back with `jumpTo`. So the pass never ran and the near-white key colour (220, 220, 214) reached the panel as white.
+   - Before/after at 2 bit (`screen--og screen--2bit`, stork, 2026-09-28): key-colour pixels 127,083 → 0; the dither layer (`canvas.map__dither`) absent → present. Picture: `docs/previews/2bit-before-after.png`.
+   - The harness renders in any framework mode now: `OTM_SCREEN="screen--og screen--2bit"` (or `screen--1bit`, `screen--ogv2`), `OTM_ONLY=<taxon>`, `OTM_DEBUG=1`.
+   - Also moved to the framework: lines and dots now come from `TRMNLMaps.route` and `TRMNLMaps.dot`. Our HTML marker vanished under the dither layer. Picture: `docs/previews/framework-route-dot-2bit-1bit.png`.
+   - Open, for the owner:
+     - (a) `route()` has no dashes, so the "headed" line is now a lighter step of the series ramp and reads faintly.
+     - (b) The zoom is rounded down, so the frame is up to twice as wide as the V1 rule.
+     - (c) Framework place labels can sit on the animal dot (Sevilla).
+
 2. **Does the data credit have to be on every render?**
    - Brief R18 as written: yes, every view shows the credit, with an abbreviated form allowed when space is short.
    - CC BY 4.0 legal code, section 3(a)(2) (checked 2026-09-28, creativecommons.org/licenses/by/4.0/legalcode.en): attribution may be given "in any reasonable manner based on the medium, means, and context", and "it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information".
    - CC0 studies need no attribution at all.
    - The OpenStreetMap credit on the map is a separate matter (the tiles' licence) and stays.
    - Options: (a) keep a short credit on screen; (b) credit only in the plugin's About section and README, which changes R18 and needs a decision; (c) show the credit only for CC BY animals. Movebank's own citation guidelines are still to be read before deciding. Not legal advice.
+   - Basemap preset (owner, 2026-09-29): `outline` instead of `streets`. The roads distract, but no framework preset has water without main roads, and `style()` can only switch off labels and buildings. At zoom 3 to 6 the two presets look almost the same (`docs/previews/presets-2bit.png`). The owner is asking TRMNL for a road-free option; we do not hide their layers ourselves (topic 9, framework-native only). Re-check `plugins.js` MAP_PRESETS when they answer.
 3. Also visible in the screenshot: the edge callout runs under TRMNL's "Refreshed" badge (top right, probably only in the preview), and map labels in local script (طنجة for Tangier), which is already open item 2 above.
+
+### More topics (owner, 2026-09-29; topics only, not yet discussed)
+
+4. **Destination arrow (edge callout):** when and why does it show up? What does it show? How is that different from the text box? Where should it sit?
+5. **Text box:** what does it show, and when does it change? (The owner said "bottom right"; the current build puts it bottom left, following Map of the Day.)
+6. **Image of the animal:** an optional picture of the species that users can switch on and off.
+7. **Position marker:** replace the dot with a bird's-eye-view icon of the animal shown.
+8. **Species setting as a multi-select:** none selected cycles through all species; several selected cycles through only those; one selected shows only that one. (Today: a single select with "all of them in turn", `template/settings.yml`.)
+9. **Framework-native layout and styling only, no "Extrawürstl" (owner, 2026-09-29).** All layout and styling through TRMNL Framework classes and components, no custom CSS or inline styles. Known deviation today: the edge callout in `template/full.liquid` is styled inline in the script (background, 2 px border, pill radius, system-ui font, font sizes, max width), carried over from Nearby Nextbike. The text box already uses framework classes only. The map lines are MapLibre layer paint, not page styling.
