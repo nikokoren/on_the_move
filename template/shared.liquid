@@ -333,8 +333,7 @@
       });
       // The framework's flex columns put a gap between rows; count it.
       var gap = parseFloat(getComputedStyle(cols[0]).rowGap) || 0;
-      function place(n) {
-        var s = Math.max(0, Math.min(now - (now % n), total - n));
+      function place(n, s) {
         var c = 0, used = 0, where = [];
         for (var i = s; i < s + n; i++) {
           var need = used ? ruled[i] + gap : bare[i];
@@ -346,8 +345,20 @@
         }
         return { s: s, where: where };
       }
+      // For each size, the regular page first (a multiple of the size, the last
+      // one moved back to be full); failing that, any other window that holds the
+      // animal in focus (seen 2026-09-30: half horizontal portrait, where the
+      // expanded row fills a column on its own, the regular page fitted 2 of 18
+      // while 3 rows beside it fitted too).
       var n = total, p = null;
-      for (; n >= 1; n--) { p = place(n); if (p) { break; } }
+      for (; n >= 1 && !p; n--) {
+        var s0 = Math.max(0, Math.min(now - (now % n), total - n));
+        p = place(n, s0);
+        for (var s1 = Math.max(0, now - n + 1); !p && s1 <= Math.min(now, total - n); s1++) {
+          if (s1 !== s0) { p = place(n, s1); }
+        }
+      }
+      n++;
       if (!p) { n = 1; p = { s: now, where: [0] }; }
       items.forEach(function (it) { it.classList.add("hidden"); });
       var last = -1;
