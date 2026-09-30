@@ -159,6 +159,15 @@ for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang,
     // Every word on screen must be whole: no text clipped by the view or by its list.
     const texts = [...viewEl.querySelectorAll("span, img")].filter((e) => shown(e) && !e.closest("[data-otm-toward]") && !e.closest(".maplibregl-ctrl"));
     const clipped = texts.filter((e) => !inside(r(e))).map((e) => (e.textContent || e.tagName).trim().slice(0, 30));
+    // Text on text (seen 2026-09-30 on TRMNL's preview: a full column squeezed the
+    // expanded row's lines into each other): no two visible spans may overlap.
+    const spans = texts.filter((e) => e.tagName === "SPAN" && e.getBoundingClientRect().width > 0);
+    const collide = [];
+    for (let a = 0; a < spans.length; a++) for (let b = a + 1; b < spans.length; b++) {
+      if (spans[a].contains(spans[b]) || spans[b].contains(spans[a])) continue;
+      const p = r(spans[a]), q = r(spans[b]);
+      if (Math.min(p.right, q.right) - Math.max(p.left, q.left) > 1 && Math.min(p.bottom, q.bottom) - Math.max(p.top, q.top) > 1) collide.push(spans[a].textContent.trim().slice(0, 20) + " / " + spans[b].textContent.trim().slice(0, 20));
+    }
     const lists = [...viewEl.querySelectorAll("[data-otm-list]")].filter(shown);
     const listOver = lists.filter((l) => [...l.querySelectorAll("span, img")].some((e) => !inside(r(e), r(l)))).length;
     // The page must be the one holding the shown animal, starting on a page boundary.
@@ -191,7 +200,7 @@ for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang,
       pillShown = tags.some((t) => !(box && t.left >= box.left && t.right <= box.right && t.top >= box.top && t.bottom <= box.bottom));
     }
     return {
-      maps: maps.length, drawn, waiting, clipped, listOver, multiShown, current, pageBad,
+      maps: maps.length, drawn, waiting, clipped, collide, listOver, multiShown, current, pageBad,
       pillNeeded, pillShown,
       size: `${Math.round(vr.width)}x${Math.round(vr.height)}`,
       zoom: maps[0] && maps[0]._otmMap ? +maps[0]._otmMap.getZoom().toFixed(2) : null
@@ -217,6 +226,7 @@ for (const r of rows) {
   if (r.waiting) why.push("waiting shown");
   if (r.clipped.length) why.push(`clipped ${JSON.stringify(r.clipped.slice(0, 3))}`);
   if (r.listOver) why.push("list overflows");
+  if (r.collide.length) why.push(`text overlaps ${JSON.stringify(r.collide.slice(0, 2))}`);
   if (r.multiShown !== r.multiWanted) why.push(`multi shown ${r.multiShown}, wanted ${r.multiWanted}`);
   if (r.multiWanted && r.current !== 1) why.push(`${r.current} expanded`);
   if (r.pageBad) why.push("wrong page");

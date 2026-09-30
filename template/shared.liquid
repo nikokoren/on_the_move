@@ -30,24 +30,24 @@
   <span class="title lg:title--large">{{ where }}</span>
   {% if toward != "" %}<span class="label lg:label--large">{{ toward }}</span>{% endif %}
   <span class="description lg:description--large">{{ fact }}</span>
-  <span class="label label--small">{{ status }}</span>
 </div>
 {% else %}
 <div class="flex flex--col flex--left gap--xsmall text--left">
   <span class="title title--small">{{ species }}{% if name != "" %} · {{ name }}{% endif %}</span>
   <span class="label">{{ where }}</span>
-  <span class="label label--small">{{ status }}</span>
 </div>
 {% endif %}
 {% endtemplate %}
 
 {% comment %} The multi layout's list (owner, 2026-09-29/30): every followed animal
    in a stable order, paged; the shown one expanded in place, inverted, with photo,
-   destination and fact. No marker beside the names (owner: its meaning was not
-   obvious). Pages start at a multiple of the page size. modulo, not divided_by:
+   destination and fact; the others with a word of context before the place
+   ("Winterquartier: Spanien"), divided by the framework's divider. No marker
+   beside the names (owner: its meaning was not obvious). The date of the last
+   position is on the map (otm_stamp). Pages start at a multiple of the page size. modulo, not divided_by:
    Ruby Liquid floors integer division, liquidjs (the render check) does not. {% endcomment %}
 {% template otm_open %}
-<div class="flex flex--col flex--left gap--xsmall p--2 rounded bg--black text--white text--left w--full" data-otm-current>
+<div class="flex flex--col flex--left gap--xsmall p--2 rounded bg--black text--white text--left w--full no-shrink" data-otm-current>
   <div class="flex flex--row flex--left flex--top gap--small">
     {% if photo != blank %}<img class="image image--cover w--20 h--20 no-shrink" src="{{ photo }}" alt="">{% endif %}
     <div class="flex flex--col flex--left gap--xsmall">
@@ -57,14 +57,13 @@
     </div>
   </div>
   {% if fact_on %}<span class="description text--white">{{ fact }}</span>{% endif %}
-  <span class="label label--small text--white">{{ status }}</span>
 </div>
 {% endtemplate %}
 
 {% template otm_row %}
-<div class="flex flex--col flex--left px--2 py--1 w--full" data-otm-row>
+<div class="flex flex--col flex--left px--2 py--1 w--full no-shrink" data-otm-row>
   <span class="label font--bold">{{ r.species }}{% if r.name != "" %} · {{ r.name }}{% endif %}</span>
-  <span class="label label--small">{{ r.place }} · {{ r.when }}</span>
+  <span class="label label--small">{{ r.place }}</span>
 </div>
 {% endtemplate %}
 
@@ -74,6 +73,7 @@
 <div class="flex flex--col flex--bottom flex--left gap--small h--full w--full">
   {% for r in rows offset: from limit: count %}
   {% assign i = forloop.index0 | plus: from %}
+  {% unless forloop.first %}<div class="divider no-shrink"></div>{% endunless %}
   {% if i == current %}
   {% render "otm_open", species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo, fact_on: fact_on %}
   {% else %}
@@ -86,6 +86,14 @@
 {% comment %} A page in one column (size rows) or in two (cols: 2, size rows per
    column): the left column fills first, each anchored to the bottom, and the
    expanded animal stays in its column (owner, 2026-09-30). {% endcomment %}
+{% comment %} The date of the shown animal's last position (or "usually here, route
+   from …"), small, in the map's top left corner, in every view (owner, 2026-09-30:
+   out of the text, which was tight; D3 stays met). In the multi list only the
+   animal in focus has one; the other rows carry the place alone. {% endcomment %}
+{% template otm_stamp %}
+<div class="absolute top--2 left--2 z--3 px--1 bg--canvas" data-otm-stamp><span class="label label--small">{{ status }}</span></div>
+{% endtemplate %}
+
 {% template otm_list %}
 {% assign per = size | times: cols %}
 {% assign into = current | modulo: per %}
@@ -206,6 +214,9 @@
       var tag = wrap.firstChild;
       var credit = node.querySelector(".map__attribution, .maplibregl-ctrl-attrib");
       if (!overlaps(tag, box) && overlaps(tag, credit)) { wrap.classList.add("pb--6"); }
+      // The date sits top left on the map; a pill there steps down below it.
+      var stamp = scope.querySelector("[data-otm-stamp]");
+      if (overlaps(tag, stamp)) { wrap.classList.add("pt--6"); }
       var corner = scope.querySelector("[data-otm-corner]");
       if (corner && (overlaps(tag, box) || overlaps(tag, credit))) {
         wrap.parentNode.removeChild(wrap);

@@ -96,6 +96,14 @@ export function legAt(stays, d) {
 // The two longest stays are the animal's home ranges (summer and winter); any
 // other stay is a stopover on the way. Seen 2026-09-29 on a device: a crane
 // resting four weeks south of Volgograd was shown as if it lived there.
+// The home stay that holds 15 January, or else the one whose middle lies nearest to it.
+function isWinterHome(homes, stay) {
+  const JAN15 = 14;
+  const holding = homes.find((h) => within(JAN15, h[0], h[1]));
+  if (holding) return holding === stay;
+  const gap = (h) => { const mid = (h[0] + ((h[1] - h[0] + 366) % 366) / 2) % 366; const d = Math.abs(mid - JAN15); return Math.min(d, 366 - d); };
+  return homes.reduce((a, b) => (gap(b) < gap(a) ? b : a)) === stay;
+}
 function homeStays(stays) {
   if (stays.length <= 2) return stays;
   const len = (s) => (s[1] - s[0] + 366) % 366 + 1;
@@ -281,7 +289,12 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, uni
   // The short forms for the multi view's list rows: where, and when (the date of
   // the last fix, or the year of the route used; D3).
   const moving = !leg.staying && !stop && from !== to;
-  const short = leg.staying ? name(leg.here[4]) : stop ? name(stop[4]) : moving ? fill(t.rowJourney, { from, to }) : to;
+  // Which home it is at: the one that holds mid-January is the winter range (for
+  // southern wintering grounds too: the non-breeding season), the other the summer range.
+  const winter = leg.staying && isWinterHome(homes, leg.here);
+  const short = leg.staying ? fill(winter ? t.rowWinter : t.rowSummer, { place: name(leg.here[4]) })
+    : stop ? fill(t.rowStopover, { place: name(stop[4]) })
+    : moving ? fill(t.rowJourney, { from, to }) : to;
   const when = live ? fmtDate(t, lastFix, false) : fill(t.rowUsual, { year });
 
   const ref = here[0];

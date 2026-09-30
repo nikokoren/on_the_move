@@ -21,6 +21,7 @@
       </div>
     </div>
     <div class="map w--[40cqw] portrait:w--full portrait:h--[50cqh] no-shrink" data-otm-map data-geo="{{ geo | escape }}">
+      {% render "otm_stamp", status: status %}
       <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
         <span class="label">{{ where }}</span>
       </div>
@@ -34,6 +35,7 @@
       {% render "otm_list", rows: rows, current: current, size: 4, cols: 1, fact_on: false, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo %}
     </div>
     <div class="map stretch" data-otm-map data-geo="{{ geo | escape }}">
+      {% render "otm_stamp", status: status %}
       <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
         <span class="label">{{ where }}</span>
       </div>
@@ -41,6 +43,7 @@
   </div>
   <div class="hidden lg:flex landscape:hidden flex--col gap w--full h--full" data-otm-scope>
     <div class="map h--[46cqh] w--full no-shrink" data-otm-map data-geo="{{ geo | escape }}">
+      {% render "otm_stamp", status: status %}
       <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
         <span class="label">{{ where }}</span>
       </div>
