@@ -17,6 +17,7 @@
 <div class="layout">
   <div class="{% if rows %}lg:hidden {% endif %}relative w--full h--full" data-otm-scope>
     <div class="map w--full h--full" data-otm-map data-otm-with-pill data-geo="{{ geo | escape }}">
+      {% render "otm_stamp", status: status %}
 
       {% comment %} Shown until the map draws, and instead of it if it never
          does: the words alone still answer the question. {% endcomment %}
@@ -36,7 +37,6 @@
         <div class="flex flex--col flex--left gap--xsmall text--left">
           <span class="title title--small">{{ species }}{% if name != "" %} · {{ name }}{% endif %}</span>
           <span class="label">{{ where }}</span>
-          <span class="label label--small">{{ status }}</span>
           <span class="description">{{ fact }}</span>
         </div>
         </div>
@@ -51,16 +51,18 @@
      Portrait: the map on top, two columns below. {% endcomment %}
   <div class="hidden lg:flex portrait:hidden flex--row gap w--full h--full" data-otm-scope>
     <div class="w--[34cqw] h--full no-shrink" data-otm-list>
-      {% render "otm_list", rows: rows, current: current, size: 10, cols: 1, fact_on: true, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo %}
+      {% render "otm_list", rows: rows, current: current, size: 9, cols: 1, fact_on: true, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo %}
     </div>
     <div class="map stretch" data-otm-map data-geo="{{ geo | escape }}">
+      {% render "otm_stamp", status: status %}
       <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
         <span class="label">{{ where }}</span>
       </div>
     </div>
   </div>
   <div class="hidden lg:flex landscape:hidden flex--col gap w--full h--full" data-otm-scope>
-    <div class="map h--[50cqh] w--full no-shrink" data-otm-map data-geo="{{ geo | escape }}">
+    <div class="map h--[46cqh] w--full no-shrink" data-otm-map data-geo="{{ geo | escape }}">
+      {% render "otm_stamp", status: status %}
       <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
         <span class="label">{{ where }}</span>
       </div>

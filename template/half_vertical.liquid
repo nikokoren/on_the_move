@@ -14,6 +14,7 @@
      photo filling the rest; without the photo the map takes the room. {% endcomment %}
   <div class="{% if rows %}lg:hidden {% endif %}flex flex--col gap w--full h--full" data-otm-scope>
     <div class="map {% if photo != blank %}h--[42cqh]{% else %}h--[62cqh] portrait:h--[56cqh]{% endif %} w--full no-shrink" data-otm-map data-geo="{{ geo | escape }}">
+      {% render "otm_stamp", status: status %}
       <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
         <span class="label">{{ where }}</span>
       </div>
@@ -26,6 +27,7 @@
   {% if rows %}
   <div class="hidden lg:flex flex--col gap w--full h--full" data-otm-scope>
     <div class="map h--[38cqh] portrait:h--[50cqh] w--full no-shrink" data-otm-map data-geo="{{ geo | escape }}">
+      {% render "otm_stamp", status: status %}
       <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
         <span class="label">{{ where }}</span>
       </div>

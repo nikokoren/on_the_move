@@ -6,6 +6,7 @@
 import fs from "fs";
 import { buildFull, factIndex, renderUnits, km } from "./src/view.js";
 import { STRINGS } from "./src/strings.js";
+import { PLACES } from "./src/places.js";
 import { speciesParam, speciesList, photoParam, layoutParam } from "./src/params.js";
 
 const data = JSON.parse(fs.readFileSync(new URL("./data/featured.json", import.meta.url)));
@@ -163,6 +164,14 @@ console.log(`multi select: ${forms.length} formats, ${parseBad.length} misparsed
   const ok = /^Lithuania/.test(v.where) && /Poland/.test(v.toward) && !back;
   if (!ok) fails++;
   console.log(`late departure (crane, fix 29 Sep in Lithuania): "${v.where}" | "${v.toward}" | past line reaches ${back ? "Poland (wrong)" : "only Lithuania"} -> ${ok ? "ok" : "FAIL"}`);
+}
+// Place names (owner, 2026-09-30): every place in the data has a curated entry
+// with its "in" form in both languages (src/places.js).
+{
+  const missing = data.places.filter((p) => !PLACES[p.en] || !PLACES[p.en].inDe || !PLACES[p.en].inEn).map((p) => p.en);
+  const extra = Object.keys(PLACES).filter((k) => !data.places.some((p) => p.en === k));
+  if (missing.length) fails++;
+  console.log(`places: ${data.places.length} in the data, ${missing.length} without an "in" form ${JSON.stringify(missing)}, ${extra.length} curated but unused ${JSON.stringify(extra)}`);
 }
 console.log(`runs ${runs}, failures ${fails}, empty ${empty}, largest payload ${maxBytes} bytes, kinds ${JSON.stringify(kinds)}`);
 for (const [k, v] of Object.entries(bySpecies)) console.log(`  ${k.padEnd(28)} ok ${v.ok}  staying ${v.staying}  travelling ${v.travelling}`);

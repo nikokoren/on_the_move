@@ -21,10 +21,15 @@ export const STRINGS = {
     // The multi view's list rows (owner, 2026-09-29): place, and when.
     rowJourney: "{from} → {to}",
     rowUsual: "{year} route",
+    // Staying places in the list (owner, 2026-09-30): which home, or a stopover.
+    rowWinter: "Wintering {in}",
+    rowSummer: "Summering {in}",
+    rowStopover: "Stopover {in}",
     named: "“{name}”",
     range: "{a} to {b}",
     units: { km: "km", m: "m", cm: "cm", kg: "kg", g: "g", "km/h": "km/h", t: "tonnes", mi: "mi", ft: "ft", in: "in", lb: "lb", oz: "oz", mph: "mph", ton: "US tons" },
     somewhere: "open water",
+    somewhereIn: "on open water",
     facts: {
       yearKm: "Covers at least {dist} a year, measured from stay to stay.",
       southmost: "Gets as far south as {lat} in a year.",
@@ -57,10 +62,14 @@ export const STRINGS = {
     toward: "Ziel: {place} · {dist} entfernt",
     rowJourney: "{from} → {to}",
     rowUsual: "Route {year}",
+    rowWinter: "Im Winterquartier {in}",
+    rowSummer: "Im Sommerquartier {in}",
+    rowStopover: "Rastet {in}",
     named: "„{name}“",
     range: "{a} bis {b}",
     units: { km: "km", m: "m", cm: "cm", kg: "kg", g: "g", "km/h": "km/h", t: "Tonnen", mi: "Meilen", ft: "Fuß", in: "Zoll", lb: "Pfund", oz: "Unzen", mph: "mph", ton: "US-Tonnen" },
     somewhere: "offenes Meer",
+    somewhereIn: "auf offenem Meer",
     facts: {
       yearKm: "Legt im Jahr mindestens {dist} zurück, gemessen von Rastgebiet zu Rastgebiet.",
       southmost: "Kommt im Lauf des Jahres bis {lat} nach Süden.",

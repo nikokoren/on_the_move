@@ -2,6 +2,7 @@
 // against the real data (working method rule 1). Decisions S2, F1, V1.
 
 import { STRINGS, fill } from "./strings.js";
+import { PLACES } from "./places.js";
 
 export const LIVE_DAYS = 14;
 // A live fix this far from the stay its date implies, and within it of the previous
@@ -96,6 +97,14 @@ export function legAt(stays, d) {
 // The two longest stays are the animal's home ranges (summer and winter); any
 // other stay is a stopover on the way. Seen 2026-09-29 on a device: a crane
 // resting four weeks south of Volgograd was shown as if it lived there.
+// The home stay that holds 15 January, or else the one whose middle lies nearest to it.
+function isWinterHome(homes, stay) {
+  const JAN15 = 14;
+  const holding = homes.find((h) => within(JAN15, h[0], h[1]));
+  if (holding) return holding === stay;
+  const gap = (h) => { const mid = (h[0] + ((h[1] - h[0] + 366) % 366) / 2) % 366; const d = Math.abs(mid - JAN15); return Math.min(d, 366 - d); };
+  return homes.reduce((a, b) => (gap(b) < gap(a) ? b : a)) === stay;
+}
 function homeStays(stays) {
   if (stays.length <= 2) return stays;
   const len = (s) => (s[1] - s[0] + 366) % 366 + 1;
@@ -219,7 +228,11 @@ function pickFact(t, lang, sp, a, turn, units) {
 // One animal on one day. Returns null when this animal has no position today.
 function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, units = "metric", withFact = true) {
   const places = data.places;
-  const name = (i) => (i >= 0 && places[i] ? places[i][lang] : t.somewhere);
+  // Short forms where the source name is long ("USA", "Pazifik"), and the "in"
+  // form for sentences ("im Sudan"); src/places.js (owner, 2026-09-30).
+  const cur = (i) => (i >= 0 && places[i] ? PLACES[places[i].en] || {} : null);
+  const name = (i) => { const c = cur(i); return c ? c[lang] || places[i][lang] : t.somewhere; };
+  const nameIn = (i) => { const c = cur(i); return c ? c[lang === "de" ? "inDe" : "inEn"] || `in ${name(i)}` : t.somewhereIn; };
   const lastFix = a.lastFix ? new Date(a.lastFix + "T12:00:00Z") : null;
   // Age in days must be 0..LIVE_DAYS: a fix from the viewer's future is not live
   // (the sweep caught this: every day before the snapshot counted as live).
@@ -281,7 +294,12 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, uni
   // The short forms for the multi view's list rows: where, and when (the date of
   // the last fix, or the year of the route used; D3).
   const moving = !leg.staying && !stop && from !== to;
-  const short = leg.staying ? name(leg.here[4]) : stop ? name(stop[4]) : moving ? fill(t.rowJourney, { from, to }) : to;
+  // Which home it is at: the one that holds mid-January is the winter range (for
+  // southern wintering grounds too: the non-breeding season), the other the summer range.
+  const winter = leg.staying && isWinterHome(homes, leg.here);
+  const short = leg.staying ? fill(winter ? t.rowWinter : t.rowSummer, { in: nameIn(leg.here[4]) })
+    : stop ? fill(t.rowStopover, { in: nameIn(stop[4]) })
+    : moving ? fill(t.rowJourney, { from, to }) : to;
   const when = live ? fmtDate(t, lastFix, false) : fill(t.rowUsual, { year });
 
   const ref = here[0];
