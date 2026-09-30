@@ -32,7 +32,7 @@
      right; in portrait the map on top and two columns below. {% endcomment %}
   <div class="hidden lg:flex portrait:hidden flex--row gap w--full h--full" data-otm-scope>
     <div class="w--[40cqw] h--full no-shrink" data-otm-list>
-      {% render "otm_list", rows: rows, current: current, size: 4, cols: 1, fact_on: false, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo %}
+      {% render "otm_list", rows: rows, current: current, size: 4, cols: 1, fact_on: false, species: species, name: name, where: focus, toward: toward, fact: fact, status: status, photo: photo %}
     </div>
     <div class="map stretch" data-otm-map data-geo="{{ geo | escape }}">
       {% render "otm_stamp", status: status %}
@@ -49,7 +49,7 @@
       </div>
     </div>
     <div class="stretch w--full" data-otm-list>
-      {% render "otm_list", rows: rows, current: current, size: 2, cols: 2, fact_on: false, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo %}
+      {% render "otm_list", rows: rows, current: current, size: 2, cols: 2, fact_on: false, species: species, name: name, where: focus, toward: toward, fact: fact, status: status, photo: photo %}
     </div>
   </div>
   {% endif %}
