@@ -44,8 +44,7 @@
    destination and fact; the others with a word of context before the place
    ("Winterquartier: Spanien"), divided by the framework's divider. No marker
    beside the names (owner: its meaning was not obvious). The date of the last
-   position is on the map (otm_stamp). Pages start at a multiple of the page size. modulo, not divided_by:
-   Ruby Liquid floors integer division, liquidjs (the render check) does not. {% endcomment %}
+   position is on the map (otm_stamp). {% endcomment %}
 {% template otm_open %}
 <div class="flex flex--col flex--left gap--xsmall p--2 rounded bg--black text--white text--left w--full no-shrink" data-otm-current>
   <div class="flex flex--row flex--left flex--top gap--small">
@@ -67,25 +66,6 @@
 </div>
 {% endtemplate %}
 
-{% comment %} One column of a page, anchored to the bottom: with fewer animals than
-   fit, the space is above (owner, 2026-09-30). {% endcomment %}
-{% template otm_column %}
-<div class="flex flex--col flex--bottom flex--left gap--small h--full w--full">
-  {% for r in rows offset: from limit: count %}
-  {% assign i = forloop.index0 | plus: from %}
-  {% unless forloop.first %}<div class="divider no-shrink"></div>{% endunless %}
-  {% if i == current %}
-  {% render "otm_open", species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo, fact_on: fact_on %}
-  {% else %}
-  {% render "otm_row", r: r %}
-  {% endif %}
-  {% endfor %}
-</div>
-{% endtemplate %}
-
-{% comment %} A page in one column (size rows) or in two (cols: 2, size rows per
-   column): the left column fills first, each anchored to the bottom, and the
-   expanded animal stays in its column (owner, 2026-09-30). {% endcomment %}
 {% comment %} The date of the shown animal's last position (or "usually here, route
    from …"), small, in the map's top left corner, in every view (owner, 2026-09-30:
    out of the text, which was tight; D3 stays met). In the multi list only the
@@ -94,21 +74,36 @@
 <div class="absolute top--2 left--2 z--3 px--1 bg--canvas" data-otm-stamp><span class="label label--small">{{ status }}</span></div>
 {% endtemplate %}
 
+{% comment %} The list (owner, 2026-09-30: as many animals as fit, the second
+   column used when there are enough). Every followed animal is in the markup, in
+   the stable order; the script (OTM.fit) measures the columns on the device and
+   shows the largest window around the animal in focus that fits: pages of that
+   size, the last one moved back so it is full; the left column fills first, each
+   anchored to the bottom, a divider between rows. Without the script the page
+   below (size rows per column, all in the first column) stands.
+   modulo, not divided_by: Ruby Liquid floors integer division, liquidjs (the
+   render check) does not. {% endcomment %}
 {% template otm_list %}
 {% assign per = size | times: cols %}
 {% assign into = current | modulo: per %}
 {% assign start = current | minus: into %}
-{% if cols == 2 %}
-{% assign second = start | plus: size %}
-<div class="grid grid--cols-2 gap w--full h--full" data-otm-page="{{ start }} {{ per }} {{ current }}">
-  {% render "otm_column", rows: rows, from: start, count: size, current: current, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo, fact_on: fact_on %}
-  {% render "otm_column", rows: rows, from: second, count: size, current: current, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo, fact_on: fact_on %}
+{% assign stop = start | plus: per %}
+<div class="grid grid--cols-{{ cols }} gap w--full h--full" data-otm-fit data-otm-now="{{ current }}" data-otm-page="{{ start }} {{ per }} {{ current }}">
+  <div class="flex flex--col flex--bottom flex--left h--full w--full" data-otm-col>
+    {% for r in rows %}
+    {% assign i = forloop.index0 %}
+    <div class="flex flex--col flex--left gap--small w--full no-shrink{% if i < start or i >= stop %} hidden{% endif %}" data-otm-item="{{ i }}">
+      <div class="divider no-shrink{% if i == start %} hidden{% endif %}" data-otm-divider></div>
+      {% if i == current %}
+      {% render "otm_open", species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo, fact_on: fact_on %}
+      {% else %}
+      {% render "otm_row", r: r %}
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% if cols == 2 %}<div class="flex flex--col flex--bottom flex--left h--full w--full" data-otm-col></div>{% endif %}
 </div>
-{% else %}
-<div class="w--full h--full" data-otm-page="{{ start }} {{ per }} {{ current }}">
-  {% render "otm_column", rows: rows, from: start, count: size, current: current, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo, fact_on: fact_on %}
-</div>
-{% endif %}
 {% endtemplate %}
 
 <link rel="preconnect" href="https://trmnl.com" crossorigin>
@@ -312,6 +307,84 @@
       }
     }
 
+    // The list: the largest window around the animal in focus that fits the
+    // columns as measured here (owner, 2026-09-30: fixed page sizes left space
+    // empty on some screens and pushed a row out on others). Pages have that
+    // size; the last one moves back so it is full. The left column fills first.
+    function fit(box) {
+      var cols = [].slice.call(box.querySelectorAll("[data-otm-col]"));
+      // By index, not DOM order: a fit moves rows between and within columns, and
+      // it runs again when fonts land or the size changes.
+      var items = [].slice.call(box.querySelectorAll("[data-otm-item]")).sort(function (a, b) {
+        return Number(a.getAttribute("data-otm-item")) - Number(b.getAttribute("data-otm-item"));
+      });
+      var now = Number(box.getAttribute("data-otm-now")), total = items.length;
+      if (!cols.length || !total || !(now >= 0)) { return; }
+      items.forEach(function (it) { it.classList.remove("hidden"); cols[0].appendChild(it); });
+      // The list's own box: its height is set by the layout; a column grows with what is in it.
+      var H = box.clientHeight;
+      if (!H) { return; }
+      // Heights as the first in a column (no divider) and after another (with it).
+      var bare = [], ruled = [];
+      items.forEach(function (it) {
+        var d = it.querySelector("[data-otm-divider]");
+        d.classList.add("hidden"); bare.push(it.offsetHeight);
+        d.classList.remove("hidden"); ruled.push(it.offsetHeight);
+      });
+      // The framework's flex columns put a gap between rows; count it.
+      var gap = parseFloat(getComputedStyle(cols[0]).rowGap) || 0;
+      function place(n) {
+        var s = Math.max(0, Math.min(now - (now % n), total - n));
+        var c = 0, used = 0, where = [];
+        for (var i = s; i < s + n; i++) {
+          var need = used ? ruled[i] + gap : bare[i];
+          if (used + need > H + 0.5) {
+            c++; used = 0; need = bare[i];
+            if (c >= cols.length || need > H + 0.5) { return null; }
+          }
+          where.push(c); used += need;
+        }
+        return { s: s, where: where };
+      }
+      var n = total, p = null;
+      for (; n >= 1; n--) { p = place(n); if (p) { break; } }
+      if (!p) { n = 1; p = { s: now, where: [0] }; }
+      items.forEach(function (it) { it.classList.add("hidden"); });
+      var last = -1;
+      for (var k = 0; k < n; k++) {
+        var it = items[p.s + k], c = p.where[k];
+        it.classList.remove("hidden");
+        cols[c].appendChild(it);
+        it.querySelector("[data-otm-divider]").classList.toggle("hidden", c !== last ? true : false);
+        last = c;
+      }
+      box.setAttribute("data-otm-page", p.s + " " + n + " " + now);
+    }
+
+    // Fits each list when it is on screen, again when it changes size (the X's
+    // class arrives late, the screen turns) and once the fonts are in.
+    function fitAll(root) {
+      [].slice.call(root.querySelectorAll("[data-otm-fit]")).forEach(function (box) {
+        var run = function () { if (box.getClientRects().length) { try { fit(box); } catch (e) { /* the page below stands */ } } };
+        run();
+        if (typeof ResizeObserver !== "undefined") {
+          var w = -1, h = -1;
+          new ResizeObserver(function () {
+            if (box.clientWidth === w && box.clientHeight === h) { return; }
+            w = box.clientWidth; h = box.clientHeight; run();
+          }).observe(box);
+        }
+        // Text sets row heights: fit again when fonts land (a font arriving after
+        // the first fit made rows taller than measured) and once the page settles.
+        if (document.fonts) {
+          if (document.fonts.ready) { document.fonts.ready.then(run); }
+          if (document.fonts.addEventListener) { document.fonts.addEventListener("loadingdone", run); }
+        }
+        window.addEventListener("load", run);
+        setTimeout(run, 1500);
+      });
+    }
+
     // Draws every map in root once it is on screen: a layout can carry the single
     // and the multi version side by side, and the framework's lg: classes hide one.
     // A map hidden at load is drawn when it appears: TRMNL's preview sets the size
@@ -329,7 +402,8 @@
           watch.observe(node);
         });
       }
-      if (document.readyState === "loading") { document.addEventListener("DOMContentLoaded", go); } else { go(); }
+      function both() { fitAll(root); go(); }
+      if (document.readyState === "loading") { document.addEventListener("DOMContentLoaded", both); } else { both(); }
     }
 
     return { start: start };

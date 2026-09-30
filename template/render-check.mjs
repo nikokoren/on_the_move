@@ -169,12 +169,18 @@ for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang,
       if (Math.min(p.right, q.right) - Math.max(p.left, q.left) > 1 && Math.min(p.bottom, q.bottom) - Math.max(p.top, q.top) > 1) collide.push(spans[a].textContent.trim().slice(0, 20) + " / " + spans[b].textContent.trim().slice(0, 20));
     }
     const lists = [...viewEl.querySelectorAll("[data-otm-list]")].filter(shown);
-    const listOver = lists.filter((l) => [...l.querySelectorAll("span, img")].some((e) => !inside(r(e), r(l)))).length;
+    const overBy = [];
+    lists.forEach((l) => { const L = r(l); [...l.querySelectorAll("span, img")].filter(shown).forEach((e) => { const b = r(e);
+      const d = Math.max(L.left - b.left, L.top - b.top, b.right - L.right, b.bottom - L.bottom); if (d > 0.5) overBy.push(`${(e.textContent || e.tagName).trim().slice(0, 18)} +${d.toFixed(1)}px`); }); });
+    const listOver = overBy.length;
     // The page must be the one holding the shown animal, starting on a page boundary.
     const pageBad = [...viewEl.querySelectorAll("[data-otm-page]")].filter(shown).filter((e) => {
       const [start, size, cur] = e.getAttribute("data-otm-page").split(" ").map(Number);
-      return !(start % size === 0 && start <= cur && cur < start + size);
+      // Measured on the device since 2026-09-30: any start, as long as the page holds the animal in focus.
+      return !(start <= cur && cur < start + size);
     }).length;
+    const shownRows = [...viewEl.querySelectorAll("[data-otm-item]")].filter(shown).length;
+    const colsUsed = [...viewEl.querySelectorAll("[data-otm-col]")].filter((c) => shown(c) && [...c.children].some(shown)).length;
     const multiShown = [...viewEl.querySelectorAll("[data-otm-list], [data-otm-cards]")].some(shown);
     const current = [...viewEl.querySelectorAll("[data-otm-current], [data-otm-cards] .bg--black")].filter(shown).length;
     // The pill (full view, single): needed when the destination ring is not
@@ -200,7 +206,7 @@ for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang,
       pillShown = tags.some((t) => !(box && t.left >= box.left && t.right <= box.right && t.top >= box.top && t.bottom <= box.bottom));
     }
     return {
-      maps: maps.length, drawn, waiting, clipped, collide, listOver, multiShown, current, pageBad,
+      maps: maps.length, drawn, waiting, clipped, collide, listOver, overBy, multiShown, current, pageBad, shownRows, colsUsed,
       pillNeeded, pillShown,
       size: `${Math.round(vr.width)}x${Math.round(vr.height)}`,
       zoom: maps[0] && maps[0]._otmMap ? +maps[0]._otmMap.getZoom().toFixed(2) : null
@@ -225,7 +231,7 @@ for (const r of rows) {
   if (r.maps !== mapsWanted) why.push(`${r.maps} maps on screen, wanted ${mapsWanted}`);
   if (r.waiting) why.push("waiting shown");
   if (r.clipped.length) why.push(`clipped ${JSON.stringify(r.clipped.slice(0, 3))}`);
-  if (r.listOver) why.push("list overflows");
+  if (r.listOver) why.push(`list overflows ${JSON.stringify(r.overBy.slice(0, 2))}`);
   if (r.collide.length) why.push(`text overlaps ${JSON.stringify(r.collide.slice(0, 2))}`);
   if (r.multiShown !== r.multiWanted) why.push(`multi shown ${r.multiShown}, wanted ${r.multiWanted}`);
   if (r.multiWanted && r.current !== 1) why.push(`${r.current} expanded`);
@@ -233,7 +239,7 @@ for (const r of rows) {
   if (r.pillNeeded !== r.pillShown) why.push(`pill needed ${r.pillNeeded} shown ${r.pillShown}`);
   if (r.errors) why.push(`${r.errors} page errors`);
   if (why.length) bad++;
-  console.log(`${why.length ? "FAIL" : "ok  "} ${r.view.padEnd(15)} ${r.screen.replace(/screen--/g, "").padEnd(12)} ${r.size.padEnd(9)} ${r.taxon.padEnd(30)} ${r.lang} ${r.day} ${String(r.kind).padEnd(5)} maps ${r.maps} pill ${r.pillNeeded ? "needed" : "-"}${why.length ? "  " + why.join("; ") : ""}`);
+  console.log(`${why.length ? "FAIL" : "ok  "} ${r.view.padEnd(15)} ${r.screen.replace(/screen--/g, "").padEnd(12)} ${r.size.padEnd(9)} ${r.taxon.padEnd(30)} ${r.lang} ${r.day} ${String(r.kind).padEnd(5)} maps ${r.maps} pill ${r.pillNeeded ? "needed" : "-"}${r.shownRows ? ` rows ${r.shownRows}/${r.colsUsed}col` : ""}${why.length ? "  " + why.join("; ") : ""}`);
 }
 console.log(`\n${rows.length} cases, ${bad} failed. PNGs in ${OUT}`);
 process.exit(bad ? 1 : 0);
