@@ -384,9 +384,10 @@ export function buildFull(data, { species = "all", lang = "en", now = new Date()
       return { species: sp.names[lang] || sp.names.en, name: r ? r.name : "", place: r ? r.short : "", moving: !!(r && r.moving), when: r ? r.when : "", r };
     });
     // The quadrant's two mini cards each draw a map: the pair holding the shown
-    // species carries its map data; the other rows stay short.
+    // species carries its map data and date; the other rows stay short.
     const pair = out.current - (out.current % 2);
-    out.rows = out.rows.map(({ r, ...row }, i) => (i === pair || i === pair + 1) && r ? { ...row, geo: r.geo } : row);
+    // Both cards are equal (owner, 2026-09-30): each has its own map and its own date.
+    out.rows = out.rows.map(({ r, ...row }, i) => (i === pair || i === pair + 1) && r ? { ...row, geo: r.geo, status: r.status } : row);
   }
   return out;
 }

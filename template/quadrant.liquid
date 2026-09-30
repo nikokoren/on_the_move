@@ -1,7 +1,8 @@
 {% comment %}
   Quadrant view (owner, 2026-09-29, wireframe board 12). Single: the map with
   one strip of text below (place and date). Multi (X only, lg:): two mini cards,
-  each a small map with name and place; the shown animal's card is inverted.
+  each a small map with its own date, name and place; both equal, no animal in
+  focus (owner, 2026-09-30).
   Pages in pairs like the list. Needs shared.liquid.
 {% endcomment %}
 
@@ -32,14 +33,14 @@
     {% assign i = forloop.index0 | plus: pair %}
     <div class="flex flex--col outline h--full" data-otm-scope>
       <div class="map stretch" data-otm-map data-otm-small data-otm-zoom="2" data-geo="{{ r.geo | escape }}">
-        {% if i == current %}{% render "otm_stamp", status: status %}{% endif %}
+        {% render "otm_stamp", status: r.status %}
         <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
           <span class="label">{{ r.place }}</span>
         </div>
       </div>
-      <div class="flex flex--col flex--left w--full text--left px--2 py--1 {% if i == current %}bg--black text--white{% endif %}">
-        <span class="label font--bold {% if i == current %}text--white{% endif %}">{{ r.species }}{% if r.name != "" %} · {{ r.name }}{% endif %}</span>
-        <span class="label label--small {% if i == current %}text--white{% endif %}">{{ r.place }}</span>
+      <div class="flex flex--col flex--left w--full text--left px--2 py--1">
+        <span class="label font--bold">{{ r.species }}{% if r.name != "" %} · {{ r.name }}{% endif %}</span>
+        <span class="label label--small">{{ r.place }}</span>
       </div>
     </div>
     {% endfor %}
