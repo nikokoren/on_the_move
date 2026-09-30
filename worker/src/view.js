@@ -3,7 +3,10 @@
 
 import { STRINGS, fill } from "./strings.js";
 
-export const LIVE_DAYS = 14;        // R21: older than this is not live
+export const LIVE_DAYS = 14;
+// A live fix this far from the stay its date implies, and within it of the previous
+// home, counts as a late departure (legAt by position, not by date).
+const LATE_KM = 250;        // R21: older than this is not live
 const LOOK_BACK_DAYS = 60;          // how far a gap may fall back to the last known day
 const MAX_LINE_POINTS = 40;         // per line; Nextbike: bare lists, ~28 bytes a point
 const CYCLE_SECONDS = 15 * 60;      // "all" moves to the next species every refresh slot
@@ -235,13 +238,23 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, uni
   const year = a.track[d] ? a.track[d][2] : null;
   // Legs run from home range to home range; a stopover on the way is part of the leg.
   const homes = homeStays(a.stays);
-  const leg = legAt(homes, d);
+  let leg = legAt(homes, d);
+  // A live animal still at the home it had usually left by this date (seen 2026-09-29:
+  // the crane in Lithuania while last year's route was in Poland from that day). The
+  // date's stay is then far from the fix; the leg follows the fix: still at the
+  // earlier home, the date's stay next. Without this, both lines ran from the fix to
+  // Poland and back (the "double line" on the owner's device).
+  let late = false;
+  if (live && leg.staying && km(here, [leg.here[2], leg.here[3]]) > LATE_KM && km(here, [leg.prev[2], leg.prev[3]]) <= LATE_KM) {
+    leg = { staying: true, prev: leg.next, here: leg.prev, next: leg.here };
+    late = true;
+  }
   const stop = leg.staying ? null : a.stays.find((s) => !homes.includes(s) && within(d, s[0], s[1]));
 
   // At home the line starts where the stay began: the journey that brought it
   // there is over (seen on a device: a turkey vulture in summer still trailing
   // its spring flight from Mexico).
-  const past = slice(a.track, leg.staying ? leg.here[0] : leg.prev ? leg.prev[1] : d, d);
+  const past = late ? slice(a.track, leg.here[0], leg.here[1]) : slice(a.track, leg.staying ? leg.here[0] : leg.prev ? leg.prev[1] : d, d);
   const future = slice(a.track, d, leg.next ? leg.next[0] : d);
   if (live) { past.push(here); future.unshift(here); }
 
@@ -250,7 +263,7 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, uni
   // Nor is one named like the place it is in now (seen: a loggerhead's pill
   // "Pacific Ocean · 691 km" while in the Pacific Ocean).
   const nextFar = leg.next && km(here, [leg.next[2], leg.next[3]]) >= 50 &&
-    !(leg.here && leg.here[4] === leg.next[4]) && name(leg.next[4]) !== name(a.place[d]);
+    !(leg.here && leg.here[4] === leg.next[4]) && name(leg.next[4]) !== name(late ? leg.here[4] : a.place[d]);
   const dest = nextFar ? [leg.next[2], leg.next[3]] : null;
   const arrive = leg.next ? dateOfDoy(leg.next[0], now.getUTCFullYear()) : null;
   const until = (s) => dateOfDoy((s[1] + 1) % 366, now.getUTCFullYear());
