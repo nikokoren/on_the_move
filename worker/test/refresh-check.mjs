@@ -147,10 +147,13 @@ check("poll: photo off sends an empty photo", noPhoto.photo === "", JSON.stringi
 const imp = await (await handle(new Request("https://x/full?species=lesser_black_backed_gull&units=imperial"), { KV: kv() }, NOW)).json();
 const met = await (await handle(new Request("https://x/full?species=lesser_black_backed_gull"), { KV: kv() }, NOW)).json();
 check("poll: units imperial in miles, default in km", / mi away$/.test(imp.toward) && / km away$/.test(met.toward), `${imp.toward} | ${met.toward}`);
-const multi = await (await handle(new Request("https://x/full?species=" + encodeURIComponent("white_stork,loggerhead_turtle,lesser_black_backed_gull") + "&layout=all_followed_animals_trmnl_x"), { KV: kv() }, NOW)).json();
-const plain = await (await handle(new Request("https://x/full?species=" + encodeURIComponent("white_stork,loggerhead_turtle")), { KV: kv() }, NOW)).json();
-check("layout: the multi setting sends one row per followed species and marks the shown one; the default sends none",
-  multi.rows && multi.rows.length === 3 && multi.rows[multi.current].species === multi.species && !("rows" in plain));
+// Flock View (owner, 2026-09-30): a boolean, on by default (empty before the settings are saved).
+const three = "&species=" + encodeURIComponent("white_stork,loggerhead_turtle,lesser_black_backed_gull");
+const multi = await (await handle(new Request("https://x/full?layout=true" + three), { KV: kv() }, NOW)).json();
+const unset = await (await handle(new Request("https://x/full?layout=" + three), { KV: kv() }, NOW)).json();
+const plain = await (await handle(new Request("https://x/full?layout=false" + three), { KV: kv() }, NOW)).json();
+check("layout: Flock View on (or not yet saved) sends one row per followed species and marks the shown one; off sends none",
+  multi.rows && multi.rows.length === 3 && multi.rows[multi.current].species === multi.species && unset.rows && unset.rows.length === 3 && !("rows" in plain));
 const err = await handle(new Request("https://x/full"), { KV: { get: async () => { throw new Error("kv down"); } } }, NOW);
 check("poll: KV failure still answers 200 with an error state", err.status === 200 && (await err.json()).state === "error");
 

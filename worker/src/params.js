@@ -58,11 +58,14 @@ export function unitsParam(value) {
   return snake(value) === "imperial" ? "imperial" : "metric";
 }
 
-// The layout setting (owner, 2026-09-29): one animal at a time (default), or
-// the list of every followed animal with one shown in full (TRMNL X only; the
-// template shows it only where the framework's lg: classes apply). The select
-// sends a snake_cased label, so anything with "all" or "multi" in it counts.
+// The layout setting: "Flock View" (owner, 2026-09-30), a boolean, on by default.
+// On, and following more than one species, a large screen (the TRMNL X; the
+// template decides by lg:) shows the list of every followed animal with one in
+// full and its map. Booleans arrive as "true"/"false", or empty before the
+// settings are first saved, which counts as on (like the photo). The earlier
+// select's labels (2026-09-29) stay accepted: "one animal at a time" is off.
 export function layoutParam(value) {
   const v = snake(value);
-  return /(^|_)(all|multi|list|alle|mehrere)(_|$)/.test(v) ? "multi" : "single";
+  if (v === "false" || v === "0" || v === "no" || v === "off" || /(^|_)one(_|$)/.test(v)) return "single";
+  return "multi";
 }

@@ -144,7 +144,7 @@ console.log(`multi select: ${forms.length} formats, ${parseBad.length} misparsed
   }
   const one = buildFull(data, { species: ["Larus fuscus"], lang: "en", now: new Date(), layout: "multi" });
   const single = buildFull(data, { species: all, lang: "en", now: new Date() });
-  const lp = [["All followed animals (TRMNL X)", "multi"], ["all_followed_animals_trmnl_x", "multi"], ["One animal", "single"], ["", "single"], [null, "single"]]
+  const lp = [["true", "multi"], ["", "multi"], [null, "multi"], ["false", "single"], ["all_followed_animals_trmnl_x_only", "multi"], ["one_animal_at_a_time", "single"]]
     .filter(([x, want]) => layoutParam(x) !== want);
   if (bad || emptyRows || Object.keys(turns).length !== all.length || "rows" in one || "rows" in single || lp.length) fails++;
   console.log(`multi view: ${slots} slots, ${bad} bad row sets, ${emptyRows} rows without place or when, ${Object.keys(turns).length} of ${all.length} species shown in full, ` +
