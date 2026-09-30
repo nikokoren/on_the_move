@@ -15,8 +15,11 @@
         <span class="label">{{ where }}</span>
       </div>
     </div>
-    <div class="flex flex--col flex--left w--full">
-    {% render "otm_text", size: "one", species: species, name: name, where: where, toward: toward, fact: fact, status: status %}
+    {% comment %} The photo beside the text on the X in landscape only, where the
+       strip has room (owner, 2026-09-30). {% endcomment %}
+    <div class="flex flex--row flex--left flex--center-y gap--small w--full">
+      {% if photo != blank %}<img class="image image--cover hidden lg:block portrait:hidden w--[16cqw] aspect--1/1 no-shrink" src="{{ photo }}" alt="">{% endif %}
+      {% render "otm_text", size: "one", species: species, name: name, where: where, toward: toward, fact: fact, status: status %}
     </div>
   </div>
   {% if rows %}

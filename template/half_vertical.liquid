@@ -1,6 +1,7 @@
 {% comment %}
-  Half vertical view (owner, 2026-09-29, wireframe board 12). Single: the map
-  on top and the text below, with the destination and the fact. Multi (X only,
+  Half vertical view (owner, 2026-09-29, wireframe board 12; photo 2026-09-30).
+  Single: the map on top, the text with the destination and the fact, and
+  the photo filling the rest. Multi (X only,
   lg:): the map on top and the list below (four animals, one expanded).
   Needs shared.liquid.
 {% endcomment %}
@@ -9,15 +10,18 @@
 {% render "otm_message", species: species, status: status %}
 {% else %}
 <div class="layout">
+  {% comment %} Single (owner, 2026-09-30, mock-up B): the map, the text, and the
+     photo filling the rest; without the photo the map takes the room. {% endcomment %}
   <div class="{% if rows %}lg:hidden {% endif %}flex flex--col gap w--full h--full" data-otm-scope>
-    <div class="map h--[62cqh] portrait:h--[56cqh] w--full no-shrink" data-otm-map data-geo="{{ geo | escape }}">
+    <div class="map {% if photo != blank %}h--[42cqh]{% else %}h--[62cqh] portrait:h--[56cqh]{% endif %} w--full no-shrink" data-otm-map data-geo="{{ geo | escape }}">
       <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
         <span class="label">{{ where }}</span>
       </div>
     </div>
-    <div class="stretch flex flex--col flex--left flex--top">
+    <div class="flex flex--col flex--left w--full">
       {% render "otm_text", size: "half", species: species, name: name, where: where, toward: toward, fact: fact, status: status %}
     </div>
+    {% if photo != blank %}<img class="image image--cover stretch w--full" src="{{ photo }}" alt="">{% endif %}
   </div>
   {% if rows %}
   <div class="hidden lg:flex flex--col gap w--full h--full" data-otm-scope>

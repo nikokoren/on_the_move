@@ -19,19 +19,26 @@
 </div>
 {% endtemplate %}
 
-{% comment %} The text beside or below the map in the smaller single layouts:
-   "half" has room for the destination and the fact, "one" (quadrant) for the
-   place and the date only. {% endcomment %}
+{% comment %} The text beside or below the map in the smaller single layouts.
+   "half": the place as the headline, the destination and the fact, larger on
+   the X where there is room (owner, 2026-09-30, mock-ups B). "one" (quadrant):
+   the place and the date only. {% endcomment %}
 {% template otm_text %}
+{% if size == "half" %}
+<div class="flex flex--col flex--left gap--xsmall text--left">
+  <span class="label font--bold lg:label--large">{{ species }}{% if name != "" %} · {{ name }}{% endif %}</span>
+  <span class="title lg:title--large">{{ where }}</span>
+  {% if toward != "" %}<span class="label lg:label--large">{{ toward }}</span>{% endif %}
+  <span class="description lg:description--large">{{ fact }}</span>
+  <span class="label label--small">{{ status }}</span>
+</div>
+{% else %}
 <div class="flex flex--col flex--left gap--xsmall text--left">
   <span class="title title--small">{{ species }}{% if name != "" %} · {{ name }}{% endif %}</span>
   <span class="label">{{ where }}</span>
-  {% if size == "half" %}
-  {% if toward != "" %}<span class="label">{{ toward }}</span>{% endif %}
-  <span class="description">{{ fact }}</span>
-  {% endif %}
   <span class="label label--small">{{ status }}</span>
 </div>
+{% endif %}
 {% endtemplate %}
 
 {% comment %} The multi layout's list (owner, 2026-09-29/30): every followed animal
