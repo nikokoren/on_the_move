@@ -26,8 +26,8 @@
         <span class="label">{{ where }}</span>
       </div>
     </div>
-    <div class="stretch flex flex--col flex--top" data-otm-list>
-      {% render "otm_list", rows: rows, current: current, size: 4, grid: "grid--cols-1", span: "col--span-1", fact_on: true, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo %}
+    <div class="stretch w--full" data-otm-list>
+      {% render "otm_list", rows: rows, current: current, size: 4, cols: 1, fact_on: true, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo %}
     </div>
   </div>
   {% endif %}

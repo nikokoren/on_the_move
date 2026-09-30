@@ -69,7 +69,9 @@ const LANG = process.env.OTM_LANG || "en";
 let cases;
 if (LAYOUT === "multi") {
   const n = Number(process.env.OTM_SLOTS || 6);
-  cases = Array.from({ length: n }, (_, i) => ["*", LANG, DAY, i * Math.ceil(96 / n)]);
+  // OTM_SLOT_STEP=1 with OTM_SLOTS=18 expands every species once.
+  const step = Number(process.env.OTM_SLOT_STEP) || Math.ceil(96 / n);
+  cases = Array.from({ length: n }, (_, i) => ["*", LANG, DAY, i * step]);
 } else {
   cases = data.species.map((s) => [s.taxon, LANG, DAY, 0]);
   cases.push(["Ciconia ciconia", "de", "2026-08-25", 0], ["Lanius collurio", "de", "2026-10-10", 0],
@@ -113,7 +115,7 @@ for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang,
 <link rel="stylesheet" href="file://${path.join(CACHE, "plugins.css")}">
 <script src="file://${path.join(CACHE, "plugins.js")}"></script>
 <style>html,body{margin:0;padding:0}</style></head><body class="trmnl">
-<div class="screen ${cls}">${inner}</div></body></html>`;
+<div class="screen ${process.env.OTM_LATE_SIZE ? screen : cls}">${inner}</div>${process.env.OTM_LATE_SIZE ? `<script>setTimeout(function () { document.querySelector(".screen").className = "screen ${cls}"; }, ${Number(process.env.OTM_LATE_SIZE) || 300});</script>` : ""}</body></html>`;
   const file = path.join(OUT, "page.html");
   fs.writeFileSync(file, page);
   // Large enough for any screen model or orientation; the shot is the view.
@@ -209,6 +211,9 @@ let bad = 0;
 for (const r of rows) {
   const why = [];
   if (!r.maps || r.drawn !== r.maps) why.push(`drawn ${r.drawn}/${r.maps}`);
+  // One map on screen, or the quadrant's two cards: never a hidden block showing too.
+  const mapsWanted = r.multiWanted && r.view === "quadrant" ? 2 : 1;
+  if (r.maps !== mapsWanted) why.push(`${r.maps} maps on screen, wanted ${mapsWanted}`);
   if (r.waiting) why.push("waiting shown");
   if (r.clipped.length) why.push(`clipped ${JSON.stringify(r.clipped.slice(0, 3))}`);
   if (r.listOver) why.push("list overflows");
