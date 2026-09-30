@@ -96,7 +96,8 @@ const browser = await chromium.launch({
 
 const rows = [];
 for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang, day, slot] of cases) {
-  const tpl = shared + fs.readFileSync(path.join(HERE, view + ".liquid"), "utf8");
+  // OTM_TPL=path/to/variant.liquid renders a variant (a mock-up) in the view's place.
+  const tpl = shared + fs.readFileSync(process.env.OTM_TPL || path.join(HERE, view + ".liquid"), "utf8");
   // Photos from worker/photos (what the Worker serves at /photo/); OTM_PHOTO=0 renders without.
   const photoBase = process.env.OTM_PHOTO === "0" ? null : "file://" + path.join(HERE, "../worker/photos") + "/";
   const species = taxon === "*" ? data.species.map((s) => s.taxon) : taxon;

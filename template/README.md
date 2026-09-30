@@ -40,5 +40,6 @@ Options (environment):
 - `OTM_LAYOUT=multi` follows all species and renders `OTM_SLOTS` refresh slots over the day (default 6) instead of one case per species.
 - `OTM_SWITCH="screen--v2 screen--portrait"` changes the screen's classes after the first draw, as a host resize or rotation does.
 - `OTM_ONLY`, `OTM_DAY`, `OTM_LANG`, `OTM_PHOTO=0`.
+- `OTM_TPL=path/to/variant.liquid` renders a variant file in the view's place (mock-ups on the real framework).
 
 A case fails if a map on screen is not drawn, the fallback text shows, any text is cut off by the view or by its list, the multi layout shows where it should not (or not where it should), the list's page does not hold the shown animal, or the pill shows while the destination ring is visible (or is missing while it is not).
