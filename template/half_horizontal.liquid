@@ -1,6 +1,7 @@
 {% comment %}
-  Half horizontal view (owner, 2026-09-29, wireframe board 12). Single: the
-  map left and the text right; in portrait the map on top and the text below.
+  Half horizontal view (owner, 2026-09-29, wireframe board 12; photo 2026-09-30).
+  Single: the photo and the text left, the map right; in portrait the map on
+  top, the photo and the text below.
   Multi (X only, lg:): the list left (four animals, one expanded) and the map
   right; in portrait the map on top and the list below in three columns.
   Needs shared.liquid.
@@ -10,25 +11,42 @@
 {% render "otm_message", species: species, status: status %}
 {% else %}
 <div class="layout">
-  <div class="{% if rows %}lg:hidden {% endif %}flex flex--row portrait:flex--col gap w--full h--full" data-otm-scope>
-    <div class="map w--[44cqw] portrait:w--full portrait:h--[58cqh] no-shrink" data-otm-map data-geo="{{ geo | escape }}">
+  {% comment %} Single (owner, 2026-09-30, mock-up B): the photo and the text left,
+     the map right; in portrait the map on top, the photo and the text below. {% endcomment %}
+  <div class="{% if rows %}lg:hidden {% endif %}flex flex--row portrait:flex--col-reverse gap w--full h--full" data-otm-scope>
+    <div class="stretch flex flex--row flex--left flex--center-y gap">
+      {% if photo != blank %}<img class="image image--cover h--full aspect--1/1 no-shrink portrait:h--[40cqh]" src="{{ photo }}" alt="">{% endif %}
+      <div class="stretch flex flex--col flex--left">
+        {% render "otm_text", size: "half", species: species, name: name, where: where, toward: toward, fact: fact, status: status %}
+      </div>
+    </div>
+    <div class="map w--[40cqw] portrait:w--full portrait:h--[50cqh] no-shrink" data-otm-map data-geo="{{ geo | escape }}">
       <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
         <span class="label">{{ where }}</span>
       </div>
     </div>
-    <div class="stretch flex flex--col flex--left flex--center-y portrait:flex--top">
-      {% render "otm_text", size: "half", species: species, name: name, where: where, toward: toward, fact: fact, status: status %}
-    </div>
   </div>
   {% if rows %}
-  <div class="hidden lg:flex flex--row portrait:flex--col-reverse gap w--full h--full" data-otm-scope>
-    <div class="w--[42cqw] portrait:w--full portrait:h--[52cqh] no-shrink flex flex--col flex--top" data-otm-list>
-      {% render "otm_list", rows: rows, current: current, size: 4, grid: "grid--cols-1 portrait:grid--cols-3", span: "col--span-1 portrait:col--span-3", fact_on: false, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo %}
+  {% comment %} Multi (X only): the list left, anchored to the bottom, and the map
+     right; in portrait the map on top and two columns below. {% endcomment %}
+  <div class="hidden lg:flex portrait:hidden flex--row gap w--full h--full" data-otm-scope>
+    <div class="w--[40cqw] h--full no-shrink" data-otm-list>
+      {% render "otm_list", rows: rows, current: current, size: 4, cols: 1, fact_on: false, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo %}
     </div>
     <div class="map stretch" data-otm-map data-geo="{{ geo | escape }}">
       <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
         <span class="label">{{ where }}</span>
       </div>
+    </div>
+  </div>
+  <div class="hidden lg:flex landscape:hidden flex--col gap w--full h--full" data-otm-scope>
+    <div class="map h--[46cqh] w--full no-shrink" data-otm-map data-geo="{{ geo | escape }}">
+      <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
+        <span class="label">{{ where }}</span>
+      </div>
+    </div>
+    <div class="stretch w--full" data-otm-list>
+      {% render "otm_list", rows: rows, current: current, size: 2, cols: 2, fact_on: false, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo %}
     </div>
   </div>
   {% endif %}

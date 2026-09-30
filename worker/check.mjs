@@ -4,7 +4,7 @@
 //
 //     node worker/check.mjs
 import fs from "fs";
-import { buildFull, factIndex, renderUnits } from "./src/view.js";
+import { buildFull, factIndex, renderUnits, km } from "./src/view.js";
 import { STRINGS } from "./src/strings.js";
 import { speciesParam, speciesList, photoParam, layoutParam } from "./src/params.js";
 
@@ -144,11 +144,25 @@ console.log(`multi select: ${forms.length} formats, ${parseBad.length} misparsed
   }
   const one = buildFull(data, { species: ["Larus fuscus"], lang: "en", now: new Date(), layout: "multi" });
   const single = buildFull(data, { species: all, lang: "en", now: new Date() });
-  const lp = [["All followed animals (TRMNL X)", "multi"], ["all_followed_animals_trmnl_x", "multi"], ["One animal", "single"], ["", "single"], [null, "single"]]
+  const lp = [["true", "multi"], ["", "multi"], [null, "multi"], ["false", "single"], ["all_followed_animals_trmnl_x_only", "multi"], ["one_animal_at_a_time", "single"]]
     .filter(([x, want]) => layoutParam(x) !== want);
   if (bad || emptyRows || Object.keys(turns).length !== all.length || "rows" in one || "rows" in single || lp.length) fails++;
   console.log(`multi view: ${slots} slots, ${bad} bad row sets, ${emptyRows} rows without place or when, ${Object.keys(turns).length} of ${all.length} species shown in full, ` +
     `largest payload ${maxB} bytes; one species or single layout sends rows: ${"rows" in one || "rows" in single}; layout param ${lp.length} wrong`);
+}
+// Late departure (seen on the owner's device 2026-09-30): the crane's live fix of
+// 29 Sep in Lithuania, a day after last year's route had moved to Poland. The leg
+// must follow the fix: still in Lithuania, one line ahead to Poland, none back.
+{
+  const f = JSON.parse(JSON.stringify(data));
+  const crane = f.species.find((sp) => sp.taxon === "Grus grus").animals[0];
+  crane.lastFix = "2026-09-29"; crane.lastPosition = [24.95, 55.15];
+  const v = buildFull(f, { species: "Grus grus", lang: "en", now: new Date("2026-09-30T08:00:00Z") });
+  const g = JSON.parse(v.geo);
+  const back = g.past.some((p) => km(p, g.pos) > 250);
+  const ok = /^Lithuania/.test(v.where) && /Poland/.test(v.toward) && !back;
+  if (!ok) fails++;
+  console.log(`late departure (crane, fix 29 Sep in Lithuania): "${v.where}" | "${v.toward}" | past line reaches ${back ? "Poland (wrong)" : "only Lithuania"} -> ${ok ? "ok" : "FAIL"}`);
 }
 console.log(`runs ${runs}, failures ${fails}, empty ${empty}, largest payload ${maxBytes} bytes, kinds ${JSON.stringify(kinds)}`);
 for (const [k, v] of Object.entries(bySpecies)) console.log(`  ${k.padEnd(28)} ok ${v.ok}  staying ${v.staying}  travelling ${v.travelling}`);

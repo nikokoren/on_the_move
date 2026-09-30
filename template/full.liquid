@@ -46,16 +46,27 @@
     <div class="hidden" data-otm-toward>{{ toward | escape }}</div>
   </div>
   {% if rows %}
-  {% comment %} Multi (X only): the list left and the map right; in portrait
-     the map on top and the list below in two columns. {% endcomment %}
-  <div class="hidden lg:flex flex--row portrait:flex--col-reverse gap w--full h--full" data-otm-scope>
-    <div class="w--[34cqw] portrait:w--full portrait:h--[44cqh] no-shrink flex flex--col flex--top" data-otm-list>
-      {% render "otm_list", rows: rows, current: current, size: 7, grid: "grid--cols-1 portrait:grid--cols-2", span: "col--span-1 portrait:col--span-2", fact_on: true, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo %}
+  {% comment %} Multi (X only, owner 2026-09-29/30). Landscape: the whole left side
+     is the list, as many animals as fit, anchored to the bottom; the map right.
+     Portrait: the map on top, two columns below. {% endcomment %}
+  <div class="hidden lg:flex portrait:hidden flex--row gap w--full h--full" data-otm-scope>
+    <div class="w--[34cqw] h--full no-shrink" data-otm-list>
+      {% render "otm_list", rows: rows, current: current, size: 10, cols: 1, fact_on: true, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo %}
     </div>
     <div class="map stretch" data-otm-map data-geo="{{ geo | escape }}">
       <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
         <span class="label">{{ where }}</span>
       </div>
+    </div>
+  </div>
+  <div class="hidden lg:flex landscape:hidden flex--col gap w--full h--full" data-otm-scope>
+    <div class="map h--[50cqh] w--full no-shrink" data-otm-map data-geo="{{ geo | escape }}">
+      <div class="absolute inset--1 hidden flex flex--col flex--center-x flex--center-y" data-otm-waiting>
+        <span class="label">{{ where }}</span>
+      </div>
+    </div>
+    <div class="stretch w--full" data-otm-list>
+      {% render "otm_list", rows: rows, current: current, size: 6, cols: 2, fact_on: true, species: species, name: name, where: where, toward: toward, fact: fact, status: status, photo: photo %}
     </div>
   </div>
   {% endif %}
