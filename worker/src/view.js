@@ -301,6 +301,11 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, uni
     : stop ? fill(t.rowStopover, { in: nameIn(stop[4]) })
     : moving ? fill(t.rowJourney, { from, to }) : to;
   const when = live ? fmtDate(t, lastFix, false) : fill(t.rowUsual, { year });
+  // The expanded animal in the list (owner, 2026-09-30): the row's sentence with
+  // how long it usually stays; a journey keeps its line with the arrival.
+  const focus = leg.staying ? fill(t.focusUntil, { row: short, date: fmtDate(t, until(leg.here), false) })
+    : stop ? fill(t.focusUntil, { row: short, date: fmtDate(t, until(stop), false) })
+    : where;
 
   const ref = here[0];
   return {
@@ -316,6 +321,7 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, uni
     short,
     moving,
     when,
+    focus,
     // Everything the map script needs, as one JSON string: Liquid prints it into
     // the script as is, the way Nextbike sends its map points.
     geo: JSON.stringify({

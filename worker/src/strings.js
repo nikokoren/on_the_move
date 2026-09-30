@@ -25,6 +25,8 @@ export const STRINGS = {
     rowWinter: "Wintering {in}",
     rowSummer: "Summering {in}",
     rowStopover: "Stopover {in}",
+    // The expanded animal in the list: the row's sentence and how long it usually stays.
+    focusUntil: "{row}, usually until about {date}",
     named: "“{name}”",
     range: "{a} to {b}",
     units: { km: "km", m: "m", cm: "cm", kg: "kg", g: "g", "km/h": "km/h", t: "tonnes", mi: "mi", ft: "ft", in: "in", lb: "lb", oz: "oz", mph: "mph", ton: "US tons" },
@@ -65,6 +67,7 @@ export const STRINGS = {
     rowWinter: "Im Winterquartier {in}",
     rowSummer: "Im Sommerquartier {in}",
     rowStopover: "Rastet {in}",
+    focusUntil: "{row}, meist bis etwa {date}",
     named: "„{name}“",
     range: "{a} bis {b}",
     units: { km: "km", m: "m", cm: "cm", kg: "kg", g: "g", "km/h": "km/h", t: "Tonnen", mi: "Meilen", ft: "Fuß", in: "Zoll", lb: "Pfund", oz: "Unzen", mph: "mph", ton: "US-Tonnen" },
