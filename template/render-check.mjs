@@ -234,7 +234,8 @@ for (const r of rows) {
   if (r.listOver) why.push(`list overflows ${JSON.stringify(r.overBy.slice(0, 2))}`);
   if (r.collide.length) why.push(`text overlaps ${JSON.stringify(r.collide.slice(0, 2))}`);
   if (r.multiShown !== r.multiWanted) why.push(`multi shown ${r.multiShown}, wanted ${r.multiWanted}`);
-  if (r.multiWanted && r.current !== 1) why.push(`${r.current} expanded`);
+  // The list has one animal in focus; the quadrant's two cards are equal (owner, 2026-09-30).
+  if (r.multiWanted && r.current !== (r.view === "quadrant" ? 0 : 1)) why.push(`${r.current} expanded`);
   if (r.pageBad) why.push("wrong page");
   if (r.pillNeeded !== r.pillShown) why.push(`pill needed ${r.pillNeeded} shown ${r.pillShown}`);
   if (r.errors) why.push(`${r.errors} page errors`);
