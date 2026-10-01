@@ -73,9 +73,11 @@ if (LAYOUT === "multi") {
   const step = Number(process.env.OTM_SLOT_STEP) || Math.ceil(96 / n);
   cases = Array.from({ length: n }, (_, i) => ["*", LANG, DAY, i * step]);
 } else {
-  cases = data.species.map((s) => [s.taxon, LANG, DAY, 0]);
-  cases.push(["Ciconia ciconia", "de", "2026-08-25", 0], ["Lanius collurio", "de", "2026-10-10", 0],
-             ["Streptopelia turtur", "de", "2026-10-05", 0], ["Numenius madagascariensis", "en", "2026-08-20", 0]);
+  // OTM_SLOT=1, 2: later refresh slots; one species' animals take turns per slot.
+  const S = Number(process.env.OTM_SLOT || 0);
+  cases = data.species.map((s) => [s.taxon, LANG, DAY, S]);
+  cases.push(["Ciconia ciconia", "de", "2026-08-25", S], ["Lanius collurio", "de", "2026-10-10", S],
+             ["Streptopelia turtur", "de", "2026-10-05", S], ["Numenius madagascariensis", "en", "2026-08-20", S]);
 }
 // OTM_ONLY="Ciconia ciconia" renders only that species' cases.
 if (process.env.OTM_ONLY) cases = cases.filter((c) => c[0] === process.env.OTM_ONLY);
