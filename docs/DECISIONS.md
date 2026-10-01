@@ -13,7 +13,7 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 - One species followed: no list (Flock View needs two or more species); its animals take turns on the full screen every slot. A list of one species' animals was considered and declined by the owner the same day: with at most three animals per species (the whale has one), the full screen makes more sense.
 - Checked (`worker/check.mjs`, new): storks over a week of slots 224/224/224 (Kiki, Marina, Nina); Flock View over 3 days, 0 rows disagreeing with the focus, the stork row through all three names; the notes from R8d now show on 270 to 366 days a year (were 0 for the five backups). The crane late-departure test is pinned to the live crane. All other checks unchanged.
 - Trade-off: species whose backups are not live (crane, honey buzzard) now show recent positions on one visit in three; the others on the usual route of past years. Live animals per species: stork 3, turtle dove 3, gull 3, broad-winged hawk 3, turkey vulture 3, crane 1, honey buzzard 1.
-- Render proof: see the status in `CLAUDE.md`. Not seen on a device; the Worker must be redeployed.
+- Render proof (`OTM_SLOT` 0, 1, 2, so every animal of every species is drawn): 1,056/1,056 cases, all four views on all four screens, no undrawn map, clipped or overlapping text, or wrong pill. Not seen on a device; the Worker must be redeployed.
 
 ### R8d Notes from the animals' own records (owner, 2026-10-01)
 
