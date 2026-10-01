@@ -4,6 +4,15 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### R8d Notes from the animals' own records (owner, 2026-10-01)
+
+- Request: "start working on those manual notes about the individual animals we still need to parse and turn into facts too. Where it makes sense." (the to-do in `docs/FULL_VIEW.md`, owner: "super interesting", 2026-09-29).
+- Found: 9 of the 44 featured Movebank animals have a free-text comment (Data Repository animals have no individual record). All nine re-fetched from Movebank on 2026-10-01: unchanged from the cache.
+- Done: 8 hand-written notes, en and de, in `pipeline/individuals_curated.json`, each with the comment words it rests on; `pipeline/build_individuals.py` stops if a quote is no longer in the record, `build_featured.py` carries the notes, `worker/src/view.js` adds them to the animal's fact pool. The storks Kiki, Marina and Nina (sibling chicks; Marina and Nina from one nest), two rescued honey buzzards (found weak in Reutlingen; a window collision near Stuttgart), two bald eagles seen alive years after their transmitters were taken off, and a Greenland peregrine followed on two trips south.
+- Left out: one comment whose meaning is unclear ("bicolored aux, red/black"), a guess ("seems to be a rather young bird"), nest names and the bird care centre (R14 caution; not needed for the story).
+- Limit found by `worker/check.mjs` (new check): a note can only show while its animal is the one on screen. Kiki, the Reutlingen honey buzzard and the Massachusetts eagle are stars: 366 days a year. Marina, Nina, the window-collision buzzard, the New Jersey eagle and the peregrine are backups: 0 days with the current data, shown only when the star has no position. Making them stars would change which journey each species shows; not done without the owner.
+- Checks: 0 notes over 140 characters; rotation 442,050 turns, 0 failures; all other checks unchanged. Featured data: only the notes added (compared animal by animal). Not seen on a device; the Worker must be redeployed.
+
 ### R8c More and better facts (owner, 2026-10-01)
 
 - Request: "we need more and better fun facts about these animals. the ones you found werent all that fun or interesting."

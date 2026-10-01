@@ -1,0 +1,85 @@
+{
+ "about": "Hand-written facts from the free-text comments in Movebank's individual records (owner: 'super interesting', 2026-09-29; curated 2026-10-01 by Claude). Each note quotes the comment it rests on; pipeline/build_individuals.py stops if the quote is no longer in the record. Nest and hatch places are left out (R14). Skipped: mb-2943485-2943520 ('bicolored aux, red/black', the meaning of the marker is not clear from the record) and 'Seems to be a rather young bird' (a guess in the record). All nine comments were re-fetched from Movebank on 2026-10-01 and matched the cache. Tagging month of Marina and Nina (both 2024-06-13, timestamp_start) and tracking end dates for the eagle notes from pipeline/individuals.json (both 2007-02). No pronouns for the animals in German, and none in English where the sex is not in the record's sex field.",
+ "animals": {
+  "mb-24442409-4003322822": {
+   "who": "White Stork Marina (AHH03)",
+   "notes": [
+    {
+     "en": "Marina and Nina were tagged in the same nest in June 2024; Marina was the smaller of the two chicks.",
+     "de": "Marina und Nina wurden im Juni 2024 im selben Nest besendert; Marina war das kleinere der beiden Küken.",
+     "quote": "smaller nestling of 2 in nest"
+    }
+   ]
+  },
+  "mb-24442409-4003322823": {
+   "who": "White Stork Nina (AHH04)",
+   "notes": [
+    {
+     "en": "Nina and Marina were tagged in the same nest in June 2024; Nina was the bigger of the two chicks.",
+     "de": "Nina und Marina wurden im Juni 2024 im selben Nest besendert; Nina war das größere der beiden Küken.",
+     "quote": "larger nestling of 2 in nest"
+    }
+   ]
+  },
+  "mb-173641633-2847777258": {
+   "who": "White Stork Kiki",
+   "notes": [
+    {
+     "en": "Kiki was the elder of two chicks; the younger one got a ring, but no tracker.",
+     "de": "Kiki war das ältere von zwei Küken; das jüngere bekam einen Ring, aber keinen Sender.",
+     "quote": "elder of 2 chicks"
+    }
+   ]
+  },
+  "mb-7249090-7541652": {
+   "who": "Peregrine Falcon, adult female, north-west Greenland",
+   "notes": [
+    {
+     "en": "Tagged as an adult in north-west Greenland, this falcon was followed on two full trips south and one back north.",
+     "de": "Als erwachsenes Weibchen in Nordwestgrönland besendert; verfolgt auf zwei ganzen Zügen nach Süden und einem zurück.",
+     "quote": "adult female, tagged northwest Greenland, 2 complete outward migrations, 1 complete return migration"
+    }
+   ]
+  },
+  "mb-186178781-2842545544": {
+   "who": "European Honey Buzzard found in Reutlingen",
+   "notes": [
+    {
+     "en": "Found weak in Reutlingen in May 2023, this honey buzzard was nursed back to health and set free with its tracker in June.",
+     "de": "Im Mai 2023 geschwächt in Reutlingen gefunden, wurde dieser Wespenbussard gesund gepflegt und im Juni mit Sender freigelassen.",
+     "quote": "found in weak condition 2023-05-29 in Reutlingen (Germany); After care in Vogelschutzzentrum Mössingen released there with logger on 2023-06-20"
+    }
+   ]
+  },
+  "mb-186178781-2781173687": {
+   "who": "European Honey Buzzard, window collision",
+   "notes": [
+    {
+     "en": "This honey buzzard flew into a window near Stuttgart in May 2023 and was back in the wild, apparently healthy, 11 days later.",
+     "de": "Dieser Wespenbussard prallte im Mai 2023 bei Stuttgart gegen ein Fenster und war elf Tage später wieder frei, offenbar gesund.",
+     "quote": "Window collision near Stuttgart, brought to Moessingen bird care centre 2023-05-06, released apparently healthy from there 2023-05-17."
+    }
+   ]
+  },
+  "mb-2943485-2943519": {
+   "who": "Bald Eagle seen in New Jersey",
+   "notes": [
+    {
+     "en": "Tracked until 2007, this eagle was seen alive in New Jersey ten years later, in March 2017, its transmitter long gone.",
+     "de": "Bis 2007 besendert, wurde dieser Adler zehn Jahre später, im März 2017, lebend in New Jersey gesehen, längst ohne Sender.",
+     "quote": "seen alive in New Jersey on 3/29/2017 (after PTT was removed)"
+    }
+   ]
+  },
+  "mb-2943485-2943518": {
+   "who": "Bald Eagle seen in Massachusetts and Connecticut",
+   "notes": [
+    {
+     "en": "Tracked until 2007, this eagle was seen alive again without its transmitter: in Massachusetts in 2011, in Connecticut in 2013.",
+     "de": "Bis 2007 besendert, wurde dieser Adler ohne Sender wieder lebend gesehen: 2011 in Massachusetts, 2013 in Connecticut.",
+     "quote": "seen alive in MA on 2/11/2011 and in CT on 3/12/2013 (after PTT was removed)"
+    }
+   ]
+  }
+ }
+}

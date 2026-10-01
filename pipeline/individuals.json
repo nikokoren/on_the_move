@@ -1,5 +1,5 @@
 {
- "about": "Individual facts for the featured animals, from Movebank individual records (sex, timestamp_start/end, latest_date_born). Built by pipeline/build_individuals.py.",
+ "about": "Individual facts for the featured animals, from Movebank individual records (sex, timestamp_start/end, latest_date_born) and hand-written notes from their comments (pipeline/individuals_curated.json). Built by pipeline/build_individuals.py.",
  "animals": {
   "mb-10204361-29656376": {
    "sex": "f",
@@ -50,21 +50,39 @@
    "trackedFrom": "2023-06",
    "trackedTo": "2026-09",
    "hatchYear": 2023,
-   "hatchExact": true
+   "hatchExact": true,
+   "notes": [
+    {
+     "en": "Kiki was the elder of two chicks; the younger one got a ring, but no tracker.",
+     "de": "Kiki war das \u00e4ltere von zwei K\u00fcken; das j\u00fcngere bekam einen Ring, aber keinen Sender."
+    }
+   ]
   },
   "mb-186178781-2842545544": {
    "sex": "m",
    "trackedFrom": "2023-06",
    "trackedTo": "2026-09",
    "hatchYear": 2020,
-   "hatchExact": false
+   "hatchExact": false,
+   "notes": [
+    {
+     "en": "Found weak in Reutlingen in May 2023, this honey buzzard was nursed back to health and set free with its tracker in June.",
+     "de": "Im Mai 2023 geschw\u00e4cht in Reutlingen gefunden, wurde dieser Wespenbussard gesund gepflegt und im Juni mit Sender freigelassen."
+    }
+   ]
   },
   "mb-186178781-2781173687": {
    "sex": "m",
    "trackedFrom": "2023-05",
    "trackedTo": "2024-05",
    "hatchYear": 2020,
-   "hatchExact": false
+   "hatchExact": false,
+   "notes": [
+    {
+     "en": "This honey buzzard flew into a window near Stuttgart in May 2023 and was back in the wild, apparently healthy, 11 days later.",
+     "de": "Dieser Wespenbussard prallte im Mai 2023 bei Stuttgart gegen ein Fenster und war elf Tage sp\u00e4ter wieder frei, offenbar gesund."
+    }
+   ]
   },
   "mb-2105214573-2105313543": {
    "sex": "f",
@@ -81,14 +99,26 @@
    "trackedFrom": "2024-06",
    "trackedTo": "2026-09",
    "hatchYear": 2024,
-   "hatchExact": true
+   "hatchExact": true,
+   "notes": [
+    {
+     "en": "Marina and Nina were tagged in the same nest in June 2024; Marina was the smaller of the two chicks.",
+     "de": "Marina und Nina wurden im Juni 2024 im selben Nest besendert; Marina war das kleinere der beiden K\u00fcken."
+    }
+   ]
   },
   "mb-24442409-4003322823": {
    "sex": "m",
    "trackedFrom": "2024-06",
    "trackedTo": "2026-09",
    "hatchYear": 2024,
-   "hatchExact": true
+   "hatchExact": true,
+   "notes": [
+    {
+     "en": "Nina and Marina were tagged in the same nest in June 2024; Nina was the bigger of the two chicks.",
+     "de": "Nina und Marina wurden im Juni 2024 im selben Nest besendert; Nina war das gr\u00f6\u00dfere der beiden K\u00fcken."
+    }
+   ]
   },
   "mb-28691134-2277782263": {
    "trackedFrom": "2022-08",
@@ -106,12 +136,24 @@
   "mb-2943485-2943518": {
    "sex": "m",
    "trackedFrom": "2005-06",
-   "trackedTo": "2007-02"
+   "trackedTo": "2007-02",
+   "notes": [
+    {
+     "en": "Tracked until 2007, this eagle was seen alive again without its transmitter: in Massachusetts in 2011, in Connecticut in 2013.",
+     "de": "Bis 2007 besendert, wurde dieser Adler ohne Sender wieder lebend gesehen: 2011 in Massachusetts, 2013 in Connecticut."
+    }
+   ]
   },
   "mb-2943485-2943519": {
    "sex": "m",
    "trackedFrom": "2005-07",
-   "trackedTo": "2007-02"
+   "trackedTo": "2007-02",
+   "notes": [
+    {
+     "en": "Tracked until 2007, this eagle was seen alive in New Jersey ten years later, in March 2017, its transmitter long gone.",
+     "de": "Bis 2007 besendert, wurde dieser Adler zehn Jahre sp\u00e4ter, im M\u00e4rz 2017, lebend in New Jersey gesehen, l\u00e4ngst ohne Sender."
+    }
+   ]
   },
   "mb-2943485-2943520": {
    "sex": "f",
@@ -195,7 +237,13 @@
   "mb-7249090-7541652": {
    "sex": "f",
    "trackedFrom": "2001-08",
-   "trackedTo": "2003-11"
+   "trackedTo": "2003-11",
+   "notes": [
+    {
+     "en": "Tagged as an adult in north-west Greenland, this falcon was followed on two full trips south and one back north.",
+     "de": "Als erwachsenes Weibchen in Nordwestgr\u00f6nland besendert; verfolgt auf zwei ganzen Z\u00fcgen nach S\u00fcden und einem zur\u00fcck."
+    }
+   ]
   },
   "mb-890556697-890583086": {
    "sex": "f",
