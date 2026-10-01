@@ -40,6 +40,7 @@ Options (environment):
 - `OTM_LAYOUT=multi` follows all species and renders `OTM_SLOTS` refresh slots over the day (default 6) instead of one case per species.
 - `OTM_SWITCH="screen--v2 screen--portrait"` changes the screen's classes after the first draw, as a host resize or rotation does.
 - `OTM_ONLY`, `OTM_DAY`, `OTM_LANG`, `OTM_PHOTO=0`.
+- `OTM_SLOT=1` (or 2) renders a later refresh slot; a species' animals take turns per slot, so slots 0 to 2 show every animal.
 - `OTM_FACT="…"` puts that fact on every case, to prove the longest facts in the species table fit.
 - `OTM_TPL=path/to/variant.liquid` renders a variant file in the view's place (mock-ups on the real framework).
 

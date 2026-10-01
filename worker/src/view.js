@@ -358,21 +358,28 @@ export function buildFull(data, { species = "all", lang = "en", now = new Date()
   // refreshing at the same time every day would otherwise see the same species forever.
   const start = (slot + Math.floor(now.getTime() / 86400000)) % pool.length;
   const order = pool.map((_, i) => pool[(start + i) % pool.length]);
-  // The fact turns once per visit: every slot when following one species, once
-  // per round when several take turns (each is shown once a round).
+  // One turn per visit: every slot when following one species, once per round when
+  // several take turns (each is shown once a round). The animal and its fact follow it.
   const turn = Math.floor(slot / pool.length);
   // No photo for a species without one yet (sp.photo, set by build_featured.py).
   const done = (sp, v) => ({ ...v, photo: photoBase && sp.photo ? photoBase + sp.taxon.toLowerCase().replace(/ /g, "_") + ".jpg" : "" });
-  // Star first, then its backups; a species with nobody today falls back to
-  // the star's last known position before the gap.
-  const today = (sp, withFact = true) => {
-    for (const a of sp.animals) {
-      const v = animalView(data, sp, a, t, lang, now, localDoy, turn, 0, units, withFact);
+  // The species' animals take turns, one per visit (owner, 2026-10-01): visit k
+  // starts at animal k mod n and falls back to the others, in order, when that one
+  // has no position today. Every row of the multi layout uses the same turn, so the
+  // list and the animal in focus agree. Each animal counts its own visits for its
+  // facts (turn / n), so its facts still rotate without repeats.
+  const inTurn = (sp) => sp.animals.map((_, i) => sp.animals[(turn + i) % sp.animals.length]);
+  const own = (sp) => Math.floor(turn / sp.animals.length);
+  const first = (sp, lookBack, withFact) => {
+    for (const a of inTurn(sp)) {
+      const v = animalView(data, sp, a, t, lang, now, localDoy, own(sp), lookBack, units, withFact);
       if (v) return v;
     }
     return null;
   };
-  const before = (sp, withFact = true) => animalView(data, sp, sp.animals[0], t, lang, now, localDoy, turn, LOOK_BACK_DAYS, units, withFact);
+  const today = (sp, withFact = true) => first(sp, 0, withFact);
+  // Nobody today: the last known position before the gap, in the same order.
+  const before = (sp, withFact = true) => first(sp, LOOK_BACK_DAYS, withFact);
   // The next species in the pool with a position today; if none has one, the
   // next with a last known position.
   let shown = null, v = null;

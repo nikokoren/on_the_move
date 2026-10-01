@@ -85,6 +85,25 @@ for (const lang of ["en", "de"]) {
 const longFacts = [...facts].filter((f) => f.split(": ").slice(1).join(": ").length > 140);
 if (longFacts.length) fails++;
 console.log(`fact rotation: ${rotTurns} turns, ${rotFails} failures; ${facts.size} distinct facts seen, ${longFacts.length} over 140 chars`);
+// Animals take turns per visit (owner, 2026-10-01). Storks (all three named):
+// following storks alone, a week of slots shows each about a third of the time;
+// in the multi layout with all species, the stork row follows the same rounds
+// and the shown species' row is the animal in focus.
+const storkCount = {};
+for (let s = 0; s < 672; s++) {
+  const v = buildFull(data, { species: "Ciconia ciconia", lang: "en", now: new Date(Date.UTC(2026, 8, 28) + s * 900000) });
+  storkCount[v.name] = (storkCount[v.name] || 0) + 1;
+}
+let flockBad = 0, flockRounds = new Set();
+const allTaxa = data.species.map((s) => s.taxon);
+for (let s = 0; s < 96 * 3; s += 3) {
+  const v = buildFull(data, { species: allTaxa, lang: "en", now: new Date(Date.UTC(2026, 8, 28) + s * 900000), layout: "multi" });
+  const row = v.rows[v.current];
+  if (row.name !== v.name) flockBad++;
+  flockRounds.add(v.rows[allTaxa.indexOf("Ciconia ciconia")].name);
+}
+if (Object.keys(storkCount).length < 3 || flockBad || flockRounds.size < 3) fails++;
+console.log(`animal turns: storks over a week ${JSON.stringify(storkCount)}; flock view: ${flockBad} rows disagreeing with the focus, stork row names over 3 days ${JSON.stringify([...flockRounds])}`);
 // Notes from the records' comments (pipeline/individuals_curated.json, 2026-10-01):
 // within 140 characters, and on how many days of the year each one can reach the
 // screen (a backup animal only shows when the star has no position that day).
@@ -174,7 +193,10 @@ console.log(`multi select: ${forms.length} formats, ${parseBad.length} misparsed
 // must follow the fix: still in Lithuania, one line ahead to Poland, none back.
 {
   const f = JSON.parse(JSON.stringify(data));
-  const crane = f.species.find((sp) => sp.taxon === "Grus grus").animals[0];
+  // Only the live crane, whatever animal's turn it is (animals take turns since 2026-10-01).
+  const cranes = f.species.find((sp) => sp.taxon === "Grus grus");
+  cranes.animals = cranes.animals.slice(0, 1);
+  const crane = cranes.animals[0];
   crane.lastFix = "2026-09-29"; crane.lastPosition = [24.95, 55.15];
   const v = buildFull(f, { species: "Grus grus", lang: "en", now: new Date("2026-09-30T08:00:00Z") });
   const g = JSON.parse(v.geo);

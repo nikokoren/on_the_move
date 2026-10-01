@@ -4,6 +4,16 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### S3 A species' animals take turns (owner, 2026-10-01)
+
+- Question: "How are we rotating through different storks?" Answer: we were not. Each species showed its star (live first, then the fullest year); the two backups only stood in when the star had no position, which with the current data was never (Marina and Nina: 0 days a year).
+- Decision: "Animals should change each time the species comes around."
+- Built (`worker/src/view.js`, `buildFull`): visit k of a species starts at animal k mod n and falls back to the others in order when that one has no position (and to the last known day the same way). One visit is one slot when following one species, one round when several take turns. Each animal counts its own visits for its facts, so they still rotate without repeats.
+- Flock View: every row uses the same turn, so the list and the animal in focus agree; when a round ends, every row moves on to its species' next animal. One row per species, as before.
+- Checked (`worker/check.mjs`, new): storks over a week of slots 224/224/224 (Kiki, Marina, Nina); Flock View over 3 days, 0 rows disagreeing with the focus, the stork row through all three names; the notes from R8d now show on 270 to 366 days a year (were 0 for the five backups). The crane late-departure test is pinned to the live crane. All other checks unchanged.
+- Trade-off: species whose backups are not live (crane, honey buzzard) now show recent positions on one visit in three; the others on the usual route of past years. Live animals per species: stork 3, turtle dove 3, gull 3, broad-winged hawk 3, turkey vulture 3, crane 1, honey buzzard 1.
+- Render proof: see the status in `CLAUDE.md`. Not seen on a device; the Worker must be redeployed.
+
 ### R8d Notes from the animals' own records (owner, 2026-10-01)
 
 - Request: "start working on those manual notes about the individual animals we still need to parse and turn into facts too. Where it makes sense." (the to-do in `docs/FULL_VIEW.md`, owner: "super interesting", 2026-09-29).
