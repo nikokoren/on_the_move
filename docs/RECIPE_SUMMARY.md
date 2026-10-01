@@ -73,11 +73,14 @@ It notices when a live animal is late: a crane still in Lithuania after its usua
 
 ## Facts
 
-- **Species facts:** 144 hand-written facts, 8 per species, each checked against a published source. Examples:
-  - "Blue whales are the largest animals ever to have lived on Earth."
-  - "Ospreys carry their fish head first, which makes it more streamlined in flight."
+- **Species facts:** 162 hand-written facts, 8 to 11 per species, each checked against a published source (reworked for fun on 1 Oct 2026). Examples:
+  - "In 1822 a stork turned up in Germany with an 80 cm African arrow in its neck: the first proof that storks winter in Africa."
+  - "Turkey vultures smell so well that they help gas companies find leaks."
+  - "A blue whale's tongue can weigh as much as an elephant, and its heart as much as a car."
+  - "A crane's windpipe is 130 cm long and coiled through its breastbone, like a trumpet."
+  - "Courting bald eagles lock talons high in the sky and cartwheel down, letting go just before they hit the ground."
   - "In autumn blackpoll warblers fly non-stop over the Atlantic, 2,270 to 2,770 km, weighing just 12 g."
-  - "Red-backed shrikes impale leftover prey on thorns to keep it for later."
+  - "Red-backed shrikes impale leftover prey on thorns, or on barbed wire, to keep it for later."
 - **Facts about the individual animal:**
   - how far apart the ends of its year lie;
   - how many days a year it spends travelling;

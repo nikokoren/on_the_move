@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Re-fetch every source in pipeline/species_curated.json and confirm the quoted
-sentence is still on the page (working method rule 3: the web wins).
+sentence (or each of a list of quoted sentences) is still on the page (working
+method rule 3: the web wins).
 
     python3 pipeline/verify_sources.py
 
@@ -42,6 +43,11 @@ def norm(s):
     return re.sub(r"\s+", " ", s.replace("’", "'")).strip().lower()
 
 
+def quotes(src):
+    # A fact may rest on two neighbouring sentences: "quote" is then a list, and all must be found.
+    return src["quote"] if isinstance(src["quote"], list) else [src["quote"]]
+
+
 def main():
     cur = json.load(open(os.path.join(ROOT, "pipeline", "species_curated.json"), encoding="utf-8"))["species"]
     pages, bad, total = {}, 0, 0
@@ -52,10 +58,10 @@ def main():
             try:
                 if src["url"] not in pages:
                     pages[src["url"]] = norm(text(src["url"], src.get("europepmc"), src.get("pdf", False)))
-                found, why = norm(src["quote"]) in pages[src["url"]], ""
+                found, why = all(norm(q) in pages[src["url"]] for q in quotes(src)), ""
             except Exception as e:
                 found, why = False, " (" + str(e)[:60] + ")"
-            print(("ok  " if found else "MISS") + f" {taxon:26} {src['title'][:40]:40} {src['quote'][:50]}{why}")
+            print(("ok  " if found else "MISS") + f" {taxon:26} {src['title'][:40]:40} {quotes(src)[0][:50]}{why}")
             bad += not found
     print(f"\n{total - bad}/{total} quotes found ({len(pages)} pages)")
     sys.exit(1 if bad else 0)
