@@ -4,6 +4,16 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### R8c More and better facts (owner, 2026-10-01)
+
+- Request: "we need more and better fun facts about these animals. the ones you found werent all that fun or interesting."
+- Done: 64 dull facts dropped (head counts, diet lists, plumage notes, ranges, conservation status) and 82 new ones added: 162 in all, 8 to 11 per species (was 8 each, 144). The good ones stay (projectile-vomiting vultures, impaled prey, the blackpoll's ocean crossing). New examples: the 1822 arrow stork, storks cooling their legs with their own droppings, the crane's 130 cm windpipe, vultures that find gas leaks, a whale's tongue as heavy as an elephant, a peregrine leap-frog migration, the shrike's German name.
+- Same rules as R8: each fact rests on the exact sentence of a published source; no Wikipedia. New sources include the American Cetacean Society, Missouri Department of Conservation, Hinterland Who's Who (Canadian Wildlife Service), NABU Hamburg, Universität Rostock, Naturpark Kyffhäuser, Operation Turtle Dove, New Zealand Birds Online, the Smithsonian and eight papers via Europe PMC. Author names of the papers were taken from Europe PMC, not from memory (three of the first drafts were wrong).
+- A fact may now rest on two or three neighbouring sentences of one page: `quote` is then a list and `pipeline/verify_sources.py` must find each (18 facts). Checked 2026-10-01: 162/162 quotes found on 63 pages.
+- Pipeline: `build_species.py` and `build_featured.py` re-run; only the facts changed in the built files (tracks, windows and regions identical, compared field by field). `worker/check.mjs` passes (27,816 runs, rotation without repeats).
+- German facts got longer (up to 139 characters, before 123); render proof with `OTM_FACT` (new in `template/render-check.mjs`): see the status in `CLAUDE.md`.
+- Not on a device yet; the Worker must be redeployed for the new facts to show.
+
 ### V2 The smaller views and the multi layout (owner, 2026-09-29)
 
 - Decision: every view in every size and orientation, from the wireframe canvas (boards 2, 10, 11, 12; https://claude.ai/artifact/SB2mQ99yoN4up7AL3aqgAQ, owner's comments 2026-09-29):

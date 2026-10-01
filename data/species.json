@@ -1,6 +1,6 @@
 {
  "about": "Species table (R8) for the 12 featured species (F1). Names and facts: pipeline/species_curated.json, sources verified by pipeline/verify_sources.py. Windows and regions: computed by pipeline/build_species.py from the tracked animals listed under 'tracked' (citations in data/catalog.json). Dates are MM-DD; 'from'/'to' span the middle half of the animals. Re-run before relying on the numbers.",
- "built": "2026-09-29",
+ "built": "2026-10-01",
  "centralEuropeBox": [
   45,
   56,
@@ -141,30 +141,12 @@
      }
     },
     {
-     "en": "Power lines are the top killer of white storks: almost 70% of accidents happen there.",
-     "de": "Stromleitungen sind die häufigste Todesursache bei Weißstörchen: fast 70 % aller Unfälle.",
-     "source": {
-      "title": "NABU, Weißstorch: Gefahren durch Stromleitungen",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/artenschutz/weissstorch/03594.html",
-      "quote": "Mit fast 70 Prozent aller Unfälle steht der Tod an Stromtrassen an erster Stelle."
-     }
-    },
-    {
      "en": "Germans call it the 'clatter stork', after the loud clattering of its bill at the nest.",
      "de": "Der Beiname „Klapperstorch“ kommt vom lauten Klappern des Schnabels am Nest.",
      "source": {
       "title": "NABU, Vogelporträt Weißstorch",
       "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/weissstorch/",
       "quote": "Der Weißstorch wird auch „Klapperstorch“ genannt, was auf das laute, charakteristische Klappern des Schnabels am Nest zurückzuführen ist."
-     }
-    },
-    {
-     "en": "White storks eat mainly mice, amphibians, reptiles, earthworms and insects.",
-     "de": "Weißstörche fressen vor allem Mäuse, Amphibien, Reptilien, Regenwürmer und Insekten.",
-     "source": {
-      "title": "NABU, Vogelporträt Weißstorch",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/weissstorch/",
-      "quote": "Der Weißstorch frisst vor allem Mäuse, Amphibien, Reptilien, Regenwürmer und Insekten."
      }
     },
     {
@@ -177,12 +159,64 @@
      }
     },
     {
-     "en": "Germany counted 7,532 white stork pairs in 2019 and more than 15,000 in 2026.",
-     "de": "In Deutschland brüteten 2019 7.532 Weißstorchpaare, 2026 waren es mehr als 15.000.",
+     "en": "In 1822 a stork turned up in Germany with an {80 cm|31 in} African arrow in its neck: the first proof that storks winter in Africa.",
+     "de": "1822 tauchte in Mecklenburg ein Storch mit einem {80 cm|31 in} langen afrikanischen Pfeil im Hals auf: der erste Beweis für den Zug nach Afrika.",
      "source": {
-      "title": "NABU, Weißstorch: Verbreitung & Bestand",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/artenschutz/weissstorch/03587.html",
-      "quote": "2019 wurden bundesweit 7.532 Brutpaare gezählt, 2023 waren es mehr als 12.000 und 2026 wurden 15.000 überschritten."
+      "title": "Universität Rostock, Schloss Bothmer: Der Pfeilstorch ist zurück",
+      "url": "https://www.uni-rostock.de/universitaet/kommunikation-und-aktuelles/medieninformationen/detailansicht/n/schloss-bothmer-der-pfeilstorch-ist-zurueck-26011/",
+      "quote": [
+       "als Bewohner von Gut Bothmer einen Weißstorch entdeckten, dem ein etwa 80 cm langer Stock am Hals hinunterhing.",
+       "Der Pfeilstorch lieferte somit den ersten Beweis für den Fernzug der Störche bis in das äquatoriale Afrika."
+      ]
+     }
+    },
+    {
+     "en": "Young storks set off for Africa on their own, without their parents; the way south is in their genes.",
+     "de": "Jungstörche fliegen ohne ihre Eltern nach Afrika; die Zugrichtung ist ihnen angeboren.",
+     "source": {
+      "title": "NABU Hamburg, Steckbrief Weißstorch",
+      "url": "https://hamburg.nabu.de/tiere-und-pflanzen/voegel/weissstorch/18595.html",
+      "quote": [
+       "machen sich ab Mitte August ohne die Führung ihrer Eltern auf den langen und gefahrvollen Weg in die afrikanischen Winterquartiere.",
+       "Die Zugrichtung ist den Störchen angeboren"
+      ]
+     }
+    },
+    {
+     "en": "Stork nests can grow up to {2 m|6.5 ft} wide and {4 m|13 ft} tall, heavy enough to bring down a roof.",
+     "de": "Storchennester können bis zu {2 m|6.5 ft} breit und {4 m|13 ft} hoch werden, schwer genug, um ein Dach einstürzen zu lassen.",
+     "source": {
+      "title": "NABU Hamburg, Steckbrief Weißstorch",
+      "url": "https://hamburg.nabu.de/tiere-und-pflanzen/voegel/weissstorch/18595.html",
+      "quote": "So können riesige Bauwerke mit einem Durchmesser von bis zu zwei Metern, einer Höhe von bis zu vier Metern und einem Gewicht von mehreren hundert Kilogramm entstehen und sogar ein Hausdach zum Einsturz bringen."
+     }
+    },
+    {
+     "en": "Stork couples often reunite, but they are faithful to the nest, not to each other.",
+     "de": "Storchenpaare finden oft wieder zusammen, doch treu sind sie dem Nest, nicht dem Partner.",
+     "source": {
+      "title": "NABU Hamburg, Weißstorch",
+      "url": "https://hamburg.nabu.de/tiere-und-pflanzen/voegel/weissstorch/18155.html",
+      "quote": "Dies ist jedoch allein durch die ausgeprägte Horsttreue bedingt und nicht etwa durch \"Gattentreue bis in den Tod\", wie es die Legende wissen will."
+     }
+    },
+    {
+     "en": "Many people in Germany still believe a stork's nest on the roof protects the house from lightning.",
+     "de": "Viele Menschen glauben bis heute, dass ein Storchennest auf dem Dach das Haus vor Blitzschlag schützt.",
+     "source": {
+      "title": "NABU Hamburg, Steckbrief Weißstorch",
+      "url": "https://hamburg.nabu.de/tiere-und-pflanzen/voegel/weissstorch/18595.html",
+      "quote": "viele Menschen glauben bis heute, dass ein Storchenhorst auf dem Dach das Haus vor Blitzschlag schützt."
+     }
+    },
+    {
+     "en": "To cool off in the heat, storks excrete onto their own legs.",
+     "de": "Bei Hitze kühlen sich Störche, indem sie sich auf die eigenen Beine koten.",
+     "source": {
+      "title": "Cabello-Vergel et al. 2021, Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-021-99296-8",
+      "europepmc": "DOI:10.1038/s41598-021-99296-8",
+      "quote": "Storks (Ciconiidae) frequently excrete onto their legs to prevent overheating, a phenomenon known as urohidrosis."
      }
     }
    ],
@@ -451,39 +485,52 @@
      }
     },
     {
-     "en": "Courting cranes dance, stretching heads and bills skyward and trumpeting.",
-     "de": "Bei der Balz tanzen Kraniche, recken Köpfe und Schnäbel in die Luft und trompeten.",
+     "en": "A crane's windpipe is {130 cm|4 ft} long and coiled through its breastbone, like a trumpet.",
+     "de": "Die Luftröhre des Kranichs ist {130 cm|4 ft} lang und windet sich wie bei einer Trompete durchs Brustbein.",
+     "source": {
+      "title": "Naturpark Kyffhäuser, Kraniche im Blick (2021)",
+      "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+      "pdf": true,
+      "quote": "Seine Luftröhre ist beachtliche 130 cm lang und durchzieht als Doppelschlinge das Brustbein."
+     }
+    },
+    {
+     "en": "Cranes dance, and practice starts early: even the chicks rehearse the steps.",
+     "de": "Kraniche tanzen, und geübt wird früh: Schon die Küken proben die Schritte.",
+     "source": {
+      "title": "Naturpark Kyffhäuser, Kraniche im Blick (2021)",
+      "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+      "pdf": true,
+      "quote": "Schon Küken üben den Tanz"
+     }
+    },
+    {
+     "en": "Crane pairs can stay together for life.",
+     "de": "Kranichpaare können ein Leben lang zusammenbleiben.",
+     "source": {
+      "title": "Naturpark Kyffhäuser, Kraniche im Blick (2021)",
+      "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+      "pdf": true,
+      "quote": "Verpaarte Kraniche können ein Leben lang zusammen bleiben."
+     }
+    },
+    {
+     "en": "Unlike young storks, young cranes make their first trip south with their parents.",
+     "de": "Anders als junge Störche ziehen junge Kraniche das erste Mal mit ihren Eltern ins Winterquartier.",
+     "source": {
+      "title": "Naturpark Kyffhäuser, Kraniche im Blick (2021)",
+      "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+      "pdf": true,
+      "quote": "dass die Jungtiere das erste Mal mit ihren Eltern ins Winterquartier ziehen."
+     }
+    },
+    {
+     "en": "Up to 80,000 cranes have been counted resting in Germany's Havelland on a single day.",
+     "de": "Im Havelland wurden an einem einzigen Tag bis zu 80.000 rastende Kraniche gezählt.",
      "source": {
       "title": "NABU, Vogelporträt Kranich",
       "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/kranich/",
-      "quote": "Während der Balz und auch bei Aufregung führen die Kraniche besondere Tänze vor, bei denen sie die Köpfe und Schnäbel hoch in die Luft recken"
-     }
-    },
-    {
-     "en": "About 11,000 pairs of cranes breed in Germany today, in the north and centre of the country.",
-     "de": "Rund 11.000 Kranichpaare brüten heute in Nord- und Mitteldeutschland.",
-     "source": {
-      "title": "NABU, Kranich",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/artenschutz/kranich/index.html",
-      "quote": "Rund 11.000 Brutpaare leben heute in den verbliebenen Bruchwäldern, Feldsöllen und Auen Nord- und Mitteldeutschlands."
-     }
-    },
-    {
-     "en": "Linum in Brandenburg, west of Berlin, is one of the largest crane resting sites in Europe.",
-     "de": "Linum in Brandenburg, westlich von Berlin, ist einer der größten Kranich-Rastplätze Europas.",
-     "source": {
-      "title": "NABU, Kranich",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/artenschutz/kranich/index.html",
-      "quote": "Einer der größten Kranich-Rastplätze Europas befindet sich bei Linum in Brandenburg."
-     }
-    },
-    {
-     "en": "Common cranes have a bare red cap on the head; the rest of the plumage is mostly light blue-grey.",
-     "de": "Kraniche tragen eine unbefiederte rote Kappe; das Gefieder ist sonst überwiegend hell blaugrau.",
-     "source": {
-      "title": "NABU, Vogelporträt Kranich",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/kranich/",
-      "quote": "auf dem Kopf befindet sich eine unbefiederte rote Kappe"
+      "quote": "Im Havelland wurden an einem Tag bis zu 80.000 Kraniche beim Rasten gezählt."
      }
     }
    ],
@@ -561,15 +608,6 @@
    ],
    "facts": [
     {
-     "en": "Despite its size, the honey buzzard lives mainly on wasps and their larvae, digging the nests out of the ground.",
-     "de": "Wespenbussarde fressen trotz ihrer Größe vor allem Wespen und deren Larven, die sie aus dem Boden graben.",
-     "source": {
-      "title": "NABU, Vogelporträt Wespenbussard",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/wespenbussard/",
-      "quote": "Trotz seiner stattlichen Größe ernährt er sich in erster Linie von Wespen, deren Larven"
-     }
-    },
-    {
      "en": "Despite the name, honey buzzards eat no honey: they raid bee and wasp nests for the grubs.",
      "de": "Trotz des englischen Namens „Honigbussard“ fressen Wespenbussarde keinen Honig, sondern Bienen- und Wespenbrut.",
      "source": {
@@ -585,15 +623,6 @@
       "title": "NABU, Vogelporträt Wespenbussard",
       "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/wespenbussard/",
       "quote": "Sein dichtes Gefieder und Hornplättchen an den Füßen schützen ihn vor Wespenstichen."
-     }
-    },
-    {
-     "en": "Some honey buzzards only get back to their breeding grounds in May.",
-     "de": "Manche Wespenbussarde kehren erst im Mai in die Brutgebiete zurück.",
-     "source": {
-      "title": "NABU, Vogelporträt Wespenbussard",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/wespenbussard/",
-      "quote": "Er taucht teilweise erst im Mai in den Brutgebieten wieder auf."
      }
     },
     {
@@ -615,21 +644,53 @@
      }
     },
     {
-     "en": "Honey buzzard plumage varies a lot at every age, which makes them tricky to identify.",
-     "de": "Das Gefieder der Wespenbussarde ist in jedem Alter sehr variabel, das macht die Bestimmung schwer.",
-     "source": {
-      "title": "RSPB, Honey Buzzard",
-      "url": "https://www.rspb.org.uk/birds-and-wildlife/honey-buzzard",
-      "quote": "The plumage is very variable across all ages"
-     }
-    },
-    {
-     "en": "Honey buzzards spend the winter in tropical Africa.",
-     "de": "Wespenbussarde überwintern im tropischen Afrika.",
+     "en": "Honey buzzards often hunt on foot, digging wasp grubs out of the ground.",
+     "de": "Wespenbussarde jagen oft zu Fuß und graben Wespenlarven aus dem Boden.",
      "source": {
       "title": "NABU, Vogelporträt Wespenbussard",
       "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/wespenbussard/",
-      "quote": "Zum Überwintern zieht er bis in die tropischen Regionen Afrikas."
+      "quote": [
+       "Der Wespenbussard begibt sich oft zu Fuß auf die Jagd nach Insekten.",
+       "Nach Wespenlarven jagt er, indem er die Larven und Puppen aus dem Boden ausgräbt."
+      ]
+     }
+    },
+    {
+     "en": "Honey buzzards raid nests of the invasive Asian hornet; in one study, 89% of the nests they attacked were destroyed.",
+     "de": "Wespenbussarde plündern Nester der eingeschleppten Asiatischen Hornisse; in einer Studie wurden 89 % davon zerstört.",
+     "source": {
+      "title": "Martín-Ávila et al. 2025, Pest Management Science",
+      "url": "https://doi.org/10.1002/ps.8622",
+      "europepmc": "DOI:10.1002/ps.8622",
+      "quote": [
+       "as an ally for the control of the invasive yellow-legged hornet",
+       "with 89.3% of attacked nests destroyed."
+      ]
+     }
+    },
+    {
+     "en": "Young honey buzzards from southern Finland fanned out across {3340 km|2080 mi} of Africa, steered partly by the wind.",
+     "de": "Junge Wespenbussarde aus Südfinnland verteilten sich über {3340 km|2080 mi} Afrikas, gelenkt auch vom Wind.",
+     "source": {
+      "title": "Vansteelant et al. 2017, Proceedings of the Royal Society B",
+      "url": "https://doi.org/10.1098/rspb.2017.0387",
+      "europepmc": "DOI:10.1098/rspb.2017.0387",
+      "quote": [
+       "satellite-tagging 31 fledgling honey buzzards",
+       "the birds eventually spread out across 3340 km of longitude."
+      ]
+     }
+    },
+    {
+     "en": "Honey buzzards look like common buzzards, perhaps as a disguise: goshawks are warier of the better-armed buzzard.",
+     "de": "Wespenbussarde sehen Mäusebussarden ähnlich, vielleicht als Tarnung: Habichte meiden den wehrhafteren Mäusebussard eher.",
+     "source": {
+      "title": "Hawk and Owl Trust, Honey Buzzard",
+      "url": "https://hawkandowltrust.org/learn-and-discover/about-birds-of-prey/honey-buzzard",
+      "quote": [
+       "It is thought that this could be a defense against potential predation by Goshawk.",
+       "a Goshawk is going to be more cautious against this well-armed species, than against the much weaker Honey Buzzard."
+      ]
      }
     }
    ],
@@ -793,39 +854,55 @@
      }
     },
     {
-     "en": "Turtle doves winter in the African savannas south of the Sahara.",
-     "de": "Turteltauben überwintern in den Savannen Afrikas südlich der Sahara.",
-     "source": {
-      "title": "NABU, Vogelporträt Turteltaube",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/turteltaube/",
-      "quote": "Turteltauben überwintern in den Savannen Afrikas südlich der Sahara."
-     }
-    },
-    {
-     "en": "Most turtle doves breeding in Germany fly to Africa by way of Gibraltar.",
-     "de": "Die meisten deutschen Turteltauben ziehen über Gibraltar nach Afrika.",
-     "source": {
-      "title": "NABU, Vogelporträt Turteltaube",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/turteltaube/",
-      "quote": "wählen die meisten deutschen Brutvögel eine Route über Gibraltar"
-     }
-    },
-    {
-     "en": "Turtle doves are strictly vegetarian, living mostly on the seeds and fruits of wild herbs.",
-     "de": "Turteltauben ernähren sich rein vegetarisch, vor allem von Samen und Früchten von Wildkräutern.",
-     "source": {
-      "title": "NABU, Vogelporträt Turteltaube",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/turteltaube/",
-      "quote": "Turteltauben ernähren sich rein vegetarisch."
-     }
-    },
-    {
      "en": "From Greek myth to Madonna's songs, turtle doves have long stood for love and devotion.",
      "de": "Von der griechischen Mythologie bis zu Madonna stehen Turteltauben für Liebe und Treue.",
      "source": {
       "title": "RSPB, Turtle Dove",
       "url": "https://www.rspb.org.uk/birds-and-wildlife/turtle-dove",
       "quote": "From Greek mythology to Madonna’s discography Turtle Doves have been used as a symbol of love and devotion throughout history."
+     }
+    },
+    {
+     "en": "A tagged turtle dove called Titan flew from England to Mali and back to the very spot where he was tagged.",
+     "de": "Eine besenderte Turteltaube namens Titan flog von England nach Mali und zurück an genau die Stelle, wo sie besendert wurde.",
+     "source": {
+      "title": "Operation Turtle Dove (RSPB and partners), Titan",
+      "url": "https://www.operationturtledove.org/turtle-doves/titan/",
+      "quote": "Titan then completed an incredible 11,200 km to Mali in West Africa, spending the winter there before returning to Suffolk – to exactly where he originally was tagged."
+     }
+    },
+    {
+     "en": "Turtle doves fly south by night, up to {700 km|435 mi} at a stretch, at up to {60 km/h|37 mph}.",
+     "de": "Turteltauben ziehen nachts, bis zu {700 km|435 mi} am Stück, mit bis zu {60 km/h|37 mph}.",
+     "source": {
+      "title": "Operation Turtle Dove (RSPB and partners), Titan",
+      "url": "https://www.operationturtledove.org/turtle-doves/titan/",
+      "quote": "And he travelled around 500-700 km per night, flying at a maximum speed of 60 km per hour."
+     }
+    },
+    {
+     "en": "The turtle doves of the Christmas carol are never in Britain at Christmas: they are summer visitors.",
+     "de": "Die Turteltauben aus dem englischen Weihnachtslied sind zu Weihnachten nie in Großbritannien: Sie sind Sommergäste.",
+     "source": {
+      "title": "RSPB, Turtle Dove",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/turtle-dove",
+      "quote": [
+       "mention in the",
+       "12 Days of Christmas",
+       "carol, these birds are a summer visitor and are only with us from mid-April to end of August."
+      ]
+     }
+    },
+    {
+     "en": "Turtle dove chicks are raised on milk: both parents make it in a pouch in their throat.",
+     "de": "Turteltauben ziehen ihre Küken mit Milch auf: Beide Eltern bilden sie in einer Tasche im Hals, dem Kropf.",
+     "source": {
+      "title": "Smithsonian Science Education Center (Qrius), Pigeons and Doves: Parental Care",
+      "url": "https://qrius.si.edu/taxonomy/term/12132",
+      "quote": [
+       "Distinct from mammal milk, it is made in a pouch on the bird's throat (the crop).",
+       "Males and females both start to make crop milk just before eggs hatch."
+      ]
      }
     }
    ],
@@ -962,48 +1039,12 @@
      }
     },
     {
-     "en": "The UK is home to 40% of Europe's lesser black-backed gulls.",
-     "de": "40 % der europäischen Heringsmöwen leben in Großbritannien.",
-     "source": {
-      "title": "RSPB, Lesser Black-backed Gull",
-      "url": "https://www.rspb.org.uk/birds-and-wildlife/lesser-black-backed-gull",
-      "quote": "The UK is home to 40% of the European population"
-     }
-    },
-    {
-     "en": "Lesser black-backed gulls often follow fishing boats for the discarded catch.",
-     "de": "Heringsmöwen folgen oft Fischkuttern und holen sich Fischereiabfälle.",
-     "source": {
-      "title": "NABU, Vogelporträt Heringsmöwe",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/heringsmoewe/",
-      "quote": "Heringsmöwen folgen bei der Nahrungssuche häufig Fischkuttern und holen sich Fischereiabfälle."
-     }
-    },
-    {
      "en": "Migrating lesser black-backed gulls head south-east along big rivers, as far as Africa.",
      "de": "Ziehende Heringsmöwen fliegen nach Südosten entlang großer Flüsse bis nach Afrika.",
      "source": {
       "title": "NABU, Vogelporträt Heringsmöwe",
       "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/heringsmoewe/",
       "quote": "Ziehende Vögel fliegen im Spätsommer und Herbst in südöstlicher Richtung entlang großer Flüsse bis nach Afrika."
-     }
-    },
-    {
-     "en": "Lesser black-backed gulls start breeding at four years old, laying two or three eggs.",
-     "de": "Heringsmöwen brüten erst mit vier Jahren; das Gelege hat zwei bis drei Eier.",
-     "source": {
-      "title": "RSPB, Lesser Black-backed Gull",
-      "url": "https://www.rspb.org.uk/birds-and-wildlife/lesser-black-backed-gull",
-      "quote": "They begin breeding at four years old when the female lays two to three eggs."
-     }
-    },
-    {
-     "en": "Unlike the great black-backed gull, the lesser black-backed gull has yellow legs.",
-     "de": "Anders als Mantelmöwen haben Heringsmöwen gelbe Beine.",
-     "source": {
-      "title": "NABU, Vogelporträt Heringsmöwe",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/heringsmoewe/",
-      "quote": "Die Beine sind im Gegensatz zu denen der Mantelmöwe gelb."
      }
     },
     {
@@ -1022,6 +1063,44 @@
       "title": "NABU, Vogelporträt Heringsmöwe",
       "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/heringsmoewe/",
       "quote": "Beim Suchflug halten sie nach Fischen Ausschau und tauchen aus einigen Metern Höhe plötzlich ein."
+     }
+    },
+    {
+     "en": "The oldest known lesser black-backed gull, a ringed bird, lived to almost 35.",
+     "de": "Die älteste bekannte Heringsmöwe, ein beringter Vogel, wurde fast 35 Jahre alt.",
+     "source": {
+      "title": "BTO, BirdFacts: Lesser Black-backed Gull",
+      "url": "https://www.bto.org/understanding-birds/birdfacts/lesser-black-backed-gull",
+      "quote": "Maximum age from a ringed bird 34 years, 10 months, 27 days"
+     }
+    },
+    {
+     "en": "Lesser black-backed gulls have moved to town: they also nest on the flat roofs of city-centre buildings.",
+     "de": "Heringsmöwen sind in die Stadt gezogen: Sie brüten auch auf Flachdächern in Innenstädten.",
+     "source": {
+      "title": "BTO, BirdFacts: Lesser Black-backed Gull",
+      "url": "https://www.bto.org/understanding-birds/birdfacts/lesser-black-backed-gull",
+      "quote": "it also breeds on the flat roofs of city-centre buildings and industrial units."
+     }
+    },
+    {
+     "en": "Female lesser black-backed gulls dawdle in autumn and reach their winter quarters about 15 days after the males.",
+     "de": "Weibliche Heringsmöwen lassen sich im Herbst Zeit und kommen etwa 15 Tage nach den Männchen im Winterquartier an.",
+     "source": {
+      "title": "Baert et al. 2018, Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-018-23605-x",
+      "europepmc": "DOI:10.1038/s41598-018-23605-x",
+      "quote": "arrived 15 days later at their wintering areas, than males."
+     }
+    },
+    {
+     "en": "Gulls nesting in a city barely used the sea {10 km|6 mi} away; they fed in towns and fields instead.",
+     "de": "In der Stadt brütende Heringsmöwen nutzten das {10 km|6 mi} entfernte Meer kaum; sie fraßen in Städten und auf Feldern.",
+     "source": {
+      "title": "Spelt et al. 2019, Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-019-46890-6",
+      "europepmc": "DOI:10.1038/s41598-019-46890-6",
+      "quote": "Despite the proximity of marine areas (~10 km), the birds only made significant use of terrestrial environments"
      }
     }
    ],
@@ -1194,24 +1273,6 @@
      }
     },
     {
-     "en": "Red-backed shrikes impale leftover prey on thorns to keep it for later.",
-     "de": "Neuntöter spießen übrige Beute auf Dornen, als Vorrat für später.",
-     "source": {
-      "title": "NABU, Vogelporträt Neuntöter",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/neuntoeter/",
-      "quote": "Neuntöter spießen übrig gebliebene Nahrung auf Dornen, um sie dort für einen späteren Zeitpunkt aufzubewahren."
-     }
-    },
-    {
-     "en": "Red-backed shrikes already cross the Mediterranean to Africa in August.",
-     "de": "Neuntöter ziehen schon im August über das Mittelmeer nach Afrika.",
-     "source": {
-      "title": "NABU, Vogelporträt Neuntöter",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/neuntoeter/",
-      "quote": "Sie ziehen bereits im August über das Mittelmeer gen Afrika."
-     }
-    },
-    {
      "en": "In spring red-backed shrikes fly north much further east, along the Red Sea.",
      "de": "Im Frühjahr ziehen Neuntöter viel weiter östlich nach Norden, entlang des Roten Meeres.",
      "source": {
@@ -1230,30 +1291,54 @@
      }
     },
     {
-     "en": "After dramatic declines, the red-backed shrike is almost extinct as a UK breeding bird.",
-     "de": "Nach dramatischen Rückgängen brüten Neuntöter in Großbritannien fast nicht mehr.",
-     "source": {
-      "title": "RSPB, Red-backed Shrike",
-      "url": "https://www.rspb.org.uk/birds-and-wildlife/red-backed-shrike",
-      "quote": "Dramatic declines have seen the Red-backed Shrike become almost extinct as a UK breeding species"
-     }
-    },
-    {
-     "en": "Red-backed shrikes eat insects, caterpillars, small mammals, lizards and small snakes.",
-     "de": "Neuntöter fressen Insekten, Raupen, Kleinsäuger, Eidechsen und kleine Schlangen.",
+     "en": "Red-backed shrikes impale leftover prey on thorns, or on barbed wire, to keep it for later.",
+     "de": "Neuntöter spießen übrige Beute auf Dornen oder Stacheldraht, als Vorrat für später.",
      "source": {
       "title": "NABU, Vogelporträt Neuntöter",
       "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/neuntoeter/",
-      "quote": "Sie ernähren sich von Insekten, Raupen, Kleinsäugern, Reptilien wie Eidechsen und kleinen Schlangen."
+      "quote": [
+       "Neuntöter spießen übrig gebliebene Nahrung auf Dornen, um sie dort für einen späteren Zeitpunkt aufzubewahren.",
+       "Auch Stacheldraht nutzen sie dafür."
+      ]
      }
     },
     {
-     "en": "The red-backed shrike is the most common shrike in Germany.",
-     "de": "Der Neuntöter ist der häufigste Würger in Deutschland.",
+     "en": "In German the red-backed shrike is the 'killer of nine': people believed it caught nine animals before eating one.",
+     "de": "Früher glaubte man, der Neuntöter müsse erst neun Tiere fangen, bevor er eines frisst; daher sein Name.",
+     "source": {
+      "title": "NABU Hamburg, Neuntöter",
+      "url": "https://hamburg.nabu.de/natur-und-landschaft/hoeltigbaum/landschaft-und-leben/05236.html",
+      "quote": "Früher glaubte man, der Neuntöter müsse erst neun Tiere fangen, bevor er eines verspeisen würde - daher der gefährlich klingende Name."
+     }
+    },
+    {
+     "en": "Shrikes use thorns as a butcher's block too, to cut up their prey, crack it open or pull out stings.",
+     "de": "Dornen dienen Neuntötern auch als Schlachtbank: Dort wird Beute zerteilt, aufgebrochen oder entstachelt.",
      "source": {
       "title": "NABU, Vogelporträt Neuntöter",
       "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/neuntoeter/",
-      "quote": "Der Neuntöter gehört zur Familie der Würger, hierzulande ist er ihr häufigster Vertreter."
+      "quote": "Die Beutetiere werden an Dornen zerteilt, aufgebrochen oder entstachelt."
+     }
+    },
+    {
+     "en": "Though a songbird, the red-backed shrike has a hooked bill with a 'falcon tooth', like a bird of prey.",
+     "de": "Obwohl ein Singvogel, hat der Neuntöter einen Hakenschnabel mit „Falkenzahn“ wie ein Greifvogel.",
+     "source": {
+      "title": "NABU, Vogel des Jahres 1985: Der Neuntöter",
+      "url": "https://www.nabu.de/tiere-und-pflanzen/aktionen-und-projekte/vogel-des-jahres/1985-neuntoeter/index.html",
+      "quote": "Ein typisches äußerliches Merkmal dieser Singvögel ist ihr falkenähnlicher Oberschnabel, der wie bei Greifvögeln mit einem so genannten Falkenzahn versehen ist."
+     }
+    },
+    {
+     "en": "Every shrike impales its prey, which earned the whole family its German name 'Würger', the stranglers.",
+     "de": "Alle Verwandten des Neuntöters spießen Beute auf; das brachte der ganzen Familie den Namen „Würger“ ein.",
+     "source": {
+      "title": "NABU Hamburg, Neuntöter",
+      "url": "https://hamburg.nabu.de/natur-und-landschaft/hoeltigbaum/landschaft-und-leben/05236.html",
+      "quote": [
+       "Größere Insekten, aber auch Eidechsen, Jungvögel oder auch einmal eine kleine Maus werden in Astgabeln geklemmt oder auf Dornen aufgespießt.",
+       "Dieses Verhalten zeigen übrigens alle Verwandten des Neuntöters und hat der ganzen Familie den wenig schmeichelhaften Namen"
+      ]
      }
     }
    ],
@@ -1405,48 +1490,12 @@
      }
     },
     {
-     "en": "Northern wheatears passing through Germany fly up to {15000 km|9300 mi} to their winter quarters.",
-     "de": "Nordische Steinschmätzer auf dem Durchzug legen bis zu {15000 km|9300 mi} ins Winterquartier zurück.",
-     "source": {
-      "title": "NABU, Vogelporträt Steinschmätzer",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/steinschmaetzer/",
-      "quote": "legen dabei bis zu 15.000 km in ihr Überwinterungsquartier zurück"
-     }
-    },
-    {
      "en": "Wheatears keep bobbing and flicking their tails, even with food in the beak.",
      "de": "Steinschmätzer knicksen immer wieder und bewegen den Schwanz, selbst mit Futter im Schnabel.",
      "source": {
       "title": "NABU, Vogelporträt Steinschmätzer",
       "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/steinschmaetzer/",
       "quote": "Immer wieder halten sie an, auch mit Futter im Schnabel, knicksen und bewegen den Schwanz."
-     }
-    },
-    {
-     "en": "Wheatears nest in piles of stones, stone walls, niches and sometimes woodpiles.",
-     "de": "Steinschmätzer nisten in Steinhaufen, Steinmauern, Nischen und manchmal in Holzstößen.",
-     "source": {
-      "title": "NABU, Vogelporträt Steinschmätzer",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/steinschmaetzer/",
-      "quote": "Das Nest bauen sie in Steinhaufen, Steinmauern, Nischen und manchmal in Holzstößen."
-     }
-    },
-    {
-     "en": "In Germany, habitat loss has made the northern wheatear critically endangered.",
-     "de": "In Deutschland sind Steinschmätzer durch Lebensraumverlust vom Aussterben bedroht.",
-     "source": {
-      "title": "NABU, Vogelporträt Steinschmätzer",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/steinschmaetzer/",
-      "quote": "Steinschmätzer sind durch Lebensraumverlust vom Aussterben bedroht."
-     }
-    },
-    {
-     "en": "Wheatears catch mostly insects, spiders, worms and snails; in autumn sometimes berries too.",
-     "de": "Steinschmätzer fressen vor allem Insekten, Spinnen, Würmer und Schnecken, im Herbst auch Beeren.",
-     "source": {
-      "title": "NABU, Vogelporträt Steinschmätzer",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/steinschmaetzer/",
-      "quote": "Steinschmätzer erbeuten überwiegend Insekten, Spinnen, Würmer und Schnecken."
      }
     },
     {
@@ -1457,6 +1506,45 @@
       "url": "https://doi.org/10.1098/rsbl.2011.1223",
       "europepmc": "DOI:10.1098/rsbl.2011.1223",
       "quote": "mean overall migration speeds of up to 290 km d(-1)"
+     }
+    },
+    {
+     "en": "The English name 'wheatear' started out as 'white arse', after the bird's white rump.",
+     "de": "Der englische Name „Wheatear“ kommt vom altenglischen „white arse“, nach dem weißen Bürzel.",
+     "source": {
+      "title": "RSPB, Which birds return first in spring?",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/spring-arrivals",
+      "quote": [
+       "white arse",
+       "as it was known in old English, is one of the first"
+      ]
+     }
+    },
+    {
+     "en": "Some wheatears from Greenland fly non-stop across the Atlantic to Spain, then on to West Africa.",
+     "de": "Manche Steinschmätzer aus Grönland fliegen nonstop über den Atlantik nach Spanien und weiter nach Westafrika.",
+     "source": {
+      "title": "BTO, BirdFacts: Wheatear",
+      "url": "https://www.bto.org/understanding-birds/birdfacts/wheatear",
+      "quote": "with some flying non-stop across the Atlantic to northern Spain and then on to West Africa."
+     }
+    },
+    {
+     "en": "Alaska's wheatears head west in autumn: across the Bering Strait and the whole of Asia to Africa.",
+     "de": "Steinschmätzer aus Alaska ziehen im Herbst nach Westen: über die Beringstraße und ganz Asien nach Afrika.",
+     "source": {
+      "title": "Audubon Field Guide, Northern Wheatear",
+      "url": "https://www.audubon.org/field-guide/bird/northern-wheatear",
+      "quote": "Birds from Alaska and northwestern Canada cross Bering Strait and make long westward flight across Asia, also going to wintering grounds mostly in Africa."
+     }
+    },
+    {
+     "en": "Wheatears do well where rabbits do: rabbits keep the grass short and dig the burrows wheatears nest in.",
+     "de": "Steinschmätzer profitieren von Kaninchen: Die halten das Gras kurz und graben Baue, in denen Steinschmätzer brüten.",
+     "source": {
+      "title": "BTO, BirdFacts: Wheatear",
+      "url": "https://www.bto.org/understanding-birds/birdfacts/wheatear",
+      "quote": "Wheatears were more abundant on islands with larger rabbit populations and hence short turf and burrows for nesting"
      }
     }
    ],
@@ -1554,25 +1642,6 @@
    ],
    "facts": [
     {
-     "en": "Australia's largest shorebird flies to Russia and north-eastern China every year to breed.",
-     "de": "Australiens größter Watvogel fliegt jedes Jahr zum Brüten nach Russland und Nordostchina.",
-     "source": {
-      "title": "Australian Government DCCEEW, Species Profile and Threats Database: Numenius madagascariensis",
-      "url": "http://www.environment.gov.au/cgi-bin/sprat/public/publicspecies.pl?taxon_id=847",
-      "quote": "The eastern curlew is Australia’s largest shorebird"
-     }
-    },
-    {
-     "en": "Female Far Eastern curlews tend to be larger than males and have longer bills.",
-     "de": "Weibliche Isabellbrachvögel sind meist größer als die Männchen und haben längere Schnäbel.",
-     "source": {
-      "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
-      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
-      "pdf": true,
-      "quote": "Males and females appear similar, but females tend to be larger and have a longer bill."
-     }
-    },
-    {
      "en": "Far Eastern curlews are very wary: they take flight long before other shorebirds get nervous.",
      "de": "Isabellbrachvögel sind sehr scheu und fliegen auf, lange bevor andere Watvögel unruhig werden.",
      "source": {
@@ -1580,26 +1649,6 @@
       "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
       "pdf": true,
       "quote": "The species is extremely wary and will take flight at the first sign of danger, long before other nearby shorebirds become nervous."
-     }
-    },
-    {
-     "en": "Far Eastern curlews eat mainly crabs, shrimps and prawns.",
-     "de": "Isabellbrachvögel fressen vor allem Krabben, Garnelen und andere Krebstiere.",
-     "source": {
-      "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
-      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
-      "pdf": true,
-      "quote": "Far eastern curlews mainly feed on crustaceans (including crabs, shrimps, and prawns)"
-     }
-    },
-    {
-     "en": "The Yellow Sea, between China and Korea, is a key stopover for Far Eastern curlews on both journeys.",
-     "de": "Das Gelbe Meer zwischen China und Korea ist für Isabellbrachvögel auf beiden Zügen ein wichtiger Rastplatz.",
-     "source": {
-      "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
-      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
-      "pdf": true,
-      "quote": "The Yellow Sea region is frequently used as a stopover site during the species’ northward and southward migration."
      }
     },
     {
@@ -1623,13 +1672,54 @@
      }
     },
     {
-     "en": "A Far Eastern curlew weighs around {900 g|2 lb} and spans about {110 cm|43 in} from wingtip to wingtip.",
-     "de": "Isabellbrachvögel wiegen rund {900 g|2 lb} und haben etwa {110 cm|43 in} Flügelspannweite.",
+     "en": "The Far Eastern curlew has the longest bill of any wader, around {20 cm|8 in}.",
+     "de": "Der Isabellbrachvogel hat den längsten Schnabel aller Watvögel, rund {20 cm|8 in}.",
+     "source": {
+      "title": "Birds New Zealand / Te Papa, New Zealand Birds Online: Eastern curlew",
+      "url": "https://www.nzbirdsonline.org.nz/species/eastern-curlew",
+      "quote": "has the longest bill of any wader at around 20 cm in length."
+     }
+    },
+    {
+     "en": "The Far Eastern curlew is the largest migratory shorebird in the world.",
+     "de": "Der Isabellbrachvogel ist der größte ziehende Watvogel der Welt.",
      "source": {
       "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
       "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
       "pdf": true,
-      "quote": "have a wingspan of approximately 110 cm and weigh around 900 g"
+      "quote": "Far eastern curlews are the largest migratory shorebird species in the world."
+     }
+    },
+    {
+     "en": "Female Far Eastern curlews have longer bills and feed on sandier flats; the males stick to the mud.",
+     "de": "Weibliche Isabellbrachvögel haben längere Schnäbel und suchen auf sandigeren Flächen; die Männchen bleiben im Schlick.",
+     "source": {
+      "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
+      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+      "pdf": true,
+      "quote": [
+       "females tend to be larger and have a longer bill.",
+       "with females utilising more sandy areas and males utilising more muddy areas"
+      ]
+     }
+    },
+    {
+     "en": "About 80% of all Far Eastern curlews stop over on the Yellow Sea on their way north.",
+     "de": "Rund 80 % aller Isabellbrachvögel rasten auf dem Weg nach Norden am Gelben Meer.",
+     "source": {
+      "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
+      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+      "pdf": true,
+      "quote": "It supports approximately 80 percent of the species' estimated flyway population during their northward migration"
+     }
+    },
+    {
+     "en": "Far Eastern curlews fly non-stop from northern Australia to the mudflats of East Asia, as far as the Yellow Sea.",
+     "de": "Isabellbrachvögel fliegen nonstop von Nordaustralien zu den Watten Ostasiens, bis hinauf zum Gelben Meer.",
+     "source": {
+      "title": "Birds New Zealand / Te Papa, New Zealand Birds Online: Eastern curlew",
+      "url": "https://www.nzbirdsonline.org.nz/species/eastern-curlew",
+      "quote": "making non-stop flights from east and north Australia direct to east Asia, from Taiwan northwards to major mudflat staging sites of the Yellow Sea."
      }
     }
    ],
@@ -1740,39 +1830,12 @@
      }
     },
     {
-     "en": "Broad-winged hawks save energy on migration by soaring on thermals and mountain updrafts.",
-     "de": "Breitflügelbussarde sparen auf dem Zug Kraft, indem sie in Thermik und Hangaufwind segeln.",
-     "source": {
-      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
-      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
-      "quote": "Broad-winged Hawks conserve energy on migration by soaring on thermals and mountain updrafts."
-     }
-    },
-    {
      "en": "Broad-winged hawks fly around the Gulf of Mexico, not across it.",
      "de": "Breitflügelbussarde fliegen um den Golf von Mexiko herum, nicht darüber.",
      "source": {
       "title": "Audubon Field Guide, Broad-winged Hawk",
       "url": "https://www.audubon.org/field-guide/bird/broad-winged-hawk",
       "quote": "Birds from throughout the east travel southwest or south to go around, not across, the Gulf of Mexico."
-     }
-    },
-    {
-     "en": "Unlike some raptors, broad-winged hawks build a new nest every year.",
-     "de": "Anders als manche Greifvögel bauen Breitflügelbussarde jedes Jahr ein neues Nest.",
-     "source": {
-      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
-      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
-      "quote": "Unlike some raptors, Broad-winged Hawks build new nests every year."
-     }
-    },
-    {
-     "en": "Hawk Mountain in Pennsylvania counted a record 29,519 broad-winged hawks in 1978.",
-     "de": "Hawk Mountain in Pennsylvania zählte 1978 den Rekord von 29.519 Breitflügelbussarden.",
-     "source": {
-      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
-      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
-      "quote": "Record year: 29,519 (1978)"
      }
     },
     {
@@ -1791,6 +1854,42 @@
       "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
       "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
       "quote": "Non-migratory subspecies of broadwings inhabit Cuba, Puerto Rico, and several other islands in the West Indies."
+     }
+    },
+    {
+     "en": "Broad-winged hawks barely fatten up before migrating: they get to South America by soaring on rising air.",
+     "de": "Breitflügelbussarde fressen sich vor dem Zug kaum Fett an: Sie kommen segelnd auf Aufwinden bis nach Südamerika.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "This species does not acquire large stores of fat prior to migration and depends upon soaring to complete its long-distance journeys."
+     }
+    },
+    {
+     "en": "Winds push broad-winged hawks east in autumn, so their journey south and back runs in a loop.",
+     "de": "Der Wind drückt Breitflügelbussarde im Herbst nach Osten, sodass Hin- und Rückweg eine Schleife bilden.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "Prevailing wind conditions in eastern North America push southbound birds to the south and east of their return routes in the spring, creating an elliptical migration route."
+     }
+    },
+    {
+     "en": "On the way south, broad-winged hawks snack on dragonflies that are migrating too.",
+     "de": "Unterwegs nach Süden schnappen sich Breitflügelbussarde Libellen, die ebenfalls ziehen.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "During migration, broadwings will feed opportunistically on insects, including migrating dragonflies"
+     }
+    },
+    {
+     "en": "Blue jays are known to imitate the broad-winged hawk's thin, high whistle.",
+     "de": "Blauhäher ahmen den dünnen, hohen Pfiff des Breitflügelbussards nach.",
+     "source": {
+      "title": "Audubon Field Guide, Broad-winged Hawk",
+      "url": "https://www.audubon.org/field-guide/bird/broad-winged-hawk",
+      "quote": "Blue Jays are known to mimic the call."
      }
     }
    ],
@@ -1915,15 +2014,6 @@
      }
     },
     {
-     "en": "Turkey vultures soar with wings in a shallow V, often rocking from side to side in the wind.",
-     "de": "Truthahngeier segeln mit V-förmig erhobenen Flügeln und schaukeln dabei oft im Wind.",
-     "source": {
-      "title": "Hawk Mountain Sanctuary, Turkey Vulture",
-      "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
-      "quote": "When soaring, Vultures hold their wings in a dihedral, or “V” shape, above their backs, and often rock side-to-side in the wind."
-     }
-    },
-    {
      "en": "Black vultures can barely smell, so they often follow turkey vultures to carcasses.",
      "de": "Rabengeier riechen kaum etwas und folgen darum oft Truthahngeiern zum Aas.",
      "source": {
@@ -1942,21 +2032,48 @@
      }
     },
     {
-     "en": "Turkey vultures migrate in flocks and may cover long distances without feeding.",
-     "de": "Truthahngeier ziehen in Schwärmen und legen oft weite Strecken ohne Nahrung zurück.",
+     "en": "Turkey vultures smell so well that they help gas companies find leaks.",
+     "de": "Truthahngeier riechen so gut, dass sie Gasfirmen helfen, Lecks zu finden.",
      "source": {
-      "title": "Audubon Field Guide, Turkey Vulture",
-      "url": "https://www.audubon.org/field-guide/bird/turkey-vulture",
-      "quote": "Migrates in flocks, and may travel long distances without feeding."
+      "title": "Chesapeake Bay Program, Turkey Vulture",
+      "url": "https://www.chesapeakebay.net/discover/field-guide/entry/turkey-vulture",
+      "quote": "Turkey vultures have such a strong sense of smell that they can help gas companies detect gas leaks."
      }
     },
     {
-     "en": "Turkey vultures range from southern Canada to the southern tip of South America.",
-     "de": "Truthahngeier leben von Südkanada bis an die Südspitze Südamerikas.",
+     "en": "Turkey vultures have no voice box, so all they can do is hiss and grunt.",
+     "de": "Truthahngeier haben keinen Stimmapparat; sie können nur fauchen und grunzen.",
+     "source": {
+      "title": "Missouri Department of Conservation, Turkey Vulture",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/turkey-vulture",
+      "quote": "They have no voice box (syrinx), so they can only hiss and grunt when they vocalize."
+     }
+    },
+    {
+     "en": "Turkey vultures can safely eat carrion carrying anthrax or rabies, which helps stop these diseases spreading.",
+     "de": "Truthahngeier fressen gefahrlos Aas mit Milzbrand- oder Tollwuterregern und bremsen so die Ausbreitung.",
+     "source": {
+      "title": "Missouri Department of Conservation, Turkey Vulture",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/turkey-vulture",
+      "quote": "Their ability to safely eat carrion containing pathogens such as anthrax and rabies helps reduce the spread of these diseases."
+     }
+    },
+    {
+     "en": "A bald head keeps a vulture clean: no feathers for bacteria to lodge in, and the sun disinfects the bare skin.",
+     "de": "Der kahle Kopf hält Geier sauber: Keine Federn, in denen Bakterien hängen bleiben, und die Sonne desinfiziert die Haut.",
+     "source": {
+      "title": "San Diego Zoo Wildlife Alliance, Vulture",
+      "url": "https://animals.sandiegozoo.org/animals/vulture",
+      "quote": "New World vultures have a distinctive bald head, an adaptation that helps reduce the risks of disease, because bacteria could become lodged in feathers, while the bald head and neck may be disinfected by the sun's rays."
+     }
+    },
+    {
+     "en": "Courting turkey vultures play follow-the-leader in the air, one copying the other's flight path exactly.",
+     "de": "Balzende Truthahngeier fliegen hintereinander her, der zweite folgt exakt der Flugbahn des ersten.",
      "source": {
       "title": "Hawk Mountain Sanctuary, Turkey Vulture",
       "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
-      "quote": "ranges across southern Canada to southernmost South America"
+      "quote": "Vultures perform aerial courtship displays during which one bird follows the other and precisely mimics the lead bird's flight path."
      }
     }
    ],
@@ -2069,15 +2186,6 @@
    ],
    "facts": [
     {
-     "en": "Ospreys live on every continent except Antarctica.",
-     "de": "Fischadler leben auf allen Kontinenten außer der Antarktis.",
-     "source": {
-      "title": "Hawk Mountain Sanctuary, Osprey",
-      "url": "https://www.hawkmountain.org/raptors/osprey",
-      "quote": "Are a cosmopolitan species with populations on all continents except Antarctica."
-     }
-    },
-    {
      "en": "Ospreys add to their nests every year; some nests end up weighing up to {180 kg|400 lb}.",
      "de": "Fischadler bauen jedes Jahr an ihren Horsten weiter; manche wiegen am Ende bis zu {180 kg|400 lb}.",
      "source": {
@@ -2123,21 +2231,51 @@
      }
     },
     {
-     "en": "After the DDT ban in 1972, many North American osprey populations recovered.",
-     "de": "Nach dem DDT-Verbot 1972 erholten sich viele Fischadlerbestände in Nordamerika.",
-     "source": {
-      "title": "Hawk Mountain Sanctuary, Osprey",
-      "url": "https://www.hawkmountain.org/raptors/osprey",
-      "quote": "Following the ban on the widespread use of this pesticide in 1972, many populations of Ospreys recovered."
-     }
-    },
-    {
      "en": "The name Pandion comes from a mythical king of Athens; haliaetus is Greek for sea eagle.",
      "de": "Der Name Pandion stammt von einem sagenhaften König Athens, haliaetus ist griechisch für Seeadler.",
      "source": {
       "title": "Hawk Mountain Sanctuary, Osprey",
       "url": "https://www.hawkmountain.org/raptors/osprey",
       "quote": "Get their scientific name from Pandion, a mythical king of Athens and haliaetus, which is Greek for sea eagle."
+     }
+    },
+    {
+     "en": "Fish make up more than 99% of what ospreys eat.",
+     "de": "Fisch macht mehr als 99 % der Nahrung von Fischadlern aus.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "fish comprise more than 99% of the species' diet."
+     }
+    },
+    {
+     "en": "Courting male ospreys 'sky dance' up to {90 m|300 ft} high, often with a fish in their talons.",
+     "de": "Balzende Fischadler-Männchen führen Himmelstänze auf, bis zu {90 m|300 ft} hoch, oft mit einem Fisch in den Fängen.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": [
+       "males usually carry a fish or nesting material and call repeatedly.",
+       "which sometimes reach heights of 300 feet or more."
+      ]
+     }
+    },
+    {
+     "en": "Young ospreys spend more than a year in their winter quarters before flying north for the first time.",
+     "de": "Junge Fischadler bleiben über ein Jahr im Winterquartier, bevor sie zum ersten Mal nach Norden fliegen.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Most Ospreys do not return to their breeding grounds until the spring of their second year"
+     }
+    },
+    {
+     "en": "The osprey is in a family of its own: no other living bird is in the family Pandionidae.",
+     "de": "Der Fischadler bildet eine eigene Familie: Kein anderer lebender Vogel gehört zu den Pandionidae.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Ospreys are the only member of the family Pandionidae."
      }
     }
    ],
@@ -2254,24 +2392,6 @@
      }
     },
     {
-     "en": "Snow geese span {1.3-1.7 m|4.4-5.4 ft} from wingtip to wingtip.",
-     "de": "Schneegänse haben eine Flügelspannweite von {1.3-1.7 m|4.4-5.4 ft}.",
-     "source": {
-      "title": "Audubon Field Guide, Snow Goose",
-      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
-      "quote": "wingspan: 4 ft 5 in-5 ft 5 in (1.3-1.7 m)"
-     }
-    },
-    {
-     "en": "In summer snow geese nest on the Arctic tundra, usually within about {8 km|5 mi} of the coast.",
-     "de": "Im Sommer brüten Schneegänse in der arktischen Tundra, meist höchstens etwa {8 km|5 mi} von der Küste.",
-     "source": {
-      "title": "Audubon Field Guide, Snow Goose",
-      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
-      "quote": "In summer on Arctic tundra usually within 5 miles of coast"
-     }
-    },
-    {
      "en": "Snow goose chicks leave the nest a few hours after hatching and find their own food.",
      "de": "Junge Schneegänse verlassen wenige Stunden nach dem Schlüpfen das Nest und suchen ihr Futter selbst.",
      "source": {
@@ -2281,30 +2401,54 @@
      }
     },
     {
-     "en": "In winter snow geese often feed on grain left over in harvested fields.",
-     "de": "Im Winter fressen Schneegänse oft liegen gebliebenes Getreide auf abgeernteten Feldern.",
+     "en": "Greater snow geese bark like dogs, which has earned them a name as the noisiest of all waterfowl.",
+     "de": "Große Schneegänse bellen wie Hunde und gelten deshalb als die lautesten Wasservögel.",
      "source": {
-      "title": "Audubon Field Guide, Snow Goose",
-      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
-      "quote": "Winter flocks often feed on waste grain in agricultural fields."
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "resembling a dog's bark, which it utters at any time—has earned this goose a reputation as the noisiest of waterfowl."
      }
     },
     {
-     "en": "Around 1900 only 2,000 to 3,000 greater snow geese were left; they have since recovered.",
-     "de": "Um 1900 gab es nur noch 2.000 bis 3.000 Große Schneegänse; der Bestand hat sich erholt.",
+     "en": "On Canada's Bylot Island, snow goose chicks just a day old set off on a {30 km|19 mi} walk with their families.",
+     "de": "Auf der kanadischen Bylotinsel wandern Schneegansküken schon am Tag nach dem Schlüpfen mit der Familie {30 km|19 mi} weit.",
      "source": {
-      "title": "Audubon Field Guide, Snow Goose",
-      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
-      "quote": "Population of Greater Snow Goose was reduced to only 2,000-3,000 around year 1900, has made satisfactory recovery."
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": [
+       "the distance between the birds' nesting and breeding sites is more than 30 km.",
+       "Within a day of hatching, many young geese set off on this trek with their families, reaching their destination within four days."
+      ]
      }
     },
     {
-     "en": "After a run of very cold Arctic summers, snow geese may raise very few young.",
-     "de": "Nach mehreren sehr kalten arktischen Sommern ziehen Schneegänse oft nur wenige Junge groß.",
+     "en": "In the Arctic summer, snow geese feed around the clock, in 24-hour daylight.",
+     "de": "Im arktischen Sommer fressen Schneegänse rund um die Uhr, bei Tageslicht 24 Stunden lang.",
      "source": {
-      "title": "Audubon Field Guide, Snow Goose",
-      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
-      "quote": "in series of exceptionally cold summers, Snow Geese may raise very few young"
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "24 hours a day in the Arctic's round-the-clock summer daylight."
+     }
+    },
+    {
+     "en": "A century ago there were about 3,000 greater snow geese; by 1998 there were more than 800,000.",
+     "de": "Vor hundert Jahren gab es etwa 3.000 Große Schneegänse; 1998 waren es mehr als 800.000.",
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": [
+       "A hundred years ago, the world population of Greater Snow Geese was estimated at approximately 3 000.",
+       "By 1998, there were more than 800 000 Greater Snow Geese."
+      ]
+     }
+    },
+    {
+     "en": "More than half a million snow geese gather in early April at Baie-du-Febvre in Quebec.",
+     "de": "Mehr als eine halbe Million Schneegänse sammeln sich Anfang April bei Baie-du-Febvre in Québec.",
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "Striking concentrations of more than 500 000 Greater Snow Geese can be seen in early April at Baie-du-Febvre"
      }
     }
    ],
@@ -2405,39 +2549,12 @@
      }
     },
     {
-     "en": "The smallest forms of Canada goose are now counted as a separate species, the cackling goose.",
-     "de": "Die kleinsten Formen der Kanadagans gelten heute als eigene Art, die Zwergkanadagans.",
-     "source": {
-      "title": "Audubon Field Guide, Canada Goose",
-      "url": "https://www.audubon.org/field-guide/bird/canada-goose",
-      "quote": "the smallest ones are now regarded as a separate species, Cackling Goose"
-     }
-    },
-    {
-     "en": "Canada geese vary hugely in size: from {2.9-8.9 kg|6.5-19.8 lb}.",
-     "de": "Kanadagänse sind sehr unterschiedlich groß: sie wiegen {2.9-8.9 kg|6.5-19.8 lb}.",
-     "source": {
-      "title": "Audubon Field Guide, Canada Goose",
-      "url": "https://www.audubon.org/field-guide/bird/canada-goose",
-      "quote": "weight: 6 lb 9 oz-19 lb 13 oz (2.9-8.9 kg)"
-     }
-    },
-    {
      "en": "While the female incubates the eggs, the male Canada goose stands guard nearby.",
      "de": "Während das Weibchen brütet, hält das Männchen der Kanadagans in der Nähe Wache.",
      "source": {
       "title": "Audubon Field Guide, Canada Goose",
       "url": "https://www.audubon.org/field-guide/bird/canada-goose",
       "quote": "Incubation is by female, 25-28 days; male stands guard nearby."
-     }
-    },
-    {
-     "en": "Young Canada geese usually first fly at 7 to 9 weeks old.",
-     "de": "Junge Kanadagänse fliegen meist mit 7 bis 9 Wochen zum ersten Mal.",
-     "source": {
-      "title": "Audubon Field Guide, Canada Goose",
-      "url": "https://www.audubon.org/field-guide/bird/canada-goose",
-      "quote": "Age at first flight varies, usually 7-9 weeks"
      }
     },
     {
@@ -2450,12 +2567,48 @@
      }
     },
     {
-     "en": "Once a symbol of wilderness, the Canada goose now nests by park ponds and on golf courses.",
-     "de": "Einst ein Symbol der Wildnis, brütet die Kanadagans heute an Parkteichen und auf Golfplätzen.",
+     "en": "With a good tailwind, Canada geese can cover {2400 km|1500 mi} in just 24 hours.",
+     "de": "Mit gutem Rückenwind schaffen Kanadagänse {2400 km|1500 mi} in nur 24 Stunden.",
      "source": {
-      "title": "Audubon Field Guide, Canada Goose",
-      "url": "https://www.audubon.org/field-guide/bird/canada-goose",
-      "quote": "Once considered a symbol of wilderness, this goose has adapted well to civilization, nesting around park ponds and golf courses"
+      "title": "National Geographic, Canada Goose",
+      "url": "https://www.nationalgeographic.com/animals/birds/facts/canada-goose",
+      "quote": "They can cover 1,500 miles in just 24 hours with a favorable wind"
+     }
+    },
+    {
+     "en": "Male Canada geese call a long, loud 'a-honk!'; females answer with a higher, faster 'hink!'.",
+     "de": "Kanadaganter rufen ein langes, lautes „a-honk!“, die Weibchen ein höheres, schnelleres „hink!“.",
+     "source": {
+      "title": "Missouri Department of Conservation, Canada Goose",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
+      "quote": "while the females make a faster, higher-pitched"
+     }
+    },
+    {
+     "en": "Each summer adult Canada geese shed their flight feathers and can't fly for nearly a month.",
+     "de": "Jeden Sommer verlieren erwachsene Kanadagänse ihre Schwungfedern und können fast einen Monat lang nicht fliegen.",
+     "source": {
+      "title": "Missouri Department of Conservation, Canada Goose",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
+      "quote": "Adults lose their flight feathers during incubation and cannot fly for nearly a month."
+     }
+    },
+    {
+     "en": "A Canada goose can live to be at least 33 years old.",
+     "de": "Eine Kanadagans kann mindestens 33 Jahre alt werden.",
+     "source": {
+      "title": "Missouri Department of Conservation, Canada Goose",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
+      "quote": "A Canada goose can live to be at least 33 years old."
+     }
+    },
+    {
+     "en": "Young Canada geese stay with their parents all winter, until after the spring migration.",
+     "de": "Junge Kanadagänse bleiben den ganzen Winter bei ihren Eltern, bis nach dem Frühjahrszug.",
+     "source": {
+      "title": "Missouri Department of Conservation, Canada Goose",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
+      "quote": "The goslings stay with their parents all the time and do not leave them until after the spring migration."
      }
     }
    ],
@@ -2562,39 +2715,12 @@
      }
     },
     {
-     "en": "In 1963 only 417 nesting pairs of bald eagles were known in the lower 48 US states.",
-     "de": "1963 waren in den 48 südlichen US-Staaten nur 417 Brutpaare des Weißkopf-Seeadlers bekannt.",
-     "source": {
-      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
-      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
-      "quote": "By 1963, with only 417 nesting pairs of bald eagles known to exist, the species was in danger of extinction."
-     }
-    },
-    {
-     "en": "By 2018-19 the lower 48 US states had about 316,700 bald eagles, with 71,467 breeding pairs.",
-     "de": "2018/19 lebten in den 48 südlichen US-Staaten rund 316.700 Weißkopf-Seeadler, davon 71.467 Brutpaare.",
-     "source": {
-      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
-      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
-      "quote": "total 316,700 individuals, including 71,467 breeding pairs"
-     }
-    },
-    {
      "en": "Bald eagles recovered so well that they left the US endangered species list in 2007.",
      "de": "Weißkopf-Seeadler erholten sich so gut, dass sie 2007 von der US-Liste bedrohter Arten gestrichen wurden.",
      "source": {
       "title": "U.S. Fish & Wildlife Service, Bald Eagle",
       "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
       "quote": "bald eagles were delisted from the Endangered Species Act in August 2007"
-     }
-    },
-    {
-     "en": "Some bald eagle nests are up to {2.4 m|8 ft} across and weigh almost two tons.",
-     "de": "Manche Horste des Weißkopf-Seeadlers sind bis zu {2.4 m|8 ft} breit und fast zwei Tonnen schwer.",
-     "source": {
-      "title": "Hawk Mountain Sanctuary, Bald Eagle",
-      "url": "https://www.hawkmountain.org/raptors/bald-eagle",
-      "quote": "Some of their nests are up to 8 feet across and weigh almost two tons."
      }
     },
     {
@@ -2622,6 +2748,42 @@
       "title": "Hawk Mountain Sanctuary, Bald Eagle",
       "url": "https://www.hawkmountain.org/raptors/bald-eagle",
       "quote": "More than a thousand eagles, for example, regularly congregate along the Chilkat River in Alaska"
+     }
+    },
+    {
+     "en": "Courting bald eagles lock talons high in the sky and cartwheel down, letting go just before they hit the ground.",
+     "de": "Balzende Weißkopf-Seeadler verhaken hoch oben die Krallen und wirbeln abwärts, bis kurz vor dem Boden.",
+     "source": {
+      "title": "Audubon Field Guide, Bald Eagle",
+      "url": "https://www.audubon.org/field-guide/bird/bald-eagle",
+      "quote": "During a spectacular courtship display, the male and female Bald Eagle fly high into the sky, lock talons, and cartwheel down toward earth, unlocking talons just before crashing to the ground."
+     }
+    },
+    {
+     "en": "The mighty bald eagle has a weak call, a bit like a snickering laugh.",
+     "de": "Der mächtige Weißkopf-Seeadler hat einen schwachen Ruf, eher wie ein Kichern.",
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "quote": "Bald eagle calls have been described as weak in volume and like a snickering laugh."
+     }
+    },
+    {
+     "en": "The biggest bald eagle nest on record, in Florida, was {2.9 m|9.5 ft} wide, {6 m|20 ft} deep and weighed almost {2.7 t|6000 lb}.",
+     "de": "Das größte bekannte Nest eines Weißkopf-Seeadlers, in Florida, war {2.9 m|9.5 ft} breit, {6 m|20 ft} tief und wog fast {2.7 t|6000 lb}.",
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "quote": "Petersburg, Florida, was 9.5 feet in diameter, 20 feet deep and weighed almost 6,000 pounds!"
+     }
+    },
+    {
+     "en": "A bald eagle too wet to take off swims ashore with its catch, rowing with its wings.",
+     "de": "Ist ein Weißkopf-Seeadler zu nass zum Abheben, schwimmt er mit der Beute an Land und rudert mit den Flügeln.",
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "quote": "swimming with their catch with a rowing motion of their wings, if they're too wet to fly directly off the water!"
      }
     }
    ],
@@ -2762,15 +2924,6 @@
      }
     },
     {
-     "en": "A blackpoll warbler weighs {12-17 g|0.4-0.6 oz}.",
-     "de": "Ein Streifenwaldsänger wiegt {12-17 g|0.4-0.6 oz}.",
-     "source": {
-      "title": "Audubon Field Guide, Blackpoll Warbler",
-      "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
-      "quote": "weight: 0.4-0.6 oz (12-17 g)"
-     }
-    },
-    {
      "en": "Every autumn, up to 100 or more lost blackpoll warblers turn up on the Pacific coast.",
      "de": "Jeden Herbst tauchen 100 oder mehr verirrte Streifenwaldsänger an der Pazifikküste auf.",
      "source": {
@@ -2789,12 +2942,39 @@
      }
     },
     {
-     "en": "In their tropical winter quarters, blackpoll warblers live in forests up to about {2400 m|7800 ft} high.",
-     "de": "In den tropischen Winterquartieren leben Streifenwaldsänger in Wäldern bis in etwa {2400 m|7800 ft} Höhe.",
+     "en": "Blackpoll warblers migrate crosswise: birds from the west tend to winter in the east of South America, and vice versa.",
+     "de": "Streifenwaldsänger ziehen über Kreuz: Vögel aus dem Westen überwintern eher im Osten Südamerikas und umgekehrt.",
      "source": {
-      "title": "Audubon Field Guide, Blackpoll Warbler",
-      "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
-      "quote": "up to 7,800 ft elevation"
+      "title": "Duali et al. 2024, Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-024-80838-9",
+      "europepmc": "DOI:10.1038/s41598-024-80838-9",
+      "quote": "Blackpoll warblers showed a crosswise migration pattern, whereby individuals from western breeding populations tended to spend the nonbreeding season in the eastern part of the nonbreeding range and vice-versa."
+     }
+    },
+    {
+     "en": "A blackpoll's travel dates are partly in its genes: the length of its 'Clock' gene goes with how early it arrives in spring.",
+     "de": "Die Reisedaten von Streifenwaldsängern stecken teils in den Genen: Die Länge ihres „Clock“-Gens hängt mit der Ankunft im Frühjahr zusammen.",
+     "source": {
+      "title": "Ralston et al. 2019, Ecology and Evolution",
+      "url": "https://doi.org/10.1002/ece3.5436",
+      "europepmc": "DOI:10.1002/ece3.5436",
+      "quote": [
+       "Length polymorphisms at two candidate genes explain variation of migratory behaviors in blackpoll warblers",
+       "allele length was significantly and negatively associated with spring arrival date."
+      ]
+     }
+    },
+    {
+     "en": "Before migrating, young blackpolls roam more than {200 km|125 mi}, perhaps to build a map of the region.",
+     "de": "Vor dem Zug streifen junge Streifenwaldsänger über {200 km|125 mi} umher, vielleicht um sich eine Karte der Gegend einzuprägen.",
+     "source": {
+      "title": "Brown & Taylor 2015, Biology Letters",
+      "url": "https://doi.org/10.1098/rsbl.2015.0593",
+      "europepmc": "DOI:10.1098/rsbl.2015.0593",
+      "quote": [
+       "both young and adults moved over distances more than 200 km prior to initiating migration.",
+       "that young birds develop a regional-scale map"
+      ]
      }
     }
    ],
@@ -2866,15 +3046,6 @@
      }
     },
     {
-     "en": "The biggest blue whales may eat up to about {5.4 t|6 ton} of krill a day.",
-     "de": "Die größten Blauwale fressen bis zu etwa {5.4 t|6 ton} Krill am Tag.",
-     "source": {
-      "title": "NOAA Fisheries, Blue Whale",
-      "url": "https://www.fisheries.noaa.gov/species/blue-whale",
-      "quote": "Some of the biggest individuals may eat up to 6 tons of krill a day."
-     }
-    },
-    {
      "en": "Blue whale calls may carry up to about {1600 km|1000 mi} to other whales.",
      "de": "Die Rufe der Blauwale können andere Wale bis zu etwa {1600 km|1000 mi} weit hören.",
      "source": {
@@ -2902,21 +3073,57 @@
      }
     },
     {
-     "en": "Blue whales live about 80 to 90 years on average.",
-     "de": "Blauwale werden im Schnitt etwa 80 bis 90 Jahre alt.",
+     "en": "A blue whale's tongue can weigh as much as an elephant, and its heart as much as a car.",
+     "de": "Die Zunge eines Blauwals kann so viel wiegen wie ein Elefant, sein Herz so viel wie ein Auto.",
      "source": {
-      "title": "NOAA Fisheries, Blue Whale",
-      "url": "https://www.fisheries.noaa.gov/species/blue-whale",
-      "quote": "Blue whales’ average lifespan is estimated at around 80 to 90 years."
+      "title": "National Geographic, Blue whale",
+      "url": "https://www.nationalgeographic.com/animals/mammals/facts/blue-whale",
+      "quote": "A blue whale's tongue alone can weigh as much as an elephant—its heart as much as an automobile."
      }
     },
     {
-     "en": "Blue whales have been fully protected from commercial whaling since 1966.",
-     "de": "Seit 1966 sind Blauwale vollständig vor kommerziellem Walfang geschützt.",
+     "en": "A blue whale calf drinks about {380 l|100 gal} of milk a day and gains about {90 kg|200 lb}, every day.",
+     "de": "Ein Blauwalkalb trinkt rund {380 l|100 gal} Milch am Tag und nimmt dabei täglich etwa {90 kg|200 lb} zu.",
      "source": {
-      "title": "NOAA Fisheries, Blue Whale",
-      "url": "https://www.fisheries.noaa.gov/species/blue-whale",
-      "quote": "blue whales received complete legal protection from commercial whaling in 1966"
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": "During the nursing period, calves consume 100 gallons (379 liters) of the fat-rich mother's milk each day, gain 200 pounds a day"
+     }
+    },
+    {
+     "en": "A blue whale may eat up to 40 million krill a day.",
+     "de": "Ein Blauwal frisst bis zu 40 Millionen Krill-Tierchen am Tag.",
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": "This means it may eat up to 40 million krill a day."
+     }
+    },
+    {
+     "en": "Whales can be aged by the layers of their waxy earplugs; the oldest blue whale aged this way was about 110.",
+     "de": "Das Alter von Walen lässt sich an den Schichten ihrer Ohrpfropfen ablesen; der älteste so bestimmte Blauwal war etwa 110.",
+     "source": {
+      "title": "National Geographic, Blue whale",
+      "url": "https://www.nationalgeographic.com/animals/mammals/facts/blue-whale",
+      "quote": "The oldest blue whale found using this method was determined to be around 110 years old."
+     }
+    },
+    {
+     "en": "Early whalers called the blue whale 'sulphur bottom', after the yellowish tint of its belly.",
+     "de": "Frühe Walfänger nannten den Blauwal „Schwefelbauch“, nach dem gelblichen Schimmer seines Bauchs.",
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": "Because of this yellow color, the early whalers gave it the name \"sulfur bottom.\""
+     }
+    },
+    {
+     "en": "A blue whale's blow shoots straight up, more than {6 m|20 ft} high.",
+     "de": "Der Blas eines Blauwals steigt kerzengerade auf, mehr als {6 m|20 ft} hoch.",
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": "the blow is tall and straight and over 20 feet (6 meters) high."
      }
     }
    ],
@@ -2998,15 +3205,6 @@
      }
     },
     {
-     "en": "Female loggerheads usually nest near the beach where they hatched decades earlier.",
-     "de": "Weibchen legen ihre Eier meist nahe dem Strand ab, an dem sie Jahrzehnte zuvor geschlüpft sind.",
-     "source": {
-      "title": "NOAA Fisheries, Loggerhead Turtle",
-      "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
-      "quote": "usually return to a beach in the general area where they hatched decades earlier"
-     }
-    },
-    {
      "en": "Young loggerheads spend their first 7 to 15 years in the open ocean.",
      "de": "Junge Unechte Karettschildkröten verbringen ihre ersten 7 bis 15 Jahre auf offener See.",
      "source": {
@@ -3034,21 +3232,51 @@
      }
     },
     {
-     "en": "Only Florida and Oman have loggerhead nesting populations of more than 10,000 females a year.",
-     "de": "Nur in Florida und Oman nisten jedes Jahr mehr als 10.000 Weibchen der Unechten Karettschildkröte.",
+     "en": "The warmth of the sand decides whether a loggerhead hatches male or female; warmer nests mean more females.",
+     "de": "Die Wärme des Sandes entscheidet, ob aus dem Ei ein Männchen oder Weibchen schlüpft; wärmere Nester bringen mehr Weibchen.",
      "source": {
-      "title": "NOAA Fisheries, Loggerhead Turtle",
-      "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
-      "quote": "only two loggerhead nesting aggregations have greater than 10,000 females nesting per year: Peninsular Florida and Oman"
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "The temperature of the sand in which turtles are hatched determines their sex—and, as those temperatures rise, more female loggerheads are being born."
      }
     },
     {
-     "en": "Unlike tortoises, sea turtles cannot pull their heads or flippers into their shells.",
-     "de": "Anders als Landschildkröten können Meeresschildkröten Kopf und Flossen nicht in den Panzer ziehen.",
+     "en": "Loggerheads find their way home by magnetism: every stretch of coast has its own magnetic signature, and they remember it.",
+     "de": "Unechte Karettschildkröten finden heim per Magnetsinn: Jeder Küstenabschnitt hat seine eigene magnetische Signatur, die sie sich merken.",
      "source": {
-      "title": "NOAA Fisheries, Loggerhead Turtle",
-      "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
-      "quote": "Unlike freshwater turtles and tortoises, sea turtles cannot withdraw their head or flippers into their shells."
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "Each stretch of coastline has its own magnetic signature, and these turtles remember and use them as guides."
+     }
+    },
+    {
+     "en": "More than a hundred kinds of hitchhikers, from barnacles to crabs and algae, live on loggerhead shells.",
+     "de": "Mehr als hundert Arten von Mitfahrern, von Seepocken über Krabben bis zu Algen, leben auf den Panzern.",
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "more than a hundred species of animals—including barnacles, crabs, and algae—live on their shells."
+     }
+    },
+    {
+     "en": "Loggerheads usually weigh about {110 kg|250 lb}, but some of more than {450 kg|1000 lb} have been found.",
+     "de": "Unechte Karettschildkröten wiegen meist um {110 kg|250 lb}, doch man hat schon Tiere mit über {450 kg|1000 lb} gefunden.",
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": [
+       "adults males generally weigh about 250 pounds",
+       "loggerheads of more than a thousand pounds have been found."
+      ]
+     }
+    },
+    {
+     "en": "Shell bits in loggerhead droppings sink to the seabed, where other animals eat them for the calcium.",
+     "de": "Schalenreste im Kot der Schildkröten sinken zum Meeresgrund, wo andere Tiere sie als Kalkquelle fressen.",
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "whose shells pass through their digestive systems and, upon excretion, fall back to the bottom of the ocean for other animals to eat as a calcium source."
      }
     }
    ],
@@ -3174,30 +3402,12 @@
      }
     },
     {
-     "en": "Peregrines live on every continent except Antarctica.",
-     "de": "Wanderfalken leben auf allen Kontinenten außer der Antarktis.",
-     "source": {
-      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
-      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
-      "quote": "Peregrines are found on every continent except Antarctica"
-     }
-    },
-    {
      "en": "Female peregrines are much bigger: up to {1500 g|3.3 lb}, against as little as {450 g|1 lb} for a male.",
      "de": "Weibliche Wanderfalken sind viel größer: bis zu {1500 g|3.3 lb}, Männchen oft nur {450 g|1 lb}.",
      "source": {
       "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
       "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
       "quote": "Male Peregrine Falcons weigh as little as 450 grams; females weigh as much as 1,500 grams."
-     }
-    },
-    {
-     "en": "There are 19 subspecies of peregrine falcon, three of them in North America.",
-     "de": "Es gibt 19 Unterarten des Wanderfalken, drei davon in Nordamerika.",
-     "source": {
-      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
-      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
-      "quote": "There are 19 subspecies of Peregrine Falcons, three of which are found in North America."
      }
     },
     {
@@ -3210,21 +3420,39 @@
      }
     },
     {
-     "en": "Near cities, peregrines live largely on pigeons.",
-     "de": "In Städten ernähren sich Wanderfalken zum großen Teil von Tauben.",
-     "source": {
-      "title": "NABU, Vogelporträt Wanderfalke",
-      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/wanderfalke/",
-      "quote": "In Stadtnähe ernährt er sich zu einem Großteil von Tauben"
-     }
-    },
-    {
-     "en": "Peregrines declined across North America and Europe because of DDT and have since rebounded.",
-     "de": "Wegen DDT gingen Wanderfalken in Nordamerika und Europa stark zurück; inzwischen haben sie sich erholt.",
+     "en": "Peregrines migrate leap-frog style: birds from the far north fly past the others and winter furthest south.",
+     "de": "Wanderfalken ziehen im Bocksprung: Vögel aus dem hohen Norden überfliegen die anderen und überwintern am weitesten im Süden.",
      "source": {
       "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
       "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
-      "quote": "Populations of Peregrine Falcons have recently rebounded in both North America and Europe."
+      "quote": "migration pattern in which breeders from northern areas winter to the south of individuals from more southerly locations."
+     }
+    },
+    {
+     "en": "Peregrines from the tundra of Greenland and Canada fly as far south as central Argentina and Chile.",
+     "de": "Wanderfalken aus der Tundra Grönlands und Kanadas fliegen bis nach Mittelargentinien und Chile.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "Northern tundra breeders in Greenland and Canada, for example, travel as far south as central Argentina and Chile."
+     }
+    },
+    {
+     "en": "Courting male peregrines show off with power dives, roller-coaster flights, loop-the-loops and figure eights.",
+     "de": "Balzende Wanderfalken-Männchen zeigen Sturzflüge, Achterbahnflüge, Loopings und Achten.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "power dives, roller coaster-like flights, loop-the-loops, and figure eight flights"
+     }
+    },
+    {
+     "en": "Peregrines have taken to skyscrapers: in 2000, 14 pairs were breeding in New York City.",
+     "de": "Wanderfalken haben die Wolkenkratzer erobert: Im Jahr 2000 brüteten 14 Paare in New York.",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "In 2000, there were 14 pairs of Peregrine Falcons breeding in New York City."
      }
     }
    ],

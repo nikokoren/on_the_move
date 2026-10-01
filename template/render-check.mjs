@@ -105,6 +105,8 @@ for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang,
   const species = taxon === "*" ? data.species.map((s) => s.taxon) : taxon;
   const now = new Date(Date.parse(day + "T00:00:00Z") + (12 * 4 + slot) * 900000);
   const v = buildFull(data, { species, lang, now, photoBase, layout: LAYOUT });
+  // OTM_FACT="…" puts that fact on every case (e.g. the longest one in the table).
+  if (process.env.OTM_FACT) v.fact = process.env.OTM_FACT;
   const html = await liquid.parseAndRender(tpl, v);
   const cls = withSize(screen);
   const [mashup, cells] = MASHUP[view] || [null, 1];
