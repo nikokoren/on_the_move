@@ -26,7 +26,7 @@
 {% template otm_text %}
 {% if size == "half" %}
 <div class="flex flex--col flex--left gap--xsmall text--left">
-  <span class="label font--bold lg:label--large">{{ species }}{% if name != "" %} · {{ name }}{% endif %}</span>
+  <span class="label text--bold lg:label--large">{{ species }}{% if name != "" %} · {{ name }}{% endif %}</span>
   <span class="title lg:title--large">{{ where }}</span>
   {% if toward != "" %}<span class="label lg:label--large">{{ toward }}</span>{% endif %}
   <span class="description lg:description--large">{{ fact }}</span>
@@ -61,7 +61,7 @@
 
 {% template otm_row %}
 <div class="flex flex--col flex--left px--2 py--1 w--full no-shrink" data-otm-row>
-  <span class="label font--bold">{{ r.species }}{% if r.name != "" %} · {{ r.name }}{% endif %}</span>
+  <span class="label text--bold">{{ r.species }}{% if r.name != "" %} · {{ r.name }}{% endif %}</span>
   <span class="label label--small">{{ r.place }}</span>
 </div>
 {% endtemplate %}
@@ -162,7 +162,7 @@
       arrow.textContent = ARROWS[sector];
       tag.appendChild(arrow);
       var says = document.createElement("span");
-      says.className = "label font--bold";
+      says.className = "label text--bold";
       says.textContent = text;
       tag.appendChild(says);
       wrap.appendChild(tag);
