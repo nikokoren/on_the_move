@@ -15,7 +15,7 @@
      the map right; in portrait the map on top, the photo and the text below. {% endcomment %}
   <div class="{% if rows %}lg:hidden {% endif %}flex flex--row portrait:flex--col-reverse gap w--full h--full" data-otm-scope>
     <div class="stretch flex flex--row flex--left flex--center-y gap">
-      {% if photo != blank %}<img class="image image--cover h--full aspect--1/1 no-shrink portrait:h--[40cqh]" src="{{ photo }}" alt="">{% endif %}
+      {% if photo != blank %}<img class="image image-dither image--cover h--full aspect--1/1 no-shrink portrait:h--[40cqh]" src="{{ photo }}" alt="">{% endif %}
       <div class="stretch flex flex--col flex--left">
         {% render "otm_text", size: "half", species: species, name: name, where: where, toward: toward, fact: fact, status: status %}
       </div>

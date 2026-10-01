@@ -31,7 +31,7 @@
       <div class="absolute bottom--2 left--2 z--3 flex flex--col flex--left gap--small" data-otm-corner>
       <div class="p--2 {% if photo != blank %}w--max-[72cqw] lg:w--max-[64cqw]{% else %}w--max-[62cqw] lg:w--max-[55cqw]{% endif %} bg--canvas outline" data-otm-box>
         <div class="flex flex--row flex--left flex--top gap">
-        {% if photo != blank %}<img class="image image--cover w--28 h--28 no-shrink" src="{{ photo }}" alt="">{% endif %}
+        {% if photo != blank %}<img class="image image-dither image--cover w--28 h--28 no-shrink" src="{{ photo }}" alt="">{% endif %}
         {% comment %} One line per span, stacked: inside .content the spans ran
            on as one paragraph (seen in the first render). {% endcomment %}
         <div class="flex flex--col flex--left gap--xsmall text--left">
