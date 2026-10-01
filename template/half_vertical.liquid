@@ -22,7 +22,7 @@
     <div class="flex flex--col flex--left w--full">
       {% render "otm_text", size: "half", species: species, name: name, where: where, toward: toward, fact: fact, status: status %}
     </div>
-    {% if photo != blank %}<img class="image image--cover stretch w--full" src="{{ photo }}" alt="">{% endif %}
+    {% if photo != blank %}<img class="image image-dither image--cover stretch w--full" src="{{ photo }}" alt="">{% endif %}
   </div>
   {% if rows %}
   <div class="hidden lg:flex flex--col gap w--full h--full" data-otm-scope>
