@@ -4,6 +4,13 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### C3 The text box says what the animal is doing (owner, 2026-10-01)
+
+- Request (screenshot of the osprey, "Venezuela · usually stays until about 31 Jan"): the full screen text box should use the Flock View sentence ("…ing in Venezuela") instead of the bare place.
+- Built: the text box line in every view is now the same sentence as the animal in focus in Flock View: "Wintering in Venezuela, usually until about 31 Jan", "Stopover in Sudan, usually until about 14 Oct"; a journey keeps "Czechia → Chad · usually arrives around 3 Oct". The old "staying" and "resting" strings are gone.
+- Found on the way: the season word came from "the home that holds 15 January is winter, the other summer", which mislabelled animals whose two homes lie at the same latitude ("Summering in the Central African Republic … until 23 Nov"). Now "Wintering"/"Summering" only when the summer home lies at least 5° further from the equator (`SEASON_DEG`); otherwise "Staying in …" / "Hält sich in … auf". Affected over a year: one crane (Poland, Lithuania), one honey buzzard (Central African Republic), one turtle dove (Burkina Faso), one Canada goose, the loggerheads; Flock View rows follow the same rule.
+- Lengths: longest line 67 characters in English, 75 in German, within the 100-character two-line slot (R16). `worker/check.mjs` passes. Render proof: see the status in `CLAUDE.md`. Not seen on a device; the Worker must be redeployed.
+
 ### S3 A species' animals take turns (owner, 2026-10-01)
 
 - Question: "How are we rotating through different storks?" Answer: we were not. Each species showed its star (live first, then the fullest year); the two backups only stood in when the star had no position, which with the current data was never (Marina and Nina: 0 days a year).
