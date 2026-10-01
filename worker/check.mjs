@@ -201,7 +201,7 @@ console.log(`multi select: ${forms.length} formats, ${parseBad.length} misparsed
   const v = buildFull(f, { species: "Grus grus", lang: "en", now: new Date("2026-09-30T08:00:00Z") });
   const g = JSON.parse(v.geo);
   const back = g.past.some((p) => km(p, g.pos) > 250);
-  const ok = /^Lithuania/.test(v.where) && /Poland/.test(v.toward) && !back;
+  const ok = / in Lithuania/.test(v.where) && /Poland/.test(v.toward) && !back;
   if (!ok) fails++;
   console.log(`late departure (crane, fix 29 Sep in Lithuania): "${v.where}" | "${v.toward}" | past line reaches ${back ? "Poland (wrong)" : "only Lithuania"} -> ${ok ? "ok" : "FAIL"}`);
 }

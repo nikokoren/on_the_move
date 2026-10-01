@@ -8,6 +8,7 @@ export const LIVE_DAYS = 14;
 // A live fix this far from the stay its date implies, and within it of the previous
 // home, counts as a late departure (legAt by position, not by date).
 const LATE_KM = 250;        // R21: older than this is not live
+const SEASON_DEG = 5;              // summer home this much further from the equator, or "staying"
 const LOOK_BACK_DAYS = 60;          // how far a gap may fall back to the last known day
 const MAX_LINE_POINTS = 40;         // per line; Nextbike: bare lists, ~28 bytes a point
 const CYCLE_SECONDS = 15 * 60;      // "all" moves to the next species every refresh slot
@@ -288,11 +289,7 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, uni
     ? fill(t.live, { date: fmtDate(t, lastFix, true) })
     : fill(back ? t.usualLast : t.usual, { date: fmtDate(t, dateOfDoy(d, now.getUTCFullYear()), false), year });
   const from = name(leg.prev[4]), to = name(leg.next[4]);
-  const where = leg.staying
-    ? fill(t.staying, { place: name(leg.here[4]), date: fmtDate(t, until(leg.here), false) })
-    : stop
-      ? fill(t.resting, { place: name(stop[4]), date: fmtDate(t, until(stop), false) })
-      : from === to ? to : fill(t.journey, { from, to, date: fmtDate(t, arrive, false) });
+  const journey = from === to ? to : fill(t.journey, { from, to, date: fmtDate(t, arrive, false) });
   const toward = dest ? fill(t.toward, { place: to, dist: fmtDist(t, km(here, dest), lang, units) }) : "";
   // The short forms for the multi view's list rows: where, and when (the date of
   // the last fix, or the year of the route used; D3).
@@ -300,15 +297,26 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, uni
   // Which home it is at: the one that holds mid-January is the winter range (for
   // southern wintering grounds too: the non-breeding season), the other the summer range.
   const winter = leg.staying && isWinterHome(homes, leg.here);
-  const short = leg.staying ? fill(winter ? t.rowWinter : t.rowSummer, { in: nameIn(leg.here[4]) })
+  // Only true seasons get the word (2026-10-01): the summer home must lie at least
+  // SEASON_DEG further from the equator than the winter home. Two homes in one
+  // country at the same latitude (a honey buzzard in the Central African Republic,
+  // a turtle dove in Burkina Faso) say "staying" instead.
+  const seasonal = homes.length === 2 && (() => {
+    const w = isWinterHome(homes, homes[0]) ? homes[0] : homes[1], s = w === homes[0] ? homes[1] : homes[0];
+    return Math.abs(s[3]) - Math.abs(w[3]) >= SEASON_DEG;
+  })();
+  const short = leg.staying ? fill(!seasonal ? t.rowStay : winter ? t.rowWinter : t.rowSummer, { in: nameIn(leg.here[4]) })
     : stop ? fill(t.rowStopover, { in: nameIn(stop[4]) })
     : moving ? fill(t.rowJourney, { from, to }) : to;
   const when = live ? fmtDate(t, lastFix, false) : fill(t.rowUsual, { year });
-  // The expanded animal in the list (owner, 2026-09-30): the row's sentence with
-  // how long it usually stays; a journey keeps its line with the arrival.
-  const focus = leg.staying ? fill(t.focusUntil, { row: short, date: fmtDate(t, until(leg.here), false) })
+  // The text box and the expanded animal in the list (owner, 2026-09-30; every view
+  // since 2026-10-01): the row's sentence with how long it usually stays
+  // ("Wintering in Venezuela, usually until about 31 Jan"); a journey keeps its
+  // line with the arrival.
+  const where = leg.staying ? fill(t.focusUntil, { row: short, date: fmtDate(t, until(leg.here), false) })
     : stop ? fill(t.focusUntil, { row: short, date: fmtDate(t, until(stop), false) })
-    : where;
+    : journey;
+  const focus = where;
 
   const ref = here[0];
   return {

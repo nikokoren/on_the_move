@@ -15,8 +15,6 @@ export const STRINGS = {
     usual: "Usually here around {date}. Last route from {year}",
     usualLast: "No position for today; last known around {date}. Last route from {year}",
     journey: "{from} → {to} · usually arrives around {date}",
-    staying: "{place} · usually stays until about {date}",
-    resting: "{place} · a stopover, usually until about {date}",
     toward: "Destination: {place} · {dist} away",
     // The multi view's list rows (owner, 2026-09-29): place, and when.
     rowJourney: "{from} → {to}",
@@ -24,6 +22,7 @@ export const STRINGS = {
     // Staying places in the list (owner, 2026-09-30): which home, or a stopover.
     rowWinter: "Wintering {in}",
     rowSummer: "Summering {in}",
+    rowStay: "Staying {in}",
     rowStopover: "Stopover {in}",
     // The expanded animal in the list: the row's sentence and how long it usually stays.
     focusUntil: "{row}, usually until about {date}",
@@ -59,13 +58,12 @@ export const STRINGS = {
     usual: "Um den {date} meist hier. Letzte Route von {year}",
     usualLast: "Für heute keine Position; zuletzt bekannt um den {date}. Letzte Route von {year}",
     journey: "{from} → {to} · Ankunft meist um den {date}",
-    staying: "{place} · bleibt meist bis etwa {date}",
-    resting: "{place} · Rast, meist bis etwa {date}",
     toward: "Ziel: {place} · {dist} entfernt",
     rowJourney: "{from} → {to}",
     rowUsual: "Route {year}",
     rowWinter: "Im Winterquartier {in}",
     rowSummer: "Im Sommerquartier {in}",
+    rowStay: "Hält sich {in} auf",
     rowStopover: "Rastet {in}",
     focusUntil: "{row}, meist bis etwa {date}",
     named: "„{name}“",

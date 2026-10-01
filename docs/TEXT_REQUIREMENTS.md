@@ -9,7 +9,7 @@ All words come from the Worker (R15), in English and German. The text box sits b
 | Slot | Where | Class | px per char (measured) | Chars per line | Limit | Current max (sweep) |
 |---|---|---|---|---|---|---|
 | Species · name | box, line 1 | `title title--small` | 7.4 | ~62 | 1 line, **55** | 32 |
-| Where (from → to, or place and until when) | box, line 2 | `label` | 8.4 | ~55 | 2 lines, **100** | 61 |
+| Where (from → to, or what it is doing where, and until when; 2026-10-01) | box, line 2 | `label` | 8.4 | ~55 | 2 lines, **100** | 75 |
 | Date line (live: last position; usual: "usually here around … track from …") | box, line 3 | `label label--small` | 6.0 | ~76 | 2 lines, **140** | 59 |
 | Fact | box, line 4 | `description` | 6.1 | ~75 | 2 lines, **140** | 61 |
 | Credit | box, last line | `label label--small label--gray` | 6.3 | ~73 | 1 line, **73** | 64 |
