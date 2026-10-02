@@ -70,10 +70,6 @@ export function renderUnits(text, t, lang, units) {
   });
 }
 
-function fmtLat(t, lat) {
-  return fill(lat >= 0 ? t.north : t.south, { v: Math.round(Math.abs(lat)) });
-}
-
 const within = (d, from, to) => (from <= to ? d >= from && d <= to : d >= from || d <= to);
 const ahead = (from, to) => (to - from + 366) % 366;
 
@@ -196,8 +192,6 @@ function factPool(t, lang, sp, a, units) {
     ...(sp.facts || []).map((x) => renderUnits(x[lang] || x.en, t, lang, units)),
     fill(t.facts.yearKm, { dist: fmtDist(t, f.yearKmMin, lang, units) }),
     fill(t.facts.span, { dist: fmtDist(t, f.spanKm, lang, units) }),
-    f.southmost < 0 || f.northmost - f.southmost > 20 ? fill(t.facts.southmost, { lat: fmtLat(t, f.southmost) }) : null,
-    f.northmost > 50 ? fill(t.facts.northmost, { lat: fmtLat(t, f.northmost) }) : null,
     a.stays.length > 1 && days >= 5 && days <= 300 ? fill(t.facts.travelDays, { n: days }) : null,
     ...individualFacts(t, a, lang)
   ].filter(Boolean);

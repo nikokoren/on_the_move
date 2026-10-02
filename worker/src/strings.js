@@ -33,8 +33,6 @@ export const STRINGS = {
     somewhereIn: "on open water",
     facts: {
       yearKm: "Covers at least {dist} a year, measured from stay to stay.",
-      southmost: "Gets as far south as {lat} in a year.",
-      northmost: "Gets as far north as {lat} in a year.",
       span: "The two farthest points of its year are {dist} apart.",
       travelDays: "Spends about {n} days a year on the move.",
       female: "This animal is a female.",
@@ -44,8 +42,6 @@ export const STRINGS = {
       hatched: "Hatched in {year}.",
       hatchedBy: "Hatched in {year} or earlier."
     },
-    north: "{v}° N",
-    south: "{v}° S",
     noData: "No position for today in any track of this species.",
     error: "Something went wrong: {what}"
   },
@@ -73,8 +69,6 @@ export const STRINGS = {
     somewhereIn: "auf offenem Meer",
     facts: {
       yearKm: "Legt im Jahr mindestens {dist} zurück, gemessen von Rastgebiet zu Rastgebiet.",
-      southmost: "Kommt im Lauf des Jahres bis {lat} nach Süden.",
-      northmost: "Kommt im Lauf des Jahres bis {lat} nach Norden.",
       span: "Die entferntesten Punkte des Jahres liegen {dist} auseinander.",
       travelDays: "Ist rund {n} Tage im Jahr auf Reisen.",
       female: "Dieses Tier ist ein Weibchen.",
@@ -84,8 +78,6 @@ export const STRINGS = {
       hatched: "Geschlüpft {year}.",
       hatchedBy: "Geschlüpft {year} oder früher."
     },
-    north: "{v}° nördlicher Breite",
-    south: "{v}° südlicher Breite",
     noData: "Für heute liegt für diese Art keine Position vor.",
     error: "Etwas ist schiefgelaufen: {what}"
   }
