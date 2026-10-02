@@ -4,6 +4,12 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### R8e No latitude facts (owner, 2026-10-02)
+
+- Question: "what does 'gets as far south as 15°N in a year' even mean?" It was the southernmost latitude of the animal's year (and its twin, the northernmost above 50° N), computed from the track; the numbers were right but a latitude means little to a reader.
+- Decision: drop both. Naming the place instead was considered and declined: when the animal travels, the "From → To" line already names the far end of its year.
+- Done: the two facts and their strings (en/de, plus the ° N / ° S formats) removed from `worker/src/view.js` and `worker/src/strings.js`; the `southmost`/`northmost` numbers stay in the built data, unused. `worker/check.mjs` passes (distinct facts seen 866 → 762; rotation 0 failures). Not seen on a device; the Worker must be redeployed.
+
 ### C3 The text box says what the animal is doing (owner, 2026-10-01)
 
 - Request (screenshot of the osprey, "Venezuela · usually stays until about 31 Jan"): the full screen text box should use the Flock View sentence ("…ing in Venezuela") instead of the bare place.
