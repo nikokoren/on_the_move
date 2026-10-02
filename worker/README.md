@@ -22,6 +22,10 @@ Then set the polling URL in TRMNL (`template/README.md`). Keep the Worker URL ou
     python3 pipeline/build_featured.py && python3 pipeline/build_whitelist.py && python3 pipeline/build_species.py
     npm run check && npx wrangler deploy
 
+## Automatic deploy (2026-10-02)
+
+`.github/workflows/deploy-worker.yml` deploys the Worker on every merge to main that touches `worker/` (and can be run by hand from the Actions tab), after `npm ci` and `npm run check`; a failed check stops the deploy. It needs two repository secrets (Settings → Secrets and variables → Actions): `CLOUDFLARE_API_TOKEN`, made from Cloudflare's "Edit Cloudflare Workers" token template, and `CLOUDFLARE_ACCOUNT_ID`. The Movebank secrets stay in the Worker and are not needed here. Until the secrets are set, the workflow fails at the deploy step and nothing is deployed.
+
 ## Checks
 
     npm run check          # payload sweep (19,032 cases) + refresh tests against recorded Movebank answers
