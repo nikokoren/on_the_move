@@ -154,6 +154,16 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Open
 
+### O1 Wingspan-style stats and better facts (owner, 2026-10-03; planned, not started)
+
+- Idea (owner, from the board game Wingspan): a fixed stat strip on the text box plus one fun fact, like the game's bird cards.
+- Plan, in order:
+  1. Stat line from data we already hold: weight, diet (`Trophic.Niche`), habitat and lifestyle from AVONET (Tobias et al. 2022, CC BY 4.0, already in `pipeline/.cache/avonet.xlsx`, covers all 16 birds), IUCN status (already in `data/species.json`), and the animal's own km per year and days on the move. Example: `3.4 kg · Wetland · Fish · LC`. Diet and habitat words need en/de strings (small fixed vocabulary, R15). Whale and turtle need their own stats (length, weight; NOAA pages already in the sources).
+  2. Move number-only facts ("weighs 900 g", "spans 1.3 to 1.7 m") out of the fact pool into the stats; the fact slot keeps the stories.
+  3. Better facts that use the space (to-do of 2026-10-02): a short (~80) and a long (~140 char) version per fact, curated, not truncated; the template shows the longest that fits the measured box, proved by the render sweep on every screen and view.
+  4. Wingspan research step: a sourced wingspan (exact sentence, as for R8 facts) for all 16 birds, since AVONET only has wing length; some are already quoted in our facts. Then wingspan joins the stat line.
+- Space across devices: the Worker sends the full stat set; each view shows as many stat chips as fit (full view on the X all, OG fewer, half views one or two, quadrant none), measured like the Flock View lists.
+
 | ID | Question | Depends on | Recommendation in brief | Status |
 |---|---|---|---|---|
 | D1 | Mode A, Mode B, or both (as a setting) | Task 0 | Mode A first; Mode B primary if nothing eligible and fresh exists | open; task 0 (2026-09-28) recommends Mode A only, see `survey/results.md` |
