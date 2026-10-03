@@ -1,0 +1,233 @@
+{
+ "about": "Names for featured animals the researchers left unnamed (owner, 2026-10-03: first names of famous biologists from the animal's country, scientists where no biologist fits, matching the animal's sex where Movebank records it). Each namesake checked on 2026-10-03 against the source given (Wikipedia page summaries; Wikidata for Vavilov after Wikipedia rate-limited). pipeline/build_featured.py applies a name only where the researchers gave none, and stops if one now exists. Star choice is unchanged: it still ranks by the researchers' names.",
+ "animals": {
+  "mb-1229945587-1229967013": {
+   "name": "Tadas",
+   "after": "Tadas Ivanauskas",
+   "who": "Lithuanian zoologist and biologist",
+   "source": "https://en.wikipedia.org/wiki/Tadas_Ivanauskas"
+  },
+  "mb-186178781-2842545544": {
+   "name": "Ernst",
+   "after": "Ernst Haeckel",
+   "who": "German zoologist (1834–1919)",
+   "source": "https://en.wikipedia.org/wiki/Ernst_Haeckel"
+  },
+  "mb-186178781-2781173687": {
+   "name": "Nikolai",
+   "after": "Nikolai Vavilov",
+   "who": "Russian (Soviet) agronomist, botanist and geneticist (1887-1943)",
+   "source": "https://www.wikidata.org/wiki/Q214926"
+  },
+  "mb-49904341-49905918": {
+   "name": "August",
+   "after": "August Krogh",
+   "who": "Danish physiologist (1874–1949)",
+   "source": "https://en.wikipedia.org/wiki/August_Krogh"
+  },
+  "mb-3413045568-7625503924": {
+   "name": "Gregor",
+   "after": "Gregor Mendel",
+   "who": "Austrian biologist and friar (1822–1884)",
+   "source": "https://en.wikipedia.org/wiki/Gregor_Mendel"
+  },
+  "mb-3413045568-7625566309": {
+   "name": "Jan",
+   "after": "Jan Evangelista Purkyně",
+   "who": "Czech biologist and physiologist (1787–1869)",
+   "source": "https://en.wikipedia.org/wiki/Jan_Evangelista_Purkyn%C4%9B"
+  },
+  "mb-3413045568-8626200722": {
+   "name": "Lazzaro",
+   "after": "Lazzaro Spallanzani",
+   "who": "Italian priest, biologist and physiologist (1729–1799)",
+   "source": "https://en.wikipedia.org/wiki/Lazzaro_Spallanzani"
+  },
+  "mb-533427629-533437125": {
+   "name": "Wilhelm",
+   "after": "Wilhelm Johannsen",
+   "who": "Danish botanist and geneticist (1857–1927)",
+   "source": "https://en.wikipedia.org/wiki/Wilhelm_Johannsen"
+  },
+  "mb-890556697-890583086": {
+   "name": "Marie",
+   "after": "Marie Hammer",
+   "who": "Danish zoologist (1907–2002)",
+   "source": "https://en.wikipedia.org/wiki/Marie_Hammer"
+  },
+  "mb-890556697-890594634": {
+   "name": "Astrid",
+   "after": "Astrid Cleve",
+   "who": "Swedish botanist, geologist, chemist",
+   "source": "https://en.wikipedia.org/wiki/Astrid_Cleve"
+  },
+  "dr-33fd8766-T014028": {
+   "name": "Konrad",
+   "after": "Konrad Lorenz",
+   "who": "Austrian zoologist (1903–1989)",
+   "source": "https://en.wikipedia.org/wiki/Konrad_Lorenz"
+  },
+  "dr-33fd8766-T014034": {
+   "name": "Karl",
+   "after": "Karl von Frisch",
+   "who": "German-Austrian ethologist (1886–1982)",
+   "source": "https://en.wikipedia.org/wiki/Karl_von_Frisch"
+  },
+  "dr-33fd8766-T014035": {
+   "name": "Erich",
+   "after": "Erich von Tschermak",
+   "who": "Austrian geneticist (1871–1962)",
+   "source": "https://en.wikipedia.org/wiki/Erich_von_Tschermak"
+  },
+  "dr-a09b1cb2-17004": {
+   "name": "Ilya",
+   "after": "Ilya Mechnikov",
+   "who": "Russian immunologist (1845–1916)",
+   "source": "https://en.wikipedia.org/wiki/%C3%89lie_Metchnikoff"
+  },
+  "dr-a09b1cb2-17007": {
+   "name": "Youyou",
+   "after": "Tu Youyou",
+   "who": "Chinese pharmaceutical chemist (born 1930)",
+   "source": "https://en.wikipedia.org/wiki/Tu_Youyou"
+  },
+  "dr-a09b1cb2-180111": {
+   "name": "Ivan",
+   "after": "Ivan Pavlov",
+   "who": "Russian physiologist (1849–1936)",
+   "source": "https://en.wikipedia.org/wiki/Ivan_Pavlov"
+  },
+  "mb-10204361-29656376": {
+   "name": "Rachel",
+   "after": "Rachel Carson",
+   "who": "American marine biologist and conservationist (1907–1964)",
+   "source": "https://en.wikipedia.org/wiki/Rachel_Carson"
+  },
+  "mb-384172482-407258153": {
+   "name": "Barbara",
+   "after": "Barbara McClintock",
+   "who": "American scientist and cytogeneticist (1902–1992)",
+   "source": "https://en.wikipedia.org/wiki/Barbara_McClintock"
+  },
+  "mb-384172482-407258154": {
+   "name": "John James",
+   "after": "John James Audubon",
+   "who": "French-American ornithologist (1785–1851)",
+   "source": "https://en.wikipedia.org/wiki/John_James_Audubon"
+  },
+  "mb-1509697502-1892665268": {
+   "name": "Biruté",
+   "after": "Biruté Galdikas",
+   "who": "Canadian primatologist and conservationist (1946–2026)",
+   "source": "https://en.wikipedia.org/wiki/Birut%C3%A9_Galdikas"
+  },
+  "mb-1509697502-1892675591": {
+   "name": "Maud",
+   "after": "Maud Menten",
+   "who": "Canadian physician and chemist (1879–1960)",
+   "source": "https://en.wikipedia.org/wiki/Maud_Menten"
+  },
+  "mb-1509697502-1892699911": {
+   "name": "Faith",
+   "after": "Faith Fyles",
+   "who": "Canadian botanist and botanical illustrator",
+   "source": "https://en.wikipedia.org/wiki/Faith_Fyles"
+  },
+  "mb-1509697502-1892704459": {
+   "name": "Helen",
+   "after": "Helen Battle",
+   "who": "Canadian marine biologist (1903–1994)",
+   "source": "https://en.wikipedia.org/wiki/Helen_Battle"
+  },
+  "mb-2105214573-2105313543": {
+   "name": "Carrie",
+   "after": "Carrie Derick",
+   "who": "Canadian botanist and geneticist",
+   "source": "https://en.wikipedia.org/wiki/Carrie_Derick"
+  },
+  "mb-2105214573-2105313545": {
+   "name": "Maude",
+   "after": "Maude Abbott",
+   "who": "Canadian physician (1868/69–1940)",
+   "source": "https://en.wikipedia.org/wiki/Maude_Abbott"
+  },
+  "mb-2943485-2943518": {
+   "name": "David",
+   "after": "David Suzuki",
+   "who": "Canadian scientist and environmentalist (born 1936)",
+   "source": "https://en.wikipedia.org/wiki/David_Suzuki"
+  },
+  "mb-2943485-2943519": {
+   "name": "Ernest",
+   "after": "Ernest Thompson Seton",
+   "who": "Canadian and American writer and artist (1860–1946)",
+   "source": "https://en.wikipedia.org/wiki/Ernest_Thompson_Seton"
+  },
+  "mb-2943485-2943520": {
+   "name": "Roberta",
+   "after": "Roberta Bondar",
+   "who": "Canadian astronaut (born 1945)",
+   "source": "https://en.wikipedia.org/wiki/Roberta_Bondar"
+  },
+  "mb-959756713-959768811": {
+   "name": "Fred",
+   "after": "Fred Urquhart",
+   "who": "Canadian entomologist",
+   "source": "https://en.wikipedia.org/wiki/Fred_and_Norah_Urquhart"
+  },
+  "mb-959756713-959768820": {
+   "name": "Charles",
+   "after": "Charles Best",
+   "who": "Canadian co-discoverer of insulin (1899–1978)",
+   "source": "https://en.wikipedia.org/wiki/Charles_Best_(medical_scientist)"
+  },
+  "mb-959756713-959768832": {
+   "name": "Wilder",
+   "after": "Wilder Penfield",
+   "who": "Canadian neurosurgeon",
+   "source": "https://en.wikipedia.org/wiki/Wilder_Penfield"
+  },
+  "mb-650188969-663214424": {
+   "name": "Sylvia",
+   "after": "Sylvia Earle",
+   "who": "American marine biologist and lecturer",
+   "source": "https://en.wikipedia.org/wiki/Sylvia_Earle"
+  },
+  "dr-0a818ffd-Oki_3_tu96_5_16": {
+   "name": "Motoo",
+   "after": "Motoo Kimura",
+   "who": "Japanese biologist (1924–1994)",
+   "source": "https://en.wikipedia.org/wiki/Motoo_Kimura"
+  },
+  "dr-0a818ffd-Oki_8_tu96_6_16": {
+   "name": "Hideyo",
+   "after": "Hideyo Noguchi",
+   "who": "Japanese bacteriologist (1876–1928)",
+   "source": "https://en.wikipedia.org/wiki/Hideyo_Noguchi"
+  },
+  "mb-3030282201-3030523279": {
+   "name": "Kono",
+   "after": "Kono Yasui",
+   "who": "Japanese biologist and cytologist",
+   "source": "https://en.wikipedia.org/wiki/Kono_Yasui"
+  },
+  "mb-619061097-619067331": {
+   "name": "Gitte",
+   "after": "Gitte Adler Reimer",
+   "who": "Greenlandic cultural anthropologist and academic administrator",
+   "source": "https://en.wikipedia.org/wiki/Gitte_Adler_Reimer"
+  },
+  "mb-7249090-7541652": {
+   "name": "Signe",
+   "after": "Signe Rink",
+   "who": "Danish writer and ethnologist (1836–1909)",
+   "source": "https://en.wikipedia.org/wiki/Signe_Rink"
+  },
+  "mb-619061097-619067440": {
+   "name": "Harriet",
+   "after": "Harriet Brooks",
+   "who": "Canadian nuclear physicist (1876–1933)",
+   "source": "https://en.wikipedia.org/wiki/Harriet_Brooks"
+  }
+ }
+}

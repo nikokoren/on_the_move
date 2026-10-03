@@ -193,6 +193,8 @@ def main():
     curated = json.load(open(os.path.join(ROOT, "pipeline", "species_curated.json"), encoding="utf-8"))["species"]
     ip = os.path.join(ROOT, "pipeline", "individuals.json")
     individuals = json.load(open(ip, encoding="utf-8"))["animals"] if os.path.exists(ip) else {}
+    # Our names for animals the researchers left unnamed (pipeline/names_curated.json).
+    given = json.load(open(os.path.join(ROOT, "pipeline", "names_curated.json"), encoding="utf-8"))["animals"]
     places, place_ids = [], {}
 
     def pid(name):
@@ -278,8 +280,10 @@ def main():
             # year, is robust and a true minimum, so the copy can say "at least".
             yearly = sum(hops)
             far = max((km(tab[d][:2], tab[e][:2]) for d in range(0, 366, 7) for e in range(0, 366, 7) if tab[d] and tab[e]), default=0)
+            if a["id"] in given and name_of(a):
+                raise SystemExit(f"{a['id']} now has a researchers' name ({name_of(a)!r}); drop it from pipeline/names_curated.json")
             entry["animals"].append({
-                "id": a["id"], "name": name_of(a), "live": a["live"], "lastFix": a["lastFix"],
+                "id": a["id"], "name": name_of(a) or given.get(a["id"], {}).get("name", ""), "live": a["live"], "lastFix": a["lastFix"],
                 # Sex, tracking dates and hatch year (pipeline/build_individuals.py).
                 "individual": individuals.get(a["id"], {}),
                 "lastPosition": [a["lastPosition"][1], a["lastPosition"][0]] if a["live"] else None,
@@ -293,6 +297,9 @@ def main():
             stats["live"] += a["live"]
         out["species"].append(entry)
         stats["species"] += 1
+    unused = set(given) - {a["id"] for e in out["species"] for a in e["animals"]}
+    if unused:
+        raise SystemExit(f"names for animals no longer featured: {sorted(unused)}")
     os.makedirs(os.path.join(ROOT, "worker", "data"), exist_ok=True)
     p = os.path.join(ROOT, "worker", "data", "featured.json")
     json.dump(out, open(p, "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
