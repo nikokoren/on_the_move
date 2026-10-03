@@ -4,6 +4,12 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### A2 Anonymous usage counts (owner, 2026-10-03)
+
+- Why: the animal list is getting long; before trimming or regrouping it, learn what people actually select (all species, a few, one alone; language, units, Flock View, photo).
+- Built: every poll writes one data point to Workers Analytics Engine (binding `STATS`, dataset `on_the_move_polls`; `worker/src/index.js` `recordPoll`, queries in `worker/README.md`). Settings only: no IP, no device id, no UTC offset. A failing or missing binding never affects the poll. `STATS_SAMPLE=N` records 1 poll in N, weighted. Limits from Cloudflare's docs (read 2026-10-03): free plan 100,000 data points and 10,000 queries a day; 3 months retention; datasets created on first write.
+- Checked: `worker/test/refresh-check.mjs` (6 new checks: the data point's fields, no IP or offset, defaults for an unsaved form, a throwing binding, no binding, sampling 1000 → 100 at weight 10), `worker/check.mjs` passes, `wrangler deploy --dry-run` lists the binding. Live data: see the status in `CLAUDE.md`.
+
 ### R8e No latitude facts (owner, 2026-10-02)
 
 - Question: "what does 'gets as far south as 15°N in a year' even mean?" It was the southernmost latitude of the animal's year (and its twin, the northernmost above 50° N), computed from the track; the numbers were right but a latitude means little to a reader.
@@ -153,6 +159,17 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 - Applies to every TRMNL recipe. Full text in `docs/BRIEF.md`.
 
 ## Open
+
+### O2 Publish the templates through TRMNL's API (owner, 2026-10-03; planned, not started)
+
+- TRMNL has a public API (https://trmnl.com/api-docs, spec `https://trmnl.com/api-docs/openapi.yaml`, read 2026-10-03, bearer auth with an API key): `PUT /api/plugin_settings/{id}/files` replaces a private plugin's files in one call (settings.yml required, markup files by name, "a markup file left out keeps its current content"); `PUT /api/plugin_settings/{id}/markup/{size}` writes one layout; `POST /api/plugin_settings/{id}/screenshots` renders a preview per layout and device model (`og`, …).
+- Plan: extend `.github/workflows/deploy-worker.yml` (or a sibling) to push `template/` on every merge that touches it, with repository secrets `TRMNL_API_KEY` and the plugin setting id; then request preview screenshots for the four layouts as a smoke test. Ends hand-pasting of the Shared tab, layout tabs and settings. Check first how the Shared tab maps to a file name (the spec's size enum was cut off in our read) and whether the polling URL is part of settings.yml.
+
+### O3 More animals from Movebank (owner, 2026-10-03; planned, not started)
+
+- Look through Movebank and the Movebank Data Repository for more featured animals (CC0/CC BY only, L1).
+- First lead from the owner: "Data from: Bats surf storm fronts during spring migration" (Hurme, Lenzi, Wikelski, Wild, Dechmann; Science; doi:10.5441/001/1.319; CC BY 4.0, read via the repository API 2026-10-03): female common noctules (Nyctalus noctula) tracked with a 1.2 g tag during spring migration across central Europe. Not in our catalog: the species is on our migrant list (`pipeline/nonbird_migrants.json`), but the catalog only keeps animals with a full year of positions (`MIN_SPAN_DAYS = 330`, `MIN_DOY_COVER = 240` in `pipeline/build_catalog.py`), and this study covers spring migration only (to verify on the data).
+- Season-only tracks need a design decision: show such an animal only during its season, or as a replay of its journey with the dates said plainly (D3). Then rerun the catalog search for other short but striking studies.
 
 ### O1 Wingspan-style stats and better facts (owner, 2026-10-03; planned, not started)
 

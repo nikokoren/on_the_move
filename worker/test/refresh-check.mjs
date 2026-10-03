@@ -26,7 +26,7 @@ async function loadIndex() {
   fs.writeFileSync(file, src);
   try { return await import(file + "?" + Date.now()); } finally { fs.unlinkSync(file); }
 }
-const { handle, speciesParam, langParam } = await loadIndex();
+const { handle, speciesParam, langParam, recordPoll } = await loadIndex();
 
 function kv(initial) {
   const store = new Map(initial ? [[LIVE_KEY, JSON.stringify(initial)]] : []);
@@ -156,6 +156,31 @@ check("layout: Flock View on (or not yet saved) sends one row per followed speci
   multi.rows && multi.rows.length === 3 && multi.rows[multi.current].species === multi.species && unset.rows && unset.rows.length === 3 && !("rows" in plain));
 const err = await handle(new Request("https://x/full"), { KV: { get: async () => { throw new Error("kv down"); } } }, NOW);
 check("poll: KV failure still answers 200 with an error state", err.status === 200 && (await err.json()).state === "error");
+
+// Usage counts (owner, 2026-10-03): one anonymous data point per poll, settings only.
+const points = [];
+const stats = { writeDataPoint: (p) => points.push(p) };
+const q = "https://x/full?species=" + encodeURIComponent("white_stork,loggerhead_turtle") + "&lang=deutsch&units=imperial&layout=false&photo=false&utc_offset=7200";
+const counted = await handle(new Request(q, { headers: { "cf-connecting-ip": "203.0.113.7" } }), { KV: kv(), STATS: stats }, NOW);
+const pt = points[0] || {};
+const flat = JSON.stringify(pt);
+check("stats: one data point per poll with the settings",
+  counted.status === 200 && points.length === 1 && JSON.stringify(pt.indexes) === '["poll"]' &&
+  JSON.stringify(pt.blobs) === JSON.stringify(["Ciconia ciconia,Caretta caretta", "de", "imperial", "single", "no_photo"]) &&
+  JSON.stringify(pt.doubles) === "[1,2]", flat);
+check("stats: no IP, no UTC offset in the data point", !/203\.0\.113\.7|7200/.test(flat), flat);
+points.length = 0;
+await handle(new Request("https://x/full"), { KV: kv(), STATS: stats }, NOW);
+check("stats: nothing ticked counts as all, defaults recorded", JSON.stringify(points[0] && points[0].blobs) === JSON.stringify(["all", "en", "metric", "multi", "photo"]), JSON.stringify(points[0]));
+const broken = await handle(new Request("https://x/full?species=white_stork"), { KV: kv(), STATS: { writeDataPoint: () => { throw new Error("ae down"); } } }, NOW);
+const brokenBody = await broken.json();
+check("stats: a failing binding never breaks the poll", broken.status === 200 && brokenBody.state === "ok", brokenBody.state);
+const none = await handle(new Request("https://x/full?species=white_stork"), { KV: kv() }, NOW);
+check("stats: no binding (local runs), the poll works as before", none.status === 200 && (await none.json()).state === "ok");
+const sampled = []; const env10 = { STATS: { writeDataPoint: (p) => sampled.push(p) }, STATS_SAMPLE: "10" };
+let r = 0; const rand = () => (r++ % 10) / 10;
+for (let i = 0; i < 1000; i++) recordPoll(env10, { species: [], lang: "en", units: "metric", layout: "multi", photo: true }, rand);
+check("stats: STATS_SAMPLE=10 writes 1 poll in 10, weighted 10", sampled.length === 100 && sampled.every((p) => p.doubles[0] === 10), `${sampled.length}`);
 
 console.log(failed ? `\n${failed} failed` : "\nall passed");
 process.exit(failed ? 1 : 0);

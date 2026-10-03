@@ -31,6 +31,27 @@ function photo(name) {
   return new Response(bytes, { headers: { "content-type": "image/jpeg", "cache-control": "public, max-age=604800" } });
 }
 
+// Usage counts (owner, 2026-10-03): one anonymous data point per poll in Workers
+// Analytics Engine (binding STATS), so we learn which settings people choose.
+// Only the settings themselves: no IP, no device, no UTC offset. STATS_SAMPLE=N
+// writes 1 poll in N (default every poll; the free plan takes 100,000 a day);
+// double1 is the weight, so SUM(double1) counts polls. Never breaks a poll.
+export function recordPoll(env, settings, random = Math.random) {
+  try {
+    if (!env.STATS || typeof env.STATS.writeDataPoint !== "function") return false;
+    const every = Math.max(1, Math.floor(Number(env.STATS_SAMPLE) || 1));
+    if (every > 1 && random() * every >= 1) return false;
+    env.STATS.writeDataPoint({
+      indexes: ["poll"],
+      blobs: [settings.species.length ? settings.species.join(",") : "all", settings.lang, settings.units, settings.layout, settings.photo ? "photo" : "no_photo"],
+      doubles: [every, settings.species.length]
+    });
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
 export async function handle(request, env, now = new Date()) {
   const url = new URL(request.url);
   const m = url.pathname.match(/^\/photo\/([a-z_]+)\.jpg$/);
@@ -39,6 +60,13 @@ export async function handle(request, env, now = new Date()) {
   const lang = langParam(url.searchParams.get("lang"));
   let body;
   try {
+    recordPoll(env, {
+      species: speciesList(url.searchParams.getAll("species").join(",")),
+      lang,
+      units: unitsParam(url.searchParams.get("units")),
+      layout: layoutParam(url.searchParams.get("layout")),
+      photo: photoParam(url.searchParams.get("photo"))
+    });
     // One KV read a request, never a write (Nextbike: never write on a read path).
     const live = env.KV ? await env.KV.get(LIVE_KEY, "json") : null;
     body = buildFull(withLive(featured, live), {
