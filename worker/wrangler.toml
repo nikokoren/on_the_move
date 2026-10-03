@@ -17,3 +17,10 @@ id = "ebe03f8af1904bc6afc5b828aeeb44c4"  # "on_the_move", created by the owner 2
 
 # Secrets, never in this file (CLAUDE.md): MOVEBANK_USERNAME, MOVEBANK_PASSWORD.
 # Set with `npx wrangler secret put ...`; locally in worker/.dev.vars (git-ignored).
+
+# Anonymous usage counts, one data point per poll (owner, 2026-10-03; src/index.js
+# recordPoll). The dataset is created on the first write; data is kept 3 months.
+# Free plan: 100,000 data points a day. Sample with the variable STATS_SAMPLE.
+[[analytics_engine_datasets]]
+binding = "STATS"
+dataset = "on_the_move_polls"

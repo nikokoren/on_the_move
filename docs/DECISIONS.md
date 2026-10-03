@@ -4,6 +4,12 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### A2 Anonymous usage counts (owner, 2026-10-03)
+
+- Why: the animal list is getting long; before trimming or regrouping it, learn what people actually select (all species, a few, one alone; language, units, Flock View, photo).
+- Built: every poll writes one data point to Workers Analytics Engine (binding `STATS`, dataset `on_the_move_polls`; `worker/src/index.js` `recordPoll`, queries in `worker/README.md`). Settings only: no IP, no device id, no UTC offset. A failing or missing binding never affects the poll. `STATS_SAMPLE=N` records 1 poll in N, weighted. Limits from Cloudflare's docs (read 2026-10-03): free plan 100,000 data points and 10,000 queries a day; 3 months retention; datasets created on first write.
+- Checked: `worker/test/refresh-check.mjs` (6 new checks: the data point's fields, no IP or offset, defaults for an unsaved form, a throwing binding, no binding, sampling 1000 → 100 at weight 10), `worker/check.mjs` passes, `wrangler deploy --dry-run` lists the binding. Live data: see the status in `CLAUDE.md`.
+
 ### R8e No latitude facts (owner, 2026-10-02)
 
 - Question: "what does 'gets as far south as 15°N in a year' even mean?" It was the southernmost latitude of the animal's year (and its twin, the northernmost above 50° N), computed from the track; the numbers were right but a latitude means little to a reader.
