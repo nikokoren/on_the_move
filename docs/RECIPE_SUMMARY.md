@@ -57,6 +57,8 @@ On the Move puts the journeys of real, GPS-tracked migrating animals on your TRM
 - the broad-winged hawks Hugger, Muskoka and Ottauquechee;
 - the turkey vultures Thomas, Edgar and Malcom.
 
+Every other animal carries the first name of a famous biologist or scientist from its part of the world (since 3 Oct 2026): the peregrine falcons Signe, Gitte and Harriet, the turtle doves Gregor and Jan, the blue whale Sylvia, the osprey Rachel.
+
 The journeys cross continents and oceans: Europe to Africa, Canada to Central and South America, Greenland to Honduras, the Korean Peninsula to Australia, along the Pacific coast of North America, and across the seas of East Asia.
 
 ## Two ways an animal is shown

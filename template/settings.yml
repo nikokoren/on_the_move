@@ -8,7 +8,7 @@
   field_type: author_bio
   name: About This Plugin
   description: |
-    Follow migrating animals on a map: white storks, cranes, honey buzzards, turtle doves, gulls, shrikes, wheatears, curlews, hawks, vultures, ospreys, snow geese, Canada geese, bald eagles, blackpoll warblers, peregrine falcons, a blue whale and a loggerhead turtle. Animals with a working GPS tag show their last position and its date. The others show where they usually are on this day, from a full year of their own published tracking data. A thick line shows where the journey began, a thin line where it usually goes next.<br><br>
+    Follow migrating animals on a map: white storks, cranes, honey buzzards, turtle doves, gulls, shrikes, wheatears, curlews, hawks, vultures, ospreys, snow geese, Canada geese, bald eagles, blackpoll warblers, peregrine falcons, a blue whale and a loggerhead turtle. Animals with a working GPS tag show their last position and its date. The others show where they usually are on this day, from a full year of their own published tracking data. A thick line shows where the journey began, a thin line where it usually goes next. Names come from the researchers where they gave one; the other animals carry the first name of a famous biologist or scientist from their part of the world.<br><br>
     Tracking data (Movebank, CC0 and CC BY studies only; used under their licences, without warranties):<br>
     White Stork: Wolfgang Fiedler, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study173641633">LifeTrack White Stork Vorarlberg</a>, CC BY<br>
     White Stork: Wolfgang Fiedler, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study24442409">LifeTrack White Stork Bavaria</a>, CC BY<br>

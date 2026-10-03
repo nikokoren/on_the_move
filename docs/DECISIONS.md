@@ -4,6 +4,13 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### N1 Names for unnamed animals (owner, 2026-10-03)
+
+- Why: 38 of the 52 featured animals had no name from the researchers, so the owner saw three different "Peregrine Falcon" with nothing to tell them apart.
+- Decided (owner): the first name of a famous biologist from the animal's country (where it was tagged or its study is based), a scientist where no biologist fits, matching the animal's sex where Movebank records it. Examples: Signe and Gitte (Greenland peregrines), Gregor and Jan (Czech turtle doves), Youyou (curlew), Sylvia (blue whale).
+- Built: `pipeline/names_curated.json` (name, namesake, a one-line description and the source checked 2026-10-03: Wikipedia page summaries, Wikidata for Vavilov). `pipeline/build_featured.py` applies a name only where the researchers gave none and stops if one appears later or a named animal leaves the featured set; which animal is the star is unchanged. Names show in quotes like the researchers' names. The About text says where names come from.
+- Checked: the rebuilt `worker/data/featured.json` differs from the previous one only in the 38 names; `worker/check.mjs` passes; render check 12/12 (osprey, all three animals including "John James", the longest new name, on every view) and Flock View on the X 12/12. Not seen on a device.
+
 ### A2 Anonymous usage counts (owner, 2026-10-03)
 
 - Why: the animal list is getting long; before trimming or regrouping it, learn what people actually select (all species, a few, one alone; language, units, Flock View, photo).
