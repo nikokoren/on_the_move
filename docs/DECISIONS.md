@@ -154,6 +154,17 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Open
 
+### O2 Publish the templates through TRMNL's API (owner, 2026-10-03; planned, not started)
+
+- TRMNL has a public API (https://trmnl.com/api-docs, spec `https://trmnl.com/api-docs/openapi.yaml`, read 2026-10-03, bearer auth with an API key): `PUT /api/plugin_settings/{id}/files` replaces a private plugin's files in one call (settings.yml required, markup files by name, "a markup file left out keeps its current content"); `PUT /api/plugin_settings/{id}/markup/{size}` writes one layout; `POST /api/plugin_settings/{id}/screenshots` renders a preview per layout and device model (`og`, …).
+- Plan: extend `.github/workflows/deploy-worker.yml` (or a sibling) to push `template/` on every merge that touches it, with repository secrets `TRMNL_API_KEY` and the plugin setting id; then request preview screenshots for the four layouts as a smoke test. Ends hand-pasting of the Shared tab, layout tabs and settings. Check first how the Shared tab maps to a file name (the spec's size enum was cut off in our read) and whether the polling URL is part of settings.yml.
+
+### O3 More animals from Movebank (owner, 2026-10-03; planned, not started)
+
+- Look through Movebank and the Movebank Data Repository for more featured animals (CC0/CC BY only, L1).
+- First lead from the owner: "Data from: Bats surf storm fronts during spring migration" (Hurme, Lenzi, Wikelski, Wild, Dechmann; Science; doi:10.5441/001/1.319; CC BY 4.0, read via the repository API 2026-10-03): female common noctules (Nyctalus noctula) tracked with a 1.2 g tag during spring migration across central Europe. Not in our catalog: the species is on our migrant list (`pipeline/nonbird_migrants.json`), but the catalog only keeps animals with a full year of positions (`MIN_SPAN_DAYS = 330`, `MIN_DOY_COVER = 240` in `pipeline/build_catalog.py`), and this study covers spring migration only (to verify on the data).
+- Season-only tracks need a design decision: show such an animal only during its season, or as a replay of its journey with the dates said plainly (D3). Then rerun the catalog search for other short but striking studies.
+
 ### O1 Wingspan-style stats and better facts (owner, 2026-10-03; planned, not started)
 
 - Idea (owner, from the board game Wingspan): a fixed stat strip on the text box plus one fun fact, like the game's bird cards.
