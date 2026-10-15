@@ -16,6 +16,10 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 - Why: the animal list is getting long; before trimming or regrouping it, learn what people actually select (all species, a few, one alone; language, units, Flock View, photo).
 - Built: every poll writes one data point to Workers Analytics Engine (binding `STATS`, dataset `on_the_move_polls`; `worker/src/index.js` `recordPoll`, queries in `worker/README.md`). Settings only: no IP, no device id, no UTC offset. A failing or missing binding never affects the poll. `STATS_SAMPLE=N` records 1 poll in N, weighted. Limits from Cloudflare's docs (read 2026-10-03): free plan 100,000 data points and 10,000 queries a day; 3 months retention; datasets created on first write.
 - Checked: `worker/test/refresh-check.mjs` (6 new checks: the data point's fields, no IP or offset, defaults for an unsaved form, a throwing binding, no binding, sampling 1000 → 100 at weight 10), `worker/check.mjs` passes, `wrangler deploy --dry-run` lists the binding. Live data: see the status in `CLAUDE.md`.
+- Live: the deploy with the binding succeeded 2026-10-03 after the owner enabled Analytics Engine. First numbers (owner's dashboard exports, 7 days to 2026-10-15; re-run the README queries for newer ones): 820 polls, about one to two devices' worth at a 15-minute refresh, so likely mostly the owner's devices and TRMNL's preview.
+  - Selections: nothing ticked (all) 454 (55%), all 18 ticked by hand 118 (14%), honey buzzard + turtle dove 166 (20%), Canada goose alone 65 (8%), 12 species 10, 8 species 7. About 70% follow everything; every species is in at least one selection.
+  - Settings: English 682 (83%), German 138 (17%); imperial 78 (10%); Flock View on 785 (96%); photo on 820 (100%). The only Flock View off setup was German.
+  - Reading: defaults are rarely changed; Flock View on the TRMNL X is what nearly every poll shows (assuming X devices: the payload does not record the model). Ideas, not decided: say "nothing ticked = all" in the setting; record the device model.
 
 ### R8e No latitude facts (owner, 2026-10-02)
 
