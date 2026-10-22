@@ -1,0 +1,2470 @@
+{
+ "lang": "de",
+ "species": {
+  "Ciconia ciconia": {
+   "short": [
+    {
+     "id": "de-s-storch-prinzesschen",
+     "text": "Die Loburger Störchin Prinzesschen hat eine eigene Briefmarke und ein Denkmal aus Bronze.",
+     "seed": "stork-prinzesschen",
+     "source": {
+      "title": "Volksstimme, Prinzesschens Reise (2016)",
+      "url": "https://www.volksstimme.de/lokal/burg/tierschutz-prinzesschens-reise",
+      "quote": [
+       "Die von der Künstlerin Heike Landherr entworfene Bronzeskulptur steht auf dem Storchenhof Loburg",
+       "Das Motiv zeigt Prinzesschen fliegend, die Marke gehört zur Serie"
+      ]
+     }
+    },
+    {
+     "id": "de-s-storch-babyboom",
+     "text": "Brächte der Storch die Kinder, gäbe es einen Babyboom: So viele Störche gab es wohl nie.",
+     "seed": null,
+     "source": {
+      "title": "Tagesspiegel (dpa), Was klappert da? Darum gibt es so viele Störche (2026)",
+      "url": "https://www.tagesspiegel.de/wissen/an-den-menschen-angepasst-was-klappert-da-darum-gibt-es-so-viele-storche-15436459.html",
+      "quote": [
+       "An dem Mythos des Kinder bringenden Klapperstorchs gemessen, müsste Deutschland einen Babyboom erleben.",
+       "Es gibt laut jüngster Bilanz vermutlich so viele Weißstörche wie noch nie."
+      ]
+     }
+    },
+    {
+     "id": "de-s-storch-beine",
+     "text": "Wird es zu heiß, koten Störche sich auf die eigenen Beine. Das schützt vor Überhitzung.",
+     "seed": "stork-legs",
+     "source": {
+      "title": "Cabello-Vergel et al. 2021, Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-021-99296-8",
+      "europepmc": "DOI:10.1038/s41598-021-99296-8",
+      "quote": "Storks (Ciconiidae) frequently excrete onto their legs to prevent overheating, a phenomenon known as urohidrosis."
+     }
+    },
+    {
+     "id": "de-s-storch-zywkowo",
+     "text": "Im polnischen Dorf Żywkowo leben rund 30 Menschen und etwa 160 Störche.",
+     "seed": "stork-village",
+     "source": {
+      "title": "Wikipedia, Żywkowo",
+      "url": "https://en.wikipedia.org/wiki/%C5%BBywkowo,_Warmian-Masurian_Voivodeship",
+      "quote": "For 30 inhabitants accrue about 160 storks and 42 nests."
+     }
+    },
+    {
+     "id": "de-s-storch-ruehstaedt",
+     "text": "Nirgends in Deutschland brüten Störche so dicht wie in Rühstädt an der Elbe.",
+     "seed": null,
+     "source": {
+      "title": "Berlin.de, Storchendorf Rühstädt",
+      "url": "https://www.berlin.de/tourismus/brandenburg/1180902-1098592-storchendorfr%C3%BChst%C3%A4dt.html",
+      "quote": "Nirgendwo in Deutschland nisten so viele Störche auf so engem Raum wie im Europäischen Storchendorf Rühstädt nahe der Elbe."
+     }
+    },
+    {
+     "id": "de-s-storch-schwarz",
+     "text": "Ein Weißstorch in Altreu war ganz schwarz: Das Nest stand auf einem qualmenden Kamin.",
+     "seed": null,
+     "source": {
+      "title": "Beobachter, Wiederansiedlung: Mission Storch (2013)",
+      "url": "https://www.beobachter.ch/umwelt/flora-fauna/wiederansiedlung-mission-storch",
+      "quote": [
+       "Auch einen Storch, der ganz schwarz ist statt weiss, beobachtet Max Bloesch.",
+       "Es ist zwar ein Weissstorch, aber einer, der sein Nest auf einem qualmenden Kamin gebaut hat."
+      ]
+     }
+    },
+    {
+     "id": "de-s-storch-pfeil",
+     "text": "1822 kam ein Weißstorch nach Mecklenburg zurück, mit einem afrikanischen Pfeil im Hals.",
+     "seed": "stork-arrow",
+     "source": {
+      "title": "Universität Rostock, Schloss Bothmer: Der Pfeilstorch ist zurück (2018)",
+      "url": "https://www.uni-rostock.de/universitaet/kommunikation-und-aktuelles/medieninformationen/detailansicht/n/schloss-bothmer-der-pfeilstorch-ist-zurueck-26011/",
+      "quote": [
+       "Der Storch wurde 1822 im Klützer Winkel erlegt und lieferte seinerzeit den ersten Beweis für den Fernzug der Störche bis in das äquatoriale Afrika.",
+       "Der vermeintliche Stock entpuppte sich dabei als ein aus Holz geschnitzter und mit einer eisernen Spitze versehener Pfeil."
+      ]
+     }
+    },
+    {
+     "id": "de-s-storch-verein",
+     "text": "Den Störchen geht es so gut, dass ein Verein „Rettet die“ aus seinem Namen gestrichen hat.",
+     "seed": null,
+     "source": {
+      "title": "Tagesspiegel (dpa), Was klappert da? Darum gibt es so viele Störche (2026)",
+      "url": "https://www.tagesspiegel.de/wissen/an-den-menschen-angepasst-was-klappert-da-darum-gibt-es-so-viele-storche-15436459.html",
+      "quote": "konnte den Appell „Rettet die“ dank der Erfolge inzwischen schon aus dem Vereinsnamen streichen."
+     }
+    },
+    {
+     "id": "de-s-storch-nrw",
+     "text": "Um 1990 gab es in ganz NRW nur noch drei Storchenpaare, alle in Petershagen an der Weser.",
+     "seed": null,
+     "source": {
+      "title": "Tagesspiegel (dpa), Was klappert da? Darum gibt es so viele Störche (2026)",
+      "url": "https://www.tagesspiegel.de/wissen/an-den-menschen-angepasst-was-klappert-da-darum-gibt-es-so-viele-storche-15436459.html",
+      "quote": [
+       "Petershagen an der Weser im nördlichen Zipfel Nordrhein-Westfalens",
+       "da hatten wir in ganz NRW noch drei Paar Störche. Und die waren alle hier"
+      ]
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-storch-klepetan",
+     "text": "Jäger hatten die Störchin Malena flugunfähig geschossen. Ihr Partner Klepetan kam trotzdem jedes Jahr zu ihr: {13.000 km|8000 mi} aus Südafrika.",
+     "seed": "stork-klepetan",
+     "source": {
+      "title": "Wikipedia, Klepetan and Malena",
+      "url": "https://en.wikipedia.org/wiki/Klepetan_and_Malena",
+      "quote": [
+       "she had been shot by hunters and was unable to fly.",
+       "Through a radio tracking band, it was determined that Klepetan made a 13,000-kilometre (8,000 mi) month-long journey from South Africa to Croatia to meet up with Malena each year."
+      ]
+     }
+    },
+    {
+     "id": "de-l-storch-prinz",
+     "text": "1993 durfte eine Schulklasse in Loburg einen Storch taufen: Prinz. Die Partnerin wurde Prinzesschen, Deutschlands berühmteste Störchin.",
+     "seed": "stork-prinzesschen",
+     "source": {
+      "title": "Volksstimme, Prinzesschens Reise (2016)",
+      "url": "https://www.volksstimme.de/lokal/burg/tierschutz-prinzesschens-reise",
+      "quote": [
+       "Die Kinder waren brav und zur Belohnung durften sie den neuen Storch taufen.",
+       "Der Prinz hatte eine Prinzessin, wenig später wurde Prinzesschen daraus",
+       "Vor zehn Jahren ist die wohl berühmteste Störchin Deutschlands in Südafrika gestorben."
+      ]
+     }
+    },
+    {
+     "id": "de-l-storch-airfrance",
+     "text": "Max Bloesch holte die Störche in die Schweiz zurück: Ab 1955 flog die Air France Jungstörche aus Algerien ein, gratis. 292 kamen so.",
+     "seed": null,
+     "source": {
+      "title": "Beobachter, Wiederansiedlung: Mission Storch (2013)",
+      "url": "https://www.beobachter.ch/umwelt/flora-fauna/wiederansiedlung-mission-storch",
+      "quote": [
+       "Die Aktion kostet keinen Rappen: Die Air France fliegt gratis, wohl aus PR-Gründen.",
+       "1955 geht der erste Flug.",
+       "292 Störche kommen so in die Schweiz."
+      ]
+     }
+    },
+    {
+     "id": "de-l-storch-anzug",
+     "text": "In Altreu ließ sich ein Mann im schwarzen Anzug unter Storchennestern fotografieren. Eine Sekunde später: Nadelstreifen.",
+     "seed": null,
+     "source": {
+      "title": "Beobachter, Wiederansiedlung: Mission Storch (2013)",
+      "url": "https://www.beobachter.ch/umwelt/flora-fauna/wiederansiedlung-mission-storch",
+      "quote": [
+       "Er habe einen eleganten schwarzen Anzug getragen.",
+       "Doch in der nächsten Sekunde war es eher ein Nadelstreifenanzug.",
+       "Jungstörche haben die Angewohnheit, ihren Kot ab und zu über den Nestrand hinaus zu spritzen."
+      ]
+     }
+    },
+    {
+     "id": "de-l-storch-maeuse",
+     "text": "Bevor der Pfeilstorch von 1822 den Zug nach Afrika bewies, hielten selbst Gelehrte es für möglich, dass Zugvögel im Winter zu Mäusen werden.",
+     "seed": "stork-arrow",
+     "source": {
+      "title": "Wikipedia, Pfeilstorch",
+      "url": "https://de.wikipedia.org/wiki/Pfeilstorch",
+      "quote": [
+       "weil durch sie am Beispiel der Störche der Vogelzug bis nach Äquatorialafrika belegt werden konnte.",
+       "oder sich sogar im Winter in Mäuse verwandeln."
+      ]
+     }
+    },
+    {
+     "id": "de-l-storch-roemer",
+     "text": "Vor 2.000 Jahren lebten Weißstörche nur im Römischen Reich, bis an Rhein und Donau. Erst seit 1.000 Jahren geht es nach Nordosten.",
+     "seed": null,
+     "source": {
+      "title": "Tagesspiegel (dpa), Was klappert da? Darum gibt es so viele Störche (2026)",
+      "url": "https://www.tagesspiegel.de/wissen/an-den-menschen-angepasst-was-klappert-da-darum-gibt-es-so-viele-storche-15436459.html",
+      "quote": [
+       "Den Erkenntnissen zufolge kamen Weißstörche vor rund 2.000 Jahren ausschließlich auf dem Gebiet des Römischen Reiches vor.",
+       "Die nördliche Grenze ihres Verbreitungsgebiets verlief demnach zu der Zeit entlang des Rheins und der Donau.",
+       "Seit etwa 1.000 Jahren breitet sich der Weißstorch dem Szenario zufolge Richtung Nordosten in Europa aus."
+      ]
+     }
+    },
+    {
+     "id": "de-l-storch-1700",
+     "text": "Den Kinder bringenden Storch gibt es erst seit etwa 1700. Als alles Sexuelle verpönt war, half der Storch beim Erklären.",
+     "seed": null,
+     "source": {
+      "title": "Tagesspiegel (dpa), Was klappert da? Darum gibt es so viele Störche (2026)",
+      "url": "https://www.tagesspiegel.de/wissen/an-den-menschen-angepasst-was-klappert-da-darum-gibt-es-so-viele-storche-15436459.html",
+      "quote": [
+       "Das ist nicht älter als etwa um 1700.",
+       "Da sei alles Fleischliche und insbesondere das Sexuelle verpönt gewesen, sagt Bense.",
+       "Mit dem Storch hat man nun eine Möglichkeit zu erklären, wie die Kinder gebracht werden"
+      ]
+     }
+    }
+   ]
+  },
+  "Grus grus": {
+   "short": [
+    {
+     "id": "de-s-kranich-lufthansa",
+     "text": "Der Lufthansa-Kranich ist älter als die Lufthansa: Otto Firle zeichnete ihn schon 1918.",
+     "seed": "crane-lufthansa",
+     "source": {
+      "title": "Lufthansa Group Newsroom, Lufthansa-Kranich feiert seinen 100. Geburtstag (2018)",
+      "url": "https://newsroom.lufthansagroup.com/lufthansa-kranich-feiert-seinen-100-geburtstag/",
+      "quote": [
+       "1918 entwarf der Grafiker und Architekt Otto Firle für die Deutsche Luft-Reederei, einer Vorgängergesellschaft der Luft Hansa, einen stilisierten Vogel.",
+       "das Aktienbuch der ersten Deutschen Luft Hansa - so die damalige Schreibweise - vom 6. Januar 1926"
+      ]
+     }
+    },
+    {
+     "id": "de-s-kranich-linum",
+     "text": "Mitte Oktober zählten Beobachter in Linum bei Berlin einmal über 116.000 Kraniche.",
+     "seed": "crane-havelland",
+     "source": {
+      "title": "wissen.de, Faszination Kraniche: Sie sind wieder unterwegs (2022)",
+      "url": "https://www.wissen.de/faszination-kraniche-sie-sind-wieder-unterwegs",
+      "quote": "In Linum bei Berlin zählten Vogelbeobachter Mitte Oktober sogar über 116.000 Kraniche."
+     }
+    },
+    {
+     "id": "de-s-kranich-stein",
+     "text": "Der wachsame Kranich der Wappen hält einen Stein. Fällt der, ist der Vogel gleich wach.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Kranich",
+      "url": "https://de.wikipedia.org/wiki/Kranich",
+      "quote": "Dieser hält einen Stein mit der Klaue hoch, damit er im Falle des Einschlafens sogleich vom Geräusch des Fallens geweckt würde."
+     }
+    },
+    {
+     "id": "de-s-kranich-luftroehre",
+     "text": "Die Luftröhre des Kranichs ist {130 cm|51 in} lang und liegt als Doppelschlinge im Brustbein.",
+     "seed": "crane-windpipe",
+     "source": {
+      "title": "Naturpark Kyffhäuser, Kraniche im Blick",
+      "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+      "pdf": true,
+      "quote": "Seine Luftröhre ist beachtliche 130 cm lang und durchzieht als Doppelschlinge das Brustbein."
+     }
+    },
+    {
+     "id": "de-s-kranich-tanz",
+     "text": "Kraniche tanzen gern, und schon die Küken üben die Schritte.",
+     "seed": "crane-dance",
+     "source": {
+      "title": "Naturpark Kyffhäuser, Kraniche im Blick",
+      "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+      "pdf": true,
+      "quote": "Schon Küken üben den Tanz"
+     }
+    },
+    {
+     "id": "de-s-kranich-familie",
+     "text": "Anders als junge Störche ziehen junge Kraniche mit den Eltern ins Winterquartier.",
+     "seed": "crane-family",
+     "source": {
+      "title": "Naturpark Kyffhäuser, Kraniche im Blick",
+      "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+      "pdf": true,
+      "quote": "dass die Jungtiere das erste Mal mit ihren Eltern ins Winterquartier ziehen."
+     }
+    },
+    {
+     "id": "de-s-kranich-paar",
+     "text": "Kranichpaare können ein Leben lang zusammenbleiben.",
+     "seed": "crane-pairs",
+     "source": {
+      "title": "Naturpark Kyffhäuser, Kraniche im Blick",
+      "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+      "pdf": true,
+      "quote": "Verpaarte Kraniche können ein Leben lang zusammen bleiben."
+     }
+    },
+    {
+     "id": "de-s-kranich-schlaf",
+     "text": "Kraniche schlafen stehend im flachen Wasser, sicher vor Füchsen und Wildschweinen.",
+     "seed": null,
+     "source": {
+      "title": "wissen.de, Faszination Kraniche: Sie sind wieder unterwegs (2022)",
+      "url": "https://www.wissen.de/faszination-kraniche-sie-sind-wieder-unterwegs",
+      "quote": [
+       "da sie dort stehend schlafen.",
+       "So sind sie vor Füchsen, Wildschweinen und streunenden Hunden sicher."
+      ]
+     }
+    },
+    {
+     "id": "de-s-kranich-faust",
+     "text": "„Der Kranich nach der Heimat strebt“: Schon Goethes Faust schaute dem Kranichzug nach.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Kranich",
+      "url": "https://de.wikipedia.org/wiki/Kranich",
+      "quote": [
+       "Goethe lässt im Faust (Vor dem Tor)",
+       "den Protagonisten klagen: Der Kranich nach der Heimat strebt."
+      ]
+     }
+    },
+    {
+     "id": "de-s-kranich-polizei",
+     "text": "Eine Sondereinheit der österreichischen Polizei heißt „Kranich“: wegen der Wachsamkeit.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Kranich",
+      "url": "https://de.wikipedia.org/wiki/Kranich",
+      "quote": [
+       "trägt ebenfalls den Namen Einsatzabteilung Kranich",
+       "Der Name wurde wegen der besonderen Wachsamkeit des Vogels und in Assoziation zum Flug gewählt."
+      ]
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-kranich-taurus",
+     "text": "Die Griechen erzählten, Kraniche trügen über dem Taurusgebirge Steinchen im Schnabel, damit kein Ruf sie an die Adler verrät.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Kranich",
+      "url": "https://de.wikipedia.org/wiki/Kranich",
+      "quote": "trägt der fliegende Kranich Steinchen im Schnabel, um sich über dem Taurusgebirge nicht durch eigene Rufe zu verraten und in die Fänge der Adler zu geraten."
+     }
+    },
+    {
+     "id": "de-l-kranich-preussen",
+     "text": "Der Preußenkönig Friedrich Wilhelm I. ließ Kraniche jagen, „wegen ihres großen Schadens“: Flussauen sollten zu Ackerland werden.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Kranich",
+      "url": "https://de.wikipedia.org/wiki/Kranich",
+      "quote": "In Preußen ließ Friedrich Wilhelm I. zur Kultivierung von Stromtälern und Flussauen die Jagd auf Kraniche „wegen ihres großen Schadens“ anordnen."
+     }
+    },
+    {
+     "id": "de-l-kranich-hebamme",
+     "text": "Kraniche leisten Geburtshilfe: Will ein Küken aus dem Ei, treten die Eltern dagegen, gerade so fest, dass nur die Schale bricht.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Kranich",
+      "url": "https://de.wikipedia.org/wiki/Kranich",
+      "quote": [
+       "Sobald die Jungvögel versuchen, das Ei zu durchbrechen, treten die Elternvögel mit ihren Krallen nach dem betroffenen Ei",
+       "Der Tritt der adulten Vögel ist allerdings nur so stark, dass er die Schale des Geleges beschädigt und der Nachwuchs dadurch nicht verletzt wird."
+      ]
+     }
+    },
+    {
+     "id": "de-l-kranich-morgen",
+     "text": "Sobald es hell wird, starten an den Rastplätzen Hunderte bis Tausende Kraniche aus dem Wasser und fliegen in langen Ketten zu den Feldern.",
+     "seed": null,
+     "source": {
+      "title": "wissen.de, Faszination Kraniche: Sie sind wieder unterwegs (2022)",
+      "url": "https://www.wissen.de/faszination-kraniche-sie-sind-wieder-unterwegs",
+      "quote": [
+       "Sobald es hell wird, werden sie unruhig und mehrere hundert bis tausend Tiere starten aus dem Wasser und fliegen beeindruckend in langen Ketten los.",
+       "Sie machen sich auf umliegenden Feldern auf die Suche nach Nahrung."
+      ]
+     }
+    },
+    {
+     "id": "de-l-kranich-nonstop",
+     "text": "Kraniche fliegen oft Hunderte Kilometer am Tag, im Extremfall {2000 km|1240 mi} am Stück. Mit Rückenwind schaffen sie bis zu {100 km/h|62 mph}.",
+     "seed": null,
+     "source": {
+      "title": "wissen.de, Faszination Kraniche: Sie sind wieder unterwegs (2022)",
+      "url": "https://www.wissen.de/faszination-kraniche-sie-sind-wieder-unterwegs",
+      "quote": [
+       "im Extremfall sogar 2.000 Kilometer nonstop.",
+       "bei Rückenwind sogar 100 Stundenkilometer."
+      ]
+     }
+    }
+   ]
+  },
+  "Pernis apivorus": {
+   "short": [
+    {
+     "id": "de-s-wespenbussard-batumi",
+     "text": "Weltrekord: Am 3. September 2012 zogen 179.342 Wespenbussarde über Batumi in Georgien.",
+     "seed": "hb-batumi",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, 1 million raptors pass Batumi, Georgia (2012)",
+      "url": "https://hawkmountain.org/news/raptor-news/1-million-raptors-pass-batumi-georgia",
+      "quote": "On September 3, counters recorded a one-day, world record 179,342 honey buzzards."
+     }
+    },
+    {
+     "id": "de-s-wespenbussard-graben",
+     "text": "Wespenbussarde graben Wespennester aus, die bis zu {40 cm|16 in} tief im Boden liegen.",
+     "seed": null,
+     "source": {
+      "title": "Staatliche Vogelschutzwarte Hessen, Steckbrief Wespenbussard (2007)",
+      "url": "https://natureg.hessen.de/resources/recherche/VSW/Voegel/NA_VSW_095_Steckbrief_Wespenbussard_Stand_2007_05.pdf",
+      "pdf": true,
+      "quote": "Wussten Sie, dass er bis 40 cm tief im Boden verborgene Wespennester ausgräbt"
+     }
+    },
+    {
+     "id": "de-s-wespenbussard-huhn",
+     "text": "Wespenbussarde scharren Wespennester auf wie ein Haushuhn. Ziel sind die fetten Maden.",
+     "seed": null,
+     "source": {
+      "title": "Die Rheinpfalz, Ganz wild auf stechende Insekten (2018)",
+      "url": "https://www.rheinpfalz.de/startseite_artikel,-ganz-wild-auf-stechende-insekten-_arid,1243105.html",
+      "quote": [
+       "dann scharrt der Vogel wie ein Haushuhn und öffnet mit Krallen und Schnabel die Insektenlöcher.",
+       "Sein Ziel sind die Waben mit den fetten Puppen und Maden."
+      ]
+     }
+    },
+    {
+     "id": "de-s-wespenbussard-fuenf",
+     "text": "Wespen als Hauptspeise: Darum bleiben Wespenbussarde nur rund fünf Monate bei uns.",
+     "seed": null,
+     "source": {
+      "title": "Die Rheinpfalz, Ganz wild auf stechende Insekten (2018)",
+      "url": "https://www.rheinpfalz.de/startseite_artikel,-ganz-wild-auf-stechende-insekten-_arid,1243105.html",
+      "quote": "Wespen und ihre Brut, erlauben ihm zudem nur einen rund fünfmonatigen Aufenthalt bei uns"
+     }
+    },
+    {
+     "id": "de-s-wespenbussard-tarnung",
+     "text": "Wespenbussarde sehen Mäusebussarden sehr ähnlich, vielleicht als Tarnung vor Habichten.",
+     "seed": "hb-disguise",
+     "source": {
+      "title": "Hawk and Owl Trust, Honey Buzzard",
+      "url": "https://hawkandowltrust.org/learn-and-discover/about-birds-of-prey/honey-buzzard",
+      "quote": [
+       "It is thought that this could be a defense against potential predation by Goshawk."
+      ]
+     }
+    },
+    {
+     "id": "de-s-wespenbussard-ruestung",
+     "text": "Gegen Stiche tragen Wespenbussarde verhornte Federn um Augen und Schnabel.",
+     "seed": "hb-armour",
+     "source": {
+      "title": "Die Rheinpfalz, Ganz wild auf stechende Insekten (2018)",
+      "url": "https://www.rheinpfalz.de/startseite_artikel,-ganz-wild-auf-stechende-insekten-_arid,1243105.html",
+      "quote": "Um Augen und Schnabel schützen ihn verhornte Federn."
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-wespenbussard-alleine",
+     "text": "Alte Wespenbussarde fliegen über Gibraltar. Junge queren beim ersten Zug das Meer irgendwo und landen doch im selben Winterquartier.",
+     "seed": "hb-alone",
+     "source": {
+      "title": "Hake et al. 2003, Oikos (Lund University)",
+      "url": "https://www.lunduniversity.lu.se/lup/publication/cc016de0-aa7a-46f3-857d-097a29e4dd52",
+      "quote": [
+       "All adults crossed the Mediterranean Sea at the Strait of Gibraltar",
+       "In contrast, the juveniles travelled in more southerly directions, crossed the Mediterranean Sea at various places, but still ended up in the same wintering areas as the adults."
+      ]
+     }
+    },
+    {
+     "id": "de-l-wespenbussard-finnland",
+     "text": "31 junge Wespenbussarde starteten mit Sendern in Südfinnland. Der Wind verteilte sie quer über Afrika, {3340 km|2080 mi} von West nach Ost.",
+     "seed": "hb-wind",
+     "source": {
+      "title": "Vansteelant et al. 2017, Proceedings of the Royal Society B",
+      "url": "https://doi.org/10.1098/rspb.2017.0387",
+      "europepmc": "DOI:10.1098/rspb.2017.0387",
+      "quote": [
+       "satellite-tagging 31 fledgling honey buzzards",
+       "from southern Finland",
+       "the birds eventually spread out across 3340 km of longitude."
+      ]
+     }
+    },
+    {
+     "id": "de-l-wespenbussard-panzer",
+     "text": "Gegen Wespen gepanzert: Verhornte Federn schützen Augen und Schnabel, die Nasenlöcher werden zum Schlitz, die Füße tragen Schuppen.",
+     "seed": "hb-armour",
+     "source": {
+      "title": "Die Rheinpfalz, Ganz wild auf stechende Insekten (2018)",
+      "url": "https://www.rheinpfalz.de/startseite_artikel,-ganz-wild-auf-stechende-insekten-_arid,1243105.html",
+      "quote": [
+       "Um Augen und Schnabel schützen ihn verhornte Federn.",
+       "Die Nasenlöcher kann er zu einem Schlitz verengen und die beschuppten Füße bieten ebenfalls keinen Angriffspunkt für die stechenden Insekten."
+      ]
+     }
+    },
+    {
+     "id": "de-l-wespenbussard-gedaechtnis",
+     "text": "Wespenbussarde merken sich, wo sie ein Wespennest geplündert haben, und schauen immer wieder nach, ob dort neue Waben gewachsen sind.",
+     "seed": null,
+     "source": {
+      "title": "Die Rheinpfalz, Ganz wild auf stechende Insekten (2018)",
+      "url": "https://www.rheinpfalz.de/startseite_artikel,-ganz-wild-auf-stechende-insekten-_arid,1243105.html",
+      "quote": "Er merkt sich die Plätze und schaut immer wieder nach, ob die fleißigen Insekten neue Waben gebildet haben"
+     }
+    },
+    {
+     "id": "de-l-wespenbussard-hornisse",
+     "text": "Wespenbussarde helfen gegen die eingeschleppte Asiatische Hornisse: In einer Studie wurden 89 % der angegriffenen Nester zerstört.",
+     "seed": "hb-hornet",
+     "source": {
+      "title": "Martín-Ávila et al. 2025, Pest Management Science",
+      "url": "https://doi.org/10.1002/ps.8622",
+      "europepmc": "DOI:10.1002/ps.8622",
+      "quote": [
+       "as an ally for the control of the invasive yellow-legged hornet",
+       "with 89.3% of attacked nests destroyed."
+      ]
+     }
+    },
+    {
+     "id": "de-l-wespenbussard-lehrjahre",
+     "text": "Junge Wespenbussarde bleiben die ersten Lebensjahre in Afrika. Besenderte streiften in gut einem Jahr {2430 bis 3990 km|1510 to 2480 mi} umher.",
+     "seed": "hb-gapyear",
+     "source": {
+      "title": "Strandberg et al. 2012, Ardea (Lund University)",
+      "url": "https://www.lunduniversity.lu.se/lup/publication/19705f46-e34c-4668-8dc3-076a9f024738",
+      "quote": [
+       "Immature European Honey Buzzards Pernis apivorus are believed to remain in tropical Africa during the first years of their lives.",
+       "They travelled between 2,430 and 3,990 km (minimum distances) during 13 to 14 months"
+      ]
+     }
+    }
+   ]
+  },
+  "Streptopelia turtur": {
+   "short": [
+    {
+     "id": "de-s-turteltaube-name",
+     "text": "Der Name Turteltaube kommt vom schnurrenden Ruf des Vogels: „turr turr“.",
+     "seed": "td-name",
+     "source": {
+      "title": "t-online (dpa), Vogel des Jahres 2020: Die Turteltaube ist ein Symbol der Liebe",
+      "url": "https://www.t-online.de/heim-garten/garten/id_86599120/vogel-des-jahres-2020-die-turteltaube-ist-ein-symbol-der-liebe.html",
+      "quote": [
+       "Turteltauben haben ihren Namen vor allem wegen ihrer Laute, die sie von sich geben",
+       "was sich auch wie eine Art Schnurren anhört."
+      ]
+     }
+    },
+    {
+     "id": "de-s-turteltaube-verliebt",
+     "text": "Verliebte heißen Turteltauben, weil Männchen und Weibchen oft unzertrennlich sind.",
+     "seed": null,
+     "source": {
+      "title": "t-online (dpa), Vogel des Jahres 2020: Die Turteltaube ist ein Symbol der Liebe",
+      "url": "https://www.t-online.de/heim-garten/garten/id_86599120/vogel-des-jahres-2020-die-turteltaube-ist-ein-symbol-der-liebe.html",
+      "quote": "Da männliche und weibliche Tiere oft unzertrennlich sind, wurde die Bezeichnung auch auf Menschen übertragen."
+     }
+    },
+    {
+     "id": "de-s-turteltaube-klein",
+     "text": "Unsere kleinste Taube, die Turteltaube, zieht als einzige bis südlich der Sahara.",
+     "seed": null,
+     "source": {
+      "title": "Sonntagsblatt, Turteltaube ist Vogel des Jahres 2020 (2019)",
+      "url": "https://sonntagsblatt.de/artikel/familie/turteltaube-ist-vogel-des-jahres-2020",
+      "quote": [
+       "Unsere kleinste Taube findet kaum noch geeignete Lebensräume.",
+       "Turteltauben ziehen im Winter als einzige mitteleuropäische Taubenart eine Langstrecke: bis südlich der Sahara."
+      ]
+     }
+    },
+    {
+     "id": "de-s-turteltaube-vdj",
+     "text": "Die Turteltaube war 2020 der erste weltweit gefährdete Vogel des Jahres.",
+     "seed": null,
+     "source": {
+      "title": "t-online (dpa), Vogel des Jahres 2020: Die Turteltaube ist ein Symbol der Liebe",
+      "url": "https://www.t-online.de/heim-garten/garten/id_86599120/vogel-des-jahres-2020-die-turteltaube-ist-ein-symbol-der-liebe.html",
+      "quote": "Zum ersten Mal sei ein Vogel gekürt worden, der als global gefährdete Art auf der weltweiten Roten Liste stehe"
+     }
+    },
+    {
+     "id": "de-s-turteltaube-frei",
+     "text": "Seit 1980 schrumpfte der Bestand um fast 90 %. Ganze Landstriche sind turteltaubenfrei.",
+     "seed": "td-decline",
+     "source": {
+      "title": "t-online (dpa), Vogel des Jahres 2020: Die Turteltaube ist ein Symbol der Liebe",
+      "url": "https://www.t-online.de/heim-garten/garten/id_86599120/vogel-des-jahres-2020-die-turteltaube-ist-ein-symbol-der-liebe.html",
+      "quote": "Seit 1980 haben wir fast 90 Prozent dieser Art verloren, ganze Landstriche sind turteltaubenfrei."
+     }
+    },
+    {
+     "id": "de-s-turteltaube-nacht",
+     "text": "Turteltauben ziehen nachts. Eine besenderte Taube schaffte bis zu {700 km|435 mi} in einer Nacht.",
+     "seed": "td-night",
+     "source": {
+      "title": "Operation Turtle Dove (RSPB and partners), Titan",
+      "url": "https://www.operationturtledove.org/turtle-doves/titan/",
+      "quote": "And he travelled around 500-700 km per night, flying at a maximum speed of 60 km per hour."
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-turteltaube-voliere",
+     "text": "Wegen des Gefieders und eines Volksglaubens hielt man Turteltauben in Volieren: Die Vögel sollten Krankheiten der Menschen an sich ziehen.",
+     "seed": null,
+     "source": {
+      "title": "t-online (dpa), Vogel des Jahres 2020: Die Turteltaube ist ein Symbol der Liebe",
+      "url": "https://www.t-online.de/heim-garten/garten/id_86599120/vogel-des-jahres-2020-die-turteltaube-ist-ein-symbol-der-liebe.html",
+      "quote": [
+       "Doch nicht nur deswegen wurde sie damals von Menschen in Volieren gehalten.",
+       "der Volksglaube, dass die Tiere die Krankheiten der Menschen an sich ziehen"
+      ]
+     }
+    },
+    {
+     "id": "de-l-turteltaube-milch",
+     "text": "Turteltauben-Küken wachsen mit Milch auf: Kurz vor dem Schlüpfen beginnen Vater und Mutter, sie im Kropf zu bilden, einer Tasche am Hals.",
+     "seed": "td-milk",
+     "source": {
+      "title": "Smithsonian Science Education Center (Qrius), Pigeons and Doves: Parental Care",
+      "url": "https://qrius.si.edu/taxonomy/term/12132",
+      "quote": [
+       "Distinct from mammal milk, it is made in a pouch on the bird's throat (the crop).",
+       "Males and females both start to make crop milk just before eggs hatch."
+      ]
+     }
+    },
+    {
+     "id": "de-l-turteltaube-gurren",
+     "text": "Früher hörte man das Gurren der Turteltaube an jedem Dorfrand. Heute brüten die Vögel oft auf alten Truppenübungsplätzen oder in Weinbergen.",
+     "seed": null,
+     "source": {
+      "title": "Sonntagsblatt, Turteltaube ist Vogel des Jahres 2020 (2019)",
+      "url": "https://sonntagsblatt.de/artikel/familie/turteltaube-ist-vogel-des-jahres-2020",
+      "quote": [
+       "Früher sei das markante Gurren der Turteltaube an jedem Dorfrand oder Flussufer zu hören gewesen",
+       "Heute brüteten Turteltauben häufig auf ehemaligen Truppenübungsplätzen oder in Weinbauregionen"
+      ]
+     }
+    },
+    {
+     "id": "de-l-turteltaube-malta",
+     "text": "Auf Malta werden jedes Frühjahr in zwei Wochen offiziell 20.000 Turteltauben gefangen: etwa ein Drittel aller, die in Deutschland brüten.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Turteltaube",
+      "url": "https://de.wikipedia.org/wiki/Turteltaube",
+      "quote": [
+       "innerhalb eines Zeitraums von zwei Wochen 20.000 Turteltauben von den rund 14.000 registrierten Jägern des Landes offiziell in Fangnetzen gefangen.",
+       "Das entspricht etwa einem Drittel des gesamten deutschen Brutbestands an Turteltauben."
+      ]
+     }
+    }
+   ]
+  },
+  "Larus fuscus": {
+   "short": [
+    {
+     "id": "de-s-heringsmoewe-pommes",
+     "text": "Heringsmöwen fressen Fisch, Würmer und Essensreste, auch liegen gelassene Pommes.",
+     "seed": "gull-chips",
+     "source": {
+      "title": "RSPB, Lesser Black-backed Gull",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/lesser-black-backed-gull",
+      "quote": "They feed on a large variety of food including fish, worms, and edible rubbish (and abandoned chips)."
+     }
+    },
+    {
+     "id": "de-s-heringsmoewe-alter",
+     "text": "Die älteste bekannte Heringsmöwe, ein beringter Vogel, wurde fast 35 Jahre alt.",
+     "seed": "gull-age",
+     "source": {
+      "title": "BTO, BirdFacts: Lesser Black-backed Gull",
+      "url": "https://www.bto.org/understanding-birds/birdfacts/lesser-black-backed-gull",
+      "quote": "Maximum age from a ringed bird 34 years, 10 months, 27 days"
+     }
+    },
+    {
+     "id": "de-s-heringsmoewe-troedeln",
+     "text": "Heringsmöwen-Weibchen trödeln: Ins Winterquartier kommen sie 15 Tage nach den Männchen.",
+     "seed": "gull-dawdle",
+     "source": {
+      "title": "Baert et al. 2018, Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-018-23605-x",
+      "europepmc": "DOI:10.1038/s41598-018-23605-x",
+      "quote": "arrived 15 days later at their wintering areas, than males."
+     }
+    },
+    {
+     "id": "de-s-heringsmoewe-nordafrika",
+     "text": "Im Winter ist die Heringsmöwe in Nordafrika die häufigste Möwe.",
+     "seed": null,
+     "source": {
+      "title": "Schutzstation Wattenmeer, Tier des Monats: Die Heringsmöwe",
+      "url": "https://www.schutzstation-wattenmeer.de/fileadmin/schutzstation/dokumente/wissen/Tier_des_Monates_pdf/Tier.Heringsmoewe.pdf",
+      "pdf": true,
+      "quote": "nach Nordafrika, wo sie im Winter die häufigste Möwenart sind."
+     }
+    },
+    {
+     "id": "de-s-heringsmoewe-dunkel",
+     "text": "Der wissenschaftliche Name der Heringsmöwe, Larus fuscus, heißt einfach „dunkle Möwe“.",
+     "seed": null,
+     "source": {
+      "title": "Schutzstation Wattenmeer, Tier des Monats: Die Heringsmöwe",
+      "url": "https://www.schutzstation-wattenmeer.de/fileadmin/schutzstation/dokumente/wissen/Tier_des_Monates_pdf/Tier.Heringsmoewe.pdf",
+      "pdf": true,
+      "quote": "der wissenschaftliche Name übersetzt einfach \"dunkle Möwe\" bedeutet?"
+     }
+    },
+    {
+     "id": "de-s-heringsmoewe-mischehe",
+     "text": "Heringsmöwen und Silbermöwen sind so nah verwandt, dass es Mischehen gibt.",
+     "seed": null,
+     "source": {
+      "title": "Schutzstation Wattenmeer, Tier des Monats: Die Heringsmöwe",
+      "url": "https://www.schutzstation-wattenmeer.de/fileadmin/schutzstation/dokumente/wissen/Tier_des_Monates_pdf/Tier.Heringsmoewe.pdf",
+      "pdf": true,
+      "quote": "dass es Mischehen beider Arten gibt?"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-heringsmoewe-herring",
+     "text": "Vorsicht, Verwechslung: Die „herring gull“ der Briten ist unsere Silbermöwe. Unsere Heringsmöwe heißt dort „Kleine Schwarzrückenmöwe“.",
+     "seed": null,
+     "source": {
+      "title": "Schutzstation Wattenmeer, Tier des Monats: Die Heringsmöwe",
+      "url": "https://www.schutzstation-wattenmeer.de/fileadmin/schutzstation/dokumente/wissen/Tier_des_Monates_pdf/Tier.Heringsmoewe.pdf",
+      "pdf": true,
+      "quote": [
+       "die Heringsmöwe (herring gull) der Briten unsere Silbermöwe ist, während unsere Heringsmöwe dort",
+       "Kleine Schwarzrückenmöwe"
+      ]
+     }
+    },
+    {
+     "id": "de-l-heringsmoewe-victoria",
+     "text": "Eine besenderte Heringsmöwe flog die letzten {3500 km|2200 mi} bis zum Victoriasee ohne Pause: 92 Stunden, bis nach Kampala in Uganda.",
+     "seed": "gull-victoria",
+     "source": {
+      "title": "Kube et al., Hop or jump: autumn migration strategies of lesser black-backed gulls (Microwave Telemetry newsletter, 2000)",
+      "url": "https://www.microwavetelemetry.com/uploads/NewsletterPDFs/MTINewsletter_2000_Summer_page3.pdf",
+      "pdf": true,
+      "quote": [
+       "The other bird went further south to Lake Victoria.",
+       "It reached its wintering grounds near Kampala, Uganda, on 29 September.",
+       "Its final nonstop journey of about 3500 km lasted 92 hours (38 km/h)."
+      ]
+     }
+    },
+    {
+     "id": "de-l-heringsmoewe-amrum",
+     "text": "Vor 1966 brüteten auf Amrum keine Heringsmöwen. Heute zählt allein Schleswig-Holstein über 10.000 Brutpaare, die meisten davon auf Amrum.",
+     "seed": null,
+     "source": {
+      "title": "Schutzstation Wattenmeer, Tier des Monats: Die Heringsmöwe",
+      "url": "https://www.schutzstation-wattenmeer.de/fileadmin/schutzstation/dokumente/wissen/Tier_des_Monates_pdf/Tier.Heringsmoewe.pdf",
+      "pdf": true,
+      "quote": "Allein Schleswig-Holstein hat heute über 10.000 Brutpaare dieser Art, vor allem auf Amrum, wo die Art erst seit 1966 als Brutvogel heimisch ist."
+     }
+    },
+    {
+     "id": "de-l-heringsmoewe-kutter",
+     "text": "Anders als Silbermöwen suchen Heringsmöwen ihr Futter nicht im Watt, sondern bis zu {130 km|80 mi} draußen auf See, hinter den Fischkuttern.",
+     "seed": null,
+     "source": {
+      "title": "Schutzstation Wattenmeer, Tier des Monats: Die Heringsmöwe",
+      "url": "https://www.schutzstation-wattenmeer.de/fileadmin/schutzstation/dokumente/wissen/Tier_des_Monates_pdf/Tier.Heringsmoewe.pdf",
+      "pdf": true,
+      "quote": [
+       "Im Gegensatz zur Silbermöwe suchen Heringsmöwen ihr Futter nicht im Watt",
+       "Sie fliegen täglich 50-80, mitunter 130 km weit hinaus, um Fische und Krebse zu erbeuten"
+      ]
+     }
+    }
+   ]
+  },
+  "Lanius collurio": {
+   "short": [
+    {
+     "id": "de-s-neuntoeter-name",
+     "text": "Den Namen gab der Volksglaube: Der Neuntöter fresse erst, wenn neun Beutetiere tot seien.",
+     "seed": "shrike-nine",
+     "source": {
+      "title": "LBV, Artenporträt Neuntöter",
+      "url": "https://www.lbv.de/ratgeber/naturwissen/artenportraits/detail/neuntoeter/",
+      "quote": [
+       "Der Volksglaube gab dem Neuntöter seinen Namen.",
+       "also neunmal Beute gemacht hat."
+      ]
+     }
+    },
+    {
+     "id": "de-s-neuntoeter-vorrat",
+     "text": "Für Regentage spießen Neuntöter Beute auf Dornen oder auf Stacheldraht an Weidezäunen.",
+     "seed": "shrike-larder",
+     "source": {
+      "title": "Wikipedia, Neuntöter",
+      "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+      "quote": [
+       "Um beispielsweise mehrere Regentage oder feuchtkalte Morgenstunden",
+       "auf Dornen oder Stacheln sowie auf Stacheldraht von Weidezäunen spießt."
+      ]
+     }
+    },
+    {
+     "id": "de-s-neuntoeter-stimmen",
+     "text": "Der Neuntöter mischt die Stimmen anderer Vögel in seinen Gesang.",
+     "seed": "shrike-mimic",
+     "source": {
+      "title": "Wikipedia, Neuntöter",
+      "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+      "quote": "Diese werden oft mit Imitationen anderer Arten"
+     }
+    },
+    {
+     "id": "de-s-neuntoeter-lerche",
+     "text": "Ein besonders begabtes Neuntöter-Männchen sang lange Passagen aus dem Lied der Feldlerche.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Neuntöter",
+      "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+      "quote": "Berichten zufolge beherrschte ein offensichtlich besonders begabtes Männchen längere Passagen des Feldlerchengesangs"
+     }
+    },
+    {
+     "id": "de-s-neuntoeter-nachts",
+     "text": "Neuntöter ziehen nur nachts und jeder für sich. Der Tag gehört dem Fressen.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Neuntöter",
+      "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+      "quote": "Den Tag zur Nahrungsaufnahme nutzend, zieht der Neuntöter ausschließlich nachts und einzeln."
+     }
+    },
+    {
+     "id": "de-s-neuntoeter-grenze",
+     "text": "Der zuwachsende Todesstreifen der deutsch-deutschen Grenze bot Neuntötern gute Jahre.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Neuntöter",
+      "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+      "quote": [
+       "nach der Wiedervereinigung zuwachsende ehemalige",
+       "an der innerdeutschen Grenze",
+       "bieten für den Neuntöter nur wenige Jahre günstige Bedingungen."
+      ]
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-neuntoeter-namen",
+     "text": "Neuntöter, Negenmörder, Dorndreher, Dorntreter: Die alten Volksnamen erzählen alle vom Töten und Aufspießen.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Neuntöter",
+      "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+      "quote": [
+       "Hieraus entstanden auch ähnliche Namen wie Neunmörder ( niederdeutsch Negenmörder )",
+       "Ebenfalls auf das „Spießen“ bezieht sich der Name Dorndreher",
+       "oder Dorntreter ."
+      ]
+     }
+    },
+    {
+     "id": "de-l-neuntoeter-leibwache",
+     "text": "Sperbergrasmücken bauen ihr Nest gern im selben Busch wie der Neuntöter. Vermutlich hält der wehrhafte Nachbar auch von ihnen Feinde fern.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Neuntöter",
+      "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+      "quote": [
+       "Oft wird das Nest im gleichen Nistbusch errichtet.",
+       "Eine Theorie ist, dass die aggressive Feindabwehr der Würger der Grasmücke Schutz bietet"
+      ]
+     }
+    },
+    {
+     "id": "de-l-neuntoeter-falke",
+     "text": "Obwohl ein Singvogel, hat der Neuntöter einen Hakenschnabel mit kleiner Zähnung wie ein Falke. Ein alter Volksname lautet Falkensänger.",
+     "seed": "shrike-tooth",
+     "source": {
+      "title": "Wikipedia, Neuntöter",
+      "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+      "quote": [
+       "hat einen ausgeprägten Haken sowie eine leichte Zähnung kurz vor der Spitze des Oberschnabels",
+       "Die Bezeichnung Falkensänger scheint auf seinen falkenartigen Schnabel hinzudeuten."
+      ]
+     }
+    },
+    {
+     "id": "de-l-neuntoeter-abchasien",
+     "text": "In Abchasien fangen Falkner mit Neuntötern als Lockvogel Sperber, die sie dann für die Jagd auf Wachteln abrichten.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Neuntöter",
+      "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+      "quote": "In Abchasien wird der Neuntöter bevorzugt von Falknern als Lockvogel zum Fang von Sperbern benutzt, die wiederum für die Jagd auf Wachteln eingesetzt werden."
+     }
+    },
+    {
+     "id": "de-l-neuntoeter-speisekammer",
+     "text": "Neuntöter legen Vorräte an, als Reserve für Regentage. Eine Speisekammer am Dornbusch hielt sieben Mäuse, eine andere 30 Maikäfer.",
+     "seed": "shrike-larder",
+     "source": {
+      "title": "Wikipedia, Neuntöter",
+      "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+      "quote": [
+       "Es wurden teils sehr umfangreiche Vorratsplätze gefunden, beispielsweise mit bis zu sieben Mäusen",
+       "oder 30 Maikäfern ."
+      ]
+     }
+    }
+   ]
+  },
+  "Oenanthe oenanthe": {
+   "short": [
+    {
+     "id": "de-s-steinschmaetzer-alaska",
+     "text": "Ein Steinschmätzer aus Alaska wiegt etwa {25 g|0.9 oz} und fliegt {14.500 km|9000 mi} bis nach Afrika.",
+     "seed": "wh-alaska",
+     "source": {
+      "title": "Bairlein et al. 2012, Biology Letters",
+      "url": "https://doi.org/10.1098/rsbl.2011.1223",
+      "europepmc": "DOI:10.1098/rsbl.2011.1223",
+      "quote": [
+       "Cross-hemisphere migration of a 25 g songbird",
+       "with Alaskan birds travelling approximately 14 500 km each way"
+      ]
+     }
+    },
+    {
+     "id": "de-s-steinschmaetzer-hoehe",
+     "text": "Schweizer Steinschmätzer überfliegen Meere und Wüsten in bis zu {5000 m|16400 ft} Höhe.",
+     "seed": null,
+     "source": {
+      "title": "Nau.ch (sda), Spatzengrosser Steinschmätzer fliegt in Höhen von 5000 Metern (2023)",
+      "url": "https://www.nau.ch/news/schweiz/spatzengrosser-steinschmatzer-fliegt-in-hohen-von-5000-metern-66574973",
+      "quote": "Der Steinschmätzer überfliegt Meere und Wüsten in einer Höhe von bis zu 5000 Metern."
+     }
+    },
+    {
+     "id": "de-s-steinschmaetzer-80h",
+     "text": "Für {4500 km|2800 mi} bis in die Sahelzone brauchen Schweizer Steinschmätzer nur 80 Flugstunden.",
+     "seed": null,
+     "source": {
+      "title": "Nau.ch (sda), Spatzengrosser Steinschmätzer fliegt in Höhen von 5000 Metern (2023)",
+      "url": "https://www.nau.ch/news/schweiz/spatzengrosser-steinschmatzer-fliegt-in-hohen-von-5000-metern-66574973",
+      "quote": "ihren 4500 Kilometer langen Zugweg in die Sahelzone Afrikas in 80 Flugstunden."
+     }
+    },
+    {
+     "id": "de-s-steinschmaetzer-kaninchen",
+     "text": "Steinschmätzer mögen Kaninchen: Die halten das Gras kurz und graben Höhlen zum Brüten.",
+     "seed": "wh-rabbits",
+     "source": {
+      "title": "BTO, BirdFacts: Wheatear",
+      "url": "https://www.bto.org/understanding-birds/birdfacts/wheatear",
+      "quote": "Wheatears were more abundant on islands with larger rabbit populations and hence short turf and burrows for nesting"
+     }
+    },
+    {
+     "id": "de-s-steinschmaetzer-groenland",
+     "text": "Manche Steinschmätzer aus Grönland fliegen nonstop über den Atlantik bis nach Spanien.",
+     "seed": "wh-greenland",
+     "source": {
+      "title": "BTO, BirdFacts: Wheatear",
+      "url": "https://www.bto.org/understanding-birds/birdfacts/wheatear",
+      "quote": "with some flying non-stop across the Atlantic to northern Spain and then on to West Africa."
+     }
+    },
+    {
+     "id": "de-s-steinschmaetzer-tempo",
+     "text": "Besenderte Steinschmätzer schafften auf dem Zug im Schnitt bis zu {290 km|180 mi} am Tag.",
+     "seed": "wh-speed",
+     "source": {
+      "title": "Bairlein et al. 2012, Biology Letters",
+      "url": "https://doi.org/10.1098/rsbl.2011.1223",
+      "europepmc": "DOI:10.1098/rsbl.2011.1223",
+      "quote": "mean overall migration speeds of up to 290 km d(-1)"
+     }
+    },
+    {
+     "id": "de-s-steinschmaetzer-schmatzen",
+     "text": "Der Name Steinschmätzer kommt von Rufen, die wie Schmatzen klingen.",
+     "seed": null,
+     "source": {
+      "title": "Tips.at, Vorgestellt: Tipsi präsentiert den seltenen Steinschmätzer (2021)",
+      "url": "https://www.tips.at/nachrichten/enns/leben/535361-vorgestellt-tipsi-praesentiert-den-seltenen-steinschmaetzer",
+      "quote": "Einige seiner Rufe klingen einem Schmatzen ähnlich und fertig ist sein Name."
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-steinschmaetzer-umweg",
+     "text": "Für Steinschmätzer aus Alaska läge Südamerika nahe. Trotzdem geht es durch Asien nach Afrika, wohl auf dem Weg, auf dem die Art einst kam.",
+     "seed": "wh-asia",
+     "source": {
+      "title": "Planet Wissen, Zugvogelrekorde",
+      "url": "https://www.planet-wissen.de/natur/voegel/zugvoegel/pwiezugvogelrekorde100.html",
+      "quote": [
+       "Eigentlich gäbe es für die nordamerikanischen Steinschmätzer ideale Überwinterungsbedingungen auf den pazifischen Inseln oder in Mittel- und Südamerika.",
+       "sondern wandern quer durch Asien bis nach Südwestafrika",
+       "Die Zugroute verläuft wahrscheinlich auf den gleichen Pfaden, auf denen sich die Art, die ursprünglich nur in Europa beheimatet war, ausgebreitet hat."
+      ]
+     }
+    },
+    {
+     "id": "de-l-steinschmaetzer-bairlein",
+     "text": "2009 gab Franz Bairlein aus Wilhelmshaven 30 Steinschmätzern in Alaska Datenlogger mit. Drei kamen zurück und verrieten den Weg nach Afrika.",
+     "seed": null,
+     "source": {
+      "title": "Anchorage Daily News, Alaska's northern wheatears are about to embark on a remarkable journey (2019)",
+      "url": "https://www.adn.com/alaska-news/science/2019/08/10/alaskas-northern-wheatears-are-about-to-embark-on-a-remarkable-journey/",
+      "quote": [
+       "Franz Bairlein is a German biologist and director of the Institute of Avian Research in Wilhelmshaven",
+       "In June 2009, his team members captured 30 of the birds at Eagle Summit north of Fairbanks.",
+       "The next summer, the scientists recaptured three of the birds at Eagle Summit and retrieved the geolocators."
+      ]
+     }
+    },
+    {
+     "id": "de-l-steinschmaetzer-nie",
+     "text": "Steinschmätzer aus Alaska und aus der kanadischen Arktis treffen sich wohl nie: Die einen überwintern in Ost-, die anderen in Westafrika.",
+     "seed": null,
+     "source": {
+      "title": "Anchorage Daily News, Alaska's northern wheatears are about to embark on a remarkable journey (2019)",
+      "url": "https://www.adn.com/alaska-news/science/2019/08/10/alaskas-northern-wheatears-are-about-to-embark-on-a-remarkable-journey/",
+      "quote": [
+       "The Alaska and Baffin Island populations of wheatears probably never meet, either on the tundra or on the savanna.",
+       "until the birds stop for the winter in eastern Africa",
+       "spent its winter in Mauritania, in western Africa."
+      ]
+     }
+    },
+    {
+     "id": "de-l-steinschmaetzer-eiszeit",
+     "text": "In der Eiszeit saßen Steinschmätzer wohl im Nahen Osten fest. Danach zog eine Gruppe bis nach Alaska, die andere über Europa bis Kanada.",
+     "seed": null,
+     "source": {
+      "title": "Anchorage Daily News, Alaska's northern wheatears are about to embark on a remarkable journey (2019)",
+      "url": "https://www.adn.com/alaska-news/science/2019/08/10/alaskas-northern-wheatears-are-about-to-embark-on-a-remarkable-journey/",
+      "quote": [
+       "wheatears may have been holed up in the Middle East.",
+       "one group of wheatears may have expanded to the northeast, reaching Alaska, while the other drifted northwest, reaching Canada via Europe and Greenland."
+      ]
+     }
+    }
+   ]
+  },
+  "Numenius madagascariensis": {
+   "short": [
+    {
+     "id": "de-s-brachvogel-schnabel",
+     "text": "Der Isabellbrachvogel hat den längsten Schnabel aller Watvögel: rund {20 cm|8 in}.",
+     "seed": "cur-bill",
+     "source": {
+      "title": "New Zealand Birds Online, Eastern curlew",
+      "url": "https://www.nzbirdsonline.org.nz/species/eastern-curlew",
+      "quote": "has the longest bill of any wader at around 20 cm in length."
+     }
+    },
+    {
+     "id": "de-s-brachvogel-groesster",
+     "text": "Der Isabellbrachvogel ist der größte ziehende Watvogel der Welt.",
+     "seed": "cur-largest",
+     "source": {
+      "title": "Australian Government DCCEEW (2023), Conservation Advice: far eastern curlew",
+      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+      "pdf": true,
+      "quote": "Far eastern curlews are the largest migratory shorebird species in the world."
+     }
+    },
+    {
+     "id": "de-s-brachvogel-geschlechter",
+     "text": "Die Weibchen haben die längeren Schnäbel und suchen auf Sand, die Männchen im Schlick.",
+     "seed": "cur-sexes",
+     "source": {
+      "title": "Australian Government DCCEEW (2023), Conservation Advice: far eastern curlew",
+      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+      "pdf": true,
+      "quote": [
+       "females tend to be larger and have a longer bill.",
+       "with females utilising more sandy areas and males utilising more muddy areas"
+      ]
+     }
+    },
+    {
+     "id": "de-s-brachvogel-gelbesmeer",
+     "text": "Rund 80 % aller Isabellbrachvögel tanken auf dem Weg nach Norden am Gelben Meer auf.",
+     "seed": "cur-yellowsea",
+     "source": {
+      "title": "Australian Government DCCEEW (2023), Conservation Advice: far eastern curlew",
+      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+      "pdf": true,
+      "quote": "It supports approximately 80 percent of the species' estimated flyway population during their northward migration"
+     }
+    },
+    {
+     "id": "de-s-brachvogel-spaet",
+     "text": "Isabellbrachvögel werden spät erwachsen: Viele brüten wohl erst mit drei oder vier Jahren.",
+     "seed": null,
+     "source": {
+      "title": "Australian Government DCCEEW (2023), Conservation Advice: far eastern curlew",
+      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+      "pdf": true,
+      "quote": "possibly not breeding until they reach 3-4 years old"
+     }
+    },
+    {
+     "id": "de-s-brachvogel-krabben",
+     "text": "Isabellbrachvögel fressen vor allem Krabben, Garnelen und andere Krebstiere.",
+     "seed": null,
+     "source": {
+      "title": "Australian Government DCCEEW (2023), Conservation Advice: far eastern curlew",
+      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+      "pdf": true,
+      "quote": "Far eastern curlews mainly feed on crustaceans (including crabs, shrimps, and prawns)"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-brachvogel-nonstop",
+     "text": "Drei in Victoria besenderte Isabellbrachvögel flogen alle {8500 km|5300 mi} nonstop bis ans Gelbe Meer: sieben bis acht Tage ohne Landung.",
+     "seed": "cur-nonstop",
+     "source": {
+      "title": "Victorian Wader Study Group, Eastern Curlew geolocator study",
+      "url": "https://vwsg.org.au/waders/geolocator-studies/eastern-curlew/",
+      "quote": "The three Eastern Curlews departed from their non-breeding area during 4–14 Mar and all flew 8,500 km nonstop to the western shores of the Yellow Sea taking 7–8 days."
+     }
+    },
+    {
+     "id": "de-l-brachvogel-teenager",
+     "text": "Junge Isabellbrachvögel lassen sich Zeit: Oft bleiben sie zwei oder drei Jahre in Australien, bevor sie zum ersten Mal nach Norden fliegen.",
+     "seed": "cur-teen",
+     "source": {
+      "title": "Australian Government DCCEEW (2023), Conservation Advice: far eastern curlew",
+      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+      "pdf": true,
+      "quote": "young far eastern curlews might spend their second austral winter in Australia, and some might also spend their third winter in Australia before undertaking their first northward migration"
+     }
+    },
+    {
+     "id": "de-l-brachvogel-abstand",
+     "text": "Isabellbrachvögel sind extrem scheu: Nähert sich ein Mensch auf 30 bis 100 Meter, manchmal schon auf 250 Meter, fliegen sie auf.",
+     "seed": null,
+     "source": {
+      "title": "Australian Government DCCEEW (2023), Conservation Advice: far eastern curlew",
+      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+      "pdf": true,
+      "quote": [
+       "Individuals take flight when humans approach to within 30–100 m",
+       "or even up to 250 m away"
+      ]
+     }
+    },
+    {
+     "id": "de-l-brachvogel-gezeiten",
+     "text": "Den Tag der Isabellbrachvögel bestimmt das Meer: Bei Ebbe wird im Watt gefressen, bei Flut gerastet.",
+     "seed": null,
+     "source": {
+      "title": "Australian Government DCCEEW (2023), Conservation Advice: far eastern curlew",
+      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+      "pdf": true,
+      "quote": "The birds’ feeding and roosting cycles are determined by the tides whereby feeding takes place during periods of low tide"
+     }
+    }
+   ]
+  },
+  "Buteo platypterus": {
+   "short": [
+    {
+     "id": "de-s-breitfluegelbussard-libellen",
+     "text": "Auf dem Weg nach Süden schnappen sich Breitflügelbussarde Libellen, die ebenfalls ziehen.",
+     "seed": "bwh-dragonfly",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "During migration, broadwings will feed opportunistically on insects, including migrating dragonflies"
+     }
+    },
+    {
+     "id": "de-s-breitfluegelbussard-kessel",
+     "text": "Zur Zugzeit kreisen über den Großen Seen Schwärme von Zehntausenden Breitflügelbussarden.",
+     "seed": "bwh-kettle",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "flocks or “kettles” of tens of thousands of Broad-winged Hawks can be seen along the shorelines of the Great Lakes"
+     }
+    },
+    {
+     "id": "de-s-breitfluegelbussard-zweiwochen",
+     "text": "Die meisten Breitflügelbussarde passieren die Zählstellen im Herbst in nur zwei Wochen.",
+     "seed": "bwh-twoweeks",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "in autumn the majority of individuals pass migration watchsites during a brief and concentrated two-week period"
+     }
+    },
+    {
+     "id": "de-s-breitfluegelbussard-standvogel",
+     "text": "Auf Kuba und Puerto Rico sind Breitflügelbussarde Standvögel.",
+     "seed": "bwh-islands",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "Non-migratory subspecies of broadwings inhabit Cuba, Puerto Rico, and several other islands in the West Indies."
+     }
+    },
+    {
+     "id": "de-s-breitfluegelbussard-nest",
+     "text": "Breitflügelbussarde bauen jedes Jahr ein neues Nest.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "Unlike some raptors, Broad-winged Hawks build new nests every year."
+     }
+    },
+    {
+     "id": "de-s-breitfluegelbussard-rekord",
+     "text": "1978 zogen 29.519 Breitflügelbussarde am Hawk Mountain in Pennsylvania vorbei: Rekord.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "Record year: 29,519 (1978)"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-breitfluegelbussard-geschwister",
+     "text": "Kaum flügge, fangen junge Breitflügelbussarde die Eltern schon auf dem Weg zum Nest ab. Geschwister streiten sich dann oft ums Futter.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": [
+       "juveniles intercept their parents for food when the parents attempt to return to the nest to feed their young.",
+       "Siblings, especially in larger broods, frequently fight among themselves for access to their parents at such times."
+      ]
+     }
+    },
+    {
+     "id": "de-l-breitfluegelbussard-schleife",
+     "text": "Der Wind drückt Breitflügelbussarde im Herbst nach Osten. So wird der Zug zur Schleife: An der Atlantikküste sind sie im Frühling selten.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": [
+       "Prevailing wind conditions in eastern North America push southbound birds to the south and east of their return routes in the spring, creating an elliptical migration route.",
+       "watchsites along the Atlantic coast and the Kittatinny Ridge in eastern Pennsylvania observe far fewer broadwings in the spring than in the fall."
+      ]
+     }
+    },
+    {
+     "id": "de-l-breitfluegelbussard-anfuehrer",
+     "text": "Gemischte Schwärme von Breitflügelbussarden werden meist von den Alten angeführt. Die Jungen fliegen eher hinterher oder ziehen allein.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "adult Broad-winged Hawks are more likely to flock than are juveniles, and that in mixed-aged flocks adults are more likely to be the leading bird"
+     }
+    },
+    {
+     "id": "de-l-breitfluegelbussard-klein",
+     "text": "Breitflügelbussarde sind die kleinsten Bussarde im Osten Nordamerikas. Trotzdem fliegen viele jedes Jahr von Kanada bis nach Brasilien.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": [
+       "Broad-winged Hawks are the smallest buteos in Eastern North America.",
+       "many of which breed in Canada and winter in Brazil."
+      ]
+     }
+    }
+   ]
+  },
+  "Cathartes aura": {
+   "short": [
+    {
+     "id": "de-s-truthahngeier-spucken",
+     "text": "Bedrohte Truthahngeier-Küken wehren sich, indem sie Angreifer im hohen Bogen anspeien.",
+     "seed": "tv-vomit",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+      "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+      "quote": "Nestling Turkey Vultures projectile vomit to defend themselves."
+     }
+    },
+    {
+     "id": "de-s-truthahngeier-gas",
+     "text": "Truthahngeier können so gut riechen, dass sie Gasfirmen helfen, Lecks zu finden.",
+     "seed": "tv-gas",
+     "source": {
+      "title": "Chesapeake Bay Program, Turkey Vulture",
+      "url": "https://www.chesapeakebay.net/discover/field-guide/entry/turkey-vulture",
+      "quote": "Turkey vultures have such a strong sense of smell that they can help gas companies detect gas leaks."
+     }
+    },
+    {
+     "id": "de-s-truthahngeier-stimme",
+     "text": "Ohne Stimmapparat können Truthahngeier nur fauchen und grunzen.",
+     "seed": "tv-hiss",
+     "source": {
+      "title": "Missouri Department of Conservation, Turkey Vulture",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/turkey-vulture",
+      "quote": "They have no voice box (syrinx), so they can only hiss and grunt when they vocalize."
+     }
+    },
+    {
+     "id": "de-s-truthahngeier-milzbrand",
+     "text": "Truthahngeier fressen sogar Aas mit Milzbrand oder Tollwut und bremsen so Seuchen aus.",
+     "seed": "tv-anthrax",
+     "source": {
+      "title": "Missouri Department of Conservation, Turkey Vulture",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/turkey-vulture",
+      "quote": "Their ability to safely eat carrion containing pathogens such as anthrax and rabies helps reduce the spread of these diseases."
+     }
+    },
+    {
+     "id": "de-s-truthahngeier-rabengeier",
+     "text": "Rabengeier riechen kaum etwas und folgen darum Truthahngeiern zum Aas.",
+     "seed": "tv-follow",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+      "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+      "quote": "Other vultures, such as Black Vultures, lack a keen sense of smell and often follow Turkey Vultures to carcasses."
+     }
+    },
+    {
+     "id": "de-s-truthahngeier-glatze",
+     "text": "Die Glatze hält Geier sauber: keine Federn für Bakterien, und die Sonne desinfiziert.",
+     "seed": "tv-bald",
+     "source": {
+      "title": "San Diego Zoo Wildlife Alliance, Vulture",
+      "url": "https://animals.sandiegozoo.org/animals/vulture",
+      "quote": "because bacteria could become lodged in feathers, while the bald head and neck may be disinfected by the sun's rays."
+     }
+    },
+    {
+     "id": "de-s-truthahngeier-kuerbis",
+     "text": "Truthahngeier fressen nicht nur Aas, sondern auch Kürbisse, Kokosnüsse und Weintrauben.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+      "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+      "quote": "Vultures also eat plant material including pumpkins, coconuts, juniper berries, and grapes."
+     }
+    },
+    {
+     "id": "de-s-truthahngeier-name",
+     "text": "Der Name Truthahngeier kommt vom roten, nackten Kopf, der an einen Truthahn erinnert.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+      "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+      "quote": "Are so named because their red, featherless heads resemble those of Wild Turkeys"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-truthahngeier-hinckley",
+     "text": "In den 1950ern fiel einem Ranger in Hinckley, Ohio, auf: Die Truthahngeier kamen jedes Jahr am 15. März. Der Ort erwartet sie bis heute.",
+     "seed": "tv-hinckley",
+     "source": {
+      "title": "Ideastream Public Media, Hinckley's buzzards are just around the corner (2019)",
+      "url": "https://www.ideastream.org/news/hinckley-s-buzzards-are-just-around-the-corner",
+      "quote": [
+       "March 15 is the day that the buzzards, which are actually turkey vultures, are expected in Hinckley Township.",
+       "It was back in the 1950s that one of the rangers from in the Cleveland Metroparks Hinckley Reservation had noted that every March 15"
+      ]
+     }
+    },
+    {
+     "id": "de-l-truthahngeier-balz",
+     "text": "Balzende Truthahngeier fliegen hintereinander her, und der hintere Vogel folgt der Flugbahn des vorderen ganz genau, manchmal stundenlang.",
+     "seed": "tv-dance",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+      "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+      "quote": [
+       "Vultures perform aerial courtship displays during which one bird follows the other and precisely mimics the lead bird’s flight path.",
+       "occasionally they are repeated for several hours."
+      ]
+     }
+    },
+    {
+     "id": "de-l-truthahngeier-storch",
+     "text": "Manche Fachleute halten Truthahngeier und andere Neuweltgeier für nähere Verwandte der Störche als der Greifvögel.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+      "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+      "quote": "Some experts believe that Vultures and other New World vultures are more closely related to storks than to other raptors."
+     }
+    },
+    {
+     "id": "de-l-truthahngeier-venezuela",
+     "text": "In Venezuela verdrängen überwinternde Truthahngeier aus Nordamerika die kleineren einheimischen Truthahngeier von den besten Futterplätzen.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+      "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+      "quote": "On their wintering grounds in Venezuela, migrant Turkey Vultures from North America displace smaller, resident Turkey Vultures from preferred feeding sites."
+     }
+    }
+   ]
+  },
+  "Balaenoptera musculus": {
+   "short": [
+    {
+     "id": "de-s-blauwal-groesste",
+     "text": "Der Blauwal ist das größte Tier, das je auf der Erde gelebt hat.",
+     "seed": "bw-largest",
+     "source": {
+      "title": "NOAA Fisheries, Blue Whale",
+      "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+      "quote": "they are the largest animals ever to live on our planet"
+     }
+    },
+    {
+     "id": "de-s-blauwal-zunge",
+     "text": "Die Zunge eines Blauwals wiegt so viel wie ein Elefant.",
+     "seed": "bw-tongue",
+     "source": {
+      "title": "National Geographic, Blue whale",
+      "url": "https://www.nationalgeographic.com/animals/mammals/facts/blue-whale",
+      "quote": "A blue whale's tongue alone can weigh as much as an elephant—its heart as much as an automobile."
+     }
+    },
+    {
+     "id": "de-s-blauwal-blas",
+     "text": "Der Blas eines Blauwals steigt mehr als {6 m|20 ft} senkrecht in die Höhe.",
+     "seed": "bw-blow",
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": "the blow is tall and straight and over 20 feet (6 meters) high."
+     }
+    },
+    {
+     "id": "de-s-blauwal-krill",
+     "text": "Ein Blauwal kann an einem Tag bis zu 40 Millionen Krill fressen.",
+     "seed": "bw-krill",
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": "This means it may eat up to 40 million krill a day."
+     }
+    },
+    {
+     "id": "de-s-blauwal-rufe",
+     "text": "Die Rufe eines Blauwals hören andere Wale noch in {1600 km|1000 mi} Entfernung.",
+     "seed": "bw-calls",
+     "source": {
+      "title": "NOAA Fisheries, Blue Whale",
+      "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+      "quote": "sounds emitted by blue whales can be heard by other whales up to 1,000 miles away"
+     }
+    },
+    {
+     "id": "de-s-blauwal-schwefel",
+     "text": "Walfänger nannten den Blauwal „Schwefelbauch“, wegen des gelblichen Bauchs.",
+     "seed": "bw-sulphur",
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": "Because of this yellow color, the early whalers gave it the name \"sulfur bottom.\""
+     }
+    },
+    {
+     "id": "de-s-blauwal-baby",
+     "text": "Schon bei der Geburt ist ein Blauwal bis zu {7,6 m|25 ft} lang und {2,7 t|3 tons} schwer.",
+     "seed": null,
+     "source": {
+      "title": "National Geographic, Blue whale",
+      "url": "https://www.nationalgeographic.com/animals/mammals/facts/blue-whale",
+      "quote": "a baby blue whale emerges weighing up to 3 tons and stretching to 25 feet."
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-blauwal-ohrschmalz",
+     "text": "Wie Jahresringe zeigen die Schichten im Ohrenschmalz das Alter eines Wals. Der älteste so bestimmte Blauwal war etwa 110 Jahre alt.",
+     "seed": "bw-earplug",
+     "source": {
+      "title": "National Geographic, Blue whale",
+      "url": "https://www.nationalgeographic.com/animals/mammals/facts/blue-whale",
+      "quote": [
+       "by counting the layers of a deceased whale's waxlike earplugs, they can get a close estimate of the animal's age.",
+       "The oldest blue whale found using this method was determined to be around 110 years old."
+      ]
+     }
+    },
+    {
+     "id": "de-l-blauwal-kalb",
+     "text": "Ein Blauwalkalb trinkt rund {380 l|100 gal} fettreiche Milch am Tag und nimmt dabei täglich etwa {90 kg|200 lb} zu.",
+     "seed": "bw-calf",
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": "During the nursing period, calves consume 100 gallons (379 liters) of the fat-rich mother's milk each day, gain 200 pounds a day"
+     }
+    },
+    {
+     "id": "de-l-blauwal-harpune",
+     "text": "Lange waren Blauwale zu schnell für Walfänger in offenen Booten. Das änderte erst der Norweger Sven Foyn, 1868, mit der Harpunenkanone.",
+     "seed": null,
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": [
+       "blue whales were safe from early whalers, who could not pursue them in open boats with hand harpoons.",
+       "But in 1868 a Norwegian, Sven Foyn, revolutionized the whaling industry with the invention of the exploding harpoon gun"
+      ]
+     }
+    },
+    {
+     "id": "de-l-blauwal-1931",
+     "text": "Allein in der Saison 1931 töteten Walfänger über 29.000 Blauwale. Danach waren sie so selten, dass die Jagd auf andere Arten umschwenkte.",
+     "seed": null,
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": [
+       "The slaughter peaked in 1931 when over 29,000 were killed in one season.",
+       "After that blue whales became so scarce that the whalers turned to other species"
+      ]
+     }
+    },
+    {
+     "id": "de-l-blauwal-maul",
+     "text": "Ein Blauwal nimmt ein riesiges Maul voll Wasser und presst es mit der Zunge durch die Barten. Zurück bleiben Tausende Krill.",
+     "seed": null,
+     "source": {
+      "title": "National Geographic, Blue whale",
+      "url": "https://www.nationalgeographic.com/animals/mammals/facts/blue-whale",
+      "quote": [
+       "The giant animals feed by first gulping an enormous mouthful of water",
+       "Then the whale's massive tongue forces the water out through the thin, overlapping baleen plates.",
+       "Thousands of krill are left behind—and then swallowed."
+      ]
+     }
+    }
+   ]
+  },
+  "Caretta caretta": {
+   "short": [
+    {
+     "id": "de-s-karettschildkroete-sand",
+     "text": "Warmer Sand macht Weibchen: Die Nesttemperatur entscheidet über das Geschlecht.",
+     "seed": "lh-sand",
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "The temperature of the sand in which turtles are hatched determines their sex"
+     }
+    },
+    {
+     "id": "de-s-karettschildkroete-ozean",
+     "text": "Junge Unechte Karettschildkröten verbringen ihre ersten 7 bis 15 Jahre auf offener See.",
+     "seed": "lh-ocean",
+     "source": {
+      "title": "NOAA Fisheries, Loggerhead Turtle",
+      "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+      "quote": "Hatchlings and juveniles spend the first 7 to 15 years of their lives in the open ocean."
+     }
+    },
+    {
+     "id": "de-s-karettschildkroete-kot",
+     "text": "Schalenreste im Kot Unechter Karettschildkröten liefern anderen Meerestieren Kalk.",
+     "seed": "lh-droppings",
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "fall back to the bottom of the ocean for other animals to eat as a calcium source."
+     }
+    },
+    {
+     "id": "de-s-karettschildkroete-knacken",
+     "text": "Mit ihren kräftigen Kiefern knacken Unechte Karettschildkröten sogar Pfeilschwanzkrebse.",
+     "seed": null,
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "their strong jaws allow them to crush conchs, bivalves , and horseshoe crabs."
+     }
+    },
+    {
+     "id": "de-s-karettschildkroete-groesste",
+     "text": "Die Unechte Karettschildkröte ist die größte aller Schildkröten mit hartem Panzer.",
+     "seed": null,
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "The largest of all hard-shelled turtles, loggerheads are named for their massive heads and strong jaws"
+     }
+    },
+    {
+     "id": "de-s-karettschildkroete-magnet",
+     "text": "Unechte Karettschildkröten finden per Magnetsinn heim, denn jede Küste hat ihre Signatur.",
+     "seed": "lh-magnet",
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "Each stretch of coastline has its own magnetic signature, and these turtles remember and use them as guides."
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-karettschildkroete-heimkehr",
+     "text": "Alle zwei bis drei Jahre schwimmen die Weibchen zum Eierlegen in die Gegend zurück, in der sie selbst Jahrzehnte zuvor geschlüpft sind.",
+     "seed": null,
+     "source": {
+      "title": "NOAA Fisheries, Loggerhead Turtle",
+      "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+      "quote": "Every 2 to 3 years they migrate to breed in the general area where they hatched decades earlier."
+     }
+    },
+    {
+     "id": "de-l-karettschildkroete-mitfahrer",
+     "text": "Auf den Panzern Unechter Karettschildkröten leben mehr als hundert Arten von Mitfahrern, von Seepocken über Krabben bis zu Algen.",
+     "seed": "lh-hitch",
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "more than a hundred species of animals—including barnacles, crabs, and algae—live on their shells."
+     }
+    },
+    {
+     "id": "de-l-karettschildkroete-schwer",
+     "text": "Meist wiegen Unechte Karettschildkröten um die {110 kg|250 lb}. Man hat aber schon Tiere gefunden, die über {450 kg|1000 lb} wogen.",
+     "seed": null,
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": [
+       "adults males generally weigh about 250 pounds",
+       "loggerheads of more than a thousand pounds have been found."
+      ]
+     }
+    },
+    {
+     "id": "de-l-karettschildkroete-pazifik",
+     "text": "Junge Unechte Karettschildkröten aus Japan schwimmen quer über den Pazifik bis vor Mexiko, fast {13.000 km|8000 mi} weit, um dort zu fressen.",
+     "seed": "lh-pacific",
+     "source": {
+      "title": "NOAA Fisheries, Loggerhead Turtle",
+      "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+      "quote": "Hatchlings from nesting beaches in Japan and Australia have been tracked migrating across the Pacific"
+     }
+    }
+   ]
+  },
+  "Pandion haliaetus": {
+   "short": [
+    {
+     "id": "de-s-fischadler-lid",
+     "text": "Ein Extra-Augenlid schützt die Augen des Fischadlers beim Tauchen, wie eine Kontaktlinse.",
+     "seed": "os-eyelid",
+     "source": {
+      "title": "RSPB, Osprey",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/osprey",
+      "quote": "They have a special extra eyelid – a bit like a contact lens – that helps to protect their eyes when they hunt under water."
+     }
+    },
+    {
+     "id": "de-s-fischadler-kopfvoran",
+     "text": "Fischadler tragen ihre Beute mit dem Kopf voran: Das ist windschnittiger.",
+     "seed": "os-headfirst",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Carry fish head first to make them more aerodynamic in flight."
+     }
+    },
+    {
+     "id": "de-s-fischadler-familie",
+     "text": "Der Fischadler bildet eine eigene Familie: Kein anderer lebender Vogel gehört dazu.",
+     "seed": "os-alone",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Ospreys are the only member of the family Pandionidae."
+     }
+    },
+    {
+     "id": "de-s-fischadler-horst",
+     "text": "Fischadler bauen jedes Jahr weiter am Horst, bis zu {180 kg|400 lb} schwer.",
+     "seed": "os-nest",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Ospreys add material to their nests each year, and sometimes build massive structures weighing up to 400 pounds."
+     }
+    },
+    {
+     "id": "de-s-fischadler-fisch",
+     "text": "Fisch macht mehr als 99 % der Nahrung des Fischadlers aus.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "fish comprise more than 99% of the species' diet."
+     }
+    },
+    {
+     "id": "de-s-fischadler-zehen",
+     "text": "Wendezehen und stachelige Sohlen helfen Fischadlern, glitschige Fische festzuhalten.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Have reversible outer toes and spiny foot pads that help them catch and hold fish."
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-fischadler-lady",
+     "text": "Lady brütete 24 Jahre am Loch of the Lowes in Schottland, legte 71 Eier und zog 50 Junge groß. Ein Fischadler wird im Schnitt 8 Jahre alt.",
+     "seed": "os-lady",
+     "source": {
+      "title": "Scottish Wildlife Trust, Celebrating 50 years of ospreys at Loch of the Lowes",
+      "url": "https://scottishwildlifetrust.org.uk/?p=841816",
+      "quote": [
+       "a remarkable individual who over the following 24 years laid 71 eggs, fledged 50 chicks and had 4 male partners.",
+       "Given the average osprey lives 8 years and produces 20 chicks it is a remarkable achievement."
+      ]
+     }
+    },
+    {
+     "id": "de-l-fischadler-himmelstanz",
+     "text": "Balzende Fischadler-Männchen tanzen am Himmel, bis zu {90 m|300 ft} hoch, und rufen dabei, oft mit einem Fisch in den Fängen.",
+     "seed": "os-skydance",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": [
+       "males usually carry a fish or nesting material and call repeatedly.",
+       "which sometimes reach heights of 300 feet or more."
+      ]
+     }
+    },
+    {
+     "id": "de-l-fischadler-strommast",
+     "text": "In Sachsen-Anhalt war der Fischadler um 1980 fast ausgestorben. Heute brütet die Art dort fast nur auf Strommasten, sicher vor Waschbären.",
+     "seed": null,
+     "source": {
+      "title": "Volksstimme (dpa), Immer mehr Fischadler in Sachsen-Anhalt (2024)",
+      "url": "https://www.volksstimme.de/panorama/immer-mehr-fischadler-in-sachsen-anhalt-3874629",
+      "quote": [
+       "Um 1980 hatte der Fischadler kurz vor dem Aussterben gestanden",
+       "dass Fischadler ihre Horste inzwischen fast ausschließlich auf Strommasten errichten.",
+       "Damit seien die Jungvögel vor den meisten Fressfeinden wie etwa Waschbären geschützt."
+      ]
+     }
+    },
+    {
+     "id": "de-l-fischadler-jung",
+     "text": "Junge Fischadler lassen sich Zeit: Erst im Frühjahr ihres zweiten Lebensjahres kehren die meisten aus dem Winterquartier zurück.",
+     "seed": "os-gapyear",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Most Ospreys do not return to their breeding grounds until the spring of their second year"
+     }
+    }
+   ]
+  },
+  "Chen caerulescens": {
+   "short": [
+    {
+     "id": "de-s-schneegans-bellen",
+     "text": "Große Schneegänse bellen wie Hunde und gelten als die lautesten Wasservögel.",
+     "seed": "sg-bark",
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "resembling a dog's bark, which it utters at any time—has earned this goose a reputation as the noisiest of waterfowl."
+     }
+    },
+    {
+     "id": "de-s-schneegans-blaugans",
+     "text": "Die „Blaugans“ ist keine eigene Art, nur eine Schneegans im dunklen Kleid.",
+     "seed": "sg-blue",
+     "source": {
+      "title": "Audubon Field Guide, Snow Goose",
+      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
+      "quote": "now known to be only a color morph of the smaller race of Snow (Lesser Snow Goose)"
+     }
+    },
+    {
+     "id": "de-s-schneegans-tageslicht",
+     "text": "Im arktischen Sommer fressen Schneegänse rund um die Uhr, bei 24 Stunden Tageslicht.",
+     "seed": "sg-daylight",
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "24 hours a day in the Arctic's round-the-clock summer daylight."
+     }
+    },
+    {
+     "id": "de-s-schneegans-kueken",
+     "text": "Schneegans-Küken verlassen das Nest Stunden nach dem Schlüpfen und suchen Futter selbst.",
+     "seed": "sg-chicks",
+     "source": {
+      "title": "Audubon Field Guide, Snow Goose",
+      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
+      "quote": "A young Snow Goose will usually leave nest within a few hours after hatching; they find their own food"
+     }
+    },
+    {
+     "id": "de-s-schneegans-quebec",
+     "text": "Jeden April sammeln sich über 500.000 Schneegänse bei Baie-du-Febvre in Québec.",
+     "seed": "sg-quebec",
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "Striking concentrations of more than 500 000 Greater Snow Geese can be seen in early April at Baie-du-Febvre"
+     }
+    },
+    {
+     "id": "de-s-schneegans-rost",
+     "text": "Vom eisenhaltigen Schlamm färbt sich der weiße Kopf der Schneegans oft rostrot.",
+     "seed": null,
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "its head often becomes stained rusty-orange from the traces of iron in the mud."
+     }
+    },
+    {
+     "id": "de-s-schneegans-grinsen",
+     "text": "Schneegänse grinsen: Die schwarzen Schneidekanten am Schnabel bilden ein Lächeln.",
+     "seed": null,
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "These cutting edges form a blackish arc, called a “grinning patch” or “smile,”"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-schneegans-wanderung",
+     "text": "Auf der kanadischen Bylotinsel brechen Schneegans-Küken schon am ersten Lebenstag mit der Familie zu einer Wanderung von über {30 km|19 mi} auf.",
+     "seed": "sg-walk",
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": [
+       "the distance between the birds' nesting and breeding sites is more than 30 km.",
+       "Within a day of hatching, many young geese set off on this trek with their families, reaching their destination within four days."
+      ]
+     }
+    },
+    {
+     "id": "de-l-schneegans-mauser",
+     "text": "In der Mauser können Schneegänse nicht fliegen. Dann laufen erwachsene Gänse den meisten Feinden einfach davon.",
+     "seed": null,
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "As an adult, a Greater Snow Goose can outrun most predators when it is moulting and cannot fly."
+     }
+    },
+    {
+     "id": "de-l-schneegans-treue",
+     "text": "Schneegänse bleiben ein Leben lang zusammen. Während das Weibchen brütet, hält der Ganter Wache, selten mehr als {50 m|160 ft} entfernt.",
+     "seed": null,
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": [
+       "They mate for life, taking another mate only if their partner dies.",
+       "the male stands guard, seldom straying more than 50 m from the nest."
+      ]
+     }
+    },
+    {
+     "id": "de-l-schneegans-nonstop",
+     "text": "Schneegänse fliegen meist mit etwa {55 km/h|34 mph}, können bis zu {95 km/h|59 mph} schnell werden und schaffen bis zu {1000 km|620 mi} am Stück.",
+     "seed": null,
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "this goose usually travels at about 55 km/h, is capable of reaching speeds of up to 95 km/h, and can make long nonstop flights of up to 1 000 km."
+     }
+    }
+   ]
+  },
+  "Branta canadensis": {
+   "short": [
+    {
+     "id": "de-s-kanadagans-muenchen",
+     "text": "In Deutschland begann es 1826 in München: Dort wurden die ersten Kanadagänse freigelassen.",
+     "seed": null,
+     "source": {
+      "title": "Spektrum der Wissenschaft, Umstrittene Wiesenbewohner: Sommer, Sonne, Kanadagans",
+      "url": "https://www.spektrum.de/news/umstrittene-wiesenbewohner-sommer-sonne-kanadagans/1753980",
+      "quote": "Die Freilassung einiger Vögel in München im Jahr 1826 gilt als der Startschuss für die Einführung der Art in Deutschland."
+     }
+    },
+    {
+     "id": "de-s-kanadagans-ruhr",
+     "text": "Wo viele Menschen sind, sind viele Kanadagänse: Ihre Hochburg ist das Ruhrgebiet.",
+     "seed": null,
+     "source": {
+      "title": "Spektrum der Wissenschaft, Umstrittene Wiesenbewohner: Sommer, Sonne, Kanadagans",
+      "url": "https://www.spektrum.de/news/umstrittene-wiesenbewohner-sommer-sonne-kanadagans/1753980",
+      "quote": [
+       "»Wo es viele Menschen gibt, gibt es viele Kanadagänse«, sagt Homma",
+       "allen voran das Ruhrgebiet sind die Schwerpunkte der Besiedlung."
+      ]
+     }
+    },
+    {
+     "id": "de-s-kanadagans-nene",
+     "text": "Hawaiis Gans, die Nene, stammt von Kanadagänsen ab, die einst die Inseln erreichten.",
+     "seed": "goose-nene",
+     "source": {
+      "title": "Wikipedia, Nene (bird)",
+      "url": "https://en.wikipedia.org/wiki/Nene_(bird)",
+      "quote": "It is thought that the nene evolved from the Canada goose ( Branta canadensis ), which most likely arrived on the Hawaiian islands about 500,000 years ago"
+     }
+    },
+    {
+     "id": "de-s-kanadagans-rueckenwind",
+     "text": "Mit gutem Rückenwind schafft eine Kanadagans {2400 km|1500 mi} an einem Tag.",
+     "seed": "goose-tailwind",
+     "source": {
+      "title": "National Geographic, Canada Goose",
+      "url": "https://www.nationalgeographic.com/animals/birds/facts/canada-goose",
+      "quote": "They can cover 1,500 miles in just 24 hours with a favorable wind"
+     }
+    },
+    {
+     "id": "de-s-kanadagans-duett",
+     "text": "Kanadagänse rufen im Duett: Der Ganter ruft „a-honk!“, die Gans antwortet „hink!“.",
+     "seed": "goose-duet",
+     "source": {
+      "title": "Missouri Department of Conservation, Canada Goose",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
+      "quote": "while the females make a faster, higher-pitched"
+     }
+    },
+    {
+     "id": "de-s-kanadagans-mauser",
+     "text": "Jeden Sommer verlieren Kanadagänse die Schwungfedern und sitzen fast einen Monat am Boden.",
+     "seed": "goose-grounded",
+     "source": {
+      "title": "Missouri Department of Conservation, Canada Goose",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
+      "quote": "Adults lose their flight feathers during incubation and cannot fly for nearly a month."
+     }
+    },
+    {
+     "id": "de-s-kanadagans-familie",
+     "text": "Junge Kanadagänse bleiben bei den Eltern, bis nach dem Zug im Frühjahr.",
+     "seed": "goose-family",
+     "source": {
+      "title": "Missouri Department of Conservation, Canada Goose",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
+      "quote": "The goslings stay with their parents all the time and do not leave them until after the spring migration."
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-kanadagans-wessi",
+     "text": "Adelige und Industrielle setzten Kanadagänse in ihren Parks aus. In der DDR gab es solche Liebhaber nicht: Die Gans ist bis heute ein Wessi.",
+     "seed": null,
+     "source": {
+      "title": "Spektrum der Wissenschaft, Umstrittene Wiesenbewohner: Sommer, Sonne, Kanadagans",
+      "url": "https://www.spektrum.de/news/umstrittene-wiesenbewohner-sommer-sonne-kanadagans/1753980",
+      "quote": [
+       "Vor allem gut betuchte Adelige und Großindustrielle begannen in den 1950er Jahren",
+       "die stolzen Gänse als Zierde in ihren Schlossanlagen und Parks auszusetzen",
+       "ist die Kanadagans hier zu Lande bis heute ein Wessi"
+      ]
+     }
+    },
+    {
+     "id": "de-l-kanadagans-bratpfanne",
+     "text": "Vor dem Zweiten Weltkrieg lebten bei uns schon freie Kanadagänse. Doch im Krieg landeten fast alle in der Bratpfanne hungriger Städter.",
+     "seed": null,
+     "source": {
+      "title": "Spektrum der Wissenschaft, Umstrittene Wiesenbewohner: Sommer, Sonne, Kanadagans",
+      "url": "https://www.spektrum.de/news/umstrittene-wiesenbewohner-sommer-sonne-kanadagans/1753980",
+      "quote": [
+       "Vor dem Zweiten Weltkrieg hatten sich bereits mehrere feste Vorkommen etabliert.",
+       "Doch im Krieg und in den Nachkriegsjahren landeten fast alle Gänse in der Bratpfanne hungriger Städter."
+      ]
+     }
+    },
+    {
+     "id": "de-l-kanadagans-riesen",
+     "text": "Die Riesen-Kanadagans galt 30 Jahre als ausgestorben. Dann wurde sie in Minnesota entdeckt, auf einem See, den ein Kraftwerk eisfrei hält.",
+     "seed": "goose-giant",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service press release, 1 April 1963",
+      "url": "https://fws.gov/press-release/1963-04/giant-canada-goose-long-believed-extinct-rediscovered-minnesota",
+      "quote": [
+       "The world’s largest wild goose, the giant Canada, which for over thirty years was thought to be extinct, has been rediscovered in Minnesota",
+       "The lake is kept partly open by the discharge of warm water from a nearby electric generating plant."
+      ]
+     }
+    },
+    {
+     "id": "de-l-kanadagans-koenig",
+     "text": "Großbritanniens Kanadagänse gehen auf einen König zurück: Im späten 17. Jahrhundert kamen sie in die Vogelsammlung von James II. in London.",
+     "seed": "goose-king",
+     "source": {
+      "title": "Wikipedia, Canada goose",
+      "url": "https://en.wikipedia.org/wiki/Canada_goose",
+      "quote": "The geese were introduced into Great Britain in the late 17th century as an addition to King James II 's waterfowl collection in St James's Park ."
+     }
+    },
+    {
+     "id": "de-l-kanadagans-balkon",
+     "text": "Kanadagans-Küken verlassen das Nest am Tag nach dem Schlüpfen, egal wo. In Edmonton sprangen sie neun Stockwerke tief zu den Eltern.",
+     "seed": "goose-balcony",
+     "source": {
+      "title": "CBC News, Oliver balcony goslings hatch, jump off 10th floor balcony the next day (2015)",
+      "url": "https://amp.cbc.ca/news/canada/edmonton/oliver-balcony-goslings-hatch-jump-off-10th-floor-balcony-the-next-day-1.3070952",
+      "quote": [
+       "the day-old goslings took Lavin by surprise.",
+       "they jumped all the way to the roof of the parkade where their parents were waiting, 9 floors below."
+      ]
+     }
+    }
+   ]
+  },
+  "Haliaeetus leucocephalus": {
+   "short": [
+    {
+     "id": "de-s-seeadler-rudern",
+     "text": "Zu nass zum Abheben? Dann rudern Weißkopf-Seeadler mit den Flügeln an Land.",
+     "seed": "be-swim",
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "quote": "swimming with their catch with a rowing motion of their wings, if they're too wet to fly directly off the water!"
+     }
+    },
+    {
+     "id": "de-s-seeadler-chilkat",
+     "text": "Über tausend Weißkopf-Seeadler treffen sich am Chilkat River in Alaska zum Lachsessen.",
+     "seed": "be-chilkat",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Bald Eagle",
+      "url": "https://www.hawkmountain.org/raptors/bald-eagle",
+      "quote": "More than a thousand eagles, for example, regularly congregate along the Chilkat River in Alaska"
+     }
+    },
+    {
+     "id": "de-s-seeadler-dieb",
+     "text": "Weißkopf-Seeadler jagen anderen Greifvögeln gern die Beute ab, vor allem Fischadlern.",
+     "seed": "be-thief",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Bald Eagle",
+      "url": "https://www.hawkmountain.org/raptors/bald-eagle",
+      "quote": "Often steal prey from other raptors, especially Ospreys"
+     }
+    },
+    {
+     "id": "de-s-seeadler-weiss",
+     "text": "Den weißen Kopf bekommen junge Weißkopf-Seeadler erst im vierten oder fünften Jahr.",
+     "seed": "be-white",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Bald Eagle",
+      "url": "https://www.hawkmountain.org/raptors/bald-eagle",
+      "quote": "Juvenile Bald Eagles do not get their adult plumage until their fourth or fifth year."
+     }
+    },
+    {
+     "id": "de-s-seeadler-gestrichen",
+     "text": "2007 wurde der Weißkopf-Seeadler von der US-Liste bedrohter Arten gestrichen.",
+     "seed": "be-recovery",
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "quote": "bald eagles were delisted from the Endangered Species Act in August 2007"
+     }
+    },
+    {
+     "id": "de-s-seeadler-wappen",
+     "text": "Seit 1782 ist der Weißkopf-Seeadler das Wappentier der USA.",
+     "seed": null,
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "quote": "When America adopted the bald eagle as the national symbol in 1782"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-seeadler-franklin",
+     "text": "Benjamin Franklin nannte den Weißkopf-Seeadler einen Vogel von „schlechtem moralischem Charakter“: zu faul zum Fischen, ein Dieb.",
+     "seed": null,
+     "source": {
+      "title": "Live Science, Did Benjamin Franklin really want the turkey to be the US national bird?",
+      "url": "https://livescience.com/benjamin-franklin-turkey-national-bird",
+      "quote": [
+       "He is a bird of bad moral character.",
+       "too lazy to fish for himself, he watches the labour of the fishing hawk"
+      ]
+     }
+    },
+    {
+     "id": "de-l-seeadler-filmschrei",
+     "text": "Echte Weißkopf-Seeadler rufen eher wie ein albernes Kichern. Im Film bekommen sie darum fast immer den Schrei eines Rotschwanzbussards.",
+     "seed": "be-scream",
+     "source": {
+      "title": "Audubon, Birdist Rule #50: Learn the live bird errors in TV and movies",
+      "url": "https://audubon.org/news/birdist-rule-50-learn-live-bird-errors-tv-and-movies",
+      "quote": [
+       "Nearly every single time a Bald Eagle is shown on screen, it’s accompanied by the iconic scream of a Red-tailed Hawk.",
+       "Bald Eagles have sort of a dopey chuckle for a call"
+      ]
+     }
+    },
+    {
+     "id": "de-l-seeadler-rad",
+     "text": "Bei der Balz verhaken Weißkopf-Seeadler hoch oben die Krallen und stürzen sich überschlagend ab. Erst kurz vor dem Boden lassen sie los.",
+     "seed": "be-cartwheel",
+     "source": {
+      "title": "Audubon Field Guide, Bald Eagle",
+      "url": "https://www.audubon.org/field-guide/bird/bald-eagle",
+      "quote": "During a spectacular courtship display, the male and female Bald Eagle fly high into the sky, lock talons, and cartwheel down toward earth, unlocking talons just before crashing to the ground."
+     }
+    },
+    {
+     "id": "de-l-seeadler-nest",
+     "text": "Das größte bekannte Nest eines Weißkopf-Seeadlers, in Florida, war {2,9 m|9.5 ft} breit, {6 m|20 ft} tief und wog fast {2,7 t|6000 lb}.",
+     "seed": "be-nest",
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "quote": "Petersburg, Florida, was 9.5 feet in diameter, 20 feet deep and weighed almost 6,000 pounds!"
+     }
+    }
+   ]
+  },
+  "Setophaga striata": {
+   "short": [
+    {
+     "id": "de-s-waldsaenger-dreitage",
+     "text": "Über den Ozean fliegen Streifenwaldsänger bis zu drei Tage ohne Pause.",
+     "seed": "bp-3days",
+     "source": {
+      "title": "DeLuca et al. 2015, Biology Letters",
+      "url": "https://doi.org/10.1098/rsbl.2014.1045",
+      "europepmc": "DOI:10.1098/rsbl.2014.1045",
+      "quote": "requiring up to 3 days (62 h ± 10) of non-stop flight"
+     }
+    },
+    {
+     "id": "de-s-waldsaenger-verirrt",
+     "text": "Jeden Herbst verirren sich 100 und mehr Streifenwaldsänger an die Pazifikküste.",
+     "seed": "bp-lost",
+     "source": {
+      "title": "Audubon Field Guide, Blackpoll Warbler",
+      "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
+      "quote": "Every fall, many (to 100 or more) lost strays appear along Pacific Coast."
+     }
+    },
+    {
+     "id": "de-s-waldsaenger-besetzt",
+     "text": "Weibchen kehren zum alten Brutplatz zurück und nehmen das Männchen, das ihn besetzt.",
+     "seed": "bp-site",
+     "source": {
+      "title": "Audubon Field Guide, Blackpoll Warbler",
+      "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
+      "quote": "Females return to nest site of previous year and mate with male holding that territory"
+     }
+    },
+    {
+     "id": "de-s-waldsaenger-erkunden",
+     "text": "Junge Streifenwaldsänger streifen vor dem Zug über {200 km|125 mi} umher, wohl zum Erkunden.",
+     "seed": "bp-map",
+     "source": {
+      "title": "Brown & Taylor 2015, Biology Letters",
+      "url": "https://doi.org/10.1098/rsbl.2015.0593",
+      "europepmc": "DOI:10.1098/rsbl.2015.0593",
+      "quote": [
+       "both young and adults moved over distances more than 200 km prior to initiating migration.",
+       "that young birds develop a regional-scale map"
+      ]
+     }
+    },
+    {
+     "id": "de-s-waldsaenger-polar",
+     "text": "Streifenwaldsänger brüten bis jenseits des Polarkreises und der Baumgrenze.",
+     "seed": null,
+     "source": {
+      "title": "Audubon Field Guide, Blackpoll Warbler",
+      "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
+      "quote": "in alder thickets north of the Arctic Circle and north of treeline"
+     }
+    },
+    {
+     "id": "de-s-waldsaenger-gemuetlich",
+     "text": "Im Frühling lassen sich Streifenwaldsänger Zeit: Zurück geht es über Karibik und Florida.",
+     "seed": null,
+     "source": {
+      "title": "Audubon Field Guide, Blackpoll Warbler",
+      "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
+      "quote": "In spring they are more leisurely, traveling via the West Indies and Florida"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-waldsaenger-eis",
+     "text": "Auf dem Flug von Maine nach Brasilien verbrennt ein Streifenwaldsänger weniger Fett, als in einer Portion Eiscreme von Ben & Jerry's steckt.",
+     "seed": "bp-icecream",
+     "source": {
+      "title": "Northern Woodlands, Blackpoll warbler",
+      "url": "https://northernwoodlands.org/articles/article/blackpoll-warbler",
+      "quote": "Making the flight from, say, Maine to Brazil, a blackpoll burns less fat than we find in a single serving of Ben & Jerry’s Coffee Heath Bar Crunch."
+     }
+    },
+    {
+     "id": "de-l-waldsaenger-nonstop",
+     "text": "Im Herbst fliegen Streifenwaldsänger nonstop über den Atlantik, {2270 bis 2770 km|1410 to 1720 mi} weit, bei nur {12 g|0.4 oz} Gewicht.",
+     "seed": "bp-nonstop",
+     "source": {
+      "title": "DeLuca et al. 2015, Biology Letters",
+      "url": "https://doi.org/10.1098/rsbl.2014.1045",
+      "europepmc": "DOI:10.1098/rsbl.2014.1045",
+      "quote": "completes an autumn transoceanic migration ranging from 2270 to 2770 km"
+     }
+    },
+    {
+     "id": "de-l-waldsaenger-kreuz",
+     "text": "Streifenwaldsänger ziehen über Kreuz: Vögel aus dem Westen Nordamerikas überwintern eher im Osten Südamerikas, und umgekehrt.",
+     "seed": "bp-cross",
+     "source": {
+      "title": "Duali et al. 2024, Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-024-80838-9",
+      "europepmc": "DOI:10.1038/s41598-024-80838-9",
+      "quote": "Blackpoll warblers showed a crosswise migration pattern, whereby individuals from western breeding populations tended to spend the nonbreeding season in the eastern part of the nonbreeding range and vice-versa."
+     }
+    },
+    {
+     "id": "de-l-waldsaenger-leicht",
+     "text": "Nach der Brut wiegt ein Streifenwaldsänger 10 bis 12 Gramm. Vor dem Flug übers Meer frisst der Vogel sich fast das Doppelte an.",
+     "seed": null,
+     "source": {
+      "title": "Northern Woodlands, Blackpoll warbler",
+      "url": "https://northernwoodlands.org/articles/article/blackpoll-warbler",
+      "quote": [
+       "the average blackpoll warbler weighs in at about 10 to 12 grams",
+       "blackpolls nearly double their mass as they binge on insects, spiders, seeds, and fruit."
+      ]
+     }
+    }
+   ]
+  },
+  "Falco peregrinus": {
+   "short": [
+    {
+     "id": "de-s-wanderfalke-sturz",
+     "text": "Im Sturzflug erreicht der Wanderfalke über {300 km/h|186 mph}: Kein Vogel ist schneller.",
+     "seed": "pf-dive",
+     "source": {
+      "title": "Staatliche Vogelschutzwarte Hessen, Steckbrief Wanderfalke (2007)",
+      "url": "https://natureg.hessen.de/resources/recherche/VSW/Voegel/NA_VSW_090_Steckbrief_Wanderfalke_Stand_2007_05.pdf",
+      "pdf": true,
+      "quote": "Wussten Sie, dass der Wanderfalke im Sturzflug über 300 km/h erreicht und damit der schnellste Vogel ist?"
+     }
+    },
+    {
+     "id": "de-s-wanderfalke-1971",
+     "text": "1971 wurde der Wanderfalke der erste bundesweite Vogel des Jahres in Deutschland.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Vogel des Jahres (Deutschland)",
+      "url": "https://de.wikipedia.org/wiki/Vogel_des_Jahres_%28Deutschland%29",
+      "quote": [
+       "Seit 1971 wird die Aktion bundesweit durchgeführt.",
+       "1971 Wanderfalke Falco peregrinus"
+      ]
+     }
+    },
+    {
+     "id": "de-s-wanderfalke-nest",
+     "text": "Wanderfalken bauen nie ein eigenes Nest; sie nutzen Felsnischen, Türme oder fremde Horste.",
+     "seed": null,
+     "source": {
+      "title": "Staatliche Vogelschutzwarte Hessen, Steckbrief Wanderfalke (2007)",
+      "url": "https://natureg.hessen.de/resources/recherche/VSW/Voegel/NA_VSW_090_Steckbrief_Wanderfalke_Stand_2007_05.pdf",
+      "pdf": true,
+      "quote": "Der Wanderfalke baut nie ein eigenes Nest, sondern nutzt immer vorhandene Brutmöglichkeiten"
+     }
+    },
+    {
+     "id": "de-s-wanderfalke-gewicht",
+     "text": "Wanderfalken-Weibchen wiegen bis zu dreimal so viel wie die leichtesten Männchen.",
+     "seed": "pf-sizes",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "Male Peregrine Falcons weigh as little as 450 grams; females weigh as much as 1,500 grams."
+     }
+    },
+    {
+     "id": "de-s-wanderfalke-wanderer",
+     "text": "Der Name passt: Manche Wanderfalken ziehen bis zu {25.000 km|15500 mi} im Jahr.",
+     "seed": "pf-wanderer",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "some individuals migrate distances up to 25,000 km annually"
+     }
+    },
+    {
+     "id": "de-s-wanderfalke-bocksprung",
+     "text": "Wanderfalken ziehen im Bocksprung: Die nördlichsten überwintern am weitesten im Süden.",
+     "seed": "pf-leapfrog",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "migration pattern in which breeders from northern areas winter to the south of individuals from more southerly locations."
+     }
+    },
+    {
+     "id": "de-s-wanderfalke-newyork",
+     "text": "Wanderfalken lieben Hochhäuser: Im Jahr 2000 brüteten 14 Paare in New York.",
+     "seed": "pf-nyc",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "In 2000, there were 14 pairs of Peregrine Falcons breeding in New York City."
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de-l-wanderfalke-comeback",
+     "text": "In den 1950ern brüteten in Deutschland etwa 900 Wanderfalkenpaare. 1982 waren nur noch rund 60 übrig. Heute sind es wieder etwa 1.000.",
+     "seed": "pf-ddt",
+     "source": {
+      "title": "Bayerisches Landesamt für Umwelt, Wanderfalke: Bestand und Gefährdung",
+      "url": "https://www.lfu.bayern.de/natur/artenhilfsprogramme_voegel/wanderfalke/bestand_gefaehrdung/index.htm",
+      "quote": [
+       "In den 1950er Jahren beherbergte Deutschland etwa 900 Wanderfalkenpaare.",
+       "1982, beim Start des Artenhilfsprogramms, waren davon nur etwa 60 noch übrig",
+       "Die deutschen Wanderfalkenbestände belaufen sich heute wieder auf etwa 1.000 Paare"
+      ]
+     }
+    },
+    {
+     "id": "de-l-wanderfalke-ddt",
+     "text": "Das Pestizid DDT reicherte sich in Wanderfalken an. Viele Bruten fielen aus, und die Eier bekamen so dünne Schalen, dass sie zerbrachen.",
+     "seed": "pf-ddt",
+     "source": {
+      "title": "Bayerisches Landesamt für Umwelt, Wanderfalke: Bestand und Gefährdung",
+      "url": "https://www.lfu.bayern.de/natur/artenhilfsprogramme_voegel/wanderfalke/bestand_gefaehrdung/index.htm",
+      "quote": [
+       "Vor allem das damals noch weithin gebräuchliche Pestizid DDT reicherte sich über die Nahrungskette im Körper des Wanderfalken an, ließ viele Bruten ausbleiben",
+       "Dünnschaligkeit der"
+      ]
+     }
+    },
+    {
+     "id": "de-l-wanderfalke-balz",
+     "text": "Balzende Wanderfalken-Männchen zeigen am Himmel alles: Sturzflüge, Achterbahnfahrten, Loopings und Achten.",
+     "seed": "pf-courtship",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "power dives, roller coaster-like flights, loop-the-loops, and figure eight flights"
+     }
+    },
+    {
+     "id": "de-l-wanderfalke-duenen",
+     "text": "Wanderfalken brüten in Felswänden, in den Hochhausschluchten großer Städte und sogar in den Dünen der deutschen Nordseeküste.",
+     "seed": null,
+     "source": {
+      "title": "Staatliche Vogelschutzwarte Hessen, Steckbrief Wanderfalke (2007)",
+      "url": "https://natureg.hessen.de/resources/recherche/VSW/Voegel/NA_VSW_090_Steckbrief_Wanderfalke_Stand_2007_05.pdf",
+      "pdf": true,
+      "quote": [
+       "sogar in den Dünenlandschaften der deutschen Nordseeküste.",
+       "Die Hochhausschluchten großer Städte sind vom Wanderfalken längst als gute Jagd"
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "individual": {
+  "templates": {
+   "yearKm": "{name} legt im Jahr mindestens {dist} zurück, nur in geraden Linien von Rast zu Rast gemessen.",
+   "span": "Im Lauf eines Jahres kommt {name} an Orte, die {dist} auseinanderliegen.",
+   "travelDays": "{name} ist rund {n} Tage im Jahr unterwegs.",
+   "female": "{name} ist ein Weibchen.",
+   "male": "{name} ist ein Männchen.",
+   "trackedSince": "Forschende verfolgen die Reisen von {name} seit {month} {year}.",
+   "trackedFromTo": "Forschende verfolgten die Reisen von {name} von {month} {year} bis {month2} {year2}.",
+   "hatched": "{name} ist {year} geschlüpft.",
+   "hatchedBy": "{name} ist {year} oder früher geschlüpft."
+  },
+  "notes": {
+   "mb-24442409-4003322822": {
+    "short": "Marina und Nina bekamen im Juni 2024 im selben Nest Sender. Marina war das kleinere Küken.",
+    "long": "Marina und Nina wuchsen im selben Storchennest auf und bekamen im Juni 2024 ihre Sender. Von den beiden Küken war Marina das kleinere."
+   },
+   "mb-24442409-4003322823": {
+    "short": "Nina und Marina bekamen im Juni 2024 im selben Nest Sender. Nina war das größere Küken.",
+    "long": "Nina und Marina wuchsen im selben Storchennest auf und bekamen im Juni 2024 ihre Sender. Von den beiden Küken war Nina das größere."
+   },
+   "mb-173641633-2847777258": {
+    "short": "Kiki war das ältere von zwei Küken. Das jüngere bekam nur einen Ring, keinen Sender.",
+    "long": "Kiki war das ältere von zwei Storchenküken im Nest. Das jüngere bekam einen Ring am Bein, einen Sender aber nur Kiki."
+   },
+   "mb-7249090-7541652": {
+    "short": "Signe wurde als erwachsenes Weibchen in Nordwestgrönland besendert.",
+    "long": "Signe war schon erwachsen, als der Sender in Nordwestgrönland angebracht wurde. Verfolgt wurden zwei ganze Züge nach Süden und einer zurück."
+   },
+   "mb-186178781-2842545544": {
+    "short": "Ernst lag geschwächt in Reutlingen, wurde gesund gepflegt und mit Sender freigelassen.",
+    "long": "Im Mai 2023 lag Ernst geschwächt in Reutlingen. Nach der Pflege im Vogelschutzzentrum Mössingen ging es im Juni mit Sender in die Freiheit."
+   },
+   "mb-186178781-2781173687": {
+    "short": "Nikolai prallte bei Stuttgart gegen ein Fenster und war elf Tage später wieder frei.",
+    "long": "Im Mai 2023 prallte Nikolai bei Stuttgart gegen eine Scheibe. Elf Tage später ging es aus Mössingen zurück in die Freiheit, mit Sender."
+   },
+   "mb-2943485-2943519": {
+    "short": "Zehn Jahre nach dem Ende der Besenderung wurde Ernest lebend in New Jersey gesehen.",
+    "long": "Bis 2007 trug Ernest einen Sender. Im März 2017, zehn Jahre später und längst ohne Sender, wurde Ernest lebend in New Jersey gesichtet."
+   },
+   "mb-2943485-2943518": {
+    "short": "Jahre nach dem Verlust des Senders tauchte David in Massachusetts und Connecticut auf.",
+    "long": "Bis 2007 trug David einen Sender. Danach wurde David noch zweimal lebend gesehen: 2011 in Massachusetts und 2013 in Connecticut."
+   }
+  }
+ },
+ "report": "German pool written natively (no translation of English drafts). Wording is new throughout; starred stories from rounds 1-2 were kept where they work for German readers, using the verified sources and quotes from the drafts; vetoed stories were dropped (Ibykus, Titan, shrike loop, blue jays, updrafts, Adelita, loggerhead age, ospreys' return to Scotland, snow goose boom, Hudson plane, stork leaders). Owner's phrasing notes applied: \"können so gut riechen\", \"Ohne Stimmapparat\", \"Standvögel\", \"besetzt\", \"zu erkunden\"/\"zum Erkunden\", \"gestrichen\", \"nannten den Blauwal\", \"Der Neuntöter mischt die Stimmen anderer Vögel in seinen Gesang.\" (owner's own sentence), \"Bestand\" in the turtle dove decline. No he/she pronouns for individual animals; plural \"sie\" for a species is used where natural.\n\nSources: nabu.de and hamburg.nabu.de were offline on 2026-10-22 (placeholder page \"vorübergehend vom Netz\"), so NABU-based draft facts (Havelland 80.000, lightning belief, nest faithfulness, shrike larder) were re-sourced or replaced: Linum 116.000 (wissen.de), larder via de.wikipedia Neuntöter. German-language sources used: Tagesspiegel/dpa, Beobachter (CH), Volksstimme, Uni Rostock, berlin.de, Lufthansa newsroom, wissen.de, Naturpark Kyffhäuser, Rheinpfalz, Vogelschutzwarte Hessen (2 PDFs), t-online/dpa, Sonntagsblatt, Schutzstation Wattenmeer, LBV, nau.ch/Vogelwarte Sempach, Planet Wissen, Spektrum, Nordkurier, Bayerisches LfU, de.wikipedia (Kranich, Pfeilstorch, Neuntöter, Turteltaube, Vogel des Jahres) as fallback. North American, Australian and ocean species rest on English sources (Hawk Mountain, Audubon, FWS, NOAA, NatGeo, HWW, DCCEEW etc.).\n\nPer species:\n- Weißstorch: strong. New German stories: Max Bloesch and the Air France storks from Algeria (CH), the black stork on a smoking chimney and the pinstripe suit in Altreu, Babyboom/Klapperstorch myth only since ~1700 (Pietismus), \"Rettet die\" struck from a club name, NRW down to 3 pairs in Petershagen, Roman-era range, Pfeilstorch and the mice theory, Rühstädt. Dropped \"Jungstörche: Zugrichtung angeboren\" because Tagesspiegel (NABU's Thomsen) says the route is only partly innate. Klepetan kept long only (short twin removed).\n- Kranich: strong. Lufthansa short reworked (owner asked for another pass); Grus vigilans stone legend, Goethe's Faust, Austrian police unit \"Kranich\", Prussian crane hunt, parents kicking the egg open (de.wikipedia; says behaviour is not fully researched), Linum count.\n- Wespenbussard: good. Rheinpfalz/Hessen add: digs nests up to 40 cm deep, scratches like a hen, remembers raided nests, armour (feathers, slit nostrils, scaled feet). Dropped the \"no honey\" joke (only works with the English name). Batumi kept short only.\n- Turteltaube: good German angle: name from \"turr turr\", \"Turteltauben\" for lovers, folk belief that the birds draw illnesses (kept in aviaries), Vogel des Jahres 2020, \"turteltaubenfrei\", Malta trapping. Dropped the carol, Song of Songs and English-name facts.\n- Heringsmöwe: Schutzstation Wattenmeer gives the British \"herring gull\" = Silbermöwe confusion, Amrum since 1966, fishing-boat feeding. City-gull and roof facts dropped (owner flagged German).\n- Neuntöter: good: Zedler-era names, larder (30 Maikäfer), skylark mimic, overgrown Todesstreifen, Sperbergrasmücke \"bodyguard\", Abkhazian falconers. Falkenzahn re-sourced to de.wikipedia (Zähnung + old name \"Falkensänger\").\n- Steinschmätzer: good; German research link (Franz Bairlein, Wilhelmshaven; via ADN), Vogelwarte Sempach altitude record. UNCERTAIN: de-s-steinschmaetzer-schmatzen rests on a reader article (tips.at \"Leserartikel\"); drop it if a stronger source is wanted. \"white arse\" dropped (English only).\n- Isabellbrachvogel: thin, all English sources, no German angle found (the \"Isabell\" colour legend could not be tied to this bird by a source).\n- Breitflügelbussard: thin; facts are behaviour/numbers from one Hawk Mountain page. Owner's \"tens of thousands of what\" fixed (Zehntausende Breitflügelbussarde).\n- Truthahngeier: fine; new: pumpkins and grapes, wintering North American birds displacing Venezuelan residents, stork relationship.\n- Blauwal: fine; new: Svend Foyn's harpoon gun 1868, 1931 season, calf size at birth (imperial source converted: 3 tons = 2,7 t, 25 ft = 7,6 m).\n- Unechte Karettschildkröte: hitchhikers kept long-only as the owner suggested; no nest beaches named (R14). Could not source why it is called \"unecht\".\n- Fischadler: Lady kept; German angle: Sachsen-Anhalt power-pylon nests safe from raccoons (Volksstimme/dpa).\n- Schneegans: new: rust-stained heads from iron in mud, the \"grinning patch\", outrunning predators while moulting.\n- Kanadagans: strong German angle from Spektrum: Munich 1826, eaten in the war, \"bis heute ein Wessi\" (no aristocratic park owners in the GDR), Ruhrgebiet. King's geese, Nene, giant goose, balcony jump kept.\n- Weißkopf-Seeadler: Franklin's \"bad moral character\" letter added (Live Science); film scream kept long.\n- Streifenwaldsänger: Ben & Jerry's kept (brand known in Germany); weight nearly doubles before the sea crossing (Northern Woodlands).\n- Wanderfalke: German angle: first nationwide Vogel des Jahres 1971, German crash ~900 pairs (1950s) to ~60 (1982) and back to ~1.000 (LfU Bayern), dunes of the North Sea coast, Hessen fact sheet for >300 km/h.\n\nIndividual templates rewritten in natural German (no \"Dieses Tier ist...\"). Notes: Marina and Nina are recorded as \"m\" in featured.json although the names sound female; the notes use neutral \"das Küken\" and no pronouns. Signe note avoids \"sie\".\n\nNumbers: German style (80.000, 2,7 t); metric first with an imperial value in braces where a unit is converted.\n"
+}
