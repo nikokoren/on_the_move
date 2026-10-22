@@ -4,6 +4,13 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### R8f Facts in four separate pools: English and German, short and long (owner, 2026-10-22)
+
+- Why: two review rounds on the fact review page (28 + 123 items; round 1: 26 OK, 19 starred, 2 vetoed; round 2: 111 OK, 70 starred, 12 vetoed). Owner: German texts translated from English "reference English contexts or are just bad literal translations"; long facts are often great but "don't make any sense" when cut short.
+- Decided (owner): each species gets four independent pools (en short, en long, de short, de long). Languages are researched and written separately (by two different agents, owner's suggestion), never translated; short and long are separate facts, not two versions of one. Short up to 90 characters, long up to 140.
+- Rules and the owner's taste: `docs/FACT_STYLE.md`. Drafts checked by `pipeline/check_fact_draft.py` (lengths, quotes verbatim on the live page). Review verdicts kept in `pipeline/facts_draft_round1.json` and `pipeline/facts_draft_round2.json`.
+- Not built yet: the Worker and templates still use one pool per language; choosing short or long by the space available is O1 step 3.
+
 ### N1 Names for unnamed animals (owner, 2026-10-03)
 
 - Why: 38 of the 52 featured animals had no name from the researchers, so the owner saw three different "Peregrine Falcon" with nothing to tell them apart.

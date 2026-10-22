@@ -17,6 +17,12 @@
    "url": "https://en.wikipedia.org/wiki/Ibycus",
    "quote": "Captured by bandits in a deserted place he declared that the cranes which happened to be flying overhead would be his avengers; he was murdered, but afterwards one of the bandits saw some cranes in the city and exclaimed, \"Look, the avengers of Ibycus!\"",
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -40,6 +46,13 @@
     "In den vergangenen 100 Jahren wurde der Kranich zu einem unverwechselbaren Firmenzeichen und dem Symbol der Marke Lufthansa."
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "note": "short version needs another pass, does not read well currently.",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -60,6 +73,11 @@
    "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
    "pdf": true,
    "quote": "Seine Luftröhre ist beachtliche 130 cm lang und durchzieht als Doppelschlinge das Brustbein."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -79,6 +97,11 @@
    "title": "RSPB, Crane",
    "url": "https://www.rspb.org.uk/birds-and-wildlife/crane",
    "quote": "Cranes are vocal birds, with a distinct bugling call which can be heard up to 3.5 miles away."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -99,6 +122,11 @@
    "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
    "pdf": true,
    "quote": "Schon Küken üben den Tanz"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -119,6 +147,12 @@
    "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
    "pdf": true,
    "quote": "dass die Jungtiere das erste Mal mit ihren Eltern ins Winterquartier ziehen."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -138,6 +172,12 @@
    "title": "NABU, Vogelporträt Kranich",
    "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/kranich/",
    "quote": "Im Havelland wurden an einem Tag bis zu 80.000 Kraniche beim Rasten gezählt."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -158,6 +198,12 @@
    "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
    "pdf": true,
    "quote": "Verpaarte Kraniche können ein Leben lang zusammen bleiben."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -177,6 +223,12 @@
    "title": "Operation Turtle Dove (RSPB and partners), Titan",
    "url": "https://www.operationturtledove.org/turtle-doves/titan/",
    "quote": "Titan then completed an incredible 11,200 km to Mali in West Africa, spending the winter there before returning to Suffolk – to exactly where he originally was tagged."
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -199,6 +251,12 @@
     "Distinct from mammal milk, it is made in a pouch on the bird's throat (the crop).",
     "Males and females both start to make crop milk just before eggs hatch."
    ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -222,6 +280,12 @@
     "12 Days of Christmas",
     "carol, these birds are a summer visitor and are only with us from mid-April to end of August."
    ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -241,6 +305,12 @@
    "title": "RSPB, Turtle Dove",
    "url": "https://www.rspb.org.uk/birds-and-wildlife/turtle-dove",
    "quote": "Its iconic purring ‘turr turr’ call is where the ‘Turtle’ name came from."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -260,6 +330,12 @@
    "title": "Operation Turtle Dove (RSPB and partners), Titan",
    "url": "https://www.operationturtledove.org/turtle-doves/titan/",
    "quote": "And he travelled around 500-700 km per night, flying at a maximum speed of 60 km per hour."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -280,6 +356,13 @@
    "url": "https://en.wikipedia.org/wiki/European_turtle_dove",
    "quote": "especially verse 2:12 from the Song of Songs \"the voice of the turtle [dove] is heard in our land\" – its mournful voice, and the fact that it forms strong pair bonds , European turtle doves have become emblems of devoted love.",
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "note": "does not work in german",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -299,6 +382,12 @@
    "title": "RSPB, Turtle Dove",
    "url": "https://www.rspb.org.uk/birds-and-wildlife/turtle-dove",
    "quote": "Turtle Dove numbers have plummeted by almost 99% since the 1960s."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "rephrase to include \"population\" in the short version. otherwise the short version sounds like they just lost them somewhere and cant find them,",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -324,6 +413,12 @@
    ],
    "checked": "2026-10-22",
    "pdf": true
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -343,6 +438,12 @@
    "title": "RSPB, Lesser Black-backed Gull",
    "url": "https://www.rspb.org.uk/birds-and-wildlife/lesser-black-backed-gull",
    "quote": "They feed on a large variety of food including fish, worms, and edible rubbish (and abandoned chips)."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -363,6 +464,12 @@
    "url": "https://doi.org/10.1038/s41598-018-23605-x",
    "europepmc": "DOI:10.1038/s41598-018-23605-x",
    "quote": "arrived 15 days later at their wintering areas, than males."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -382,6 +489,13 @@
    "title": "BTO, BirdFacts: Lesser Black-backed Gull",
    "url": "https://www.bto.org/understanding-birds/birdfacts/lesser-black-backed-gull",
    "quote": "it also breeds on the flat roofs of city-centre buildings and industrial units."
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "note": "doesnt sound quite right in german. for all future rewrites. have the german and english texts written from two different agents, the translation part does not work for a lot of the german versions because they are referencing english contexts or are just bad litteral translations of the english text.",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -402,6 +516,12 @@
    "url": "https://doi.org/10.1038/s41598-019-46890-6",
    "europepmc": "DOI:10.1038/s41598-019-46890-6",
    "quote": "Despite the proximity of marine areas (~10 km), the birds only made significant use of terrestrial environments"
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "german version needs work",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -421,6 +541,12 @@
    "title": "BTO, BirdFacts: Lesser Black-backed Gull",
    "url": "https://www.bto.org/understanding-birds/birdfacts/lesser-black-backed-gull",
    "quote": "Maximum age from a ringed bird 34 years, 10 months, 27 days"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -443,6 +569,12 @@
     "Neuntöter spießen übrig gebliebene Nahrung auf Dornen, um sie dort für einen späteren Zeitpunkt aufzubewahren.",
     "Auch Stacheldraht nutzen sie dafür."
    ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -462,6 +594,12 @@
    "title": "NABU Hamburg, Neuntöter",
    "url": "https://hamburg.nabu.de/natur-und-landschaft/hoeltigbaum/landschaft-und-leben/05236.html",
    "quote": "Früher glaubte man, der Neuntöter müsse erst neun Tiere fangen, bevor er eines verspeisen würde - daher der gefährlich klingende Name."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -482,6 +620,12 @@
    "url": "https://doi.org/10.1098/rspb.2011.1323",
    "europepmc": "DOI:10.1098/rspb.2011.1323",
    "quote": "The birds performed a distinct loop migration (22 000 km) where spring distance, including a detour across the Arabian Peninsula"
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -501,6 +645,12 @@
    "title": "NABU, Vogel des Jahres 1985: Der Neuntöter",
    "url": "https://www.nabu.de/tiere-und-pflanzen/aktionen-und-projekte/vogel-des-jahres/1985-neuntoeter/index.html",
    "quote": "Ein typisches äußerliches Merkmal dieser Singvögel ist ihr falkenähnlicher Oberschnabel, der wie bei Greifvögeln mit einem so genannten Falkenzahn versehen ist."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "short version is too short and missing context. makes no sense. long version is fine. german phrasing is shit though.",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -520,6 +670,12 @@
    "title": "NABU, Vogelporträt Neuntöter",
    "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/neuntoeter/",
    "quote": "Der leise zwitschernde Gesang ist mit Imitationen anderer Vögel durchsetzt."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "change german short to \"Der Neuntöter mischt die Stimmen anderer Vögel in seinen Gesang.\"",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -539,6 +695,12 @@
    "title": "NABU, Vogelporträt Neuntöter",
    "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/neuntoeter/",
    "quote": "Die Beutetiere werden an Dornen zerteilt, aufgebrochen oder entstachelt."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "short version needs work.",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -561,6 +723,12 @@
     "white arse",
     "as it was known in old English, is one of the first"
    ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -581,6 +749,12 @@
    "url": "https://doi.org/10.1098/rsbl.2011.1223",
    "europepmc": "DOI:10.1098/rsbl.2011.1223",
    "quote": "with Alaskan birds travelling approximately 14 500 km each way"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -600,6 +774,12 @@
    "title": "Audubon Field Guide, Northern Wheatear",
    "url": "https://www.audubon.org/field-guide/bird/northern-wheatear",
    "quote": "Birds from Alaska and northwestern Canada cross Bering Strait and make long westward flight across Asia, also going to wintering grounds mostly in Africa."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -619,6 +799,12 @@
    "title": "BTO, BirdFacts: Wheatear",
    "url": "https://www.bto.org/understanding-birds/birdfacts/wheatear",
    "quote": "with some flying non-stop across the Atlantic to northern Spain and then on to West Africa."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -638,6 +824,12 @@
    "title": "BTO, BirdFacts: Wheatear",
    "url": "https://www.bto.org/understanding-birds/birdfacts/wheatear",
    "quote": "Wheatears were more abundant on islands with larger rabbit populations and hence short turf and burrows for nesting"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -658,6 +850,12 @@
    "url": "https://doi.org/10.1098/rsbl.2011.1223",
    "europepmc": "DOI:10.1098/rsbl.2011.1223",
    "quote": "mean overall migration speeds of up to 290 km d(-1)"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -678,6 +876,12 @@
    "url": "https://vwsg.org.au/waders/geolocator-studies/eastern-curlew/",
    "quote": "The three Eastern Curlews departed from their non-breeding area during 4–14 Mar and all flew 8,500 km nonstop to the western shores of the Yellow Sea taking 7–8 days.",
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -697,6 +901,12 @@
    "title": "Birds New Zealand / Te Papa, New Zealand Birds Online: Eastern curlew",
    "url": "https://www.nzbirdsonline.org.nz/species/eastern-curlew",
    "quote": "has the longest bill of any wader at around 20 cm in length."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -717,6 +927,12 @@
    "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
    "pdf": true,
    "quote": "Far eastern curlews are the largest migratory shorebird species in the world."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "add a \"It is the\" or something to the short version. there is enough space.",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -737,6 +953,12 @@
    "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
    "pdf": true,
    "quote": "young far eastern curlews might spend their second austral winter in Australia, and some might also spend their third winter in Australia before undertaking their first northward migration"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -760,6 +982,12 @@
     "females tend to be larger and have a longer bill.",
     "with females utilising more sandy areas and males utilising more muddy areas"
    ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -780,6 +1008,12 @@
    "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
    "pdf": true,
    "quote": "It supports approximately 80 percent of the species' estimated flyway population during their northward migration"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -799,6 +1033,12 @@
    "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
    "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
    "quote": "flocks or “kettles” of tens of thousands of Broad-winged Hawks can be seen along the shorelines of the Great Lakes"
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "tens of thousands of what",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -818,6 +1058,12 @@
    "title": "Audubon Field Guide, Broad-winged Hawk",
    "url": "https://www.audubon.org/field-guide/bird/broad-winged-hawk",
    "quote": "Blue Jays are known to mimic the call."
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -837,6 +1083,12 @@
    "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
    "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
    "quote": "During migration, broadwings will feed opportunistically on insects, including migrating dragonflies"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -856,6 +1108,11 @@
    "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
    "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
    "quote": "in autumn the majority of individuals pass migration watchsites during a brief and concentrated two-week period"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -875,6 +1132,12 @@
    "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
    "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
    "quote": "This species does not acquire large stores of fat prior to migration and depends upon soaring to complete its long-distance journeys."
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -894,6 +1157,12 @@
    "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
    "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
    "quote": "Non-migratory subspecies of broadwings inhabit Cuba, Puerto Rico, and several other islands in the West Indies."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "\"ziehn gar nicht\" doesnt sound \"right\" in german. is there a different word for migrating we could use across the board?",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -917,6 +1186,11 @@
     "It was back in the 1950s that one of the rangers from in the Cleveland Metroparks Hinckley Reservation had noted that every March 15, he would see the vanguard of the local roost or flock of vultures returning to the hills of Hinckley."
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -936,6 +1210,12 @@
    "title": "Chesapeake Bay Program, Turkey Vulture",
    "url": "https://www.chesapeakebay.net/discover/field-guide/entry/turkey-vulture",
    "quote": "Turkey vultures have such a strong sense of smell that they can help gas companies detect gas leaks."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "\"have such a good sense of smell\" and \"können so gut riechen\". right now your telling people that the animals themselves have a good smell to them. wtf?",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -955,6 +1235,12 @@
    "title": "Hawk Mountain Sanctuary, Turkey Vulture",
    "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
    "quote": "Nestling Turkey Vultures projectile vomit to defend themselves."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -974,6 +1260,12 @@
    "title": "Missouri Department of Conservation, Turkey Vulture",
    "url": "https://mdc.mo.gov/discover-nature/field-guide/turkey-vulture",
    "quote": "They have no voice box (syrinx), so they can only hiss and grunt when they vocalize."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "\"Da sie keinen Stimmapparat haben...\" for the short german version",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -993,6 +1285,12 @@
    "title": "Missouri Department of Conservation, Turkey Vulture",
    "url": "https://mdc.mo.gov/discover-nature/field-guide/turkey-vulture",
    "quote": "Their ability to safely eat carrion containing pathogens such as anthrax and rabies helps reduce the spread of these diseases."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1012,6 +1310,12 @@
    "title": "Hawk Mountain Sanctuary, Turkey Vulture",
    "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
    "quote": "Other vultures, such as Black Vultures, lack a keen sense of smell and often follow Turkey Vultures to carcasses."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1031,6 +1335,12 @@
    "title": "Hawk Mountain Sanctuary, Turkey Vulture",
    "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
    "quote": "Vultures perform aerial courtship displays during which one bird follows the other and precisely mimics the lead bird's flight path."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1050,6 +1360,12 @@
    "title": "San Diego Zoo Wildlife Alliance, Vulture",
    "url": "https://animals.sandiegozoo.org/animals/vulture",
    "quote": "New World vultures have a distinctive bald head, an adaptation that helps reduce the risks of disease, because bacteria could become lodged in feathers, while the bald head and neck may be disinfected by the sun's rays."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1069,6 +1385,12 @@
    "title": "NOAA Fisheries, Blue Whale",
    "url": "https://www.fisheries.noaa.gov/species/blue-whale",
    "quote": "they are the largest animals ever to live on our planet"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1088,6 +1410,12 @@
    "title": "National Geographic, Blue whale",
    "url": "https://www.nationalgeographic.com/animals/mammals/facts/blue-whale",
    "quote": "A blue whale's tongue alone can weigh as much as an elephant—its heart as much as an automobile."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1107,6 +1435,12 @@
    "title": "American Cetacean Society, Blue Whale",
    "url": "https://www.acsonline.org/blue-whale",
    "quote": "During the nursing period, calves consume 100 gallons (379 liters) of the fat-rich mother's milk each day, gain 200 pounds a day"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1126,6 +1460,12 @@
    "title": "National Geographic, Blue whale",
    "url": "https://www.nationalgeographic.com/animals/mammals/facts/blue-whale",
    "quote": "The oldest blue whale found using this method was determined to be around 110 years old."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1145,6 +1485,12 @@
    "title": "American Cetacean Society, Blue Whale",
    "url": "https://www.acsonline.org/blue-whale",
    "quote": "Because of this yellow color, the early whalers gave it the name \"sulfur bottom.\""
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "\"nannten den blauwahl\" for the short german",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1164,6 +1510,12 @@
    "title": "American Cetacean Society, Blue Whale",
    "url": "https://www.acsonline.org/blue-whale",
    "quote": "the blow is tall and straight and over 20 feet (6 meters) high."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1183,6 +1535,12 @@
    "title": "American Cetacean Society, Blue Whale",
    "url": "https://www.acsonline.org/blue-whale",
    "quote": "This means it may eat up to 40 million krill a day."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1202,6 +1560,12 @@
    "title": "NOAA Fisheries, Blue Whale",
    "url": "https://www.fisheries.noaa.gov/species/blue-whale",
    "quote": "sounds emitted by blue whales can be heard by other whales up to 1,000 miles away"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1225,6 +1589,12 @@
     "Adelita was the first animal ever tracked across an ocean basin, turtle or otherwise."
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1244,6 +1614,12 @@
    "title": "NOAA Fisheries, Loggerhead Turtle",
    "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
    "quote": "Hatchlings from nesting beaches in Japan and Australia have been tracked migrating across the Pacific"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1263,6 +1639,12 @@
    "title": "National Geographic, Loggerhead sea turtle",
    "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
    "quote": "The temperature of the sand in which turtles are hatched determines their sex—and, as those temperatures rise, more female loggerheads are being born."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1282,6 +1664,12 @@
    "title": "National Geographic, Loggerhead sea turtle",
    "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
    "quote": "Each stretch of coastline has its own magnetic signature, and these turtles remember and use them as guides."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1301,6 +1689,13 @@
    "title": "National Geographic, Loggerhead sea turtle",
    "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
    "quote": "more than a hundred species of animals—including barnacles, crabs, and algae—live on their shells."
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "note": "short version does not work, unclear. sad because long version is really cool",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1320,6 +1715,12 @@
    "title": "NOAA Fisheries, Loggerhead Turtle",
    "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
    "quote": "Female loggerheads reach maturity at about 35 years of age."
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1339,6 +1740,12 @@
    "title": "NOAA Fisheries, Loggerhead Turtle",
    "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
    "quote": "Hatchlings and juveniles spend the first 7 to 15 years of their lives in the open ocean."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1358,6 +1765,12 @@
    "title": "National Geographic, Loggerhead sea turtle",
    "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
    "quote": "whose shells pass through their digestive systems and, upon excretion, fall back to the bottom of the ocean for other animals to eat as a calcium source."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1381,6 +1794,12 @@
     "Given the average osprey lives 8 years and produces 20 chicks it is a remarkable achievement."
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1401,6 +1820,12 @@
    "url": "https://en.wikipedia.org/wiki/Ospreys_in_Britain",
    "quote": "In 1954 Scandinavian birds recolonised Scotland naturally, and a pair has nested successfully almost every year since 1959 at Loch Garten Osprey Centre",
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1420,6 +1845,11 @@
    "title": "Hawk Mountain Sanctuary, Osprey",
    "url": "https://www.hawkmountain.org/raptors/osprey",
    "quote": "Carry fish head first to make them more aerodynamic in flight."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1439,6 +1869,12 @@
    "title": "RSPB, Osprey",
    "url": "https://www.rspb.org.uk/birds-and-wildlife/osprey",
    "quote": "They have a special extra eyelid – a bit like a contact lens – that helps to protect their eyes when they hunt under water."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1461,6 +1897,12 @@
     "males usually carry a fish or nesting material and call repeatedly.",
     "which sometimes reach heights of 300 feet or more."
    ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1480,6 +1922,12 @@
    "title": "Hawk Mountain Sanctuary, Osprey",
    "url": "https://www.hawkmountain.org/raptors/osprey",
    "quote": "Most Ospreys do not return to their breeding grounds until the spring of their second year"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1499,6 +1947,12 @@
    "title": "Hawk Mountain Sanctuary, Osprey",
    "url": "https://www.hawkmountain.org/raptors/osprey",
    "quote": "Ospreys add material to their nests each year, and sometimes build massive structures weighing up to 400 pounds."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1518,6 +1972,12 @@
    "title": "Hawk Mountain Sanctuary, Osprey",
    "url": "https://www.hawkmountain.org/raptors/osprey",
    "quote": "Ospreys are the only member of the family Pandionidae."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1540,6 +2000,12 @@
     "the distance between the birds' nesting and breeding sites is more than 30 km.",
     "Within a day of hatching, many young geese set off on this trek with their families, reaching their destination within four days."
    ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1559,6 +2025,12 @@
    "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
    "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
    "quote": "resembling a dog's bark, which it utters at any time—has earned this goose a reputation as the noisiest of waterfowl."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1578,6 +2050,12 @@
    "title": "Audubon Field Guide, Snow Goose",
    "url": "https://www.audubon.org/field-guide/bird/snow-goose",
    "quote": "now known to be only a color morph of the smaller race of Snow (Lesser Snow Goose)"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1600,6 +2078,12 @@
     "A hundred years ago, the world population of Greater Snow Geese was estimated at approximately 3 000.",
     "By 1998, there were more than 800 000 Greater Snow Geese."
    ]
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1619,6 +2103,12 @@
    "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
    "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
    "quote": "Striking concentrations of more than 500 000 Greater Snow Geese can be seen in early April at Baie-du-Febvre"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1638,6 +2128,12 @@
    "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
    "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
    "quote": "24 hours a day in the Arctic's round-the-clock summer daylight."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1657,6 +2153,12 @@
    "title": "Audubon Field Guide, Snow Goose",
    "url": "https://www.audubon.org/field-guide/bird/snow-goose",
    "quote": "A young Snow Goose will usually leave nest within a few hours after hatching; they find their own food"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1680,6 +2182,12 @@
     "Bald Eagles have sort of a dopey chuckle for a call, and Red-tails have that heart-stopping scream."
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1699,6 +2207,12 @@
    "title": "Audubon Field Guide, Bald Eagle",
    "url": "https://www.audubon.org/field-guide/bird/bald-eagle",
    "quote": "During a spectacular courtship display, the male and female Bald Eagle fly high into the sky, lock talons, and cartwheel down toward earth, unlocking talons just before crashing to the ground."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1718,6 +2232,12 @@
    "title": "U.S. Fish & Wildlife Service, Bald Eagle",
    "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
    "quote": "swimming with their catch with a rowing motion of their wings, if they're too wet to fly directly off the water!"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1737,6 +2257,12 @@
    "title": "U.S. Fish & Wildlife Service, Bald Eagle",
    "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
    "quote": "Petersburg, Florida, was 9.5 feet in diameter, 20 feet deep and weighed almost 6,000 pounds!"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1756,6 +2282,12 @@
    "title": "Hawk Mountain Sanctuary, Bald Eagle",
    "url": "https://www.hawkmountain.org/raptors/bald-eagle",
    "quote": "More than a thousand eagles, for example, regularly congregate along the Chilkat River in Alaska"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1775,6 +2307,12 @@
    "title": "Hawk Mountain Sanctuary, Bald Eagle",
    "url": "https://www.hawkmountain.org/raptors/bald-eagle",
    "quote": "Often steal prey from other raptors, especially Ospreys"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1794,6 +2332,12 @@
    "title": "Hawk Mountain Sanctuary, Bald Eagle",
    "url": "https://www.hawkmountain.org/raptors/bald-eagle",
    "quote": "Juvenile Bald Eagles do not get their adult plumage until their fourth or fifth year."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1813,6 +2357,12 @@
    "title": "U.S. Fish & Wildlife Service, Bald Eagle",
    "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
    "quote": "bald eagles were delisted from the Endangered Species Act in August 2007"
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "\"gestrichen wurden\" instead of kamen on the german short version.",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1833,6 +2383,12 @@
    "url": "https://northernwoodlands.org/articles/article/blackpoll-warbler",
    "quote": "Making the flight from, say, Maine to Brazil, a blackpoll burns less fat than we find in a single serving of Ben & Jerry’s Coffee Heath Bar Crunch.",
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1853,6 +2409,12 @@
    "url": "https://doi.org/10.1098/rsbl.2014.1045",
    "europepmc": "DOI:10.1098/rsbl.2014.1045",
    "quote": "completes an autumn transoceanic migration ranging from 2270 to 2770 km"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1873,6 +2435,12 @@
    "url": "https://doi.org/10.1098/rsbl.2014.1045",
    "europepmc": "DOI:10.1098/rsbl.2014.1045",
    "quote": "requiring up to 3 days (62 h ± 10) of non-stop flight"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1892,6 +2460,11 @@
    "title": "Audubon Field Guide, Blackpoll Warbler",
    "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
    "quote": "Every fall, many (to 100 or more) lost strays appear along Pacific Coast."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1911,6 +2484,12 @@
    "title": "Audubon Field Guide, Blackpoll Warbler",
    "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
    "quote": "Females return to nest site of previous year and mate with male holding that territory"
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "\"besetzt\" instead of \"hält\" in the short german version",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1934,6 +2513,12 @@
     "both young and adults moved over distances more than 200 km prior to initiating migration.",
     "that young birds develop a regional-scale map"
    ]
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "\"zu erkunden\" instead of \"zu lernen\" in the short german version",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1954,6 +2539,12 @@
    "url": "https://doi.org/10.1038/s41598-024-80838-9",
    "europepmc": "DOI:10.1038/s41598-024-80838-9",
    "quote": "Blackpoll warblers showed a crosswise migration pattern, whereby individuals from western breeding populations tended to spend the nonbreeding season in the eastern part of the nonbreeding range and vice-versa."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1978,6 +2569,12 @@
     "The banning of DDT made the recovery of the peregrine falcon possible."
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -1997,6 +2594,12 @@
    "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
    "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
    "quote": "stoop at up to 200 mph"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2016,6 +2619,12 @@
    "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
    "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
    "quote": "some individuals migrate distances up to 25,000 km annually"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2035,6 +2644,12 @@
    "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
    "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
    "quote": "Male Peregrine Falcons weigh as little as 450 grams; females weigh as much as 1,500 grams."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2054,6 +2669,11 @@
    "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
    "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
    "quote": "migration pattern in which breeders from northern areas winter to the south of individuals from more southerly locations."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2073,6 +2693,11 @@
    "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
    "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
    "quote": "power dives, roller coaster-like flights, loop-the-loops, and figure eight flights"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2092,6 +2717,11 @@
    "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
    "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
    "quote": "In 2000, there were 14 pairs of Peregrine Falcons breeding in New York City."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2111,6 +2741,11 @@
    "title": "Template: yearKm (was 'Covers at least {dist} a year, measured from stay to stay.')",
    "url": "https://www.movebank.org",
    "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2130,6 +2765,11 @@
    "title": "Template: span (was 'The two farthest points of its year are {dist} apart.')",
    "url": "https://www.movebank.org",
    "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2149,6 +2789,11 @@
    "title": "Template: travelDays",
    "url": "https://www.movebank.org",
    "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2168,6 +2813,11 @@
    "title": "Template: female (was 'This animal is a female.')",
    "url": "https://www.movebank.org",
    "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2187,6 +2837,11 @@
    "title": "Template: male",
    "url": "https://www.movebank.org",
    "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2206,6 +2861,11 @@
    "title": "Template: trackedSince",
    "url": "https://www.movebank.org",
    "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2225,6 +2885,11 @@
    "title": "Template: trackedFromTo",
    "url": "https://www.movebank.org",
    "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2244,6 +2909,11 @@
    "title": "Template: hatched",
    "url": "https://www.movebank.org",
    "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2263,6 +2933,11 @@
    "title": "Template: hatchedBy",
    "url": "https://www.movebank.org",
    "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2283,6 +2958,11 @@
    "url": "https://www.movebank.org",
    "quote": "smaller nestling of 2 in nest",
    "was_en": "Marina and Nina were tagged in the same nest in June 2024; Marina was the smaller of the two chicks."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2303,6 +2983,11 @@
    "url": "https://www.movebank.org",
    "quote": "larger nestling of 2 in nest",
    "was_en": "Nina and Marina were tagged in the same nest in June 2024; Nina was the bigger of the two chicks."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2323,6 +3008,11 @@
    "url": "https://www.movebank.org",
    "quote": "elder of 2 chicks",
    "was_en": "Kiki was the elder of two chicks; the younger one got a ring, but no tracker."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2343,6 +3033,11 @@
    "url": "https://www.movebank.org",
    "quote": "adult female, tagged northwest Greenland, 2 complete outward migrations, 1 complete return migration",
    "was_en": "Tagged as an adult in north-west Greenland, this falcon was followed on two full trips south and one back north."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2363,6 +3058,11 @@
    "url": "https://www.movebank.org",
    "quote": "found in weak condition 2023-05-29 in Reutlingen (Germany); After care in Vogelschutzzentrum Mössingen released there with logger on 2023-06-20",
    "was_en": "Found weak in Reutlingen in May 2023, this honey buzzard was nursed back to health and set free with its tracker in June."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2383,6 +3083,11 @@
    "url": "https://www.movebank.org",
    "quote": "Window collision near Stuttgart, brought to Moessingen bird care centre 2023-05-06, released apparently healthy from there 2023-05-17.",
    "was_en": "This honey buzzard flew into a window near Stuttgart in May 2023 and was back in the wild, apparently healthy, 11 days later."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2403,6 +3108,11 @@
    "url": "https://www.movebank.org",
    "quote": "seen alive in New Jersey on 3/29/2017 (after PTT was removed)",
    "was_en": "Tracked until 2007, this eagle was seen alive in New Jersey ten years later, in March 2017, its transmitter long gone."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -2423,6 +3133,11 @@
    "url": "https://www.movebank.org",
    "quote": "seen alive in MA on 2/11/2011 and in CT on 3/12/2013 (after PTT was removed)",
    "was_en": "Tracked until 2007, this eagle was seen alive again without its transmitter: in Massachusetts in 2011, in Connecticut in 2013."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
   }
  }
 ]
