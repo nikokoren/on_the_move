@@ -10,7 +10,7 @@
   },
   "long": {
    "en": "Shot by hunters, the Croatian stork Malena never flew again. Her mate Klepetan flew {13000 km|8000 mi} back to her from South Africa every year.",
-   "de": "Die kroatische Störchin Malena konnte nach einem Schuss nie mehr fliegen. Ihr Partner Klepetan flog jedes Jahr {13000 km|8000 mi} zu ihr zurück."
+   "de": "Die kroatische Störchin Malena konnte nach einer Schussverletzung nicht mehr fliegen. Ihr Partner Klepetan flog jedes Jahr {13000 km|8000 mi} zu ihr."
   },
   "source": {
    "title": "Wikipedia, Klepetan and Malena",
@@ -21,6 +21,12 @@
     "Through a radio tracking band, it was determined that Klepetan made a 13,000-kilometre (8,000 mi) month-long journey from South Africa to Croatia to meet up with Malena each year."
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -43,6 +49,12 @@
     "als Bewohner von Gut Bothmer einen Weißstorch entdeckten, dem ein etwa 80 cm langer Stock am Hals hinunterhing.",
     "Der Pfeilstorch lieferte somit den ersten Beweis für den Fernzug der Störche bis in das äquatoriale Afrika."
    ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -66,6 +78,12 @@
     "we can predict just after a few minutes of migration flight whether it will spend the winter in Europe or fly on to West Africa"
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -90,6 +108,12 @@
    ],
    "checked": "2026-10-22",
    "europepmc": "DOI:10.1186/s40462-016-0070-0"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -114,6 +138,12 @@
     "Das Motiv zeigt Prinzesschen fliegend, die Marke gehört zur Serie „Bedrohte Tierarten“"
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -134,6 +164,12 @@
    "url": "https://en.wikipedia.org/wiki/%C5%BBywkowo,_Warmian-Masurian_Voivodeship",
    "quote": "For 30 inhabitants accrue about 160 storks and 42 nests.",
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -154,6 +190,12 @@
    "url": "https://doi.org/10.1038/s41598-021-99296-8",
    "europepmc": "DOI:10.1038/s41598-021-99296-8",
    "quote": "Storks (Ciconiidae) frequently excrete onto their legs to prevent overheating, a phenomenon known as urohidrosis."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -163,7 +205,7 @@
   "kind": "rewrite",
   "short": {
    "en": "A stork nest can grow {4 m|13 ft} tall and heavy enough to bring down a roof.",
-   "de": "Ein Storchennest kann {4 m|13 ft} hoch werden und ein Dach zum Einsturz bringen."
+   "de": "Ein Storchennest kann {4 m|13 ft} hoch werden und schwer genug, um ein Dach zum Einsturz zu bringen."
   },
   "long": {
    "en": "Stork nests can grow up to {2 m|6.5 ft} wide and {4 m|13 ft} tall, heavy enough to bring down a roof.",
@@ -173,6 +215,12 @@
    "title": "NABU Hamburg, Steckbrief Weißstorch",
    "url": "https://hamburg.nabu.de/tiere-und-pflanzen/voegel/weissstorch/18595.html",
    "quote": "So können riesige Bauwerke mit einem Durchmesser von bis zu zwei Metern, einer Höhe von bis zu vier Metern und einem Gewicht von mehreren hundert Kilogramm entstehen und sogar ein Hausdach zum Einsturz bringen."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -192,6 +240,12 @@
    "title": "NABU Hamburg, Weißstorch",
    "url": "https://hamburg.nabu.de/tiere-und-pflanzen/voegel/weissstorch/18155.html",
    "quote": "Dies ist jedoch allein durch die ausgeprägte Horsttreue bedingt und nicht etwa durch \"Gattentreue bis in den Tod\", wie es die Legende wissen will."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -201,11 +255,11 @@
   "kind": "rewrite",
   "short": {
    "en": "Young storks fly to Africa without their parents. Nobody shows them the way.",
-   "de": "Jungstörche fliegen ohne ihre Eltern nach Afrika. Den Weg zeigt ihnen niemand."
+   "de": "Jungstörche fliegen ohne ihre Eltern nach Afrika. Niemand zeigt ihnen den Weg."
   },
   "long": {
    "en": "From mid-August young storks set off for Africa without their parents. They need no guide: the direction is in their genes.",
-   "de": "Ab Mitte August brechen Jungstörche ohne ihre Eltern nach Afrika auf. Sie brauchen keinen Führer: Die Zugrichtung ist angeboren."
+   "de": "Ab Mitte August brechen Jungstörche ohne ihre Eltern nach Afrika auf. Den Weg kennen sie trotzdem: Die Zugrichtung ist angeboren."
   },
   "source": {
    "title": "NABU Hamburg, Steckbrief Weißstorch",
@@ -214,6 +268,12 @@
     "machen sich ab Mitte August ohne die Führung ihrer Eltern auf den langen und gefahrvollen Weg in die afrikanischen Winterquartiere.",
     "Die Zugrichtung ist den Störchen angeboren"
    ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -222,8 +282,8 @@
   "species": "White Stork",
   "kind": "keep",
   "short": {
-   "en": "A stork nest on the roof protects the house from lightning, many Germans still believe.",
-   "de": "Ein Storchennest auf dem Dach schützt vor Blitzschlag, glauben viele bis heute."
+   "en": "Many Germans still believe a stork nest on the roof protects the house from lightning.",
+   "de": "Viele glauben bis heute, dass ein Storchennest auf dem Dach vor Blitzschlag schützt."
   },
   "long": {
    "en": "Many people in Germany still believe a stork's nest on the roof protects the house from lightning.",
@@ -233,6 +293,12 @@
    "title": "NABU Hamburg, Steckbrief Weißstorch",
    "url": "https://hamburg.nabu.de/tiere-und-pflanzen/voegel/weissstorch/18595.html",
    "quote": "viele Menschen glauben bis heute, dass ein Storchenhorst auf dem Dach das Haus vor Blitzschlag schützt."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -256,6 +322,12 @@
     "Instead, the isotopes identified the birds as originating in the Labrador region of the Canadian province Newfoundland and Labrador."
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -278,6 +350,12 @@
     "It is thought that the nene evolved from the Canada goose ( Branta canadensis ), which most likely arrived on the Hawaiian islands about 500,000 years ago"
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -301,6 +379,12 @@
     "The lake is kept partly open by the discharge of warm water from a nearby electric generating plant."
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -324,6 +408,12 @@
     "The goslings' quick departure was especially surprising given that Lavin lives on the 10th floor — and they jumped all the way to the roof of the parkade where their parents were waiting, 9 floors below."
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -333,7 +423,7 @@
   "kind": "new",
   "short": {
    "en": "Canada geese came to Britain in the 17th century, for the king's park in London.",
-   "de": "Kanadagänse kamen im 17. Jahrhundert nach Großbritannien, für den Park des Königs."
+   "de": "Kanadagänse kamen im 17. Jahrhundert nach Großbritannien, für den Londoner St James's Park."
   },
   "long": {
    "en": "Britain's Canada geese go back to a royal whim: in the late 17th century they were added to the king's waterfowl in St James's Park, London.",
@@ -344,6 +434,12 @@
    "url": "https://en.wikipedia.org/wiki/Canada_goose",
    "quote": "The geese were introduced into Great Britain in the late 17th century as an addition to King James II 's waterfowl collection in St James's Park .",
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -363,6 +459,12 @@
    "title": "National Geographic, Canada Goose",
    "url": "https://www.nationalgeographic.com/animals/birds/facts/canada-goose",
    "quote": "They can cover 1,500 miles in just 24 hours with a favorable wind"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -382,6 +484,12 @@
    "title": "Missouri Department of Conservation, Canada Goose",
    "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
    "quote": "while the females make a faster, higher-pitched"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -401,6 +509,12 @@
    "title": "Missouri Department of Conservation, Canada Goose",
    "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
    "quote": "Adults lose their flight feathers during incubation and cannot fly for nearly a month."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -420,6 +534,12 @@
    "title": "Missouri Department of Conservation, Canada Goose",
    "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
    "quote": "The goslings stay with their parents all the time and do not leave them until after the spring migration."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -440,6 +560,12 @@
    "url": "https://hawkmountain.org/news/raptor-news/1-million-raptors-pass-batumi-georgia",
    "quote": "On September 3, counters recorded a one-day, world record 179,342 honey buzzards.",
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -449,7 +575,7 @@
   "kind": "new",
   "short": {
    "en": "Young honey buzzards find Africa without the adults, by their own route.",
-   "de": "Junge Wespenbussarde finden Afrika ohne die Alten, auf eigener Route."
+   "de": "Junge Wespenbussarde finden Afrika auf eigener Route, ohne ihre Eltern."
   },
   "long": {
    "en": "Adult honey buzzards detour via Gibraltar. Young ones on their first trip cross the Mediterranean anywhere, yet reach the same winter homes.",
@@ -463,6 +589,12 @@
     "In contrast, the juveniles travelled in more southerly directions, crossed the Mediterranean Sea at various places, but still ended up in the same wintering areas as the adults."
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -486,6 +618,12 @@
     "satellite-tagging 31 fledgling honey buzzards",
     "the birds eventually spread out across 3340 km of longitude."
    ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -509,6 +647,12 @@
     "They travelled between 2,430 and 3,990 km (minimum distances) during 13 to 14 months, in which they visited several sites."
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -532,6 +676,12 @@
     "Honey buzzards are thought to have a chemical deterrent in their feathers that protects them from wasp attacks."
    ],
    "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -555,6 +705,12 @@
     "as an ally for the control of the invasive yellow-legged hornet",
     "with 89.3% of attacked nests destroyed."
    ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -564,7 +720,7 @@
   "kind": "rewrite",
   "short": {
    "en": "Honey buzzards eat no honey. They're after the wasp grubs.",
-   "de": "Wespenbussarde fressen keinen Honig, sondern Wespenbrut."
+   "de": "Wespenbussarde, im Englischen „Honigbussarde“, fressen keinen Honig, sondern Wespenbrut."
   },
   "long": {
    "en": "Despite the name, honey buzzards don't eat honey: they dig out wasp and bee nests on foot and eat the grubs.",
@@ -574,6 +730,12 @@
    "title": "RSPB, Honey Buzzard",
    "url": "https://www.rspb.org.uk/birds-and-wildlife/honey-buzzard",
    "quote": "Despite their name, they do not eat honey but in fact raid bee and wasp nests in search of the grubs inside."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  },
  {
@@ -596,6 +758,12 @@
     "It is thought that this could be a defense against potential predation by Goshawk.",
     "a Goshawk is going to be more cautious against this well-armed species, than against the much weaker Honey Buzzard."
    ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
   }
  }
 ]
