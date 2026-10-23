@@ -10,9 +10,9 @@ Each species has four independent pools: English short, English long, German sho
 - **Short and long are separate facts, not two versions of one.** A short fact is complete and clear on its own. A long fact is a story that needs its detail; if it can't be told short, it stays long-only (owner: "sometimes the long ones are really cool, but don't make any sense without enough detail"). Never cut a long story down into a short one that loses the point (vetoed: the loggerhead hitchhikers' short version; "short version is too short and missing context" for the shrike's falcon tooth).
 - **Lengths** (characters including spaces, units rendered in metric): short up to **90**, long up to **140** (the text box limit, `docs/TEXT_REQUIREMENTS.md`). Short facts should still be full sentences with enough context ("It is the largest migratory shorebird in the world", not "The largest migratory shorebird in the world"; "kettles of tens of thousands of hawks", not "of tens of thousands").
 
-## English is US English, for US readers (owner, 2026-10-23)
+## English is US English, with a slight US focus (owner, 2026-10-23)
 
-Most users are in the US. English facts use US spelling and words (color, gray, armor, practice, fall rather than autumn, toward) and angles that make sense to US readers: US places, history, culture, people and measurements. No UK-centric facts (round 3 had many: Britain's cranes, the royal fish, Sussex, Chaucer); these are held back in `pipeline/facts_reviewed.json` under `removed_uk_focus`. A European species can still have European stories, told so a US reader gets them without UK background.
+Most users are in the US. English facts use US spelling and words (color, gray, armor, practice, fall rather than autumn, toward). New research leans toward US angles: US places, history, culture, people, flyways and conservation. Facts from other countries are welcome when a general reader gets the context (the British Museum, Britain's population numbers); skip deep regional trivia (county customs, royal weddings). The UK facts approved in round 3 stay: more facts are better.
 
 ## Round 3 lessons (owner's vetoes, 2026-10-23)
 
