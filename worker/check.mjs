@@ -57,7 +57,7 @@ for (const lang of ["en", "de"]) {
 let rotFails = 0, rotTurns = 0;
 for (const sp of data.species) {
   for (const a of sp.animals) {
-    for (let n = 1; n <= sp.facts.length + 9; n++) {  // + up to 3 track numbers and 4 individual facts (bound kept generous)
+    for (let n = 1; n <= Math.max(sp.facts.en.length, sp.facts.de.length) + 9; n++) {  // + up to 3 track numbers and 4 individual facts (bound kept generous)
       let last = -1;
       for (let c = 0; c < 50; c++) {
         const seen = new Set();
@@ -126,10 +126,10 @@ console.log(`notes: ${noteReach.length} from comments, ${noteBad.length} bad; da
 // systems renders without a leftover {metric|imperial} token, within 140
 // characters, and an imperial rendering names no metric unit.
 let unitFacts = 0, unitBad = [];
-for (const sp of data.species) for (const f of sp.facts) for (const lang of ["en", "de"]) for (const units of ["metric", "imperial"]) {
-  if (!/\{[^{}]*\|[^{}]*\}/.test(f[lang])) continue;
+for (const sp of data.species) for (const lang of ["en", "de"]) for (const f of sp.facts[lang]) for (const units of ["metric", "imperial"]) {
+  if (!/\{[^{}]*\|[^{}]*\}/.test(f.text)) continue;
   unitFacts++;
-  const r = renderUnits(f[lang], STRINGS[lang], lang, units);
+  const r = renderUnits(f.text, STRINGS[lang], lang, units);
   if (/[{}|]/.test(r) || r.length > 140 || (units === "imperial" && /\d (km|m|cm|kg|g|t|Tonnen|tonnes)\b/.test(r))) unitBad.push(`${lang} ${units}: ${r}`);
 }
 if (unitBad.length) fails++;

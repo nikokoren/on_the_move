@@ -187,12 +187,14 @@ export function factIndex(n, turn, key) {
 function factPool(t, lang, sp, a, units) {
   const f = a.facts;
   const days = travelDays(a.stays);
+  const name = a.name || t.thisAnimal;
   return [
-    // Sourced species facts (R8, data/species.json), then the animal's own numbers.
-    ...(sp.facts || []).map((x) => renderUnits(x[lang] || x.en, t, lang, units)),
-    fill(t.facts.yearKm, { dist: fmtDist(t, f.yearKmMin, lang, units) }),
-    fill(t.facts.span, { dist: fmtDist(t, f.spanKm, lang, units) }),
-    a.stays.length > 1 && days >= 5 && days <= 300 ? fill(t.facts.travelDays, { n: days }) : null,
+    // Owner-reviewed species facts, this language's short and long pools together
+    // (decision R8f; every view holds 140 characters), then the animal's own numbers.
+    ...((sp.facts && (sp.facts[lang] || sp.facts.en)) || []).map((x) => renderUnits(x.text, t, lang, units)),
+    fill(t.facts.yearKm, { name, dist: fmtDist(t, f.yearKmMin, lang, units) }),
+    fill(t.facts.span, { name, dist: fmtDist(t, f.spanKm, lang, units) }),
+    a.stays.length > 1 && days >= 5 && days <= 300 ? fill(t.facts.travelDays, { name, n: days }) : null,
     ...individualFacts(t, a, lang)
   ].filter(Boolean);
 }
@@ -202,17 +204,18 @@ function factPool(t, lang, sp, a, units) {
 // it (pipeline/build_individuals.py).
 function individualFacts(t, a, lang) {
   const i = a.individual || {};
-  const ym = (s) => ({ month: t.monthsLong[Number(s.slice(5, 7)) - 1], year: s.slice(0, 4) });
+  const name = a.name || t.thisAnimal;
+  const ym = (s) => ({ name, month: t.monthsLong[Number(s.slice(5, 7)) - 1], year: s.slice(0, 4) });
   const out = [];
-  if (i.sex === "f") out.push(t.facts.female);
-  if (i.sex === "m") out.push(t.facts.male);
+  if (i.sex === "f") out.push(fill(t.facts.female, { name }));
+  if (i.sex === "m") out.push(fill(t.facts.male, { name }));
   if (i.trackedFrom) {
     const from = ym(i.trackedFrom);
     out.push(a.live || !i.trackedTo
       ? fill(t.facts.trackedSince, from)
       : fill(t.facts.trackedFromTo, { ...from, month2: ym(i.trackedTo).month, year2: ym(i.trackedTo).year }));
   }
-  if (i.hatchYear) out.push(fill(i.hatchExact ? t.facts.hatched : t.facts.hatchedBy, { year: i.hatchYear }));
+  if (i.hatchYear) out.push(fill(i.hatchExact ? t.facts.hatched : t.facts.hatchedBy, { name, year: i.hatchYear }));
   // Hand-written notes from the record's free-text comment (pipeline/individuals_curated.json).
   for (const n of i.notes || []) out.push(n[lang] || n.en);
   return out;

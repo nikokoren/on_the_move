@@ -4,6 +4,14 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### R8f Facts in four separate pools: English and German, short and long (owner, 2026-10-22)
+
+- Why: two review rounds on the fact review page (28 + 123 items; round 1: 26 OK, 19 starred, 2 vetoed; round 2: 111 OK, 70 starred, 12 vetoed). Owner: German texts translated from English "reference English contexts or are just bad literal translations"; long facts are often great but "don't make any sense" when cut short.
+- Decided (owner): each species gets four independent pools (en short, en long, de short, de long). Languages are researched and written separately (by two different agents, owner's suggestion), never translated; short and long are separate facts, not two versions of one. Short up to 90 characters, long up to 140.
+- Rules and the owner's taste: `docs/FACT_STYLE.md`. Drafts checked by `pipeline/check_fact_draft.py` (lengths, quotes verbatim on the live page). Review verdicts kept in `pipeline/facts_draft_round1.json` and `pipeline/facts_draft_round2.json`.
+- Built 2026-10-23 (owner: "build them into the recipe now"): after four review rounds the approved pools are `pipeline/facts_reviewed.json` (English 136 short, 88 long; German 112 short, 71 long; 9 individual templates and 8 notes per language, all using the animal's name). `build_species.py` and `build_featured.py` carry them as `facts.en` / `facts.de` (each fact `text`, `len`); the Worker draws from the viewer's language only, short and long together, since every view holds 140 characters (render sweep below). The notes show their long version. `verify_sources.py` now checks `facts_reviewed.json`. Unit tokens are plain numbers (`{13000 km|8000 mi}`, ranges `{2430-3990 km|1510-2480 mi}`); German drafts had written `13.000`, which the renderer read as 13 (found by `worker/check.mjs` and fixed). Checks 2026-10-23: `worker/check.mjs` all passed (887 distinct facts, none over 140 characters, 136 unit renderings); render sweep with the longest English and German facts on all four views and four screens (OG, OG portrait, X, X portrait): 704/704; `verify_sources.py`: 407/407 quotes found (one FWS page had moved to www.fws.gov, URL updated). Not seen on a device.
+- Picking short or long by the space left (once a stat line takes room) stays with O1 step 3.
+
 ### N1 Names for unnamed animals (owner, 2026-10-03)
 
 - Why: 38 of the 52 featured animals had no name from the researchers, so the owner saw three different "Peregrine Falcon" with nothing to tell them apart.
@@ -16,6 +24,10 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 - Why: the animal list is getting long; before trimming or regrouping it, learn what people actually select (all species, a few, one alone; language, units, Flock View, photo).
 - Built: every poll writes one data point to Workers Analytics Engine (binding `STATS`, dataset `on_the_move_polls`; `worker/src/index.js` `recordPoll`, queries in `worker/README.md`). Settings only: no IP, no device id, no UTC offset. A failing or missing binding never affects the poll. `STATS_SAMPLE=N` records 1 poll in N, weighted. Limits from Cloudflare's docs (read 2026-10-03): free plan 100,000 data points and 10,000 queries a day; 3 months retention; datasets created on first write.
 - Checked: `worker/test/refresh-check.mjs` (6 new checks: the data point's fields, no IP or offset, defaults for an unsaved form, a throwing binding, no binding, sampling 1000 → 100 at weight 10), `worker/check.mjs` passes, `wrangler deploy --dry-run` lists the binding. Live data: see the status in `CLAUDE.md`.
+- Live: the deploy with the binding succeeded 2026-10-03 after the owner enabled Analytics Engine. First numbers (owner's dashboard exports, 7 days to 2026-10-15; re-run the README queries for newer ones): 820 polls, about one to two devices' worth at a 15-minute refresh, so likely mostly the owner's devices and TRMNL's preview.
+  - Selections: nothing ticked (all) 454 (55%), all 18 ticked by hand 118 (14%), honey buzzard + turtle dove 166 (20%), Canada goose alone 65 (8%), 12 species 10, 8 species 7. About 70% follow everything; every species is in at least one selection.
+  - Settings: English 682 (83%), German 138 (17%); imperial 78 (10%); Flock View on 785 (96%); photo on 820 (100%). The only Flock View off setup was German.
+  - Reading: defaults are rarely changed; Flock View on the TRMNL X is what nearly every poll shows (assuming X devices: the payload does not record the model). Ideas, not decided: say "nothing ticked = all" in the setting; record the device model.
 
 ### R8e No latitude facts (owner, 2026-10-02)
 
@@ -166,6 +178,12 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 - Applies to every TRMNL recipe. Full text in `docs/BRIEF.md`.
 
 ## Open
+
+### O4 Many more facts for every species (owner, 2026-10-23; planned, not started)
+
+- The owner: the current minimum (at least 6 short and 4 long per language and species) "is still too small"; long term every species needs many more, in all four pools (English short/long, German short/long). English with a slight US focus (`docs/FACT_STYLE.md`).
+- How: the same loop as R8f: separate English and German writers, `pipeline/check_fact_draft.py`, the owner's review page, then `facts_reviewed.json`. Re-check NABU (offline 2026-10-22): several earlier facts rested on it.
+- Today (2026-10-23): English 4 to 10 short and 4 to 6 long per species; German 4 to 8 short and 3 to 6 long.
 
 ### O2 Publish the templates through TRMNL's API (owner, 2026-10-03; planned, not started)
 

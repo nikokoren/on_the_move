@@ -1,0 +1,3336 @@
+{
+ "lang": "en",
+ "species": {
+  "Ciconia ciconia": {
+   "short": [
+    {
+     "id": "en-s-stork-village",
+     "text": "In the Polish village of Żywkowo, storks outnumber people five to one.",
+     "seed": "stork-village",
+     "source": {
+      "title": "Wikipedia, Żywkowo",
+      "url": "https://en.wikipedia.org/wiki/%C5%BBywkowo,_Warmian-Masurian_Voivodeship",
+      "quote": "For 30 inhabitants accrue about 160 storks and 42 nests."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-s-stork-legs",
+     "text": "Too hot? A stork cools off by pooping on its own legs.",
+     "seed": "stork-legs",
+     "source": {
+      "title": "Cabello-Vergel et al. 2021, Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-021-99296-8",
+      "europepmc": "DOI:10.1038/s41598-021-99296-8",
+      "quote": "Storks (Ciconiidae) frequently excrete onto their legs to prevent overheating, a phenomenon known as urohidrosis."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-stork-prinzesschen",
+     "text": "A stork called Prinzesschen has her own postage stamp and a bronze statue.",
+     "seed": "stork-prinzesschen",
+     "source": {
+      "title": "Volksstimme, Prinzesschens Reise (2016)",
+      "url": "https://www.volksstimme.de/lokal/burg/tierschutz-prinzesschens-reise",
+      "quote": [
+       "Wie aber kam der Vogel, der über ein Dutzend Jahre für die Wissenschaft fliegen sollte, zu seinem Namen?",
+       "Die von der Künstlerin Heike Landherr entworfene Bronzeskulptur steht auf dem Storchenhof Loburg",
+       "Das Motiv zeigt Prinzesschen fliegend, die Marke gehört zur Serie „Bedrohte Tierarten“"
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-stork-landfill",
+     "text": "Many storks in Spain and Portugal skip Africa and spend the winter at rubbish dumps.",
+     "seed": "stork-landfill",
+     "source": {
+      "title": "Gilbert et al. 2016, Movement Ecology: Are white storks addicted to junk food?",
+      "url": "https://doi.org/10.1186/s40462-016-0070-0",
+      "quote": [
+       "recently guaranteed, year-round food from landfill sites has facilitated the establishment of resident populations in Iberia.",
+       "Storks travelled up to 48.2 km to visit landfills during non-breeding"
+      ],
+      "europepmc": "DOI:10.1186/s40462-016-0070-0"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-stork-604years",
+     "text": "In 2020 wild white storks hatched chicks in England, the first in Britain for 604 years.",
+     "seed": null,
+     "source": {
+      "title": "National Geographic, After 604 years, white storks are nesting in Britain again (2020)",
+      "url": "https://www.nationalgeographic.com/animals/article/white-storks-nesting-britain-after-six-centuries",
+      "quote": "It was May 6, 2020, a landmark moment: It had been 604 years since the previous written record of white storks breeding anywhere in Britain."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-stork-republics",
+     "text": "In the 19th century, people believed storks would only live in republics.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, White stork",
+      "url": "https://en.wikipedia.org/wiki/White_stork",
+      "quote": "In the 19th century, storks were also thought to only live in countries having a republican form of government."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-s-stork-storkbite",
+     "text": "The pink birthmark some babies have on the back of the neck is called a 'stork bite'.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, White stork",
+      "url": "https://en.wikipedia.org/wiki/White_stork",
+      "quote": "Birthmarks on the back of the head of newborn baby, nevus flammeus nuchae , are sometimes referred to as stork-bite."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-s-stork-andersen",
+     "text": "The legend of storks bringing babies is ancient; Hans Christian Andersen made it popular.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, White stork",
+      "url": "https://en.wikipedia.org/wiki/White_stork",
+      "quote": "The legend is very ancient, but was popularised by a 19th-century Hans Christian Andersen story called \"The Storks\"."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-stork-klepetan",
+     "text": "Shot by hunters, the Croatian stork Malena never flew again. Her mate Klepetan flew {13000 km|8000 mi} back to her from South Africa every year.",
+     "seed": "stork-klepetan",
+     "source": {
+      "title": "Wikipedia, Klepetan and Malena",
+      "url": "https://en.wikipedia.org/wiki/Klepetan_and_Malena",
+      "quote": [
+       "Between 2001 and 2021, Klepetan traveled from South Africa to Brodski Varoš , Croatia, each spring to mate with Malena",
+       "Croatian janitor Stjepan Vokić found Malena while fishing in 1993; she had been shot by hunters and was unable to fly.",
+       "Through a radio tracking band, it was determined that Klepetan made a 13,000-kilometre (8,000 mi) month-long journey from South Africa to Croatia to meet up with Malena each year."
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-l-stork-arrow",
+     "text": "In 1822 a stork turned up in Germany with an {80 cm|31 in} African arrow in its neck: the first proof that storks winter in Africa.",
+     "seed": "stork-arrow",
+     "source": {
+      "title": "Universität Rostock, Schloss Bothmer: Der Pfeilstorch ist zurück",
+      "url": "https://www.uni-rostock.de/universitaet/kommunikation-und-aktuelles/medieninformationen/detailansicht/n/schloss-bothmer-der-pfeilstorch-ist-zurueck-26011/",
+      "quote": [
+       "als Bewohner von Gut Bothmer einen Weißstorch entdeckten, dem ein etwa 80 cm langer Stock am Hals hinunterhing.",
+       "Der Pfeilstorch lieferte somit den ersten Beweis für den Fernzug der Störche bis in das äquatoriale Afrika."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-stork-menes",
+     "text": "In 2013 Egyptian police detained a stork called Menes as a suspected spy. The suspicious device was a European wildlife tracker.",
+     "seed": null,
+     "source": {
+      "title": "ABC News, Egypt's 'Spy' Stork Found Dead (2013)",
+      "url": "https://abcnews.go.com/blogs/headlines/2013/09/egypts-spy-stork-found-dead",
+      "quote": [
+       "Egyptian police detained a stork in August when a resident in Egypt's Qena province, 280 miles southeast of Cairo, became suspicious after noticing a European wildlife tracker on the bird, The Associated Press reported.",
+       "A local conservation group said Saturday the stork, which it had named \"Menes,\" had been killed."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-stork-himmler",
+     "text": "In 1942 Himmler wanted storks to carry Nazi leaflets to South Africa. An ornithologist worked out 1,000 storks would deliver just 10.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, White stork",
+      "url": "https://en.wikipedia.org/wiki/White_stork",
+      "quote": [
+       "In 1942, Heinrich Himmler sought to use storks to carry Nazi propaganda leaflets so as to win support from the Boers in South Africa.",
+       "requiring 1000 birds to transmit 10 leaflets successfully. The plan was then dropped."
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-stork-banquets",
+     "text": "No one knows why storks vanished from Britain 600 years ago. They appear on medieval banquet menus, so they may simply have been eaten.",
+     "seed": null,
+     "source": {
+      "title": "National Geographic, After 604 years, white storks are nesting in Britain again (2020)",
+      "url": "https://www.nationalgeographic.com/animals/article/white-storks-nesting-britain-after-six-centuries",
+      "quote": "No one knows for certain why storks disappeared from Britain, though their appearance on the menus of medieval banquets suggests that they may simply have been targeted for food."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Grus grus": {
+   "short": [
+    {
+     "id": "en-s-crane-windpipe",
+     "text": "A crane's windpipe coils through its breastbone like a trumpet.",
+     "seed": "crane-windpipe",
+     "source": {
+      "title": "Naturpark Kyffhäuser, Kraniche im Blick (2021)",
+      "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+      "pdf": true,
+      "quote": "Seine Luftröhre ist beachtliche 130 cm lang und durchzieht als Doppelschlinge das Brustbein."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-crane-call",
+     "text": "You can hear a crane bugling from {5.6 km|3.5 mi} away.",
+     "seed": "crane-call",
+     "source": {
+      "title": "RSPB, Crane",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/crane",
+      "quote": "Cranes are vocal birds, with a distinct bugling call which can be heard up to 3.5 miles away."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-crane-family",
+     "text": "Unlike young storks, young cranes fly south with their parents.",
+     "seed": "crane-family",
+     "source": {
+      "title": "Naturpark Kyffhäuser, Kraniche im Blick (2021)",
+      "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+      "pdf": true,
+      "quote": "dass die Jungtiere das erste Mal mit ihren Eltern ins Winterquartier ziehen."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-crane-pairs",
+     "text": "Crane couples can stay together for life.",
+     "seed": "crane-pairs",
+     "source": {
+      "title": "Naturpark Kyffhäuser, Kraniche im Blick (2021)",
+      "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+      "pdf": true,
+      "quote": "Verpaarte Kraniche können ein Leben lang zusammen bleiben."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-crane-dance",
+     "text": "Cranes dance, and even the chicks practise the steps.",
+     "seed": "crane-dance",
+     "source": {
+      "title": "Naturpark Kyffhäuser, Kraniche im Blick (2021)",
+      "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+      "pdf": true,
+      "quote": "Schon Küken üben den Tanz"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-crane-banquet",
+     "text": "A banquet for an Archbishop of York in 1465 supposedly served up 204 cranes.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Cranes of Great Britain",
+      "url": "https://en.wikipedia.org/wiki/Cranes_of_Great_Britain",
+      "quote": "A banquet to celebrate George Neville's enthronement as Archbishop of York in 1465 supposedly included 204 cranes."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-crane-cranfield",
+     "text": "Cranfield in England is named after cranes: 'open country frequented by cranes'.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Cranes of Great Britain",
+      "url": "https://en.wikipedia.org/wiki/Cranes_of_Great_Britain",
+      "quote": "English place names with the prefix \"cran\" are not infrequent, and derive from the bird, for example the name of Cranfield in Bedfordshire derives from the Anglo-Saxon crane feld - open country frequented by cranes."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-crane-pedigree",
+     "text": "The word 'pedigree' comes from French for 'crane's foot', after the lines of family trees.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Pedigree chart",
+      "url": "https://en.wikipedia.org/wiki/Pedigree_chart",
+      "quote": "The word pedigree is a corruption of the Anglo-Norman French pé de grue or \"crane's foot\", either because the typical lines and split lines (each split leading to different offspring of the one parent line) resemble the thin leg and foot of a crane"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-crane-kingjohn",
+     "text": "Medieval England prized cranes as the 'noblest quarry'. In 1212 King John flew his gyrfalcons at cranes in Cambridgeshire and killed seven.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Cranes of Great Britain",
+      "url": "https://en.wikipedia.org/wiki/Cranes_of_Great_Britain",
+      "quote": [
+       "English people prized cranes as the \"noblest quarry\" for a falconer , and gladly ate them.",
+       "In December 1212 King John flew his gyrfalcons at cranes at Ashwell, in Cambridgeshire, and killed seven"
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-l-crane-school",
+     "text": "At Britain's 'crane school', keepers in grey hooded smocks fed the hand-reared chicks with plaster crane heads on litter pickers.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Cranes of Great Britain",
+      "url": "https://en.wikipedia.org/wiki/Cranes_of_Great_Britain",
+      "quote": "Although the cranes are hand-reared, all humans having contact with the birds wear special grey cover-all smocks, complete with hoods, and feed the cranes using plaster cast crane heads mounted onto litter picker handles."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-l-crane-return",
+     "text": "In 1979 two wild cranes turned up in Norfolk and stayed. In 1982 they raised a chick: Britain's first breeding cranes in about 400 years.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Cranes of Great Britain",
+      "url": "https://en.wikipedia.org/wiki/Cranes_of_Great_Britain",
+      "quote": [
+       "The origins of this population can be traced to 15 September 1979, when two birds appeared near Hickling Broad",
+       "these birds stayed throughout 1980 and 1981, and in 1982 raised a single young, the first successful breeding in Britain for around four hundred years."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-crane-crows",
+     "text": "Carrion crows are cunning egg thieves: they put on a distraction display to lure nesting cranes away, then steal their eggs.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Common crane",
+      "url": "https://en.wikipedia.org/wiki/Common_crane",
+      "quote": "The carrion crow ( Corvus corone ) is locally a successful predator of common cranes' eggs, trickily using distraction displays to steal them."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Pernis apivorus": {
+   "short": [
+    {
+     "id": "en-s-hb-nohoney",
+     "text": "Honey buzzards eat no honey. They're after the wasp grubs.",
+     "seed": "hb-nohoney",
+     "source": {
+      "title": "RSPB, Honey Buzzard",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/honey-buzzard",
+      "quote": "Despite their name, they do not eat honey but in fact raid bee and wasp nests in search of the grubs inside."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-hb-hornet",
+     "text": "Honey buzzards wreck the nests of the invasive Asian hornet.",
+     "seed": "hb-hornet",
+     "source": {
+      "title": "Martín-Ávila et al. 2025, Pest Management Science",
+      "url": "https://doi.org/10.1002/ps.8622",
+      "europepmc": "DOI:10.1002/ps.8622",
+      "quote": [
+       "as an ally for the control of the invasive yellow-legged hornet",
+       "with 89.3% of attacked nests destroyed."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-hb-disguise",
+     "text": "Young honey buzzards may dress up as common buzzards to fool goshawks.",
+     "seed": "hb-disguise",
+     "source": {
+      "title": "Hawk and Owl Trust, Honey Buzzard",
+      "url": "https://hawkandowltrust.org/learn-and-discover/about-birds-of-prey/honey-buzzard",
+      "quote": [
+       "It is thought that this could be a defense against potential predation by Goshawk.",
+       "a Goshawk is going to be more cautious against this well-armed species, than against the much weaker Honey Buzzard."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-hb-gapyear",
+     "text": "Young honey buzzards take a gap year: they roam Africa before they ever come back.",
+     "seed": "hb-gapyear",
+     "source": {
+      "title": "Strandberg et al. 2012, Movements of immature European honey buzzards in tropical Africa (Ardea)",
+      "url": "https://www.lunduniversity.lu.se/lup/publication/19705f46-e34c-4668-8dc3-076a9f024738",
+      "quote": [
+       "Immature European Honey Buzzards Pernis apivorus are believed to remain in tropical Africa during the first years of their lives.",
+       "They travelled between 2,430 and 3,990 km (minimum distances) during 13 to 14 months, in which they visited several sites."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-hb-sexes",
+     "text": "Unusual for a big raptor: male honey buzzards have blue-grey heads, females brown ones.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, European honey buzzard",
+      "url": "https://en.wikipedia.org/wiki/European_honey_buzzard",
+      "quote": "The sexes can be distinguished on plumage , which is unusual for a large bird of prey; the male has a blue-grey head, while the female's head is brown."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-hb-garden",
+     "text": "A few lucky people have watched young honey buzzards raid wasp nests in their gardens.",
+     "seed": null,
+     "source": {
+      "title": "Hawk and Owl Trust, Fascinating Facts About the Honey Buzzard",
+      "url": "https://hawkandowltrust.org/learn-and-discover/about-birds-of-prey/honey-buzzard",
+      "quote": "There have been records, for some very lucky people, of young Honey Buzzards attacking wasp nests in gardens."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-hb-batumi",
+     "text": "On 3 September 2012 counters at Batumi, Georgia, logged 179,342 honey buzzards in one day: a world record for the species.",
+     "seed": "hb-batumi",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, 1 million raptors pass Batumi, Georgia (2012)",
+      "url": "https://hawkmountain.org/news/raptor-news/1-million-raptors-pass-batumi-georgia",
+      "quote": "On September 3, counters recorded a one-day, world record 179,342 honey buzzards."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-hb-alone",
+     "text": "Adult honey buzzards detour via Gibraltar. Young ones on their first trip cross the Mediterranean anywhere, yet reach the same winter homes.",
+     "seed": "hb-alone",
+     "source": {
+      "title": "Hake et al. 2003, Age-dependent migration strategy in honey buzzards tracked by satellite (Oikos)",
+      "url": "https://www.lunduniversity.lu.se/lup/publication/cc016de0-aa7a-46f3-857d-097a29e4dd52",
+      "quote": [
+       "All adults crossed the Mediterranean Sea at the Strait of Gibraltar",
+       "In contrast, the juveniles travelled in more southerly directions, crossed the Mediterranean Sea at various places, but still ended up in the same wintering areas as the adults."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-hb-wind",
+     "text": "31 young honey buzzards set off from Finland, and the wind scattered them across {3340 km|2080 mi} of Africa, west to east.",
+     "seed": "hb-wind",
+     "source": {
+      "title": "Vansteelant et al. 2017, Proceedings of the Royal Society B",
+      "url": "https://doi.org/10.1098/rspb.2017.0387",
+      "europepmc": "DOI:10.1098/rspb.2017.0387",
+      "quote": [
+       "satellite-tagging 31 fledgling honey buzzards",
+       "the birds eventually spread out across 3340 km of longitude."
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-l-hb-armour",
+     "text": "Scale-like feathers around a honey buzzard's eyes are armour against stings, and its plumage may even carry a chemical that deters wasps.",
+     "seed": "hb-armour",
+     "source": {
+      "title": "Wikipedia, European honey buzzard",
+      "url": "https://en.wikipedia.org/wiki/European_honey_buzzard",
+      "quote": [
+       "Scale-like feathers around the eyes and forehead provide armour against the stings of its prey species.",
+       "Honey buzzards are thought to have a chemical deterrent in their feathers that protects them from wasp attacks."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Streptopelia turtur": {
+   "short": [
+    {
+     "id": "en-s-td-milk",
+     "text": "Turtle dove parents feed their chicks milk, made in their own throats.",
+     "seed": "td-milk",
+     "source": {
+      "title": "Smithsonian Science Education Center (Qrius), Pigeons and Doves: Parental Care",
+      "url": "https://qrius.si.edu/taxonomy/term/12132",
+      "quote": [
+       "Distinct from mammal milk, it is made in a pouch on the bird's throat (the crop).",
+       "Males and females both start to make crop milk just before eggs hatch."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-td-carol",
+     "text": "The carol's turtle doves never see a British Christmas: they're summer visitors.",
+     "seed": "td-carol",
+     "source": {
+      "title": "RSPB, Turtle Dove",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/turtle-dove",
+      "quote": [
+       "mention in the",
+       "12 Days of Christmas",
+       "carol, these birds are a summer visitor and are only with us from mid-April to end of August."
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-s-td-name",
+     "text": "The 'turtle' in turtle dove comes from its purring 'turr turr' call.",
+     "seed": "td-name",
+     "source": {
+      "title": "RSPB, Turtle Dove",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/turtle-dove",
+      "quote": "Its iconic purring ‘turr turr’ call is where the ‘Turtle’ name came from."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-td-decline",
+     "text": "Britain's turtle dove population has fallen by almost 99% since the 1960s.",
+     "seed": "td-decline",
+     "source": {
+      "title": "RSPB, Turtle Dove",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/turtle-dove",
+      "quote": "Turtle Dove numbers have plummeted by almost 99% since the 1960s."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-td-cockney",
+     "text": "In Cockney rhyming slang, 'turtle dove' means love, and also glove.",
+     "seed": null,
+     "source": {
+      "title": "Operation Turtle Dove, Turtle Doves in culture",
+      "url": "https://www.operationturtledove.org/turtle-doves/turtle-doves-in-culture/",
+      "quote": "Cockney rhyming slang also adopted “turtle dove” to mean love (and also “glove”)."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-s-td-homealone",
+     "text": "In Home Alone 2, a pair of turtle dove ornaments makes Kevin and the Bird Lady friends.",
+     "seed": null,
+     "source": {
+      "title": "Operation Turtle Dove, Turtle Doves in culture",
+      "url": "https://www.operationturtledove.org/turtle-doves/turtle-doves-in-culture/",
+      "quote": "And in a touching scene in Home Alone 2, released in 1992, Kevin presents one of his turtle dove ornaments to the Bird Lady, saying that as they have one each, they’ll be friends forever."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-s-td-egypt",
+     "text": "Egyptian wall reliefs from 4,500 years ago show turtle doves being caught in nets.",
+     "seed": null,
+     "source": {
+      "title": "Operation Turtle Dove, Turtle Doves in culture",
+      "url": "https://www.operationturtledove.org/turtle-doves/turtle-doves-in-culture/",
+      "quote": "Wall reliefs in Egypt from 4,500 years ago show the birds being trapped in nets."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-td-aphrodite",
+     "text": "In Greek myth, turtle doves pulled the chariot of Aphrodite, goddess of love.",
+     "seed": null,
+     "source": {
+      "title": "Operation Turtle Dove, Turtle Doves in culture",
+      "url": "https://www.operationturtledove.org/turtle-doves/turtle-doves-in-culture/",
+      "quote": "In Greek mythology, the birds pulled the chariot of Aphrodite, the goddess of love."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-td-yeezy",
+     "text": "Kanye West's first Yeezy trainers came out in a 'turtle dove' white and grey.",
+     "seed": null,
+     "source": {
+      "title": "Operation Turtle Dove, Turtle Doves in culture",
+      "url": "https://www.operationturtledove.org/turtle-doves/turtle-doves-in-culture/",
+      "quote": "In 2015, sports clothing brand Adidas collaborated on a range with Kanye West, which included trainers called Yeezy – first released in a “turtle dove” white and grey pattern."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-td-night",
+     "text": "Turtle doves fly south by night, up to {700 km|435 mi} at a stretch, at up to {60 km/h|37 mph}.",
+     "seed": "td-night",
+     "source": {
+      "title": "Operation Turtle Dove (RSPB and partners), Titan",
+      "url": "https://www.operationturtledove.org/turtle-doves/titan/",
+      "quote": "And he travelled around 500-700 km per night, flying at a maximum speed of 60 km per hour."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-td-botticelli",
+     "text": "Botticelli's portrait of the murdered Giuliano de' Medici includes a turtle dove. It's said to stand for his partner, in mourning.",
+     "seed": null,
+     "source": {
+      "title": "Operation Turtle Dove, Turtle Doves in culture",
+      "url": "https://www.operationturtledove.org/turtle-doves/turtle-doves-in-culture/",
+      "quote": [
+       "A posthumous portrait of him by Botticelli includes a perched turtle dove.",
+       "It’s said that Medici’s partner commissioned the picture, with the bird representing her, in mourning."
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-l-td-cocacola",
+     "text": "The 'snow white turtle doves' in the Coca-Cola song 'I'd like to teach the world to sing' were probably plain domestic white doves.",
+     "seed": null,
+     "source": {
+      "title": "Operation Turtle Dove, Turtle Doves in culture",
+      "url": "https://www.operationturtledove.org/turtle-doves/turtle-doves-in-culture/",
+      "quote": [
+       "Turtle doves also feature in the lyrics of “I’d like to teach the world to sing (in perfect harmony)”, a pop song from the 1970s which began life in a Coca-Cola advert.",
+       "However the “snow white turtle doves” mentioned are probably domesticated white doves!"
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-l-td-wedding",
+     "text": "At Harry and Meghan's 2018 wedding, millions heard a reading from the Song of Solomon that hails the turtle dove as a herald of spring.",
+     "seed": null,
+     "source": {
+      "title": "Operation Turtle Dove, Turtle Doves in culture",
+      "url": "https://www.operationturtledove.org/turtle-doves/turtle-doves-in-culture/",
+      "quote": [
+       "On 19 May 2018, the turtle dove enjoyed a moment of cultural recognition in one of the readings at the wedding of Prince Harry and Meghan Markle, watched by millions around the world.",
+       "The text, taken from the Song of Solomon in the Old Testament, describes the bird as a herald of spring."
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-td-hunting",
+     "text": "Up to four million turtle doves were shot yearly around the Mediterranean. After a 2021 hunting pause, western Europe's doves rose 47%.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, European turtle dove",
+      "url": "https://en.wikipedia.org/wiki/European_turtle_dove",
+      "quote": [
+       "According to a 2001 study cited by the European Commission, between two and four million turtle doves are shot annually in Malta, Cyprus, France, Italy, Spain and Greece.",
+       "Following the hunting moratorium, the western European breeding population increased by approximately 47% between 2021 and 2025."
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    }
+   ]
+  },
+  "Larus fuscus": {
+   "short": [
+    {
+     "id": "en-s-gull-chips",
+     "text": "Lesser black-backed gulls eat fish, worms and abandoned chips.",
+     "seed": "gull-chips",
+     "source": {
+      "title": "RSPB, Lesser Black-backed Gull",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/lesser-black-backed-gull",
+      "quote": "They feed on a large variety of food including fish, worms, and edible rubbish (and abandoned chips)."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-gull-dawdle",
+     "text": "Female gulls dawdle in autumn and arrive about 15 days after the males.",
+     "seed": "gull-dawdle",
+     "source": {
+      "title": "Baert et al. 2018, Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-018-23605-x",
+      "europepmc": "DOI:10.1038/s41598-018-23605-x",
+      "quote": "arrived 15 days later at their wintering areas, than males."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-gull-city",
+     "text": "City gulls barely visit the sea {10 km|6 mi} away: towns and fields feed them.",
+     "seed": "gull-city",
+     "source": {
+      "title": "Spelt et al. 2019, Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-019-46890-6",
+      "europepmc": "DOI:10.1038/s41598-019-46890-6",
+      "quote": "Despite the proximity of marine areas (~10 km), the birds only made significant use of terrestrial environments"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-gull-age",
+     "text": "The oldest known lesser black-backed gull lived to almost 35.",
+     "seed": "gull-age",
+     "source": {
+      "title": "BTO, BirdFacts: Lesser Black-backed Gull",
+      "url": "https://www.bto.org/understanding-birds/birdfacts/lesser-black-backed-gull",
+      "quote": "Maximum age from a ringed bird 34 years, 10 months, 27 days"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-gull-laugh",
+     "text": "This gull's 'laughing' cry sounds like a herring gull's, only much deeper.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Lesser black-backed gull",
+      "url": "https://en.wikipedia.org/wiki/Lesser_black-backed_gull",
+      "quote": "Their call is a \"laughing\" cry like that of the herring gull, but with a markedly deeper pitch."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-gull-america",
+     "text": "Once just a winter guest, this gull is now seen in North America all year round.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Lesser black-backed gull",
+      "url": "https://en.wikipedia.org/wiki/Lesser_black-backed_gull",
+      "quote": "Formerly just a winter visitor to North America, it now occurs in large numbers some winters and birds are recorded year-round."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-gull-menu",
+     "text": "These gulls eat almost anything: starfish, berries, eggs, chicks, offal, even pigeons.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Lesser black-backed gull",
+      "url": "https://en.wikipedia.org/wiki/Lesser_black-backed_gull",
+      "quote": [
+       "Lesser black-backed gull preying upon a feral pigeon",
+       "eat fish, insects, crustaceans, worms, starfish, molluscs, seeds, berries, small mammals, eggs, small birds, chicks, scraps, offal"
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-gull-victoria",
+     "text": "A satellite-tagged lesser black-backed gull flew its last {3500 km|2200 mi} to Lake Victoria non-stop: 92 hours, ending near Kampala.",
+     "seed": "gull-victoria",
+     "source": {
+      "title": "Kube et al., Hop or jump: autumn migration strategies of lesser black-backed gulls (Microwave Telemetry newsletter, 2000)",
+      "url": "https://www.microwavetelemetry.com/uploads/NewsletterPDFs/MTINewsletter_2000_Summer_page3.pdf",
+      "quote": [
+       "The other bird went further south to Lake Victoria.",
+       "It reached its wintering grounds near Kampala, Uganda, on 29 September.",
+       "Its final nonstop journey of about 3500 km lasted 92 hours (38 km/h)."
+      ],
+      "pdf": true
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-gull-ring",
+     "text": "Gull forms blend into each other around the Pole, yet at the ring's two ends, herring and lesser black-backed gulls are distinct species.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Lesser black-backed gull",
+      "url": "https://en.wikipedia.org/wiki/Lesser_black-backed_gull",
+      "quote": "Differences between adjacent forms in this ring are fairly small, but by the time the circuit is completed, the end members, herring gull and lesser black-backed gull, are clearly different species."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-gull-plastic",
+     "text": "Gulls feeding at Spanish rubbish dumps cough up the plastic in pellets at the lake where they sleep: about {400 kg|880 lb} of plastic a year.",
+     "seed": null,
+     "source": {
+      "title": "Martín-Vélez et al. 2024, Waste Management",
+      "url": "https://doi.org/10.1016/j.wasman.2024.01.034",
+      "europepmc": "DOI:10.1016/j.wasman.2024.01.034",
+      "quote": [
+       "we sampled gull pellets regurgitated in the lake by lesser black-backed gulls Larus fuscus that feed on landfills",
+       "An estimated annual mean of 400 kg of plastics were moved by gulls into the lake."
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-gull-landfill",
+     "text": "Tidier rubbish hurts these gulls: as landfills close and fishing boats throw back less, their rural and coastal colonies have declined.",
+     "seed": null,
+     "source": {
+      "title": "BTO BirdFacts, Lesser Black-backed Gull",
+      "url": "https://www.bto.org/understanding-birds/birdfacts/lesser-black-backed-gull",
+      "quote": "Recent declines particularly at rural and coastal colonies are associated with reduced breeding success resulting from reduced feeding opportunties due to closure of landfill sites and a reduction in fisheries discards."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    }
+   ]
+  },
+  "Lanius collurio": {
+   "short": [
+    {
+     "id": "en-s-shrike-larder",
+     "text": "Shrikes keep a larder: leftover prey, impaled on thorns for later.",
+     "seed": "shrike-larder",
+     "source": {
+      "title": "RSPB, Red-backed Shrike",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/red-backed-shrike",
+      "quote": "Their catches are taken to their 'larder' where they are impaled on a thorn or wedged into branches for later."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-shrike-mimic",
+     "text": "The red-backed shrike laces its song with other birds' calls.",
+     "seed": "shrike-mimic",
+     "source": {
+      "title": "Museum für Naturkunde Berlin, Naturblick: Red-backed shrike",
+      "url": "https://naturblick.museumfuernaturkunde.berlin/species/portrait/117?lang=en",
+      "quote": "They imitate the song of other birds."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-shrike-butcher",
+     "text": "Lanius, the red-backed shrike's Latin name, means 'butcher'.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Red-backed shrike",
+      "url": "https://en.wikipedia.org/wiki/Red-backed_shrike",
+      "quote": "The genus name, Lanius , is derived from the Latin word for \" butcher \", and some shrikes are also known as \"butcher birds\" because of their feeding habits."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-shrike-shriek",
+     "text": "The word 'shrike' comes from the Old English for 'shriek', after the bird's shrill call.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Red-backed shrike",
+      "url": "https://en.wikipedia.org/wiki/Red-backed_shrike",
+      "quote": "The common English name \"shrike\" is from Middle English *schrike , *schryke , from Old English sċrīc , \"shriek\", from the same root as shriek and screech , referring to the bird's shrill cry or call."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-shrike-hunter",
+     "text": "This little songbird is a hunter: it catches frogs, lizards, mice and even small birds.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Red-backed shrike",
+      "url": "https://en.wikipedia.org/wiki/Red-backed_shrike",
+      "quote": "This 16–18 cm-long (6.3–7.1 in) migratory bird eats large insects , small birds , frogs , rodents and lizards ."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-shrike-showoff",
+     "text": "A shrike's thorn larder is also for show: it tells females how good a male's territory is.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Shrike",
+      "url": "https://en.wikipedia.org/wiki/Shrike",
+      "quote": "The primary function of conspicuously impaling prey on thorny vegetation is however thought to be for males to display their fitness and the quality of the territory held to prospective mates."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-shrike-hooked",
+     "text": "Though a songbird, the red-backed shrike has a hooked bill like a bird of prey's, made for tearing meat.",
+     "seed": "shrike-tooth",
+     "source": {
+      "title": "Wikipedia, Shrike",
+      "url": "https://en.wikipedia.org/wiki/Shrike",
+      "quote": "Their beaks are hooked, like those of a bird of prey , reflecting their carnivorous nature; their calls are strident."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-shrike-cuckoo",
+     "text": "Red-backed shrikes were once among the cuckoo's top hosts. Now they attack cuckoos so fiercely that in places no cuckoo chicks are left.",
+     "seed": null,
+     "source": {
+      "title": "Hromada et al. 2022, Ecology and Evolution",
+      "url": "https://doi.org/10.1002/ece3.9664",
+      "europepmc": "DOI:10.1002/ece3.9664",
+      "quote": [
+       "Nevertheless, during the last 30 years, there is increasing evidence from Central Europe that the occurrence of cuckoo chicks in shrike nests has become scarcer, and that in some locations they have disappeared completely.",
+       "Our results show that shrikes defending their nests attacked cuckoos very vigorously, more often, and more intensively than they did sparrowhawks."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-shrike-chaucer",
+     "text": "Chaucer described a crooked summoner as full of venom as a 'wariangle': an old name for the shrike, once thought to be poisonous.",
+     "seed": null,
+     "source": {
+      "title": "Chaucer Bibliography Online (UTSA): Harrison, Chaucer's 'Wariangles' (1954)",
+      "url": "https://chaucer.lib.utsa.edu/items/show/277673",
+      "quote": "Offers historical \"bird-lore\" as evidence of the poisonousness of the \"wariangles\" (shrikes, or butcher-birds), cited in the description of the summoner in FrT 3.1408)."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-l-shrike-turberville",
+     "text": "In 1575 the poet George Turberville wrote that a shrike fakes cries of distress to lure other birds close, then 'devoureth them'.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Shrike",
+      "url": "https://en.wikipedia.org/wiki/Shrike",
+      "quote": [
+       "Shrikes vocally imitate their prey to lure them for capture.",
+       "In 1575, this was noted by the English poet George Turberville"
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-l-shrike-lastpair",
+     "text": "By 1988 just one pair of red-backed shrikes was left in Britain. The next year, for the first time, no nest was found anywhere in the UK.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Red-backed shrike",
+      "url": "https://en.wikipedia.org/wiki/Red-backed_shrike",
+      "quote": [
+       "The bird's last stronghold was in Breckland but by 1988 just a single pair remained",
+       "The following year for the first time no nests were recorded in the UK."
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    }
+   ]
+  },
+  "Oenanthe oenanthe": {
+   "short": [
+    {
+     "id": "en-s-wh-arse",
+     "text": "'Wheatear' started out as 'white arse', after the bird's white rump.",
+     "seed": "wh-arse",
+     "source": {
+      "title": "RSPB, Which birds return first in spring?",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/spring-arrivals",
+      "quote": [
+       "white arse",
+       "as it was known in old English, is one of the first"
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-wh-alaska",
+     "text": "A {25 g|0.9 oz} wheatear flies {14500 km|9000 mi} from Alaska to Africa, each way.",
+     "seed": "wh-alaska",
+     "source": {
+      "title": "Bairlein et al. 2012, Biol. Lett. 8: 505-507",
+      "url": "https://doi.org/10.1098/rsbl.2011.1223",
+      "europepmc": "DOI:10.1098/rsbl.2011.1223",
+      "quote": "with Alaskan birds travelling approximately 14 500 km each way"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-wh-greenland",
+     "text": "Some of Greenland's wheatears fly non-stop across the Atlantic to Spain.",
+     "seed": "wh-greenland",
+     "source": {
+      "title": "BTO, BirdFacts: Wheatear",
+      "url": "https://www.bto.org/understanding-birds/birdfacts/wheatear",
+      "quote": "with some flying non-stop across the Atlantic to northern Spain and then on to West Africa."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-wh-rabbits",
+     "text": "Wheatears love rabbits: they keep the grass short and dig their nest holes.",
+     "seed": "wh-rabbits",
+     "source": {
+      "title": "BTO, BirdFacts: Wheatear",
+      "url": "https://www.bto.org/understanding-birds/birdfacts/wheatear",
+      "quote": "Wheatears were more abundant on islands with larger rabbit populations and hence short turf and burrows for nesting"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-wh-speed",
+     "text": "Tracked wheatears averaged up to {290 km|180 mi} a day on migration.",
+     "seed": "wh-speed",
+     "source": {
+      "title": "Bairlein et al. 2012, Biol. Lett. 8: 505-507",
+      "url": "https://doi.org/10.1098/rsbl.2011.1223",
+      "europepmc": "DOI:10.1098/rsbl.2011.1223",
+      "quote": "mean overall migration speeds of up to 290 km d(-1)"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-wh-seven",
+     "text": "As a dish, the wheatear was once one of the 'Seven Good Things of Sussex'.",
+     "seed": null,
+     "source": {
+      "title": "Harvey's Brewery, The Wheatear or 'Sussex Ortolan' (2016)",
+      "url": "https://www.harveys.org.uk/news/wheatear-or-sussex-ortolan",
+      "quote": "here is a related piece (see part 3 ) about something that was once considered one of the ‘Seven Good Things of Sussex’"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-wh-asia",
+     "text": "Alaska's wheatears don't head south to the Americas. They fly west, over the Bering Strait and across the whole of Asia, to Africa.",
+     "seed": "wh-asia",
+     "source": {
+      "title": "Audubon Field Guide, Northern Wheatear",
+      "url": "https://www.audubon.org/field-guide/bird/northern-wheatear",
+      "quote": "Birds from Alaska and northwestern Canada cross Bering Strait and make long westward flight across Asia, also going to wintering grounds mostly in Africa."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-wh-dudeney",
+     "text": "Sussex shepherd John Dudeney (1782-1852) spent his wheatear money on books, taught himself Latin and maths, and became a schoolmaster.",
+     "seed": null,
+     "source": {
+      "title": "Harvey's Brewery, The Wheatear or 'Sussex Ortolan' (2016)",
+      "url": "https://www.harveys.org.uk/news/wheatear-or-sussex-ortolan",
+      "quote": [
+       "John Dudeney (1782-1852) was one such Sussex shepherd who used his wheatear wages to buy books teaching himself first to read and later, among other subjects, mathematics, French, Latin and astronomy.",
+       "This allowed him to take the position of schoolmaster in Lewes"
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-wh-coin",
+     "text": "Sussex custom: if you took a wheatear from a shepherd's trap, you left money in its place. One poet freed the birds and still left the coin.",
+     "seed": null,
+     "source": {
+      "title": "Harvey's Brewery, The Wheatear or 'Sussex Ortolan' (2016)",
+      "url": "https://www.harveys.org.uk/news/wheatear-or-sussex-ortolan",
+      "quote": [
+       "The custom was that if a (hungry) person wanted to remove a wheatear from a shepherd’s trap then they were to leave money in its place.",
+       "James Hurdis (1763-1801) records in his poem, ‘The Favourite Village’, that he would release the birds from the traps he passed but still leave the coin to compensate the shepherd."
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-wh-petticoat",
+     "text": "A Sussex shepherd couple once caught 1,200 wheatears in a day. To carry them home, he used his smock and she her petticoats.",
+     "seed": null,
+     "source": {
+      "title": "Harvey's Brewery, The Wheatear or 'Sussex Ortolan' (2016)",
+      "url": "https://www.harveys.org.uk/news/wheatear-or-sussex-ortolan",
+      "quote": [
+       "relates a story in his work “Nature in Downland” of an East Dean shepherd and shepherdess who abandoned their flock to process a hundred dozen wheatears that they caught in a single day.",
+       "The couple had to remove their smock and petticoats respectively in order to carry the birds home."
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-wh-hudson",
+     "text": "Naturalist W.H. Hudson was disgusted that wheatears were killed so London stockbrokers could feast on 'ortolans' at big Brighton hotels.",
+     "seed": null,
+     "source": {
+      "title": "Harvey's Brewery, The Wheatear or 'Sussex Ortolan' (2016)",
+      "url": "https://www.harveys.org.uk/news/wheatear-or-sussex-ortolan",
+      "quote": [
+       "was disgusted by “Britons with the Italian’s debased passion of a songbird’s flesh”",
+       "“killed merely to enable London stockbrokers, sporting men, and other gorgeous persons who visit the coast, accompanied by ladies with yellow hair, to feed every day on ‘ortolans’ at big Brighton hotels.”"
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    }
+   ]
+  },
+  "Numenius madagascariensis": {
+   "short": [
+    {
+     "id": "en-s-cur-bill",
+     "text": "The Far Eastern curlew has the longest bill of any wader: about {20 cm|8 in}.",
+     "seed": "cur-bill",
+     "source": {
+      "title": "Birds New Zealand / Te Papa, New Zealand Birds Online: Eastern curlew",
+      "url": "https://www.nzbirdsonline.org.nz/species/eastern-curlew",
+      "quote": "has the longest bill of any wader at around 20 cm in length."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-cur-largest",
+     "text": "It is the largest migratory shorebird in the world.",
+     "seed": "cur-largest",
+     "source": {
+      "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
+      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+      "pdf": true,
+      "quote": "Far eastern curlews are the largest migratory shorebird species in the world."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-cur-teen",
+     "text": "Young curlews stay two or three years in Australia before their first trip north.",
+     "seed": "cur-teen",
+     "source": {
+      "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
+      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+      "pdf": true,
+      "quote": "young far eastern curlews might spend their second austral winter in Australia, and some might also spend their third winter in Australia before undertaking their first northward migration"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-cur-sexes",
+     "text": "Females have longer bills and feed on sandier flats; males stick to the mud.",
+     "seed": "cur-sexes",
+     "source": {
+      "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
+      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+      "pdf": true,
+      "quote": [
+       "females tend to be larger and have a longer bill.",
+       "with females utilising more sandy areas and males utilising more muddy areas"
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-cur-yellowsea",
+     "text": "About 80% of all Far Eastern curlews refuel on the Yellow Sea.",
+     "seed": "cur-yellowsea",
+     "source": {
+      "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
+      "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+      "pdf": true,
+      "quote": "It supports approximately 80 percent of the species' estimated flyway population during their northward migration"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-cur-madagascar",
+     "text": "Its Latin name means 'from Madagascar', but this curlew has never been seen there.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Far Eastern curlew",
+      "url": "https://en.wikipedia.org/wiki/Far_Eastern_curlew",
+      "quote": "The name madagascariensis , referring to Madagascar , was an error by Brisson, with the type locality now known to have been Makassar on Sulawesi, Indonesia, where it winters; the species has never been recorded in Madagascar."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-cur-crab",
+     "text": "A Far Eastern curlew eats a crab by snapping off the legs first, then swallowing the lot.",
+     "seed": null,
+     "source": {
+      "title": "New Zealand Birds Online, Eastern curlew",
+      "url": "https://www.nzbirdsonline.org.nz/species/eastern-curlew",
+      "quote": "They usually break crabs legs off first before swallowing the legs and body."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-cur-nonstop",
+     "text": "Three curlews tracked from Victoria, Australia, all flew {8500 km|5300 mi} non-stop to the Yellow Sea: 7 to 8 days without landing.",
+     "seed": "cur-nonstop",
+     "source": {
+      "title": "Victorian Wader Study Group, Eastern Curlew geolocator study",
+      "url": "https://vwsg.org.au/waders/geolocator-studies/eastern-curlew/",
+      "quote": "The three Eastern Curlews departed from their non-breeding area during 4–14 Mar and all flew 8,500 km nonstop to the western shores of the Yellow Sea taking 7–8 days."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-cur-typhoon",
+     "text": "In 1997 a typhoon swept migrating curlews far east of their route. They still found their way back to their own wintering grounds.",
+     "seed": null,
+     "source": {
+      "title": "Bird Research News 1(3), Eastern Curlew (2004)",
+      "url": "https://www.bird-research.jp/1_shiryo/seitai/horoku.pdf",
+      "pdf": true,
+      "quote": [
+       "The tracked birds were hit by a typhoon on migration and some of them were swept east- wards from the normal route in 1997.",
+       "These birds returned to the wintering grounds."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-cur-darwin",
+     "text": "Two Darwin curlews reached the Yellow Sea. The adult flew on to breed in Kamchatka; the younger one surprised everyone by staying in China.",
+     "seed": null,
+     "source": {
+      "title": "NESP Threatened Species Recovery Hub, Curlew globe-trotting update",
+      "url": "https://www.nespthreatenedspecies.edu.au/news-and-media/latest-news/curlew-globe-trotting-update",
+      "quote": [
+       "Both birds left Darwin in April 2018 and reached the Yellow Sea to refuel for the next leg of the migration.",
+       "Only one of the birds, Bird A, travelled further north to the breeding grounds on the Kamchatka Peninsula in south-east Russia.",
+       "Bird B, the other, younger, bird surprised us by staying in China."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-cur-mudflats",
+     "text": "More than 65% of the Yellow Sea mudflats where these curlews refuel have been turned into land, and the curlew has declined with them.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Far Eastern curlew",
+      "url": "https://en.wikipedia.org/wiki/Far_Eastern_curlew",
+      "quote": "to the massive tidal flat reclamations by China, North Korea and South Korea along the coasts of the Yellow Sea , which have caused a greater than 65% loss of mudflats"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Buteo platypterus": {
+   "short": [
+    {
+     "id": "en-s-bwh-kettle",
+     "text": "'Kettles' of tens of thousands of hawks can circle over the Great Lakes shores.",
+     "seed": "bwh-kettle",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "flocks or “kettles” of tens of thousands of Broad-winged Hawks can be seen along the shorelines of the Great Lakes"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-bwh-dragonfly",
+     "text": "On the way south, broad-winged hawks snack on migrating dragonflies.",
+     "seed": "bwh-dragonfly",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "During migration, broadwings will feed opportunistically on insects, including migrating dragonflies"
+     },
+     "review": {}
+    },
+    {
+     "id": "en-s-bwh-twoweeks",
+     "text": "Most broad-winged hawks pass the hawk watches within just two weeks.",
+     "seed": "bwh-twoweeks",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "in autumn the majority of individuals pass migration watchsites during a brief and concentrated two-week period"
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-s-bwh-islands",
+     "text": "Broad-winged hawks on Cuba and Puerto Rico stay home all year.",
+     "seed": "bwh-islands",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "Non-migratory subspecies of broadwings inhabit Cuba, Puerto Rico, and several other islands in the West Indies."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-bwh-duluth",
+     "text": "On one September day in 2003, 101,698 broad-winged hawks flew past Duluth, Minnesota.",
+     "seed": null,
+     "source": {
+      "title": "Laura Erickson, For the Birds: Record-breaking Day at Hawk Ridge (2003)",
+      "url": "https://www.lauraerickson.com/radio/program/10692/record-breaking-day-at-hawk-ridge/",
+      "quote": [
+       "Yesterday, September 15, 2003, came as close to that vision as I’ve ever seen, right here in Duluth.",
+       "By the end of the day, the final count was 102,329 hawks, 101,698 of which were Broad-winged Hawks."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-bwh-follow",
+     "text": "The best way for a broad-winged hawk to find rising warm air: follow another broad-wing.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": "For Broad-winged Hawks one of the best means of locating thermals is by following another Broad-winged Hawk."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-bwh-veracruz",
+     "text": "In Veracruz, Mexico, locals play softball as up to half a million raptors a day glide over, nearly every North American broad-wing included.",
+     "seed": null,
+     "source": {
+      "title": "Audubon Magazine, River of Raptors (2010)",
+      "url": "https://www.audubon.org/magazine/river-raptors",
+      "quote": [
+       "There’s a girl’s softball team fielding grounders on one village green and a men’s soccer match in full swing on the other.",
+       "People here in central Veracruz State take it as the natural order of things that on any given day in early October, half a million raptors might be gliding in stately procession across the sky overhead.",
+       "Down through this bottleneck flies just about every able-bodied broad-winged hawk"
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-bwh-hawkmountain",
+     "text": "Broad-wings pour past Hawk Mountain each September. It was once a place to shoot hawks, until Rosalie Edge leased it in 1934.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, State Historical Marker Dedicated at Hawk Mountain",
+      "url": "https://www.hawkmountain.org/news/visitors/state-historical-marker-dedicated-at-hawk-mountain",
+      "quote": [
+       "Depending on wind and weather, mid-September migrants may include broad-winged hawks, ospreys, eagles, American kestrels, and more.",
+       "Once a popular gathering place to shoot migrating hawks, it was in 1934 that Rosalie Edge leased the land, installed a warden named Maurice Broun, and created the first safe haven for passing hawks, eagles and falcons.",
+       "In addition to turning away gunners"
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-bwh-juveniles",
+     "text": "In a kettle the adults tend to lead and the young follow. Young broad-wings that go astray may end up wintering in Florida, far off course.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": [
+       "in mixed-aged flocks adults are more likely to be the leading bird or in the leading half of the flock.",
+       "Observations of juveniles wintering in Florida, a location off the migration route and north of the typical wintering grounds, appears to support the idea that juveniles are more likely than adults to have difficulty with navigation and orientation."
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-l-bwh-sun",
+     "text": "Broad-wings race the sun. They leave in mid-September because later in autumn the sun is too low to make the warm updrafts they travel on.",
+     "seed": null,
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+      "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+      "quote": [
+       "Broad-winged Hawks need to leave their nesting grounds as soon as possible in order to migrate when thermal activity is most predictable.",
+       "Birds that leave later in the season, when the days are shorter and the sun is not as high in the sky, will face conditions that are less favorable for thermal migration."
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    }
+   ]
+  },
+  "Cathartes aura": {
+   "short": [
+    {
+     "id": "en-s-tv-vomit",
+     "text": "A threatened baby turkey vulture fights back with projectile vomit.",
+     "seed": "tv-vomit",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+      "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+      "quote": "Nestling Turkey Vultures projectile vomit to defend themselves."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-tv-hiss",
+     "text": "No voice box: turkey vultures can only hiss and grunt.",
+     "seed": "tv-hiss",
+     "source": {
+      "title": "Missouri Department of Conservation, Turkey Vulture",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/turkey-vulture",
+      "quote": "They have no voice box (syrinx), so they can only hiss and grunt when they vocalize."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-tv-anthrax",
+     "text": "Turkey vultures can eat carrion with anthrax or rabies, and stop it spreading.",
+     "seed": "tv-anthrax",
+     "source": {
+      "title": "Missouri Department of Conservation, Turkey Vulture",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/turkey-vulture",
+      "quote": "Their ability to safely eat carrion containing pathogens such as anthrax and rabies helps reduce the spread of these diseases."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-tv-follow",
+     "text": "Black vultures can barely smell, so they follow turkey vultures to dinner.",
+     "seed": "tv-follow",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+      "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+      "quote": "Other vultures, such as Black Vultures, lack a keen sense of smell and often follow Turkey Vultures to carcasses."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-tv-gas",
+     "text": "Turkey vultures have such a good sense of smell that they help find gas leaks.",
+     "seed": "tv-gas",
+     "source": {
+      "title": "Chesapeake Bay Program, Turkey Vulture",
+      "url": "https://www.chesapeakebay.net/discover/field-guide/entry/turkey-vulture",
+      "quote": "Turkey vultures have such a strong sense of smell that they can help gas companies detect gas leaks."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-tv-legs",
+     "text": "Like storks, turkey vultures cool off by pooping on their own legs.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Turkey vulture",
+      "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
+      "quote": "Like storks, the turkey vulture often defecates on its own legs, using the evaporation of the water in the feces and/or urine to cool itself, a process known as urohidrosis ."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-tv-lordrichard",
+     "text": "Lord Richard, a captive turkey vulture in California, was 51 years old in 2025.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Turkey vulture",
+      "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
+      "quote": [
+       "As of 2025, there is one captive bird which is 51 years",
+       "a male named Lord Richard that lives at the Lindsay Wildlife Experience in Walnut Creek, California"
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-tv-johncrow",
+     "text": "In parts of the Caribbean, the turkey vulture is known as the 'John crow'.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Turkey vulture",
+      "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
+      "quote": "In some areas of the Caribbean it is known as the \"John crow\" or \"carrion crow.\""
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-s-tv-coolnight",
+     "text": "Turkey vultures chill out at night: their body temperature drops by about {6 °C|11 °F}.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Turkey vulture",
+      "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
+      "quote": "The turkey vulture lowers its night-time body temperature by about 6 °C or 11 °F to 34 °C (93 °F) , becoming slightly hypothermic ."
+     },
+     "review": {
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-tv-hinckley",
+     "text": "A ranger in Hinckley, Ohio, noticed in the 1950s that the turkey vultures came back every 15 March. The town still expects them that day.",
+     "seed": "tv-hinckley",
+     "source": {
+      "title": "Ideastream Public Media, Hinckley's buzzards are just around the corner (2019)",
+      "url": "https://www.ideastream.org/news/hinckley-s-buzzards-are-just-around-the-corner",
+      "quote": [
+       "March 15 is the day that the buzzards, which are actually turkey vultures, are expected in Hinckley Township.",
+       "It was back in the 1950s that one of the rangers from in the Cleveland Metroparks Hinckley Reservation had noted that every March 15, he would see the vanguard of the local roost or flock of vultures returning to the hills of Hinckley."
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-tv-dance",
+     "text": "Courting turkey vultures play follow-the-leader in the air, one copying the other's flight path exactly.",
+     "seed": "tv-dance",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+      "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+      "quote": "Vultures perform aerial courtship displays during which one bird follows the other and precisely mimics the lead bird's flight path."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-tv-bald",
+     "text": "A bald head keeps a vulture clean: no feathers for bacteria to lodge in, and the sun disinfects the bare skin.",
+     "seed": "tv-bald",
+     "source": {
+      "title": "San Diego Zoo Wildlife Alliance, Vulture",
+      "url": "https://animals.sandiegozoo.org/animals/vulture",
+      "quote": "New World vultures have a distinctive bald head, an adaptation that helps reduce the risks of disease, because bacteria could become lodged in feathers, while the bald head and neck may be disinfected by the sun's rays."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-tv-wings",
+     "text": "Turkey vultures often stand with their wings spread wide, especially after damp nights: to dry off, warm up and bake off bacteria.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Turkey vulture",
+      "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
+      "quote": [
+       "This vulture is often seen standing in a spread-winged or horaltic stance.",
+       "The stance is believed to serve multiple functions: drying the wings, warming the body, and baking off bacteria.",
+       "It is practiced more often following damp or rainy nights."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Balaenoptera musculus": {
+   "short": [
+    {
+     "id": "en-s-bw-largest",
+     "text": "The blue whale is the largest animal that has ever lived.",
+     "seed": "bw-largest",
+     "source": {
+      "title": "NOAA Fisheries, Blue Whale",
+      "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+      "quote": "they are the largest animals ever to live on our planet"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-bw-tongue",
+     "text": "A blue whale's tongue weighs as much as an elephant.",
+     "seed": "bw-tongue",
+     "source": {
+      "title": "National Geographic, Blue whale",
+      "url": "https://www.nationalgeographic.com/animals/mammals/facts/blue-whale",
+      "quote": "A blue whale's tongue alone can weigh as much as an elephant—its heart as much as an automobile."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-bw-calf",
+     "text": "A blue whale calf drinks about {380 l|100 gal} of milk a day.",
+     "seed": "bw-calf",
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": "During the nursing period, calves consume 100 gallons (379 liters) of the fat-rich mother's milk each day, gain 200 pounds a day"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-bw-krill",
+     "text": "A blue whale can eat up to 40 million krill a day.",
+     "seed": "bw-krill",
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": "This means it may eat up to 40 million krill a day."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-bw-blow",
+     "text": "A blue whale's blow shoots more than {6 m|20 ft} straight up.",
+     "seed": "bw-blow",
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": "the blow is tall and straight and over 20 feet (6 meters) high."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-bw-calls",
+     "text": "Blue whale calls may carry about {1600 km|1000 mi} through the ocean.",
+     "seed": "bw-calls",
+     "source": {
+      "title": "NOAA Fisheries, Blue Whale",
+      "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+      "quote": "sounds emitted by blue whales can be heard by other whales up to 1,000 miles away"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-bw-sulphur",
+     "text": "Whalers called the blue whale 'sulphur bottom', for its yellowish belly.",
+     "seed": "bw-sulphur",
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": "Because of this yellow color, the early whalers gave it the name \"sulfur bottom.\""
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-bw-longest",
+     "text": "The longest blue whale on record was a female of {33 m|108 ft}, caught off Antarctica.",
+     "seed": null,
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": "The longest blue whale ever recorded was a 108-foot adult female caught during whaling efforts in Antarctica!"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-bw-1931",
+     "text": "In the 1931 whaling season alone, more than 29,000 blue whales were killed.",
+     "seed": null,
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": "The slaughter peaked in 1931 when over 29,000 were killed in one season."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-bw-earplug",
+     "text": "Whales can be aged by the layers of their waxy earplugs; the oldest blue whale aged this way was about 110.",
+     "seed": "bw-earplug",
+     "source": {
+      "title": "National Geographic, Blue whale",
+      "url": "https://www.nationalgeographic.com/animals/mammals/facts/blue-whale",
+      "quote": "The oldest blue whale found using this method was determined to be around 110 years old."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-bw-hope",
+     "text": "Hope, the blue whale skeleton in London's Natural History Museum, stranded near Wexford, Ireland, in 1891. The museum bought her for £250.",
+     "seed": null,
+     "source": {
+      "title": "Natural History Museum, Secret history of Hope the blue whale finally revealed (2018)",
+      "url": "https://www.nhm.ac.uk/discover/news/2018/september/secret-history-of-hope-the-blue-whale-finally-revealed.html",
+      "quote": [
+       "On the morning of 25 March 1891, a blue whale migrating up the east coast of Ireland was caught out by the low tide and stranded on a sandbar near the harbour town of Wexford.",
+       "Last but not least, he sold the skeleton to us for £250 – the equivalent of over £28,000 today."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-bw-royalfish",
+     "text": "Since 1324, any whale stranded in Britain is a 'royal fish' owned by the monarch, so Hope's carcass was sold by the Receiver of Wreck.",
+     "seed": null,
+     "source": {
+      "title": "Natural History Museum, Secret history of Hope the blue whale finally revealed (2018)",
+      "url": "https://www.nhm.ac.uk/discover/news/2018/september/secret-history-of-hope-the-blue-whale-finally-revealed.html",
+      "quote": [
+       "Whales have been deemed ‘royal fish’ under UK law since 1324, meaning that they automatically belong to the reigning monarch and the government acting on their behalf.",
+       "In this case, Hope’s carcass was auctioned off by the Receiver of Wreck – a role normally associated with salvaging shipwrecks."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "note": "Cut the last patz of that sentence about was sold by…"
+     }
+    },
+    {
+     "id": "en-l-bw-foyn",
+     "text": "Blue whales were too fast and too big for whalers in open boats, until a Norwegian, Sven Foyn, invented the exploding harpoon gun in 1868.",
+     "seed": null,
+     "source": {
+      "title": "American Cetacean Society, Blue Whale",
+      "url": "https://www.acsonline.org/blue-whale",
+      "quote": [
+       "Because of their enormous size and speed, blue whales were safe from early whalers, who could not pursue them in open boats with hand harpoons.",
+       "But in 1868 a Norwegian, Sven Foyn, revolutionized the whaling industry with the invention of the exploding harpoon gun"
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Caretta caretta": {
+   "short": [
+    {
+     "id": "en-s-lh-pacific",
+     "text": "Young loggerheads from Japan cross the whole Pacific to feed off Mexico.",
+     "seed": "lh-pacific",
+     "source": {
+      "title": "NOAA Fisheries, Loggerhead Turtle",
+      "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+      "quote": "Hatchlings from nesting beaches in Japan and Australia have been tracked migrating across the Pacific"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-lh-sand",
+     "text": "Warm sand makes girls: nest temperature decides a loggerhead's sex.",
+     "seed": "lh-sand",
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "The temperature of the sand in which turtles are hatched determines their sex—and, as those temperatures rise, more female loggerheads are being born."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-lh-magnet",
+     "text": "Loggerheads find home by magnetism: each coast has its own magnetic signature.",
+     "seed": "lh-magnet",
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "Each stretch of coastline has its own magnetic signature, and these turtles remember and use them as guides."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-lh-ocean",
+     "text": "Young loggerheads spend their first 7 to 15 years out in the open ocean.",
+     "seed": "lh-ocean",
+     "source": {
+      "title": "NOAA Fisheries, Loggerhead Turtle",
+      "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+      "quote": "Hatchlings and juveniles spend the first 7 to 15 years of their lives in the open ocean."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-lh-droppings",
+     "text": "Shell bits in loggerhead droppings feed other seabed animals with calcium.",
+     "seed": "lh-droppings",
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "whose shells pass through their digestive systems and, upon excretion, fall back to the bottom of the ocean for other animals to eat as a calcium source."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-lh-flotilla",
+     "text": "A group of loggerhead turtles is called a flotilla.",
+     "seed": null,
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "Group Name : Flotilla"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-lh-jaws",
+     "text": "Loggerheads are named for their big heads, with jaws strong enough to crush conchs.",
+     "seed": null,
+     "source": {
+      "title": "NOAA Fisheries, Loggerhead Turtle",
+      "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+      "quote": "The loggerhead turtle is named for its large head, which supports powerful jaw muscles that enable them to feed on hard-shelled prey, such as whelks and conch."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-lh-heavy",
+     "text": "Adult male loggerheads weigh about {113 kg|250 lb}, but some over {450 kg|1000 lb} have been found.",
+     "seed": null,
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "While adults males generally weigh about 250 pounds , loggerheads of more than a thousand pounds have been found."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-lh-queen",
+     "text": "Yoshi the loggerhead grew from {2 kg|4.4 lb} to {180 kg|400 lb} in 20 years at a Cape Town aquarium.",
+     "seed": null,
+     "source": {
+      "title": "Two Oceans Aquarium, Yoshi the sea turtle's almost 40 000 km oceanic journey continues (2020)",
+      "url": "https://www.aquarium.co.za/news/yoshi-the-sea-turtles-almost-40-000-km-oceanic-journey-continues",
+      "quote": [
+       "Yoshi the loggerhead turtle arrived in Cape Town in July 1997 on a Japanese fishing vessel as a small 2-kilogram juvenile",
+       "Over her 20 years at the Aquarium, Yoshi grew to a formidable 180 kilograms"
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-lh-yoshitaro",
+     "text": "In 1997 a Japanese fishing boat brought a small, hurt loggerhead to Cape Town. The captain named her Yoshitaro, after the ship's small cook.",
+     "seed": null,
+     "source": {
+      "title": "Two Oceans Aquarium, Yoshi the sea turtle's almost 40 000 km oceanic journey continues (2020)",
+      "url": "https://www.aquarium.co.za/news/yoshi-the-sea-turtles-almost-40-000-km-oceanic-journey-continues",
+      "quote": [
+       "Yoshi the loggerhead turtle arrived in Cape Town in July 1997 on a Japanese fishing vessel as a small 2-kilogram juvenile with a very distinctive injury on the side of her shell.",
+       "The captain of the fishing vessel named her Yoshitaro, after the cook onboard who was rather small in stature himself."
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-lh-yoshi",
+     "text": "After 20 years in an aquarium, Yoshi the loggerhead was set free in 2017 and swam more than {37000 km|23000 mi}, from Cape Town to Australia.",
+     "seed": null,
+     "source": {
+      "title": "TimesLIVE, Loggerhead turtle Yoshi reaches Australia, swimming 37,000km from SA (2020)",
+      "url": "https://www.timeslive.co.za/news/south-africa/2020-03-02-loggerhead-turtle-yoshi-reaches-australia-swimming-37000km-from-sa/",
+      "quote": [
+       "a loggerhead turtle released from the Two Oceans Aquarium in Cape Town in 2017, has recorded the longest journey of a tracked animal after arriving in Australian waters.",
+       "officials said Yoshi has become an international celebrity after travelling more than 37,000km to reach Australia."
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-lh-hitchhikers",
+     "text": "A loggerhead's shell is a whole world: more than a hundred kinds of living things, from barnacles to crabs and algae, live on it.",
+     "seed": "lh-hitch",
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "more than a hundred species of animals—including barnacles, crabs, and algae—live on their shells."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-lh-lights",
+     "text": "Bright lights can lead loggerhead hatchlings astray on their dash from nest to sea, so some coastal towns limit lights near nesting beaches.",
+     "seed": null,
+     "source": {
+      "title": "National Geographic, Loggerhead sea turtle",
+      "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+      "quote": "Some communities have developed ordinances reducing the amount of artificial light allowed near nesting sites as it can disorient hatchlings making their way from the nest to the sea."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Pandion haliaetus": {
+   "short": [
+    {
+     "id": "en-s-os-headfirst",
+     "text": "Ospreys carry their fish head first, like a torpedo.",
+     "seed": "os-headfirst",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Carry fish head first to make them more aerodynamic in flight."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-os-eyelid",
+     "text": "An extra eyelid works like swimming goggles when an osprey dives.",
+     "seed": "os-eyelid",
+     "source": {
+      "title": "RSPB, Osprey",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/osprey",
+      "quote": "They have a special extra eyelid – a bit like a contact lens – that helps to protect their eyes when they hunt under water."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-os-skydance",
+     "text": "Courting male ospreys 'sky dance' up to {90 m|300 ft} high, often holding a fish.",
+     "seed": "os-skydance",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": [
+       "males usually carry a fish or nesting material and call repeatedly.",
+       "which sometimes reach heights of 300 feet or more."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-os-gapyear",
+     "text": "Young ospreys spend over a year in Africa or South America before flying north.",
+     "seed": "os-gapyear",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Most Ospreys do not return to their breeding grounds until the spring of their second year"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-os-nest",
+     "text": "Ospreys add to their nest every year, until it weighs up to {180 kg|400 lb}.",
+     "seed": "os-nest",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Ospreys add material to their nests each year, and sometimes build massive structures weighing up to 400 pounds."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-os-alone",
+     "text": "The osprey is in a family of its own: no other living bird shares it.",
+     "seed": "os-alone",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Osprey",
+      "url": "https://www.hawkmountain.org/raptors/osprey",
+      "quote": "Ospreys are the only member of the family Pandionidae."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-os-seahawk",
+     "text": "'Sea hawk' is an old name for the osprey, as in the Seattle Seahawks.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Osprey",
+      "url": "https://en.wikipedia.org/wiki/Osprey",
+      "quote": [
+       "historically known as sea hawk , river hawk , and fish hawk",
+       "\"Seahawks\", another term for osprey, is also common among sports teams."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-os-nostrils",
+     "text": "Ospreys can close their nostrils to keep the water out when they dive.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Osprey",
+      "url": "https://en.wikipedia.org/wiki/Osprey",
+      "quote": "closable nostrils to keep out water during dives"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-os-oldest",
+     "text": "The oldest known wild osprey in Europe lived to 26 years and 11 months.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Osprey",
+      "url": "https://en.wikipedia.org/wiki/Osprey",
+      "quote": "The oldest European wild osprey on record lived to be 26 years and 11 months of age."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-os-lady",
+     "text": "Lady nested at Loch of the Lowes for 24 years, laid 71 eggs and fledged 50 chicks. An average osprey lives 8 years and raises 20.",
+     "seed": "os-lady",
+     "source": {
+      "title": "Scottish Wildlife Trust, Celebrating 50 years of ospreys at Loch of the Lowes",
+      "url": "https://scottishwildlifetrust.org.uk/?p=841816",
+      "quote": [
+       "a remarkable individual who over the following 24 years laid 71 eggs, fledged 50 chicks and had 4 male partners.",
+       "Given the average osprey lives 8 years and produces 20 chicks it is a remarkable achievement."
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-os-coriolanus",
+     "text": "Medieval people believed fish were so spellbound by an osprey that they turned belly-up in surrender. Shakespeare used it in Coriolanus.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Osprey",
+      "url": "https://en.wikipedia.org/wiki/Osprey",
+      "quote": [
+       "A medieval belief held that fish were so mesmerised by the osprey that they turned belly-up in surrender",
+       "and this is referenced by Shakespeare in Act 4 Scene 5 of Coriolanus"
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-os-pliny",
+     "text": "Pliny the Elder claimed that osprey parents made their young fly up towards the sun as a test, and got rid of any that failed.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Osprey",
+      "url": "https://en.wikipedia.org/wiki/Osprey",
+      "quote": "Roman writer Pliny the Elder reported that parent ospreys made their young fly up to the sun as a test and dispatched any that failed."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-os-plumes",
+     "text": "Victorian hats were trimmed with 'osprey' plumes, a big item in the 19th-century feather trade. In fact, the feathers came from egrets.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Osprey",
+      "url": "https://en.wikipedia.org/wiki/Osprey",
+      "quote": [
+       "So-called \"osprey\" plumes were an important item in the plume trade of the late 19th century and used in hats",
+       "Despite their name, these plumes were actually obtained from egrets ."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Chen caerulescens": {
+   "short": [
+    {
+     "id": "en-s-sg-bark",
+     "text": "Greater snow geese bark like dogs: the noisiest of all waterfowl.",
+     "seed": "sg-bark",
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "resembling a dog's bark, which it utters at any time—has earned this goose a reputation as the noisiest of waterfowl."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-sg-blue",
+     "text": "The 'blue goose' is just a snow goose in a darker coat.",
+     "seed": "sg-blue",
+     "source": {
+      "title": "Audubon Field Guide, Snow Goose",
+      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
+      "quote": "now known to be only a color morph of the smaller race of Snow (Lesser Snow Goose)"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-sg-quebec",
+     "text": "Over half a million snow geese gather at Baie-du-Febvre, Quebec, each April.",
+     "seed": "sg-quebec",
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "Striking concentrations of more than 500 000 Greater Snow Geese can be seen in early April at Baie-du-Febvre"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-sg-daylight",
+     "text": "In the Arctic summer, snow geese eat around the clock in 24-hour daylight.",
+     "seed": "sg-daylight",
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "24 hours a day in the Arctic's round-the-clock summer daylight."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-sg-chicks",
+     "text": "Snow goose chicks leave the nest hours after hatching and feed themselves.",
+     "seed": "sg-chicks",
+     "source": {
+      "title": "Audubon Field Guide, Snow Goose",
+      "url": "https://www.audubon.org/field-guide/bird/snow-goose",
+      "quote": "A young Snow Goose will usually leave nest within a few hours after hatching; they find their own food"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-sg-grin",
+     "text": "A snow goose seems to smile: a dark 'grinning patch' runs along each side of its bill.",
+     "seed": null,
+     "source": {
+      "title": "Hinterland Who's Who, Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "These cutting edges form a blackish arc, called a “grinning patch” or “smile,” along each side of the bill on both the upper and lower mandibles."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-sg-rusty",
+     "text": "Digging in iron-rich mud often stains a snow goose's white head rusty orange.",
+     "seed": null,
+     "source": {
+      "title": "Hinterland Who's Who, Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "Because the goose constantly digs in the mud in search of food, its head often becomes stained rusty-orange from the traces of iron in the mud."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-sg-forlife",
+     "text": "Snow geese mate for life, and only take a new partner if theirs dies.",
+     "seed": null,
+     "source": {
+      "title": "Hinterland Who's Who, Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": "They mate for life, taking another mate only if their partner dies."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-sg-walk",
+     "text": "On Canada's Bylot Island, snow goose chicks just a day old set off on a {30 km|19 mi} walk with their families.",
+     "seed": "sg-walk",
+     "source": {
+      "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": [
+       "the distance between the birds' nesting and breeding sites is more than 30 km.",
+       "Within a day of hatching, many young geese set off on this trek with their families, reaching their destination within four days."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-sg-owls",
+     "text": "Snow geese like to nest near snowy owls. The owls chase off the foxes and jaegers that raid goose nests, and they seldom attack goslings.",
+     "seed": null,
+     "source": {
+      "title": "Hinterland Who's Who, Greater Snow Goose",
+      "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+      "quote": [
+       "For protection, snow geese will readily nest near Snowy Owls’ nests.",
+       "The owls’ intolerance of foxes and jaegers on their territory is beneficial to the geese, and owls seldom attack goslings."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-sg-gallico",
+     "text": "In Paul Gallico's 1941 novella The Snow Goose, a girl finds a wounded snow goose, and a lonely artist nurses it back to flight.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, The Snow Goose (novella)",
+      "url": "https://en.wikipedia.org/wiki/The_Snow_Goose_(novella)",
+      "quote": [
+       "The Snow Goose: A Story of Dunkirk is a novella by the American author Paul Gallico .",
+       "after which he expanded it to create a short novella which was published on 7 April 1941.",
+       "The snow goose , symbolic of both Rhayader (Gallico) and the world itself, wounded by gunshot and many miles from home, is found by Fritha and, as the human friendship blossoms, the bird is nursed back to flight"
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-sg-berkeley",
+     "text": "In 2016 a snowstorm forced up to 10,000 snow geese onto the only open water around: a toxic, flooded copper mine. Thousands died.",
+     "seed": null,
+     "source": {
+      "title": "Audubon, Thousands of Snow Geese Die After Landing in Poisonous Mine Waters (2016)",
+      "url": "https://www.audubon.org/news/thousands-snow-geese-die-after-landing-poisonous-mine-waters",
+      "quote": [
+       "Last week as many as 10,000 geese , likely forced to land amid a snowstorm, settled on the toxic waters of the Berkeley Pit in Butte.",
+       "When a winter storm hit, the birds landed on the only open water in the area: the Berkeley Pit.",
+       "Officials are still tallying the death toll, but they estimate that thousands of geese have died from ingesting the contaminated waters of the former open-pit copper mine."
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    }
+   ]
+  },
+  "Branta canadensis": {
+   "short": [
+    {
+     "id": "en-s-cg-nene",
+     "text": "Hawaii's own goose, the nene, descends from Canada geese that reached the islands.",
+     "seed": "goose-nene",
+     "source": {
+      "title": "Wikipedia, Nene (bird)",
+      "url": "https://en.wikipedia.org/wiki/Nene_(bird)",
+      "quote": [
+       "It is thought that the nene evolved from the Canada goose ( Branta canadensis ), which most likely arrived on the Hawaiian islands about 500,000 years ago"
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-cg-tailwind",
+     "text": "With a good tailwind, a Canada goose can fly {2400 km|1500 mi} in a day.",
+     "seed": "goose-tailwind",
+     "source": {
+      "title": "National Geographic, Canada Goose",
+      "url": "https://www.nationalgeographic.com/animals/birds/facts/canada-goose",
+      "quote": "They can cover 1,500 miles in just 24 hours with a favorable wind"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-cg-duet",
+     "text": "Canada geese honk in duets: he calls 'a-honk!', she answers 'hink!'.",
+     "seed": "goose-duet",
+     "source": {
+      "title": "Missouri Department of Conservation, Canada Goose",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
+      "quote": "while the females make a faster, higher-pitched"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-cg-grounded",
+     "text": "Every summer Canada geese lose all their flight feathers and are grounded for a month.",
+     "seed": "goose-grounded",
+     "source": {
+      "title": "Missouri Department of Conservation, Canada Goose",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
+      "quote": "Adults lose their flight feathers during incubation and cannot fly for nearly a month."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-s-cg-family",
+     "text": "Goose families stick together: the young fly south and back with their parents.",
+     "seed": "goose-family",
+     "source": {
+      "title": "Missouri Department of Conservation, Canada Goose",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
+      "quote": "The goslings stay with their parents all the time and do not leave them until after the spring migration."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-cg-biggest",
+     "text": "The biggest wild goose ever recorded was a giant Canada goose of {10.9 kg|24 lb}.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Canada goose",
+      "url": "https://en.wikipedia.org/wiki/Canada_goose",
+      "quote": [
+       "weighed 10.9 kg (24 lb) and had a wingspan of 2.24 m (7 ft 4 in)",
+       "This specimen is the largest wild goose ever recorded of any species."
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-s-cg-altitude",
+     "text": "Canada geese have been reported flying as high as {9 km|29000 ft}.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Canada goose",
+      "url": "https://en.wikipedia.org/wiki/Canada_goose",
+      "quote": "The maximum flight ceiling of Canada geese is unknown, but they have been reported at 9 km (29,000 feet)."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-s-cg-age",
+     "text": "A Canada goose can live to be at least 33 years old.",
+     "seed": null,
+     "source": {
+      "title": "Missouri Department of Conservation, Canada Goose",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
+      "quote": "A Canada goose can live to be at least 33 years old."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-cg-king",
+     "text": "Britain's Canada geese go back to a royal whim: in the late 17th century they were added to the king's waterfowl in St James's Park, London.",
+     "seed": "goose-king",
+     "source": {
+      "title": "Wikipedia, Canada goose",
+      "url": "https://en.wikipedia.org/wiki/Canada_goose",
+      "quote": "The geese were introduced into Great Britain in the late 17th century as an addition to King James II 's waterfowl collection in St James's Park ."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-cg-balcony",
+     "text": "Goslings leave the nest the day after hatching, wherever it is. In Edmonton a brood jumped nine floors from a balcony to their parents.",
+     "seed": "goose-balcony",
+     "source": {
+      "title": "CBC News, Oliver balcony goslings hatch, jump off 10th floor balcony the next day (2015)",
+      "url": "https://amp.cbc.ca/news/canada/edmonton/oliver-balcony-goslings-hatch-jump-off-10th-floor-balcony-the-next-day-1.3070952",
+      "quote": [
+       "the day-old goslings took Lavin by surprise.",
+       "The goslings' quick departure was especially surprising given that Lavin lives on the 10th floor — and they jumped all the way to the roof of the parkade where their parents were waiting, 9 floors below."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-cg-giant",
+     "text": "Thought extinct for 30 years, the giant Canada goose turned up wintering in a Rochester park, on a lake kept open by a power plant.",
+     "seed": "goose-giant",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service press release, 1 April 1963",
+      "url": "https://fws.gov/press-release/1963-04/giant-canada-goose-long-believed-extinct-rediscovered-minnesota",
+      "quote": [
+       "The world’s largest wild goose, the giant Canada, which for over thirty years was thought to be extinct, has been rediscovered in Minnesota",
+       "The lake is kept partly open by the discharge of warm water from a nearby electric generating plant."
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-l-cg-vee",
+     "text": "Canada geese migrate in a V about {1 km|3000 ft} up. Flying in front takes the most energy, so the birds take turns in the lead.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Canada goose",
+      "url": "https://en.wikipedia.org/wiki/Canada_goose",
+      "quote": [
+       "Canada geese fly in a distinctive V-shaped flight formation, with an altitude of 1 km (3,000 feet) for migration flight.",
+       "The front position is rotated since flying in front consumes the most energy."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Haliaeetus leucocephalus": {
+   "short": [
+    {
+     "id": "en-s-be-cartwheel",
+     "text": "Courting bald eagles lock talons and cartwheel down from the sky.",
+     "seed": "be-cartwheel",
+     "source": {
+      "title": "Audubon Field Guide, Bald Eagle",
+      "url": "https://www.audubon.org/field-guide/bird/bald-eagle",
+      "quote": "During a spectacular courtship display, the male and female Bald Eagle fly high into the sky, lock talons, and cartwheel down toward earth, unlocking talons just before crashing to the ground."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-be-swim",
+     "text": "Too wet to take off, a bald eagle rows ashore with its wings.",
+     "seed": "be-swim",
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "quote": "swimming with their catch with a rowing motion of their wings, if they're too wet to fly directly off the water!"
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-s-be-chilkat",
+     "text": "Over a thousand bald eagles feast on salmon on Alaska's Chilkat River.",
+     "seed": "be-chilkat",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Bald Eagle",
+      "url": "https://www.hawkmountain.org/raptors/bald-eagle",
+      "quote": "More than a thousand eagles, for example, regularly congregate along the Chilkat River in Alaska"
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-s-be-thief",
+     "text": "Bald eagles often steal their dinner from other raptors, especially ospreys.",
+     "seed": "be-thief",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Bald Eagle",
+      "url": "https://www.hawkmountain.org/raptors/bald-eagle",
+      "quote": "Often steal prey from other raptors, especially Ospreys"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-be-white",
+     "text": "Young bald eagles only get their white head in their fourth or fifth year.",
+     "seed": "be-white",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Bald Eagle",
+      "url": "https://www.hawkmountain.org/raptors/bald-eagle",
+      "quote": "Juvenile Bald Eagles do not get their adult plumage until their fourth or fifth year."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-be-recovery",
+     "text": "Bald eagles recovered so well they left the US endangered list in 2007.",
+     "seed": "be-recovery",
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "quote": "bald eagles were delisted from the Endangered Species Act in August 2007"
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-s-be-official",
+     "text": "A US emblem since 1782, the bald eagle only became the official national bird in 2024.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Bald eagle",
+      "url": "https://en.wikipedia.org/wiki/Bald_eagle",
+      "quote": [
+       "It was adopted as a national emblem in 1782.",
+       "It has long been considered the \"national bird\", though unofficially until the act of Congress S.4610 was signed into law on December 23, 2024."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-be-baldname",
+     "text": "Bald eagles aren't bald: 'bald' once meant 'white-headed'.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Bald eagle",
+      "url": "https://en.wikipedia.org/wiki/Bald_eagle",
+      "quote": "Bald eagles are not bald in the literal sense; the name derives from an older meaning of the word, \"white-headed\"."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-be-scream",
+     "text": "Real bald eagles have a dopey chuckle of a call. On screen they're nearly always dubbed with the scream of a red-tailed hawk.",
+     "seed": "be-scream",
+     "source": {
+      "title": "Audubon, Birdist Rule #50: Learn the live bird errors in TV and movies",
+      "url": "https://audubon.org/news/birdist-rule-50-learn-live-bird-errors-tv-and-movies",
+      "quote": [
+       "Nearly every single time a Bald Eagle is shown on screen, it’s accompanied by the iconic scream of a Red-tailed Hawk.",
+       "Bald Eagles have sort of a dopey chuckle for a call, and Red-tails have that heart-stopping scream."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-be-nest",
+     "text": "The biggest bald eagle nest on record, in Florida, was {2.9 m|9.5 ft} wide, {6 m|20 ft} deep and weighed almost {2.7 t|6000 lb}.",
+     "seed": "be-nest",
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+      "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "quote": "Petersburg, Florida, was 9.5 feet in diameter, 20 feet deep and weighed almost 6,000 pounds!"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-be-franklin",
+     "text": "In a letter, Benjamin Franklin called the bald eagle 'a bird of bad moral character'. But there is no evidence he wanted the turkey instead.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Bald eagle",
+      "url": "https://en.wikipedia.org/wiki/Bald_eagle",
+      "quote": [
+       "He is a bird of bad moral character.",
+       "Contrary to popular legend, there is no evidence that Benjamin Franklin ever publicly supported the wild turkey"
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-be-oldabe",
+     "text": "Old Abe, a bald eagle, went to war with a Wisconsin regiment in the Civil War, and later became the 'screaming eagle' of the 101st Airborne.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Old Abe",
+      "url": "https://en.wikipedia.org/wiki/Old_Abe",
+      "quote": [
+       "was a bald eagle who was the mascot of the 8th Wisconsin Volunteer Infantry Regiment in the American Civil War",
+       "as the screaming eagle on the insignia of the U.S. Army 's 101st Airborne Division"
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    }
+   ]
+  },
+  "Setophaga striata": {
+   "short": [
+    {
+     "id": "en-s-bp-nonstop",
+     "text": "A {12 g|0.4 oz} blackpoll flies non-stop across the Atlantic, up to {2770 km|1720 mi}.",
+     "seed": "bp-nonstop",
+     "source": {
+      "title": "DeLuca et al. 2015, Biol. Lett. 11: 20141045",
+      "url": "https://doi.org/10.1098/rsbl.2014.1045",
+      "europepmc": "DOI:10.1098/rsbl.2014.1045",
+      "quote": "completes an autumn transoceanic migration ranging from 2270 to 2770 km"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-bp-3days",
+     "text": "A blackpoll's ocean crossing can take 3 days without a break.",
+     "seed": "bp-3days",
+     "source": {
+      "title": "DeLuca et al. 2015, Biol. Lett. 11: 20141045",
+      "url": "https://doi.org/10.1098/rsbl.2014.1045",
+      "europepmc": "DOI:10.1098/rsbl.2014.1045",
+      "quote": "requiring up to 3 days (62 h ± 10) of non-stop flight"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-bp-lost",
+     "text": "Every autumn 100 or more lost blackpolls turn up on the Pacific coast.",
+     "seed": "bp-lost",
+     "source": {
+      "title": "Audubon Field Guide, Blackpoll Warbler",
+      "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
+      "quote": "Every fall, many (to 100 or more) lost strays appear along Pacific Coast."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-s-bp-mail",
+     "text": "A blackpoll weighs {10 to 12 g|0.4 oz}: you could mail two of them anywhere in the US.",
+     "seed": null,
+     "source": {
+      "title": "Northern Woodlands, Birds in Focus: Fat, Flight, and Fitness in a Blackpoll Warbler",
+      "url": "https://northernwoodlands.org/articles/article/blackpoll-warbler",
+      "quote": "After breeding in July, the average blackpoll warbler weighs in at about 10 to 12 grams (no more than half an ounce) which means you could mail two blackpolls anywhere in the U.S."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-s-bp-double",
+     "text": "Before its ocean flight, a blackpoll nearly doubles its weight on insects and fruit.",
+     "seed": null,
+     "source": {
+      "title": "Northern Woodlands, Birds in Focus: Fat, Flight, and Fitness in a Blackpoll Warbler",
+      "url": "https://northernwoodlands.org/articles/article/blackpoll-warbler",
+      "quote": "But before the fall flight, blackpolls nearly double their mass as they binge on insects, spiders, seeds, and fruit."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-bp-tundra",
+     "text": "Blackpolls breed closer to the Arctic tundra than any other warbler.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Blackpoll warbler",
+      "url": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
+      "quote": "Blackpolls breed nearer to the tundra than any other warbler."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-s-bp-baypoll",
+     "text": "In autumn, blackpolls and bay-breasted warblers look so alike they're called 'baypolls'.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Blackpoll warbler",
+      "url": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
+      "quote": [
+       "is substantionally similar in appearance to the bay-breasted warbler during fall migration, resulting in the two birds sometimes being collectively called",
+       "baypoll warblers"
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-bp-icecream",
+     "text": "Flying from Maine to Brazil, a blackpoll warbler burns less fat than there is in a single serving of Ben & Jerry's ice cream.",
+     "seed": "bp-icecream",
+     "source": {
+      "title": "Northern Woodlands, Blackpoll warbler",
+      "url": "https://northernwoodlands.org/articles/article/blackpoll-warbler",
+      "quote": "Making the flight from, say, Maine to Brazil, a blackpoll burns less fat than we find in a single serving of Ben & Jerry’s Coffee Heath Bar Crunch."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-bp-cross",
+     "text": "Blackpoll warblers migrate crosswise: birds from the west tend to winter in the east of South America, and vice versa.",
+     "seed": "bp-cross",
+     "source": {
+      "title": "Duali et al. 2024, Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-024-80838-9",
+      "europepmc": "DOI:10.1038/s41598-024-80838-9",
+      "quote": "Blackpoll warblers showed a crosswise migration pattern, whereby individuals from western breeding populations tended to spend the nonbreeding season in the eastern part of the nonbreeding range and vice-versa."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-bp-map",
+     "text": "Before migrating, young blackpolls roam more than {200 km|125 mi}, perhaps to build a map of the region.",
+     "seed": "bp-map",
+     "source": {
+      "title": "Brown & Taylor 2015, Biology Letters",
+      "url": "https://doi.org/10.1098/rsbl.2015.0593",
+      "europepmc": "DOI:10.1098/rsbl.2015.0593",
+      "quote": [
+       "both young and adults moved over distances more than 200 km prior to initiating migration.",
+       "that young birds develop a regional-scale map"
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-bp-site",
+     "text": "Female blackpolls return to last year's nest site and pair with whichever male holds it.",
+     "seed": "bp-site",
+     "source": {
+      "title": "Audubon Field Guide, Blackpoll Warbler",
+      "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
+      "quote": "Females return to nest site of previous year and mate with male holding that territory"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Falco peregrinus": {
+   "short": [
+    {
+     "id": "en-s-pf-wanderer",
+     "text": "'Peregrine' means wanderer, and some fly {25000 km|15500 mi} a year.",
+     "seed": "pf-wanderer",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "some individuals migrate distances up to 25,000 km annually"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-pf-leapfrog",
+     "text": "Peregrines migrate leap-frog style: the most northern birds winter furthest south.",
+     "seed": "pf-leapfrog",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "migration pattern in which breeders from northern areas winter to the south of individuals from more southerly locations."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-pf-nyc",
+     "text": "Peregrines have taken to skyscrapers: 14 pairs bred in New York City in 2000.",
+     "seed": "pf-nyc",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "In 2000, there were 14 pairs of Peregrine Falcons breeding in New York City."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-s-pf-record",
+     "text": "The fastest peregrine dive on record: {389 km/h|242 mph}, clocked by Ken Franklin in 2005.",
+     "seed": "pf-dive",
+     "source": {
+      "title": "Wikipedia, Peregrine falcon",
+      "url": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+      "quote": "According to a National Geographic TV program, in 2005 Ken Franklin recorded a falcon stooping at a top speed of 389 km/h (242 mph) ."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-s-pf-tiercel",
+     "text": "Falconers call the male peregrine a 'tiercel'; only the female is 'the falcon'.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Peregrine falcon",
+      "url": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+      "quote": "The male (called the \" tiercel \") and the female (simply called the \"falcon\") both leave the nest to gather prey to feed the young."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-s-pf-ww2",
+     "text": "In World War II, peregrines were used to intercept homing pigeons.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Peregrine falcon",
+      "url": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+      "quote": "They were also used to intercept homing pigeons during World War II."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en-s-pf-chicago",
+     "text": "The peregrine falcon is the official city bird of Chicago.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Peregrine falcon",
+      "url": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+      "quote": "The peregrine falcon has been designated the official city bird of Chicago."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en-s-pf-prey",
+     "text": "Peregrines catch birds from {3 g|0.1 oz} hummingbirds to {3.1 kg|6.8 lb} sandhill cranes.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Peregrine falcon",
+      "url": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+      "quote": "Its prey can range from 3 g (0.11 oz) hummingbirds ( Selasphorus and Archilochus ssp.) to the 3.1 kg (6.8 lb) sandhill crane"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en-l-pf-ddt",
+     "text": "DDT made peregrines lay eggs that broke. By 1975 only 324 pairs were left in North America; after DDT was banned they bounced back.",
+     "seed": "pf-ddt",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, The peregrine falcon is back (2000)",
+      "url": "https://www.fws.gov/story/2000-08/peregrine-falcon-back-0",
+      "quote": [
+       "The pesticide DDT caused peregrines to lay thin-shelled eggs that broke during incubation.",
+       "By 1975, the population reached an all-time low of 324 nesting pairs in North America.",
+       "The banning of DDT made the recovery of the peregrine falcon possible."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-pf-courtship",
+     "text": "Courting male peregrines show off with power dives, roller-coaster flights, loop-the-loops and figure eights.",
+     "seed": "pf-courtship",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "power dives, roller coaster-like flights, loop-the-loops, and figure eight flights"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-pf-sizes",
+     "text": "Female peregrines are much bigger: up to {1500 g|3.3 lb}, against as little as {450 g|1 lb} for a male.",
+     "seed": "pf-sizes",
+     "source": {
+      "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+      "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+      "quote": "Male Peregrine Falcons weigh as little as 450 grams; females weigh as much as 1,500 grams."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en-l-pf-nostrils",
+     "text": "Tiny bony bumps in a peregrine's nostrils may steer the blast of air aside in a dive, so the falcon can still breathe at full speed.",
+     "seed": null,
+     "source": {
+      "title": "Wikipedia, Peregrine falcon",
+      "url": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+      "quote": "small bony tubercles on a falcon's nostrils are theorized to guide the powerful airflow away from the nostrils, enabling the bird to breathe more easily while diving by reducing the change in air pressure."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  }
+ },
+ "individual": {
+  "templates": {
+   "yearKm": "{name} covers at least {dist} a year, and that's only the straight lines between stops.",
+   "span": "Summer home and winter home: the two ends of {name}'s year lie {dist} apart.",
+   "travelDays": "Of the 365 days in a year, {name} spends about {n} on the move.",
+   "female": "{name} is a female.",
+   "male": "{name} is a male.",
+   "trackedSince": "Researchers have followed {name} since {month} {year}.",
+   "trackedFromTo": "Researchers followed {name} from {month} {year} to {month2} {year2}.",
+   "hatched": "{name} hatched in {year}.",
+   "hatchedBy": "{name} hatched in {year} or earlier."
+  },
+  "notes": {
+   "mb-24442409-4003322822": {
+    "short": "Marina and nest-mate Nina were tagged as chicks in June 2024. Marina was the smaller.",
+    "long": "Marina and Nina were tagged in the same nest in June 2024. Of the two chicks, Marina was the smaller."
+   },
+   "mb-24442409-4003322823": {
+    "short": "Nina and nest-mate Marina were tagged as chicks in June 2024. Nina was the bigger.",
+    "long": "Nina and Marina were tagged in the same nest in June 2024. Of the two chicks, Nina was the bigger."
+   },
+   "mb-173641633-2847777258": {
+    "short": "Kiki was the elder of two chicks. The younger got a leg ring, but no tracker.",
+    "long": "Kiki was the elder of two chicks in the nest. The younger one got a leg ring, but only Kiki got a tracker."
+   },
+   "mb-7249090-7541652": {
+    "short": "Signe was tagged as a grown-up in north-west Greenland.",
+    "long": "Signe was already grown up when she was tagged in north-west Greenland. Researchers followed her on two full trips south and one back north."
+   },
+   "mb-186178781-2842545544": {
+    "short": "Ernst was found weak in Reutlingen, nursed back to health and set free with a tracker.",
+    "long": "Found weak in Reutlingen in May 2023, Ernst was nursed back to health at a bird care centre and set free with his tracker in June."
+   },
+   "mb-186178781-2781173687": {
+    "short": "Nikolai flew into a window near Stuttgart, and was back in the wild 11 days later.",
+    "long": "Nikolai flew into a window near Stuttgart in May 2023. Eleven days later he was released again, apparently healthy, with a tracker."
+   },
+   "mb-2943485-2943519": {
+    "short": "Ten years after tracking ended, Ernest was seen alive in New Jersey.",
+    "long": "Tracked until 2007, Ernest was seen alive in New Jersey in March 2017, ten years later and long since without his transmitter."
+   },
+   "mb-2943485-2943518": {
+    "short": "Years after losing his transmitter, David turned up in Massachusetts and Connecticut.",
+    "long": "Tracked until 2007, David was seen alive again without his transmitter: in Massachusetts in 2011 and in Connecticut in 2013."
+   }
+  }
+ },
+ "report": "English pools written 2026-10-22 for English readers (not translated, not written for translation). 138 short, 76 long, every species at least 6 short and 4 long; checker: 0 problems (all quotes found on the live pages, cached in facts3/.fact-cache).\n\nGENERAL\n- NABU and its regional sites were offline on 2026-10-22 (security notice instead of content). Every seed resting on a NABU page failed the quote check: stork nest, stork faithful, stork alone, stork lightning, crane Havelland, shrike larder, shrike mimic, shrike tooth, shrike block, shrike nine. I moved larder (RSPB), mimic (Museum fur Naturkunde, English page) and tooth (Wikipedia, Shrike: hooked bill, no 'falcon tooth' claim) to English sources and dropped the rest. The German agent's NABU quotes will fail the same way until NABU is back.\n- Dropped as German stories (FACT_STYLE): Lufthansa crane, the 'Neuntoeter / killer of nine' name, the German lightning belief about stork nests.\n- All vetoed stories dropped, with one deliberate exception: the loggerhead hitchhikers, in LONG only. The owner's note says the long version is 'really cool' and FACT_STYLE lists only the hitchhikers' short version as vetoed. Please confirm.\n- Song of Songs (td-love, vetoed with note 'does not work in german') is dropped. A related new story is in: the 2018 royal wedding reading that calls the turtle dove a herald of spring. Flagged in case the owner reads it as the same story.\n- Wikipedia is used often (acceptable, not preferred), mostly where it gathers history or culture. Some facts rest on a family-level source: shrike Turberville (1575, shrikes in general), shrike 'larder for show' (Wikipedia, Shrike), Chaucer's 'wariangle' (shrikes or butcher-birds), crane 'pedigree' and Cranfield (cranes in general, in practice the common crane in England).\n- Seeds with a source reused unchanged where the owner's notes allowed; notes applied: crane Lufthansa short (dropped, German story), turtle dove decline says 'population', curlew 'It is the largest...', broad-wing kettles 'of hawks', turkey vulture 'such a good sense of smell', shrike tooth short dropped (long kept as hooked-bill fact), shrike block dropped.\n- Pronouns: he/she only for recorded sex. Marina and Nina are recorded as MALE in Movebank (pipeline/individuals.json) despite their names; their notes avoid pronouns. Worth a look at the record.\n\nPER SPECIES\n- White stork: rich. New: 604 years (England 2020), republics belief, stork bite, Andersen, Menes the 'spy' stork, Himmler's leaflet plan, medieval banquets. Dropped seeds nest, faithful, alone, lightning (NABU offline; alone and nest have no English source yet).\n- Common crane: new English history: 204 cranes at a 1465 banquet, Cranfield, pedigree, King John's gyrfalcons, the 'crane school' keepers, the 1979/1982 return, carrion crows' trick. Havelland dropped (NABU offline, German context).\n- Honey buzzard: seeds strong; new: sexes differ (unusual for raptors), garden wasp raids. Thin on culture.\n- Turtle dove: was thin, now rich from Operation Turtle Dove's culture page (Cockney slang, Home Alone 2, Egyptian reliefs, Aphrodite, Yeezy, Botticelli, Coca-Cola song) plus the hunting pause. Titan and Song of Songs dropped (vetoed).\n- Lesser black-backed gull: still the thinnest for stories. New: deeper laugh, North America, diet incl. pigeons, the ring species, plastic carried to a Spanish lake, landfill closures. No named gull or culture story found.\n- Red-backed shrike: was thin. New: Lanius = butcher, 'shrike' = shriek, Chaucer's wariangle, Turberville 1575, the cuckoo arms race, Britain's last pair in 1988, larder as display. Loop route (vetoed) and the German name dropped.\n- Northern wheatear: new Sussex history from Harvey's Brewery's South Downs page: 'Seven Good Things of Sussex', shepherd John Dudeney, the coin custom, smock and petticoats, W.H. Hudson. Uncertain: the page is a brewery blog quoting Hudson, Hurdis and Beckett; the 1,200-birds story is Hudson's anecdote.\n- Far Eastern curlew: new: Madagascar naming error, crab eating, 1997 typhoon (Bird Research News PDF), Darwin pair, mudflat loss. Thin on culture.\n- Broad-winged hawk: was thin. New: Duluth record day 2003 (Laura Erickson's radio transcript), following another broad-wing, Veracruz river of raptors, Hawk Mountain's shooting past, juveniles astray in Florida, racing the sun. The 'race the sun' fact touches the vetoed 'riding updrafts' story; it is about timing, not soaring, but please check. Panama 2014 record skipped (Smithsonian pages 403).\n- Turkey vulture: new: legs (urohidrosis), Lord Richard (51 in 2025), 'John crow', night cooling, spread-wing stance.\n- Blue whale: was thin on culture. New: Hope at the Natural History Museum, royal fish since 1324, Sven Foyn's harpoon gun, the 108-ft record female, the 1931 season. The last two are whaling history, a little grim.\n- Loggerhead: new: Yoshi (three facts: name from the ship's cook, growth, 37,000 km swim), flotilla, jaws, weight, lights.\n- Osprey: new: Seahawks name, closable nostrils, oldest European bird, Coriolanus, Pliny, 'osprey' plumes from egrets.\n- Snow goose: was thin. New: grinning patch, rusty heads, mate for life, nesting near snowy owls, Gallico's novella, the 2016 Berkeley Pit deaths (grim). Population boom (vetoed) dropped.\n- Canada goose: new: largest wild goose ever, 9 km ceiling, age 33, taking turns in the V. Hudson plane story (vetoed) dropped.\n- Bald eagle: new: official national bird only since 2024, 'bald' = white-headed, Franklin's letter (myth vs fact), Old Abe.\n- Blackpoll warbler: new: mailable weight, doubling weight, nearest to the tundra, 'baypolls'.\n- Peregrine: new: 389 km/h record (Ken Franklin; a TV-programme figure), tiercel, WWII pigeon interception, Chicago city bird, prey range, nostril tubercles. The approved 320 km/h dive seed is replaced by the record.\n\nINDIVIDUAL\n- Templates use {name} and read as sentences about the animal; all 9 kept. trackedSince says 'have followed ... since' (true while tracking runs; positions still carry their date, D3).\n- Notes: short and long for all 8, from the comment quotes in individuals_curated.json; Signe's short drops the trip count (it would not fit with context)."
+}

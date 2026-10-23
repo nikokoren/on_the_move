@@ -1,0 +1,853 @@
+{
+ "lang": "en",
+ "species": {
+  "Ciconia ciconia": {
+   "short": [
+    {
+     "id": "en4-s-sb-photo",
+     "text": "Photos of white storks taken in 1884 are the oldest known pictures of any wild birds.",
+     "source": {
+      "title": "Wikipedia, White stork",
+      "url": "https://en.wikipedia.org/wiki/White_stork",
+      "quote": "Ottomar Anschütz 's images of white storks, taken in 1884—the earliest known photographs of any wild birds"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en4-l-sb-clatter",
+     "text": "White storks barely have a voice. Instead they clatter their bills, a sound like distant machine-gun fire. Even the chicks join in.",
+     "source": {
+      "title": "Wikipedia, White stork",
+      "url": "https://en.wikipedia.org/wiki/White_stork",
+      "quote": [
+       "The adult white stork's main sound is noisy bill-clattering, which has been likened to distant machine gun fire.",
+       "Like the adults, the young also clatter their beaks."
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    }
+   ]
+  },
+  "Grus grus": {
+   "short": [
+    {
+     "id": "en4-s-cr-hula",
+     "text": "Tens of thousands of cranes from Finland stop at Israel's Lake Hula every winter.",
+     "source": {
+      "title": "Wikipedia, Hula Valley",
+      "url": "https://en.wikipedia.org/wiki/Hula_Valley",
+      "quote": "In 2011, Israeli ornithologists confirmed that Lake Hula is the stopover point for tens of thousands of cranes migrating from Finland to Ethiopia every winter."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en4-l-cr-nebraska",
+     "text": "Now and then a common crane from Eurasia veers off course and turns up in Nebraska among the half-million sandhill cranes on the Platte.",
+     "source": {
+      "title": "National Wildlife Federation, Great Gathering on the Great Plains (2003)",
+      "url": "https://www.nwf.org/Magazines/National-Wildlife/2003/Great-Gathering-on-the-Great-Plains",
+      "quote": [
+       "With nearly a half-million cranes stopping here each spring, the placid Platte is transformed into the site of the greatest gathering of these birds in the world.",
+       "Add to this the occasional appearance of an endangered whooping crane or a Eurasian \"common\" crane that has veered off course"
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en4-l-cr-altitude",
+     "text": "Migrating common cranes have been known to fly as high as {10000 m|33000 ft}. Among birds, only Rüppell's vulture has been seen higher.",
+     "source": {
+      "title": "Wikipedia, Common crane",
+      "url": "https://en.wikipedia.org/wiki/Common_crane",
+      "quote": "During these migratory flights, common cranes have been known to fly at altitudes of up to 10,000 m (33,000 ft) , one of the highest of any species of bird, second only to the Ruppell's vulture ."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    }
+   ]
+  },
+  "Pernis apivorus": {
+   "short": [
+    {
+     "id": "en4-s-hb-dig",
+     "text": "Honey buzzards spend hours on the forest floor, digging out wasp nests with their claws.",
+     "source": {
+      "title": "Wikipedia, European honey buzzard",
+      "url": "https://en.wikipedia.org/wiki/European_honey_buzzard",
+      "quote": [
+       "It spends large amounts of time on the forest floor excavating wasp nests.",
+       "It is equipped with long toes and claws adapted to raking and digging"
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": []
+  },
+  "Streptopelia turtur": {
+   "short": [
+    {
+     "id": "en4-s-td-shakespeare",
+     "text": "Shakespeare's poem 'The Phoenix and the Turtle' is about a turtle dove, not a turtle.",
+     "source": {
+      "title": "Wikipedia, European turtle dove",
+      "url": "https://en.wikipedia.org/wiki/European_turtle_dove",
+      "quote": "It was published along with other poems on the subject, including William Shakespeare 's poem \" The Phoenix and the Turtle \", where \"turtle\" refers to the turtle dove."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en4-s-td-vagrant",
+     "text": "Turtle doves rarely stray to the US, but some have turned up in Massachusetts and Florida.",
+     "source": {
+      "title": "Wikipedia, European turtle dove",
+      "url": "https://en.wikipedia.org/wiki/European_turtle_dove",
+      "quote": "Turtle doves are rare vagrants in North America, with records from Massachusetts and Florida in the United States"
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en4-l-td-india",
+     "text": "When Linnaeus named the turtle dove in 1758, he said it came from India. That was a mistake: the species' official home is now England.",
+     "source": {
+      "title": "Wikipedia, European turtle dove",
+      "url": "https://en.wikipedia.org/wiki/European_turtle_dove",
+      "quote": [
+       "Linnaeus gave the locality as \"India\".",
+       "This was an error, and the type locality has been designated as England."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Larus fuscus": {
+   "short": [],
+   "long": [
+    {
+     "id": "en4-l-lb-1934",
+     "text": "North America's first lesser black-backed gull outside Greenland turned up in New Jersey in 1934. By the 1980s they reached every US coast.",
+     "source": {
+      "title": "Sanibel-Captiva Conservation Foundation, Lesser Black-Backed Gulls Increasing on Sanibel and Captiva (2024)",
+      "url": "https://sccf.org/2024/02/05/lesser-black-backed-gulls-increasing-on-sanibel-and-captiva/",
+      "quote": [
+       "the first record in North America outside of Greenland wasn't until 1934 in New Jersey.",
+       "By the 1980s, lesser black-backed gulls had been observed across all the Great Lakes and the entirety of the Atlantic and Gulf coast of the U.S.,"
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en4-l-lb-bands",
+     "text": "Where do America's lesser black-backed gulls come from? Thousands are seen each year, yet only two banded birds from Europe ever turned up.",
+     "source": {
+      "title": "Sanibel-Captiva Conservation Foundation, Lesser Black-Backed Gulls Increasing on Sanibel and Captiva (2024)",
+      "url": "https://sccf.org/2024/02/05/lesser-black-backed-gulls-increasing-on-sanibel-and-captiva/",
+      "quote": [
+       "only two banded lesser black-backed gulls have been re-sighted in North America — one in 1997, and one in 2002.",
+       "despite thousands of observations of these gulls year after year,"
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en4-l-lb-iceland",
+     "text": "These gulls crept west: they settled in Iceland in the 1920s and Greenland in the 1990s. Most of America's probably come from there.",
+     "source": {
+      "title": "Sanibel-Captiva Conservation Foundation, Lesser Black-Backed Gulls Increasing on Sanibel and Captiva (2024)",
+      "url": "https://sccf.org/2024/02/05/lesser-black-backed-gulls-increasing-on-sanibel-and-captiva/",
+      "quote": [
+       "In the 1920s, lesser black-backed gulls established breeding grounds in Iceland, which by 2004 had reached 40,000 breeding pairs.",
+       "In the 1990s, lesser black-backed gulls (likely from Iceland) were confirmed breeding in Greenland",
+       "the researchers propose that most lesser black-backed gulls seen in North America come from western Iceland and Greenland."
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    }
+   ]
+  },
+  "Lanius collurio": {
+   "short": [
+    {
+     "id": "en4-s-sh-wire",
+     "text": "Red-backed shrikes hang their larder on barbed-wire fences as readily as on thorns.",
+     "source": {
+      "title": "Wikipedia, Red-backed shrike",
+      "url": "https://en.wikipedia.org/wiki/Red-backed_shrike",
+      "quote": "Like other shrikes it hunts from prominent perches, and impales corpses on thorns or barbed wire as a"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en4-l-sh-cousin",
+     "text": "America has its own 'butcherbird': the loggerhead shrike. Like its red-backed cousin, it stores prey on display, for example in a tree.",
+     "source": {
+      "title": "Wikipedia, Loggerhead shrike",
+      "url": "https://en.wikipedia.org/wiki/Loggerhead_shrike",
+      "quote": "It is nicknamed the butcherbird after its carnivorous tendencies, as it consumes prey such as insects, amphibians, lizards, small mammals and small birds, and some prey end up displayed and stored at a site, for example in a tree."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    }
+   ]
+  },
+  "Oenanthe oenanthe": {
+   "short": [
+    {
+     "id": "en4-s-wh-inborn",
+     "text": "Young Alaskan wheatears find their way to Africa alone: they're born knowing the route.",
+     "source": {
+      "title": "University of Alaska Fairbanks Geophysical Institute, Ned Rozell: Northern wheatears now on remarkable journey (2019)",
+      "url": "https://www.gi.alaska.edu/alaska-science-forum/northern-wheatears-now-remarkable-journey",
+      "quote": [
+       "How do birds that pecked from eggshells on Alaska tundra just this summer know how to make it to Africa?",
+       "The birds are born with that knowledge, maybe tied to the Earth's magnetic field and geographic landforms."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en4-s-wh-song",
+     "text": "The wheatear's song crackles and pops, and borrows the calls of other birds.",
+     "source": {
+      "title": "National Park Service, Gates of the Arctic: Northern Wheatear",
+      "url": "https://www.nps.gov/gaar/learn/nature/northern-wheatear.htm",
+      "quote": "The Northern Wheatear's song is complex and composed of a variety of crackling and popping sounds and, like the Bluethroat, the mimicked vocalizations of other bird species."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en4-l-wh-zebras",
+     "text": "Alaska's wheatears spend the summer on the tundra among muskoxen, and the winter in East Africa among zebras and giraffes.",
+     "source": {
+      "title": "University of Alaska Fairbanks Geophysical Institute, Ned Rozell: Northern wheatears now on remarkable journey (2019)",
+      "url": "https://www.gi.alaska.edu/alaska-science-forum/northern-wheatears-now-remarkable-journey",
+      "quote": [
+       "Birds that spent their summer next to muskoxen are now leaving Alaska to spend winter with zebras.",
+       "After four months in the sub-Sahara with giraffes, they will again feel the urge, and hop from an acacia tree branch."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en4-l-wh-nevermeet",
+     "text": "North America's two wheatear groups probably never meet: Alaska's birds winter in East Africa, Baffin Island's in West Africa.",
+     "source": {
+      "title": "University of Alaska Fairbanks Geophysical Institute, Ned Rozell: Northern wheatears now on remarkable journey (2019)",
+      "url": "https://www.gi.alaska.edu/alaska-science-forum/northern-wheatears-now-remarkable-journey",
+      "quote": [
+       "The Alaska and Baffin Island populations of wheatears probably never meet, either on the tundra or on the savanna.",
+       "The one bird whose geolocator they were able to recover on Baffin Island spent its winter in Mauritania, in western Africa.",
+       "until the birds stop for the winter months in eastern Africa: Sudan, Uganda or Kenya."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en4-l-wh-iceage",
+     "text": "After the Ice Age, wheatears may have spread from the Middle East both ways: northeast to Alaska, and northwest to Canada via Europe.",
+     "source": {
+      "title": "University of Alaska Fairbanks Geophysical Institute, Ned Rozell: Northern wheatears now on remarkable journey (2019)",
+      "url": "https://www.gi.alaska.edu/alaska-science-forum/northern-wheatears-now-remarkable-journey",
+      "quote": [
+       "Bairlein said that during the last great glacial period, during which much of the far north was ice-covered, wheatears may have been holed up in the Middle East.",
+       "When the glaciers shrank from the continents, one group of wheatears may have expanded to the northeast, reaching Alaska, while the other drifted northwest, reaching Canada via Europe and Greenland."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Numenius madagascariensis": {
+   "short": [],
+   "long": []
+  },
+  "Buteo platypterus": {
+   "short": [
+    {
+     "id": "en4-s-bw-skin",
+     "text": "Broad-winged hawks are fussy eaters: they skin frogs and snakes before eating them.",
+     "source": {
+      "title": "Wikipedia, Broad-winged hawk",
+      "url": "https://en.wikipedia.org/wiki/Broad-winged_hawk",
+      "quote": "They give special attention to preparing their food for consumption, skinning frogs and snakes and plucking prey birds' feathers."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en4-s-bw-drink",
+     "text": "Broad-winged hawks rarely drink: the water in their prey is all they need.",
+     "source": {
+      "title": "Wikipedia, Broad-winged hawk",
+      "url": "https://en.wikipedia.org/wiki/Broad-winged_hawk",
+      "quote": "They rarely drink water and are able to survive solely with the water present in their prey."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en4-s-bw-corpus",
+     "text": "Hawk watchers in Corpus Christi, Texas, count 700,000 raptors a year, mostly broad-wings.",
+     "source": {
+      "title": "Texas Parks & Wildlife magazine, Hawk Watch (May 2013)",
+      "url": "https://tpwmagazine.com/archive/2013/may/scout1_hawkwatch/",
+      "quote": [
+       "During its 16-year existence, it has racked up a mind-boggling tally of more than 10 million raptors, averaging more than 700,000 a year.",
+       "of the 23 species recorded, broad-winged hawks dominated the tally"
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en4-l-bw-apart",
+     "text": "Satellite tags from Hawk Mountain held a surprise: broad-wings that nest a few miles apart may spend the winter {1600 km|1000 mi} apart.",
+     "source": {
+      "title": "Northern Woodlands, There and Back Again: Tracking Broad-Winged Hawk Migration (2024)",
+      "url": "https://northernwoodlands.org/articles/article/broad-winged-hawk-migration",
+      "quote": "One of the most surprising findings of this study is that birds who summer within a few miles of each other might spend their winters a thousand miles apart."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en4-l-bw-veracruz",
+     "text": "Broad-wings from all over merge on the way south. In Veracruz, Mexico, one kettle can hold more hawks than pass New Hampshire all fall.",
+     "source": {
+      "title": "Northern Woodlands, There and Back Again: Tracking Broad-Winged Hawk Migration (2024)",
+      "url": "https://northernwoodlands.org/articles/article/broad-winged-hawk-migration",
+      "quote": "daily counts can top 200,000 birds, with more hawks whirling in a single kettle on a warm October afternoon than across the entirety of the New Hampshire migration season."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en4-l-bw-names",
+     "text": "Each broad-wing tagged by Hawk Mountain gets a name, so people can follow it from home. 'CU Home' is named for three hawk watch founders.",
+     "source": {
+      "title": "Northern Woodlands, There and Back Again: Tracking Broad-Winged Hawk Migration (2024)",
+      "url": "https://northernwoodlands.org/articles/article/broad-winged-hawk-migration",
+      "quote": [
+       "Finally, each hawk is given a name so that students, birders, and others can more easily follow along from home via the migration maps and stories on the Broad-winged Hawk Project website and Facebook page .",
+       "comprises the initials of the three founders of the Northeast Hawk Watch."
+      ]
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    },
+    {
+     "id": "en4-l-bw-kettle",
+     "text": "Flocks of soaring broad-wings are called kettles: they look like steam rising from a kettle, or soup swirling in a pot.",
+     "source": {
+      "title": "Northern Woodlands, There and Back Again: Tracking Broad-Winged Hawk Migration (2024)",
+      "url": "https://northernwoodlands.org/articles/article/broad-winged-hawk-migration",
+      "quote": "soaring on thermals in groups called “kettles,” named for their resemblance to steam rising from a kettle or soup swirling in a pot."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Cathartes aura": {
+   "short": [
+    {
+     "id": "en4-s-tv-name",
+     "text": "Turkey vultures are named for their bald red head and dark feathers, like a male turkey's.",
+     "source": {
+      "title": "Wikipedia, Turkey vulture",
+      "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
+      "quote": "The turkey vulture received its common name from the resemblance of the adult's bald red head and dark plumage to that of the male wild turkey ."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en4-l-tv-calves",
+     "text": "Ranchers sometimes blame turkey vultures for dead calves. But they never kill: black vultures do, and turkey vultures eat the leftovers.",
+     "source": {
+      "title": "Wikipedia, Turkey vulture",
+      "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
+      "quote": [
+       "This species also may be perceived as a threat by farmers due to the similar black vulture's tendency to attack and kill newborn cattle.",
+       "The turkey vulture does not kill live animals but will mix with flocks of black vultures and will scavenge what they leave behind."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en4-l-tv-kin",
+     "text": "America's vultures look like Africa's, but they aren't close kin: the two groups evolved on different continents from different ancestors.",
+     "source": {
+      "title": "Wikipedia, Turkey vulture",
+      "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
+      "quote": "Though they are similar in appearance and have similar ecological roles , the New World and Old World vultures evolved in different parts of the world and from different ancestors."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Balaenoptera musculus": {
+   "short": [],
+   "long": [
+    {
+     "id": "en4-l-bl-heart",
+     "text": "Stanford scientists suction-cupped a heart monitor to a blue whale off California. On feeding dives, its heart beat just twice a minute.",
+     "source": {
+      "title": "VOA Learning English, Scientists Get First-Ever Measure of Blue Whale Heart Rate (2019)",
+      "url": "https://learningenglish.voanews.com/amp/first-ever-measure-of-blue-whale-heart-rate/5183529.html",
+      "quote": [
+       "Stanford University ocean biologist Jeremy Goldbogen led the blue whale heart rate study.",
+       "The small device had four suction cups on it, permitting it to remain on the whale for several hours.",
+       "The researchers recorded nine hours of information on a 22-meter-long male from the Pacific Ocean off the coast of California.",
+       "usually of four to eight beats a minute and as low as two beats a minute."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en4-l-bl-amnh",
+     "text": "The {29 m|94 ft} blue whale model in New York's American Museum of Natural History came out at 10 tons, not four. It even has 28 chin hairs.",
+     "source": {
+      "title": "Mental Floss, How to Build a Blue Whale Without Having Seen One: Part II (2012)",
+      "url": "https://www.mentalfloss.com/culture/museums/how-build-blue-whale-without-having-seen-one-part-ii",
+      "quote": [
+       "The 28-foot rear section of the 94-foot model of the blue whale being raised to join the front section in the Hall of Ocean Life in 1969.",
+       "Tensions at the American Museum of Natural History ran high as the design for the whale was being finalized in 1966.",
+       "Plans called for a four-ton whale, but the finished product was 10 tons.",
+       "placing and attaching 28 fine hairs to the whale's chin."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "note": "Rephrase to “weighs 10 tons” and cut the not 4 part."
+     }
+    }
+   ]
+  },
+  "Caretta caretta": {
+   "short": [],
+   "long": [
+    {
+     "id": "en4-l-lh-sargassum",
+     "text": "Baby loggerheads vanish into the Atlantic for their 'lost years'. Many hide in floating sargassum seaweed, a warm nursery full of food.",
+     "source": {
+      "title": "University of Central Florida, Pegasus: Sea Turtles, The Lost Years (2014)",
+      "url": "https://www.ucf.edu/pegasus/sea-turtles-the-lost-years/",
+      "quote": [
+       "After loggerhead turtles hatch, they disappear into the Atlantic Ocean to begin a perilous journey that marine biologists refer to as",
+       "Hatchling loggerhead turtles that find refuge in floating beds of sargassum seaweed have increased chances for survival.",
+       "Warmer water increases activity of cold-blooded reptiles.",
+       "Sargassum habitat harbors food sources for juvenile turtles."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en4-l-lh-us",
+     "text": "Loggerheads are the sea turtle that nests most in the US, over 100,000 nests a year. Only Florida and Oman host over 10,000 nesting females.",
+     "source": {
+      "title": "NOAA Fisheries, Loggerhead Turtle",
+      "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+      "quote": [
+       "Loggerheads are the most abundant species of sea turtle that nests in the United States.",
+       "Total estimated nesting in the United States is more than 100,000 nests per year.",
+       "The most recent reviews show that only two loggerhead nesting aggregations have greater than 10,000 females nesting per year: Peninsular Florida and Oman."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "note": "Rephrase the second sentence to over 10000 nest in Florida alone"
+     }
+    }
+   ]
+  },
+  "Pandion haliaetus": {
+   "short": [
+    {
+     "id": "en4-s-os-feet",
+     "text": "Medieval writers claimed the osprey had one webbed foot and one taloned foot.",
+     "source": {
+      "title": "Wikipedia, Osprey",
+      "url": "https://en.wikipedia.org/wiki/Osprey",
+      "quote": "Another odd legend regarding this fish-eating bird of prey, derived from the writings of Gerald of Wales and later Albertus Magnus and recorded in Holinshed 's Chronicles , was that it had one webbed foot and one taloned foot."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en4-l-os-toes",
+     "text": "Like an owl, an osprey can swing its outer toe backward to grip a fish two toes in front, two behind. Spiky soles stop the fish slipping.",
+     "source": {
+      "title": "Wikipedia, Osprey",
+      "url": "https://en.wikipedia.org/wiki/Osprey",
+      "quote": [
+       "The osprey and owls are the only raptors whose outer toes are reversible, allowing them to grasp their prey with two toes in front and two behind.",
+       "sharp spicules on the underside of the toes"
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en4-l-os-chesapeake",
+     "text": "About a quarter of all ospreys in the lower 48 states nest around Chesapeake Bay, many on channel markers and utility poles.",
+     "source": {
+      "title": "Chesapeake Bay Program, Field Guide: Osprey",
+      "url": "https://www.chesapeakebay.net/discover/field-guide/entry/osprey",
+      "quote": [
+       "Approximately one-quarter of all ospreys in the contiguous United States nest in the Chesapeake Bay region",
+       "Nests are often located near the water on tall structures like dead snags, utility poles, channel markers and nesting platforms."
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en4-l-os-refraction",
+     "text": "Water bends light, so a fish is never quite where it looks. A diving osprey corrects for this, adjusting its angle on the way down.",
+     "source": {
+      "title": "Wikipedia, Osprey",
+      "url": "https://en.wikipedia.org/wiki/Osprey",
+      "quote": "As an osprey dives, it adjusts the angle of its flight to account for the distortion of the fish's image caused by refraction ."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Chen caerulescens": {
+   "short": [
+    {
+     "id": "en4-s-sg-middlecreek",
+     "text": "On February 21, 2018, about 200,000 snow geese roosted at Middle Creek, Pennsylvania.",
+     "source": {
+      "title": "AP via WTOP, Snow geese take off for the Arctic in mesmerizing sunrise display (2026)",
+      "url": "https://wtop.com/world/2026/03/snow-geese-take-off-for-the-arctic-in-mesmerizing-sunrise-display/",
+      "quote": "below the single-day record of about 200,000 on Feb. 21, 2018."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en4-l-sg-color",
+     "text": "Young snow geese usually pick a mate that looks like their parents, white or blue. Geese raised by a mixed pair pair up with either color.",
+     "source": {
+      "title": "Wikipedia, Snow goose",
+      "url": "https://en.wikipedia.org/wiki/Snow_goose",
+      "quote": [
+       "When choosing a mate, young birds most often select a mate that resembles their parents' coloring.",
+       "If the birds were hatched into a mixed pair, they mate with either color phase."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en4-l-sg-bosque",
+     "text": "At New Mexico's Bosque del Apache, birders brave the predawn cold to watch tens of thousands of snow geese rise from the marsh all at once.",
+     "source": {
+      "title": "NPR, Cranes And Geese Flock To New Mexico (2008)",
+      "url": "https://www.npr.org/transcripts/97365636",
+      "quote": [
+       "Bird enthusiasts come out before dawn each morning during the five-day Festival of the Cranes to watch as thousands of birds fly into the sunrise.",
+       "As if on cue, tens of thousands of geese rose simultaneously from the marsh, their white bodies shimmering against the desert landscape."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Branta canadensis": {
+   "short": [],
+   "long": [
+    {
+     "id": "en4-l-cg-cackling",
+     "text": "In 2004 the smallest 'Canada geese' became a species of their own, the cackling goose. Some weigh just {1.4 kg|3.1 lb}.",
+     "source": {
+      "title": "Wikipedia, Cackling goose",
+      "url": "https://en.wikipedia.org/wiki/Cackling_goose",
+      "quote": [
+       "in July 2004 the American Ornithologists' Union 's (AOU) Committee on Classification and Nomenclature split the two into two species",
+       "The smallest 1.4 kg (3.1 lb) cackling geese"
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    },
+    {
+     "id": "en4-l-cg-creche",
+     "text": "Canada goose parents may pool their goslings into a 'crèche': a big group of youngsters watched over by just a few adults.",
+     "source": {
+      "title": "Wikipedia, Canada goose",
+      "url": "https://en.wikipedia.org/wiki/Canada_goose",
+      "quote": "Although parents are hostile to unfamiliar geese, they may form groups of a number of goslings and a few adults, called crèches ."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en4-l-cg-hudson",
+     "text": "In 2009 a flock of Canada geese knocked out both engines of US Airways Flight 1549. The crew landed it on the Hudson River, and no one died.",
+     "source": {
+      "title": "Wikipedia, Canada goose",
+      "url": "https://en.wikipedia.org/wiki/Canada_goose",
+      "quote": "In 2009, a collision with a flock of migratory Canada geese resulted in US Airways Flight 1549 suffering a total loss of power from both engines after takeoff, forcing the crew of the aircraft to ditch the plane in the Hudson River with no loss of human life."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Haliaeetus leucocephalus": {
+   "short": [],
+   "long": [
+    {
+     "id": "en4-l-be-repository",
+     "text": "Eagles found dead in the US go to the National Eagle Repository, which sends their feathers to Native Americans for religious use.",
+     "source": {
+      "title": "U.S. Fish & Wildlife Service, National Eagle Repository",
+      "url": "https://www.fws.gov/program/national-eagle-repository",
+      "quote": "the U.S. Fish and Wildlife Service (Service) established the National Eagle Repository (Repository) in the early 1970s to provide enrolled members of federal recognized Native American Tribes with the remains, parts, and feathers of bald and golden eagles for spiritual and religious use."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en4-l-be-dc",
+     "text": "In 2016 a bald eagle pair nicknamed Mr. President and First Lady hatched chicks at the National Arboretum in D.C., live on a 24-hour webcam.",
+     "source": {
+      "title": "NPR via KUER, Eaglet Number 2 Is On The Way For America's 'Most Patriotic Nest Cam' (2016)",
+      "url": "https://www.kuer.org/2016-03-19/eaglet-number-2-is-on-the-way-for-americas-most-patriotic-nest-cam",
+      "quote": [
+       "President\" and \"First Lady,\" a mated pair of bald eagles in the National Arboretum in D.C., have been incubating two eggs before a rapt audience, thanks to a 24-hour web cam.",
+       "The first baby bald eagle emerged from its shell on Friday morning, to the delight of the eagle-cam audience."
+      ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    }
+   ]
+  },
+  "Setophaga striata": {
+   "short": [
+    {
+     "id": "en4-s-bp-pitch",
+     "text": "The blackpoll's song is one of the highest-pitched bird songs known.",
+     "source": {
+      "title": "Wikipedia, Blackpoll warbler",
+      "url": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
+      "quote": "They are more often heard than seen, though their song is one of the highest-pitched known."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
+     }
+    },
+    {
+     "id": "en4-s-bp-fledge",
+     "text": "Young blackpolls leave the nest at only 10 days old, before they can fly well.",
+     "source": {
+      "title": "Wikipedia, Blackpoll warbler",
+      "url": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
+      "quote": "The eggs are incubated for around 12 days and the young leave the nest when they are only 10 days old before they can fly well."
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en4-l-bp-spring",
+     "text": "In spring, blackpolls skip the long ocean flight: short sea crossings, then north over land. They're among the last warblers back.",
+     "source": {
+      "title": "Wikipedia, Blackpoll warbler",
+      "url": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
+      "quote": "This is likely the reason that they are one of the later warblers to appear in spring migration, after one or more short overwater flights and a relatively prolonged movement overland through North America anytime from early May to mid-June."
+     },
+     "review": {
+      "verdict": "veto"
+     }
+    }
+   ]
+  },
+  "Falco peregrinus": {
+   "short": [],
+   "long": [
+    {
+     "id": "en4-l-pf-fund",
+     "text": "In 1970 Cornell professor Tom Cade founded The Peregrine Fund to breed falcons and set them free. By 1997 it had released more than 4,000.",
+     "source": {
+      "title": "Wikipedia, The Peregrine Fund",
+      "url": "https://en.wikipedia.org/wiki/The_Peregrine_Fund",
+      "quote": [
+       "Ornithology professor Tom Cade founded The Peregrine Fund at Cornell University in 1970 to breed the falcons in captivity and release them to the wild.",
+       "The Peregrine Fund bred and released more than 4,000 falcons from 1974 to 1997."
+      ]
+     },
+     "review": {
+      "verdict": "ok"
+     }
+    }
+   ]
+  }
+ },
+ "individual": {
+  "templates": {
+   "yearKm": "{name} covers at least {dist} a year, and that's only the straight lines between stops.",
+   "span": "Summer home and winter home: the two ends of {name}'s year lie {dist} apart.",
+   "travelDays": "Of the 365 days in a year, {name} spends about {n} on the move.",
+   "female": "{name} is a female.",
+   "male": "{name} is a male.",
+   "trackedSince": "Researchers have followed {name} since {month} {year}.",
+   "trackedFromTo": "Researchers followed {name} from {month} {year} to {month2} {year2}.",
+   "hatched": "{name} hatched in {year}.",
+   "hatchedBy": "{name} hatched in {year} or earlier."
+  },
+  "notes": {
+   "mb-24442409-4003322822": {
+    "short": "Marina and nest-mate Nina were tagged as chicks in June 2024. Marina was the smaller.",
+    "long": "Marina and Nina were tagged in the same nest in June 2024. Of the two chicks, Marina was the smaller."
+   },
+   "mb-24442409-4003322823": {
+    "short": "Nina and nest-mate Marina were tagged as chicks in June 2024. Nina was the bigger.",
+    "long": "Nina and Marina were tagged in the same nest in June 2024. Of the two chicks, Nina was the bigger."
+   },
+   "mb-173641633-2847777258": {
+    "short": "Kiki was the elder of two chicks. The younger got a leg ring, but no tracker.",
+    "long": "Kiki was the elder of two chicks in the nest. The younger one got a leg ring, but only Kiki got a tracker."
+   },
+   "mb-7249090-7541652": {
+    "short": "Signe was tagged as a grown-up in north-west Greenland.",
+    "long": "Signe was already grown up when she was tagged in north-west Greenland. Researchers followed her on two full trips south and one back north."
+   },
+   "mb-186178781-2842545544": {
+    "short": "Ernst was found weak in Reutlingen, nursed back to health and set free with a tracker.",
+    "long": "Found weak in Reutlingen in May 2023, Ernst was nursed back to health at a bird care centre and set free with his tracker in June."
+   },
+   "mb-186178781-2781173687": {
+    "short": "Nikolai flew into a window near Stuttgart, and was back in the wild 11 days later.",
+    "long": "Nikolai flew into a window near Stuttgart in May 2023. Eleven days later he was released again, apparently healthy, with a tracker."
+   },
+   "mb-2943485-2943519": {
+    "short": "Ten years after tracking ended, Ernest was seen alive in New Jersey.",
+    "long": "Tracked until 2007, Ernest was seen alive in New Jersey in March 2017, ten years later and long since without his transmitter."
+   },
+   "mb-2943485-2943518": {
+    "short": "Years after losing his transmitter, David turned up in Massachusetts and Connecticut.",
+    "long": "Tracked until 2007, David was seen alive again without his transmitter: in Massachusetts in 2011 and in Connecticut in 2013."
+   }
+  }
+ },
+ "report": "Round 4 English top-up (2026-10-23), written after the coordinator's update that the UK facts stay approved: these are only additions, with a slight US focus, priority on long facts. 49 new facts (16 short, 33 long). All quotes found on the live pages by check_fact_draft.py. Every species now has at least 6 short and 4 long with the approved pools.\nWhite stork: +1 short (1884 stork photos, the oldest known wild-bird photos), +1 long (bill-clattering like distant machine-gun fire).\nCommon crane: +1 short (Lake Hula, Israel), +2 long (lost Eurasian cranes among Nebraska's Platte River sandhills, the US angle; altitude up to 10,000 m). Uncertain: the 10,000 m figure is from Wikipedia and is debated in the literature.\nHoney buzzard: +1 short (digging out wasp nests). Long stays at 4; no new long story found.\nTurtle dove: +2 short (Shakespeare's 'The Phoenix and the Turtle'; rare US strays in Massachusetts and Florida), +1 long (Linnaeus said 'India'). Dropped a US folk-song fact (Sea Islands spiritual, Shaker hymn) because American 'turtledove' songs may mean the mourning dove.\nLesser black-backed gull: +3 long, all US (first North American record outside Greenland, New Jersey 1934; the banded-bird mystery; spread via Iceland and Greenland). Source: Sanibel-Captiva Conservation Foundation. The three overlap in theme (one is enough if the owner wants variety).\nRed-backed shrike: +1 short (barbed-wire larders), +1 long (America's loggerhead shrike, also called 'butcherbird'; this one is about a related species).\nWheatear: +2 short (route is inborn; crackling, mimicking song, NPS), +3 long (muskoxen to zebras and giraffes; Alaska and Baffin Island groups probably never meet; Ice Age spread from the Middle East). Sources: UAF Geophysical Institute (Ned Rozell) and NPS Gates of the Arctic.\nFar Eastern curlew: nothing added (already 7/4, no US angle found).\nBroad-winged hawk: +3 short (skins frogs and snakes; rarely drinks; Corpus Christi, Texas, about 700,000 raptors a year), +4 long (Hawk Mountain tags: neighbors winter 1000 mi apart; Veracruz kettles bigger than New Hampshire's whole season; tagged hawks get names, e.g. 'CU Home'; why flocks are called kettles). Uncertain: 'mostly broad-wings' at Corpus Christi rests on a single season's 'dominated the tally'. Veracruz was in a vetoed round 3 fact (softball); this is a different angle but the owner may still dislike it. The 'kettle' long partly overlaps the approved kettle short.\nTurkey vulture: +1 short (named for the male wild turkey's look), +2 long (ranchers blame them for calves that black vultures kill; not close kin of Old World vultures).\nBlue whale: +2 long, both US (Stanford heart monitor off California, 2 beats a minute; AMNH's 94 ft model, 10 tons instead of 4, 28 chin hairs).\nLoggerhead: +2 long (the 'lost years' in sargassum, UCF; most common US nesting sea turtle, >100,000 nests a year, only Florida and Oman have >10,000 nesting females, NOAA). R14 check: only states and countries are named, no beaches.\nOsprey: +1 short (medieval legend of one webbed foot), +3 long (reversible toe like an owl's and spiky soles; a quarter of lower-48 ospreys nest around Chesapeake Bay; corrects its dive for refraction).\nSnow goose: +1 short (about 200,000 at Middle Creek, Pennsylvania, Feb. 21, 2018), +2 long (mate color follows the parents; Bosque del Apache sunrise fly-out, NPR). Middle Creek and Bosque overlap in theme with the approved Baie-du-Febvre fact.\nCanada goose: +3 long (cackling goose split in 2004; creches; US Airways Flight 1549 on the Hudson, no deaths). Uncertain: Flight 1549 is a plane-crash story (no one died); the owner vetoed the DNA version as research method.\nBald eagle: +2 long (National Eagle Repository sends feathers to Native American tribes; Mr. President and First Lady, the 2016 webcam pair at the National Arboretum, dated so it claims no live tracking).\nBlackpoll: +1 short (one of the highest-pitched songs), +1 short (leaves the nest at 10 days), +1 long (different route in spring: short sea crossings, then overland, a late arrival).\nPeregrine: +1 long (Tom Cade founded The Peregrine Fund at Cornell in 1970; more than 4,000 falcons released by 1997).\nSources: many are Wikipedia (acceptable, not preferred). All About Birds, AMNH, Smithsonian, Harris Center and Audubon pages answered 403 to the checker's fetcher, so they could not be used."
+}

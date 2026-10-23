@@ -1,0 +1,3143 @@
+[
+ {
+  "id": "crane-ibycus",
+  "taxon": "Grus grus",
+  "species": "Common Crane",
+  "kind": "new",
+  "short": {
+   "en": "In a Greek legend, cranes flying overhead exposed a poet's murderers.",
+   "de": "Der Sage nach überführten Kraniche die Mörder eines griechischen Dichters."
+  },
+  "long": {
+   "en": "Attacked by robbers, the poet Ibycus named passing cranes his avengers. Later a killer saw cranes in town, blurted it out, and was caught.",
+   "de": "Von Räubern überfallen, rief Ibykus vorbeiziehende Kraniche zu Rächern. Später verriet sich ein Mörder beim Anblick von Kranichen."
+  },
+  "source": {
+   "title": "Wikipedia, Ibycus",
+   "url": "https://en.wikipedia.org/wiki/Ibycus",
+   "quote": "Captured by bandits in a deserted place he declared that the cranes which happened to be flying overhead would be his avengers; he was murdered, but afterwards one of the bandits saw some cranes in the city and exclaimed, \"Look, the avengers of Ibycus!\"",
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "crane-lufthansa",
+  "taxon": "Grus grus",
+  "species": "Common Crane",
+  "kind": "new",
+  "short": {
+   "en": "The crane on every Lufthansa tail was first drawn in 1918.",
+   "de": "Der Kranich auf jedem Lufthansa-Leitwerk wurde 1918 zum ersten Mal gezeichnet."
+  },
+  "long": {
+   "en": "Lufthansa's crane goes back to 1918, when the artist Otto Firle drew a stylised bird for one of the airline's forerunners.",
+   "de": "Der Lufthansa-Kranich stammt von 1918: Otto Firle entwarf ihn für die Deutsche Luft-Reederei, eine Vorgängerin der Luft Hansa."
+  },
+  "source": {
+   "title": "Lufthansa Group newsroom, Lufthansa-Kranich feiert seinen 100. Geburtstag (2018)",
+   "url": "https://newsroom.lufthansagroup.com/lufthansa-kranich-feiert-seinen-100-geburtstag/",
+   "quote": [
+    "1918 entwarf der Grafiker und Architekt Otto Firle für die Deutsche Luft-Reederei, einer Vorgängergesellschaft der Luft Hansa, einen stilisierten Vogel.",
+    "In den vergangenen 100 Jahren wurde der Kranich zu einem unverwechselbaren Firmenzeichen und dem Symbol der Marke Lufthansa."
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "note": "short version needs another pass, does not read well currently.",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "crane-windpipe",
+  "taxon": "Grus grus",
+  "species": "Common Crane",
+  "kind": "keep",
+  "short": {
+   "en": "A crane's windpipe coils through its breastbone like a trumpet.",
+   "de": "Die Luftröhre des Kranichs windet sich wie eine Trompete durchs Brustbein."
+  },
+  "long": {
+   "en": "A crane's windpipe is {130 cm|4 ft} long and coiled through its breastbone, like a trumpet.",
+   "de": "Die Luftröhre des Kranichs ist {130 cm|4 ft} lang und windet sich wie bei einer Trompete durchs Brustbein."
+  },
+  "source": {
+   "title": "Naturpark Kyffhäuser, Kraniche im Blick (2021)",
+   "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+   "pdf": true,
+   "quote": "Seine Luftröhre ist beachtliche 130 cm lang und durchzieht als Doppelschlinge das Brustbein."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "crane-call",
+  "taxon": "Grus grus",
+  "species": "Common Crane",
+  "kind": "keep",
+  "short": {
+   "en": "You can hear a crane bugling from {5.6 km|3.5 mi} away.",
+   "de": "Den Ruf eines Kranichs hört man bis zu {5.6 km|3.5 mi} weit."
+  },
+  "long": {
+   "en": "A crane's bugling call can be heard up to about {5.6 km|3.5 mi} away.",
+   "de": "Den trompetenden Ruf der Kraniche hört man bis zu etwa {5.6 km|3.5 mi} weit."
+  },
+  "source": {
+   "title": "RSPB, Crane",
+   "url": "https://www.rspb.org.uk/birds-and-wildlife/crane",
+   "quote": "Cranes are vocal birds, with a distinct bugling call which can be heard up to 3.5 miles away."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "crane-dance",
+  "taxon": "Grus grus",
+  "species": "Common Crane",
+  "kind": "keep",
+  "short": {
+   "en": "Cranes dance, and even the chicks practise the steps.",
+   "de": "Kraniche tanzen, und schon die Küken üben die Schritte."
+  },
+  "long": {
+   "en": "Cranes dance, and practice starts early: even the chicks rehearse the steps.",
+   "de": "Kraniche tanzen, und geübt wird früh: Schon die Küken proben die Schritte."
+  },
+  "source": {
+   "title": "Naturpark Kyffhäuser, Kraniche im Blick (2021)",
+   "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+   "pdf": true,
+   "quote": "Schon Küken üben den Tanz"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "crane-family",
+  "taxon": "Grus grus",
+  "species": "Common Crane",
+  "kind": "keep",
+  "short": {
+   "en": "Unlike young storks, young cranes fly south with their parents.",
+   "de": "Anders als Jungstörche fliegen junge Kraniche mit ihren Eltern in den Süden."
+  },
+  "long": {
+   "en": "Unlike young storks, young cranes make their first trip south with their parents.",
+   "de": "Anders als junge Störche ziehen junge Kraniche das erste Mal mit ihren Eltern ins Winterquartier."
+  },
+  "source": {
+   "title": "Naturpark Kyffhäuser, Kraniche im Blick (2021)",
+   "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+   "pdf": true,
+   "quote": "dass die Jungtiere das erste Mal mit ihren Eltern ins Winterquartier ziehen."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "crane-havelland",
+  "taxon": "Grus grus",
+  "species": "Common Crane",
+  "kind": "keep",
+  "short": {
+   "en": "Up to 80,000 cranes have rested in Germany's Havelland on one day.",
+   "de": "Bis zu 80.000 Kraniche rasteten an einem Tag im Havelland."
+  },
+  "long": {
+   "en": "Up to 80,000 cranes have been counted resting in Germany's Havelland on a single day.",
+   "de": "Im Havelland wurden an einem einzigen Tag bis zu 80.000 rastende Kraniche gezählt."
+  },
+  "source": {
+   "title": "NABU, Vogelporträt Kranich",
+   "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/kranich/",
+   "quote": "Im Havelland wurden an einem Tag bis zu 80.000 Kraniche beim Rasten gezählt."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "crane-pairs",
+  "taxon": "Grus grus",
+  "species": "Common Crane",
+  "kind": "keep",
+  "short": {
+   "en": "Crane couples can stay together for life.",
+   "de": "Kranichpaare bleiben oft ein Leben lang zusammen."
+  },
+  "long": {
+   "en": "Crane pairs can stay together for life.",
+   "de": "Kranichpaare können ein Leben lang zusammenbleiben."
+  },
+  "source": {
+   "title": "Naturpark Kyffhäuser, Kraniche im Blick (2021)",
+   "url": "https://www.naturpark-kyffhaeuser.de/media/publikationen/kraniche-kyffhaeuser.pdf",
+   "pdf": true,
+   "quote": "Verpaarte Kraniche können ein Leben lang zusammen bleiben."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "td-titan",
+  "taxon": "Streptopelia turtur",
+  "species": "European Turtle Dove",
+  "kind": "keep",
+  "short": {
+   "en": "Titan the turtle dove flew to Mali and back, to the very spot he was tagged.",
+   "de": "Die Turteltaube Titan flog nach Mali und zurück, genau an den Ort ihrer Besenderung."
+  },
+  "long": {
+   "en": "A tagged turtle dove called Titan flew from England to Mali and back to the very spot where he was tagged.",
+   "de": "Eine besenderte Turteltaube namens Titan flog von England nach Mali und zurück an genau die Stelle, wo sie besendert wurde."
+  },
+  "source": {
+   "title": "Operation Turtle Dove (RSPB and partners), Titan",
+   "url": "https://www.operationturtledove.org/turtle-doves/titan/",
+   "quote": "Titan then completed an incredible 11,200 km to Mali in West Africa, spending the winter there before returning to Suffolk – to exactly where he originally was tagged."
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "td-milk",
+  "taxon": "Streptopelia turtur",
+  "species": "European Turtle Dove",
+  "kind": "keep",
+  "short": {
+   "en": "Turtle dove parents feed their chicks milk, made in their own throats.",
+   "de": "Turteltauben füttern ihre Küken mit Milch aus dem eigenen Kropf."
+  },
+  "long": {
+   "en": "Turtle dove chicks are raised on milk: both parents make it in a pouch in their throat.",
+   "de": "Turteltauben ziehen ihre Küken mit Milch auf: Beide Eltern bilden sie in einer Tasche im Hals, dem Kropf."
+  },
+  "source": {
+   "title": "Smithsonian Science Education Center (Qrius), Pigeons and Doves: Parental Care",
+   "url": "https://qrius.si.edu/taxonomy/term/12132",
+   "quote": [
+    "Distinct from mammal milk, it is made in a pouch on the bird's throat (the crop).",
+    "Males and females both start to make crop milk just before eggs hatch."
+   ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "td-carol",
+  "taxon": "Streptopelia turtur",
+  "species": "European Turtle Dove",
+  "kind": "keep",
+  "short": {
+   "en": "The carol's turtle doves never see a British Christmas: they're summer visitors.",
+   "de": "Die Turteltauben aus dem Weihnachtslied sind zu Weihnachten nie in Großbritannien."
+  },
+  "long": {
+   "en": "The turtle doves of the Christmas carol are never in Britain at Christmas: they are summer visitors.",
+   "de": "Die Turteltauben aus dem englischen Weihnachtslied sind zu Weihnachten nie in Großbritannien: Sie sind Sommergäste."
+  },
+  "source": {
+   "title": "RSPB, Turtle Dove",
+   "url": "https://www.rspb.org.uk/birds-and-wildlife/turtle-dove",
+   "quote": [
+    "mention in the",
+    "12 Days of Christmas",
+    "carol, these birds are a summer visitor and are only with us from mid-April to end of August."
+   ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "td-name",
+  "taxon": "Streptopelia turtur",
+  "species": "European Turtle Dove",
+  "kind": "keep",
+  "short": {
+   "en": "Its purring 'turr turr' gave the turtle dove its name.",
+   "de": "Ihr schnurrendes „turr turr“ gab der Turteltaube ihren Namen."
+  },
+  "long": {
+   "en": "The turtle dove's English name comes from its purring 'turr turr' call.",
+   "de": "Der englische Name „Turtle Dove“ kommt vom schnurrenden „turr turr“ des Rufs."
+  },
+  "source": {
+   "title": "RSPB, Turtle Dove",
+   "url": "https://www.rspb.org.uk/birds-and-wildlife/turtle-dove",
+   "quote": "Its iconic purring ‘turr turr’ call is where the ‘Turtle’ name came from."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "td-night",
+  "taxon": "Streptopelia turtur",
+  "species": "European Turtle Dove",
+  "kind": "keep",
+  "short": {
+   "en": "Turtle doves migrate by night, up to {700 km|435 mi} in one go.",
+   "de": "Turteltauben ziehen nachts, bis zu {700 km|435 mi} am Stück."
+  },
+  "long": {
+   "en": "Turtle doves fly south by night, up to {700 km|435 mi} at a stretch, at up to {60 km/h|37 mph}.",
+   "de": "Turteltauben ziehen nachts, bis zu {700 km|435 mi} am Stück, mit bis zu {60 km/h|37 mph}."
+  },
+  "source": {
+   "title": "Operation Turtle Dove (RSPB and partners), Titan",
+   "url": "https://www.operationturtledove.org/turtle-doves/titan/",
+   "quote": "And he travelled around 500-700 km per night, flying at a maximum speed of 60 km per hour."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "td-love",
+  "taxon": "Streptopelia turtur",
+  "species": "European Turtle Dove",
+  "kind": "new",
+  "short": {
+   "en": "'The voice of the turtle', in the Bible's Song of Songs, is a turtle dove's.",
+   "de": "„Die Turteltaube lässt sich hören in unserem Land“, heißt es im Hohelied der Bibel."
+  },
+  "long": {
+   "en": "'The voice of the turtle is heard in our land': the Song of Songs means the turtle dove, an emblem of devoted love ever since.",
+   "de": "„Die Turteltaube lässt sich hören in unserem Land“, heißt es im Hohelied. Seitdem steht die Turteltaube für treue Liebe."
+  },
+  "source": {
+   "title": "Wikipedia, European turtle dove",
+   "url": "https://en.wikipedia.org/wiki/European_turtle_dove",
+   "quote": "especially verse 2:12 from the Song of Songs \"the voice of the turtle [dove] is heard in our land\" – its mournful voice, and the fact that it forms strong pair bonds , European turtle doves have become emblems of devoted love.",
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "note": "does not work in german",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "td-decline",
+  "taxon": "Streptopelia turtur",
+  "species": "European Turtle Dove",
+  "kind": "keep",
+  "short": {
+   "en": "Britain has lost almost 99% of its turtle doves since the 1960s.",
+   "de": "Großbritannien hat seit den 1960ern fast 99 % seiner Turteltauben verloren."
+  },
+  "long": {
+   "en": "Turtle dove numbers in Britain have fallen by almost 99% since the 1960s.",
+   "de": "In Großbritannien ist der Bestand der Turteltauben seit den 1960ern um fast 99 % eingebrochen."
+  },
+  "source": {
+   "title": "RSPB, Turtle Dove",
+   "url": "https://www.rspb.org.uk/birds-and-wildlife/turtle-dove",
+   "quote": "Turtle Dove numbers have plummeted by almost 99% since the 1960s."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "rephrase to include \"population\" in the short version. otherwise the short version sounds like they just lost them somewhere and cant find them,",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "gull-victoria",
+  "taxon": "Larus fuscus",
+  "species": "Lesser Black-backed Gull",
+  "kind": "new",
+  "short": {
+   "en": "One tracked gull flew {3500 km|2200 mi} to Lake Victoria without stopping.",
+   "de": "Eine besenderte Heringsmöwe flog {3500 km|2200 mi} am Stück bis zum Victoriasee."
+  },
+  "long": {
+   "en": "A satellite-tagged lesser black-backed gull flew its last {3500 km|2200 mi} to Lake Victoria non-stop: 92 hours, ending near Kampala.",
+   "de": "Eine Heringsmöwe mit Satellitensender flog ihre letzten {3500 km|2200 mi} zum Victoriasee ohne Pause: 92 Stunden, bis nahe Kampala."
+  },
+  "source": {
+   "title": "Kube et al., Hop or jump: autumn migration strategies of lesser black-backed gulls (Microwave Telemetry newsletter, 2000)",
+   "url": "https://www.microwavetelemetry.com/uploads/NewsletterPDFs/MTINewsletter_2000_Summer_page3.pdf",
+   "quote": [
+    "The other bird went further south to Lake Victoria.",
+    "It reached its wintering grounds near Kampala, Uganda, on 29 September.",
+    "Its final nonstop journey of about 3500 km lasted 92 hours (38 km/h)."
+   ],
+   "checked": "2026-10-22",
+   "pdf": true
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "gull-chips",
+  "taxon": "Larus fuscus",
+  "species": "Lesser Black-backed Gull",
+  "kind": "keep",
+  "short": {
+   "en": "Lesser black-backed gulls eat fish, worms and abandoned chips.",
+   "de": "Heringsmöwen fressen Fisch, Würmer und liegengelassene Pommes."
+  },
+  "long": {
+   "en": "Lesser black-backed gulls eat fish, worms and edible rubbish, abandoned chips included.",
+   "de": "Heringsmöwen fressen Fisch, Würmer und essbaren Abfall, auch liegen gelassene Pommes."
+  },
+  "source": {
+   "title": "RSPB, Lesser Black-backed Gull",
+   "url": "https://www.rspb.org.uk/birds-and-wildlife/lesser-black-backed-gull",
+   "quote": "They feed on a large variety of food including fish, worms, and edible rubbish (and abandoned chips)."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "gull-dawdle",
+  "taxon": "Larus fuscus",
+  "species": "Lesser Black-backed Gull",
+  "kind": "keep",
+  "short": {
+   "en": "Female gulls dawdle in autumn and arrive about 15 days after the males.",
+   "de": "Möwenweibchen trödeln im Herbst und kommen rund 15 Tage nach den Männchen an."
+  },
+  "long": {
+   "en": "Female lesser black-backed gulls dawdle in autumn and reach their winter quarters about 15 days after the males.",
+   "de": "Weibliche Heringsmöwen lassen sich im Herbst Zeit und kommen etwa 15 Tage nach den Männchen im Winterquartier an."
+  },
+  "source": {
+   "title": "Baert et al. 2018, Scientific Reports",
+   "url": "https://doi.org/10.1038/s41598-018-23605-x",
+   "europepmc": "DOI:10.1038/s41598-018-23605-x",
+   "quote": "arrived 15 days later at their wintering areas, than males."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "gull-roof",
+  "taxon": "Larus fuscus",
+  "species": "Lesser Black-backed Gull",
+  "kind": "keep",
+  "short": {
+   "en": "These gulls have moved to town and nest on flat city-centre roofs.",
+   "de": "Heringsmöwen sind in die Stadt gezogen und brüten auf Flachdächern."
+  },
+  "long": {
+   "en": "Lesser black-backed gulls have moved to town: they also nest on the flat roofs of city-centre buildings.",
+   "de": "Heringsmöwen sind in die Stadt gezogen: Sie brüten auch auf Flachdächern in Innenstädten."
+  },
+  "source": {
+   "title": "BTO, BirdFacts: Lesser Black-backed Gull",
+   "url": "https://www.bto.org/understanding-birds/birdfacts/lesser-black-backed-gull",
+   "quote": "it also breeds on the flat roofs of city-centre buildings and industrial units."
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "note": "doesnt sound quite right in german. for all future rewrites. have the german and english texts written from two different agents, the translation part does not work for a lot of the german versions because they are referencing english contexts or are just bad litteral translations of the english text.",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "gull-city",
+  "taxon": "Larus fuscus",
+  "species": "Lesser Black-backed Gull",
+  "kind": "keep",
+  "short": {
+   "en": "City gulls barely visit the sea {10 km|6 mi} away: towns and fields feed them.",
+   "de": "Stadtmöwen fliegen kaum ans {10 km|6 mi} entfernte Meer: Stadt und Felder ernähren sie."
+  },
+  "long": {
+   "en": "Gulls nesting in a city barely used the sea {10 km|6 mi} away; they fed in towns and fields instead.",
+   "de": "In der Stadt brütende Heringsmöwen nutzten das {10 km|6 mi} entfernte Meer kaum; sie fraßen in Städten und auf Feldern."
+  },
+  "source": {
+   "title": "Spelt et al. 2019, Scientific Reports",
+   "url": "https://doi.org/10.1038/s41598-019-46890-6",
+   "europepmc": "DOI:10.1038/s41598-019-46890-6",
+   "quote": "Despite the proximity of marine areas (~10 km), the birds only made significant use of terrestrial environments"
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "german version needs work",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "gull-age",
+  "taxon": "Larus fuscus",
+  "species": "Lesser Black-backed Gull",
+  "kind": "keep",
+  "short": {
+   "en": "The oldest known lesser black-backed gull lived to almost 35.",
+   "de": "Die älteste bekannte Heringsmöwe wurde fast 35 Jahre alt."
+  },
+  "long": {
+   "en": "The oldest known lesser black-backed gull, a ringed bird, lived to almost 35.",
+   "de": "Die älteste bekannte Heringsmöwe, ein beringter Vogel, wurde fast 35 Jahre alt."
+  },
+  "source": {
+   "title": "BTO, BirdFacts: Lesser Black-backed Gull",
+   "url": "https://www.bto.org/understanding-birds/birdfacts/lesser-black-backed-gull",
+   "quote": "Maximum age from a ringed bird 34 years, 10 months, 27 days"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "shrike-larder",
+  "taxon": "Lanius collurio",
+  "species": "Red-backed Shrike",
+  "kind": "keep",
+  "short": {
+   "en": "Shrikes keep a larder: leftover prey, impaled on thorns or barbed wire.",
+   "de": "Neuntöter legen Vorräte an: Beute, aufgespießt auf Dornen oder Stacheldraht."
+  },
+  "long": {
+   "en": "Red-backed shrikes impale leftover prey on thorns, or on barbed wire, to keep it for later.",
+   "de": "Neuntöter spießen übrige Beute auf Dornen oder Stacheldraht, als Vorrat für später."
+  },
+  "source": {
+   "title": "NABU, Vogelporträt Neuntöter",
+   "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/neuntoeter/",
+   "quote": [
+    "Neuntöter spießen übrig gebliebene Nahrung auf Dornen, um sie dort für einen späteren Zeitpunkt aufzubewahren.",
+    "Auch Stacheldraht nutzen sie dafür."
+   ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "shrike-nine",
+  "taxon": "Lanius collurio",
+  "species": "Red-backed Shrike",
+  "kind": "keep",
+  "short": {
+   "en": "Germans call it the 'killer of nine': it supposedly caught nine animals before eating one.",
+   "de": "Der Neuntöter soll erst neun Tiere fangen, bevor er eines frisst, daher sein Name."
+  },
+  "long": {
+   "en": "In German the red-backed shrike is the 'killer of nine': people believed it caught nine animals before eating one.",
+   "de": "Früher glaubte man, der Neuntöter müsse erst neun Tiere fangen, bevor er eines frisst; daher sein Name."
+  },
+  "source": {
+   "title": "NABU Hamburg, Neuntöter",
+   "url": "https://hamburg.nabu.de/natur-und-landschaft/hoeltigbaum/landschaft-und-leben/05236.html",
+   "quote": "Früher glaubte man, der Neuntöter müsse erst neun Tiere fangen, bevor er eines verspeisen würde - daher der gefährlich klingende Name."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "shrike-loop",
+  "taxon": "Lanius collurio",
+  "species": "Red-backed Shrike",
+  "kind": "keep",
+  "short": {
+   "en": "A red-backed shrike flies a {22000 km|13700 mi} loop every year.",
+   "de": "Ein Neuntöter fliegt jedes Jahr eine Schleife von {22000 km|13700 mi}."
+  },
+  "long": {
+   "en": "Red-backed shrikes fly a loop of about {22000 km|13700 mi} a year, coming back north across the Arabian Peninsula.",
+   "de": "Neuntöter fliegen jedes Jahr eine Schleife von rund {22000 km|13700 mi}, zurück nach Norden über die Arabische Halbinsel."
+  },
+  "source": {
+   "title": "Tøttrup et al. 2012, Proc. R. Soc. B 279: 1008-1016",
+   "url": "https://doi.org/10.1098/rspb.2011.1323",
+   "europepmc": "DOI:10.1098/rspb.2011.1323",
+   "quote": "The birds performed a distinct loop migration (22 000 km) where spring distance, including a detour across the Arabian Peninsula"
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "shrike-tooth",
+  "taxon": "Lanius collurio",
+  "species": "Red-backed Shrike",
+  "kind": "keep",
+  "short": {
+   "en": "A songbird with a bird of prey's hooked bill, 'falcon tooth' and all.",
+   "de": "Ein Singvogel mit Hakenschnabel und „Falkenzahn“ wie ein Greifvogel."
+  },
+  "long": {
+   "en": "Though a songbird, the red-backed shrike has a hooked bill with a 'falcon tooth', like a bird of prey.",
+   "de": "Obwohl ein Singvogel, hat der Neuntöter einen Hakenschnabel mit „Falkenzahn“ wie ein Greifvogel."
+  },
+  "source": {
+   "title": "NABU, Vogel des Jahres 1985: Der Neuntöter",
+   "url": "https://www.nabu.de/tiere-und-pflanzen/aktionen-und-projekte/vogel-des-jahres/1985-neuntoeter/index.html",
+   "quote": "Ein typisches äußerliches Merkmal dieser Singvögel ist ihr falkenähnlicher Oberschnabel, der wie bei Greifvögeln mit einem so genannten Falkenzahn versehen ist."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "short version is too short and missing context. makes no sense. long version is fine. german phrasing is shit though.",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "shrike-mimic",
+  "taxon": "Lanius collurio",
+  "species": "Red-backed Shrike",
+  "kind": "keep",
+  "short": {
+   "en": "The red-backed shrike laces its song with other birds' calls.",
+   "de": "Der Neuntöter mischt in seinen Gesang die Stimmen anderer Vögel."
+  },
+  "long": {
+   "en": "The red-backed shrike's quiet, twittering song is laced with imitations of other birds.",
+   "de": "Der leise zwitschernde Gesang der Neuntöter steckt voller Imitationen anderer Vögel."
+  },
+  "source": {
+   "title": "NABU, Vogelporträt Neuntöter",
+   "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/neuntoeter/",
+   "quote": "Der leise zwitschernde Gesang ist mit Imitationen anderer Vögel durchsetzt."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "change german short to \"Der Neuntöter mischt die Stimmen anderer Vögel in seinen Gesang.\"",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "shrike-block",
+  "taxon": "Lanius collurio",
+  "species": "Red-backed Shrike",
+  "kind": "keep",
+  "short": {
+   "en": "Thorns are a shrike's butcher's block: it cuts up prey and pulls out stings.",
+   "de": "Dornen sind die Schlachtbank des Neuntöters: Er zerlegt Beute und zieht Stacheln."
+  },
+  "long": {
+   "en": "Shrikes use thorns as a butcher's block too, to cut up their prey, crack it open or pull out stings.",
+   "de": "Dornen dienen Neuntötern auch als Schlachtbank: Dort wird Beute zerteilt, aufgebrochen oder entstachelt."
+  },
+  "source": {
+   "title": "NABU, Vogelporträt Neuntöter",
+   "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/neuntoeter/",
+   "quote": "Die Beutetiere werden an Dornen zerteilt, aufgebrochen oder entstachelt."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "short version needs work.",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "wh-arse",
+  "taxon": "Oenanthe oenanthe",
+  "species": "Northern Wheatear",
+  "kind": "keep",
+  "short": {
+   "en": "'Wheatear' started out as 'white arse', after the bird's white rump.",
+   "de": "Der englische Name „Wheatear“ kommt von „white arse“: weißer Hintern."
+  },
+  "long": {
+   "en": "The English name 'wheatear' started out as 'white arse', after the bird's white rump.",
+   "de": "Der englische Name „Wheatear“ kommt vom altenglischen „white arse“, nach dem weißen Bürzel."
+  },
+  "source": {
+   "title": "RSPB, Which birds return first in spring?",
+   "url": "https://www.rspb.org.uk/birds-and-wildlife/spring-arrivals",
+   "quote": [
+    "white arse",
+    "as it was known in old English, is one of the first"
+   ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "wh-alaska",
+  "taxon": "Oenanthe oenanthe",
+  "species": "Northern Wheatear",
+  "kind": "keep",
+  "short": {
+   "en": "A {25 g|0.9 oz} wheatear flies {14500 km|9000 mi} from Alaska to Africa, each way.",
+   "de": "Ein {25 g|0.9 oz} leichter Steinschmätzer fliegt {14500 km|9000 mi} von Alaska nach Afrika."
+  },
+  "long": {
+   "en": "Wheatears breeding in Alaska fly about {14500 km|9000 mi} each way to Africa, weighing only about {25 g|0.9 oz}.",
+   "de": "Steinschmätzer aus Alaska fliegen rund {14500 km|9000 mi} pro Strecke nach Afrika, bei nur etwa {25 g|0.9 oz} Gewicht."
+  },
+  "source": {
+   "title": "Bairlein et al. 2012, Biol. Lett. 8: 505-507",
+   "url": "https://doi.org/10.1098/rsbl.2011.1223",
+   "europepmc": "DOI:10.1098/rsbl.2011.1223",
+   "quote": "with Alaskan birds travelling approximately 14 500 km each way"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "wh-asia",
+  "taxon": "Oenanthe oenanthe",
+  "species": "Northern Wheatear",
+  "kind": "keep",
+  "short": {
+   "en": "Alaska's wheatears head west: over the Bering Strait and all of Asia to Africa.",
+   "de": "Alaskas Steinschmätzer ziehen westwärts: über die Beringstraße und ganz Asien nach Afrika."
+  },
+  "long": {
+   "en": "Alaska's wheatears head west in autumn: across the Bering Strait and the whole of Asia to Africa.",
+   "de": "Steinschmätzer aus Alaska ziehen im Herbst nach Westen: über die Beringstraße und ganz Asien nach Afrika."
+  },
+  "source": {
+   "title": "Audubon Field Guide, Northern Wheatear",
+   "url": "https://www.audubon.org/field-guide/bird/northern-wheatear",
+   "quote": "Birds from Alaska and northwestern Canada cross Bering Strait and make long westward flight across Asia, also going to wintering grounds mostly in Africa."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "wh-greenland",
+  "taxon": "Oenanthe oenanthe",
+  "species": "Northern Wheatear",
+  "kind": "keep",
+  "short": {
+   "en": "Some of Greenland's wheatears fly non-stop across the Atlantic to Spain.",
+   "de": "Manche Steinschmätzer aus Grönland fliegen ohne Pause über den Atlantik nach Spanien."
+  },
+  "long": {
+   "en": "Some wheatears from Greenland fly non-stop across the Atlantic to Spain, then on to West Africa.",
+   "de": "Manche Steinschmätzer aus Grönland fliegen nonstop über den Atlantik nach Spanien und weiter nach Westafrika."
+  },
+  "source": {
+   "title": "BTO, BirdFacts: Wheatear",
+   "url": "https://www.bto.org/understanding-birds/birdfacts/wheatear",
+   "quote": "with some flying non-stop across the Atlantic to northern Spain and then on to West Africa."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "wh-rabbits",
+  "taxon": "Oenanthe oenanthe",
+  "species": "Northern Wheatear",
+  "kind": "keep",
+  "short": {
+   "en": "Wheatears love rabbits: they keep the grass short and dig their nest holes.",
+   "de": "Steinschmätzer lieben Kaninchen: Die halten das Gras kurz und graben ihnen Bruthöhlen."
+  },
+  "long": {
+   "en": "Wheatears do well where rabbits do: rabbits keep the grass short and dig the burrows wheatears nest in.",
+   "de": "Steinschmätzer profitieren von Kaninchen: Die halten das Gras kurz und graben Baue, in denen Steinschmätzer brüten."
+  },
+  "source": {
+   "title": "BTO, BirdFacts: Wheatear",
+   "url": "https://www.bto.org/understanding-birds/birdfacts/wheatear",
+   "quote": "Wheatears were more abundant on islands with larger rabbit populations and hence short turf and burrows for nesting"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "wh-speed",
+  "taxon": "Oenanthe oenanthe",
+  "species": "Northern Wheatear",
+  "kind": "keep",
+  "short": {
+   "en": "Tracked wheatears averaged up to {290 km|180 mi} a day on migration.",
+   "de": "Besenderte Steinschmätzer schafften im Schnitt bis zu {290 km|180 mi} am Tag."
+  },
+  "long": {
+   "en": "Tracked wheatears averaged up to {290 km|180 mi} a day over their whole migration.",
+   "de": "Besenderte Steinschmätzer schafften im Schnitt bis zu {290 km|180 mi} am Tag über den ganzen Zug."
+  },
+  "source": {
+   "title": "Bairlein et al. 2012, Biol. Lett. 8: 505-507",
+   "url": "https://doi.org/10.1098/rsbl.2011.1223",
+   "europepmc": "DOI:10.1098/rsbl.2011.1223",
+   "quote": "mean overall migration speeds of up to 290 km d(-1)"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "cur-nonstop",
+  "taxon": "Numenius madagascariensis",
+  "species": "Far Eastern Curlew",
+  "kind": "new",
+  "short": {
+   "en": "Far Eastern curlews fly {8500 km|5300 mi} non-stop, Australia to the Yellow Sea.",
+   "de": "Isabellbrachvögel fliegen {8500 km|5300 mi} ohne Pause von Australien zum Gelben Meer."
+  },
+  "long": {
+   "en": "Three curlews tracked from Victoria, Australia, all flew {8500 km|5300 mi} non-stop to the Yellow Sea: 7 to 8 days without landing.",
+   "de": "Drei besenderte Isabellbrachvögel aus Victoria, Australien, flogen {8500 km|5300 mi} am Stück zum Gelben Meer: 7 bis 8 Tage ohne Landung."
+  },
+  "source": {
+   "title": "Victorian Wader Study Group, Eastern Curlew geolocator study",
+   "url": "https://vwsg.org.au/waders/geolocator-studies/eastern-curlew/",
+   "quote": "The three Eastern Curlews departed from their non-breeding area during 4–14 Mar and all flew 8,500 km nonstop to the western shores of the Yellow Sea taking 7–8 days.",
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "cur-bill",
+  "taxon": "Numenius madagascariensis",
+  "species": "Far Eastern Curlew",
+  "kind": "keep",
+  "short": {
+   "en": "The Far Eastern curlew has the longest bill of any wader: about {20 cm|8 in}.",
+   "de": "Der Isabellbrachvogel hat den längsten Schnabel aller Watvögel: rund {20 cm|8 in}."
+  },
+  "long": {
+   "en": "The Far Eastern curlew has the longest bill of any wader, around {20 cm|8 in}.",
+   "de": "Der Isabellbrachvogel hat den längsten Schnabel aller Watvögel, rund {20 cm|8 in}."
+  },
+  "source": {
+   "title": "Birds New Zealand / Te Papa, New Zealand Birds Online: Eastern curlew",
+   "url": "https://www.nzbirdsonline.org.nz/species/eastern-curlew",
+   "quote": "has the longest bill of any wader at around 20 cm in length."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "cur-largest",
+  "taxon": "Numenius madagascariensis",
+  "species": "Far Eastern Curlew",
+  "kind": "keep",
+  "short": {
+   "en": "The largest migratory shorebird in the world.",
+   "de": "Der größte ziehende Watvogel der Welt."
+  },
+  "long": {
+   "en": "The Far Eastern curlew is the largest migratory shorebird in the world.",
+   "de": "Der Isabellbrachvogel ist der größte ziehende Watvogel der Welt."
+  },
+  "source": {
+   "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
+   "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+   "pdf": true,
+   "quote": "Far eastern curlews are the largest migratory shorebird species in the world."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "add a \"It is the\" or something to the short version. there is enough space.",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "cur-teen",
+  "taxon": "Numenius madagascariensis",
+  "species": "Far Eastern Curlew",
+  "kind": "keep",
+  "short": {
+   "en": "Young curlews stay two or three years in Australia before their first trip north.",
+   "de": "Junge Brachvögel bleiben zwei, drei Jahre in Australien, bevor sie nach Norden ziehen."
+  },
+  "long": {
+   "en": "Young Far Eastern curlews may stay two or three years in Australia before their first flight north.",
+   "de": "Junge Isabellbrachvögel bleiben oft zwei oder drei Jahre in Australien, bevor sie erstmals nach Norden ziehen."
+  },
+  "source": {
+   "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
+   "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+   "pdf": true,
+   "quote": "young far eastern curlews might spend their second austral winter in Australia, and some might also spend their third winter in Australia before undertaking their first northward migration"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "cur-sexes",
+  "taxon": "Numenius madagascariensis",
+  "species": "Far Eastern Curlew",
+  "kind": "keep",
+  "short": {
+   "en": "Females have longer bills and feed on sandier flats; males stick to the mud.",
+   "de": "Weibchen haben längere Schnäbel und suchen auf sandigem Watt, Männchen im Schlick."
+  },
+  "long": {
+   "en": "Female Far Eastern curlews have longer bills and feed on sandier flats; the males stick to the mud.",
+   "de": "Weibliche Isabellbrachvögel haben längere Schnäbel und suchen auf sandigeren Flächen; die Männchen bleiben im Schlick."
+  },
+  "source": {
+   "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
+   "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+   "pdf": true,
+   "quote": [
+    "females tend to be larger and have a longer bill.",
+    "with females utilising more sandy areas and males utilising more muddy areas"
+   ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "cur-yellowsea",
+  "taxon": "Numenius madagascariensis",
+  "species": "Far Eastern Curlew",
+  "kind": "keep",
+  "short": {
+   "en": "About 80% of all Far Eastern curlews refuel on the Yellow Sea.",
+   "de": "Rund 80 % aller Isabellbrachvögel tanken am Gelben Meer auf."
+  },
+  "long": {
+   "en": "About 80% of all Far Eastern curlews stop over on the Yellow Sea on their way north.",
+   "de": "Rund 80 % aller Isabellbrachvögel rasten auf dem Weg nach Norden am Gelben Meer."
+  },
+  "source": {
+   "title": "Australian Government DCCEEW (2023), Conservation Advice for Numenius madagascariensis (far eastern curlew)",
+   "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
+   "pdf": true,
+   "quote": "It supports approximately 80 percent of the species' estimated flyway population during their northward migration"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bwh-kettle",
+  "taxon": "Buteo platypterus",
+  "species": "Broad-winged Hawk",
+  "kind": "keep",
+  "short": {
+   "en": "'Kettles' of tens of thousands of hawks circle over the Great Lakes.",
+   "de": "„Kessel“ aus Zehntausenden Bussarden kreisen über den Großen Seen."
+  },
+  "long": {
+   "en": "At peak migration, 'kettles' of tens of thousands circle over the shores of the Great Lakes.",
+   "de": "Auf dem Höhepunkt des Zugs kreisen Zehntausende gemeinsam über den Ufern der Großen Seen."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+   "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+   "quote": "flocks or “kettles” of tens of thousands of Broad-winged Hawks can be seen along the shorelines of the Great Lakes"
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "tens of thousands of what",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bwh-jays",
+  "taxon": "Buteo platypterus",
+  "species": "Broad-winged Hawk",
+  "kind": "keep",
+  "short": {
+   "en": "Blue jays can imitate the broad-winged hawk's thin, high whistle.",
+   "de": "Blauhäher können den dünnen, hohen Pfiff des Breitflügelbussards nachahmen."
+  },
+  "long": {
+   "en": "Blue jays are known to imitate the broad-winged hawk's thin, high whistle.",
+   "de": "Blauhäher ahmen den dünnen, hohen Pfiff des Breitflügelbussards nach."
+  },
+  "source": {
+   "title": "Audubon Field Guide, Broad-winged Hawk",
+   "url": "https://www.audubon.org/field-guide/bird/broad-winged-hawk",
+   "quote": "Blue Jays are known to mimic the call."
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bwh-dragonfly",
+  "taxon": "Buteo platypterus",
+  "species": "Broad-winged Hawk",
+  "kind": "keep",
+  "short": {
+   "en": "On the way south, broad-winged hawks snack on migrating dragonflies.",
+   "de": "Unterwegs naschen Breitflügelbussarde Libellen, die ebenfalls ziehen."
+  },
+  "long": {
+   "en": "On the way south, broad-winged hawks snack on dragonflies that are migrating too.",
+   "de": "Unterwegs nach Süden schnappen sich Breitflügelbussarde Libellen, die ebenfalls ziehen."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+   "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+   "quote": "During migration, broadwings will feed opportunistically on insects, including migrating dragonflies"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bwh-twoweeks",
+  "taxon": "Buteo platypterus",
+  "species": "Broad-winged Hawk",
+  "kind": "keep",
+  "short": {
+   "en": "Most broad-winged hawks pass the hawk watches within just two weeks.",
+   "de": "Die meisten Breitflügelbussarde ziehen in nur zwei Wochen an den Zählstellen vorbei."
+  },
+  "long": {
+   "en": "In autumn most broad-winged hawks pass the hawk-watch sites within just two weeks, often in flocks of thousands.",
+   "de": "Im Herbst ziehen die meisten Breitflügelbussarde binnen nur zwei Wochen an den Zählstellen vorbei, oft zu Tausenden."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+   "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+   "quote": "in autumn the majority of individuals pass migration watchsites during a brief and concentrated two-week period"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bwh-soar",
+  "taxon": "Buteo platypterus",
+  "species": "Broad-winged Hawk",
+  "kind": "keep",
+  "short": {
+   "en": "Broad-wings barely fatten up: they ride rising air to South America.",
+   "de": "Breitflügelbussarde fressen sich kaum Reserven an: Aufwinde tragen sie nach Südamerika."
+  },
+  "long": {
+   "en": "Broad-winged hawks barely fatten up before migrating: they get to South America by soaring on rising air.",
+   "de": "Breitflügelbussarde fressen sich vor dem Zug kaum Fett an: Sie kommen segelnd auf Aufwinden bis nach Südamerika."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+   "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+   "quote": "This species does not acquire large stores of fat prior to migration and depends upon soaring to complete its long-distance journeys."
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bwh-islands",
+  "taxon": "Buteo platypterus",
+  "species": "Broad-winged Hawk",
+  "kind": "keep",
+  "short": {
+   "en": "Broad-winged hawks on Cuba and Puerto Rico don't migrate at all.",
+   "de": "Auf Kuba und Puerto Rico ziehen Breitflügelbussarde gar nicht."
+  },
+  "long": {
+   "en": "Broad-winged hawks on Cuba, Puerto Rico and other Caribbean islands do not migrate at all.",
+   "de": "Breitflügelbussarde auf Kuba, Puerto Rico und anderen Karibikinseln ziehen gar nicht."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Broad-winged Hawk",
+   "url": "https://www.hawkmountain.org/raptors/broad-winged-hawk",
+   "quote": "Non-migratory subspecies of broadwings inhabit Cuba, Puerto Rico, and several other islands in the West Indies."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "\"ziehn gar nicht\" doesnt sound \"right\" in german. is there a different word for migrating we could use across the board?",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "tv-hinckley",
+  "taxon": "Cathartes aura",
+  "species": "Turkey Vulture",
+  "kind": "new",
+  "short": {
+   "en": "Hinckley, Ohio, expects its turkey vultures back every 15 March.",
+   "de": "Hinckley in Ohio erwartet seine Truthahngeier jedes Jahr am 15. März zurück."
+  },
+  "long": {
+   "en": "A ranger in Hinckley, Ohio, noticed in the 1950s that the turkey vultures came back every 15 March. The town still expects them that day.",
+   "de": "Ein Ranger in Hinckley, Ohio, sah in den 1950ern die Truthahngeier jeden 15. März zurückkehren. Bis heute erwartet man sie an dem Tag."
+  },
+  "source": {
+   "title": "Ideastream Public Media, Hinckley's buzzards are just around the corner (2019)",
+   "url": "https://www.ideastream.org/news/hinckley-s-buzzards-are-just-around-the-corner",
+   "quote": [
+    "March 15 is the day that the buzzards, which are actually turkey vultures, are expected in Hinckley Township.",
+    "It was back in the 1950s that one of the rangers from in the Cleveland Metroparks Hinckley Reservation had noted that every March 15, he would see the vanguard of the local roost or flock of vultures returning to the hills of Hinckley."
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "tv-gas",
+  "taxon": "Cathartes aura",
+  "species": "Turkey Vulture",
+  "kind": "keep",
+  "short": {
+   "en": "Turkey vultures smell so well that they help find gas leaks.",
+   "de": "Truthahngeier riechen so gut, dass sie helfen, Gaslecks zu finden."
+  },
+  "long": {
+   "en": "Turkey vultures smell so well that they help gas companies find leaks.",
+   "de": "Truthahngeier riechen so gut, dass sie Gasfirmen helfen, Lecks zu finden."
+  },
+  "source": {
+   "title": "Chesapeake Bay Program, Turkey Vulture",
+   "url": "https://www.chesapeakebay.net/discover/field-guide/entry/turkey-vulture",
+   "quote": "Turkey vultures have such a strong sense of smell that they can help gas companies detect gas leaks."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "\"have such a good sense of smell\" and \"können so gut riechen\". right now your telling people that the animals themselves have a good smell to them. wtf?",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "tv-vomit",
+  "taxon": "Cathartes aura",
+  "species": "Turkey Vulture",
+  "kind": "keep",
+  "short": {
+   "en": "A threatened baby turkey vulture fights back with projectile vomit.",
+   "de": "Ein bedrohtes Truthahngeier-Küken wehrt sich mit gezieltem Erbrechen."
+  },
+  "long": {
+   "en": "Nestling turkey vultures defend themselves by projectile vomiting.",
+   "de": "Junge Truthahngeier verteidigen sich im Nest, indem sie Angreifer anspeien."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+   "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+   "quote": "Nestling Turkey Vultures projectile vomit to defend themselves."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "tv-hiss",
+  "taxon": "Cathartes aura",
+  "species": "Turkey Vulture",
+  "kind": "keep",
+  "short": {
+   "en": "No voice box: turkey vultures can only hiss and grunt.",
+   "de": "Ohne Stimmapparat können Truthahngeier nur zischen und grunzen."
+  },
+  "long": {
+   "en": "Turkey vultures have no voice box, so all they can do is hiss and grunt.",
+   "de": "Truthahngeier haben keinen Stimmapparat; sie können nur fauchen und grunzen."
+  },
+  "source": {
+   "title": "Missouri Department of Conservation, Turkey Vulture",
+   "url": "https://mdc.mo.gov/discover-nature/field-guide/turkey-vulture",
+   "quote": "They have no voice box (syrinx), so they can only hiss and grunt when they vocalize."
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "\"Da sie keinen Stimmapparat haben...\" for the short german version",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "tv-anthrax",
+  "taxon": "Cathartes aura",
+  "species": "Turkey Vulture",
+  "kind": "keep",
+  "short": {
+   "en": "Turkey vultures can eat carrion with anthrax or rabies, and stop it spreading.",
+   "de": "Truthahngeier vertragen Aas mit Milzbrand oder Tollwut und bremsen so die Ausbreitung."
+  },
+  "long": {
+   "en": "Turkey vultures can safely eat carrion carrying anthrax or rabies, which helps stop these diseases spreading.",
+   "de": "Truthahngeier fressen gefahrlos Aas mit Milzbrand- oder Tollwuterregern und bremsen so die Ausbreitung."
+  },
+  "source": {
+   "title": "Missouri Department of Conservation, Turkey Vulture",
+   "url": "https://mdc.mo.gov/discover-nature/field-guide/turkey-vulture",
+   "quote": "Their ability to safely eat carrion containing pathogens such as anthrax and rabies helps reduce the spread of these diseases."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "tv-follow",
+  "taxon": "Cathartes aura",
+  "species": "Turkey Vulture",
+  "kind": "keep",
+  "short": {
+   "en": "Black vultures can barely smell, so they follow turkey vultures to dinner.",
+   "de": "Rabengeier riechen kaum etwas und folgen darum den Truthahngeiern zum Aas."
+  },
+  "long": {
+   "en": "Black vultures can barely smell, so they often follow turkey vultures to carcasses.",
+   "de": "Rabengeier riechen kaum etwas und folgen darum oft Truthahngeiern zum Aas."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+   "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+   "quote": "Other vultures, such as Black Vultures, lack a keen sense of smell and often follow Turkey Vultures to carcasses."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "tv-dance",
+  "taxon": "Cathartes aura",
+  "species": "Turkey Vulture",
+  "kind": "keep",
+  "short": {
+   "en": "Courting turkey vultures play follow-the-leader, copying each other's every turn.",
+   "de": "Balzende Truthahngeier spielen Fangen: Einer fliegt dem anderen jede Kurve nach."
+  },
+  "long": {
+   "en": "Courting turkey vultures play follow-the-leader in the air, one copying the other's flight path exactly.",
+   "de": "Balzende Truthahngeier fliegen hintereinander her, der zweite folgt exakt der Flugbahn des ersten."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Turkey Vulture",
+   "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
+   "quote": "Vultures perform aerial courtship displays during which one bird follows the other and precisely mimics the lead bird's flight path."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "tv-bald",
+  "taxon": "Cathartes aura",
+  "species": "Turkey Vulture",
+  "kind": "keep",
+  "short": {
+   "en": "A bald head stays clean: no feathers for bacteria, and the sun disinfects it.",
+   "de": "Ein kahler Kopf bleibt sauber: keine Federn für Bakterien, und die Sonne desinfiziert."
+  },
+  "long": {
+   "en": "A bald head keeps a vulture clean: no feathers for bacteria to lodge in, and the sun disinfects the bare skin.",
+   "de": "Der kahle Kopf hält Geier sauber: Keine Federn, in denen Bakterien hängen bleiben, und die Sonne desinfiziert die Haut."
+  },
+  "source": {
+   "title": "San Diego Zoo Wildlife Alliance, Vulture",
+   "url": "https://animals.sandiegozoo.org/animals/vulture",
+   "quote": "New World vultures have a distinctive bald head, an adaptation that helps reduce the risks of disease, because bacteria could become lodged in feathers, while the bald head and neck may be disinfected by the sun's rays."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bw-largest",
+  "taxon": "Balaenoptera musculus",
+  "species": "Blue Whale",
+  "kind": "keep",
+  "short": {
+   "en": "The blue whale is the largest animal that has ever lived.",
+   "de": "Der Blauwal ist das größte Tier, das je gelebt hat."
+  },
+  "long": {
+   "en": "Blue whales are the largest animals ever to have lived on Earth.",
+   "de": "Blauwale sind die größten Tiere, die je auf der Erde gelebt haben."
+  },
+  "source": {
+   "title": "NOAA Fisheries, Blue Whale",
+   "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+   "quote": "they are the largest animals ever to live on our planet"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bw-tongue",
+  "taxon": "Balaenoptera musculus",
+  "species": "Blue Whale",
+  "kind": "keep",
+  "short": {
+   "en": "A blue whale's tongue weighs as much as an elephant.",
+   "de": "Die Zunge eines Blauwals wiegt so viel wie ein Elefant."
+  },
+  "long": {
+   "en": "A blue whale's tongue can weigh as much as an elephant, and its heart as much as a car.",
+   "de": "Die Zunge eines Blauwals kann so viel wiegen wie ein Elefant, sein Herz so viel wie ein Auto."
+  },
+  "source": {
+   "title": "National Geographic, Blue whale",
+   "url": "https://www.nationalgeographic.com/animals/mammals/facts/blue-whale",
+   "quote": "A blue whale's tongue alone can weigh as much as an elephant—its heart as much as an automobile."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bw-calf",
+  "taxon": "Balaenoptera musculus",
+  "species": "Blue Whale",
+  "kind": "keep",
+  "short": {
+   "en": "A blue whale calf drinks about {380 l|100 gal} of milk a day.",
+   "de": "Ein Blauwalkalb trinkt rund {380 l|100 gal} Milch am Tag."
+  },
+  "long": {
+   "en": "A blue whale calf drinks about {380 l|100 gal} of milk a day and gains about {90 kg|200 lb}, every day.",
+   "de": "Ein Blauwalkalb trinkt rund {380 l|100 gal} Milch am Tag und nimmt dabei täglich etwa {90 kg|200 lb} zu."
+  },
+  "source": {
+   "title": "American Cetacean Society, Blue Whale",
+   "url": "https://www.acsonline.org/blue-whale",
+   "quote": "During the nursing period, calves consume 100 gallons (379 liters) of the fat-rich mother's milk each day, gain 200 pounds a day"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bw-earplug",
+  "taxon": "Balaenoptera musculus",
+  "species": "Blue Whale",
+  "kind": "keep",
+  "short": {
+   "en": "Whales are aged by their earwax; the oldest blue whale aged this way was 110.",
+   "de": "Wale altert man am Ohrenschmalz; der älteste so bestimmte Blauwal war 110."
+  },
+  "long": {
+   "en": "Whales can be aged by the layers of their waxy earplugs; the oldest blue whale aged this way was about 110.",
+   "de": "Das Alter von Walen lässt sich an den Schichten ihrer Ohrpfropfen ablesen; der älteste so bestimmte Blauwal war etwa 110."
+  },
+  "source": {
+   "title": "National Geographic, Blue whale",
+   "url": "https://www.nationalgeographic.com/animals/mammals/facts/blue-whale",
+   "quote": "The oldest blue whale found using this method was determined to be around 110 years old."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bw-sulphur",
+  "taxon": "Balaenoptera musculus",
+  "species": "Blue Whale",
+  "kind": "keep",
+  "short": {
+   "en": "Whalers called the blue whale 'sulphur bottom', for its yellowish belly.",
+   "de": "Walfänger nannten ihn „Schwefelbauch“, nach seinem gelblichen Bauch."
+  },
+  "long": {
+   "en": "Early whalers called the blue whale 'sulphur bottom', after the yellowish tint of its belly.",
+   "de": "Frühe Walfänger nannten den Blauwal „Schwefelbauch“, nach dem gelblichen Schimmer seines Bauchs."
+  },
+  "source": {
+   "title": "American Cetacean Society, Blue Whale",
+   "url": "https://www.acsonline.org/blue-whale",
+   "quote": "Because of this yellow color, the early whalers gave it the name \"sulfur bottom.\""
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "\"nannten den blauwahl\" for the short german",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bw-blow",
+  "taxon": "Balaenoptera musculus",
+  "species": "Blue Whale",
+  "kind": "keep",
+  "short": {
+   "en": "A blue whale's blow shoots more than {6 m|20 ft} straight up.",
+   "de": "Der Blas eines Blauwals schießt über {6 m|20 ft} senkrecht hoch."
+  },
+  "long": {
+   "en": "A blue whale's blow shoots straight up, more than {6 m|20 ft} high.",
+   "de": "Der Blas eines Blauwals steigt kerzengerade auf, mehr als {6 m|20 ft} hoch."
+  },
+  "source": {
+   "title": "American Cetacean Society, Blue Whale",
+   "url": "https://www.acsonline.org/blue-whale",
+   "quote": "the blow is tall and straight and over 20 feet (6 meters) high."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bw-krill",
+  "taxon": "Balaenoptera musculus",
+  "species": "Blue Whale",
+  "kind": "keep",
+  "short": {
+   "en": "A blue whale can eat up to 40 million krill a day.",
+   "de": "Ein Blauwal kann bis zu 40 Millionen Krill am Tag fressen."
+  },
+  "long": {
+   "en": "A blue whale may eat up to 40 million krill a day.",
+   "de": "Ein Blauwal frisst bis zu 40 Millionen Krill-Tierchen am Tag."
+  },
+  "source": {
+   "title": "American Cetacean Society, Blue Whale",
+   "url": "https://www.acsonline.org/blue-whale",
+   "quote": "This means it may eat up to 40 million krill a day."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bw-calls",
+  "taxon": "Balaenoptera musculus",
+  "species": "Blue Whale",
+  "kind": "keep",
+  "short": {
+   "en": "Blue whale calls may carry about {1600 km|1000 mi} through the ocean.",
+   "de": "Blauwalrufe tragen wohl bis zu {1600 km|1000 mi} weit durchs Meer."
+  },
+  "long": {
+   "en": "Blue whale calls may carry up to about {1600 km|1000 mi} to other whales.",
+   "de": "Die Rufe der Blauwale können andere Wale bis zu etwa {1600 km|1000 mi} weit hören."
+  },
+  "source": {
+   "title": "NOAA Fisheries, Blue Whale",
+   "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+   "quote": "sounds emitted by blue whales can be heard by other whales up to 1,000 miles away"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "lh-adelita",
+  "taxon": "Caretta caretta",
+  "species": "Loggerhead Turtle",
+  "kind": "new",
+  "short": {
+   "en": "Adelita, a loggerhead, was the first animal ever tracked across an ocean.",
+   "de": "Die Schildkröte Adelita war das erste Tier, das je über einen Ozean verfolgt wurde."
+  },
+  "long": {
+   "en": "Over about a year, the loggerhead Adelita swam {14500 km|9000 mi} from Mexico to Japan: the first animal ever tracked across an ocean basin.",
+   "de": "In rund einem Jahr schwamm die Schildkröte Adelita {14500 km|9000 mi} von Mexiko nach Japan: das erste Tier, das je über einen Ozean verfolgt wurde."
+  },
+  "source": {
+   "title": "PBS Nature, Voyage of the Lonely Turtle: interview with Wallace J. Nichols",
+   "url": "https://www.pbs.org/wnet/nature/voyage-of-the-lonely-turtle-interview-wallace-j-nichols/2508",
+   "quote": [
+    "Over the course of about a year, Adelita, Nichols and a great many internet onlookers made a 9,000-mile voyage from Mexico across the Pacific to nesting grounds in Japan.",
+    "Adelita was the first animal ever tracked across an ocean basin, turtle or otherwise."
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "lh-pacific",
+  "taxon": "Caretta caretta",
+  "species": "Loggerhead Turtle",
+  "kind": "keep",
+  "short": {
+   "en": "Young loggerheads from Japan cross the whole Pacific to feed off Mexico.",
+   "de": "Junge Karettschildkröten aus Japan durchqueren den Pazifik bis vor Mexiko."
+  },
+  "long": {
+   "en": "Young loggerheads from Japan cross the whole Pacific to feed off Mexico, nearly {13000 km|8000 mi} away.",
+   "de": "Junge Unechte Karettschildkröten aus Japan durchqueren den Pazifik bis vor Mexiko, fast {13000 km|8000 mi} weit."
+  },
+  "source": {
+   "title": "NOAA Fisheries, Loggerhead Turtle",
+   "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+   "quote": "Hatchlings from nesting beaches in Japan and Australia have been tracked migrating across the Pacific"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "lh-sand",
+  "taxon": "Caretta caretta",
+  "species": "Loggerhead Turtle",
+  "kind": "keep",
+  "short": {
+   "en": "Warm sand makes girls: nest temperature decides a loggerhead's sex.",
+   "de": "Warmer Sand macht Weibchen: Die Nesttemperatur bestimmt das Geschlecht."
+  },
+  "long": {
+   "en": "The warmth of the sand decides whether a loggerhead hatches male or female; warmer nests mean more females.",
+   "de": "Die Wärme des Sandes entscheidet, ob aus dem Ei ein Männchen oder Weibchen schlüpft; wärmere Nester bringen mehr Weibchen."
+  },
+  "source": {
+   "title": "National Geographic, Loggerhead sea turtle",
+   "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+   "quote": "The temperature of the sand in which turtles are hatched determines their sex—and, as those temperatures rise, more female loggerheads are being born."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "lh-magnet",
+  "taxon": "Caretta caretta",
+  "species": "Loggerhead Turtle",
+  "kind": "keep",
+  "short": {
+   "en": "Loggerheads find home by magnetism: each coast has its own magnetic signature.",
+   "de": "Sie finden heim per Magnetsinn: Jede Küste hat ihre eigene magnetische Signatur."
+  },
+  "long": {
+   "en": "Loggerheads find their way home by magnetism: every stretch of coast has its own magnetic signature, and they remember it.",
+   "de": "Unechte Karettschildkröten finden heim per Magnetsinn: Jeder Küstenabschnitt hat seine eigene magnetische Signatur, die sie sich merken."
+  },
+  "source": {
+   "title": "National Geographic, Loggerhead sea turtle",
+   "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+   "quote": "Each stretch of coastline has its own magnetic signature, and these turtles remember and use them as guides."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "lh-hitch",
+  "taxon": "Caretta caretta",
+  "species": "Loggerhead Turtle",
+  "kind": "keep",
+  "short": {
+   "en": "Over a hundred kinds of hitchhikers, from barnacles to crabs, live on loggerhead shells.",
+   "de": "Über hundert Arten Mitfahrer, von Seepocken bis Krebsen, leben auf ihren Panzern."
+  },
+  "long": {
+   "en": "More than a hundred kinds of hitchhikers, from barnacles to crabs and algae, live on loggerhead shells.",
+   "de": "Mehr als hundert Arten von Mitfahrern, von Seepocken über Krabben bis zu Algen, leben auf den Panzern."
+  },
+  "source": {
+   "title": "National Geographic, Loggerhead sea turtle",
+   "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+   "quote": "more than a hundred species of animals—including barnacles, crabs, and algae—live on their shells."
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "note": "short version does not work, unclear. sad because long version is really cool",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "lh-age",
+  "taxon": "Caretta caretta",
+  "species": "Loggerhead Turtle",
+  "kind": "keep",
+  "short": {
+   "en": "Loggerheads grow up at about 35 and can live 80 years or more.",
+   "de": "Erwachsen mit etwa 35, können sie 80 Jahre und älter werden."
+  },
+  "long": {
+   "en": "Female loggerheads reach maturity at about 35 years and can live 80 years or more.",
+   "de": "Weibchen werden erst mit etwa 35 Jahren geschlechtsreif; die Tiere können 80 Jahre und älter werden."
+  },
+  "source": {
+   "title": "NOAA Fisheries, Loggerhead Turtle",
+   "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+   "quote": "Female loggerheads reach maturity at about 35 years of age."
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "lh-ocean",
+  "taxon": "Caretta caretta",
+  "species": "Loggerhead Turtle",
+  "kind": "keep",
+  "short": {
+   "en": "Young loggerheads spend their first 7 to 15 years out in the open ocean.",
+   "de": "Junge Karettschildkröten verbringen ihre ersten 7 bis 15 Jahre auf hoher See."
+  },
+  "long": {
+   "en": "Young loggerheads spend their first 7 to 15 years in the open ocean.",
+   "de": "Junge Unechte Karettschildkröten verbringen ihre ersten 7 bis 15 Jahre auf offener See."
+  },
+  "source": {
+   "title": "NOAA Fisheries, Loggerhead Turtle",
+   "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+   "quote": "Hatchlings and juveniles spend the first 7 to 15 years of their lives in the open ocean."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "lh-droppings",
+  "taxon": "Caretta caretta",
+  "species": "Loggerhead Turtle",
+  "kind": "keep",
+  "short": {
+   "en": "Shell bits in loggerhead droppings feed other seabed animals with calcium.",
+   "de": "Schalenreste in ihrem Kot versorgen andere Meeresbodentiere mit Kalk."
+  },
+  "long": {
+   "en": "Shell bits in loggerhead droppings sink to the seabed, where other animals eat them for the calcium.",
+   "de": "Schalenreste im Kot der Schildkröten sinken zum Meeresgrund, wo andere Tiere sie als Kalkquelle fressen."
+  },
+  "source": {
+   "title": "National Geographic, Loggerhead sea turtle",
+   "url": "https://www.nationalgeographic.com/animals/reptiles/facts/loggerhead-sea-turtle",
+   "quote": "whose shells pass through their digestive systems and, upon excretion, fall back to the bottom of the ocean for other animals to eat as a calcium source."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "os-lady",
+  "taxon": "Pandion haliaetus",
+  "species": "Osprey",
+  "kind": "new",
+  "short": {
+   "en": "An osprey called Lady raised 50 chicks in 24 years at one Scottish loch.",
+   "de": "Die Fischadlerin Lady zog an einem schottischen See in 24 Jahren 50 Junge groß."
+  },
+  "long": {
+   "en": "Lady nested at Loch of the Lowes for 24 years, laid 71 eggs and fledged 50 chicks. An average osprey lives 8 years and raises 20.",
+   "de": "Lady brütete 24 Jahre am Loch of the Lowes, legte 71 Eier, 50 Junge flogen aus. Ein Fischadler lebt im Schnitt 8 Jahre und zieht 20 groß."
+  },
+  "source": {
+   "title": "Scottish Wildlife Trust, Celebrating 50 years of ospreys at Loch of the Lowes",
+   "url": "https://scottishwildlifetrust.org.uk/?p=841816",
+   "quote": [
+    "a remarkable individual who over the following 24 years laid 71 eggs, fledged 50 chicks and had 4 male partners.",
+    "Given the average osprey lives 8 years and produces 20 chicks it is a remarkable achievement."
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "os-return",
+  "taxon": "Pandion haliaetus",
+  "species": "Osprey",
+  "kind": "new",
+  "short": {
+   "en": "Ospreys from Scandinavia came back to Scotland on their own in 1954.",
+   "de": "1954 kehrten Fischadler aus Skandinavien von selbst nach Schottland zurück."
+  },
+  "long": {
+   "en": "In 1954 Scandinavian ospreys settled in Scotland by themselves. A pair has nested at Loch Garten almost every year since 1959.",
+   "de": "1954 siedelten sich skandinavische Fischadler von selbst in Schottland an. Seit 1959 brütet fast jedes Jahr ein Paar am Loch Garten."
+  },
+  "source": {
+   "title": "Wikipedia, Ospreys in Britain",
+   "url": "https://en.wikipedia.org/wiki/Ospreys_in_Britain",
+   "quote": "In 1954 Scandinavian birds recolonised Scotland naturally, and a pair has nested successfully almost every year since 1959 at Loch Garten Osprey Centre",
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "os-headfirst",
+  "taxon": "Pandion haliaetus",
+  "species": "Osprey",
+  "kind": "keep",
+  "short": {
+   "en": "Ospreys carry their fish head first, like a torpedo.",
+   "de": "Fischadler tragen ihren Fisch mit dem Kopf voran, stromlinienförmig."
+  },
+  "long": {
+   "en": "Ospreys carry their fish head first, which makes it more streamlined in flight.",
+   "de": "Fischadler tragen ihre Beute mit dem Kopf voran, das ist im Flug windschnittiger."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Osprey",
+   "url": "https://www.hawkmountain.org/raptors/osprey",
+   "quote": "Carry fish head first to make them more aerodynamic in flight."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "os-eyelid",
+  "taxon": "Pandion haliaetus",
+  "species": "Osprey",
+  "kind": "keep",
+  "short": {
+   "en": "An extra eyelid works like swimming goggles when an osprey dives.",
+   "de": "Ein zusätzliches Lid schützt beim Tauchen die Augen, wie eine Taucherbrille."
+  },
+  "long": {
+   "en": "An extra eyelid, a bit like a contact lens, protects an osprey's eyes when it dives.",
+   "de": "Ein zusätzliches Augenlid, fast wie eine Kontaktlinse, schützt beim Tauchen die Augen der Fischadler."
+  },
+  "source": {
+   "title": "RSPB, Osprey",
+   "url": "https://www.rspb.org.uk/birds-and-wildlife/osprey",
+   "quote": "They have a special extra eyelid – a bit like a contact lens – that helps to protect their eyes when they hunt under water."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "os-skydance",
+  "taxon": "Pandion haliaetus",
+  "species": "Osprey",
+  "kind": "keep",
+  "short": {
+   "en": "Courting male ospreys 'sky dance' up to {90 m|300 ft} high, often holding a fish.",
+   "de": "Balzende Fischadler tanzen bis {90 m|300 ft} hoch, oft mit Fisch in den Fängen."
+  },
+  "long": {
+   "en": "Courting male ospreys 'sky dance' up to {90 m|300 ft} high, often with a fish in their talons.",
+   "de": "Balzende Fischadler-Männchen führen Himmelstänze auf, bis zu {90 m|300 ft} hoch, oft mit einem Fisch in den Fängen."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Osprey",
+   "url": "https://www.hawkmountain.org/raptors/osprey",
+   "quote": [
+    "males usually carry a fish or nesting material and call repeatedly.",
+    "which sometimes reach heights of 300 feet or more."
+   ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "os-gapyear",
+  "taxon": "Pandion haliaetus",
+  "species": "Osprey",
+  "kind": "keep",
+  "short": {
+   "en": "Young ospreys spend over a year in Africa or South America before flying north.",
+   "de": "Junge Fischadler bleiben über ein Jahr im Winterquartier, bevor sie heimkehren."
+  },
+  "long": {
+   "en": "Young ospreys spend more than a year in their winter quarters before flying north for the first time.",
+   "de": "Junge Fischadler bleiben über ein Jahr im Winterquartier, bevor sie zum ersten Mal nach Norden fliegen."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Osprey",
+   "url": "https://www.hawkmountain.org/raptors/osprey",
+   "quote": "Most Ospreys do not return to their breeding grounds until the spring of their second year"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "os-nest",
+  "taxon": "Pandion haliaetus",
+  "species": "Osprey",
+  "kind": "keep",
+  "short": {
+   "en": "Ospreys add to their nest every year, up to {180 kg|400 lb}.",
+   "de": "Fischadler bauen jedes Jahr an, bis das Nest {180 kg|400 lb} wiegt."
+  },
+  "long": {
+   "en": "Ospreys add to their nests every year; some nests end up weighing up to {180 kg|400 lb}.",
+   "de": "Fischadler bauen jedes Jahr an ihren Horsten weiter; manche wiegen am Ende bis zu {180 kg|400 lb}."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Osprey",
+   "url": "https://www.hawkmountain.org/raptors/osprey",
+   "quote": "Ospreys add material to their nests each year, and sometimes build massive structures weighing up to 400 pounds."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "os-alone",
+  "taxon": "Pandion haliaetus",
+  "species": "Osprey",
+  "kind": "keep",
+  "short": {
+   "en": "The osprey is in a family of its own: no other living bird shares it.",
+   "de": "Der Fischadler bildet eine eigene Familie: Kein anderer lebender Vogel gehört dazu."
+  },
+  "long": {
+   "en": "The osprey is in a family of its own: no other living bird is in the family Pandionidae.",
+   "de": "Der Fischadler bildet eine eigene Familie: Kein anderer lebender Vogel gehört zu den Pandionidae."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Osprey",
+   "url": "https://www.hawkmountain.org/raptors/osprey",
+   "quote": "Ospreys are the only member of the family Pandionidae."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "sg-walk",
+  "taxon": "Chen caerulescens",
+  "species": "Snow Goose",
+  "kind": "keep",
+  "short": {
+   "en": "Day-old snow goose chicks set off on a {30 km|19 mi} walk with their families.",
+   "de": "Einen Tag alte Schneegansküken wandern mit der Familie {30 km|19 mi} weit."
+  },
+  "long": {
+   "en": "On Canada's Bylot Island, snow goose chicks just a day old set off on a {30 km|19 mi} walk with their families.",
+   "de": "Auf der kanadischen Bylotinsel wandern Schneegansküken schon am Tag nach dem Schlüpfen mit der Familie {30 km|19 mi} weit."
+  },
+  "source": {
+   "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+   "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+   "quote": [
+    "the distance between the birds' nesting and breeding sites is more than 30 km.",
+    "Within a day of hatching, many young geese set off on this trek with their families, reaching their destination within four days."
+   ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "sg-bark",
+  "taxon": "Chen caerulescens",
+  "species": "Snow Goose",
+  "kind": "keep",
+  "short": {
+   "en": "Greater snow geese bark like dogs: the noisiest of all waterfowl.",
+   "de": "Große Schneegänse bellen wie Hunde: die lautesten aller Wasservögel."
+  },
+  "long": {
+   "en": "Greater snow geese bark like dogs, which has earned them a name as the noisiest of all waterfowl.",
+   "de": "Große Schneegänse bellen wie Hunde und gelten deshalb als die lautesten Wasservögel."
+  },
+  "source": {
+   "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+   "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+   "quote": "resembling a dog's bark, which it utters at any time—has earned this goose a reputation as the noisiest of waterfowl."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "sg-blue",
+  "taxon": "Chen caerulescens",
+  "species": "Snow Goose",
+  "kind": "keep",
+  "short": {
+   "en": "The 'blue goose' is just a snow goose in a darker coat.",
+   "de": "Die „Blaugans“ ist nur eine Schneegans in dunklerem Kleid."
+  },
+  "long": {
+   "en": "The 'Blue Goose' is not a separate species but a colour form of the snow goose.",
+   "de": "Die „Blaugans“ ist keine eigene Art, sondern eine Farbvariante der Schneegans."
+  },
+  "source": {
+   "title": "Audubon Field Guide, Snow Goose",
+   "url": "https://www.audubon.org/field-guide/bird/snow-goose",
+   "quote": "now known to be only a color morph of the smaller race of Snow (Lesser Snow Goose)"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "sg-boom",
+  "taxon": "Chen caerulescens",
+  "species": "Snow Goose",
+  "kind": "keep",
+  "short": {
+   "en": "From 3,000 a century ago to more than 800,000 greater snow geese by 1998.",
+   "de": "Von 3.000 vor hundert Jahren auf über 800.000 Große Schneegänse im Jahr 1998."
+  },
+  "long": {
+   "en": "A century ago there were about 3,000 greater snow geese; by 1998 there were more than 800,000.",
+   "de": "Vor hundert Jahren gab es etwa 3.000 Große Schneegänse; 1998 waren es mehr als 800.000."
+  },
+  "source": {
+   "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+   "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+   "quote": [
+    "A hundred years ago, the world population of Greater Snow Geese was estimated at approximately 3 000.",
+    "By 1998, there were more than 800 000 Greater Snow Geese."
+   ]
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "sg-quebec",
+  "taxon": "Chen caerulescens",
+  "species": "Snow Goose",
+  "kind": "keep",
+  "short": {
+   "en": "Over half a million snow geese gather at Baie-du-Febvre, Quebec, each April.",
+   "de": "Über eine halbe Million Schneegänse sammeln sich jeden April in Baie-du-Febvre."
+  },
+  "long": {
+   "en": "More than half a million snow geese gather in early April at Baie-du-Febvre in Quebec.",
+   "de": "Mehr als eine halbe Million Schneegänse sammeln sich Anfang April bei Baie-du-Febvre in Québec."
+  },
+  "source": {
+   "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+   "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+   "quote": "Striking concentrations of more than 500 000 Greater Snow Geese can be seen in early April at Baie-du-Febvre"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "sg-daylight",
+  "taxon": "Chen caerulescens",
+  "species": "Snow Goose",
+  "kind": "keep",
+  "short": {
+   "en": "In the Arctic summer, snow geese eat around the clock in 24-hour daylight.",
+   "de": "Im arktischen Sommer fressen Schneegänse rund um die Uhr, im Dauerlicht."
+  },
+  "long": {
+   "en": "In the Arctic summer, snow geese feed around the clock, in 24-hour daylight.",
+   "de": "Im arktischen Sommer fressen Schneegänse rund um die Uhr, bei Tageslicht 24 Stunden lang."
+  },
+  "source": {
+   "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
+   "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
+   "quote": "24 hours a day in the Arctic's round-the-clock summer daylight."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "sg-chicks",
+  "taxon": "Chen caerulescens",
+  "species": "Snow Goose",
+  "kind": "keep",
+  "short": {
+   "en": "Snow goose chicks leave the nest hours after hatching and feed themselves.",
+   "de": "Schneegansküken verlassen das Nest Stunden nach dem Schlüpfen und fressen selbst."
+  },
+  "long": {
+   "en": "Snow goose chicks leave the nest a few hours after hatching and find their own food.",
+   "de": "Junge Schneegänse verlassen wenige Stunden nach dem Schlüpfen das Nest und suchen ihr Futter selbst."
+  },
+  "source": {
+   "title": "Audubon Field Guide, Snow Goose",
+   "url": "https://www.audubon.org/field-guide/bird/snow-goose",
+   "quote": "A young Snow Goose will usually leave nest within a few hours after hatching; they find their own food"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "be-scream",
+  "taxon": "Haliaeetus leucocephalus",
+  "species": "Bald Eagle",
+  "kind": "new",
+  "short": {
+   "en": "In films, a bald eagle's scream is almost always a red-tailed hawk's.",
+   "de": "Im Film schreit der Weißkopfseeadler fast immer mit der Stimme eines Rotschwanzbussards."
+  },
+  "long": {
+   "en": "Real bald eagles have a dopey chuckle of a call. On screen they're nearly always dubbed with the scream of a red-tailed hawk.",
+   "de": "Echte Weißkopfseeadler rufen eher kichernd. Im Film bekommen sie fast immer den Schrei eines Rotschwanzbussards untergelegt."
+  },
+  "source": {
+   "title": "Audubon, Birdist Rule #50: Learn the live bird errors in TV and movies",
+   "url": "https://audubon.org/news/birdist-rule-50-learn-live-bird-errors-tv-and-movies",
+   "quote": [
+    "Nearly every single time a Bald Eagle is shown on screen, it’s accompanied by the iconic scream of a Red-tailed Hawk.",
+    "Bald Eagles have sort of a dopey chuckle for a call, and Red-tails have that heart-stopping scream."
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "be-cartwheel",
+  "taxon": "Haliaeetus leucocephalus",
+  "species": "Bald Eagle",
+  "kind": "keep",
+  "short": {
+   "en": "Courting bald eagles lock talons and cartwheel down from the sky.",
+   "de": "Balzende Weißkopfseeadler verhaken die Fänge und stürzen sich drehend in die Tiefe."
+  },
+  "long": {
+   "en": "Courting bald eagles lock talons high in the sky and cartwheel down, letting go just before they hit the ground.",
+   "de": "Balzende Weißkopf-Seeadler verhaken hoch oben die Krallen und wirbeln abwärts, bis kurz vor dem Boden."
+  },
+  "source": {
+   "title": "Audubon Field Guide, Bald Eagle",
+   "url": "https://www.audubon.org/field-guide/bird/bald-eagle",
+   "quote": "During a spectacular courtship display, the male and female Bald Eagle fly high into the sky, lock talons, and cartwheel down toward earth, unlocking talons just before crashing to the ground."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "be-swim",
+  "taxon": "Haliaeetus leucocephalus",
+  "species": "Bald Eagle",
+  "kind": "keep",
+  "short": {
+   "en": "Too wet to take off, a bald eagle rows ashore with its wings.",
+   "de": "Zu nass zum Abheben, rudert ein Weißkopfseeadler mit den Flügeln an Land."
+  },
+  "long": {
+   "en": "A bald eagle too wet to take off swims ashore with its catch, rowing with its wings.",
+   "de": "Ist ein Weißkopf-Seeadler zu nass zum Abheben, schwimmt er mit der Beute an Land und rudert mit den Flügeln."
+  },
+  "source": {
+   "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+   "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+   "quote": "swimming with their catch with a rowing motion of their wings, if they're too wet to fly directly off the water!"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "be-nest",
+  "taxon": "Haliaeetus leucocephalus",
+  "species": "Bald Eagle",
+  "kind": "keep",
+  "short": {
+   "en": "The biggest bald eagle nest on record weighed almost {2.7 t|6000 lb}.",
+   "de": "Das größte bekannte Adlernest wog fast {2.7 t|6000 lb}."
+  },
+  "long": {
+   "en": "The biggest bald eagle nest on record, in Florida, was {2.9 m|9.5 ft} wide, {6 m|20 ft} deep and weighed almost {2.7 t|6000 lb}.",
+   "de": "Das größte bekannte Nest eines Weißkopf-Seeadlers, in Florida, war {2.9 m|9.5 ft} breit, {6 m|20 ft} tief und wog fast {2.7 t|6000 lb}."
+  },
+  "source": {
+   "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+   "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+   "quote": "Petersburg, Florida, was 9.5 feet in diameter, 20 feet deep and weighed almost 6,000 pounds!"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "be-chilkat",
+  "taxon": "Haliaeetus leucocephalus",
+  "species": "Bald Eagle",
+  "kind": "keep",
+  "short": {
+   "en": "Over a thousand bald eagles feast on salmon on Alaska's Chilkat River.",
+   "de": "Über tausend Weißkopfseeadler schlemmen Lachs am Chilkat River in Alaska."
+  },
+  "long": {
+   "en": "More than a thousand bald eagles gather on Alaska's Chilkat River to feast on spent salmon.",
+   "de": "Über tausend Weißkopf-Seeadler versammeln sich am Chilkat River in Alaska, um tote Lachse zu fressen."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Bald Eagle",
+   "url": "https://www.hawkmountain.org/raptors/bald-eagle",
+   "quote": "More than a thousand eagles, for example, regularly congregate along the Chilkat River in Alaska"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "be-thief",
+  "taxon": "Haliaeetus leucocephalus",
+  "species": "Bald Eagle",
+  "kind": "keep",
+  "short": {
+   "en": "Bald eagles often steal their dinner from other raptors, especially ospreys.",
+   "de": "Weißkopfseeadler stehlen oft Beute anderer Greife, vor allem von Fischadlern."
+  },
+  "long": {
+   "en": "Bald eagles often steal prey from other raptors, especially ospreys.",
+   "de": "Weißkopf-Seeadler jagen anderen Greifvögeln oft die Beute ab, vor allem Fischadlern."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Bald Eagle",
+   "url": "https://www.hawkmountain.org/raptors/bald-eagle",
+   "quote": "Often steal prey from other raptors, especially Ospreys"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "be-white",
+  "taxon": "Haliaeetus leucocephalus",
+  "species": "Bald Eagle",
+  "kind": "keep",
+  "short": {
+   "en": "Young bald eagles only get their white head in their fourth or fifth year.",
+   "de": "Erst im vierten oder fünften Jahr bekommen junge Adler den weißen Kopf."
+  },
+  "long": {
+   "en": "Young bald eagles only get their white head and tail in their fourth or fifth year.",
+   "de": "Junge Weißkopf-Seeadler bekommen den weißen Kopf und Schwanz erst im vierten oder fünften Jahr."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Bald Eagle",
+   "url": "https://www.hawkmountain.org/raptors/bald-eagle",
+   "quote": "Juvenile Bald Eagles do not get their adult plumage until their fourth or fifth year."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "be-recovery",
+  "taxon": "Haliaeetus leucocephalus",
+  "species": "Bald Eagle",
+  "kind": "keep",
+  "short": {
+   "en": "Bald eagles recovered so well they left the US endangered list in 2007.",
+   "de": "Die Adler erholten sich so gut, dass sie 2007 von der US-Liste bedrohter Arten kamen."
+  },
+  "long": {
+   "en": "Bald eagles recovered so well that they left the US endangered species list in 2007.",
+   "de": "Weißkopf-Seeadler erholten sich so gut, dass sie 2007 von der US-Liste bedrohter Arten gestrichen wurden."
+  },
+  "source": {
+   "title": "U.S. Fish & Wildlife Service, Bald Eagle",
+   "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+   "quote": "bald eagles were delisted from the Endangered Species Act in August 2007"
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "\"gestrichen wurden\" instead of kamen on the german short version.",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bp-icecream",
+  "taxon": "Setophaga striata",
+  "species": "Blackpoll Warbler",
+  "kind": "new",
+  "short": {
+   "en": "Flying Maine to Brazil, a blackpoll burns less fat than a serving of ice cream holds.",
+   "de": "Von Maine nach Brasilien verbrennt ein Waldsänger weniger Fett, als eine Portion Eis hat."
+  },
+  "long": {
+   "en": "Flying from Maine to Brazil, a blackpoll warbler burns less fat than there is in a single serving of Ben & Jerry's ice cream.",
+   "de": "Auf dem Flug von Maine nach Brasilien verbrennt ein Streifenwaldsänger weniger Fett, als in einer Portion Ben & Jerry's steckt."
+  },
+  "source": {
+   "title": "Northern Woodlands, Blackpoll warbler",
+   "url": "https://northernwoodlands.org/articles/article/blackpoll-warbler",
+   "quote": "Making the flight from, say, Maine to Brazil, a blackpoll burns less fat than we find in a single serving of Ben & Jerry’s Coffee Heath Bar Crunch.",
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bp-nonstop",
+  "taxon": "Setophaga striata",
+  "species": "Blackpoll Warbler",
+  "kind": "keep",
+  "short": {
+   "en": "A {12 g|0.4 oz} blackpoll flies non-stop across the Atlantic, up to {2770 km|1720 mi}.",
+   "de": "Ein {12 g|0.4 oz} leichter Waldsänger fliegt nonstop über den Atlantik, bis {2770 km|1720 mi}."
+  },
+  "long": {
+   "en": "In autumn blackpoll warblers fly non-stop over the Atlantic, {2270-2770 km|1410-1720 mi}, weighing just {12 g|0.4 oz}.",
+   "de": "Im Herbst fliegen Streifenwaldsänger nonstop über den Atlantik, {2270-2770 km|1410-1720 mi} weit, bei nur {12 g|0.4 oz} Gewicht."
+  },
+  "source": {
+   "title": "DeLuca et al. 2015, Biol. Lett. 11: 20141045",
+   "url": "https://doi.org/10.1098/rsbl.2014.1045",
+   "europepmc": "DOI:10.1098/rsbl.2014.1045",
+   "quote": "completes an autumn transoceanic migration ranging from 2270 to 2770 km"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bp-3days",
+  "taxon": "Setophaga striata",
+  "species": "Blackpoll Warbler",
+  "kind": "keep",
+  "short": {
+   "en": "A blackpoll's ocean crossing can take 3 days without a break.",
+   "de": "Die Meeresüberquerung dauert bis zu 3 Tage ohne Pause."
+  },
+  "long": {
+   "en": "The blackpoll's ocean crossing takes up to 3 days of flying without a break.",
+   "de": "Die Überquerung des Ozeans dauert für Streifenwaldsänger bis zu 3 Tage Flug ohne Pause."
+  },
+  "source": {
+   "title": "DeLuca et al. 2015, Biol. Lett. 11: 20141045",
+   "url": "https://doi.org/10.1098/rsbl.2014.1045",
+   "europepmc": "DOI:10.1098/rsbl.2014.1045",
+   "quote": "requiring up to 3 days (62 h ± 10) of non-stop flight"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bp-lost",
+  "taxon": "Setophaga striata",
+  "species": "Blackpoll Warbler",
+  "kind": "keep",
+  "short": {
+   "en": "Every autumn 100 or more lost blackpolls turn up on the Pacific coast.",
+   "de": "Jeden Herbst landen 100 oder mehr verirrte Streifenwaldsänger an der Pazifikküste."
+  },
+  "long": {
+   "en": "Every autumn, up to 100 or more lost blackpoll warblers turn up on the Pacific coast.",
+   "de": "Jeden Herbst tauchen 100 oder mehr verirrte Streifenwaldsänger an der Pazifikküste auf."
+  },
+  "source": {
+   "title": "Audubon Field Guide, Blackpoll Warbler",
+   "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
+   "quote": "Every fall, many (to 100 or more) lost strays appear along Pacific Coast."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bp-site",
+  "taxon": "Setophaga striata",
+  "species": "Blackpoll Warbler",
+  "kind": "keep",
+  "short": {
+   "en": "Females return to last year's nest site and pair with whichever male holds it.",
+   "de": "Weibchen kehren zum alten Brutplatz zurück und nehmen das Männchen, das ihn hält."
+  },
+  "long": {
+   "en": "Female blackpolls return to last year's nest site and pair with whichever male holds it.",
+   "de": "Weibchen kehren an den Brutplatz des Vorjahres zurück und verpaaren sich mit dem Männchen, das ihn gerade besetzt."
+  },
+  "source": {
+   "title": "Audubon Field Guide, Blackpoll Warbler",
+   "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
+   "quote": "Females return to nest site of previous year and mate with male holding that territory"
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "\"besetzt\" instead of \"hält\" in the short german version",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bp-map",
+  "taxon": "Setophaga striata",
+  "species": "Blackpoll Warbler",
+  "kind": "keep",
+  "short": {
+   "en": "Before migrating, young blackpolls roam over {200 km|125 mi}, perhaps to learn the map.",
+   "de": "Vor dem Zug streifen junge Waldsänger über {200 km|125 mi} umher, wohl um die Gegend zu lernen."
+  },
+  "long": {
+   "en": "Before migrating, young blackpolls roam more than {200 km|125 mi}, perhaps to build a map of the region.",
+   "de": "Vor dem Zug streifen junge Streifenwaldsänger über {200 km|125 mi} umher, vielleicht um sich eine Karte der Gegend einzuprägen."
+  },
+  "source": {
+   "title": "Brown & Taylor 2015, Biology Letters",
+   "url": "https://doi.org/10.1098/rsbl.2015.0593",
+   "europepmc": "DOI:10.1098/rsbl.2015.0593",
+   "quote": [
+    "both young and adults moved over distances more than 200 km prior to initiating migration.",
+    "that young birds develop a regional-scale map"
+   ]
+  },
+  "review": {
+   "verdict": "ok",
+   "note": "\"zu erkunden\" instead of \"zu lernen\" in the short german version",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "bp-cross",
+  "taxon": "Setophaga striata",
+  "species": "Blackpoll Warbler",
+  "kind": "keep",
+  "short": {
+   "en": "Blackpolls migrate crosswise: western birds winter in the east, and vice versa.",
+   "de": "Sie ziehen über Kreuz: Vögel aus dem Westen überwintern im Osten und umgekehrt."
+  },
+  "long": {
+   "en": "Blackpoll warblers migrate crosswise: birds from the west tend to winter in the east of South America, and vice versa.",
+   "de": "Streifenwaldsänger ziehen über Kreuz: Vögel aus dem Westen überwintern eher im Osten Südamerikas und umgekehrt."
+  },
+  "source": {
+   "title": "Duali et al. 2024, Scientific Reports",
+   "url": "https://doi.org/10.1038/s41598-024-80838-9",
+   "europepmc": "DOI:10.1038/s41598-024-80838-9",
+   "quote": "Blackpoll warblers showed a crosswise migration pattern, whereby individuals from western breeding populations tended to spend the nonbreeding season in the eastern part of the nonbreeding range and vice-versa."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "pf-ddt",
+  "taxon": "Falco peregrinus",
+  "species": "Peregrine Falcon",
+  "kind": "new",
+  "short": {
+   "en": "Peregrines nearly vanished from North America, then came back.",
+   "de": "Wanderfalken verschwanden in Nordamerika fast ganz und kehrten dann zurück."
+  },
+  "long": {
+   "en": "DDT made peregrines lay eggs that broke. By 1975 only 324 pairs were left in North America; after DDT was banned they bounced back.",
+   "de": "Durch DDT zerbrachen Wanderfalkeneier. 1975 gab es in Nordamerika nur noch 324 Paare; nach dem DDT-Verbot erholten sie sich."
+  },
+  "source": {
+   "title": "U.S. Fish and Wildlife Service, The peregrine falcon is back (2000)",
+   "url": "https://www.fws.gov/story/2000-08/peregrine-falcon-back-0",
+   "quote": [
+    "The pesticide DDT caused peregrines to lay thin-shelled eggs that broke during incubation.",
+    "By 1975, the population reached an all-time low of 324 nesting pairs in North America.",
+    "The banning of DDT made the recovery of the peregrine falcon possible."
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "pf-dive",
+  "taxon": "Falco peregrinus",
+  "species": "Peregrine Falcon",
+  "kind": "keep",
+  "short": {
+   "en": "In a hunting dive, a peregrine can hit about {320 km/h|200 mph}.",
+   "de": "Im Sturzflug erreicht ein Wanderfalke rund {320 km/h|200 mph}."
+  },
+  "long": {
+   "en": "In a hunting dive, a peregrine can reach up to about {320 km/h|200 mph}.",
+   "de": "Im Sturzflug erreichen Wanderfalken bis zu etwa {320 km/h|200 mph}."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+   "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+   "quote": "stoop at up to 200 mph"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "pf-wanderer",
+  "taxon": "Falco peregrinus",
+  "species": "Peregrine Falcon",
+  "kind": "keep",
+  "short": {
+   "en": "'Peregrine' means wanderer, and some fly {25000 km|15500 mi} a year.",
+   "de": "„Peregrinus“ heißt Wanderer, und manche fliegen {25000 km|15500 mi} im Jahr."
+  },
+  "long": {
+   "en": "'Peregrine' is Latin for wanderer, and some peregrines migrate up to {25000 km|15500 mi} a year.",
+   "de": "„Peregrine“ heißt auf Lateinisch Wanderer, und manche Wanderfalken ziehen bis zu {25000 km|15500 mi} im Jahr."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+   "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+   "quote": "some individuals migrate distances up to 25,000 km annually"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "pf-sizes",
+  "taxon": "Falco peregrinus",
+  "species": "Peregrine Falcon",
+  "kind": "keep",
+  "short": {
+   "en": "Female peregrines can weigh three times as much as the smallest males.",
+   "de": "Wanderfalkenweibchen wiegen bis zu dreimal so viel wie die kleinsten Männchen."
+  },
+  "long": {
+   "en": "Female peregrines are much bigger: up to {1500 g|3.3 lb}, against as little as {450 g|1 lb} for a male.",
+   "de": "Weibliche Wanderfalken sind viel größer: bis zu {1500 g|3.3 lb}, Männchen oft nur {450 g|1 lb}."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+   "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+   "quote": "Male Peregrine Falcons weigh as little as 450 grams; females weigh as much as 1,500 grams."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "pf-leapfrog",
+  "taxon": "Falco peregrinus",
+  "species": "Peregrine Falcon",
+  "kind": "keep",
+  "short": {
+   "en": "Peregrines migrate leap-frog style: the most northern birds winter furthest south.",
+   "de": "Wanderfalken ziehen im Bockspringen: Die nördlichsten überwintern am weitesten südlich."
+  },
+  "long": {
+   "en": "Peregrines migrate leap-frog style: birds from the far north fly past the others and winter furthest south.",
+   "de": "Wanderfalken ziehen im Bocksprung: Vögel aus dem hohen Norden überfliegen die anderen und überwintern am weitesten im Süden."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+   "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+   "quote": "migration pattern in which breeders from northern areas winter to the south of individuals from more southerly locations."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "pf-courtship",
+  "taxon": "Falco peregrinus",
+  "species": "Peregrine Falcon",
+  "kind": "keep",
+  "short": {
+   "en": "Courting male peregrines show off with loop-the-loops and figure eights.",
+   "de": "Balzende Männchen zeigen Loopings und Achterflüge."
+  },
+  "long": {
+   "en": "Courting male peregrines show off with power dives, roller-coaster flights, loop-the-loops and figure eights.",
+   "de": "Balzende Wanderfalken-Männchen zeigen Sturzflüge, Achterbahnflüge, Loopings und Achten."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+   "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+   "quote": "power dives, roller coaster-like flights, loop-the-loops, and figure eight flights"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "pf-nyc",
+  "taxon": "Falco peregrinus",
+  "species": "Peregrine Falcon",
+  "kind": "keep",
+  "short": {
+   "en": "Peregrines have taken to skyscrapers: 14 pairs bred in New York City in 2000.",
+   "de": "Wanderfalken lieben Wolkenkratzer: 2000 brüteten 14 Paare in New York."
+  },
+  "long": {
+   "en": "Peregrines have taken to skyscrapers: in 2000, 14 pairs were breeding in New York City.",
+   "de": "Wanderfalken haben die Wolkenkratzer erobert: Im Jahr 2000 brüteten 14 Paare in New York."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, Peregrine Falcon",
+   "url": "https://www.hawkmountain.org/raptors/peregrine-falcon",
+   "quote": "In 2000, there were 14 pairs of Peregrine Falcons breeding in New York City."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "ind-yearkm",
+  "taxon": "(every animal)",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "{name} covers at least {dist} a year, counting only straight lines between stops.",
+   "de": "{name} legt im Jahr mindestens {dist} zurück, gemessen nur in Luftlinie von Rast zu Rast."
+  },
+  "long": {
+   "en": "{name} covers at least {dist} a year, and that's only the straight lines from stop to stop: the real flight is longer.",
+   "de": "{name} legt im Jahr mindestens {dist} zurück, und das nur in Luftlinie von Rast zu Rast: Der echte Weg ist länger."
+  },
+  "source": {
+   "title": "Template: yearKm (was 'Covers at least {dist} a year, measured from stay to stay.')",
+   "url": "https://www.movebank.org",
+   "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "ind-span",
+  "taxon": "(every animal)",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "The two ends of {name}'s year lie {dist} apart.",
+   "de": "Die beiden Enden von {name}s Jahr liegen {dist} auseinander."
+  },
+  "long": {
+   "en": "Summer home and winter home: the two ends of {name}'s year lie {dist} apart.",
+   "de": "Sommer- und Winterquartier: Die beiden Enden von {name}s Jahr liegen {dist} auseinander."
+  },
+  "source": {
+   "title": "Template: span (was 'The two farthest points of its year are {dist} apart.')",
+   "url": "https://www.movebank.org",
+   "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "ind-days",
+  "taxon": "(every animal)",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "{name} spends about {n} days a year on the move.",
+   "de": "{name} ist rund {n} Tage im Jahr unterwegs."
+  },
+  "long": {
+   "en": "Of the 365 days in a year, {name} spends about {n} on the move.",
+   "de": "Von 365 Tagen im Jahr ist {name} rund {n} unterwegs."
+  },
+  "source": {
+   "title": "Template: travelDays",
+   "url": "https://www.movebank.org",
+   "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "ind-female",
+  "taxon": "(every animal)",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "{name} is a female.",
+   "de": "{name} ist ein Weibchen."
+  },
+  "long": {
+   "en": "{name} is a female.",
+   "de": "{name} ist ein Weibchen."
+  },
+  "source": {
+   "title": "Template: female (was 'This animal is a female.')",
+   "url": "https://www.movebank.org",
+   "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "ind-male",
+  "taxon": "(every animal)",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "{name} is a male.",
+   "de": "{name} ist ein Männchen."
+  },
+  "long": {
+   "en": "{name} is a male.",
+   "de": "{name} ist ein Männchen."
+  },
+  "source": {
+   "title": "Template: male",
+   "url": "https://www.movebank.org",
+   "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "ind-since",
+  "taxon": "(every animal)",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "Researchers have followed {name} since {month} {year}.",
+   "de": "Forscher begleiten {name} seit {month} {year}."
+  },
+  "long": {
+   "en": "Researchers have followed {name} since {month} {year}.",
+   "de": "Forscher begleiten {name} seit {month} {year}."
+  },
+  "source": {
+   "title": "Template: trackedSince",
+   "url": "https://www.movebank.org",
+   "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "ind-fromto",
+  "taxon": "(every animal)",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "Researchers followed {name} from {month} {year} to {month2} {year2}.",
+   "de": "Forscher begleiteten {name} von {month} {year} bis {month2} {year2}."
+  },
+  "long": {
+   "en": "Researchers followed {name} from {month} {year} to {month2} {year2}; the map replays that journey.",
+   "de": "Forscher begleiteten {name} von {month} {year} bis {month2} {year2}; die Karte zeigt die Reise von damals."
+  },
+  "source": {
+   "title": "Template: trackedFromTo",
+   "url": "https://www.movebank.org",
+   "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "ind-hatched",
+  "taxon": "(every animal)",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "{name} hatched in {year}.",
+   "de": "{name} ist {year} geschlüpft."
+  },
+  "long": {
+   "en": "{name} hatched in {year}.",
+   "de": "{name} ist {year} geschlüpft."
+  },
+  "source": {
+   "title": "Template: hatched",
+   "url": "https://www.movebank.org",
+   "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "ind-hatchedby",
+  "taxon": "(every animal)",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "{name} hatched in {year} or earlier.",
+   "de": "{name} ist {year} oder früher geschlüpft."
+  },
+  "long": {
+   "en": "{name} hatched in {year} or earlier.",
+   "de": "{name} ist {year} oder früher geschlüpft."
+  },
+  "source": {
+   "title": "Template: hatchedBy",
+   "url": "https://www.movebank.org",
+   "quote": "(computed from the animal's own record; no outside quote)"
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "note-mb-24442409-4003322822",
+  "taxon": "mb-24442409-4003322822",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "Marina and nest-mate Nina were tagged as chicks in June 2024. Marina was the smaller.",
+   "de": "Marina und Nina wurden im Juni 2024 als Küken besendert. Marina war das kleinere."
+  },
+  "long": {
+   "en": "Marina and Nina were tagged in the same nest in June 2024. Marina was the smaller of the two chicks.",
+   "de": "Marina und Nina wurden im Juni 2024 im selben Nest besendert. Marina war das kleinere der beiden Küken."
+  },
+  "source": {
+   "title": "Movebank record comment for White Stork Marina (pipeline/individuals_curated.json)",
+   "url": "https://www.movebank.org",
+   "quote": "smaller nestling of 2 in nest",
+   "was_en": "Marina and Nina were tagged in the same nest in June 2024; Marina was the smaller of the two chicks."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "note-mb-24442409-4003322823",
+  "taxon": "mb-24442409-4003322823",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "Nina and her nest-mate Marina were tagged as chicks in June 2024. Nina was the bigger one.",
+   "de": "Nina und Marina wurden im Juni 2024 als Küken besendert. Nina war das größere."
+  },
+  "long": {
+   "en": "Nina and Marina were tagged in the same nest in June 2024. Nina was the bigger of the two chicks.",
+   "de": "Nina und Marina wurden im Juni 2024 im selben Nest besendert. Nina war das größere der beiden Küken."
+  },
+  "source": {
+   "title": "Movebank record comment for White Stork Nina (pipeline/individuals_curated.json)",
+   "url": "https://www.movebank.org",
+   "quote": "larger nestling of 2 in nest",
+   "was_en": "Nina and Marina were tagged in the same nest in June 2024; Nina was the bigger of the two chicks."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "note-mb-173641633-2847777258",
+  "taxon": "mb-173641633-2847777258",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "Kiki was the elder of two chicks. The younger got a ring, but no tracker.",
+   "de": "Kiki war das ältere von zwei Küken. Das jüngere bekam einen Ring, aber keinen Sender."
+  },
+  "long": {
+   "en": "Kiki was the elder of two chicks in the nest. The younger one got a leg ring, but only Kiki got a tracker.",
+   "de": "Kiki war das ältere von zwei Küken im Nest. Das jüngere bekam einen Ring, aber nur Kiki einen Sender."
+  },
+  "source": {
+   "title": "Movebank record comment for White Stork Kiki (pipeline/individuals_curated.json)",
+   "url": "https://www.movebank.org",
+   "quote": "elder of 2 chicks",
+   "was_en": "Kiki was the elder of two chicks; the younger one got a ring, but no tracker."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "note-mb-7249090-7541652",
+  "taxon": "mb-7249090-7541652",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "Signe was tagged in north-west Greenland and followed on two full trips south.",
+   "de": "Signe wurde in Nordwestgrönland besendert und auf zwei ganzen Zügen nach Süden verfolgt."
+  },
+  "long": {
+   "en": "Signe was already grown up when she was tagged in north-west Greenland. Researchers followed her on two full trips south and one back north.",
+   "de": "Signe war schon erwachsen, als sie in Nordwestgrönland besendert wurde. Verfolgt auf zwei ganzen Zügen nach Süden und einem zurück."
+  },
+  "source": {
+   "title": "Movebank record comment for Peregrine Falcon Signe (pipeline/individuals_curated.json)",
+   "url": "https://www.movebank.org",
+   "quote": "adult female, tagged northwest Greenland, 2 complete outward migrations, 1 complete return migration",
+   "was_en": "Tagged as an adult in north-west Greenland, this falcon was followed on two full trips south and one back north."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "note-mb-186178781-2842545544",
+  "taxon": "mb-186178781-2842545544",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "Ernst was found weak in Reutlingen, nursed back to health and set free with a tracker.",
+   "de": "Ernst wurde geschwächt gefunden, gesund gepflegt und mit Sender freigelassen."
+  },
+  "long": {
+   "en": "Found weak in Reutlingen in May 2023, Ernst was nursed back to health at a bird care centre and set free with his tracker in June.",
+   "de": "Im Mai 2023 geschwächt in Reutlingen gefunden, wurde Ernst in Mössingen gesund gepflegt und im Juni mit Sender freigelassen."
+  },
+  "source": {
+   "title": "Movebank record comment for European Honey Buzzard Ernst (pipeline/individuals_curated.json)",
+   "url": "https://www.movebank.org",
+   "quote": "found in weak condition 2023-05-29 in Reutlingen (Germany); After care in Vogelschutzzentrum Mössingen released there with logger on 2023-06-20",
+   "was_en": "Found weak in Reutlingen in May 2023, this honey buzzard was nursed back to health and set free with its tracker in June."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "note-mb-186178781-2781173687",
+  "taxon": "mb-186178781-2781173687",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "Nikolai flew into a window near Stuttgart, and was back in the wild 11 days later.",
+   "de": "Nikolai prallte bei Stuttgart gegen ein Fenster und war elf Tage später wieder frei."
+  },
+  "long": {
+   "en": "Nikolai flew into a window near Stuttgart in May 2023. Eleven days later he was released again, apparently healthy, with a tracker.",
+   "de": "Nikolai prallte im Mai 2023 bei Stuttgart gegen ein Fenster. Elf Tage später war er wieder frei, offenbar gesund und mit Sender."
+  },
+  "source": {
+   "title": "Movebank record comment for European Honey Buzzard Nikolai (pipeline/individuals_curated.json)",
+   "url": "https://www.movebank.org",
+   "quote": "Window collision near Stuttgart, brought to Moessingen bird care centre 2023-05-06, released apparently healthy from there 2023-05-17.",
+   "was_en": "This honey buzzard flew into a window near Stuttgart in May 2023 and was back in the wild, apparently healthy, 11 days later."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "note-mb-2943485-2943519",
+  "taxon": "mb-2943485-2943519",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "Ten years after tracking ended, Ernest was seen alive in New Jersey.",
+   "de": "Zehn Jahre nach Ende der Besenderung wurde Ernest lebend in New Jersey gesehen."
+  },
+  "long": {
+   "en": "Tracked until 2007, Ernest was seen alive in New Jersey in March 2017, ten years later and long without his transmitter.",
+   "de": "Bis 2007 besendert, wurde Ernest im März 2017 lebend in New Jersey gesehen, zehn Jahre später und längst ohne Sender."
+  },
+  "source": {
+   "title": "Movebank record comment for Bald Eagle Ernest (pipeline/individuals_curated.json)",
+   "url": "https://www.movebank.org",
+   "quote": "seen alive in New Jersey on 3/29/2017 (after PTT was removed)",
+   "was_en": "Tracked until 2007, this eagle was seen alive in New Jersey ten years later, in March 2017, its transmitter long gone."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "note-mb-2943485-2943518",
+  "taxon": "mb-2943485-2943518",
+  "species": "Individual animals",
+  "kind": "individual",
+  "short": {
+   "en": "Years after losing his transmitter, David turned up in Massachusetts and Connecticut.",
+   "de": "Jahre nach dem Verlust des Senders tauchte David in Massachusetts und Connecticut auf."
+  },
+  "long": {
+   "en": "Tracked until 2007, David was seen alive again without his transmitter: in Massachusetts in 2011 and in Connecticut in 2013.",
+   "de": "Bis 2007 besendert, wurde David ohne Sender wieder lebend gesehen: 2011 in Massachusetts, 2013 in Connecticut."
+  },
+  "source": {
+   "title": "Movebank record comment for Bald Eagle David (pipeline/individuals_curated.json)",
+   "url": "https://www.movebank.org",
+   "quote": "seen alive in MA on 2/11/2011 and in CT on 3/12/2013 (after PTT was removed)",
+   "was_en": "Tracked until 2007, this eagle was seen alive again without its transmitter: in Massachusetts in 2011, in Connecticut in 2013."
+  },
+  "review": {
+   "verdict": "ok",
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ }
+]

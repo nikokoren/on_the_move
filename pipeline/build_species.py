@@ -76,6 +76,7 @@ def main():
     cat = json.load(open(os.path.join(ROOT, "data", "catalog.json"), encoding="utf-8"))
     featured = json.load(open(os.path.join(ROOT, "data", "featured.json"), encoding="utf-8"))["species"]
     cur = json.load(open(os.path.join(ROOT, "pipeline", "species_curated.json"), encoding="utf-8"))["species"]
+    reviewed = json.load(open(os.path.join(ROOT, "pipeline", "facts_reviewed.json"), encoding="utf-8"))["species"]
     tables = {}
     for f in os.listdir(os.path.join(ROOT, "data", "usual")):
         tables.update(json.load(open(os.path.join(ROOT, "data", "usual", f)))["animals"])
@@ -115,11 +116,14 @@ def main():
                 "note": None if allw else "Too few animals move 500 km or more between summer and winter to give windows (e.g. sea turtles roam rather than shuttle).",
             },
             "summerRegion": region(summer), "winterRegion": region(winter),
-            "facts": cur[taxon]["facts"],
+            # Four separate pools (decision R8f): per language, short and long facts,
+            # owner-reviewed (pipeline/facts_reviewed.json).
+            "facts": {lang: [{"text": f["text"], "len": ln, "star": f["star"], "source": f["source"]}
+                             for ln in ("short", "long") for f in reviewed[taxon][lang][ln]] for lang in ("en", "de")},
             "tracked": {"animals": len(animals), "migrated": len(summer), "centralEuropeSummer": len(ce_ids),
                         "studies": [{"id": s, "animals": n, "name": cat["studies"][s]["name"]} for s, n in studies.most_common()]},
         })
-    doc = {"about": "Species table (R8) for the 12 featured species (F1). Names and facts: pipeline/species_curated.json, "
+    doc = {"about": "Species table (R8) for the 12 featured species (F1). Names: pipeline/species_curated.json; facts: pipeline/facts_reviewed.json (decision R8f), "
                     "sources verified by pipeline/verify_sources.py. Windows and regions: computed by pipeline/build_species.py "
                     "from the tracked animals listed under 'tracked' (citations in data/catalog.json). Dates are MM-DD; "
                     "'from'/'to' span the middle half of the animals. Re-run before relying on the numbers.",

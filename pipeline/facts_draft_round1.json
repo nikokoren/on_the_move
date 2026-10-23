@@ -1,0 +1,769 @@
+[
+ {
+  "id": "stork-klepetan",
+  "taxon": "Ciconia ciconia",
+  "species": "White Stork",
+  "kind": "new",
+  "short": {
+   "en": "For 20 years a stork flew home from South Africa each spring to a mate who could not fly.",
+   "de": "Ein Storch flog 20 Jahre lang jedes Jahr aus Südafrika zu seiner flugunfähigen Partnerin."
+  },
+  "long": {
+   "en": "Shot by hunters, the Croatian stork Malena never flew again. Her mate Klepetan flew {13000 km|8000 mi} back to her from South Africa every year.",
+   "de": "Die kroatische Störchin Malena konnte nach einer Schussverletzung nicht mehr fliegen. Ihr Partner Klepetan flog jedes Jahr {13000 km|8000 mi} zu ihr."
+  },
+  "source": {
+   "title": "Wikipedia, Klepetan and Malena",
+   "url": "https://en.wikipedia.org/wiki/Klepetan_and_Malena",
+   "quote": [
+    "Between 2001 and 2021, Klepetan traveled from South Africa to Brodski Varoš , Croatia, each spring to mate with Malena",
+    "Croatian janitor Stjepan Vokić found Malena while fishing in 1993; she had been shot by hunters and was unable to fly.",
+    "Through a radio tracking band, it was determined that Klepetan made a 13,000-kilometre (8,000 mi) month-long journey from South Africa to Croatia to meet up with Malena each year."
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "stork-arrow",
+  "taxon": "Ciconia ciconia",
+  "species": "White Stork",
+  "kind": "rewrite",
+  "short": {
+   "en": "In 1822 a stork came back to Germany with an African arrow stuck in its neck.",
+   "de": "1822 kam ein Storch aus Afrika zurück, mit einem Pfeil im Hals."
+  },
+  "long": {
+   "en": "In 1822 a stork turned up in Germany with an {80 cm|31 in} African arrow in its neck: the first proof that storks winter in Africa.",
+   "de": "1822 tauchte in Mecklenburg ein Storch mit einem {80 cm|31 in} langen afrikanischen Pfeil im Hals auf: der erste Beweis für den Zug nach Afrika."
+  },
+  "source": {
+   "title": "Universität Rostock, Schloss Bothmer: Der Pfeilstorch ist zurück",
+   "url": "https://www.uni-rostock.de/universitaet/kommunikation-und-aktuelles/medieninformationen/detailansicht/n/schloss-bothmer-der-pfeilstorch-ist-zurueck-26011/",
+   "quote": [
+    "als Bewohner von Gut Bothmer einen Weißstorch entdeckten, dem ein etwa 80 cm langer Stock am Hals hinunterhing.",
+    "Der Pfeilstorch lieferte somit den ersten Beweis für den Fernzug der Störche bis in das äquatoriale Afrika."
+   ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "stork-leaders",
+  "taxon": "Ciconia ciconia",
+  "species": "White Stork",
+  "kind": "new",
+  "short": {
+   "en": "Watch a stork fly for a few minutes and you can tell where it will spend the winter.",
+   "de": "Nach wenigen Minuten Flug lässt sich sagen, wo ein Storch den Winter verbringen wird."
+  },
+  "long": {
+   "en": "Leader storks find the updrafts; followers flap to keep up. A few minutes of flight tell who winters in Europe and who in Africa.",
+   "de": "Anführer finden die Aufwinde, Mitläufer müssen flattern. Nach Minuten ist klar, wer in Europa überwintert und wer in Afrika."
+  },
+  "source": {
+   "title": "Max Planck Society, Storks on the wing (2018)",
+   "url": "https://www.mpg.de/12041435/storks-on-the-wing",
+   "quote": [
+    "Followers benefit from the thermal exploration of the leaders ahead, but spend more time in energetically costly flapping flight to keep up with the flock.",
+    "we can predict just after a few minutes of migration flight whether it will spend the winter in Europe or fly on to West Africa"
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "stork-landfill",
+  "taxon": "Ciconia ciconia",
+  "species": "White Stork",
+  "kind": "new",
+  "short": {
+   "en": "Many storks in Spain and Portugal skip Africa and spend the winter at rubbish dumps.",
+   "de": "Viele Störche in Spanien und Portugal sparen sich Afrika und überwintern an Mülldeponien."
+  },
+  "long": {
+   "en": "Landfills feed Iberian storks all year, so many have stopped migrating. Some fly up to {48 km|30 mi} just to get to the dump.",
+   "de": "Mülldeponien füttern die Störche Iberiens das ganze Jahr, viele ziehen nicht mehr. Manche fliegen bis zu {48 km|30 mi} weit zur Deponie."
+  },
+  "source": {
+   "title": "Gilbert et al. 2016, Movement Ecology: Are white storks addicted to junk food?",
+   "url": "https://doi.org/10.1186/s40462-016-0070-0",
+   "quote": [
+    "recently guaranteed, year-round food from landfill sites has facilitated the establishment of resident populations in Iberia.",
+    "Storks travelled up to 48.2 km to visit landfills during non-breeding"
+   ],
+   "checked": "2026-10-22",
+   "europepmc": "DOI:10.1186/s40462-016-0070-0"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "stork-prinzesschen",
+  "taxon": "Ciconia ciconia",
+  "species": "White Stork",
+  "kind": "new",
+  "short": {
+   "en": "A stork called Prinzesschen has her own postage stamp and a bronze statue.",
+   "de": "Die Störchin Prinzesschen hat eine eigene Briefmarke und ein Bronzedenkmal."
+  },
+  "long": {
+   "en": "For over a dozen years Prinzesschen from Loburg flew to Africa with a transmitter for science. Now she has a statue and a stamp.",
+   "de": "Über ein Dutzend Jahre flog Prinzesschen aus Loburg mit Sender nach Afrika. Heute ehren sie eine Bronzeskulptur und eine Briefmarke."
+  },
+  "source": {
+   "title": "Volksstimme, Prinzesschens Reise (2016)",
+   "url": "https://www.volksstimme.de/lokal/burg/tierschutz-prinzesschens-reise",
+   "quote": [
+    "Wie aber kam der Vogel, der über ein Dutzend Jahre für die Wissenschaft fliegen sollte, zu seinem Namen?",
+    "Die von der Künstlerin Heike Landherr entworfene Bronzeskulptur steht auf dem Storchenhof Loburg",
+    "Das Motiv zeigt Prinzesschen fliegend, die Marke gehört zur Serie „Bedrohte Tierarten“"
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "stork-village",
+  "taxon": "Ciconia ciconia",
+  "species": "White Stork",
+  "kind": "new",
+  "short": {
+   "en": "In the Polish village of Żywkowo, storks outnumber people five to one.",
+   "de": "Im polnischen Dorf Żywkowo kommen auf jeden Menschen gut fünf Störche."
+  },
+  "long": {
+   "en": "Żywkowo in northern Poland has about 30 inhabitants and about 160 storks in 42 nests.",
+   "de": "Żywkowo in Nordpolen hat etwa 30 Einwohner und etwa 160 Störche in 42 Nestern."
+  },
+  "source": {
+   "title": "Wikipedia, Żywkowo",
+   "url": "https://en.wikipedia.org/wiki/%C5%BBywkowo,_Warmian-Masurian_Voivodeship",
+   "quote": "For 30 inhabitants accrue about 160 storks and 42 nests.",
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "stork-legs",
+  "taxon": "Ciconia ciconia",
+  "species": "White Stork",
+  "kind": "rewrite",
+  "short": {
+   "en": "Too hot? A stork cools off by pooping on its own legs.",
+   "de": "Zu heiß? Ein Storch kühlt sich, indem er sich auf die eigenen Beine kotet."
+  },
+  "long": {
+   "en": "Storks beat the heat by excreting onto their own legs. It keeps them from overheating, and it has a name: urohidrosis.",
+   "de": "Gegen Hitze koten Störche auf ihre eigenen Beine. Das schützt vor Überhitzung und hat einen Namen: Urohidrosis."
+  },
+  "source": {
+   "title": "Cabello-Vergel et al. 2021, Scientific Reports",
+   "url": "https://doi.org/10.1038/s41598-021-99296-8",
+   "europepmc": "DOI:10.1038/s41598-021-99296-8",
+   "quote": "Storks (Ciconiidae) frequently excrete onto their legs to prevent overheating, a phenomenon known as urohidrosis."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "stork-nest",
+  "taxon": "Ciconia ciconia",
+  "species": "White Stork",
+  "kind": "rewrite",
+  "short": {
+   "en": "A stork nest can grow {4 m|13 ft} tall and heavy enough to bring down a roof.",
+   "de": "Ein Storchennest kann {4 m|13 ft} hoch werden und schwer genug, um ein Dach zum Einsturz zu bringen."
+  },
+  "long": {
+   "en": "Stork nests can grow up to {2 m|6.5 ft} wide and {4 m|13 ft} tall, heavy enough to bring down a roof.",
+   "de": "Storchennester können bis zu {2 m|6.5 ft} breit und {4 m|13 ft} hoch werden, schwer genug, um ein Dach einstürzen zu lassen."
+  },
+  "source": {
+   "title": "NABU Hamburg, Steckbrief Weißstorch",
+   "url": "https://hamburg.nabu.de/tiere-und-pflanzen/voegel/weissstorch/18595.html",
+   "quote": "So können riesige Bauwerke mit einem Durchmesser von bis zu zwei Metern, einer Höhe von bis zu vier Metern und einem Gewicht von mehreren hundert Kilogramm entstehen und sogar ein Hausdach zum Einsturz bringen."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "stork-faithful",
+  "taxon": "Ciconia ciconia",
+  "species": "White Stork",
+  "kind": "rewrite",
+  "short": {
+   "en": "Stork couples are not faithful to each other. They are faithful to the nest.",
+   "de": "Storchenpaare sind sich nicht treu. Sie sind dem Nest treu."
+  },
+  "long": {
+   "en": "Stork couples often reunite, but they are faithful to the nest, not to each other.",
+   "de": "Storchenpaare finden oft wieder zusammen, doch treu sind sie dem Nest, nicht dem Partner."
+  },
+  "source": {
+   "title": "NABU Hamburg, Weißstorch",
+   "url": "https://hamburg.nabu.de/tiere-und-pflanzen/voegel/weissstorch/18155.html",
+   "quote": "Dies ist jedoch allein durch die ausgeprägte Horsttreue bedingt und nicht etwa durch \"Gattentreue bis in den Tod\", wie es die Legende wissen will."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "stork-alone",
+  "taxon": "Ciconia ciconia",
+  "species": "White Stork",
+  "kind": "rewrite",
+  "short": {
+   "en": "Young storks fly to Africa without their parents. Nobody shows them the way.",
+   "de": "Jungstörche fliegen ohne ihre Eltern nach Afrika. Niemand zeigt ihnen den Weg."
+  },
+  "long": {
+   "en": "From mid-August young storks set off for Africa without their parents. They need no guide: the direction is in their genes.",
+   "de": "Ab Mitte August brechen Jungstörche ohne ihre Eltern nach Afrika auf. Den Weg kennen sie trotzdem: Die Zugrichtung ist angeboren."
+  },
+  "source": {
+   "title": "NABU Hamburg, Steckbrief Weißstorch",
+   "url": "https://hamburg.nabu.de/tiere-und-pflanzen/voegel/weissstorch/18595.html",
+   "quote": [
+    "machen sich ab Mitte August ohne die Führung ihrer Eltern auf den langen und gefahrvollen Weg in die afrikanischen Winterquartiere.",
+    "Die Zugrichtung ist den Störchen angeboren"
+   ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "stork-lightning",
+  "taxon": "Ciconia ciconia",
+  "species": "White Stork",
+  "kind": "keep",
+  "short": {
+   "en": "Many Germans still believe a stork nest on the roof protects the house from lightning.",
+   "de": "Viele glauben bis heute, dass ein Storchennest auf dem Dach vor Blitzschlag schützt."
+  },
+  "long": {
+   "en": "Many people in Germany still believe a stork's nest on the roof protects the house from lightning.",
+   "de": "Viele Menschen glauben bis heute, dass ein Storchennest auf dem Dach das Haus vor Blitzschlag schützt."
+  },
+  "source": {
+   "title": "NABU Hamburg, Steckbrief Weißstorch",
+   "url": "https://hamburg.nabu.de/tiere-und-pflanzen/voegel/weissstorch/18595.html",
+   "quote": "viele Menschen glauben bis heute, dass ein Storchenhorst auf dem Dach das Haus vor Blitzschlag schützt."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "goose-hudson",
+  "taxon": "Branta canadensis",
+  "species": "Canada Goose",
+  "kind": "new",
+  "short": {
+   "en": "The geese that hit the jet that ditched in the Hudson were migrants from Labrador.",
+   "de": "Die Gänse im Triebwerk des Jets, der im Hudson notwasserte, kamen aus Labrador."
+  },
+  "long": {
+   "en": "DNA and feathers from goose remains in the engines of the jet that ditched in the Hudson River told scientists the birds came from Labrador.",
+   "de": "Aus Gänseresten in den Triebwerken des im Hudson notgewasserten Jets lasen Forscher die Herkunft ab: Labrador."
+  },
+  "source": {
+   "title": "Ecological Society of America, Ecologists identify birds struck in Hudson River crash as migratory Canada geese (2009)",
+   "url": "https://esa.org/blog/2009/06/08/ecologists-identify-birds-struck-in-hudson-river-crash-as-migratory-canada-geese/",
+   "quote": [
+    "the researchers applied DNA barcoding, a method that compares a segment of DNA to a database of known genetic material, to the tissue remains of birds extracted from the engines of U.S.",
+    "Instead, the isotopes identified the birds as originating in the Labrador region of the Canadian province Newfoundland and Labrador."
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "veto",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "goose-nene",
+  "taxon": "Branta canadensis",
+  "species": "Canada Goose",
+  "kind": "new",
+  "short": {
+   "en": "Hawaii's own goose, the nene, descends from Canada geese that reached the islands.",
+   "de": "Hawaiis Gans, die Nene, stammt von Kanadagänsen ab, die einst die Inseln erreichten."
+  },
+  "long": {
+   "en": "About 500,000 years ago Canada geese reached Hawaii. Their descendants became a new species there: the nene, Hawaii's goose.",
+   "de": "Vor etwa 500.000 Jahren erreichten Kanadagänse Hawaii. Aus ihnen wurde dort eine neue Art: die Hawaiigans, die Nene."
+  },
+  "source": {
+   "title": "Wikipedia, Nene (bird)",
+   "url": "https://en.wikipedia.org/wiki/Nene_(bird)",
+   "quote": [
+    "It is thought that the nene evolved from the Canada goose ( Branta canadensis ), which most likely arrived on the Hawaiian islands about 500,000 years ago"
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "goose-giant",
+  "taxon": "Branta canadensis",
+  "species": "Canada Goose",
+  "kind": "new",
+  "short": {
+   "en": "The giant Canada goose, thought extinct for 30 years, turned up in a city park.",
+   "de": "Die Riesen-Kanadagans galt 30 Jahre als ausgestorben, dann tauchte sie im Stadtpark auf."
+  },
+  "long": {
+   "en": "Thought extinct for 30 years, the giant Canada goose turned up wintering in a Rochester park, on a lake kept open by a power plant.",
+   "de": "30 Jahre galt die Riesen-Kanadagans als ausgestorben. Dann fand man sie in einem Park in Minnesota, auf einem Kraftwerkssee."
+  },
+  "source": {
+   "title": "U.S. Fish and Wildlife Service press release, 1 April 1963",
+   "url": "https://fws.gov/press-release/1963-04/giant-canada-goose-long-believed-extinct-rediscovered-minnesota",
+   "quote": [
+    "The world’s largest wild goose, the giant Canada, which for over thirty years was thought to be extinct, has been rediscovered in Minnesota",
+    "The lake is kept partly open by the discharge of warm water from a nearby electric generating plant."
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "goose-balcony",
+  "taxon": "Branta canadensis",
+  "species": "Canada Goose",
+  "kind": "new",
+  "short": {
+   "en": "Day-old goslings jumped nine floors from a balcony nest to their waiting parents.",
+   "de": "Einen Tag alte Gänseküken sprangen neun Stockwerke tief vom Balkon zu ihren Eltern."
+  },
+  "long": {
+   "en": "Goslings leave the nest the day after hatching, wherever it is. In Edmonton a brood jumped nine floors from a balcony to their parents.",
+   "de": "Gänseküken verlassen das Nest am Tag nach dem Schlüpfen. In Edmonton sprangen sie dafür neun Stockwerke tief von einem Balkon."
+  },
+  "source": {
+   "title": "CBC News, Oliver balcony goslings hatch, jump off 10th floor balcony the next day (2015)",
+   "url": "https://amp.cbc.ca/news/canada/edmonton/oliver-balcony-goslings-hatch-jump-off-10th-floor-balcony-the-next-day-1.3070952",
+   "quote": [
+    "the day-old goslings took Lavin by surprise.",
+    "The goslings' quick departure was especially surprising given that Lavin lives on the 10th floor — and they jumped all the way to the roof of the parkade where their parents were waiting, 9 floors below."
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": false,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "goose-king",
+  "taxon": "Branta canadensis",
+  "species": "Canada Goose",
+  "kind": "new",
+  "short": {
+   "en": "Canada geese came to Britain in the 17th century, for the king's park in London.",
+   "de": "Kanadagänse kamen im 17. Jahrhundert nach Großbritannien, für den Londoner St James's Park."
+  },
+  "long": {
+   "en": "Britain's Canada geese go back to a royal whim: in the late 17th century they were added to the king's waterfowl in St James's Park, London.",
+   "de": "Großbritanniens Kanadagänse gehen auf den König zurück: Im 17. Jahrhundert kamen sie zu seinen Wasservögeln im Londoner St James's Park."
+  },
+  "source": {
+   "title": "Wikipedia, Canada goose",
+   "url": "https://en.wikipedia.org/wiki/Canada_goose",
+   "quote": "The geese were introduced into Great Britain in the late 17th century as an addition to King James II 's waterfowl collection in St James's Park .",
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "goose-tailwind",
+  "taxon": "Branta canadensis",
+  "species": "Canada Goose",
+  "kind": "rewrite",
+  "short": {
+   "en": "With a good tailwind, a Canada goose can fly {2400 km|1500 mi} in a day.",
+   "de": "Mit Rückenwind schafft eine Kanadagans {2400 km|1500 mi} an einem Tag."
+  },
+  "long": {
+   "en": "With a good tailwind, Canada geese can cover {2400 km|1500 mi} in just 24 hours.",
+   "de": "Mit gutem Rückenwind schaffen Kanadagänse {2400 km|1500 mi} in nur 24 Stunden."
+  },
+  "source": {
+   "title": "National Geographic, Canada Goose",
+   "url": "https://www.nationalgeographic.com/animals/birds/facts/canada-goose",
+   "quote": "They can cover 1,500 miles in just 24 hours with a favorable wind"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "goose-duet",
+  "taxon": "Branta canadensis",
+  "species": "Canada Goose",
+  "kind": "rewrite",
+  "short": {
+   "en": "Canada geese honk in duets: he calls 'a-honk!', she answers 'hink!'.",
+   "de": "Kanadagänse rufen im Duett: Er ruft „a-honk!“, sie antwortet „hink!“."
+  },
+  "long": {
+   "en": "Male Canada geese call a long, loud 'a-honk!'; females answer with a higher, faster 'hink!'.",
+   "de": "Kanadaganter rufen ein langes, lautes „a-honk!“, die Weibchen ein höheres, schnelleres „hink!“."
+  },
+  "source": {
+   "title": "Missouri Department of Conservation, Canada Goose",
+   "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
+   "quote": "while the females make a faster, higher-pitched"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "goose-grounded",
+  "taxon": "Branta canadensis",
+  "species": "Canada Goose",
+  "kind": "rewrite",
+  "short": {
+   "en": "Every summer Canada geese lose all their flight feathers and are grounded for a month.",
+   "de": "Jeden Sommer verlieren Kanadagänse alle Schwungfedern und müssen einen Monat laufen."
+  },
+  "long": {
+   "en": "Each summer adult Canada geese shed their flight feathers and can't fly for nearly a month.",
+   "de": "Jeden Sommer verlieren erwachsene Kanadagänse ihre Schwungfedern und können fast einen Monat lang nicht fliegen."
+  },
+  "source": {
+   "title": "Missouri Department of Conservation, Canada Goose",
+   "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
+   "quote": "Adults lose their flight feathers during incubation and cannot fly for nearly a month."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "goose-family",
+  "taxon": "Branta canadensis",
+  "species": "Canada Goose",
+  "kind": "rewrite",
+  "short": {
+   "en": "Goose families stick together: the young fly south and back with their parents.",
+   "de": "Gänsefamilien halten zusammen: Die Jungen ziehen mit den Eltern in den Süden und zurück."
+  },
+  "long": {
+   "en": "Young Canada geese stay with their parents all winter, until after the spring migration.",
+   "de": "Junge Kanadagänse bleiben den ganzen Winter bei ihren Eltern, bis nach dem Frühjahrszug."
+  },
+  "source": {
+   "title": "Missouri Department of Conservation, Canada Goose",
+   "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
+   "quote": "The goslings stay with their parents all the time and do not leave them until after the spring migration."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "hb-batumi",
+  "taxon": "Pernis apivorus",
+  "species": "European Honey Buzzard",
+  "kind": "new",
+  "short": {
+   "en": "On one September day in 2012, 179,342 honey buzzards flew past a single spot in Georgia.",
+   "de": "An einem Tag im September 2012 zogen 179.342 Wespenbussarde an Batumi in Georgien vorbei."
+  },
+  "long": {
+   "en": "On 3 September 2012 counters at Batumi, Georgia, logged 179,342 honey buzzards in one day: a world record for the species.",
+   "de": "Am 3. September 2012 zählte man bei Batumi in Georgien 179.342 Wespenbussarde an einem Tag: Weltrekord für die Art."
+  },
+  "source": {
+   "title": "Hawk Mountain Sanctuary, 1 million raptors pass Batumi, Georgia (2012)",
+   "url": "https://hawkmountain.org/news/raptor-news/1-million-raptors-pass-batumi-georgia",
+   "quote": "On September 3, counters recorded a one-day, world record 179,342 honey buzzards.",
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "hb-alone",
+  "taxon": "Pernis apivorus",
+  "species": "European Honey Buzzard",
+  "kind": "new",
+  "short": {
+   "en": "Young honey buzzards find Africa without the adults, by their own route.",
+   "de": "Junge Wespenbussarde finden Afrika auf eigener Route, ohne ihre Eltern."
+  },
+  "long": {
+   "en": "Adult honey buzzards detour via Gibraltar. Young ones on their first trip cross the Mediterranean anywhere, yet reach the same winter homes.",
+   "de": "Alte Wespenbussarde machen den Umweg über Gibraltar. Junge überqueren das Mittelmeer irgendwo und landen doch in denselben Winterquartieren."
+  },
+  "source": {
+   "title": "Hake et al. 2003, Age-dependent migration strategy in honey buzzards tracked by satellite (Oikos)",
+   "url": "https://www.lunduniversity.lu.se/lup/publication/cc016de0-aa7a-46f3-857d-097a29e4dd52",
+   "quote": [
+    "All adults crossed the Mediterranean Sea at the Strait of Gibraltar",
+    "In contrast, the juveniles travelled in more southerly directions, crossed the Mediterranean Sea at various places, but still ended up in the same wintering areas as the adults."
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "hb-wind",
+  "taxon": "Pernis apivorus",
+  "species": "European Honey Buzzard",
+  "kind": "rewrite",
+  "short": {
+   "en": "The wind decides where a young honey buzzard spends its life in Africa.",
+   "de": "Der Wind entscheidet, wo in Afrika ein junger Wespenbussard sein Leben verbringt."
+  },
+  "long": {
+   "en": "31 young honey buzzards set off from Finland, and the wind scattered them across {3340 km|2080 mi} of Africa, west to east.",
+   "de": "31 junge Wespenbussarde brachen in Finnland auf, und der Wind verteilte sie über {3340 km|2080 mi} quer durch Afrika."
+  },
+  "source": {
+   "title": "Vansteelant et al. 2017, Proceedings of the Royal Society B",
+   "url": "https://doi.org/10.1098/rspb.2017.0387",
+   "europepmc": "DOI:10.1098/rspb.2017.0387",
+   "quote": [
+    "satellite-tagging 31 fledgling honey buzzards",
+    "the birds eventually spread out across 3340 km of longitude."
+   ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "hb-gapyear",
+  "taxon": "Pernis apivorus",
+  "species": "European Honey Buzzard",
+  "kind": "new",
+  "short": {
+   "en": "Young honey buzzards take a gap year: they roam Africa before they ever come back.",
+   "de": "Junge Wespenbussarde nehmen sich Auszeit: Sie streifen erst Jahre durch Afrika."
+  },
+  "long": {
+   "en": "Young honey buzzards spend their first years in tropical Africa. Tagged ones roamed {2430 to 3990 km|1510 to 2480 mi} in just over a year.",
+   "de": "Junge Wespenbussarde bleiben ihre ersten Jahre im tropischen Afrika. Besenderte streiften in gut einem Jahr {2430 bis 3990 km|1510 to 2480 mi} umher."
+  },
+  "source": {
+   "title": "Strandberg et al. 2012, Movements of immature European honey buzzards in tropical Africa (Ardea)",
+   "url": "https://www.lunduniversity.lu.se/lup/publication/19705f46-e34c-4668-8dc3-076a9f024738",
+   "quote": [
+    "Immature European Honey Buzzards Pernis apivorus are believed to remain in tropical Africa during the first years of their lives.",
+    "They travelled between 2,430 and 3,990 km (minimum distances) during 13 to 14 months, in which they visited several sites."
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "hb-armour",
+  "taxon": "Pernis apivorus",
+  "species": "European Honey Buzzard",
+  "kind": "rewrite",
+  "short": {
+   "en": "A honey buzzard's face is armoured with feathers like scales, against wasp stings.",
+   "de": "Das Gesicht des Wespenbussards ist mit schuppenartigen Federn gepanzert, gegen Stiche."
+  },
+  "long": {
+   "en": "Scale-like feathers around its eyes act as armour against stings, and its feathers may even carry a chemical that keeps wasps off.",
+   "de": "Schuppenartige Federn um die Augen schützen vor Stichen, und vermutlich hält ein Stoff im Gefieder die Wespen fern."
+  },
+  "source": {
+   "title": "Wikipedia, European honey buzzard",
+   "url": "https://en.wikipedia.org/wiki/European_honey_buzzard",
+   "quote": [
+    "Scale-like feathers around the eyes and forehead provide armour against the stings of its prey species.",
+    "Honey buzzards are thought to have a chemical deterrent in their feathers that protects them from wasp attacks."
+   ],
+   "checked": "2026-10-22"
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "hb-hornet",
+  "taxon": "Pernis apivorus",
+  "species": "European Honey Buzzard",
+  "kind": "keep",
+  "short": {
+   "en": "Honey buzzards wreck the nests of the invasive Asian hornet.",
+   "de": "Wespenbussarde zerstören die Nester der eingeschleppten Asiatischen Hornisse."
+  },
+  "long": {
+   "en": "Honey buzzards raid nests of the invasive Asian hornet; in one study, 89% of the nests they attacked were destroyed.",
+   "de": "Wespenbussarde plündern Nester der eingeschleppten Asiatischen Hornisse; in einer Studie wurden 89 % davon zerstört."
+  },
+  "source": {
+   "title": "Martín-Ávila et al. 2025, Pest Management Science",
+   "url": "https://doi.org/10.1002/ps.8622",
+   "europepmc": "DOI:10.1002/ps.8622",
+   "quote": [
+    "as an ally for the control of the invasive yellow-legged hornet",
+    "with 89.3% of attacked nests destroyed."
+   ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "hb-nohoney",
+  "taxon": "Pernis apivorus",
+  "species": "European Honey Buzzard",
+  "kind": "rewrite",
+  "short": {
+   "en": "Honey buzzards eat no honey. They're after the wasp grubs.",
+   "de": "Wespenbussarde, im Englischen „Honigbussarde“, fressen keinen Honig, sondern Wespenbrut."
+  },
+  "long": {
+   "en": "Despite the name, honey buzzards don't eat honey: they dig out wasp and bee nests on foot and eat the grubs.",
+   "de": "Trotz des englischen Namens „Honigbussard“ frisst er keinen Honig: Er gräbt zu Fuß Wespennester aus und frisst die Brut."
+  },
+  "source": {
+   "title": "RSPB, Honey Buzzard",
+   "url": "https://www.rspb.org.uk/birds-and-wildlife/honey-buzzard",
+   "quote": "Despite their name, they do not eat honey but in fact raid bee and wasp nests in search of the grubs inside."
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ },
+ {
+  "id": "hb-disguise",
+  "taxon": "Pernis apivorus",
+  "species": "European Honey Buzzard",
+  "kind": "keep",
+  "short": {
+   "en": "Young honey buzzards may dress up as common buzzards to fool goshawks.",
+   "de": "Junge Wespenbussarde tarnen sich womöglich als Mäusebussard, um Habichte zu täuschen."
+  },
+  "long": {
+   "en": "Honey buzzards look like common buzzards, perhaps as a disguise: goshawks are warier of the better-armed buzzard.",
+   "de": "Wespenbussarde sehen Mäusebussarden ähnlich, vielleicht als Tarnung: Habichte meiden den wehrhafteren Mäusebussard eher."
+  },
+  "source": {
+   "title": "Hawk and Owl Trust, Honey Buzzard",
+   "url": "https://hawkandowltrust.org/learn-and-discover/about-birds-of-prey/honey-buzzard",
+   "quote": [
+    "It is thought that this could be a defense against potential predation by Goshawk.",
+    "a Goshawk is going to be more cautious against this well-armed species, than against the much weaker Honey Buzzard."
+   ]
+  },
+  "review": {
+   "verdict": "ok",
+   "star": true,
+   "by": "owner",
+   "date": "2026-10-22"
+  }
+ }
+]
