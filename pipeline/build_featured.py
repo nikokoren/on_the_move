@@ -191,11 +191,21 @@ def main():
         tables.update(json.load(open(os.path.join(ROOT, "data", "usual", f)))["animals"])
     layers = load_places()
     curated = json.load(open(os.path.join(ROOT, "pipeline", "species_curated.json"), encoding="utf-8"))["species"]
+    # Owner-reviewed facts in four pools (decision R8f): per language, short and long.
+    reviewed = json.load(open(os.path.join(ROOT, "pipeline", "facts_reviewed.json"), encoding="utf-8"))
     ip = os.path.join(ROOT, "pipeline", "individuals.json")
     individuals = json.load(open(ip, encoding="utf-8"))["animals"] if os.path.exists(ip) else {}
     # Our names for animals the researchers left unnamed (pipeline/names_curated.json).
     given = json.load(open(os.path.join(ROOT, "pipeline", "names_curated.json"), encoding="utf-8"))["animals"]
     places, place_ids = [], {}
+
+    def with_notes(ind, aid):
+        # The comment notes as reviewed per language (long version, R8f); the
+        # notes' sources stay in pipeline/individuals_curated.json.
+        rn = {lang: reviewed["individual"][lang]["notes"].get(aid, {}) for lang in ("en", "de")}
+        if not ind.get("notes") or not rn["en"]:
+            return ind
+        return {**ind, "notes": [{lang: rn[lang].get("long") or rn[lang].get("short") for lang in ("en", "de")}]}
 
     def pid(name):
         if not name:
@@ -257,7 +267,8 @@ def main():
         # A photo only where one has been picked and built (pipeline/build_photos.py).
         has_photo = os.path.exists(os.path.join(ROOT, "worker", "photos", taxon.lower().replace(" ", "_") + ".jpg"))
         entry = {"taxon": taxon, "names": {k: c["names"][k] for k in ("en", "de")}, "iucn": sp["iucn"], "photo": has_photo,
-                 "facts": [{k: f[k] for k in ("en", "de")} for f in c["facts"]], "animals": []}
+                 "facts": {lang: [{"text": f["text"], "len": ln} for ln in ("short", "long") for f in reviewed["species"][taxon][lang][ln]] for lang in ("en", "de")},
+                 "animals": []}
         for a, tab, st, hops in chosen:
             study = cat["studies"][a["studyId"]]
             track, day_place = [], []
@@ -285,7 +296,7 @@ def main():
             entry["animals"].append({
                 "id": a["id"], "name": name_of(a) or given.get(a["id"], {}).get("name", ""), "live": a["live"], "lastFix": a["lastFix"],
                 # Sex, tracking dates and hatch year (pipeline/build_individuals.py).
-                "individual": individuals.get(a["id"], {}),
+                "individual": with_notes(individuals.get(a["id"], {}), a["id"]),
                 "lastPosition": [a["lastPosition"][1], a["lastPosition"][0]] if a["live"] else None,
                 "coarsen": a["coarsenDegrees"],
                 "credit": {"source": study.get("source"), "pi": study.get("pi", ""), "license": study["license"],

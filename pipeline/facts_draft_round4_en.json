@@ -10,6 +10,10 @@
       "title": "Wikipedia, White stork",
       "url": "https://en.wikipedia.org/wiki/White_stork",
       "quote": "Ottomar Anschütz 's images of white storks, taken in 1884—the earliest known photographs of any wild birds"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     }
    ],
@@ -24,6 +28,9 @@
        "The adult white stork's main sound is noisy bill-clattering, which has been likened to distant machine gun fire.",
        "Like the adults, the young also clatter their beaks."
       ]
+     },
+     "review": {
+      "verdict": "ok"
      }
     }
    ]
@@ -37,6 +44,9 @@
       "title": "Wikipedia, Hula Valley",
       "url": "https://en.wikipedia.org/wiki/Hula_Valley",
       "quote": "In 2011, Israeli ornithologists confirmed that Lake Hula is the stopover point for tens of thousands of cranes migrating from Finland to Ethiopia every winter."
+     },
+     "review": {
+      "verdict": "veto"
      }
     }
    ],
@@ -51,6 +61,9 @@
        "With nearly a half-million cranes stopping here each spring, the placid Platte is transformed into the site of the greatest gathering of these birds in the world.",
        "Add to this the occasional appearance of an endangered whooping crane or a Eurasian \"common\" crane that has veered off course"
       ]
+     },
+     "review": {
+      "verdict": "ok"
      }
     },
     {
@@ -60,6 +73,9 @@
       "title": "Wikipedia, Common crane",
       "url": "https://en.wikipedia.org/wiki/Common_crane",
       "quote": "During these migratory flights, common cranes have been known to fly at altitudes of up to 10,000 m (33,000 ft) , one of the highest of any species of bird, second only to the Ruppell's vulture ."
+     },
+     "review": {
+      "verdict": "ok"
      }
     }
    ]
@@ -76,6 +92,10 @@
        "It spends large amounts of time on the forest floor excavating wasp nests.",
        "It is equipped with long toes and claws adapted to raking and digging"
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     }
    ],
@@ -90,6 +110,9 @@
       "title": "Wikipedia, European turtle dove",
       "url": "https://en.wikipedia.org/wiki/European_turtle_dove",
       "quote": "It was published along with other poems on the subject, including William Shakespeare 's poem \" The Phoenix and the Turtle \", where \"turtle\" refers to the turtle dove."
+     },
+     "review": {
+      "verdict": "veto"
      }
     },
     {
@@ -99,6 +122,9 @@
       "title": "Wikipedia, European turtle dove",
       "url": "https://en.wikipedia.org/wiki/European_turtle_dove",
       "quote": "Turtle doves are rare vagrants in North America, with records from Massachusetts and Florida in the United States"
+     },
+     "review": {
+      "verdict": "veto"
      }
     }
    ],
@@ -113,6 +139,10 @@
        "Linnaeus gave the locality as \"India\".",
        "This was an error, and the type locality has been designated as England."
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     }
    ]
@@ -130,6 +160,9 @@
        "the first record in North America outside of Greenland wasn't until 1934 in New Jersey.",
        "By the 1980s, lesser black-backed gulls had been observed across all the Great Lakes and the entirety of the Atlantic and Gulf coast of the U.S.,"
       ]
+     },
+     "review": {
+      "verdict": "ok"
      }
     },
     {
@@ -142,6 +175,9 @@
        "only two banded lesser black-backed gulls have been re-sighted in North America — one in 1997, and one in 2002.",
        "despite thousands of observations of these gulls year after year,"
       ]
+     },
+     "review": {
+      "verdict": "ok"
      }
     },
     {
@@ -155,6 +191,9 @@
        "In the 1990s, lesser black-backed gulls (likely from Iceland) were confirmed breeding in Greenland",
        "the researchers propose that most lesser black-backed gulls seen in North America come from western Iceland and Greenland."
       ]
+     },
+     "review": {
+      "verdict": "ok"
      }
     }
    ]
@@ -168,6 +207,10 @@
       "title": "Wikipedia, Red-backed shrike",
       "url": "https://en.wikipedia.org/wiki/Red-backed_shrike",
       "quote": "Like other shrikes it hunts from prominent perches, and impales corpses on thorns or barbed wire as a"
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     }
    ],
@@ -179,6 +222,9 @@
       "title": "Wikipedia, Loggerhead shrike",
       "url": "https://en.wikipedia.org/wiki/Loggerhead_shrike",
       "quote": "It is nicknamed the butcherbird after its carnivorous tendencies, as it consumes prey such as insects, amphibians, lizards, small mammals and small birds, and some prey end up displayed and stored at a site, for example in a tree."
+     },
+     "review": {
+      "verdict": "ok"
      }
     }
    ]
@@ -195,6 +241,10 @@
        "How do birds that pecked from eggshells on Alaska tundra just this summer know how to make it to Africa?",
        "The birds are born with that knowledge, maybe tied to the Earth's magnetic field and geographic landforms."
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     },
     {
@@ -204,6 +254,10 @@
       "title": "National Park Service, Gates of the Arctic: Northern Wheatear",
       "url": "https://www.nps.gov/gaar/learn/nature/northern-wheatear.htm",
       "quote": "The Northern Wheatear's song is complex and composed of a variety of crackling and popping sounds and, like the Bluethroat, the mimicked vocalizations of other bird species."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     }
    ],
@@ -218,6 +272,10 @@
        "Birds that spent their summer next to muskoxen are now leaving Alaska to spend winter with zebras.",
        "After four months in the sub-Sahara with giraffes, they will again feel the urge, and hop from an acacia tree branch."
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     },
     {
@@ -231,6 +289,10 @@
        "The one bird whose geolocator they were able to recover on Baffin Island spent its winter in Mauritania, in western Africa.",
        "until the birds stop for the winter months in eastern Africa: Sudan, Uganda or Kenya."
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     },
     {
@@ -243,6 +305,10 @@
        "Bairlein said that during the last great glacial period, during which much of the far north was ice-covered, wheatears may have been holed up in the Middle East.",
        "When the glaciers shrank from the continents, one group of wheatears may have expanded to the northeast, reaching Alaska, while the other drifted northwest, reaching Canada via Europe and Greenland."
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     }
    ]
@@ -260,6 +326,10 @@
       "title": "Wikipedia, Broad-winged hawk",
       "url": "https://en.wikipedia.org/wiki/Broad-winged_hawk",
       "quote": "They give special attention to preparing their food for consumption, skinning frogs and snakes and plucking prey birds' feathers."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     },
     {
@@ -269,6 +339,10 @@
       "title": "Wikipedia, Broad-winged hawk",
       "url": "https://en.wikipedia.org/wiki/Broad-winged_hawk",
       "quote": "They rarely drink water and are able to survive solely with the water present in their prey."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     },
     {
@@ -281,6 +355,10 @@
        "During its 16-year existence, it has racked up a mind-boggling tally of more than 10 million raptors, averaging more than 700,000 a year.",
        "of the 23 species recorded, broad-winged hawks dominated the tally"
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     }
    ],
@@ -292,6 +370,10 @@
       "title": "Northern Woodlands, There and Back Again: Tracking Broad-Winged Hawk Migration (2024)",
       "url": "https://northernwoodlands.org/articles/article/broad-winged-hawk-migration",
       "quote": "One of the most surprising findings of this study is that birds who summer within a few miles of each other might spend their winters a thousand miles apart."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     },
     {
@@ -301,6 +383,9 @@
       "title": "Northern Woodlands, There and Back Again: Tracking Broad-Winged Hawk Migration (2024)",
       "url": "https://northernwoodlands.org/articles/article/broad-winged-hawk-migration",
       "quote": "daily counts can top 200,000 birds, with more hawks whirling in a single kettle on a warm October afternoon than across the entirety of the New Hampshire migration season."
+     },
+     "review": {
+      "verdict": "ok"
      }
     },
     {
@@ -313,6 +398,9 @@
        "Finally, each hawk is given a name so that students, birders, and others can more easily follow along from home via the migration maps and stories on the Broad-winged Hawk Project website and Facebook page .",
        "comprises the initials of the three founders of the Northeast Hawk Watch."
       ]
+     },
+     "review": {
+      "verdict": "veto"
      }
     },
     {
@@ -322,6 +410,10 @@
       "title": "Northern Woodlands, There and Back Again: Tracking Broad-Winged Hawk Migration (2024)",
       "url": "https://northernwoodlands.org/articles/article/broad-winged-hawk-migration",
       "quote": "soaring on thermals in groups called “kettles,” named for their resemblance to steam rising from a kettle or soup swirling in a pot."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     }
    ]
@@ -335,6 +427,10 @@
       "title": "Wikipedia, Turkey vulture",
       "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
       "quote": "The turkey vulture received its common name from the resemblance of the adult's bald red head and dark plumage to that of the male wild turkey ."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     }
    ],
@@ -349,6 +445,10 @@
        "This species also may be perceived as a threat by farmers due to the similar black vulture's tendency to attack and kill newborn cattle.",
        "The turkey vulture does not kill live animals but will mix with flocks of black vultures and will scavenge what they leave behind."
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     },
     {
@@ -358,6 +458,10 @@
       "title": "Wikipedia, Turkey vulture",
       "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
       "quote": "Though they are similar in appearance and have similar ecological roles , the New World and Old World vultures evolved in different parts of the world and from different ancestors."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     }
    ]
@@ -377,6 +481,10 @@
        "The researchers recorded nine hours of information on a 22-meter-long male from the Pacific Ocean off the coast of California.",
        "usually of four to eight beats a minute and as low as two beats a minute."
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     },
     {
@@ -391,6 +499,10 @@
        "Plans called for a four-ton whale, but the finished product was 10 tons.",
        "placing and attaching 28 fine hairs to the whale's chin."
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "note": "Rephrase to “weighs 10 tons” and cut the not 4 part."
      }
     }
    ]
@@ -410,6 +522,10 @@
        "Warmer water increases activity of cold-blooded reptiles.",
        "Sargassum habitat harbors food sources for juvenile turtles."
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     },
     {
@@ -423,6 +539,10 @@
        "Total estimated nesting in the United States is more than 100,000 nests per year.",
        "The most recent reviews show that only two loggerhead nesting aggregations have greater than 10,000 females nesting per year: Peninsular Florida and Oman."
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "note": "Rephrase the second sentence to over 10000 nest in Florida alone"
      }
     }
    ]
@@ -436,6 +556,9 @@
       "title": "Wikipedia, Osprey",
       "url": "https://en.wikipedia.org/wiki/Osprey",
       "quote": "Another odd legend regarding this fish-eating bird of prey, derived from the writings of Gerald of Wales and later Albertus Magnus and recorded in Holinshed 's Chronicles , was that it had one webbed foot and one taloned foot."
+     },
+     "review": {
+      "verdict": "ok"
      }
     }
    ],
@@ -450,6 +573,9 @@
        "The osprey and owls are the only raptors whose outer toes are reversible, allowing them to grasp their prey with two toes in front and two behind.",
        "sharp spicules on the underside of the toes"
       ]
+     },
+     "review": {
+      "verdict": "ok"
      }
     },
     {
@@ -462,6 +588,9 @@
        "Approximately one-quarter of all ospreys in the contiguous United States nest in the Chesapeake Bay region",
        "Nests are often located near the water on tall structures like dead snags, utility poles, channel markers and nesting platforms."
       ]
+     },
+     "review": {
+      "verdict": "ok"
      }
     },
     {
@@ -471,6 +600,10 @@
       "title": "Wikipedia, Osprey",
       "url": "https://en.wikipedia.org/wiki/Osprey",
       "quote": "As an osprey dives, it adjusts the angle of its flight to account for the distortion of the fish's image caused by refraction ."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     }
    ]
@@ -484,6 +617,9 @@
       "title": "AP via WTOP, Snow geese take off for the Arctic in mesmerizing sunrise display (2026)",
       "url": "https://wtop.com/world/2026/03/snow-geese-take-off-for-the-arctic-in-mesmerizing-sunrise-display/",
       "quote": "below the single-day record of about 200,000 on Feb. 21, 2018."
+     },
+     "review": {
+      "verdict": "veto"
      }
     }
    ],
@@ -498,6 +634,10 @@
        "When choosing a mate, young birds most often select a mate that resembles their parents' coloring.",
        "If the birds were hatched into a mixed pair, they mate with either color phase."
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     },
     {
@@ -510,6 +650,10 @@
        "Bird enthusiasts come out before dawn each morning during the five-day Festival of the Cranes to watch as thousands of birds fly into the sunrise.",
        "As if on cue, tens of thousands of geese rose simultaneously from the marsh, their white bodies shimmering against the desert landscape."
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     }
    ]
@@ -527,6 +671,9 @@
        "in July 2004 the American Ornithologists' Union 's (AOU) Committee on Classification and Nomenclature split the two into two species",
        "The smallest 1.4 kg (3.1 lb) cackling geese"
       ]
+     },
+     "review": {
+      "verdict": "ok"
      }
     },
     {
@@ -536,6 +683,10 @@
       "title": "Wikipedia, Canada goose",
       "url": "https://en.wikipedia.org/wiki/Canada_goose",
       "quote": "Although parents are hostile to unfamiliar geese, they may form groups of a number of goslings and a few adults, called crèches ."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     },
     {
@@ -545,6 +696,10 @@
       "title": "Wikipedia, Canada goose",
       "url": "https://en.wikipedia.org/wiki/Canada_goose",
       "quote": "In 2009, a collision with a flock of migratory Canada geese resulted in US Airways Flight 1549 suffering a total loss of power from both engines after takeoff, forcing the crew of the aircraft to ditch the plane in the Hudson River with no loss of human life."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     }
    ]
@@ -559,6 +714,10 @@
       "title": "U.S. Fish & Wildlife Service, National Eagle Repository",
       "url": "https://www.fws.gov/program/national-eagle-repository",
       "quote": "the U.S. Fish and Wildlife Service (Service) established the National Eagle Repository (Repository) in the early 1970s to provide enrolled members of federal recognized Native American Tribes with the remains, parts, and feathers of bald and golden eagles for spiritual and religious use."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     },
     {
@@ -571,6 +730,10 @@
        "President\" and \"First Lady,\" a mated pair of bald eagles in the National Arboretum in D.C., have been incubating two eggs before a rapt audience, thanks to a 24-hour web cam.",
        "The first baby bald eagle emerged from its shell on Friday morning, to the delight of the eagle-cam audience."
       ]
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     }
    ]
@@ -584,6 +747,10 @@
       "title": "Wikipedia, Blackpoll warbler",
       "url": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
       "quote": "They are more often heard than seen, though their song is one of the highest-pitched known."
+     },
+     "review": {
+      "verdict": "ok",
+      "star": true
      }
     },
     {
@@ -593,6 +760,9 @@
       "title": "Wikipedia, Blackpoll warbler",
       "url": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
       "quote": "The eggs are incubated for around 12 days and the young leave the nest when they are only 10 days old before they can fly well."
+     },
+     "review": {
+      "verdict": "ok"
      }
     }
    ],
@@ -604,6 +774,9 @@
       "title": "Wikipedia, Blackpoll warbler",
       "url": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
       "quote": "This is likely the reason that they are one of the later warblers to appear in spring migration, after one or more short overwater flights and a relatively prolonged movement overland through North America anytime from early May to mid-June."
+     },
+     "review": {
+      "verdict": "veto"
      }
     }
    ]
@@ -621,6 +794,9 @@
        "Ornithology professor Tom Cade founded The Peregrine Fund at Cornell University in 1970 to breed the falcons in captivity and release them to the wild.",
        "The Peregrine Fund bred and released more than 4,000 falcons from 1974 to 1997."
       ]
+     },
+     "review": {
+      "verdict": "ok"
      }
     }
    ]

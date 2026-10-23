@@ -23,7 +23,7 @@ Worst case in lines: 1 + 2 + 2 + 2 + 1 = 8 lines ≈ 16 + 40 + 24 + 24 + 12 = 11
 - The date is always shown with a position (D3). Historic positions always say "usually" and give the year of the track (S2).
 - German: no prepositions before place names (articles vary: "in die Schweiz", "auf den Pazifik"), so journeys use an arrow. No pronouns for the animal (der Storch, die Möwe, die Schildkröte).
 - Numbers and dates in the language's format: "3,415 km" / "3.415 km", "25 Aug" / "25. Aug.".
-- A fact must be true of the animal on screen: data facts come from its own track; species facts must hold for the species as a whole and carry a published source with the exact sentence they rest on (R8, `pipeline/species_curated.json`; `pipeline/verify_sources.py` must find every quote). Converted figures (miles, feet, pounds, US tons) are rounded, never made more precise than the source.
+- A fact must be true of the animal on screen: data facts come from its own track; species facts must hold for the species as a whole and carry a published source with the exact sentence they rest on (R8, `pipeline/facts_reviewed.json`, decision R8f: separate English and German pools, short up to 90 and long up to 140 characters; `pipeline/verify_sources.py` must find every quote). Converted figures (miles, feet, pounds, US tons) are rounded, never made more precise than the source.
 - Place names come from Natural Earth as they are (R7); they are not edited.
 - Animal names in quotes: „Name“ in German, “Name” in English (2026-09-29).
 - Measurements in facts follow the Units setting; sourced facts write them `{metric|imperial}` (decision U1). No data credit on screen (decision C2).

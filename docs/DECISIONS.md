@@ -9,7 +9,8 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 - Why: two review rounds on the fact review page (28 + 123 items; round 1: 26 OK, 19 starred, 2 vetoed; round 2: 111 OK, 70 starred, 12 vetoed). Owner: German texts translated from English "reference English contexts or are just bad literal translations"; long facts are often great but "don't make any sense" when cut short.
 - Decided (owner): each species gets four independent pools (en short, en long, de short, de long). Languages are researched and written separately (by two different agents, owner's suggestion), never translated; short and long are separate facts, not two versions of one. Short up to 90 characters, long up to 140.
 - Rules and the owner's taste: `docs/FACT_STYLE.md`. Drafts checked by `pipeline/check_fact_draft.py` (lengths, quotes verbatim on the live page). Review verdicts kept in `pipeline/facts_draft_round1.json` and `pipeline/facts_draft_round2.json`.
-- Not built yet: the Worker and templates still use one pool per language; choosing short or long by the space available is O1 step 3.
+- Built 2026-10-23 (owner: "build them into the recipe now"): after four review rounds the approved pools are `pipeline/facts_reviewed.json` (English 136 short, 88 long; German 112 short, 71 long; 9 individual templates and 8 notes per language, all using the animal's name). `build_species.py` and `build_featured.py` carry them as `facts.en` / `facts.de` (each fact `text`, `len`); the Worker draws from the viewer's language only, short and long together, since every view holds 140 characters (render sweep below). The notes show their long version. `verify_sources.py` now checks `facts_reviewed.json`. Unit tokens are plain numbers (`{13000 km|8000 mi}`, ranges `{2430-3990 km|1510-2480 mi}`); German drafts had written `13.000`, which the renderer read as 13 (found by `worker/check.mjs` and fixed).
+- Picking short or long by the space left (once a stat line takes room) stays with O1 step 3.
 
 ### N1 Names for unnamed animals (owner, 2026-10-03)
 
@@ -177,6 +178,12 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 - Applies to every TRMNL recipe. Full text in `docs/BRIEF.md`.
 
 ## Open
+
+### O4 Many more facts for every species (owner, 2026-10-23; planned, not started)
+
+- The owner: the current minimum (at least 6 short and 4 long per language and species) "is still too small"; long term every species needs many more, in all four pools (English short/long, German short/long). English with a slight US focus (`docs/FACT_STYLE.md`).
+- How: the same loop as R8f: separate English and German writers, `pipeline/check_fact_draft.py`, the owner's review page, then `facts_reviewed.json`. Re-check NABU (offline 2026-10-22): several earlier facts rested on it.
+- Today (2026-10-23): English 4 to 10 short and 4 to 6 long per species; German 4 to 8 short and 3 to 6 long.
 
 ### O2 Publish the templates through TRMNL's API (owner, 2026-10-03; planned, not started)
 

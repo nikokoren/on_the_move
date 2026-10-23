@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Re-fetch every source in pipeline/species_curated.json and confirm the quoted
+"""Re-fetch every source in pipeline/facts_reviewed.json and confirm the quoted
 sentence (or each of a list of quoted sentences) is still on the page (working
 method rule 3: the web wins).
 
@@ -49,10 +49,11 @@ def quotes(src):
 
 
 def main():
-    cur = json.load(open(os.path.join(ROOT, "pipeline", "species_curated.json"), encoding="utf-8"))["species"]
+    # The owner-reviewed pools (decision R8f): both languages, short and long.
+    rev = json.load(open(os.path.join(ROOT, "pipeline", "facts_reviewed.json"), encoding="utf-8"))["species"]
     pages, bad, total = {}, 0, 0
-    for taxon, s in cur.items():
-        for fact in s["facts"]:
+    for taxon, s in rev.items():
+        for fact in [f for lang in ("en", "de") for ln in ("short", "long") for f in s[lang][ln]]:
             src = fact["source"]
             total += 1
             try:
