@@ -1,0 +1,591 @@
+{
+  "checked": "2026-11-04",
+  "source": "Movebank Data Repository original files, downloaded anonymously over verified HTTPS",
+  "method": "Reject visible=false and explicit manually/algorithm marked outliers; reject missing/nonfinite/out-of-range coordinates; deduplicate equal animal/timestamp (GPS preferred over Argos). Daily positions are coordinate-wise medians. Displacements are great-circle distances between daily medians, not route lengths. Whole-recording coverage is not migration-leg coverage.",
+  "datasets": {
+    "zebra": {
+      "item_uuid": "c9b4f9b5-875a-4b61-a5d6-c2e59ffe0aca",
+      "doi": [
+        "doi:10.5441/001/1.f3550b4f"
+      ],
+      "title": [
+        "Data from: In search of greener pastures: using satellite images to predict the effects of environmental change on zebra migration"
+      ],
+      "license": [
+        "CC0 1.0 Universal"
+      ],
+      "files": [
+        {
+          "name": "Migratory Burchell's zebra (Equus burchellii) in northern Botswana-reference data.csv",
+          "bytes": 1251,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "2bcf0ccf7c1140584280a4d25a9d4bbf"
+          },
+          "checksum_verified": true
+        },
+        {
+          "name": "README.txt",
+          "bytes": 9421,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "2f044afba824d2a53b50478eb9a2f414"
+          },
+          "checksum_verified": true
+        },
+        {
+          "name": "Migratory Burchell's zebra (Equus burchellii) in northern Botswana.csv",
+          "bytes": 15651785,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "218ded3ff70a62536d4643a58e44f3e2"
+          },
+          "checksum_verified": true
+        }
+      ],
+      "counts": {
+        "raw": 53794,
+        "invalid": 17,
+        "flagged": 1
+      },
+      "animals": [
+        {
+          "id": "Z3864",
+          "first": "2007-10-25",
+          "last": "2008-01-05",
+          "fixes": 2720,
+          "days_with_fixes": 72,
+          "span_days": 73,
+          "coverage_percent": 98.6,
+          "max_missing_days": 1,
+          "end_to_end_km": 200,
+          "max_distance_from_first_daily_median_km": 205
+        },
+        {
+          "id": "Z3743",
+          "first": "2007-10-28",
+          "last": "2008-08-28",
+          "fixes": 10911,
+          "days_with_fixes": 306,
+          "span_days": 306,
+          "coverage_percent": 100.0,
+          "max_missing_days": 0,
+          "end_to_end_km": 22,
+          "max_distance_from_first_daily_median_km": 202
+        },
+        {
+          "id": "Z3866",
+          "first": "2007-10-25",
+          "last": "2008-10-22",
+          "fixes": 13045,
+          "days_with_fixes": 364,
+          "span_days": 364,
+          "coverage_percent": 100.0,
+          "max_missing_days": 0,
+          "end_to_end_km": 1,
+          "max_distance_from_first_daily_median_km": 206
+        },
+        {
+          "id": "Z6402",
+          "first": "2008-10-24",
+          "last": "2009-04-21",
+          "fixes": 4837,
+          "days_with_fixes": 179,
+          "span_days": 180,
+          "coverage_percent": 99.4,
+          "max_missing_days": 1,
+          "end_to_end_km": 140,
+          "max_distance_from_first_daily_median_km": 204
+        },
+        {
+          "id": "Z6405",
+          "first": "2008-08-27",
+          "last": "2009-03-31",
+          "fixes": 6194,
+          "days_with_fixes": 217,
+          "span_days": 217,
+          "coverage_percent": 100.0,
+          "max_missing_days": 0,
+          "end_to_end_km": 178,
+          "max_distance_from_first_daily_median_km": 212
+        },
+        {
+          "id": "Z6407",
+          "first": "2008-08-27",
+          "last": "2009-05-27",
+          "fixes": 9680,
+          "days_with_fixes": 274,
+          "span_days": 274,
+          "coverage_percent": 100.0,
+          "max_missing_days": 0,
+          "end_to_end_km": 121,
+          "max_distance_from_first_daily_median_km": 206
+        },
+        {
+          "id": "Z6399",
+          "first": "2008-10-24",
+          "last": "2009-06-01",
+          "fixes": 6389,
+          "days_with_fixes": 221,
+          "span_days": 221,
+          "coverage_percent": 100.0,
+          "max_missing_days": 0,
+          "end_to_end_km": 54,
+          "max_distance_from_first_daily_median_km": 222
+        }
+      ]
+    },
+    "turtle": {
+      "item_uuid": "df53968d-4bcc-4dd7-9bb6-8358378836ec",
+      "doi": [
+        "doi:10.5441/001/1.313"
+      ],
+      "title": [
+        "Data from: Study \"Green turtles (Chelonia Mydas); Hays; Chagos Archipelago, Western Indian Ocean\""
+      ],
+      "license": [
+        "CC0 1.0 Universal"
+      ],
+      "files": [
+        {
+          "name": "Green turtles (Chelonia Mydas) Hays Chagos Archipelago Western Indian Ocean-argos.csv",
+          "bytes": 520491,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "ae8ff26015b7d826a1d9f3b45f01d5cf"
+          },
+          "checksum_verified": true
+        },
+        {
+          "name": "Green turtles (Chelonia Mydas) Hays Chagos Archipelago Western Indian Ocean-gps.csv",
+          "bytes": 9788265,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "7cc8bd6182182941e792606c3c51b724"
+          },
+          "checksum_verified": true
+        },
+        {
+          "name": "Green turtles (Chelonia Mydas) Hays Chagos Archipelago Western Indian Ocean-reference-data.csv",
+          "bytes": 8174,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "60e9c1b5401687b9f133f7918cde5937"
+          },
+          "checksum_verified": true
+        },
+        {
+          "name": "README.txt",
+          "bytes": 18847,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "1587d43cee5b8056acc0b6d6736aa2fb"
+          },
+          "checksum_verified": true
+        }
+      ],
+      "counts": {
+        "raw": 55462,
+        "flagged": 51
+      },
+      "animals": [
+        {
+          "id": "21915",
+          "first": "2015-08-01",
+          "last": "2016-06-24",
+          "fixes": 2565,
+          "days_with_fixes": 308,
+          "span_days": 329,
+          "coverage_percent": 93.6,
+          "max_missing_days": 7,
+          "end_to_end_km": 1229,
+          "max_distance_from_first_daily_median_km": 1251
+        },
+        {
+          "id": "117568a",
+          "first": "2012-10-23",
+          "last": "2014-04-29",
+          "fixes": 1973,
+          "days_with_fixes": 475,
+          "span_days": 554,
+          "coverage_percent": 85.7,
+          "max_missing_days": 12,
+          "end_to_end_km": 89,
+          "max_distance_from_first_daily_median_km": 92
+        },
+        {
+          "id": "117568b",
+          "first": "2015-07-25",
+          "last": "2016-07-25",
+          "fixes": 2418,
+          "days_with_fixes": 359,
+          "span_days": 367,
+          "coverage_percent": 97.8,
+          "max_missing_days": 1,
+          "end_to_end_km": 2361,
+          "max_distance_from_first_daily_median_km": 2545
+        },
+        {
+          "id": "117569a",
+          "first": "2012-10-24",
+          "last": "2014-01-19",
+          "fixes": 1948,
+          "days_with_fixes": 429,
+          "span_days": 453,
+          "coverage_percent": 94.7,
+          "max_missing_days": 3,
+          "end_to_end_km": 2127,
+          "max_distance_from_first_daily_median_km": 2132
+        },
+        {
+          "id": "117570a",
+          "first": "2012-10-24",
+          "last": "2013-07-24",
+          "fixes": 893,
+          "days_with_fixes": 210,
+          "span_days": 274,
+          "coverage_percent": 76.6,
+          "max_missing_days": 7,
+          "end_to_end_km": 1037,
+          "max_distance_from_first_daily_median_km": 1079
+        },
+        {
+          "id": "117570b",
+          "first": "2015-07-25",
+          "last": "2016-04-19",
+          "fixes": 722,
+          "days_with_fixes": 224,
+          "span_days": 270,
+          "coverage_percent": 83.0,
+          "max_missing_days": 3,
+          "end_to_end_km": 3613,
+          "max_distance_from_first_daily_median_km": 3685
+        },
+        {
+          "id": "117571",
+          "first": "2015-07-25",
+          "last": "2016-02-16",
+          "fixes": 561,
+          "days_with_fixes": 159,
+          "span_days": 207,
+          "coverage_percent": 76.8,
+          "max_missing_days": 13,
+          "end_to_end_km": 2133,
+          "max_distance_from_first_daily_median_km": 2142
+        },
+        {
+          "id": "117572",
+          "first": "2015-07-27",
+          "last": "2016-03-05",
+          "fixes": 983,
+          "days_with_fixes": 212,
+          "span_days": 223,
+          "coverage_percent": 95.1,
+          "max_missing_days": 2,
+          "end_to_end_km": 3675,
+          "max_distance_from_first_daily_median_km": 3678
+        },
+        {
+          "id": "117573",
+          "first": "2015-07-26",
+          "last": "2016-04-25",
+          "fixes": 1544,
+          "days_with_fixes": 269,
+          "span_days": 275,
+          "coverage_percent": 97.8,
+          "max_missing_days": 1,
+          "end_to_end_km": 2,
+          "max_distance_from_first_daily_median_km": 5
+        },
+        {
+          "id": "21914b",
+          "first": "2015-07-27",
+          "last": "2016-06-02",
+          "fixes": 925,
+          "days_with_fixes": 272,
+          "span_days": 312,
+          "coverage_percent": 87.2,
+          "max_missing_days": 4,
+          "end_to_end_km": 92,
+          "max_distance_from_first_daily_median_km": 94
+        },
+        {
+          "id": "21923a",
+          "first": "2012-10-20",
+          "last": "2013-06-04",
+          "fixes": 712,
+          "days_with_fixes": 185,
+          "span_days": 228,
+          "coverage_percent": 81.1,
+          "max_missing_days": 5,
+          "end_to_end_km": 2139,
+          "max_distance_from_first_daily_median_km": 2141
+        },
+        {
+          "id": "21923b",
+          "first": "2015-07-27",
+          "last": "2015-12-27",
+          "fixes": 392,
+          "days_with_fixes": 133,
+          "span_days": 154,
+          "coverage_percent": 86.4,
+          "max_missing_days": 3,
+          "end_to_end_km": 103,
+          "max_distance_from_first_daily_median_km": 125
+        },
+        {
+          "id": "29358",
+          "first": "2015-07-25",
+          "last": "2016-03-16",
+          "fixes": 667,
+          "days_with_fixes": 207,
+          "span_days": 236,
+          "coverage_percent": 87.7,
+          "max_missing_days": 2,
+          "end_to_end_km": 2375,
+          "max_distance_from_first_daily_median_km": 2593
+        },
+        {
+          "id": "41082",
+          "first": "2018-07-05",
+          "last": "2019-01-02",
+          "fixes": 1403,
+          "days_with_fixes": 176,
+          "span_days": 182,
+          "coverage_percent": 96.7,
+          "max_missing_days": 1,
+          "end_to_end_km": 3023,
+          "max_distance_from_first_daily_median_km": 3024
+        },
+        {
+          "id": "41086",
+          "first": "2018-07-02",
+          "last": "2019-01-23",
+          "fixes": 1686,
+          "days_with_fixes": 197,
+          "span_days": 206,
+          "coverage_percent": 95.6,
+          "max_missing_days": 2,
+          "end_to_end_km": 1721,
+          "max_distance_from_first_daily_median_km": 1812
+        },
+        {
+          "id": "41089",
+          "first": "2017-09-28",
+          "last": "2018-04-20",
+          "fixes": 1119,
+          "days_with_fixes": 199,
+          "span_days": 205,
+          "coverage_percent": 97.1,
+          "max_missing_days": 2,
+          "end_to_end_km": 2565,
+          "max_distance_from_first_daily_median_km": 2565
+        },
+        {
+          "id": "41091",
+          "first": "2017-10-02",
+          "last": "2018-04-11",
+          "fixes": 1466,
+          "days_with_fixes": 186,
+          "span_days": 192,
+          "coverage_percent": 96.9,
+          "max_missing_days": 2,
+          "end_to_end_km": 2358,
+          "max_distance_from_first_daily_median_km": 2990
+        },
+        {
+          "id": "41096",
+          "first": "2017-10-01",
+          "last": "2018-04-15",
+          "fixes": 1531,
+          "days_with_fixes": 193,
+          "span_days": 197,
+          "coverage_percent": 98.0,
+          "max_missing_days": 1,
+          "end_to_end_km": 1711,
+          "max_distance_from_first_daily_median_km": 1776
+        },
+        {
+          "id": "41097",
+          "first": "2018-07-03",
+          "last": "2019-01-11",
+          "fixes": 1009,
+          "days_with_fixes": 186,
+          "span_days": 193,
+          "coverage_percent": 96.4,
+          "max_missing_days": 3,
+          "end_to_end_km": 2358,
+          "max_distance_from_first_daily_median_km": 2531
+        },
+        {
+          "id": "41098",
+          "first": "2017-10-01",
+          "last": "2018-04-25",
+          "fixes": 1800,
+          "days_with_fixes": 205,
+          "span_days": 207,
+          "coverage_percent": 99.0,
+          "max_missing_days": 1,
+          "end_to_end_km": 82,
+          "max_distance_from_first_daily_median_km": 88
+        },
+        {
+          "id": "41100",
+          "first": "2018-07-04",
+          "last": "2019-04-17",
+          "fixes": 1503,
+          "days_with_fixes": 281,
+          "span_days": 288,
+          "coverage_percent": 97.6,
+          "max_missing_days": 1,
+          "end_to_end_km": 1894,
+          "max_distance_from_first_daily_median_km": 1954
+        },
+        {
+          "id": "41102",
+          "first": "2018-07-04",
+          "last": "2019-01-15",
+          "fixes": 1605,
+          "days_with_fixes": 190,
+          "span_days": 196,
+          "coverage_percent": 96.9,
+          "max_missing_days": 1,
+          "end_to_end_km": 1375,
+          "max_distance_from_first_daily_median_km": 1377
+        },
+        {
+          "id": "52189",
+          "first": "2018-07-08",
+          "last": "2019-02-14",
+          "fixes": 1673,
+          "days_with_fixes": 207,
+          "span_days": 222,
+          "coverage_percent": 93.2,
+          "max_missing_days": 7,
+          "end_to_end_km": 4289,
+          "max_distance_from_first_daily_median_km": 4294
+        },
+        {
+          "id": "52202",
+          "first": "2018-07-07",
+          "last": "2019-05-28",
+          "fixes": 3282,
+          "days_with_fixes": 322,
+          "span_days": 326,
+          "coverage_percent": 98.8,
+          "max_missing_days": 1,
+          "end_to_end_km": 1752,
+          "max_distance_from_first_daily_median_km": 1764
+        },
+        {
+          "id": "52214",
+          "first": "2018-07-06",
+          "last": "2019-05-02",
+          "fixes": 3197,
+          "days_with_fixes": 294,
+          "span_days": 301,
+          "coverage_percent": 97.7,
+          "max_missing_days": 2,
+          "end_to_end_km": 91,
+          "max_distance_from_first_daily_median_km": 92
+        },
+        {
+          "id": "52215",
+          "first": "2018-07-06",
+          "last": "2018-12-21",
+          "fixes": 1770,
+          "days_with_fixes": 169,
+          "span_days": 169,
+          "coverage_percent": 100.0,
+          "max_missing_days": 0,
+          "end_to_end_km": 1156,
+          "max_distance_from_first_daily_median_km": 1156
+        },
+        {
+          "id": "52221",
+          "first": "2018-07-08",
+          "last": "2019-05-11",
+          "fixes": 2900,
+          "days_with_fixes": 298,
+          "span_days": 308,
+          "coverage_percent": 96.8,
+          "max_missing_days": 2,
+          "end_to_end_km": 1776,
+          "max_distance_from_first_daily_median_km": 1777
+        },
+        {
+          "id": "52222",
+          "first": "2018-07-09",
+          "last": "2019-02-28",
+          "fixes": 1416,
+          "days_with_fixes": 227,
+          "span_days": 235,
+          "coverage_percent": 96.6,
+          "max_missing_days": 2,
+          "end_to_end_km": 2373,
+          "max_distance_from_first_daily_median_km": 2712
+        },
+        {
+          "id": "52223",
+          "first": "2018-07-09",
+          "last": "2019-07-28",
+          "fixes": 3644,
+          "days_with_fixes": 380,
+          "span_days": 385,
+          "coverage_percent": 98.7,
+          "max_missing_days": 1,
+          "end_to_end_km": 88,
+          "max_distance_from_first_daily_median_km": 98
+        },
+        {
+          "id": "4394",
+          "first": "2012-10-18",
+          "last": "2013-02-01",
+          "fixes": 623,
+          "days_with_fixes": 104,
+          "span_days": 107,
+          "coverage_percent": 97.2,
+          "max_missing_days": 2,
+          "end_to_end_km": 2091,
+          "max_distance_from_first_daily_median_km": 2118
+        },
+        {
+          "id": "21914a",
+          "first": "2012-10-17",
+          "last": "2013-05-25",
+          "fixes": 1694,
+          "days_with_fixes": 218,
+          "span_days": 221,
+          "coverage_percent": 98.6,
+          "max_missing_days": 1,
+          "end_to_end_km": 2135,
+          "max_distance_from_first_daily_median_km": 2632
+        },
+        {
+          "id": "61811",
+          "first": "2012-10-13",
+          "last": "2013-08-01",
+          "fixes": 3070,
+          "days_with_fixes": 243,
+          "span_days": 293,
+          "coverage_percent": 82.9,
+          "max_missing_days": 15,
+          "end_to_end_km": 3022,
+          "max_distance_from_first_daily_median_km": 3089
+        },
+        {
+          "id": "61813",
+          "first": "2012-10-13",
+          "last": "2013-06-05",
+          "fixes": 2717,
+          "days_with_fixes": 179,
+          "span_days": 236,
+          "coverage_percent": 75.8,
+          "max_missing_days": 25,
+          "end_to_end_km": 3079,
+          "max_distance_from_first_daily_median_km": 3079
+        }
+      ]
+    }
+  }
+}

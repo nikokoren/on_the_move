@@ -35,6 +35,8 @@
     Loggerhead Turtle: Yong-Rock An, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study3030282201">Marine bioresource conservation and restoration research</a>, CC0<br>
     Peregrine Falcon: Michael Yates, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study619061097">Earthspan Peregrines</a>, CC BY<br>
     Peregrine Falcon: Kurt K. Burnham, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study7249090">Peregrine Falcon, High Arctic Institute, northwest Greenland</a>, CC0<br>
+    Plains Zebra: Bartlam-Brooks HLA, Harris S. 2013. <a href="https://doi.org/10.5441/001/1.f3550b4f">In search of greener pastures: zebra migration</a>. Movebank Data Repository, CC0. Recorded journeys shown only during their season.<br>
+    Green Turtle: Hays GC, Esteban N, Rattray A. 2024. <a href="https://doi.org/10.5441/001/1.313">Green turtles, Chagos Archipelago, Western Indian Ocean</a>. Movebank Data Repository, CC0. Recorded journeys shown only during their season; nesting areas excluded.<br>
     Map places: Natural Earth. Map: © OpenStreetMap contributors.<br><br>
     Species photos, cropped and converted to greyscale for e-ink (modified from the originals). Licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, without warranties:<br>
     White Stork: (c) SteveM4560, some rights reserved (CC BY), <a href="https://www.inaturalist.org/observations/202678318">iNaturalist</a><br>
@@ -57,7 +59,7 @@
 - keyname: follow
   field_type: select
   name: Animals
-  description: Tick one species to follow it, or several to show them in turn. Leave all unticked to show every species in turn.
+  description: Tick one species to follow it, or several to show them in turn. Leave all unticked to show every available species. Zebras and green turtles join the rotation during their recorded journeys.
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>ctrl</kbd>+<kbd>click</kbd> to select and deselect multiple options.
   optional: true
   multiple: true
@@ -80,6 +82,8 @@
   - Blue Whale
   - Loggerhead Turtle
   - Peregrine Falcon
+  - Plains Zebra
+  - Green Turtle
 - keyname: show_photo
   field_type: boolean
   name: Species photo

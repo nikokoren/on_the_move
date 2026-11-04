@@ -175,8 +175,9 @@ console.log(`multi select: ${forms.length} formats, ${parseBad.length} misparsed
     const v = buildFull(data, { species: all, lang, now: new Date(Date.UTC(2026, 8, 29) + k * 900000), layout: "multi" });
     slots++;
     maxB = Math.max(maxB, Buffer.byteLength(JSON.stringify(v)));
-    const names = data.species.map((sp) => sp.names[lang]);
-    if (!v.rows || v.rows.length !== all.length || v.rows.some((r, i) => r.species !== names[i]) || v.rows[v.current].species !== v.species) bad++;
+    // Off-season species are absent from the rotation, including its list.
+    const names = data.species.filter((sp) => !sp.seasonal || sp.taxon === "Chelonia mydas").map((sp) => sp.names[lang]);
+    if (!v.rows || v.rows.length !== names.length || v.rows.some((r, i) => r.species !== names[i]) || v.rows[v.current].species !== v.species) bad++;
     emptyRows += v.rows ? v.rows.filter((r) => !r.place || !r.when).length : 0;
     turns[v.current] = (turns[v.current] || 0) + 1;
   }
@@ -184,8 +185,9 @@ console.log(`multi select: ${forms.length} formats, ${parseBad.length} misparsed
   const single = buildFull(data, { species: all, lang: "en", now: new Date() });
   const lp = [["true", "multi"], ["", "multi"], [null, "multi"], ["false", "single"], ["all_followed_animals_trmnl_x_only", "multi"], ["one_animal_at_a_time", "single"]]
     .filter(([x, want]) => layoutParam(x) !== want);
-  if (bad || emptyRows || Object.keys(turns).length !== all.length || "rows" in one || "rows" in single || lp.length) fails++;
-  console.log(`multi view: ${slots} slots, ${bad} bad row sets, ${emptyRows} rows without place or when, ${Object.keys(turns).length} of ${all.length} species shown in full, ` +
+  const available = data.species.filter((sp) => !sp.seasonal || sp.taxon === "Chelonia mydas").length;
+  if (bad || emptyRows || Object.keys(turns).length !== available || "rows" in one || "rows" in single || lp.length) fails++;
+  console.log(`multi view: ${slots} slots, ${bad} bad row sets, ${emptyRows} rows without place or when, ${Object.keys(turns).length} of ${available} in-season species shown in full, ` +
     `largest payload ${maxB} bytes; one species or single layout sends rows: ${"rows" in one || "rows" in single}; layout param ${lp.length} wrong`);
 }
 // Late departure (seen on the owner's device 2026-09-30): the crane's live fix of

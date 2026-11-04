@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "check": "node check.mjs && node test/refresh-check.mjs",
+    "check": "node check.mjs && node test/refresh-check.mjs && node test/seasonal-check.mjs",
     "record": "node test/record.mjs",
     "deploy": "wrangler deploy",
     "tail": "wrangler tail"

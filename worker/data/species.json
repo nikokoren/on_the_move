@@ -6586,6 +6586,206 @@
      }
     ]
    }
+  },
+  {
+   "taxon": "Equus quagga",
+   "names": {
+    "en": "Plains Zebra",
+    "de": "Steppenzebra"
+   },
+   "seasonal": true,
+   "namesSource": "pipeline/seasonal_species.json; source taxon recorded in original CSVs; Equus burchellii is retained as a source alias for Equus quagga",
+   "iucn": "NT",
+   "iucnSource": "Existing GBIF catalog snapshot, 2026-09-28; re-check before relying on current status",
+   "migration": "partial",
+   "migrationSource": "https://datarepository.movebank.org/server/api/core/items/c9b4f9b5-875a-4b61-a5d6-c2e59ffe0aca",
+   "windows": {
+    "centralEurope": null,
+    "allTracked": null,
+    "note": "Individual recorded journey windows, not population migration estimates."
+   },
+   "journeys": [
+    {
+     "sourceAnimal": "Z3866",
+     "start": "2007-11-18",
+     "end": "2007-12-08",
+     "from": {
+      "en": "Dry-season range",
+      "de": "Trockenzeitgebiet"
+     },
+     "to": {
+      "en": "Rainy-season range",
+      "de": "Regenzeitgebiet"
+     }
+    },
+    {
+     "sourceAnimal": "Z3866",
+     "start": "2008-05-01",
+     "end": "2008-06-01",
+     "from": {
+      "en": "Rainy-season range",
+      "de": "Regenzeitgebiet"
+     },
+     "to": {
+      "en": "Dry-season range",
+      "de": "Trockenzeitgebiet"
+     }
+    }
+   ],
+   "facts": {
+    "en": [
+     {
+      "text": "Zebras can turn back mid-migration when the weather changes the menu.",
+      "len": "short",
+      "source": {
+       "title": "Data from: In search of greener pastures: using satellite images to predict the effects of environmental change on zebra migration",
+       "url": "https://datarepository.movebank.org/server/api/core/items/c9b4f9b5-875a-4b61-a5d6-c2e59ffe0aca",
+       "doi": "10.5441/001/1.f3550b4f",
+       "checked": "2026-11-04",
+       "quote": "are able to reverse migration to avoid adverse conditions or exploit renewed resource availability"
+      }
+     },
+     {
+      "text": "For these Botswana zebras, rain changes both when the journey starts and how quickly it unfolds.",
+      "len": "long",
+      "source": {
+       "title": "Data from: In search of greener pastures: using satellite images to predict the effects of environmental change on zebra migration",
+       "url": "https://datarepository.movebank.org/server/api/core/items/c9b4f9b5-875a-4b61-a5d6-c2e59ffe0aca",
+       "doi": "10.5441/001/1.f3550b4f",
+       "checked": "2026-11-04",
+       "quote": "influence of environmental conditions, monitored using satellite data, on departure date and movement speed of migrating zebras in Botswana"
+      }
+     }
+    ],
+    "de": [
+     {
+      "text": "Frisches Grün kann die Zebras sogar dazu bringen, auf dem Zug wieder umzukehren.",
+      "len": "short",
+      "source": {
+       "title": "Data from: In search of greener pastures: using satellite images to predict the effects of environmental change on zebra migration",
+       "url": "https://datarepository.movebank.org/server/api/core/items/c9b4f9b5-875a-4b61-a5d6-c2e59ffe0aca",
+       "doi": "10.5441/001/1.f3550b4f",
+       "checked": "2026-11-04",
+       "quote": "are able to reverse migration to avoid adverse conditions or exploit renewed resource availability"
+      }
+     },
+     {
+      "text": "Diese Zebras ziehen zwischen ihren Gebieten für die Trockenzeit und die Regenzeit hin und her.",
+      "len": "long",
+      "source": {
+       "title": "Data from: In search of greener pastures: using satellite images to predict the effects of environmental change on zebra migration",
+       "url": "https://datarepository.movebank.org/server/api/core/items/c9b4f9b5-875a-4b61-a5d6-c2e59ffe0aca",
+       "doi": "10.5441/001/1.f3550b4f",
+       "checked": "2026-11-04",
+       "quote": "Daily zebra movements between dry and rainy season ranges"
+      }
+     }
+    ]
+   },
+   "tracked": {
+    "animals": 1,
+    "journeys": 2
+   }
+  },
+  {
+   "taxon": "Chelonia mydas",
+   "names": {
+    "en": "Green Turtle",
+    "de": "Grüne Meeresschildkröte"
+   },
+   "seasonal": true,
+   "namesSource": "pipeline/seasonal_species.json; source taxon recorded in original CSVs; Equus burchellii is retained as a source alias for Equus quagga",
+   "iucn": "LC",
+   "iucnSource": "Existing GBIF catalog snapshot, 2026-09-28; re-check before relying on current status",
+   "migration": "migratory",
+   "migrationSource": "https://datarepository.movebank.org/server/api/core/items/df53968d-4bcc-4dd7-9bb6-8358378836ec",
+   "windows": {
+    "centralEurope": null,
+    "allTracked": null,
+    "note": "Individual recorded journey windows, not population migration estimates."
+   },
+   "journeys": [
+    {
+     "sourceAnimal": "41082",
+     "start": "2018-09-25",
+     "end": "2018-11-25",
+     "from": {
+      "en": "Chagos region",
+      "de": "Chagos-Region"
+     },
+     "to": {
+      "en": "Somali coast",
+      "de": "Somalische Küste"
+     }
+    },
+    {
+     "sourceAnimal": "52189",
+     "start": "2018-09-18",
+     "end": "2018-11-17",
+     "from": {
+      "en": "Chagos region",
+      "de": "Chagos-Region"
+     },
+     "to": {
+      "en": "Mozambique coast",
+      "de": "Mosambiks Küste"
+     }
+    }
+   ],
+   "facts": {
+    "en": [
+     {
+      "text": "One nesting season can take a green turtle to beaches tens of kilometers apart.",
+      "len": "short",
+      "source": {
+       "title": "Data from: Study \"Green turtles (Chelonia Mydas); Hays; Chagos Archipelago, Western Indian Ocean\"",
+       "url": "https://datarepository.movebank.org/server/api/core/items/df53968d-4bcc-4dd7-9bb6-8358378836ec",
+       "doi": "10.5441/001/1.313",
+       "checked": "2026-11-04",
+       "quote": "For individual turtles, nest locations were often spread over several tens of kilometres of coastline."
+      }
+     },
+     {
+      "text": "A turtle's nesting season is a series of visits: some females in this study laid nine clutches.",
+      "len": "long",
+      "source": {
+       "title": "Data from: Study \"Green turtles (Chelonia Mydas); Hays; Chagos Archipelago, Western Indian Ocean\"",
+       "url": "https://datarepository.movebank.org/server/api/core/items/df53968d-4bcc-4dd7-9bb6-8358378836ec",
+       "doi": "10.5441/001/1.313",
+       "checked": "2026-11-04",
+       "quote": "a mean of 6.0 clutches (range 2–9, s.d. = 2.2) was laid by individuals"
+      }
+     }
+    ],
+    "de": [
+     {
+      "text": "Zwischen zwei Nestern desselben Weibchens können mehrere Dutzend Kilometer Küste liegen.",
+      "len": "short",
+      "source": {
+       "title": "Data from: Study \"Green turtles (Chelonia Mydas); Hays; Chagos Archipelago, Western Indian Ocean\"",
+       "url": "https://datarepository.movebank.org/server/api/core/items/df53968d-4bcc-4dd7-9bb6-8358378836ec",
+       "doi": "10.5441/001/1.313",
+       "checked": "2026-11-04",
+       "quote": "For individual turtles, nest locations were often spread over several tens of kilometres of coastline."
+      }
+     },
+     {
+      "text": "Eine Schildkröte legt ihre Eier nicht alle auf einmal: Bei den untersuchten Tieren gab es bis zu neun Gelege pro Weibchen.",
+      "len": "long",
+      "source": {
+       "title": "Data from: Study \"Green turtles (Chelonia Mydas); Hays; Chagos Archipelago, Western Indian Ocean\"",
+       "url": "https://datarepository.movebank.org/server/api/core/items/df53968d-4bcc-4dd7-9bb6-8358378836ec",
+       "doi": "10.5441/001/1.313",
+       "checked": "2026-11-04",
+       "quote": "a mean of 6.0 clutches (range 2–9, s.d. = 2.2) was laid by individuals"
+      }
+     }
+    ]
+   },
+   "tracked": {
+    "animals": 2,
+    "journeys": 2
+   }
   }
  ]
 }

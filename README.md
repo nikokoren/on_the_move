@@ -62,3 +62,7 @@ Shown on the map; credited here and in the recipe's About text instead of on scr
 - **Peregrine Falcon**: Burnham KK. 2020. Data from: The history and range expansion of peregrine falcons in the Thule area, northwest Greenland. Movebank Data Repository. https://www.doi.org/10.5441/001/1.b3b511d2 Burnham KK, Burnham WA, Newton I, Johnson JA, Gosle AG. 2012. The history and range expansion of peregrine falcons in the Thule area, northwest Greenland. Bioscience (Monographs on Greenland 353) 60. Copenhagen (DK): Museum Tusculanum Press, University of Copenhagen. 106 p. ISBN: 9788763539005 CC0. <https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study7249090>
 
 Map places: Natural Earth (public domain). Map tiles: © OpenStreetMap contributors, via TRMNL.
+
+## Seasonal journeys (prepared 2026-11-04)
+
+Plains zebras and green turtles have recorded seasonal journeys, with their original years visible. Data: Bartlam-Brooks HLA, Harris S. 2013, [zebra migration in Botswana](https://doi.org/10.5441/001/1.f3550b4f), CC0; Hays GC, Esteban N, Rattray A. 2024, [green turtles in the Chagos Archipelago](https://doi.org/10.5441/001/1.313), CC0. Nesting-area fixes are excluded from the published turtle journeys. Reproduction, review notes and release steps: [docs/SEASONAL_RELEASE.md](docs/SEASONAL_RELEASE.md).

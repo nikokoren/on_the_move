@@ -38,6 +38,8 @@ Options (environment):
 - `OTM_VIEWS=full,half_horizontal,half_vertical,quadrant` (default `full`).
 - `OTM_SCREENS="screen--og;screen--og screen--portrait;screen--v2;screen--v2 screen--portrait"` (the TRMNL X is `screen--v2`).
 - `OTM_LAYOUT=multi` follows all species and renders `OTM_SLOTS` refresh slots over the day (default 6) instead of one case per species.
+- `OTM_FOLLOW="Equus quagga,Chelonia mydas,Ciconia ciconia"` limits a multi render to these taxa; `OTM_SLOT_STEP=1` visits consecutive refresh slots.
+- `OTM_CHROMIUM_PATH=/path/to/chromium` selects an installed browser; `/usr/bin/chromium` is used when available. The check serves its fixtures on an internal HTTP server, including on managed browsers that block file URLs.
 - `OTM_SWITCH="screen--v2 screen--portrait"` changes the screen's classes after the first draw, as a host resize or rotation does.
 - `OTM_ONLY`, `OTM_DAY`, `OTM_LANG`, `OTM_PHOTO=0`.
 - `OTM_SLOT=1` (or 2) renders a later refresh slot; a species' animals take turns per slot, so slots 0 to 2 show every animal.
