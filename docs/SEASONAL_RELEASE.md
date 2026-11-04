@@ -15,7 +15,9 @@ Two new selectable species, Plains Zebra and Green Turtle. Recorded journeys joi
 
 These are selected excerpts of real journeys, not population migration predictions. The zebra ranges are labelled by dry/rainy season, as in the source publication. Turtle destination captions describe broad coastal areas; the display uses a 1° grid. Source identity, exact original windows, exclusions, credits and pinned checksums are in `pipeline/seasonal_species.json`. Hattie, Nicole and Jeanne are display names chosen here, after the cited researchers; the original files use tag codes. No researcher-assigned animal names are claimed.
 
-The new species work without photos, through the existing no-photo layout. No substitute or generated animal photos have been added. Optional photos still need selection and verified reuse terms; Wikimedia/NOAA access was blocked in this running instance. Additional source domains were saved to the environment draft but have not been verified as applied. Review/save that draft and publish the environment if enabling those optional sources. This is independent of deploying the recipe. The small new fact pools are source-verified drafts for review, separate from the existing owner-reviewed pools; the original species' content is preserved.
+Photos are now included as candidates for review (2026-11-04): a plains zebra profile by safaritravelplus and a green turtle portrait by Bernard Spragg. NZ, both CC0, verified through Wikimedia Commons metadata. They are species illustrations rather than photos of the tracked individuals. Sources, authors, licenses and original SHA-256 hashes are retained in `pipeline/species_images.json` and `docs/survey/captures/2026-11-04_seasonal-photo-licenses.json`. Both are cropped to 480 × 480 grayscale through the existing photo pipeline and credited in the recipe About text and README. The no-photo setting remains available. The small new fact pools are source-verified drafts for review, separate from the existing owner-reviewed pools; the original species' content is preserved.
+
+Photo validation: 48/48 rendered cases passed (each species: eight English landscape cases and 16 German cases across all layouts, OG/X and portrait/landscape). The polling handler resolves both photo URLs to valid JPEG responses and honors photo-off. All recorded refresh checks passed. The original 18 photo payloads are unchanged; repeated targeted builds reproduce the same crops. The bundle with photos passed Wrangler's dry run at 778.27 KiB gzip, without deployment. Representative English previews are in `/tmp/otm-zebra-photo/` and `/tmp/otm-turtle-photo/` in the current instance.
 
 ## Data and regeneration
 
@@ -29,6 +31,15 @@ python3 pipeline/test_seasonal.py
 (cd worker && npm run check)
 (cd worker && XDG_CONFIG_HOME=/workspace/.config WRANGLER_SEND_METRICS=false ./node_modules/.bin/wrangler deploy --dry-run --outdir /tmp/otm-worker-bundle)
 ```
+
+Refresh only these photos without downloading the other 18 again:
+
+```sh
+python3 pipeline/build_photos.py --only 'Equus quagga' 'Chelonia mydas'
+python3 pipeline/build_seasonal.py
+```
+
+The image builder verifies the pinned source SHA-256 hashes before processing, retains the other photo files, and rebuilds the served photo module. Run a full `build_photos.py` when deliberately refreshing every original source.
 
 `build_seasonal.py` updates the compiled featured bundle and both species tables. A repeated build produces the same data. `build_featured.py` also appends the seasonal data on an ordinary full rebuild; `build_species.py` includes the seasonal metadata. The annual selection in `data/featured.json` stays separate because these imports require chronological excerpts rather than folded annual tables. The importer has only Python standard-library dependencies.
 
