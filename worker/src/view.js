@@ -226,6 +226,50 @@ function pickFact(t, lang, sp, a, turn, units) {
   return pool[factIndex(pool.length, turn, a.id)];
 }
 
+// Historical seasonal journeys use calendar dates, never annual-table indices:
+// 1 March must still mean 1 March in a leap year. No look-back outside a journey.
+function seasonalPoint(a, local) {
+  const md = local.toISOString().slice(5, 10);
+  return a.journey.points.findIndex((p) => p[0].slice(5) === md);
+}
+
+function seasonalView(sp, a, t, lang, local, turn, units, withFact) {
+  const j = a.journey, i = seasonalPoint(a, local);
+  if (i < 0) return null;
+  const day = (p) => Date.parse(p[0] + "T12:00:00Z");
+  // Stop both lines at an unrecorded gap; never join separated observations.
+  let lo = i, hi = i;
+  while (lo > 0 && day(j.points[lo]) - day(j.points[lo - 1]) === 86400000) lo--;
+  while (hi + 1 < j.points.length && day(j.points[hi + 1]) - day(j.points[hi]) === 86400000) hi++;
+  const coords = (pts) => pts.map((p) => p.slice(1, 3));
+  const here = j.points[i].slice(1, 3), end = j.points.at(-1).slice(1, 3);
+  const from = j.from[lang], to = j.to[lang];
+  const where = fill(t.rowJourney, { from, to });
+  const recorded = new Date(j.points[i][0] + "T12:00:00Z");
+  const status = fill(j.points[i][3] === "i" ? t.recordedEstimate : t.recorded, { date: fmtDate(t, recorded, true) });
+  const pool = [...sp.facts[lang].map((f) => renderUnits(f.text, t, lang, units)), ...individualFacts(t, a, lang)];
+  const dest = hi === j.points.length - 1 && km(here, end) >= 50 ? end : null;
+  const past = coords(j.points.slice(lo, i + 1)), ahead = coords(j.points.slice(i, hi + 1));
+  return { state: "ok", kind: "seasonal", species: sp.names[lang], name: fill(t.named, { name: a.name }),
+    status, where, short: where, focus: where, moving: i < j.points.length - 1,
+    when: fill(t.recordedYear, { year: recorded.getUTCFullYear() }),
+    fact: withFact ? pool[factIndex(pool.length, turn, a.id)] : "",
+    toward: dest ? fill(t.toward, { place: to, dist: fmtDist(t, km(here, dest), lang, units) }) : "",
+    geo: JSON.stringify({ pos: here, past: thin(past, MAX_LINE_POINTS), ahead: thin(ahead, MAX_LINE_POINTS), dest, zoom: sp.mapZoom === 3 ? undefined : sp.mapZoom }) };
+}
+
+function seasonalMessage(pool, t, lang, local) {
+  // An explicit seasonal-only choice remains that choice outside its season.
+  const upcoming = pool.flatMap((sp) => sp.animals.map((a) => {
+    const start = a.journey.start.slice(5);
+    const date = new Date(`${local.getUTCFullYear()}-${start}T12:00:00Z`);
+    if (start <= local.toISOString().slice(5, 10)) date.setUTCFullYear(date.getUTCFullYear() + 1);
+    return { date, sp };
+  })).sort((a, b) => a.date - b.date)[0];
+  return { state: "seasonal", species: upcoming?.sp.names[lang] || "", photo: "",
+    status: upcoming ? fill(t.outOfSeason, { date: fmtDate(t, upcoming.date, false) }) : t.noData };
+}
+
 // One animal on one day. Returns null when this animal has no position today.
 function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, units = "metric", withFact = true) {
   const places = data.places;
@@ -359,6 +403,9 @@ export function buildFull(data, { species = "all", lang = "en", now = new Date()
   const wanted = species === "all" ? [] : [].concat(species);
   let pool = data.species.filter((s) => wanted.includes(s.taxon));
   if (!pool.length) pool = data.species;
+  const selected = pool;
+  pool = pool.filter((sp) => !sp.seasonal || sp.animals.some((a) => seasonalPoint(a, local) >= 0));
+  if (!pool.length) return seasonalMessage(selected, t, lang, local);
   // Slot plus day: 96 slots a day is a multiple of many pool sizes, so a device
   // refreshing at the same time every day would otherwise see the same species forever.
   const start = (slot + Math.floor(now.getTime() / 86400000)) % pool.length;
@@ -377,7 +424,8 @@ export function buildFull(data, { species = "all", lang = "en", now = new Date()
   const own = (sp) => Math.floor(turn / sp.animals.length);
   const first = (sp, lookBack, withFact) => {
     for (const a of inTurn(sp)) {
-      const v = animalView(data, sp, a, t, lang, now, localDoy, own(sp), lookBack, units, withFact);
+      const v = sp.seasonal ? seasonalView(sp, a, t, lang, local, own(sp), units, withFact)
+        : animalView(data, sp, a, t, lang, now, localDoy, own(sp), lookBack, units, withFact);
       if (v) return v;
     }
     return null;
@@ -400,7 +448,7 @@ export function buildFull(data, { species = "all", lang = "en", now = new Date()
     });
     // The quadrant's two mini cards each draw a map: the pair holding the shown
     // species carries its map data and date; the other rows stay short.
-    const pair = out.current - (out.current % 2);
+    const pair = Math.min(out.current - (out.current % 2), out.rows.length - 2);
     // Both cards are equal (owner, 2026-09-30): each has its own map and its own date.
     out.rows = out.rows.map(({ r, ...row }, i) => (i === pair || i === pair + 1) && r ? { ...row, geo: r.geo, status: r.status } : row);
   }

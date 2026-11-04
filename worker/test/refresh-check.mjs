@@ -139,6 +139,17 @@ const img = await handle(new Request("https://x/photo/ciconia_ciconia.jpg"), { K
 const bytes = new Uint8Array(await img.arrayBuffer());
 check("photo: served as a JPEG", img.status === 200 && img.headers.get("content-type") === "image/jpeg" && bytes[0] === 0xff && bytes[1] === 0xd8, `${img.status} ${bytes.length} bytes`);
 check("photo: unknown name is 404", (await handle(new Request("https://x/photo/nothing.jpg"), { KV: kv() }, NOW)).status === 404);
+for (const [setting, slug] of [["plains_zebra", "equus_quagga"], ["green_turtle", "chelonia_mydas"]]) {
+  const now = new Date("2026-11-25T12:00:00Z"); // both recorded journeys have a position
+  const payload = await (await handle(new Request(`https://x/full?species=${setting}&photo=true`), { KV: kv() }, now)).json();
+  const photo = await handle(new Request(payload.photo), { KV: kv() }, now);
+  const jpeg = new Uint8Array(await photo.arrayBuffer());
+  check(`photo: ${setting} payload resolves to its JPEG`, payload.photo === `https://x/photo/${slug}.jpg`
+    && photo.status === 200 && photo.headers.get("content-type") === "image/jpeg"
+    && jpeg[0] === 0xff && jpeg[1] === 0xd8 && jpeg.at(-2) === 0xff && jpeg.at(-1) === 0xd9);
+  const off = await (await handle(new Request(`https://x/full?species=${setting}&photo=false`), { KV: kv() }, now)).json();
+  check(`photo: ${setting} honors photo off`, off.photo === "");
+}
 const two = await (await handle(new Request("https://x/full?species=" + encodeURIComponent("white_stork,loggerhead_turtle") + "&photo=true"), { KV: kv() }, NOW)).json();
 check("poll: two species, photo on", ["White Stork", "Loggerhead Turtle"].includes(two.species) && /^https:\/\/x\/photo\/(ciconia_ciconia|caretta_caretta)\.jpg$/.test(two.photo), `${two.species} ${two.photo}`);
 const noPhoto = await (await handle(new Request("https://x/full?species=white_stork&photo=false"), { KV: kv() }, NOW)).json();

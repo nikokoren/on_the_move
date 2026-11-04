@@ -128,6 +128,8 @@ def main():
                     "from the tracked animals listed under 'tracked' (citations in data/catalog.json). Dates are MM-DD; "
                     "'from'/'to' span the middle half of the animals. Re-run before relying on the numbers.",
            "built": dt.date.today().isoformat(), "centralEuropeBox": CENTRAL_EUROPE, "species": out}
+    from build_seasonal import append_species_metadata
+    doc = append_species_metadata(doc, json.load(open(os.path.join(ROOT, "worker", "data", "featured.json"))))
     for p in (os.path.join(ROOT, "data", "species.json"), os.path.join(ROOT, "worker", "data", "species.json")):
         json.dump(doc, open(p, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     for s in out:

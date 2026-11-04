@@ -1,0 +1,171 @@
+{
+  "checked": "2026-11-04",
+  "species": [
+    {
+      "taxon": "Equus quagga",
+      "mapZoom": 6,
+      "sourceTaxon": "Equus burchellii",
+      "names": {
+        "en": "Plains Zebra",
+        "de": "Steppenzebra"
+      },
+      "package": "c9b4f9b5-875a-4b61-a5d6-c2e59ffe0aca",
+      "doi": "10.5441/001/1.f3550b4f",
+      "events": [
+        "Migratory Burchell's zebra (Equus burchellii) in northern Botswana.csv"
+      ],
+      "coarsen": 0.1,
+      "facts": {
+        "en": {
+          "short": [
+            {
+              "text": "Zebras can turn back mid-migration when the weather changes the menu.",
+              "quote": "are able to reverse migration to avoid adverse conditions or exploit renewed resource availability"
+            }
+          ],
+          "long": [
+            {
+              "text": "For these Botswana zebras, rain changes both when the journey starts and how quickly it unfolds.",
+              "quote": "influence of environmental conditions, monitored using satellite data, on departure date and movement speed of migrating zebras in Botswana"
+            }
+          ]
+        },
+        "de": {
+          "short": [
+            {
+              "text": "Frisches Grün kann die Zebras sogar dazu bringen, auf dem Zug wieder umzukehren.",
+              "quote": "are able to reverse migration to avoid adverse conditions or exploit renewed resource availability"
+            }
+          ],
+          "long": [
+            {
+              "text": "Diese Zebras ziehen zwischen ihren Gebieten für die Trockenzeit und die Regenzeit hin und her.",
+              "quote": "Daily zebra movements between dry and rainy season ranges"
+            }
+          ]
+        }
+      },
+      "journeys": [
+        {
+          "animal": "Z3866",
+          "name": "Hattie",
+          "nameSource": "Named for dataset author Hattie Bartlam-Brooks; not a researcher-assigned animal name.",
+          "start": "2007-11-18",
+          "end": "2007-12-08",
+          "from": {
+            "en": "Dry-season range",
+            "de": "Trockenzeitgebiet"
+          },
+          "to": {
+            "en": "Rainy-season range",
+            "de": "Regenzeitgebiet"
+          }
+        },
+        {
+          "animal": "Z3866",
+          "name": "Hattie",
+          "nameSource": "Named for dataset author Hattie Bartlam-Brooks; not a researcher-assigned animal name.",
+          "start": "2008-05-01",
+          "end": "2008-06-01",
+          "from": {
+            "en": "Rainy-season range",
+            "de": "Regenzeitgebiet"
+          },
+          "to": {
+            "en": "Dry-season range",
+            "de": "Trockenzeitgebiet"
+          }
+        }
+      ],
+      "expectedMD5": {
+        "Migratory Burchell's zebra (Equus burchellii) in northern Botswana-reference data.csv": "2bcf0ccf7c1140584280a4d25a9d4bbf",
+        "README.txt": "2f044afba824d2a53b50478eb9a2f414",
+        "Migratory Burchell's zebra (Equus burchellii) in northern Botswana.csv": "218ded3ff70a62536d4643a58e44f3e2"
+      }
+    },
+    {
+      "taxon": "Chelonia mydas",
+      "sourceTaxon": "Chelonia mydas",
+      "names": {
+        "en": "Green Turtle",
+        "de": "Grüne Meeresschildkröte"
+      },
+      "package": "df53968d-4bcc-4dd7-9bb6-8358378836ec",
+      "doi": "10.5441/001/1.313",
+      "events": [
+        "Green turtles (Chelonia Mydas) Hays Chagos Archipelago Western Indian Ocean-argos.csv",
+        "Green turtles (Chelonia Mydas) Hays Chagos Archipelago Western Indian Ocean-gps.csv"
+      ],
+      "coarsen": 1,
+      "excludeStartKm": 150,
+      "facts": {
+        "en": {
+          "short": [
+            {
+              "text": "One nesting season can take a green turtle to beaches tens of kilometers apart.",
+              "quote": "For individual turtles, nest locations were often spread over several tens of kilometres of coastline."
+            }
+          ],
+          "long": [
+            {
+              "text": "A turtle's nesting season is a series of visits: some females in this study laid nine clutches.",
+              "quote": "a mean of 6.0 clutches (range 2–9, s.d. = 2.2) was laid by individuals"
+            }
+          ]
+        },
+        "de": {
+          "short": [
+            {
+              "text": "Zwischen zwei Nestern desselben Weibchens können mehrere Dutzend Kilometer Küste liegen.",
+              "quote": "For individual turtles, nest locations were often spread over several tens of kilometres of coastline."
+            }
+          ],
+          "long": [
+            {
+              "text": "Eine Schildkröte legt ihre Eier nicht alle auf einmal: Bei den untersuchten Tieren gab es bis zu neun Gelege pro Weibchen.",
+              "quote": "a mean of 6.0 clutches (range 2–9, s.d. = 2.2) was laid by individuals"
+            }
+          ]
+        }
+      },
+      "journeys": [
+        {
+          "animal": "41082",
+          "name": "Nicole",
+          "nameSource": "Named for dataset author Nicole Esteban; not a researcher-assigned animal name.",
+          "start": "2018-09-25",
+          "end": "2018-11-25",
+          "from": {
+            "en": "Chagos region",
+            "de": "Chagos-Region"
+          },
+          "to": {
+            "en": "Somali coast",
+            "de": "Somalische Küste"
+          }
+        },
+        {
+          "animal": "52189",
+          "name": "Jeanne",
+          "nameSource": "Named for cited study author Jeanne Mortimer; not a researcher-assigned animal name.",
+          "start": "2018-09-18",
+          "end": "2018-11-17",
+          "from": {
+            "en": "Chagos region",
+            "de": "Chagos-Region"
+          },
+          "to": {
+            "en": "Mozambique coast",
+            "de": "Mosambiks Küste"
+          }
+        }
+      ],
+      "expectedMD5": {
+        "Green turtles (Chelonia Mydas) Hays Chagos Archipelago Western Indian Ocean-argos.csv": "ae8ff26015b7d826a1d9f3b45f01d5cf",
+        "Green turtles (Chelonia Mydas) Hays Chagos Archipelago Western Indian Ocean-gps.csv": "7cc8bd6182182941e792606c3c51b724",
+        "Green turtles (Chelonia Mydas) Hays Chagos Archipelago Western Indian Ocean-reference-data.csv": "60e9c1b5401687b9f133f7918cde5937",
+        "README.txt": "1587d43cee5b8056acc0b6d6736aa2fb"
+      }
+    }
+  ]
+}

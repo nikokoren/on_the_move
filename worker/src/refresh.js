@@ -147,7 +147,7 @@ export function withLive(featured, live) {
   const refused = live.refused || {};
   return {
     ...featured,
-    species: featured.species.map((sp) => ({
+    species: featured.species.map((sp) => sp.seasonal ? sp : ({
       ...sp,
       animals: sp.animals.map((a) => {
         const sid = a.id.startsWith("mb-") ? a.id.split("-")[1] : null;

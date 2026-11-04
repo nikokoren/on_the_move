@@ -28,6 +28,8 @@
   {% comment %} modulo, not divided_by: Ruby Liquid floors integer division, liquidjs (the render check) does not. {% endcomment %}
   {% assign odd = current | modulo: 2 %}
   {% assign pair = current | minus: odd %}
+  {% assign last_pair = rows.size | minus: 2 %}
+  {% if pair > last_pair %}{% assign pair = last_pair %}{% endif %}
   <div class="hidden lg:grid grid--cols-2 portrait:grid--cols-1 gap--small w--full h--full" data-otm-cards data-otm-page="{{ pair }} 2 {{ current }}">
     {% for r in rows offset: pair limit: 2 %}
     {% assign i = forloop.index0 | plus: pair %}

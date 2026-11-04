@@ -4,6 +4,14 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### S4 Seasonal rotation and next animal candidates (owner, 2026-11-04)
+
+- Seasonal rotation is the chosen direction for animals with seasonal tracking coverage: feature their recorded journeys during the corresponding season. Implementation uses original month/day dates, with the original year visible; no position is inferred outside the selected journey. Short internal gaps (up to three missing days) may be interpolated and are labelled as estimates.
+- Focus the next data investigation on zebras and green turtles. Caspian terns are deferred: Europe–Africa journeys are already well represented.
+- Added in the working tree: Plains Zebra (two legs of one animal) and Green Turtle (two animals), sourced from CC0 repository packages. Inactive species leave automatic/mixed rotation; an explicitly selected seasonal-only pool gets a next-season message. Turtle nesting-area fixes are excluded before generalisation. The existing 18 species retain their data.
+- Zebra maps use integer zoom 6 for the shorter journey; existing species retain their prior zoom. Two-card quadrant pages shift back to fill the final pair when seasonal availability leaves an odd number of species.
+- Data evidence is in `survey/seasonal-candidates.md`; reproduction, validation and release steps are in `SEASONAL_RELEASE.md`. No production deployment or device confirmation is implied.
+
 ### R8f Facts in four separate pools: English and German, short and long (owner, 2026-10-22)
 
 - Why: two review rounds on the fact review page (28 + 123 items; round 1: 26 OK, 19 starred, 2 vetoed; round 2: 111 OK, 70 starred, 12 vetoed). Owner: German texts translated from English "reference English contexts or are just bad literal translations"; long facts are often great but "don't make any sense" when cut short.

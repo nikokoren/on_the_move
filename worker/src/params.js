@@ -6,7 +6,7 @@ export const snake = (s) => String(s || "").toLowerCase().replace(/ß/g, "ss").n
   .replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
 
 // Labels used before 2026-09-29, still set on devices.
-const OLD_LABELS = { loggerhead: "Caretta caretta" };
+const OLD_LABELS = { loggerhead: "Caretta caretta", zebra: "Equus quagga", equus_burchellii: "Equus quagga", green_sea_turtle: "Chelonia mydas" };
 
 // Returns the taxon, or "all" (also for anything unknown).
 export function speciesParam(value, species) {

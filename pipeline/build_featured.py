@@ -313,6 +313,9 @@ def main():
         raise SystemExit(f"names for animals no longer featured: {sorted(unused)}")
     os.makedirs(os.path.join(ROOT, "worker", "data"), exist_ok=True)
     p = os.path.join(ROOT, "worker", "data", "featured.json")
+    # Original chronological seasonal journeys are independent of annual tables.
+    from build_seasonal import append_seasonal
+    out = append_seasonal(out)
     json.dump(out, open(p, "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
     print(dict(stats), "places", len(places), "bytes", os.path.getsize(p))
 

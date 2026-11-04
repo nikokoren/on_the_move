@@ -238,11 +238,11 @@
       // translation would otherwise end the string and the script with it.
       var towardEl = scope.querySelector("[data-otm-toward]");
       var toward = node.hasAttribute("data-otm-with-pill") && towardEl ? towardEl.textContent : "";
-      // One zoom per map (owner, 2026-09-29: zoom 3 for every animal in the full
-      // view). Whole zoom levels only: the framework dithers the fills only at
+      // Existing animals retain zoom 3; shorter seasonal journeys may provide
+      // their own zoom. Whole zoom levels only: the framework dithers fills at
       // an integer zoom (plugins.js mapDeviceOrigin), and without that pass a
       // 2-bit panel shows the sea white.
-      var zoom = Number(node.getAttribute("data-otm-zoom")) || 3;
+      var zoom = Number(GEO.zoom) || Number(node.getAttribute("data-otm-zoom")) || 3;
       var watchRan = false, anyMarks = false;
 
       TRMNLMaps.watch(el, function () {

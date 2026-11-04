@@ -1,0 +1,31 @@
+{
+  "checked": "2026-11-04",
+  "images": [
+    {
+      "taxon": "Equus quagga",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "safaritravelplus",
+      "source": "https://commons.wikimedia.org/wiki/File:South_Africa_Zebra.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/South_Africa_Zebra.jpg",
+      "width": 3008,
+      "height": 2000,
+      "sha256": "3e34eec641712de99ffca04b6253894a268d40d361037208548062a985cb7e61",
+      "checked": "2026-11-04",
+      "selectedBy": "Codex candidate for owner review; species illustration, not the tracked individual"
+    },
+    {
+      "taxon": "Chelonia mydas",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "Bernard Spragg. NZ",
+      "source": "https://commons.wikimedia.org/wiki/File:Green_Sea_Turtle,_Maui.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Green_Sea_Turtle%2C_Maui.jpg",
+      "width": 2088,
+      "height": 1430,
+      "sha256": "85792ea13e966c5caf27d9ce330896645ee78980b0173b91c02a79934f90e156",
+      "checked": "2026-11-04",
+      "selectedBy": "Codex candidate for owner review; species illustration, not the tracked individual"
+    }
+  ]
+}

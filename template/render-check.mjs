@@ -16,6 +16,7 @@
 import fs from "fs";
 import os from "os";
 import path from "path";
+import http from "node:http";
 import { Liquid } from "liquidjs";
 import { chromium } from "playwright";
 import { buildFull } from "../worker/src/view.js";
@@ -94,17 +95,34 @@ function chromiumPath() {
   return at && fs.existsSync(at) ? at : undefined;
 }
 const browser = await chromium.launch({
-  executablePath: chromiumPath(),
+  executablePath: process.env.OTM_CHROMIUM_PATH || chromiumPath() || (fs.existsSync("/usr/bin/chromium") ? "/usr/bin/chromium" : undefined),
   args: ["--use-gl=swiftshader", "--enable-unsafe-swiftshader", "--no-sandbox"]
 });
+
+// Managed Chromium blocks file:// navigation. Serve only the render page and
+// these known assets over HTTP, like an ordinary local development server.
+const server = http.createServer((req, res) => {
+  const pathname = new URL(req.url, "http://localhost").pathname;
+  let file;
+  if (pathname === "/page.html") file = path.join(OUT, "page.html");
+  if (/^\/assets\/plugins\.(css|js)$/.test(pathname)) file = path.join(CACHE, path.basename(pathname));
+  if (/^\/photos\/[a-z_]+\.jpg$/.test(pathname)) file = path.join(HERE, "../worker/photos", path.basename(pathname));
+  if (!file || !fs.existsSync(file)) { res.writeHead(404).end(); return; }
+  const type = { ".html": "text/html", ".css": "text/css", ".js": "text/javascript", ".jpg": "image/jpeg" }[path.extname(file)];
+  res.writeHead(200, { "content-type": type });
+  res.end(fs.readFileSync(file));
+});
+await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+server.unref();
+const origin = `http://127.0.0.1:${server.address().port}`;
 
 const rows = [];
 for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang, day, slot] of cases) {
   // OTM_TPL=path/to/variant.liquid renders a variant (a mock-up) in the view's place.
   const tpl = shared + fs.readFileSync(process.env.OTM_TPL || path.join(HERE, view + ".liquid"), "utf8");
   // Photos from worker/photos (what the Worker serves at /photo/); OTM_PHOTO=0 renders without.
-  const photoBase = process.env.OTM_PHOTO === "0" ? null : "file://" + path.join(HERE, "../worker/photos") + "/";
-  const species = taxon === "*" ? data.species.map((s) => s.taxon) : taxon;
+  const photoBase = process.env.OTM_PHOTO === "0" ? null : origin + "/photos/";
+  const species = taxon === "*" ? (process.env.OTM_FOLLOW ? process.env.OTM_FOLLOW.split(",") : data.species.map((s) => s.taxon)) : taxon;
   const now = new Date(Date.parse(day + "T00:00:00Z") + (12 * 4 + slot) * 900000);
   const v = buildFull(data, { species, lang, now, photoBase, layout: LAYOUT });
   // OTM_FACT="…" puts that fact on every case (e.g. the longest one in the table).
@@ -116,8 +134,8 @@ for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang,
     ? `<div class="mashup ${mashup}"><div class="view view--${view}" id="otm-view">${html}</div>${`<div class="view view--${view}"></div>`.repeat(cells - 1)}</div>`
     : `<div class="view view--full" id="otm-view">${html}</div>`;
   const page = `<!doctype html><html><head><meta charset="utf-8">
-<link rel="stylesheet" href="file://${path.join(CACHE, "plugins.css")}">
-<script src="file://${path.join(CACHE, "plugins.js")}"></script>
+<link rel="stylesheet" href="${origin}/assets/plugins.css">
+<script src="${origin}/assets/plugins.js"></script>
 <style>html,body{margin:0;padding:0}</style></head><body class="trmnl">
 <div class="screen ${process.env.OTM_LATE_SIZE ? screen : cls}">${inner}</div>${process.env.OTM_LATE_SIZE ? `<script>setTimeout(function () { document.querySelector(".screen").className = "screen ${cls}"; }, ${Number(process.env.OTM_LATE_SIZE) || 300});</script>` : ""}</body></html>`;
   const file = path.join(OUT, "page.html");
@@ -129,9 +147,9 @@ for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang,
   // Network requests go through Node's fetch, which verifies TLS against this
   // environment's proxy CA; Chromium here does not have that CA. The framework
   // stylesheet asks for /fonts/..., which on TRMNL is its own host.
-  await tab.route(/^(https:|file:\/\/\/fonts\/)/, async (route) => {
+  await tab.route(/^(https:|http:\/\/127\.0\.0\.1:\d+\/fonts\/)/, async (route) => {
     let url = route.request().url();
-    if (url.startsWith("file:///fonts/")) url = "https://usetrmnl.com" + url.slice(7);
+    if (url.startsWith(origin + "/fonts/")) url = "https://usetrmnl.com" + url.slice(origin.length);
     try {
       const res = await fetch(url, { headers: { "user-agent": "Mozilla/5.0" } });
       const body = Buffer.from(await res.arrayBuffer());
@@ -142,7 +160,7 @@ for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang,
       await route.abort();
     }
   });
-  await tab.goto("file://" + file);
+  await tab.goto(origin + "/page.html");
   await tab.waitForTimeout(6000);
   // OTM_SWITCH="screen--og screen--portrait": change the screen's classes after the
   // first draw, the way a host can resize or rotate a rendered screen; the map is
@@ -161,7 +179,9 @@ for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang,
     const drawn = maps.filter((n) => n._otmMap && n._otmMap.getLayer("trmnl-dot-animal")).length;
     const waiting = [...viewEl.querySelectorAll("[data-otm-waiting]")].filter(shown).length;
     // Every word on screen must be whole: no text clipped by the view or by its list.
-    const texts = [...viewEl.querySelectorAll("span, img")].filter((e) => shown(e) && !e.closest("[data-otm-toward]") && !e.closest(".maplibregl-ctrl"));
+    // Framework map labels sit underneath the opaque recipe cards; their
+    // rectangles can intersect hidden card text without any visible collision.
+    const texts = [...viewEl.querySelectorAll("span, img")].filter((e) => shown(e) && !e.closest("[data-otm-toward]") && !e.closest(".maplibregl-ctrl, .map__labels"));
     const clipped = texts.filter((e) => !inside(r(e))).map((e) => (e.textContent || e.tagName).trim().slice(0, 30));
     // Text on text (seen 2026-09-30 on TRMNL's preview: a full column squeezed the
     // expanded row's lines into each other): no two visible spans may overlap.
@@ -222,16 +242,17 @@ for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang,
   await tab.close();
   // The multi layout shows on the X (lg) only, and only with rows in the payload.
   const multiWanted = !!v.rows && /screen--lg/.test(cls);
-  rows.push({ view, screen, taxon: taxon === "*" ? `slot ${slot} ${v.species}` : taxon, lang, day, kind: v.kind, errors: errors.length, multiWanted, ...got, png: path.basename(png) });
+  rows.push({ view, screen, taxon: taxon === "*" ? `slot ${slot} ${v.species}` : taxon, lang, day, state: v.state, kind: v.kind, errors: errors.length, multiWanted, ...got, png: path.basename(png) });
 }
 await browser.close();
+server.close();
 
 let bad = 0;
 for (const r of rows) {
   const why = [];
-  if (!r.maps || r.drawn !== r.maps) why.push(`drawn ${r.drawn}/${r.maps}`);
+  if ((r.state === "ok" && !r.maps) || r.drawn !== r.maps) why.push(`drawn ${r.drawn}/${r.maps}`);
   // One map on screen, or the quadrant's two cards: never a hidden block showing too.
-  const mapsWanted = r.multiWanted && r.view === "quadrant" ? 2 : 1;
+  const mapsWanted = r.state === "ok" ? (r.multiWanted && r.view === "quadrant" ? 2 : 1) : 0;
   if (r.maps !== mapsWanted) why.push(`${r.maps} maps on screen, wanted ${mapsWanted}`);
   if (r.waiting) why.push("waiting shown");
   if (r.clipped.length) why.push(`clipped ${JSON.stringify(r.clipped.slice(0, 3))}`);
