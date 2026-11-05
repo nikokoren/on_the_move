@@ -12,7 +12,7 @@
 {% endcomment %}
 
 {% if state != "ok" %}
-{% render "otm_message", species: species, status: status %}
+{% render "otm_message", species: species, status: status, guidance: guidance %}
 {% else %}
 <div class="layout">
   <div class="{% if rows %}lg:hidden {% endif %}relative w--full h--full" data-otm-scope>

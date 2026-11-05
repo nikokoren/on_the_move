@@ -7,7 +7,7 @@
 {% endcomment %}
 
 {% if state != "ok" %}
-{% render "otm_message", species: species, status: status %}
+{% render "otm_message", species: species, status: status, guidance: guidance %}
 {% else %}
 <div class="layout">
   {% comment %} Single (owner, 2026-09-30, mock-up B): the map, the text, and the

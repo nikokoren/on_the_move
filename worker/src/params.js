@@ -10,7 +10,8 @@ const OLD_LABELS = { loggerhead: "Caretta caretta", zebra: "Equus quagga", equus
 
 // Returns the taxon, or "all" (also for anything unknown).
 export function speciesParam(value, species) {
-  const v = snake(value);
+  // Keep existing saved labels valid alongside the new seasonal suffix.
+  const v = snake(value).replace(/_seasonal$/, "");
   if (!v || v === "all" || v === "all_of_them_in_turn" || v === "alle") return "all";
   for (const sp of species) {
     const keys = [sp.taxon, sp.names.en, sp.names.de].map(snake);
