@@ -1,0 +1,357 @@
+{
+  "round": 6,
+  "exported": "2026-11-05T19:23:41.179Z",
+  "status": "owner-review-only",
+  "facts": [
+    {
+      "id": "de6-s-stork-klapper-name",
+      "text": "Sein Schnabelklappern hat dem Weißstorch den Namen Klapperstorch eingebracht.",
+      "source": {
+        "title": "Wikipedia (de), Weißstorch",
+        "url": "https://de.wikipedia.org/wiki/Wei%C3%9Fstorch",
+        "quote": [
+          "Die Stimme des Weißstorchs ist nur schwach ausgeprägt.",
+          "Er verständigt sich durch Klappern mit dem Schnabel , deshalb wird er auch Klapperstorch [ 2 ] genannt."
+        ],
+        "checked": "2026-11-05"
+      },
+      "review": {
+        "verdict": "ok",
+        "star": false,
+        "note": ""
+      },
+      "taxon": "Ciconia ciconia",
+      "name": "Weißstorch",
+      "lang": "de",
+      "kind": "short",
+      "limit": 90,
+      "originalText": "Das Schnabelklappern hat dem Weißstorch den Namen Klapperstorch eingebracht.",
+      "parentId": "de5-s-stork-klapper-name",
+      "followup": {
+        "reason": "Rewrite requested",
+        "explanation": "A complete German sentence replaces the fragment and keeps the name explanation.",
+        "previousReview": {
+          "verdict": "rewrite",
+          "star": false,
+          "note": "that's not proper German grammar. rewrite."
+        }
+      }
+    },
+    {
+      "id": "en6-s-crane-mud-paint",
+      "text": "Common cranes coat their feathers with mud, probably for camouflage.",
+      "source": {
+        "title": "Wikipedia (en), Common crane",
+        "url": "https://en.wikipedia.org/wiki/Common_crane",
+        "quote": "In common with sandhill cranes (and no other crane species), common cranes \"paint\" their bodies with mud or decaying vegetation, apparently in order to blend into their nesting environment.",
+        "checked": "2026-11-05"
+      },
+      "review": {
+        "verdict": "ok",
+        "star": false,
+        "note": ""
+      },
+      "taxon": "Grus grus",
+      "name": "Common Crane",
+      "lang": "en",
+      "kind": "short",
+      "limit": 90,
+      "originalText": "Common cranes coat their feathers with mud, probably for camouflage.",
+      "parentId": "en5-s-crane-mud-paint",
+      "followup": {
+        "reason": "Still undecided",
+        "explanation": "Retains the camouflage story with a qualifier: the source describes the purpose as apparent.",
+        "previousReview": {
+          "verdict": "pending",
+          "star": false,
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "en6-l-crane-swimming-chicks",
+      "text": "Crane chicks can swim soon after hatching and run with their parents a day later, long before they can fly.",
+      "source": {
+        "title": "Wikipedia (en), Common crane",
+        "url": "https://en.wikipedia.org/wiki/Common_crane",
+        "quote": "New hatchlings are generally quite helpless but are able to crawl away from danger within a few hours, can swim soon after hatching and can run with their parents at 24 hours old.",
+        "checked": "2026-11-05"
+      },
+      "review": {
+        "verdict": "ok",
+        "star": false,
+        "note": ""
+      },
+      "taxon": "Grus grus",
+      "name": "Common Crane",
+      "lang": "en",
+      "kind": "long",
+      "limit": 140,
+      "originalText": "Crane chicks can swim soon after hatching and run with their parents a day later, long before they can fly.",
+      "parentId": "en5-l-crane-swimming-chicks",
+      "followup": {
+        "reason": "Still undecided",
+        "explanation": "Carried forward unchanged because no decision was recorded.",
+        "previousReview": {
+          "verdict": "pending",
+          "star": false,
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "de6-s-crane-bare-crown",
+      "text": "Der rote Fleck auf dem Kranichkopf besteht aus nackter Haut, nicht aus roten Federn.",
+      "source": {
+        "title": "Wikipedia (de), Kranich",
+        "url": "https://de.wikipedia.org/wiki/Kranich",
+        "quote": "Kennzeichnend sind die schwarz-weiße Kopf- und Halszeichnung und die federlose rote Kopfplatte.",
+        "checked": "2026-11-05"
+      },
+      "review": {
+        "verdict": "veto",
+        "star": false,
+        "note": ""
+      },
+      "taxon": "Grus grus",
+      "name": "Kranich",
+      "lang": "de",
+      "kind": "short",
+      "limit": 90,
+      "originalText": "Der rote Fleck auf dem Kranichkopf besteht aus nackter Haut, nicht aus roten Federn.",
+      "parentId": "de5-s-crane-bare-crown",
+      "followup": {
+        "reason": "Still undecided",
+        "explanation": "Carried forward unchanged because no decision was recorded.",
+        "previousReview": {
+          "verdict": "pending",
+          "star": false,
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "de6-s-honey-rattle-call",
+      "text": "Beim Partnerwechsel am Nest geben Wespenbussarde einen leisen Rasselruf von sich.",
+      "source": {
+        "title": "Wikipedia (de), Wespenbussard",
+        "url": "https://de.wikipedia.org/wiki/Wespenbussard",
+        "quote": "Noch seltener wahrgenommen wird ein vergleichsweise leiser, klappernder und in der Tonhöhe variierender „Rasselruf“, der vor allem bei der Ablösung des Partners am Nest eingesetzt wird.",
+        "checked": "2026-11-05"
+      },
+      "review": {
+        "verdict": "ok",
+        "star": false,
+        "note": ""
+      },
+      "taxon": "Pernis apivorus",
+      "name": "Wespenbussard",
+      "lang": "de",
+      "kind": "short",
+      "limit": 90,
+      "originalText": "Beim Partnerwechsel am Nest geben Wespenbussarde einen leisen Rasselruf von sich.",
+      "parentId": "de5-s-honey-rattle-call",
+      "followup": {
+        "reason": "Grammar correction to an approved edit",
+        "explanation": "Uses the idiom „einen Ruf von sich geben“, preserving your wording and intent.",
+        "previousReview": {
+          "verdict": "ok",
+          "star": false,
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "de6-l-dove-spring-wandering",
+      "text": "Turteltauben ziehen nach der Rückkehr aus Afrika noch wochenlang umher. Der Ort der Balz muss nicht der spätere Brutplatz sein.",
+      "source": {
+        "title": "Wikipedia (de), Turteltaube",
+        "url": "https://de.wikipedia.org/wiki/Turteltaube",
+        "quote": [
+          "Rückkehrende Turteltauben schreiten nicht sofort zur Brut, sondern ziehen einzeln und als Paar über mehrere Wochen umher.",
+          "Selbst eine Balz ist kein Indiz dafür, dass das Paar an diesem Ort auch zur Brut schreiten wird. [ 15 ]"
+        ],
+        "checked": "2026-11-05"
+      },
+      "review": {
+        "verdict": "ok",
+        "star": false,
+        "note": ""
+      },
+      "taxon": "Streptopelia turtur",
+      "name": "Turteltaube",
+      "lang": "de",
+      "kind": "long",
+      "limit": 140,
+      "originalText": "Turteltauben ziehen nach der Rückkehr aus Afrika noch wochenlang umher. Der Ort der Balz muss nicht der spätere Brutplatz sein.",
+      "parentId": "de5-l-dove-spring-wandering",
+      "followup": {
+        "reason": "Rewrite requested",
+        "explanation": "Clarifies that the place where courtship is observed need not become the nesting site.",
+        "previousReview": {
+          "verdict": "rewrite",
+          "star": false,
+          "note": "am Fundort? Fundort of what?"
+        }
+      }
+    },
+    {
+      "id": "de6-s-wheatear-asteroid",
+      "text": "Der Asteroid (8959) Oenanthe wurde nach dem Steinschmätzer benannt.",
+      "source": {
+        "title": "Wikipedia (de), Steinschmätzer (Art)",
+        "url": "https://de.wikipedia.org/wiki/Steinschm%C3%A4tzer_(Art)",
+        "quote": "Der Asteroid des inneren Hauptgürtels (8959) Oenanthe ist nach dem Steinschmätzer benannt (wissenschaftlicher Name: Oenanthe oenanthe ).",
+        "checked": "2026-11-05"
+      },
+      "review": {
+        "verdict": "ok",
+        "star": false,
+        "note": ""
+      },
+      "taxon": "Oenanthe oenanthe",
+      "name": "Steinschmätzer",
+      "lang": "de",
+      "kind": "short",
+      "limit": 90,
+      "originalText": "Der Asteroid (8959) Oenanthe wurde nach dem Steinschmätzer benannt.",
+      "parentId": "de5-s-wheatear-asteroid",
+      "followup": {
+        "reason": "Rewrite requested",
+        "explanation": "Uses a straightforward sentence instead of the possessive construction.",
+        "previousReview": {
+          "verdict": "rewrite",
+          "star": false,
+          "note": "recheck German grammar"
+        }
+      }
+    },
+    {
+      "id": "en6-s-curlew-berries",
+      "text": "A Far Eastern curlew sometimes swaps its seafood diet for berries while on migration.",
+      "source": {
+        "title": "Wikipedia (en), Far Eastern curlew",
+        "url": "https://en.wikipedia.org/wiki/Far_Eastern_curlew",
+        "quote": "During migration it also feeds on berries.",
+        "checked": "2026-11-05"
+      },
+      "review": {
+        "verdict": "ok",
+        "star": false,
+        "note": ""
+      },
+      "taxon": "Numenius madagascariensis",
+      "name": "Far Eastern Curlew",
+      "lang": "en",
+      "kind": "short",
+      "limit": 90,
+      "originalText": "A Far Eastern curlew sometimes swaps its seafood diet for berries while on migration.",
+      "parentId": "en5-s-curlew-berries",
+      "followup": {
+        "reason": "Grammar correction to an approved edit",
+        "explanation": "Corrects possessive „its“; „it’s“ means „it is“. No factual change.",
+        "previousReview": {
+          "verdict": "ok",
+          "star": false,
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "de6-l-curlew-wrong-madagascar",
+      "text": "Der Isabellbrachvogel wurde nach der Insel Madagaskar benannt, obwohl die Art dort noch nie beobachtet wurde.",
+      "source": {
+        "title": "Wikipedia (en), Far Eastern curlew",
+        "url": "https://en.wikipedia.org/wiki/Far_Eastern_curlew",
+        "quote": "The name madagascariensis , referring to Madagascar , was an error by Brisson, with the type locality now known to have been Makassar on Sulawesi, Indonesia, where it winters; the species has never been recorded in Madagascar. [ 4 ]",
+        "checked": "2026-11-05"
+      },
+      "review": {
+        "verdict": "ok",
+        "star": false,
+        "note": ""
+      },
+      "taxon": "Numenius madagascariensis",
+      "name": "Isabellbrachvogel",
+      "lang": "de",
+      "kind": "long",
+      "limit": 140,
+      "originalText": "Der Isabellbrachvogel wurde nach Madagaskar benannt, obwohl die Art dort noch nie beobachtet wurde.",
+      "parentId": "de5-l-curlew-wrong-madagascar",
+      "followup": {
+        "reason": "Rewrite requested",
+        "explanation": "Simplifies the mistaken place-name story to one sentence.",
+        "previousReview": {
+          "verdict": "rewrite",
+          "star": false,
+          "note": "too complex. simplify"
+        }
+      }
+    },
+    {
+      "id": "de6-s-eagle-official-2024",
+      "text": "Der Weißkopf-Seeadler ist erst seit 2024 der offizielle Nationalvogel der USA.",
+      "source": {
+        "title": "Wikipedia (en), Bald eagle",
+        "url": "https://en.wikipedia.org/wiki/Bald_eagle",
+        "quote": "It has long been considered the \"national bird\", though unofficially until the act of Congress S.4610 was signed into law on December 23, 2024. [ 226 ] [ 227 ]",
+        "checked": "2026-11-05"
+      },
+      "review": {
+        "verdict": "ok",
+        "star": false,
+        "note": ""
+      },
+      "taxon": "Haliaeetus leucocephalus",
+      "name": "Weißkopf-Seeadler",
+      "lang": "de",
+      "kind": "short",
+      "limit": 90,
+      "originalText": "Seit 2024 ist der Weißkopf-Seeadler der offizielle Nationalvogel der USA.",
+      "parentId": "de5-s-eagle-official-2024",
+      "followup": {
+        "reason": "Rewrite requested",
+        "explanation": "Rephrases the sentence with a more natural word order.",
+        "previousReview": {
+          "verdict": "rewrite",
+          "star": false,
+          "note": "check German grammar"
+        }
+      }
+    },
+    {
+      "id": "de6-l-blackpoll-autumn-look",
+      "text": "Im Herbst tragen Streifenwaldsänger-Männchen Grün und Gelb statt schwarzer Kappe und weißer Brust.",
+      "source": {
+        "title": "Wikipedia (de), Streifenwaldsänger",
+        "url": "https://de.wikipedia.org/wiki/Streifenwalds%C3%A4nger",
+        "quote": [
+          "Im Brutkleid tragen männliche Streifenwaldsänger eine schwarze Kappe, eine schwarzgestreifte weiße Brust, ein weißes Kopfgefieder und ein braunes mit dunklen Streifen versetztes Oberseitengefieder.",
+          "Außerhalb der Brutzeit ist das Oberseitengefieder grünlich und mit dunklen Streifen versetzt, der Kopf grünlich und der Brustbereich gelblich."
+        ],
+        "checked": "2026-11-05"
+      },
+      "review": {
+        "verdict": "ok",
+        "star": false,
+        "note": ""
+      },
+      "taxon": "Setophaga striata",
+      "name": "Streifenwaldsänger",
+      "lang": "de",
+      "kind": "long",
+      "limit": 140,
+      "originalText": "Im Herbst tragen Streifenwaldsänger-Männchen Grün und Gelb statt schwarzer Kappe und weißer Brust.",
+      "parentId": "de5-l-blackpoll-autumn-look",
+      "followup": {
+        "reason": "Grammar correction to an approved edit",
+        "explanation": "Repairs „sind sie überwiegen“ and removes the animal pronoun while preserving the seasonal plumage contrast.",
+        "previousReview": {
+          "verdict": "ok",
+          "star": false,
+          "note": ""
+        }
+      }
+    }
+  ]
+}

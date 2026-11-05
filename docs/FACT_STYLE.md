@@ -2,6 +2,10 @@
 
 How the species facts and individual-animal facts are written. Built from the owner's two review rounds on the fact review page (verdicts in `pipeline/facts_draft_round1.json` and `pipeline/facts_draft_round2.json`, field `review`). Decision R8f in `docs/DECISIONS.md`. Re-read this before writing any fact.
 
+## Interactive review (owner, 2026-11-05)
+
+Always deliver proposed text in an interactive UI where the owner can go through individual suggestions, edit the current suggestion, veto it, or request a rewrite with additional notes. Keep the wording, verdict and notes together when saving or exporting feedback. A rewrite request is a separate decision from a veto; it asks for another proposal. The current UI is `docs/reviews/facts-round5.html`, built with `pipeline/build_fact_review.py`. The Markdown audit is supporting material.
+
 ## Four separate pools per species
 
 Each species has four independent pools: English short, English long, German short, German long.
@@ -29,6 +33,10 @@ Starred: named animals and people (Klepetan and Malena, Prinzesschen, Lady the o
 - Literal or stiff German: "ziehen gar nicht" (find natural wording, e.g. "sind Standvögel", "bleiben das ganze Jahr"), "hält" for a territory ("besetzt"), "zu lernen" ("zu erkunden"), "kamen von der Liste" ("gestrichen wurden"), "Da sie keinen Stimmapparat haben" over "Ohne Stimmapparat".
 - Route descriptions the map already shows, plain behaviour lines, population numbers without a hook, facts that need missing context.
 - Also vetoed in round 2 (no note): the cranes of Ibycus, Titan the turtle dove, the shrike's 22,000 km loop, blue jays imitating the broad-winged hawk, broad-wings riding updrafts, Adelita, loggerhead age, ospreys' return to Scotland, the snow goose population boom.
+
+Round-five feedback (2026-11-05) is preserved in `pipeline/facts_review_round5.json`; apply its verdicts per item and language. Six vetoes: the German crane's false tail, wheatear plumage change, curlew's “Beerenpause”, Lishman's Canada geese, and green turtle's male tail; the English zebra family's change of stallion. Do not reintroduce these as new suggestions. For rewrites, prefer complete, natural German sentences and clear place references: “am Fundort” was unclear when describing where turtle doves court. Simplify the curlew's mistaken Madagascar name story. Follow-up wording remains subject to owner review.
+
+Round six is complete (2026-11-05), recorded in `pipeline/facts_review_round6.json`: 10 approvals and one further veto, the German crane's bare red crown. Final wording includes the owner's three edits, which take precedence over the house style (including the possessive “Sein” in the stork fact). Across both rounds, 98 additions were accepted and 7 vetoed; all approved additions are in `pipeline/facts_reviewed.json`. Preserve these decisions and their language when adding future facts.
 
 ## Sources
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check a fact draft for one language (docs/FACT_STYLE.md, decision R8f).
 
-    python3 pipeline/check_fact_draft.py DRAFT.json [--cache DIR]
+    python3 pipeline/check_fact_draft.py DRAFT.json [--cache DIR] [--additions]
 
 DRAFT.json: {"lang": "en"|"de",
              "species": {taxon: {"short": [fact, ...], "long": [fact, ...]}},
@@ -15,6 +15,11 @@ facts up to 90 characters and long up to 140 (units rendered metric); {metric|im
 well formed; every quote found verbatim on its source page (same text extraction as
 verify_sources.py). Pages are cached in --cache (default .fact-cache next to the draft).
 Exit code 1 on any failure.
+
+--additions checks pending additions against all currently featured species,
+including seasonal species. It skips unchanged individual templates/notes,
+requires a new short and long fact for each species, and rejects exact repeats
+of the published facts. This mode does not approve or integrate any facts.
 """
 import hashlib, json, os, re, sys
 
@@ -35,8 +40,16 @@ def main():
     cache = sys.argv[sys.argv.index("--cache") + 1] if "--cache" in sys.argv else os.path.join(os.path.dirname(os.path.abspath(path)), ".fact-cache")
     os.makedirs(cache, exist_ok=True)
     d = json.load(open(path, encoding="utf-8"))
-    taxa = json.load(open(os.path.join(ROOT, "pipeline", "species_curated.json"), encoding="utf-8"))["species"]
+    additions = "--additions" in sys.argv
+    published = json.load(open(os.path.join(ROOT, "worker", "data", "featured.json"), encoding="utf-8"))["species"] if additions else []
+    taxa = [s["taxon"] for s in published] if additions else json.load(open(os.path.join(ROOT, "pipeline", "species_curated.json"), encoding="utf-8"))["species"]
     errs, ids, counts = [], set(), {}
+    seen_text = set()
+    if additions and d.get("lang") not in ("en", "de"):
+        errs.append("lang must be en or de")
+    existing_text = {vs.norm(f["text"]) for s in published for f in s["facts"].get(d.get("lang"), [])}
+    for t in set(d.get("species", {})) - set(taxa):
+        errs.append(f"{t}: unexpected taxon")
 
     def page(src):
         key = hashlib.md5((src["url"] + "|" + src.get("europepmc", "")).encode()).hexdigest()
@@ -52,11 +65,24 @@ def main():
             continue
         counts[t] = (len(sp.get("short", [])), len(sp.get("long", [])))
         for kind in ("short", "long"):
+            if additions and not sp.get(kind):
+                errs.append(f"{t}: no {kind} additions")
             for f in sp.get(kind, []):
                 fid = f.get("id", "?")
                 if fid in ids:
                     errs.append(f"{fid}: duplicate id")
                 ids.add(fid)
+                if additions:
+                    normalized = vs.norm(f["text"])
+                    if normalized in existing_text or normalized in seen_text:
+                        errs.append(f"{fid}: repeated fact text")
+                    seen_text.add(normalized)
+                    if f.get("review", {}).get("verdict") != "pending":
+                        errs.append(f"{fid}: additions must be pending review")
+                    if not f.get("source", {}).get("quote"):
+                        errs.append(f"{fid}: source quote missing")
+                    if not f.get("source", {}).get("checked"):
+                        errs.append(f"{fid}: source check date missing")
                 n = len(plain(f["text"]))
                 if n > LIMIT[kind]:
                     errs.append(f"{fid}: {kind} is {n} characters (limit {LIMIT[kind]})")
@@ -70,6 +96,17 @@ def main():
                 for q in vs.quotes(f["source"]):
                     if vs.norm(q) not in text:
                         errs.append(f"{fid}: quote not found: {q[:80]!r}")
+    if not additions:
+        check_individual(d, errs)
+    for t, (s, l) in counts.items():
+        print(f"{t:28} short {s:2}  long {l:2}")
+    print(f"{sum(s for s, _ in counts.values())} short, {sum(l for _, l in counts.values())} long; {len(errs)} problems")
+    for e in errs:
+        print("  -", e)
+    sys.exit(1 if errs else 0)
+
+
+def check_individual(d, errs):
     ind = d.get("individual", {})
     for k in TEMPLATE_KEYS:
         if not ind.get("templates", {}).get(k):
@@ -83,12 +120,6 @@ def main():
         for kind in ("short", "long"):
             if n.get(kind) and len(plain(n[kind])) > LIMIT[kind]:
                 errs.append(f"note {aid} {kind} too long")
-    for t, (s, l) in counts.items():
-        print(f"{t:28} short {s:2}  long {l:2}")
-    print(f"{sum(s for s, _ in counts.values())} short, {sum(l for _, l in counts.values())} long; {len(errs)} problems")
-    for e in errs:
-        print("  -", e)
-    sys.exit(1 if errs else 0)
 
 
 if __name__ == "__main__":

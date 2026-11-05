@@ -194,6 +194,17 @@
       }
      },
      {
+      "text": "White storks can find frogs by listening for their mating calls.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), White stork",
+       "url": "https://en.wikipedia.org/wiki/White_stork",
+       "quote": "Birds returning to Latvia during spring have been shown to locate their prey, moor frogs ( Rana arvalis ), by homing in on the mating calls produced by aggregations of male frogs. [ 102 ]",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Shot by hunters, the Croatian stork Malena never flew again. Her mate Klepetan flew {13000 km|8000 mi} back to her from South Africa every year.",
       "len": "long",
       "star": false,
@@ -254,6 +265,20 @@
         "The adult white stork's main sound is noisy bill-clattering, which has been likened to distant machine gun fire.",
         "Like the adults, the young also clatter their beaks."
        ]
+      }
+     },
+     {
+      "text": "A stork nest can be an apartment block: sparrows and starlings nest inside it, and sometimes even little owls move in.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), White stork",
+       "url": "https://en.wikipedia.org/wiki/White_stork",
+       "quote": [
+        "Several bird species often nest within the large nests of the white stork.",
+        "Regular occupants are house sparrows , tree sparrows , and common starlings ; less common residents include Eurasian kestrels , little owls , European rollers , white wagtails , black redstarts , Eurasian jackdaws , and Spanish sparrows ."
+       ],
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -329,6 +354,20 @@
       }
      },
      {
+      "text": "Sein Schnabelklappern hat dem Weißstorch den Namen Klapperstorch eingebracht.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Weißstorch",
+       "url": "https://de.wikipedia.org/wiki/Wei%C3%9Fstorch",
+       "quote": [
+        "Die Stimme des Weißstorchs ist nur schwach ausgeprägt.",
+        "Er verständigt sich durch Klappern mit dem Schnabel , deshalb wird er auch Klapperstorch [ 2 ] genannt."
+       ],
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Nach einem Jägerschuss konnte Malena nicht mehr fliegen. Ihr Partner Klepetan kam trotzdem jedes Jahr {13000 km|8000 mi} aus Südafrika zu Malena.",
       "len": "long",
       "star": false,
@@ -381,6 +420,17 @@
         "Da sei alles Fleischliche und insbesondere das Sexuelle verpönt gewesen, sagt Bense.",
         "Mit dem Storch hat man nun eine Möglichkeit zu erklären, wie die Kinder gebracht werden"
        ]
+      }
+     },
+     {
+      "text": "Der Weißstorch verschlingt große Beute als Ganzes, weil sein Schnabel sie nicht zerkleinern kann.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Weißstorch",
+       "url": "https://de.wikipedia.org/wiki/Wei%C3%9Fstorch",
+       "quote": "Große Beutestücke bis knapp 1000 Gramm können nur als ganzes Stück verschlungen werden, da der Storchenschnabel für das Zerlegen von Beute und Aas nicht geeignet ist.",
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -699,6 +749,17 @@
       }
      },
      {
+      "text": "Common cranes coat their feathers with mud, probably for camouflage.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Common crane",
+       "url": "https://en.wikipedia.org/wiki/Common_crane",
+       "quote": "In common with sandhill cranes (and no other crane species), common cranes \"paint\" their bodies with mud or decaying vegetation, apparently in order to blend into their nesting environment.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Carrion crows are cunning egg thieves: they put on a distraction display to lure nesting cranes away, then steal their eggs.",
       "len": "long",
       "star": true,
@@ -765,6 +826,17 @@
        "title": "Wikipedia, Common crane",
        "url": "https://en.wikipedia.org/wiki/Common_crane",
        "quote": "During these migratory flights, common cranes have been known to fly at altitudes of up to 10,000 m (33,000 ft) , one of the highest of any species of bird, second only to the Ruppell's vulture ."
+      }
+     },
+     {
+      "text": "Crane chicks can swim soon after hatching and run with their parents a day later, long before they can fly.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Common crane",
+       "url": "https://en.wikipedia.org/wiki/Common_crane",
+       "quote": "New hatchlings are generally quite helpless but are able to crawl away from danger within a few hours, can swim soon after hatching and can run with their parents at 24 hours old.",
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -1061,6 +1133,17 @@
       }
      },
      {
+      "text": "A honey buzzard's spring courtship includes wing-clapping.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), European honey buzzard",
+       "url": "https://en.wikipedia.org/wiki/European_honey_buzzard",
+       "quote": "The European honey buzzard breeds in woodland , and is inconspicuous except in the spring, when the mating display includes wing-clapping.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "On 3 September 2012 counters at Batumi, Georgia, logged 179,342 honey buzzards in one day: a world record for the species.",
       "len": "long",
       "star": true,
@@ -1109,6 +1192,17 @@
         "Honey buzzards are thought to have a chemical deterrent in their feathers that protects them from wasp attacks."
        ]
       }
+     },
+     {
+      "text": "An adult honey buzzard combines a magnetic compass with remembered rivers and mountain ranges to find its way south.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), European honey buzzard",
+       "url": "https://en.wikipedia.org/wiki/European_honey_buzzard",
+       "quote": "Being a long-distance migrant, the honey buzzard relies on magnetic orientation to find its way south, as well as (for adult birds) a visual memory of recognisable geographical features such as mountain ranges and rivers, along the way.",
+       "checked": "2026-11-05"
+      }
      }
     ],
     "de": [
@@ -1154,6 +1248,32 @@
        "title": "Die Rheinpfalz, Ganz wild auf stechende Insekten (2018)",
        "url": "https://www.rheinpfalz.de/startseite_artikel,-ganz-wild-auf-stechende-insekten-_arid,1243105.html",
        "quote": "Um Augen und Schnabel schützen ihn verhornte Federn."
+      }
+     },
+     {
+      "text": "Wespenbussarde haben fast gerade Krallen und ans Graben angepasste Beine.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Wespenbussard",
+       "url": "https://de.wikipedia.org/wiki/Wespenbussard",
+       "quote": [
+        "Die Beine sind vor allem an das Graben im Boden angepasst.",
+        "Der Tarsometatarsus ist kurz und sehr kräftig, wobei der unbefiederte Teil sehr dick beschuppt ist.",
+        "Die Krallen sind kaum gebogen."
+       ],
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Beim Partnerwechsel am Nest geben Wespenbussarde einen leisen Rasselruf von sich.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Wespenbussard",
+       "url": "https://de.wikipedia.org/wiki/Wespenbussard",
+       "quote": "Noch seltener wahrgenommen wird ein vergleichsweise leiser, klappernder und in der Tonhöhe variierender „Rasselruf“, der vor allem bei der Ablösung des Partners am Nest eingesetzt wird.",
+       "checked": "2026-11-05"
       }
      },
      {
@@ -1232,6 +1352,17 @@
         "Immature European Honey Buzzards Pernis apivorus are believed to remain in tropical Africa during the first years of their lives.",
         "They travelled between 2,430 and 3,990 km (minimum distances) during 13 to 14 months"
        ]
+      }
+     },
+     {
+      "text": "Wespenbussarde kommen so spät aus Afrika zurück, dass die Jungenaufzucht in die Wespen-Hochsaison fällt.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Wespenbussard",
+       "url": "https://de.wikipedia.org/wiki/Wespenbussard",
+       "quote": "Die Art kommt erst sehr spät aus den afrikanischen Winterquartieren zurück, so dass die Jungenaufzucht in die Zeit der größten Häufigkeit von Wespen, den Hochsommer, fällt.",
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -1414,6 +1545,17 @@
       }
      },
      {
+      "text": "A courting turtle dove cracks its wings like a whip.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), European turtle dove",
+       "url": "https://en.wikipedia.org/wiki/European_turtle_dove",
+       "quote": "The nuptial flight, high and circling, is like that of the common wood pigeon , but the undulations are less decided; it is accompanied by the whip-crack of the downward flicked wings.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Turtle doves fly south by night, up to {700 km|435 mi} at a stretch, at up to {60 km/h|37 mph}.",
       "len": "long",
       "star": true,
@@ -1473,6 +1615,20 @@
         "Linnaeus gave the locality as \"India\".",
         "This was an error, and the type locality has been designated as England."
        ]
+      }
+     },
+     {
+      "text": "Young turtle doves leave the nest before they can fly, staying among nearby branches instead.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Turteltaube",
+       "url": "https://de.wikipedia.org/wiki/Turteltaube",
+       "quote": [
+        "Jungvögel verlassen in einem Lebensalter von etwa 14 Tagen das Nest.",
+        "Sie sind zu dem Zeitpunkt noch nicht flugfähig und halten sich in den Ästen in der Nähe des Nestes auf."
+       ],
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -1544,6 +1700,17 @@
       }
      },
      {
+      "text": "Junge Turteltauben tragen noch keinen schwarz-weißen Halsstreifen-Kragen.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Turteltaube",
+       "url": "https://de.wikipedia.org/wiki/Turteltaube",
+       "quote": "Die für die adulten Vögel charakteristischen Halsquerbinden entwickeln sich erst nach einigen Monaten.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Wegen des Gefieders und eines Volksglaubens hielt man Turteltauben in Volieren: Die Vögel sollten Krankheiten der Menschen an sich ziehen.",
       "len": "long",
       "star": false,
@@ -1593,6 +1760,20 @@
         "innerhalb eines Zeitraums von zwei Wochen 20.000 Turteltauben von den rund 14.000 registrierten Jägern des Landes offiziell in Fangnetzen gefangen.",
         "Das entspricht etwa einem Drittel des gesamten deutschen Brutbestands an Turteltauben."
        ]
+      }
+     },
+     {
+      "text": "Turteltauben ziehen nach der Rückkehr aus Afrika noch wochenlang umher. Der Ort der Balz muss nicht der spätere Brutplatz sein.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Turteltaube",
+       "url": "https://de.wikipedia.org/wiki/Turteltaube",
+       "quote": [
+        "Rückkehrende Turteltauben schreiten nicht sofort zur Brut, sondern ziehen einzeln und als Paar über mehrere Wochen umher.",
+        "Selbst eine Balz ist kein Indiz dafür, dass das Paar an diesem Ort auch zur Brut schreiten wird. [ 15 ]"
+       ],
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -1797,6 +1978,17 @@
       }
      },
      {
+      "text": "Gull chicks peck the red spot on a parent's bill to ask for food.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Lesser black-backed gull",
+       "url": "https://en.wikipedia.org/wiki/Lesser_black-backed_gull",
+       "quote": "The bill is yellow with a red spot at which the young peck, inducing feeding (see fixed action pattern ).",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "A satellite-tagged lesser black-backed gull flew its last {3500 km|2200 mi} to Lake Victoria non-stop: 92 hours, ending near Kampala.",
       "len": "long",
       "star": true,
@@ -1859,6 +2051,20 @@
         "In the 1990s, lesser black-backed gulls (likely from Iceland) were confirmed breeding in Greenland",
         "the researchers propose that most lesser black-backed gulls seen in North America come from western Iceland and Greenland."
        ]
+      }
+     },
+     {
+      "text": "Young lesser black-backed gulls start out scaly brown, not black-backed. The journey to adulthood takes four years.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Lesser black-backed gull",
+       "url": "https://en.wikipedia.org/wiki/Lesser_black-backed_gull",
+       "quote": [
+        "Young birds have scaly black-brown upperparts and a neat wing pattern.",
+        "They take four years to reach maturity."
+       ],
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -1928,6 +2134,17 @@
       }
      },
      {
+      "text": "Heringsmöwen tauchen bei der Fischjagd manchmal vollständig unter.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Heringsmöwe",
+       "url": "https://de.wikipedia.org/wiki/Heringsm%C3%B6we",
+       "quote": "Fische werden auf dem Meer oft stoßtauchend aus dem Suchflug aus 10–12 m Höhe heraus erbeutet, wobei der Vogel im 45°-Winkel etwa 8 m herabfliegt, rüttelnd abbremst, hinabstößt und völlig untertaucht.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Vorsicht, Verwechslung: Die „herring gull“ der Briten ist unsere Silbermöwe. Unsere Heringsmöwe heißt dort „Kleine Schwarzrückenmöwe“.",
       "len": "long",
       "star": false,
@@ -1979,6 +2196,17 @@
         "Im Gegensatz zur Silbermöwe suchen Heringsmöwen ihr Futter nicht im Watt",
         "Sie fliegen täglich 50-80, mitunter 130 km weit hinaus, um Fische und Krebse zu erbeuten"
        ]
+      }
+     },
+     {
+      "text": "Nach dem Treibnetzverbot im westlichen Mittelmeer suchten Heringsmöwen neue Nahrung: auch in Olivenhainen und Reisfeldern.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (de), Heringsmöwe",
+       "url": "https://de.wikipedia.org/wiki/Heringsm%C3%B6we",
+       "quote": "So führte ein 1991 von der UN erlassenes Moratorium zur Treibnetzfischerei im westlichen Mittelmeer dazu, dass die Art auf andere Nahrungsquellen umsteigen musste und zwischenzeitlich vermehrt auf Mülldeponien, in Olivenhainen und auf Reisfeldern anzutreffen war.",
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -2213,6 +2441,17 @@
       }
      },
      {
+      "text": "A red-backed shrike coughs up pellets of indigestible leftovers.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (de), Neuntöter",
+       "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+       "quote": "Unverdauliche Bestandteile werden als Speiballen ausgewürgt.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Though a songbird, the red-backed shrike has a hooked bill like a bird of prey's, made for tearing meat.",
       "len": "long",
       "star": true,
@@ -2280,6 +2519,17 @@
        "title": "Wikipedia, Loggerhead shrike",
        "url": "https://en.wikipedia.org/wiki/Loggerhead_shrike",
        "quote": "It is nicknamed the butcherbird after its carnivorous tendencies, as it consumes prey such as insects, amphibians, lizards, small mammals and small birds, and some prey end up displayed and stored at a site, for example in a tree."
+      }
+     },
+     {
+      "text": "Some unattached male shrikes help feed another pair's young, or join in as extra singers.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (de), Neuntöter",
+       "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+       "quote": "Lediglich zum Ende der Brutsaison, nach dem Ausfliegen der Jungvögel, schließen sich manchmal nichtbrütende Männchen den Familien an, beteiligen sich an der Fütterung der Jungen oder betätigen sich als „Vorsänger“.",
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -2355,6 +2605,17 @@
       }
      },
      {
+      "text": "Neuntöter singen oft mit fast geschlossenem Schnabel.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Neuntöter",
+       "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+       "quote": "Der Gesang wird meist in aufrecht sitzender Haltung mit kaum geöffnetem Schnabel vorgetragen.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Neuntöter, Negenmörder, Dorndreher, Dorntreter: Die alten Volksnamen erzählen alle vom Töten und Aufspießen.",
       "len": "long",
       "star": true,
@@ -2415,6 +2676,17 @@
         "Es wurden teils sehr umfangreiche Vorratsplätze gefunden, beispielsweise mit bis zu sieben Mäusen",
         "oder 30 Maikäfern ."
        ]
+      }
+     },
+     {
+      "text": "Neuntöter wählen ihre Lieblingswarte je nach Tageszeit und Sonnenstand. Der beste Ausguck bleibt nicht immer derselbe.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Neuntöter",
+       "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+       "quote": "Die favorisierte Warte eines Revierinhabers kann je nach Tageszeit und Sonnenstand wechseln.",
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -2637,6 +2909,17 @@
       }
      },
      {
+      "text": "A wheatear's white tail carries a bold black, upside-down T.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Northern wheatear",
+       "url": "https://en.wikipedia.org/wiki/Northern_wheatear",
+       "quote": "Both sexes have a white rump and tail, with a black inverted T-pattern at the end of the tail.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Alaska's wheatears don't head south to the Americas. They fly west, over the Bering Strait and across the whole of Asia, to Africa.",
       "len": "long",
       "star": true,
@@ -2684,6 +2967,20 @@
         "Bairlein said that during the last great glacial period, during which much of the far north was ice-covered, wheatears may have been holed up in the Middle East.",
         "When the glaciers shrank from the continents, one group of wheatears may have expanded to the northeast, reaching Alaska, while the other drifted northwest, reaching Canada via Europe and Greenland."
        ]
+      }
+     },
+     {
+      "text": "Northern wheatears can make a nursery in a pipe or a wall cavity; the female builds while the male sings nearby.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Northern wheatear",
+       "url": "https://en.wikipedia.org/wiki/Northern_wheatear",
+       "quote": [
+        "The nest is built entirely by the female while the male perches nearby, sings and sometimes performs song-flights.",
+        "The nest is placed in a cavity such as a rabbit burrow, a crevice among rocks or in a man-made object such as a wall or pipe."
+       ],
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -2761,6 +3058,17 @@
        "title": "Tips.at, Vorgestellt: Tipsi präsentiert den seltenen Steinschmätzer (2021)",
        "url": "https://www.tips.at/nachrichten/enns/leben/535361-vorgestellt-tipsi-praesentiert-den-seltenen-steinschmaetzer",
        "quote": "Einige seiner Rufe klingen einem Schmatzen ähnlich und fertig ist sein Name."
+      }
+     },
+     {
+      "text": "Der Asteroid (8959) Oenanthe wurde nach dem Steinschmätzer benannt.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Steinschmätzer (Art)",
+       "url": "https://de.wikipedia.org/wiki/Steinschm%C3%A4tzer_(Art)",
+       "quote": "Der Asteroid des inneren Hauptgürtels (8959) Oenanthe ist nach dem Steinschmätzer benannt (wissenschaftlicher Name: Oenanthe oenanthe ).",
+       "checked": "2026-11-05"
       }
      },
      {
@@ -2978,6 +3286,17 @@
       }
      },
      {
+      "text": "A Far Eastern curlew sometimes swaps its seafood diet for berries while on migration.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Far Eastern curlew",
+       "url": "https://en.wikipedia.org/wiki/Far_Eastern_curlew",
+       "quote": "During migration it also feeds on berries.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Three curlews tracked from Victoria, Australia, all flew {8500 km|5300 mi} non-stop to the Yellow Sea: 7 to 8 days without landing.",
       "len": "long",
       "star": true,
@@ -3023,6 +3342,20 @@
        "title": "Wikipedia, Far Eastern curlew",
        "url": "https://en.wikipedia.org/wiki/Far_Eastern_curlew",
        "quote": "to the massive tidal flat reclamations by China, North Korea and South Korea along the coasts of the Yellow Sea , which have caused a greater than 65% loss of mudflats"
+      }
+     },
+     {
+      "text": "Numenius, the curlew's scientific genus name, is linked to Greek words for a new moon: a nod to the crescent-shaped bill.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "Wikipedia, Curlew",
+       "url": "https://en.wikipedia.org/wiki/Curlew",
+       "quote": [
+        "The name Numenius is from Ancient Greek noumenios , a bird mentioned by Hesychius .",
+        "It is associated with the curlews because it appears to be derived from neos , \"new\" and mene , \"moon\", referring to the crescent-shaped bill."
+       ],
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -3139,6 +3472,17 @@
        "url": "http://www.environment.gov.au/biodiversity/threatened/species/pubs/847-conservation-advice-18122023.pdf",
        "pdf": true,
        "quote": "The birds’ feeding and roosting cycles are determined by the tides whereby feeding takes place during periods of low tide"
+      }
+     },
+     {
+      "text": "Der Isabellbrachvogel wurde nach der Insel Madagaskar benannt, obwohl die Art dort noch nie beobachtet wurde.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Far Eastern curlew",
+       "url": "https://en.wikipedia.org/wiki/Far_Eastern_curlew",
+       "quote": "The name madagascariensis , referring to Madagascar , was an error by Brisson, with the type locality now known to have been Makassar on Sulawesi, Indonesia, where it winters; the species has never been recorded in Madagascar. [ 4 ]",
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -3309,6 +3653,17 @@
       }
      },
      {
+      "text": "A broad-winged hawk sounds more like a thin whistle than a fierce scream.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Broad-winged hawk",
+       "url": "https://en.wikipedia.org/wiki/Broad-winged_hawk",
+       "quote": "Their call sounds like a very high-pitched kee-ee , almost like a whistle.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "In a kettle the adults tend to lead and the young follow. Young broad-wings that go astray may end up wintering in Florida, far off course.",
       "len": "long",
       "star": false,
@@ -3362,6 +3717,17 @@
        "title": "Northern Woodlands, There and Back Again: Tracking Broad-Winged Hawk Migration (2024)",
        "url": "https://northernwoodlands.org/articles/article/broad-winged-hawk-migration",
        "quote": "soaring on thermals in groups called “kettles,” named for their resemblance to steam rising from a kettle or soup swirling in a pot."
+      }
+     },
+     {
+      "text": "Courting broad-winged hawks can hook their feet together in midair and spiral down as a pair.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Broad-winged hawk",
+       "url": "https://en.wikipedia.org/wiki/Broad-winged_hawk",
+       "quote": "Birds meet in the air, hook their feet together and spiral down together.",
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -3417,6 +3783,20 @@
       }
      },
      {
+      "text": "Breitflügelbussarde schmücken den Nestrand immer wieder mit frischen Nadelzweigen.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Breitflügelbussard",
+       "url": "https://de.wikipedia.org/wiki/Breitfl%C3%BCgelbussard",
+       "quote": [
+        "Es wird außen immer mit frischen Koniferenzweigen verkleidet und innen mit Rindenstückchen, Moos, Flechten, Vogelfedern und Tier- oder Pflanzenwolle ausgepolstert.",
+        "Sowohl die Außen– als auch die Innenverkleidung werden während der gesamten Brut- und Nestlingszeit gewartet und erneuert."
+       ],
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Kaum flügge, fangen junge Breitflügelbussarde die Eltern schon auf dem Weg zum Nest ab. Geschwister streiten sich dann oft ums Futter.",
       "len": "long",
       "star": true,
@@ -3450,6 +3830,20 @@
         "Broad-winged Hawks are the smallest buteos in Eastern North America.",
         "many of which breed in Canada and winter in Brazil."
        ]
+      }
+     },
+     {
+      "text": "Balzende Breitflügelbussarde steigen bis außer Sichtweite in den Himmel auf. Dann trudeln beide Partner gemeinsam in einer Spirale abwärts.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Breitflügelbussard",
+       "url": "https://de.wikipedia.org/wiki/Breitfl%C3%BCgelbussard",
+       "quote": [
+        "Beide Partner kreisen über dem Neststandort, steigen dabei oft in so große Höhen auf, dass sie außer Sicht geraten.",
+        "Im Sinkflug nähert sich das meist höher fliegende Männchen dem Weibchen, bis es fast zur Berührung kommt; beide kippen danach ab und trudeln spiralig abwärts."
+       ],
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -3642,6 +4036,17 @@
       }
      },
      {
+      "text": "A turkey vulture's claws are blunt and poorly suited to grabbing prey.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Turkey vulture",
+       "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
+       "quote": "The feet are flat, relatively weak, and poorly adapted to grasping; the talons are also not designed for grasping, as they are relatively blunt.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Courting turkey vultures play follow-the-leader in the air, one copying the other's flight path exactly.",
       "len": "long",
       "star": true,
@@ -3696,6 +4101,17 @@
        "title": "Wikipedia, Turkey vulture",
        "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
        "quote": "Though they are similar in appearance and have similar ecological roles , the New World and Old World vultures evolved in different parts of the world and from different ancestors."
+      }
+     },
+     {
+      "text": "Courting turkey vultures gather in a circle and hop around its edge with their wings half spread.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Turkey vulture",
+       "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
+       "quote": "Courtship rituals of the turkey vulture involve several individuals gathering in a circle, where they perform hopping movements around the perimeter of the circle with wings partially spread.",
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -3781,6 +4197,20 @@
       }
      },
      {
+      "text": "Junge Truthahngeier haben einen schwarzen Kopf; rot wird er erst nach etwa einem Jahr.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Truthahngeier",
+       "url": "https://de.wikipedia.org/wiki/Truthahngeier",
+       "quote": [
+        "Jungvögel haben einen schwarzen Schnabel und Kopf.",
+        "Erst in einem Alter von einem Jahr nimmt der Kopf die Rotfärbung an."
+       ],
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Balzende Truthahngeier fliegen hintereinander her, und der hintere Vogel folgt der Flugbahn des vorderen ganz genau, manchmal stundenlang.",
       "len": "long",
       "star": true,
@@ -3811,6 +4241,17 @@
        "title": "Hawk Mountain Sanctuary, Turkey Vulture",
        "url": "https://www.hawkmountain.org/raptors/turkey-vulture",
        "quote": "On their wintering grounds in Venezuela, migrant Turkey Vultures from North America displace smaller, resident Turkey Vultures from preferred feeding sites."
+      }
+     },
+     {
+      "text": "Truthahngeier sparen sich den Nestbau: Die Eier liegen direkt auf dem Boden, etwa in Höhlen oder zwischen Felsen.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (de), Truthahngeier",
+       "url": "https://de.wikipedia.org/wiki/Truthahngeier",
+       "quote": "Ein Nest wird nicht gebaut, sondern die zwei Eier werden direkt auf den Boden in Höhlen, auf Klippenvorsprünge oder zwischen Felsen gelegt und anschließend 38 bis 41 Tage bebrütet.",
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -4031,6 +4472,20 @@
       }
      },
      {
+      "text": "On one Australian island, some osprey nests have been reused for 70 years.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Osprey",
+       "url": "https://en.wikipedia.org/wiki/Osprey",
+       "quote": [
+        "Rocky outcrops just offshore are used in Rottnest Island off the coast of Western Australia , where 14 or so similar nesting sites are known, of which five to seven are used in any one year.",
+        "Many are renovated each season, and some have been used for 70 years."
+       ],
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Pliny the Elder claimed that osprey parents made their young fly up toward the sun as a test, and got rid of any that failed.",
       "len": "long",
       "star": true,
@@ -4087,6 +4542,20 @@
        "title": "Wikipedia, Osprey",
        "url": "https://en.wikipedia.org/wiki/Osprey",
        "quote": "As an osprey dives, it adjusts the angle of its flight to account for the distortion of the fish's image caused by refraction ."
+      }
+     },
+     {
+      "text": "New Jersey has an official osprey nest-platform design, created by local conservationists and copied far beyond the state.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Osprey",
+       "url": "https://en.wikipedia.org/wiki/Osprey",
+       "quote": [
+        "The nesting platform design developed by Citizens United to Protect the Maurice River and its Tributaries, Inc. has become the official design of the State of New Jersey , U.S.",
+        "The nesting platform plans and materials list, available online, have been used by people from a number of different geographical regions."
+       ],
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -4152,6 +4621,17 @@
       }
      },
      {
+      "text": "Junge Fischadler fallen durch ihre orangefarbenen Augen auf.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Fischadler",
+       "url": "https://de.wikipedia.org/wiki/Fischadler",
+       "quote": "Jungvögel haben im Gegensatz zu adulten Adlern eine orange Iris.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Balzende Fischadler-Männchen tanzen am Himmel, bis zu {90 m|300 ft} hoch, und rufen dabei, oft mit einem Fisch in den Fängen.",
       "len": "long",
       "star": true,
@@ -4186,6 +4666,17 @@
        "title": "Hawk Mountain Sanctuary, Osprey",
        "url": "https://www.hawkmountain.org/raptors/osprey",
        "quote": "Most Ospreys do not return to their breeding grounds until the spring of their second year"
+      }
+     },
+     {
+      "text": "Fischadler brauchen auf dem Zug keine Thermik und überqueren selbst Meere und Wüsten auch an deren breitesten Stellen.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (de), Fischadler",
+       "url": "https://de.wikipedia.org/wiki/Fischadler",
+       "quote": "Der Fischadler ist bei seinen Wanderungen nicht auf Thermik angewiesen und überquert als Breitfrontzieher Meere und Wüsten auch an deren breitesten Stellen.",
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -4366,6 +4857,17 @@
       }
      },
      {
+      "text": "Snow goose youngsters can stay with their parents for two or three years.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Snow goose",
+       "url": "https://en.wikipedia.org/wiki/Snow_goose",
+       "quote": "After 42 to 50 days, they can fly, but they remain with their family until they are 2 to 3 years old.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "On Canada's Bylot Island, snow goose chicks just a day old set off on a {30 km|19 mi} walk with their families.",
       "len": "long",
       "star": true,
@@ -4415,6 +4917,17 @@
         "Bird enthusiasts come out before dawn each morning during the five-day Festival of the Cranes to watch as thousands of birds fly into the sunrise.",
         "As if on cue, tens of thousands of geese rose simultaneously from the marsh, their white bodies shimmering against the desert landscape."
        ]
+      }
+     },
+     {
+      "text": "Snow geese can have chicks with Ross's geese, and those hybrids can have chicks of their own.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Snow goose",
+       "url": "https://en.wikipedia.org/wiki/Snow_goose",
+       "quote": "Where snow geese and Ross's geese breed together, as at La Pérouse, they hybridize at times, and hybrids are fertile.",
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -4490,6 +5003,17 @@
       }
      },
      {
+      "text": "In einer Schneegansfamilie können weiße und dunkle Jungvögel schlüpfen.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Schneegans",
+       "url": "https://de.wikipedia.org/wiki/Schneegans",
+       "quote": "Nichtsdestotrotz kann dasselbe Elternpaar Vertreter beider Morphen hervorbringen, so wie auch farbliche Übergänge möglich sind.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Auf der kanadischen Bylotinsel brechen Schneegans-Küken schon am ersten Lebenstag mit der Familie zu einer Wanderung von über {30 km|19 mi} auf.",
       "len": "long",
       "star": true,
@@ -4523,6 +5047,17 @@
        "title": "Hinterland Who's Who (Canadian Wildlife Service), Greater Snow Goose",
        "url": "https://www.hww.ca/wildlife/birds/greater-snow-goose/",
        "quote": "this goose usually travels at about 55 km/h, is capable of reaching speeds of up to 95 km/h, and can make long nonstop flights of up to 1 000 km."
+      }
+     },
+     {
+      "text": "Schneegänse haben es im arktischen Frühling eilig: Manche legen schon unterwegs an der Küste Eier, bevor sie den Brutplatz erreichen.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Schneegans",
+       "url": "https://de.wikipedia.org/wiki/Schneegans",
+       "quote": "Ihr Fortpflanzungsdrang ist zu dem Zeitpunkt so hoch, dass sie nicht selten schon Eier an der Küste auf dem Weg zu den Brutplätzen ablegen. [ 5 ]",
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -4692,6 +5227,17 @@
       }
      },
      {
+      "text": "Canada goose parents escort goslings with one adult in front and one behind.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Canada goose",
+       "url": "https://en.wikipedia.org/wiki/Canada_goose",
+       "quote": "Parents are often seen leading their goslings in a line, usually with one adult at the front and the other at the back.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Goslings leave the nest the day after hatching, wherever it is. In Edmonton a brood jumped nine floors from a balcony to their parents.",
       "len": "long",
       "star": true,
@@ -4758,6 +5304,17 @@
        "title": "Wikipedia, Canada goose",
        "url": "https://en.wikipedia.org/wiki/Canada_goose",
        "quote": "In 2009, a collision with a flock of migratory Canada geese resulted in US Airways Flight 1549 suffering a total loss of power from both engines after takeoff, forcing the crew of the aircraft to ditch the plane in the Hudson River with no loss of human life."
+      }
+     },
+     {
+      "text": "A gosling needs no swimming lessons: newly hatched Canada geese can walk, swim, and find food straight away.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Canada goose",
+       "url": "https://en.wikipedia.org/wiki/Canada_goose",
+       "quote": "As soon as the goslings hatch, they are immediately capable of walking, swimming, and finding their own food (a diet similar to that of adult geese).",
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -4833,6 +5390,17 @@
        "title": "Missouri Department of Conservation, Canada Goose",
        "url": "https://mdc.mo.gov/discover-nature/field-guide/canada-goose",
        "quote": "The goslings stay with their parents all the time and do not leave them until after the spring migration."
+      }
+     },
+     {
+      "text": "Kanadagänse erkennen einander auch an der Stimme.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Kanadagans",
+       "url": "https://de.wikipedia.org/wiki/Kanadagans",
+       "quote": "Kanadagänse können sich auch am Ruf individuell erkennen.",
+       "checked": "2026-11-05"
       }
      },
      {
@@ -5065,6 +5633,17 @@
       }
      },
      {
+      "text": "Even small sharks have turned up on a bald eagle's menu.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Bald eagle",
+       "url": "https://en.wikipedia.org/wiki/Bald_eagle",
+       "quote": "Much larger marine fish such as Pacific halibut ( Hippoglossus stenolepis ) and lemon sharks ( Negaprion brevirostris ) have been recorded among bald eagle prey though probably are only taken as young, as small, newly mature fish, or as carrion. [ 60 ] [ 89 ]",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Real bald eagles have a dopey chuckle of a call. On screen they're nearly always dubbed with the scream of a red-tailed hawk.",
       "len": "long",
       "star": true,
@@ -5122,6 +5701,17 @@
         "The first baby bald eagle emerged from its shell on Friday morning, to the delight of the eagle-cam audience."
        ]
       }
+     },
+     {
+      "text": "In New Jersey, bald and golden eagles have been seen hunting snow geese side by side without fighting.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Bald eagle",
+       "url": "https://en.wikipedia.org/wiki/Bald_eagle",
+       "quote": "Despite the potential for contention between these animals, in New Jersey during winter, a golden eagle and numerous bald eagles were observed to hunt snow geese alongside each other without conflict.",
+       "checked": "2026-11-05"
+      }
      }
     ],
     "de": [
@@ -5176,6 +5766,17 @@
       }
      },
      {
+      "text": "Der Weißkopf-Seeadler ist erst seit 2024 der offizielle Nationalvogel der USA.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Bald eagle",
+       "url": "https://en.wikipedia.org/wiki/Bald_eagle",
+       "quote": "It has long been considered the \"national bird\", though unofficially until the act of Congress S.4610 was signed into law on December 23, 2024. [ 226 ] [ 227 ]",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Benjamin Franklin nannte den Weißkopf-Seeadler einen Vogel von „schlechtem moralischem Charakter“: zu faul zum Fischen, ein Dieb.",
       "len": "long",
       "star": false,
@@ -5219,6 +5820,17 @@
        "title": "U.S. Fish & Wildlife Service, Bald Eagle",
        "url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
        "quote": "Petersburg, Florida, was 9.5 feet in diameter, 20 feet deep and weighed almost 6,000 pounds!"
+      }
+     },
+     {
+      "text": "Das National Eagle Repository der USA verteilt Adlerfedern an staatlich anerkannte indigene Stämme für religiöse Zeremonien.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Bald eagle",
+       "url": "https://en.wikipedia.org/wiki/Bald_eagle",
+       "quote": "The National Eagle Repository , a division of the FWS , exists as a means to receive, process, and store bald and golden eagles which are found dead and to distribute the eagles, their parts and feathers to federally recognized Native American tribes for use in religious ceremonies. [ 224 ]",
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -5398,6 +6010,17 @@
       }
      },
      {
+      "text": "Blackpoll mothers may start a second nest while the father feeds the first brood.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Blackpoll warbler",
+       "url": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
+       "quote": "Mated females usually begin second nests right away and leave post-fledging parental duties to their mates.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Flying from Maine to Brazil, a blackpoll warbler burns less fat than there is in a single serving of Ben & Jerry's ice cream.",
       "len": "long",
       "star": true,
@@ -5440,6 +6063,20 @@
        "title": "Audubon Field Guide, Blackpoll Warbler",
        "url": "https://www.audubon.org/field-guide/bird/blackpoll-warbler",
        "quote": "Females return to nest site of previous year and mate with male holding that territory"
+      }
+     },
+     {
+      "text": "A blackpoll hunts tiny pests from mosquitoes to aphids, and can switch from searching the treetops to catching insects in midair.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Blackpoll warbler",
+       "url": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
+       "quote": [
+        "Documented insect prey for the species includes lice , locusts , cankerworms , mosquitoes , webworms , ants , termites , gnats , aphids , and sawflies .",
+        "They often forage high in trees, and sometimes catch insects while in flight."
+       ],
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -5500,6 +6137,20 @@
       }
      },
      {
+      "text": "Streifenwaldsänger singen ein sehr hohes, schlichtes „tsi-tsi-tsi“.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Blackpoll warbler",
+       "url": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
+       "quote": [
+        "They are more often heard than seen, though their song is one of the highest-pitched known.",
+        "Their songs are simple repetitions of high tsi notes."
+       ],
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Auf dem Flug von Maine nach Brasilien verbrennt ein Streifenwaldsänger weniger Fett, als in einer Portion Eiscreme von Ben & Jerry's steckt.",
       "len": "long",
       "star": true,
@@ -5542,6 +6193,20 @@
         "the average blackpoll warbler weighs in at about 10 to 12 grams",
         "blackpolls nearly double their mass as they binge on insects, spiders, seeds, and fruit."
        ]
+      }
+     },
+     {
+      "text": "Im Herbst tragen Streifenwaldsänger-Männchen Grün und Gelb statt schwarzer Kappe und weißer Brust.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Streifenwaldsänger",
+       "url": "https://de.wikipedia.org/wiki/Streifenwalds%C3%A4nger",
+       "quote": [
+        "Im Brutkleid tragen männliche Streifenwaldsänger eine schwarze Kappe, eine schwarzgestreifte weiße Brust, ein weißes Kopfgefieder und ein braunes mit dunklen Streifen versetztes Oberseitengefieder.",
+        "Außerhalb der Brutzeit ist das Oberseitengefieder grünlich und mit dunklen Streifen versetzt, der Kopf grünlich und der Brustbereich gelblich."
+       ],
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -5677,6 +6342,17 @@
       }
      },
      {
+      "text": "Every blue whale wears its own pattern of pale blotches.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "NOAA Fisheries, Blue Whale",
+       "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+       "quote": "The mottling pattern is variable and can be used to identify individuals.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Whales can be aged by the layers of their waxy earplugs; the oldest blue whale aged this way was about 110.",
       "len": "long",
       "star": true,
@@ -5750,6 +6426,17 @@
         "Plans called for a four-ton whale, but the finished product was 10 tons.",
         "placing and attaching 28 fine hairs to the whale's chin."
        ]
+      }
+     },
+     {
+      "text": "While lunging for krill, blue whales can roll upside down. Turning may help them find the densest patches of food.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Blue whale",
+       "url": "https://en.wikipedia.org/wiki/Blue_whale",
+       "quote": "Blue whales have been recorded making 180° rolls during lunge-feeding, possibly allowing them to search the prey field and find the densest patches. [ 89 ]",
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -5825,6 +6512,17 @@
       }
      },
      {
+      "text": "Auch ein Blauwal hat Haare! Nämlich am Kinn, am Unterkiefer und oben auf dem Kopf.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (de), Blauwal",
+       "url": "https://de.wikipedia.org/wiki/Blauwal",
+       "quote": "An verschiedenen Stellen des Kopfes befinden sich Haare, vor allem am Kinn, beidseitig am Unterkiefer und auf der Oberseite.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Wie Jahresringe zeigen die Schichten im Ohrenschmalz das Alter eines Wals. Der älteste so bestimmte Blauwal war etwa 110 Jahre alt.",
       "len": "long",
       "star": true,
@@ -5885,6 +6583,17 @@
         "Then the whale's massive tongue forces the water out through the thin, overlapping baleen plates.",
         "Thousands of krill are left behind—and then swallowed."
        ]
+      }
+     },
+     {
+      "text": "Die Bauchfalten des Blauwals reichen vom Maul bis zum Nabel. So kann sich der Mundraum beim Fressen weit ausdehnen.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Blauwal",
+       "url": "https://de.wikipedia.org/wiki/Blauwal",
+       "quote": "An der Unterseite ziehen sich 60 bis 88 [ 1 ] Ventralfurchen vom Maul bis zum Nabel, die das namensgebende Merkmal der Furchenwale darstellen und die Erweiterung des Mundraumes bei der Nahrungsaufnahme ermöglichen.",
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -6043,6 +6752,17 @@
       }
      },
      {
+      "text": "A loggerhead's apparent tears are a way of getting rid of salt.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Loggerhead sea turtle",
+       "url": "https://en.wikipedia.org/wiki/Loggerhead_sea_turtle",
+       "quote": "Lachrymal glands located behind each eye allow the loggerhead to maintain osmotic balance by eliminating the excess salt obtained from ingesting ocean water.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "A loggerhead's shell is a whole world: more than a hundred kinds of living things, from barnacles to crabs and algae, live on it.",
       "len": "long",
       "star": true,
@@ -6089,6 +6809,20 @@
         "Total estimated nesting in the United States is more than 100,000 nests per year.",
         "The most recent reviews show that only two loggerhead nesting aggregations have greater than 10,000 females nesting per year: Peninsular Florida and Oman."
        ]
+      }
+     },
+     {
+      "text": "The loggerhead is South Carolina's state reptile and Florida's state saltwater reptile; it also appears on a Colombian coin.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Loggerhead sea turtle",
+       "url": "https://en.wikipedia.org/wiki/Loggerhead_sea_turtle",
+       "quote": [
+        "The loggerhead sea turtle appears on the $1000 Colombian peso coin.",
+        "In the United States, the loggerhead sea turtle is the official state reptile of South Carolina and also the state saltwater reptile of Florida. [ 121 ] [ 122 ]"
+       ],
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -6154,6 +6888,17 @@
       }
      },
      {
+      "text": "Unechte Karettschildkröten können Kopf und Flossen nicht in den Panzer ziehen.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "NOAA Fisheries, Loggerhead Turtle",
+       "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+       "quote": "Unlike freshwater turtles and tortoises, sea turtles cannot withdraw their head or flippers into their shells.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "Alle zwei bis drei Jahre schwimmen die Weibchen zum Eierlegen in die Gegend zurück, in der sie selbst Jahrzehnte zuvor geschlüpft sind.",
       "len": "long",
       "star": true,
@@ -6194,6 +6939,17 @@
        "title": "NOAA Fisheries, Loggerhead Turtle",
        "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
        "quote": "Hatchlings from nesting beaches in Japan and Australia have been tracked migrating across the Pacific"
+      }
+     },
+     {
+      "text": "In kalten Monaten können Unechte Karettschildkröten bis zu sieben Stunden abtauchen, bevor sie kurz zum Atmen auftauchen.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Loggerhead sea turtle",
+       "url": "https://en.wikipedia.org/wiki/Loggerhead_sea_turtle",
+       "quote": "In the coldest months, they submerge for up to seven hours at a time, emerging for only seven minutes to breathe.",
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -6373,6 +7129,17 @@
       }
      },
      {
+      "text": "A peregrine's dark cheek stripes help cut glare, like an athlete's eye black.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Peregrine falcon",
+       "url": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+       "quote": "A 2021 study of photos from around the world showed that the malar stripe is larger in areas that receive more sunlight, and concluded that the stripe serves to improve the falcon's vision by reducing glare. [ 20 ]",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "DDT made peregrines lay eggs that broke. By 1975 only 324 pairs were left in North America; after DDT was banned they bounced back.",
       "len": "long",
       "star": true,
@@ -6427,6 +7194,20 @@
         "Ornithology professor Tom Cade founded The Peregrine Fund at Cornell University in 1970 to breed the falcons in captivity and release them to the wild.",
         "The Peregrine Fund bred and released more than 4,000 falcons from 1974 to 1997."
        ]
+      }
+     },
+     {
+      "text": "A female peregrine rolls upside down in flight to take a food gift from the male's talons.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Peregrine falcon",
+       "url": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+       "quote": [
+        "The male passes prey it has caught to the female in mid-air.",
+        "To make this possible, the female flies upside-down to receive the food from the male's talons."
+       ],
+       "checked": "2026-11-05"
       }
      }
     ],
@@ -6507,6 +7288,17 @@
       }
      },
      {
+      "text": "Wanderfalken fangen nicht nur Vögel: Auch Fledermäuse stehen auf dem Speiseplan.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (de), Wanderfalke",
+       "url": "https://de.wikipedia.org/wiki/Wanderfalke",
+       "quote": "Wanderfalken jagen bis weit in die Dämmerung hinein; Fledermäuse , vor allem früh fliegende Arten wie Abendsegler , sind daher die einzigen regelmäßig erbeuteten Säugetiere. In Großstädten nutzen Wanderfalken das große Kunstlichtangebot und jagen nachts ziehende Vögel wie Rallen und Limikolen , in Berlin z. B. häufig Wasserrallen , Wachtelkönige und Waldschnepfen . [ 41 ]",
+       "checked": "2026-11-05"
+      }
+     },
+     {
       "text": "In den 1950ern brüteten in Deutschland etwa 900 Wanderfalkenpaare. 1982 waren nur noch rund 60 übrig. Heute sind es wieder etwa 1.000.",
       "len": "long",
       "star": true,
@@ -6555,6 +7347,17 @@
         "sogar in den Dünenlandschaften der deutschen Nordseeküste.",
         "Die Hochhausschluchten großer Städte sind vom Wanderfalken längst als gute Jagd"
        ]
+      }
+     },
+     {
+      "text": "Wanderfalken nutzen künstliches Licht, um auch nachts durchziehende Vögel zu fangen.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Wanderfalke",
+       "url": "https://de.wikipedia.org/wiki/Wanderfalke",
+       "quote": "Wanderfalken jagen bis weit in die Dämmerung hinein; Fledermäuse , vor allem früh fliegende Arten wie Abendsegler , sind daher die einzigen regelmäßig erbeuteten Säugetiere. In Großstädten nutzen Wanderfalken das große Kunstlichtangebot und jagen nachts ziehende Vögel wie Rallen und Limikolen , in Berlin z. B. häufig Wasserrallen , Wachtelkönige und Waldschnepfen . [ 41 ]",
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -6655,6 +7458,89 @@
        "checked": "2026-11-04",
        "quote": "influence of environmental conditions, monitored using satellite data, on departure date and movement speed of migrating zebras in Botswana"
       }
+     },
+     {
+      "text": "No two plains zebras wear exactly the same stripes.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Plains zebra",
+       "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+       "quote": "Like all zebras, they are boldly striped in black and white and no two individuals look exactly alike.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "A plains zebra foal is born brown and white; the dark stripes deepen with age.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Plains zebra",
+       "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+       "quote": "The natal coat of a foal is brown and white and the brown darkens with age. [ 15 ] [ 14 ] [ 19 ]",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Plains zebras bark: their contact call sounds like a repeated \"kwa-ha\".",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Plains zebra",
+       "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+       "quote": "One is its distinctive, high-pitched, contact call (commonly called \" barking \") heard as \"a- ha , a- ha , a- ha \" or \"kwa-ha, kaw-ha, ha, ha\" [ 15 ] also transcribed as \"kwahaah\", [ 30 ] or \"oug-ga\".",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "While a zebra group sleeps, one member keeps watch.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Plains zebra",
+       "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+       "quote": "They may rest or sleep laying down, while one individual keeps guard. [ 9 ]",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "A mother zebra initially keeps even her older offspring away from her newborn.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Plains zebra",
+       "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+       "quote": "Early on, a mother zebra keeps any other zebra away from her foal, including the stallion, the other mares, and even her previous offspring.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Zebras tackle long, tough grass first, opening the way for fussier grazers such as wildebeest and Thomson's gazelles.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (en), Plains zebra",
+       "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+       "quote": [
+        "Plains zebras are adapted for grazing on both long, tough grass stems and newly emerging short grass (stems and sheaths).",
+        "The zebra is a pioneer grazer and prepares the way for more specialised grazers such as blue wildebeests and Thomson's gazelles . [ 9 ]"
+       ],
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Zebras groom one another with their teeth and lips, nibbling along the neck and back to strengthen family bonds.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Plains zebra",
+       "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+       "quote": [
+        "Zebras strengthen their social bonds with grooming .",
+        "Members of a harem nip and scrape along the neck, withers, and back with their teeth and lips."
+       ],
+       "checked": "2026-11-05"
+      }
      }
     ],
     "de": [
@@ -6678,6 +7564,100 @@
        "doi": "10.5441/001/1.f3550b4f",
        "checked": "2026-11-04",
        "quote": "Daily zebra movements between dry and rainy season ranges"
+      }
+     },
+     {
+      "text": "Steppenzebras suchen nach verloren gegangenen Herdenmitgliedern.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Steppenzebra",
+       "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+       "quote": "Der Zusammenhalt innerhalb der Herde ist sehr groß, verloren gegangene Mitglieder werden über längere Zeit gesucht.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Junge Steppenzebra-Hengste leben in eigenen Junggesellengruppen.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (de), Steppenzebra",
+       "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+       "quote": "Neben den eigentlichen Herden gibt es auch „Junggesellengruppen“ junger männlicher Tiere, die noch keine eigene Herde aufgebaut haben.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Ein Steppenzebra-Fohlen steht schon rund elf Minuten nach der Geburt.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (de), Steppenzebra",
+       "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+       "quote": "Nach rund elf Minuten steht das Fohlen bereits, nach im Mittel einer Stunde saugt es erstmals Milch.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Manche Steppenzebras tragen zusätzliche „Schattenstreifen“ im Fell.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Steppenzebra",
+       "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+       "quote": [
+        "Die breitesten Streifen besitzt heute die Unterart Böhm-Zebra in Ostafrika, sogenannte „Schattenstreifen“, die manchmal die weißen Streifen überlagern, kommen hier kaum vor.",
+        "Die Streifenzeichnungen werden schmaler, aber weniger bei Populationen, die im Süden leben, hier treten dann auch sehr häufig „Schattenstreifen“ auf."
+       ],
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Bei Gefahr wecken Steppenzebras zuerst die Jungtiere.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (de), Steppenzebra",
+       "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+       "quote": "Als Schutz vor Beutegreifern hält mindestens ein Tier Wache, Jungtiere werden bei aufziehender Gefahr als erste geweckt.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Vorn führt meist die ranghöchste Stute, hinten sichert der Hengst. Beim Trinken geht dagegen der Hengst als Erster vor.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Steppenzebra",
+       "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+       "quote": "In der Regel führt die ranghöchste Stute die Gruppe, während der Hengst am Ende des Zuges die Nachhut bildet; beim Trinken, das meist nachts stattfindet, ist er jedoch der Erste.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Zur Begrüßung zeigen Steppenzebra-Ohren nach vorn; bei einer Drohung gehen sie zurück und die Zähne kommen zum Vorschein.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Steppenzebra",
+       "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+       "quote": [
+        "Beim Treffen zweier Herden führen die Hengste eine ritualisierte Begrüßungszeremonie durch, bestehend aus der charakteristischen Grußgeste – erhobene und nach vorn gerichtete Ohren – und gegenseitigem Beschnüffeln der Nase und Genitalien .",
+        "Ein Steppenzebra in Bedrängung legt die Ohren an und spreizt bei zunehmender Bedrohung die Lippen und zeigt die Zähne, eine Mimik , die dem Flehmen und dem Rossigkeitsgesicht ähnelt."
+       ],
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Steppenzebras bereiten Gnus und Gazellen den Tisch: Erst wird das lange Gras abgefressen und niedergetrampelt, dann folgen die anderen.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Steppenzebra",
+       "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+       "quote": "Erst nachdem das Steppenzebra das lange Gras abgefressen und niedergetrampelt hat, folgen Gnus und Gazellen .",
+       "checked": "2026-11-05"
       }
      }
     ]
@@ -6755,6 +7735,100 @@
        "checked": "2026-11-04",
        "quote": "a mean of 6.0 clutches (range 2–9, s.d. = 2.2) was laid by individuals"
       }
+     },
+     {
+      "text": "Green turtles are named for the color of their fat, not their shells.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "NOAA Fisheries, Green Turtle",
+       "url": "https://www.fisheries.noaa.gov/species/green-turtle",
+       "quote": "The name “green turtle” comes from the color of their fat (not their shells), which originally was attributed to their diet; however, other sea turtles have greenish fat as well.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "A green turtle's beak has saw-like edges.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "NOAA Fisheries, Green Turtle",
+       "url": "https://www.fisheries.noaa.gov/species/green-turtle",
+       "quote": "Other distinct characteristics of the green turtle are the serrated edges of their beak and two large scales located between their eyes.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Green turtles mostly eat their greens: seagrasses and algae.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "NOAA Fisheries, Green Turtle",
+       "url": "https://www.fisheries.noaa.gov/species/green-turtle",
+       "quote": "Their diet mainly consists of algae and seagrasses, though they may also eat invertebrates and other animal matter (e.g., discarded fish and bait) if available.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "A green turtle sees well underwater but is nearsighted on land.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Green sea turtle",
+       "url": "https://en.wikipedia.org/wiki/Green_sea_turtle",
+       "quote": [
+        "Green sea turtles tend to have good vision, well adapted to a life at sea.",
+        "On land, however, the sea turtles are nearsighted because the lenses in the eyes are spherical and adjusted to refraction underwater."
+       ],
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Baby green turtles have a bright white outline along their shells and flippers.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "NOAA Fisheries, Green Turtle",
+       "url": "https://www.fisheries.noaa.gov/species/green-turtle",
+       "quote": "Hatchlings have a dark gray to black carapace, white plastron, and prominent white margins on the shell and flippers.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "A green turtle that seems to be crying may just be shedding excess salt through glands behind its eyes.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Green sea turtle",
+       "url": "https://en.wikipedia.org/wiki/Green_sea_turtle",
+       "quote": "Basking turtles sometimes look like they are crying because behind the turtles eye is the lachrymal gland which stores excess salt from the sea water, which then expels through the turtles eye.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Green turtles can tuck themselves under rocks to sleep, returning to the same underwater bedroom night after night.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (en), Green sea turtle",
+       "url": "https://en.wikipedia.org/wiki/Green_sea_turtle",
+       "quote": [
+        "During the night while sleeping and to protect themselves from potential predators, the adults wedge themselves under rocks below the surface and under ledges in reefs and coastal rocks.",
+        "Many green sea turtles have been observed in returning to the same sleeping location night after night. [ 35 ]"
+       ],
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "A baby green turtle finds the sea by moving away from dark dunes toward the brightest horizon.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "NOAA Fisheries, Green Turtle",
+       "url": "https://www.fisheries.noaa.gov/species/green-turtle",
+       "quote": "Hatchlings orient seaward by moving away from the darkest silhouette of the landward dune or vegetation to crawl towards the brightest horizon.",
+       "checked": "2026-11-05"
+      }
      }
     ],
     "de": [
@@ -6778,6 +7852,83 @@
        "doi": "10.5441/001/1.313",
        "checked": "2026-11-04",
        "quote": "a mean of 6.0 clutches (range 2–9, s.d. = 2.2) was laid by individuals"
+      }
+     },
+     {
+      "text": "Grüne Meeresschildkröten haben an jeder Vorderflosse eine Kralle.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Grüne Meeresschildkröte",
+       "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+       "quote": "An den Vorderflossen haben diese Schildkröten eine verlängerte Kralle.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Erwachsene Grüne Meeresschildkröten grasen auf den Seegraswiesen des Meeres.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (de), Grüne Meeresschildkröte",
+       "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+       "quote": "Ausgewachsene Tiere ernähren sich vor allem vegetarisch und weiden sich durch die Seegraswiesen der Meere.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Junge Grüne Meeresschildkröten fressen auch Kalmare und Fischeier.",
+      "len": "short",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Grüne Meeresschildkröte",
+       "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+       "quote": "Die Jungtiere der Grünen Meeresschildkröte sind Fleischfresser, die unter anderem Kalmare sowie die Eier von Fischen und Schwämmen fressen.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Die Eier Grüner Meeresschildkröten sind etwa so groß wie Tischtennisbälle.",
+      "len": "short",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (de), Grüne Meeresschildkröte",
+       "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+       "quote": "Es werden ungefähr 100 Eier von Tischtennisballgröße pro Gelege gelegt.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Eine Art innerer Kompass hilft Grünen Meeresschildkröten, nach Jahren auf See wieder in die Gegend ihres Geburtsstrands zu finden.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (de), Grüne Meeresschildkröte",
+       "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+       "quote": "Die Grüne Meeresschildkröte orientiert sich aufgrund ihres Magnetsinns am Erdmagnetfeld , um Jahre nach dem Schlüpfen erstmals wieder zur Eiablage an den gleichen Strand zurückzukehren.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Bei Grünen Meeresschildkröten entscheidet die Wärme im Sand über das Geschlecht: Kühlere Nester bringen eher Männchen hervor.",
+      "len": "long",
+      "star": true,
+      "source": {
+       "title": "Wikipedia (de), Grüne Meeresschildkröte",
+       "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+       "quote": "Dabei bedingt die Temperatur während des Ausbrütens die Entwicklung der Geschlechter: Während bei 28 Grad Celsius nur Männchen schlüpfen, schlüpfen bei 32 Grad Celsius nur Weibchen.",
+       "checked": "2026-11-05"
+      }
+     },
+     {
+      "text": "Die „Schwarze Meeresschildkröte“ ist keine eigene Art: Die dunklen Tiere gehören ebenfalls zu den Grünen Meeresschildkröten.",
+      "len": "long",
+      "star": false,
+      "source": {
+       "title": "Wikipedia (de), Grüne Meeresschildkröte",
+       "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+       "quote": "Gegenwärtig wird davon ausgegangen, dass es sich bei der dunklen Färbung lediglich um eine Farbmutation handelt, weswegen die Schwarze Meeresschildkröte weder als eigenständige Art, noch als Unterart von C. mydas anerkannt wird. [ 15 ]",
+       "checked": "2026-11-05"
       }
      }
     ]
