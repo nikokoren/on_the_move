@@ -88,7 +88,7 @@ function render(preferredId=currentId,fallbackIndex=0){
     for(const [v,title] of [['ok','Approve'],['star','★ Favorite'],['veto','Veto'],['rewrite','Send for rewrite'],['pending','Pending']]){const b=el('button',title);bs[v]=b;b.addEventListener('click',()=>{save(f,v==='star'?{star:!review(f).star,verdict:'ok'}:{verdict:v,star:v==='ok'?review(f).star:false});render(f.id,index);if(v==='rewrite'&&currentId===f.id)$('cards').querySelector('.note')?.focus();});actions.append(b);}buttons();
     const noteLabel=el('label','Rewrite instructions or review notes'),note=el('textarea',undefined,'note');note.placeholder='What should change? Add context, a preferred tone, or suggested wording.';note.value=review(f).note;noteLabel.append(note);card.append(noteLabel,actions);note.addEventListener('input',()=>save(f,{note:note.value}));
     const details=el('details'),summary=el('summary',`Source evidence · checked ${f.source.checked}`),link=el('a',f.source.title);link.href=f.source.url;link.target='_blank';link.rel='noopener noreferrer';details.append(summary,link);for(const q of [].concat(f.source.quote))details.append(el('blockquote',q));card.append(details);
-    const original=el('details');original.append(el('summary','Original proposal this round'),el('p',f.text));card.append(original,el('p',f.id,'fact-id'));$('cards').append(card);
+    const original=el('details');original.append(el('summary','Original proposal this round'),el('p',f.proposalText||f.text));card.append(original,el('p',f.id,'fact-id'));$('cards').append(card);
   }
 }
 for(const id of ['species','language','kind','verdict'])$(id).addEventListener('change',()=>render());

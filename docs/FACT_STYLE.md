@@ -36,6 +36,8 @@ Starred: named animals and people (Klepetan and Malena, Prinzesschen, Lady the o
 
 Round-five feedback (2026-11-05) is preserved in `pipeline/facts_review_round5.json`; apply its verdicts per item and language. Six vetoes: the German crane's false tail, wheatear plumage change, curlew's “Beerenpause”, Lishman's Canada geese, and green turtle's male tail; the English zebra family's change of stallion. Do not reintroduce these as new suggestions. For rewrites, prefer complete, natural German sentences and clear place references: “am Fundort” was unclear when describing where turtle doves court. Simplify the curlew's mistaken Madagascar name story. Follow-up wording remains subject to owner review.
 
+Round six is complete (2026-11-05), recorded in `pipeline/facts_review_round6.json`: 10 approvals and one further veto, the German crane's bare red crown. Final wording includes the owner's three edits, which take precedence over the house style (including the possessive “Sein” in the stork fact). Across both rounds, 98 additions were accepted and 7 vetoed; all approved additions are in `pipeline/facts_reviewed.json`. Preserve these decisions and their language when adding future facts.
+
 ## Sources
 
 Every fact rests on one or more sentences quoted verbatim from its source, checked by script against the live page (working method rule 3). Paraphrase in the fact; never copy the source sentence as the fact. Prefer primary sources, research institutions, conservation bodies and good journalism; Wikipedia is acceptable but not preferred. Measurements are written `{metric|imperial}` (e.g. `{48 km|30 mi}`), in the source's own units where the source gives them.

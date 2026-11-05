@@ -1,6 +1,6 @@
 # Animal facts — round 5
 
-2026-11-05 · **105 proposed additions.** 52 English and 53 German facts across all 20 currently featured species. No production pools or individual-animal notes were changed.
+2026-11-05 · **105 proposed additions.** 52 English and 53 German facts across all 20 currently featured species. The imported review outcomes and current release state are recorded below.
 
 Open [the interactive review](facts-round5.html) in a browser to edit wording, go through suggestions individually, approve, star, veto, request a rewrite with notes, and export your decisions. Edits are saved in that browser when local storage is available; export to keep a portable copy. Approval in the page only records a decision; integration is a separate step.
 
@@ -14,7 +14,7 @@ Sources are mostly English and German Wikipedia, with NOAA Fisheries for several
 
 Every species gets at least one new short and one new long fact in each language. If all proposals are accepted, every pool reaches at least six short and four long facts. Zebras and green turtles each receive 16 additions, bringing each language from two to ten facts.
 
-Recheck before integration:
+Initial draft checks (before integration):
 
 ```sh
 python3 pipeline/check_fact_draft.py pipeline/facts_draft_round5_en.json --additions --cache pipeline/.cache/facts-round5-check
@@ -22,7 +22,7 @@ python3 pipeline/check_fact_draft.py pipeline/facts_draft_round5_de.json --addit
 python3 pipeline/build_fact_review.py
 ```
 
-Use an empty cache directory for a fresh live-source pass. After review, recheck edited wording against its quotes and build/render the accepted facts through the normal recipe pipeline. Rejected facts remain excluded.
+Use an empty cache directory for a fresh live-source pass. After integration, the additions checker correctly rejects facts already in the bundle; use [the release checks](../FACTS_RELEASE.md) for the accepted content. After review, recheck edited wording against its quotes and build/render the accepted facts through the normal recipe pipeline. Rejected facts remain excluded.
 
 Browser checks passed for individual navigation through all 105 suggestions, filters, current-fact comparison, edits and overlength warnings, separate veto/rewrite decisions with notes, favorites, persistence, and the complete JSON export. Desktop (1280 px) and mobile (390 px) showed no horizontal overflow or JavaScript errors. [Rendered review preview](facts-round5-preview.png).
 
@@ -55,9 +55,9 @@ Counts are **EN short / EN long / DE short / DE long**. ‘After’ describes th
 
 ## Imported owner review
 
-Exported 2026-11-05T14:30:07.841Z: 91 approved, 6 vetoed, 5 requested rewrites, 3 pending. All edits, notes and 39 favorites are preserved in `pipeline/facts_review_round5.json`. Three approved edits have proposed grammar repairs, presented separately for confirmation. The other 88 approvals need no further wording review. No new facts have been integrated.
+Exported 2026-11-05T14:30:07.841Z: 91 approved, 6 vetoed, 5 requested rewrites, 3 pending. All edits, notes and 39 favorites are preserved in `pipeline/facts_review_round5.json`. Three approved edits have proposed grammar repairs, presented separately for confirmation. The other 88 approvals need no further wording review. Round six is complete: 98 approved additions are integrated locally and all 7 vetoes are excluded. Nothing published.
 
-Continue with the [11-item follow-up review](facts-round6.html). The original export remains unchanged; its instructions are editorial feedback for these items.
+See the [11-item follow-up review](facts-round6.html). The original export remains unchanged; its instructions are editorial feedback for these items.
 
 
 ## White Stork / Weißstorch

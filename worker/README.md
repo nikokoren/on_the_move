@@ -18,6 +18,8 @@ Then set the polling URL in TRMNL (`template/README.md`). Keep the Worker URL ou
 
 ## Updating the data
 
+For approved fact edits only, run `python3 pipeline/build_facts.py` from the repository root. It refreshes all 20 species from `pipeline/facts_reviewed.json`, retains the seasonal study facts, and preserves the captured annual tracks. Run the checks below before release.
+
     python3 pipeline/verify_sources.py      # species facts still on their sources
     python3 pipeline/build_featured.py && python3 pipeline/build_whitelist.py && python3 pipeline/build_species.py
     npm run check && npx wrangler deploy

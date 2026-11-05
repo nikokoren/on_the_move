@@ -82,6 +82,7 @@ def daily_fixes(folder, sp):
 
 def append_seasonal(data, refresh=False):
     config = json.loads(CONFIG.read_text())
+    reviewed = json.loads((ROOT/'pipeline/facts_reviewed.json').read_text())['species']
     data['species'] = [s for s in data['species'] if not s.get('seasonal')]
     for sp in config['species']:
         folder, it = files_for(sp, refresh)
@@ -94,6 +95,13 @@ def append_seasonal(data, refresh=False):
                 if f['quote'] not in abstract or len(f['text']) > 140:
                     raise ValueError(f"Fact quote or length invalid: {f['text']}")
             facts[lang] = [{ 'text': f['text'], 'len':f['len'], 'source': {**source, 'quote': f['quote']}} for f in ff]
+            # General species stories have their own sources, separate from the
+            # migration study abstract. Only owner-approved pools enter here.
+            for length in ('short', 'long'):
+                for f in reviewed.get(sp['taxon'], {}).get(lang, {}).get(length, []):
+                    if len(f['text']) > (90 if length == 'short' else 140) or not f.get('source', {}).get('quote'):
+                        raise ValueError(f"Reviewed fact length or source invalid: {f['id']}")
+                    facts[lang].append({'text':f['text'], 'len':length, 'star':f['star'], 'source':f['source']})
         daily = daily_fixes(folder, sp)
         entry = {'taxon': sp['taxon'], 'names': sp['names'], 'seasonal': True, 'mapZoom':sp.get('mapZoom',3),
                  'photo': (ROOT/'worker/photos'/f"{sp['taxon'].lower().replace(' ', '_')}.jpg").exists(),
