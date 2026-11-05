@@ -1,0 +1,852 @@
+{
+ "lang": "de",
+ "about": "New additions for owner review, 2026-11-05. Pending; not integrated into the recipe. Existing approved pools are unchanged.",
+ "species": {
+  "Ciconia ciconia": {
+   "short": [
+    {
+     "id": "de5-s-stork-klapper-name",
+     "text": "Kaum Stimme, aber viel Schnabelklappern: Daher heißt der Weißstorch auch Klapperstorch.",
+     "source": {
+      "title": "Wikipedia (de), Weißstorch",
+      "url": "https://de.wikipedia.org/wiki/Wei%C3%9Fstorch",
+      "quote": [
+       "Die Stimme des Weißstorchs ist nur schwach ausgeprägt.",
+       "Er verständigt sich durch Klappern mit dem Schnabel , deshalb wird er auch Klapperstorch [ 2 ] genannt."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-stork-no-knife",
+     "text": "Ein Storchenschnabel ist kein Messer: Große Beute wird im Ganzen geschluckt, weil der Schnabel sie nicht zerlegen kann.",
+     "source": {
+      "title": "Wikipedia (de), Weißstorch",
+      "url": "https://de.wikipedia.org/wiki/Wei%C3%9Fstorch",
+      "quote": "Große Beutestücke bis knapp 1000 Gramm können nur als ganzes Stück verschlungen werden, da der Storchenschnabel für das Zerlegen von Beute und Aas nicht geeignet ist.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Grus grus": {
+   "short": [
+    {
+     "id": "de5-s-crane-bare-crown",
+     "text": "Der rote Fleck auf dem Kranichkopf besteht aus nackter Haut, nicht aus roten Federn.",
+     "source": {
+      "title": "Wikipedia (de), Kranich",
+      "url": "https://de.wikipedia.org/wiki/Kranich",
+      "quote": "Kennzeichnend sind die schwarz-weiße Kopf- und Halszeichnung und die federlose rote Kopfplatte.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-crane-false-tail",
+     "text": "Die Kranich-„Schleppe“ ist kein langer Schwanz: Verlängerte Federn hängen über die eigentlichen Schwanzfedern.",
+     "source": {
+      "title": "Wikipedia (de), Kranich",
+      "url": "https://de.wikipedia.org/wiki/Kranich",
+      "quote": "Die Humeralfedern variieren farblich von Grau bis Schwarz und hängen bei Altvögeln als Schleppe über den Schwanz hinweg.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Pernis apivorus": {
+   "short": [
+    {
+     "id": "de5-s-honey-straight-claws",
+     "text": "Wespenbussarde haben fast gerade Krallen und ans Graben angepasste Beine.",
+     "source": {
+      "title": "Wikipedia (de), Wespenbussard",
+      "url": "https://de.wikipedia.org/wiki/Wespenbussard",
+      "quote": [
+       "Die Beine sind vor allem an das Graben im Boden angepasst.",
+       "Der Tarsometatarsus ist kurz und sehr kräftig, wobei der unbefiederte Teil sehr dick beschuppt ist.",
+       "Die Krallen sind kaum gebogen."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "de5-s-honey-rattle-call",
+     "text": "Beim Partnerwechsel am Nest lassen Wespenbussarde einen leisen Rasselruf hören.",
+     "source": {
+      "title": "Wikipedia (de), Wespenbussard",
+      "url": "https://de.wikipedia.org/wiki/Wespenbussard",
+      "quote": "Noch seltener wahrgenommen wird ein vergleichsweise leiser, klappernder und in der Tonhöhe variierender „Rasselruf“, der vor allem bei der Ablösung des Partners am Nest eingesetzt wird.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-honey-wasp-timetable",
+     "text": "Wespenbussarde kommen so spät aus Afrika zurück, dass die Jungenaufzucht in die Wespen-Hochsaison fällt.",
+     "source": {
+      "title": "Wikipedia (de), Wespenbussard",
+      "url": "https://de.wikipedia.org/wiki/Wespenbussard",
+      "quote": "Die Art kommt erst sehr spät aus den afrikanischen Winterquartieren zurück, so dass die Jungenaufzucht in die Zeit der größten Häufigkeit von Wespen, den Hochsommer, fällt.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Streptopelia turtur": {
+   "short": [
+    {
+     "id": "de5-s-dove-young-collar",
+     "text": "Junge Turteltauben tragen noch keinen schwarz-weißen Halsstreifen-Kragen.",
+     "source": {
+      "title": "Wikipedia (de), Turteltaube",
+      "url": "https://de.wikipedia.org/wiki/Turteltaube",
+      "quote": "Die für die adulten Vögel charakteristischen Halsquerbinden entwickeln sich erst nach einigen Monaten.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-dove-spring-wandering",
+     "text": "Frisch aus Afrika zurück, ziehen Turteltauben oft wochenlang umher. Selbst ein balzendes Paar muss am Fundort nicht brüten.",
+     "source": {
+      "title": "Wikipedia (de), Turteltaube",
+      "url": "https://de.wikipedia.org/wiki/Turteltaube",
+      "quote": [
+       "Rückkehrende Turteltauben schreiten nicht sofort zur Brut, sondern ziehen einzeln und als Paar über mehrere Wochen umher.",
+       "Selbst eine Balz ist kein Indiz dafür, dass das Paar an diesem Ort auch zur Brut schreiten wird. [ 15 ]"
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Larus fuscus": {
+   "short": [
+    {
+     "id": "de5-s-gull-underwater",
+     "text": "Heringsmöwen tauchen bei der Fischjagd manchmal vollständig unter.",
+     "source": {
+      "title": "Wikipedia (de), Heringsmöwe",
+      "url": "https://de.wikipedia.org/wiki/Heringsm%C3%B6we",
+      "quote": "Fische werden auf dem Meer oft stoßtauchend aus dem Suchflug aus 10–12 m Höhe heraus erbeutet, wobei der Vogel im 45°-Winkel etwa 8 m herabfliegt, rüttelnd abbremst, hinabstößt und völlig untertaucht.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-gull-rice-olives",
+     "text": "Nach dem Treibnetzverbot im westlichen Mittelmeer suchten Heringsmöwen neue Nahrung: auch in Olivenhainen und Reisfeldern.",
+     "source": {
+      "title": "Wikipedia (de), Heringsmöwe",
+      "url": "https://de.wikipedia.org/wiki/Heringsm%C3%B6we",
+      "quote": "So führte ein 1991 von der UN erlassenes Moratorium zur Treibnetzfischerei im westlichen Mittelmeer dazu, dass die Art auf andere Nahrungsquellen umsteigen musste und zwischenzeitlich vermehrt auf Mülldeponien, in Olivenhainen und auf Reisfeldern anzutreffen war.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Lanius collurio": {
+   "short": [
+    {
+     "id": "de5-s-shrike-closed-bill",
+     "text": "Neuntöter singen oft mit fast geschlossenem Schnabel.",
+     "source": {
+      "title": "Wikipedia (de), Neuntöter",
+      "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+      "quote": "Der Gesang wird meist in aufrecht sitzender Haltung mit kaum geöffnetem Schnabel vorgetragen.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-shrike-sunny-lookout",
+     "text": "Neuntöter wählen ihre Lieblingswarte je nach Tageszeit und Sonnenstand. Der beste Ausguck bleibt nicht immer derselbe.",
+     "source": {
+      "title": "Wikipedia (de), Neuntöter",
+      "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+      "quote": "Die favorisierte Warte eines Revierinhabers kann je nach Tageszeit und Sonnenstand wechseln.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Oenanthe oenanthe": {
+   "short": [
+    {
+     "id": "de5-s-wheatear-asteroid",
+     "text": "Ein Asteroid trägt den Namen des Steinschmätzers: (8959) Oenanthe.",
+     "source": {
+      "title": "Wikipedia (de), Steinschmätzer (Art)",
+      "url": "https://de.wikipedia.org/wiki/Steinschm%C3%A4tzer_(Art)",
+      "quote": "Der Asteroid des inneren Hauptgürtels (8959) Oenanthe ist nach dem Steinschmätzer benannt (wissenschaftlicher Name: Oenanthe oenanthe ).",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-wheatear-changing-look",
+     "text": "Steinschmätzer-Männchen wechseln den Look: Im Frühjahr schwarze Maske und grauer Rücken, im Herbst mehr Braun und weniger Maske.",
+     "source": {
+      "title": "Wikipedia (de), Steinschmätzer (Art)",
+      "url": "https://de.wikipedia.org/wiki/Steinschm%C3%A4tzer_(Art)",
+      "quote": [
+       "Die Männchen haben im Prachtkleid im Frühjahr und Sommer einen grauen Scheitel und grauen Rücken, einen schwarzen Augenstreif , der sich bis auf die Wangen zieht und sich dort etwas verbreitert, so dass er wie eine Maske wirkt.",
+       "Im Schlichtkleid ähneln sich die Geschlechter mehr, denn die Männchen sind dann etwas unscheinbarer mit braunem Rücken und Scheitel und weniger stark ausgeprägter Maske."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Numenius madagascariensis": {
+   "short": [
+    {
+     "id": "de5-s-curlew-fruit-break",
+     "text": "Isabellbrachvögel legen auf dem Zug auch mal eine Beerenpause ein.",
+     "source": {
+      "title": "Wikipedia (en), Far Eastern curlew",
+      "url": "https://en.wikipedia.org/wiki/Far_Eastern_curlew",
+      "quote": "During migration it also feeds on berries.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-curlew-wrong-madagascar",
+     "text": "Madagaskar steckt im Artnamen des Isabellbrachvogels, doch dort wurde nie einer nachgewiesen. Die Herkunftsangabe war falsch.",
+     "source": {
+      "title": "Wikipedia (en), Far Eastern curlew",
+      "url": "https://en.wikipedia.org/wiki/Far_Eastern_curlew",
+      "quote": "The name madagascariensis , referring to Madagascar , was an error by Brisson, with the type locality now known to have been Makassar on Sulawesi, Indonesia, where it winters; the species has never been recorded in Madagascar. [ 4 ]",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Buteo platypterus": {
+   "short": [
+    {
+     "id": "de5-s-broadwing-fresh-twigs",
+     "text": "Breitflügelbussarde schmücken den Nestrand immer wieder mit frischen Nadelzweigen.",
+     "source": {
+      "title": "Wikipedia (de), Breitflügelbussard",
+      "url": "https://de.wikipedia.org/wiki/Breitfl%C3%BCgelbussard",
+      "quote": [
+       "Es wird außen immer mit frischen Koniferenzweigen verkleidet und innen mit Rindenstückchen, Moos, Flechten, Vogelfedern und Tier- oder Pflanzenwolle ausgepolstert.",
+       "Sowohl die Außen– als auch die Innenverkleidung werden während der gesamten Brut- und Nestlingszeit gewartet und erneuert."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-broadwing-sky-ballet",
+     "text": "Balzende Breitflügelbussarde steigen bis außer Sichtweite. Danach trudeln beide Partner gemeinsam in einer Spirale abwärts.",
+     "source": {
+      "title": "Wikipedia (de), Breitflügelbussard",
+      "url": "https://de.wikipedia.org/wiki/Breitfl%C3%BCgelbussard",
+      "quote": [
+       "Beide Partner kreisen über dem Neststandort, steigen dabei oft in so große Höhen auf, dass sie außer Sicht geraten.",
+       "Im Sinkflug nähert sich das meist höher fliegende Männchen dem Weibchen, bis es fast zur Berührung kommt; beide kippen danach ab und trudeln spiralig abwärts."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Cathartes aura": {
+   "short": [
+    {
+     "id": "de5-s-vulture-young-head",
+     "text": "Junge Truthahngeier haben einen schwarzen Kopf; rot wird er erst nach etwa einem Jahr.",
+     "source": {
+      "title": "Wikipedia (de), Truthahngeier",
+      "url": "https://de.wikipedia.org/wiki/Truthahngeier",
+      "quote": [
+       "Jungvögel haben einen schwarzen Schnabel und Kopf.",
+       "Erst in einem Alter von einem Jahr nimmt der Kopf die Rotfärbung an."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-vulture-no-nest",
+     "text": "Truthahngeier sparen sich den Nestbau: Die Eier liegen direkt auf dem Boden, etwa in Höhlen oder zwischen Felsen.",
+     "source": {
+      "title": "Wikipedia (de), Truthahngeier",
+      "url": "https://de.wikipedia.org/wiki/Truthahngeier",
+      "quote": "Ein Nest wird nicht gebaut, sondern die zwei Eier werden direkt auf den Boden in Höhlen, auf Klippenvorsprünge oder zwischen Felsen gelegt und anschließend 38 bis 41 Tage bebrütet.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Pandion haliaetus": {
+   "short": [
+    {
+     "id": "de5-s-osprey-orange-eyes",
+     "text": "Junge Fischadler fallen durch ihre orangefarbenen Augen auf.",
+     "source": {
+      "title": "Wikipedia (de), Fischadler",
+      "url": "https://de.wikipedia.org/wiki/Fischadler",
+      "quote": "Jungvögel haben im Gegensatz zu adulten Adlern eine orange Iris.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-osprey-no-thermals",
+     "text": "Fischadler brauchen auf dem Zug keine Thermik und überqueren selbst Meere und Wüsten auch an deren breitesten Stellen.",
+     "source": {
+      "title": "Wikipedia (de), Fischadler",
+      "url": "https://de.wikipedia.org/wiki/Fischadler",
+      "quote": "Der Fischadler ist bei seinen Wanderungen nicht auf Thermik angewiesen und überquert als Breitfrontzieher Meere und Wüsten auch an deren breitesten Stellen.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Chen caerulescens": {
+   "short": [
+    {
+     "id": "de5-s-snow-mixed-siblings",
+     "text": "In einer Schneegansfamilie können weiße und dunkle Jungvögel schlüpfen.",
+     "source": {
+      "title": "Wikipedia (de), Schneegans",
+      "url": "https://de.wikipedia.org/wiki/Schneegans",
+      "quote": "Nichtsdestotrotz kann dasselbe Elternpaar Vertreter beider Morphen hervorbringen, so wie auch farbliche Übergänge möglich sind.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-snow-eggs-en-route",
+     "text": "Schneegänse haben es im arktischen Frühling eilig: Manche legen schon unterwegs an der Küste Eier, bevor sie den Brutplatz erreichen.",
+     "source": {
+      "title": "Wikipedia (de), Schneegans",
+      "url": "https://de.wikipedia.org/wiki/Schneegans",
+      "quote": "Ihr Fortpflanzungsdrang ist zu dem Zeitpunkt so hoch, dass sie nicht selten schon Eier an der Küste auf dem Weg zu den Brutplätzen ablegen. [ 5 ]",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Branta canadensis": {
+   "short": [
+    {
+     "id": "de5-s-canada-voice-id",
+     "text": "Kanadagänse erkennen einander auch an der Stimme.",
+     "source": {
+      "title": "Wikipedia (de), Kanadagans",
+      "url": "https://de.wikipedia.org/wiki/Kanadagans",
+      "quote": "Kanadagänse können sich auch am Ruf individuell erkennen.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-canada-lishman-flight",
+     "text": "1993 zeigte William Lishman Kanadagänsen per Ultraleichtflugzeug den Weg nach Virginia. Im Frühjahr flogen fast alle allein heim.",
+     "source": {
+      "title": "Wikipedia (de), Kanadagans",
+      "url": "https://de.wikipedia.org/wiki/Kanadagans",
+      "quote": [
+       "Dem Bildhauer William Lishman gelang es im Herbst 1993, eine kleine Schar von Kanadagänsen, die von Menschen aufgezogen worden waren, mit einem Ultraleichtflugzeug von Ontario in Überwinterungsgebiete nach Virginia zu führen.",
+       "Fast alle dieser Gänse kehrten im Frühjahr 1994 selbständig auf die Farm zurück, auf der man sie aufgezogen hatte."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Haliaeetus leucocephalus": {
+   "short": [
+    {
+     "id": "de5-s-eagle-official-2024",
+     "text": "Erst seit 2024 ist der Weißkopf-Seeadler offiziell der Nationalvogel der USA.",
+     "source": {
+      "title": "Wikipedia (en), Bald eagle",
+      "url": "https://en.wikipedia.org/wiki/Bald_eagle",
+      "quote": "It has long been considered the \"national bird\", though unofficially until the act of Congress S.4610 was signed into law on December 23, 2024. [ 226 ] [ 227 ]",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-eagle-feather-repository",
+     "text": "Das National Eagle Repository der USA verteilt Adlerfedern an staatlich anerkannte indigene Stämme für religiöse Zeremonien.",
+     "source": {
+      "title": "Wikipedia (en), Bald eagle",
+      "url": "https://en.wikipedia.org/wiki/Bald_eagle",
+      "quote": "The National Eagle Repository , a division of the FWS , exists as a means to receive, process, and store bald and golden eagles which are found dead and to distribute the eagles, their parts and feathers to federally recognized Native American tribes for use in religious ceremonies. [ 224 ]",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Setophaga striata": {
+   "short": [
+    {
+     "id": "de5-s-blackpoll-high-tsi",
+     "text": "Streifenwaldsänger singen ein sehr hohes, schlichtes „tsi-tsi-tsi“.",
+     "source": {
+      "title": "Wikipedia (en), Blackpoll warbler",
+      "url": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
+      "quote": [
+       "They are more often heard than seen, though their song is one of the highest-pitched known.",
+       "Their songs are simple repetitions of high tsi notes."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-blackpoll-autumn-look",
+     "text": "Ein Streifenwaldsänger-Männchen sieht im Herbst ganz anders aus: Statt schwarzer Kappe und weißer Brust überwiegen Grün und Gelb.",
+     "source": {
+      "title": "Wikipedia (de), Streifenwaldsänger",
+      "url": "https://de.wikipedia.org/wiki/Streifenwalds%C3%A4nger",
+      "quote": [
+       "Im Brutkleid tragen männliche Streifenwaldsänger eine schwarze Kappe, eine schwarzgestreifte weiße Brust, ein weißes Kopfgefieder und ein braunes mit dunklen Streifen versetztes Oberseitengefieder.",
+       "Außerhalb der Brutzeit ist das Oberseitengefieder grünlich und mit dunklen Streifen versetzt, der Kopf grünlich und der Brustbereich gelblich."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Balaenoptera musculus": {
+   "short": [
+    {
+     "id": "de5-s-blue-chin-hairs",
+     "text": "Auch ein Blauwal hat Haare: am Kinn, am Unterkiefer und oben auf dem Kopf.",
+     "source": {
+      "title": "Wikipedia (de), Blauwal",
+      "url": "https://de.wikipedia.org/wiki/Blauwal",
+      "quote": "An verschiedenen Stellen des Kopfes befinden sich Haare, vor allem am Kinn, beidseitig am Unterkiefer und auf der Oberseite.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-blue-belly-bellows",
+     "text": "Die Bauchfalten des Blauwals reichen vom Maul bis zum Nabel. So kann sich der Mundraum beim Fressen weit ausdehnen.",
+     "source": {
+      "title": "Wikipedia (de), Blauwal",
+      "url": "https://de.wikipedia.org/wiki/Blauwal",
+      "quote": "An der Unterseite ziehen sich 60 bis 88 [ 1 ] Ventralfurchen vom Maul bis zum Nabel, die das namensgebende Merkmal der Furchenwale darstellen und die Erweiterung des Mundraumes bei der Nahrungsaufnahme ermöglichen.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Caretta caretta": {
+   "short": [
+    {
+     "id": "de5-s-loggerhead-no-hiding",
+     "text": "Unechte Karettschildkröten können Kopf und Flossen nicht in den Panzer ziehen.",
+     "source": {
+      "title": "NOAA Fisheries, Loggerhead Turtle",
+      "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+      "quote": "Unlike freshwater turtles and tortoises, sea turtles cannot withdraw their head or flippers into their shells.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-loggerhead-winter-dive",
+     "text": "In kalten Monaten können Unechte Karettschildkröten bis zu sieben Stunden abtauchen, bevor sie kurz zum Atmen auftauchen.",
+     "source": {
+      "title": "Wikipedia (en), Loggerhead sea turtle",
+      "url": "https://en.wikipedia.org/wiki/Loggerhead_sea_turtle",
+      "quote": "In the coldest months, they submerge for up to seven hours at a time, emerging for only seven minutes to breathe.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Falco peregrinus": {
+   "short": [
+    {
+     "id": "de5-s-peregrine-bats",
+     "text": "Wanderfalken fangen nicht nur Vögel: Auch Fledermäuse stehen auf dem Speiseplan.",
+     "source": {
+      "title": "Wikipedia (de), Wanderfalke",
+      "url": "https://de.wikipedia.org/wiki/Wanderfalke",
+      "quote": "Wanderfalken jagen bis weit in die Dämmerung hinein; Fledermäuse , vor allem früh fliegende Arten wie Abendsegler , sind daher die einzigen regelmäßig erbeuteten Säugetiere. In Großstädten nutzen Wanderfalken das große Kunstlichtangebot und jagen nachts ziehende Vögel wie Rallen und Limikolen , in Berlin z. B. häufig Wasserrallen , Wachtelkönige und Waldschnepfen . [ 41 ]",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-peregrine-city-night",
+     "text": "Stadtlichter verlängern den Jagdtag: Wanderfalken nutzen künstliches Licht, um auch nachts durchziehende Vögel zu fangen.",
+     "source": {
+      "title": "Wikipedia (de), Wanderfalke",
+      "url": "https://de.wikipedia.org/wiki/Wanderfalke",
+      "quote": "Wanderfalken jagen bis weit in die Dämmerung hinein; Fledermäuse , vor allem früh fliegende Arten wie Abendsegler , sind daher die einzigen regelmäßig erbeuteten Säugetiere. In Großstädten nutzen Wanderfalken das große Kunstlichtangebot und jagen nachts ziehende Vögel wie Rallen und Limikolen , in Berlin z. B. häufig Wasserrallen , Wachtelkönige und Waldschnepfen . [ 41 ]",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Equus quagga": {
+   "short": [
+    {
+     "id": "de5-s-zebra-lost-members",
+     "text": "Steppenzebras suchen lange nach verloren gegangenen Herdenmitgliedern.",
+     "source": {
+      "title": "Wikipedia (de), Steppenzebra",
+      "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+      "quote": "Der Zusammenhalt innerhalb der Herde ist sehr groß, verloren gegangene Mitglieder werden über längere Zeit gesucht.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "de5-s-zebra-bachelor-clubs",
+     "text": "Junge Steppenzebra-Hengste leben in eigenen Junggesellengruppen.",
+     "source": {
+      "title": "Wikipedia (de), Steppenzebra",
+      "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+      "quote": "Neben den eigentlichen Herden gibt es auch „Junggesellengruppen“ junger männlicher Tiere, die noch keine eigene Herde aufgebaut haben.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "de5-s-zebra-eleven-minutes",
+     "text": "Ein Steppenzebra-Fohlen steht schon rund elf Minuten nach der Geburt.",
+     "source": {
+      "title": "Wikipedia (de), Steppenzebra",
+      "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+      "quote": "Nach rund elf Minuten steht das Fohlen bereits, nach im Mittel einer Stunde saugt es erstmals Milch.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "de5-s-zebra-shadow-stripes",
+     "text": "Manche Steppenzebras tragen zusätzliche „Schattenstreifen“ im Fell.",
+     "source": {
+      "title": "Wikipedia (de), Steppenzebra",
+      "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+      "quote": [
+       "Die breitesten Streifen besitzt heute die Unterart Böhm-Zebra in Ostafrika, sogenannte „Schattenstreifen“, die manchmal die weißen Streifen überlagern, kommen hier kaum vor.",
+       "Die Streifenzeichnungen werden schmaler, aber weniger bei Populationen, die im Süden leben, hier treten dann auch sehr häufig „Schattenstreifen“ auf."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "de5-s-zebra-wake-foals",
+     "text": "Bei Gefahr wecken Steppenzebras zuerst die Jungtiere.",
+     "source": {
+      "title": "Wikipedia (de), Steppenzebra",
+      "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+      "quote": "Als Schutz vor Beutegreifern hält mindestens ein Tier Wache, Jungtiere werden bei aufziehender Gefahr als erste geweckt.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-zebra-lead-mare",
+     "text": "Vorn führt meist die ranghöchste Stute, hinten sichert der Hengst. Beim Trinken geht dagegen der Hengst als Erster vor.",
+     "source": {
+      "title": "Wikipedia (de), Steppenzebra",
+      "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+      "quote": "In der Regel führt die ranghöchste Stute die Gruppe, während der Hengst am Ende des Zuges die Nachhut bildet; beim Trinken, das meist nachts stattfindet, ist er jedoch der Erste.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "de5-l-zebra-ear-greeting",
+     "text": "Zur Begrüßung zeigen Steppenzebra-Ohren nach vorn; bei einer Drohung gehen sie zurück und die Zähne kommen zum Vorschein.",
+     "source": {
+      "title": "Wikipedia (de), Steppenzebra",
+      "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+      "quote": [
+       "Beim Treffen zweier Herden führen die Hengste eine ritualisierte Begrüßungszeremonie durch, bestehend aus der charakteristischen Grußgeste – erhobene und nach vorn gerichtete Ohren – und gegenseitigem Beschnüffeln der Nase und Genitalien .",
+       "Ein Steppenzebra in Bedrängung legt die Ohren an und spreizt bei zunehmender Bedrohung die Lippen und zeigt die Zähne, eine Mimik , die dem Flehmen und dem Rossigkeitsgesicht ähnelt."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "de5-l-zebra-grazing-pioneers",
+     "text": "Steppenzebras bereiten Gnus und Gazellen den Tisch: Erst wird das lange Gras abgefressen und niedergetrampelt, dann folgen die anderen.",
+     "source": {
+      "title": "Wikipedia (de), Steppenzebra",
+      "url": "https://de.wikipedia.org/wiki/Steppenzebra",
+      "quote": "Erst nachdem das Steppenzebra das lange Gras abgefressen und niedergetrampelt hat, folgen Gnus und Gazellen .",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Chelonia mydas": {
+   "short": [
+    {
+     "id": "de5-s-green-front-claw",
+     "text": "Grüne Meeresschildkröten haben an jeder Vorderflosse eine Kralle.",
+     "source": {
+      "title": "Wikipedia (de), Grüne Meeresschildkröte",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+      "quote": "An den Vorderflossen haben diese Schildkröten eine verlängerte Kralle.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "de5-s-green-seagrass-meadow",
+     "text": "Erwachsene Grüne Meeresschildkröten grasen auf den Seegraswiesen des Meeres.",
+     "source": {
+      "title": "Wikipedia (de), Grüne Meeresschildkröte",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+      "quote": "Ausgewachsene Tiere ernähren sich vor allem vegetarisch und weiden sich durch die Seegraswiesen der Meere.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "de5-s-green-young-menu",
+     "text": "Junge Grüne Meeresschildkröten fressen auch Kalmare und Fischeier.",
+     "source": {
+      "title": "Wikipedia (de), Grüne Meeresschildkröte",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+      "quote": "Die Jungtiere der Grünen Meeresschildkröte sind Fleischfresser, die unter anderem Kalmare sowie die Eier von Fischen und Schwämmen fressen.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "de5-s-green-pingpong-eggs",
+     "text": "Die Eier Grüner Meeresschildkröten sind etwa so groß wie Tischtennisbälle.",
+     "source": {
+      "title": "Wikipedia (de), Grüne Meeresschildkröte",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+      "quote": "Es werden ungefähr 100 Eier von Tischtennisballgröße pro Gelege gelegt.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "de5-s-green-male-tail",
+     "text": "Männliche Grüne Meeresschildkröten verraten sich durch einen längeren Schwanz.",
+     "source": {
+      "title": "Wikipedia (de), Grüne Meeresschildkröte",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+      "quote": "Der Schwanz beim Männchen ist wie bei den meisten Schildkrötenarten deutlich verlängert.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "de5-l-green-magnetic-home",
+     "text": "Eine Art innerer Kompass hilft Grünen Meeresschildkröten, nach Jahren auf See wieder in die Gegend ihres Geburtsstrands zu finden.",
+     "source": {
+      "title": "Wikipedia (de), Grüne Meeresschildkröte",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+      "quote": "Die Grüne Meeresschildkröte orientiert sich aufgrund ihres Magnetsinns am Erdmagnetfeld , um Jahre nach dem Schlüpfen erstmals wieder zur Eiablage an den gleichen Strand zurückzukehren.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "de5-l-green-sand-sex",
+     "text": "Bei Grünen Meeresschildkröten entscheidet die Wärme im Sand über das Geschlecht: Kühlere Nester bringen eher Männchen hervor.",
+     "source": {
+      "title": "Wikipedia (de), Grüne Meeresschildkröte",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+      "quote": "Dabei bedingt die Temperatur während des Ausbrütens die Entwicklung der Geschlechter: Während bei 28 Grad Celsius nur Männchen schlüpfen, schlüpfen bei 32 Grad Celsius nur Weibchen.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "de5-l-green-black-relative",
+     "text": "Die „Schwarze Meeresschildkröte“ ist keine eigene Art: Die dunklen Tiere gehören ebenfalls zu den Grünen Meeresschildkröten.",
+     "source": {
+      "title": "Wikipedia (de), Grüne Meeresschildkröte",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Meeresschildkr%C3%B6te",
+      "quote": "Gegenwärtig wird davon ausgegangen, dass es sich bei der dunklen Färbung lediglich um eine Farbmutation handelt, weswegen die Schwarze Meeresschildkröte weder als eigenständige Art, noch als Unterart von C. mydas anerkannt wird. [ 15 ]",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  }
+ }
+}

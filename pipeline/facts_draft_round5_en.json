@@ -1,0 +1,844 @@
+{
+ "lang": "en",
+ "about": "New additions for owner review, 2026-11-05. Pending; not integrated into the recipe. Existing approved pools are unchanged.",
+ "species": {
+  "Ciconia ciconia": {
+   "short": [
+    {
+     "id": "en5-s-stork-frog-calls",
+     "text": "White storks can find frogs by listening for their mating calls.",
+     "source": {
+      "title": "Wikipedia (en), White stork",
+      "url": "https://en.wikipedia.org/wiki/White_stork",
+      "quote": "Birds returning to Latvia during spring have been shown to locate their prey, moor frogs ( Rana arvalis ), by homing in on the mating calls produced by aggregations of male frogs. [ 102 ]",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-stork-apartments",
+     "text": "A stork nest can be an apartment block: sparrows and starlings nest inside it, and sometimes even little owls move in.",
+     "source": {
+      "title": "Wikipedia (en), White stork",
+      "url": "https://en.wikipedia.org/wiki/White_stork",
+      "quote": [
+       "Several bird species often nest within the large nests of the white stork.",
+       "Regular occupants are house sparrows , tree sparrows , and common starlings ; less common residents include Eurasian kestrels , little owls , European rollers , white wagtails , black redstarts , Eurasian jackdaws , and Spanish sparrows ."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Grus grus": {
+   "short": [
+    {
+     "id": "en5-s-crane-mud-paint",
+     "text": "Common cranes paint their feathers with mud apparently to blend into the marsh.",
+     "source": {
+      "title": "Wikipedia (en), Common crane",
+      "url": "https://en.wikipedia.org/wiki/Common_crane",
+      "quote": "In common with sandhill cranes (and no other crane species), common cranes \"paint\" their bodies with mud or decaying vegetation, apparently in order to blend into their nesting environment.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-crane-swimming-chicks",
+     "text": "Crane chicks can swim soon after hatching and run with their parents a day later, long before they can fly.",
+     "source": {
+      "title": "Wikipedia (en), Common crane",
+      "url": "https://en.wikipedia.org/wiki/Common_crane",
+      "quote": "New hatchlings are generally quite helpless but are able to crawl away from danger within a few hours, can swim soon after hatching and can run with their parents at 24 hours old.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Pernis apivorus": {
+   "short": [
+    {
+     "id": "en5-s-honey-clapping",
+     "text": "A honey buzzard's spring courtship includes wing-clapping.",
+     "source": {
+      "title": "Wikipedia (en), European honey buzzard",
+      "url": "https://en.wikipedia.org/wiki/European_honey_buzzard",
+      "quote": "The European honey buzzard breeds in woodland , and is inconspicuous except in the spring, when the mating display includes wing-clapping.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-honey-magnetic-map",
+     "text": "An adult honey buzzard combines a magnetic compass with remembered rivers and mountain ranges to find its way south.",
+     "source": {
+      "title": "Wikipedia (en), European honey buzzard",
+      "url": "https://en.wikipedia.org/wiki/European_honey_buzzard",
+      "quote": "Being a long-distance migrant, the honey buzzard relies on magnetic orientation to find its way south, as well as (for adult birds) a visual memory of recognisable geographical features such as mountain ranges and rivers, along the way.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Streptopelia turtur": {
+   "short": [
+    {
+     "id": "en5-s-dove-whip-wings",
+     "text": "A courting turtle dove cracks its wings like a whip.",
+     "source": {
+      "title": "Wikipedia (en), European turtle dove",
+      "url": "https://en.wikipedia.org/wiki/European_turtle_dove",
+      "quote": "The nuptial flight, high and circling, is like that of the common wood pigeon , but the undulations are less decided; it is accompanied by the whip-crack of the downward flicked wings.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-dove-climbing-chicks",
+     "text": "Young turtle doves leave the nest before they can fly, staying among nearby branches instead.",
+     "source": {
+      "title": "Wikipedia (de), Turteltaube",
+      "url": "https://de.wikipedia.org/wiki/Turteltaube",
+      "quote": [
+       "Jungvögel verlassen in einem Lebensalter von etwa 14 Tagen das Nest.",
+       "Sie sind zu dem Zeitpunkt noch nicht flugfähig und halten sich in den Ästen in der Nähe des Nestes auf."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Larus fuscus": {
+   "short": [
+    {
+     "id": "en5-s-gull-food-button",
+     "text": "Gull chicks peck the red spot on a parent's bill to ask for food.",
+     "source": {
+      "title": "Wikipedia (en), Lesser black-backed gull",
+      "url": "https://en.wikipedia.org/wiki/Lesser_black-backed_gull",
+      "quote": "The bill is yellow with a red spot at which the young peck, inducing feeding (see fixed action pattern ).",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-gull-grownup-coat",
+     "text": "Young lesser black-backed gulls start out scaly brown, not black-backed. The journey to adulthood takes four years.",
+     "source": {
+      "title": "Wikipedia (en), Lesser black-backed gull",
+      "url": "https://en.wikipedia.org/wiki/Lesser_black-backed_gull",
+      "quote": [
+       "Young birds have scaly black-brown upperparts and a neat wing pattern.",
+       "They take four years to reach maturity."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Lanius collurio": {
+   "short": [
+    {
+     "id": "en5-s-shrike-pellets",
+     "text": "A red-backed shrike coughs up pellets of indigestible leftovers.",
+     "source": {
+      "title": "Wikipedia (de), Neuntöter",
+      "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+      "quote": "Unverdauliche Bestandteile werden als Speiballen ausgewürgt.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-shrike-helper-males",
+     "text": "Some unattached male shrikes help feed another pair's young, or join in as extra singers.",
+     "source": {
+      "title": "Wikipedia (de), Neuntöter",
+      "url": "https://de.wikipedia.org/wiki/Neunt%C3%B6ter",
+      "quote": "Lediglich zum Ende der Brutsaison, nach dem Ausfliegen der Jungvögel, schließen sich manchmal nichtbrütende Männchen den Familien an, beteiligen sich an der Fütterung der Jungen oder betätigen sich als „Vorsänger“.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Oenanthe oenanthe": {
+   "short": [
+    {
+     "id": "en5-s-wheatear-tail-t",
+     "text": "A wheatear's white tail carries a bold black, upside-down T.",
+     "source": {
+      "title": "Wikipedia (en), Northern wheatear",
+      "url": "https://en.wikipedia.org/wiki/Northern_wheatear",
+      "quote": "Both sexes have a white rump and tail, with a black inverted T-pattern at the end of the tail.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-wheatear-pipe-nursery",
+     "text": "Northern wheatears can make a nursery in a pipe or a wall cavity; the female builds while the male sings nearby.",
+     "source": {
+      "title": "Wikipedia (en), Northern wheatear",
+      "url": "https://en.wikipedia.org/wiki/Northern_wheatear",
+      "quote": [
+       "The nest is built entirely by the female while the male perches nearby, sings and sometimes performs song-flights.",
+       "The nest is placed in a cavity such as a rabbit burrow, a crevice among rocks or in a man-made object such as a wall or pipe."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Numenius madagascariensis": {
+   "short": [
+    {
+     "id": "en5-s-curlew-berries",
+     "text": "A Far Eastern curlew sometimes swaps seafood for berries while on migration.",
+     "source": {
+      "title": "Wikipedia (en), Far Eastern curlew",
+      "url": "https://en.wikipedia.org/wiki/Far_Eastern_curlew",
+      "quote": "During migration it also feeds on berries.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-curlew-new-moon",
+     "text": "Numenius, the curlew's scientific genus name, is linked to Greek words for a new moon: a nod to the crescent-shaped bill.",
+     "source": {
+      "title": "Wikipedia, Curlew",
+      "url": "https://en.wikipedia.org/wiki/Curlew",
+      "quote": [
+       "The name Numenius is from Ancient Greek noumenios , a bird mentioned by Hesychius .",
+       "It is associated with the curlews because it appears to be derived from neos , \"new\" and mene , \"moon\", referring to the crescent-shaped bill."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Buteo platypterus": {
+   "short": [
+    {
+     "id": "en5-s-broadwing-whistle",
+     "text": "A broad-winged hawk sounds more like a thin whistle than a fierce scream.",
+     "source": {
+      "title": "Wikipedia (en), Broad-winged hawk",
+      "url": "https://en.wikipedia.org/wiki/Broad-winged_hawk",
+      "quote": "Their call sounds like a very high-pitched kee-ee , almost like a whistle.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-broadwing-spiral",
+     "text": "Courting broad-winged hawks can hook their feet together in midair and spiral down as a pair.",
+     "source": {
+      "title": "Wikipedia (en), Broad-winged hawk",
+      "url": "https://en.wikipedia.org/wiki/Broad-winged_hawk",
+      "quote": "Birds meet in the air, hook their feet together and spiral down together.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Cathartes aura": {
+   "short": [
+    {
+     "id": "en5-s-vulture-blunt-claws",
+     "text": "A turkey vulture's claws are blunt and poorly suited to grabbing prey.",
+     "source": {
+      "title": "Wikipedia (en), Turkey vulture",
+      "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
+      "quote": "The feet are flat, relatively weak, and poorly adapted to grasping; the talons are also not designed for grasping, as they are relatively blunt.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-vulture-circle-dance",
+     "text": "Courting turkey vultures gather in a circle and hop around its edge with their wings half spread.",
+     "source": {
+      "title": "Wikipedia (en), Turkey vulture",
+      "url": "https://en.wikipedia.org/wiki/Turkey_vulture",
+      "quote": "Courtship rituals of the turkey vulture involve several individuals gathering in a circle, where they perform hopping movements around the perimeter of the circle with wings partially spread.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Pandion haliaetus": {
+   "short": [
+    {
+     "id": "en5-s-osprey-old-nests",
+     "text": "On one Australian island, some osprey nests have been reused for 70 years.",
+     "source": {
+      "title": "Wikipedia (en), Osprey",
+      "url": "https://en.wikipedia.org/wiki/Osprey",
+      "quote": [
+       "Rocky outcrops just offshore are used in Rottnest Island off the coast of Western Australia , where 14 or so similar nesting sites are known, of which five to seven are used in any one year.",
+       "Many are renovated each season, and some have been used for 70 years."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-osprey-nj-platform",
+     "text": "New Jersey has an official osprey nest-platform design, created by local conservationists and copied far beyond the state.",
+     "source": {
+      "title": "Wikipedia (en), Osprey",
+      "url": "https://en.wikipedia.org/wiki/Osprey",
+      "quote": [
+       "The nesting platform design developed by Citizens United to Protect the Maurice River and its Tributaries, Inc. has become the official design of the State of New Jersey , U.S.",
+       "The nesting platform plans and materials list, available online, have been used by people from a number of different geographical regions."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Chen caerulescens": {
+   "short": [
+    {
+     "id": "en5-s-snow-family-years",
+     "text": "Snow goose youngsters can stay with their parents for two or three years.",
+     "source": {
+      "title": "Wikipedia (en), Snow goose",
+      "url": "https://en.wikipedia.org/wiki/Snow_goose",
+      "quote": "After 42 to 50 days, they can fly, but they remain with their family until they are 2 to 3 years old.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-snow-hybrid-family",
+     "text": "Snow geese can have chicks with Ross's geese, and those hybrids can have chicks of their own.",
+     "source": {
+      "title": "Wikipedia (en), Snow goose",
+      "url": "https://en.wikipedia.org/wiki/Snow_goose",
+      "quote": "Where snow geese and Ross's geese breed together, as at La Pérouse, they hybridize at times, and hybrids are fertile.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Branta canadensis": {
+   "short": [
+    {
+     "id": "en5-s-canada-family-line",
+     "text": "Canada goose parents escort goslings with one adult in front and one behind.",
+     "source": {
+      "title": "Wikipedia (en), Canada goose",
+      "url": "https://en.wikipedia.org/wiki/Canada_goose",
+      "quote": "Parents are often seen leading their goslings in a line, usually with one adult at the front and the other at the back.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-canada-swimming-lessons",
+     "text": "A gosling needs no swimming lessons: newly hatched Canada geese can walk, swim, and find food straight away.",
+     "source": {
+      "title": "Wikipedia (en), Canada goose",
+      "url": "https://en.wikipedia.org/wiki/Canada_goose",
+      "quote": "As soon as the goslings hatch, they are immediately capable of walking, swimming, and finding their own food (a diet similar to that of adult geese).",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Haliaeetus leucocephalus": {
+   "short": [
+    {
+     "id": "en5-s-eagle-shark-menu",
+     "text": "Even small sharks have turned up on a bald eagle's menu.",
+     "source": {
+      "title": "Wikipedia (en), Bald eagle",
+      "url": "https://en.wikipedia.org/wiki/Bald_eagle",
+      "quote": "Much larger marine fish such as Pacific halibut ( Hippoglossus stenolepis ) and lemon sharks ( Negaprion brevirostris ) have been recorded among bald eagle prey though probably are only taken as young, as small, newly mature fish, or as carrion. [ 60 ] [ 89 ]",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-eagle-shared-hunt",
+     "text": "In New Jersey, bald and golden eagles have been seen hunting snow geese side by side without fighting.",
+     "source": {
+      "title": "Wikipedia (en), Bald eagle",
+      "url": "https://en.wikipedia.org/wiki/Bald_eagle",
+      "quote": "Despite the potential for contention between these animals, in New Jersey during winter, a golden eagle and numerous bald eagles were observed to hunt snow geese alongside each other without conflict.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Setophaga striata": {
+   "short": [
+    {
+     "id": "en5-s-blackpoll-dad-daycare",
+     "text": "Blackpoll mothers may start a second nest while the father feeds the first brood.",
+     "source": {
+      "title": "Wikipedia (en), Blackpoll warbler",
+      "url": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
+      "quote": "Mated females usually begin second nests right away and leave post-fledging parental duties to their mates.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-blackpoll-pest-menu",
+     "text": "A blackpoll hunts tiny pests from mosquitoes to aphids, and can switch from searching the treetops to catching insects in midair.",
+     "source": {
+      "title": "Wikipedia (en), Blackpoll warbler",
+      "url": "https://en.wikipedia.org/wiki/Blackpoll_warbler",
+      "quote": [
+       "Documented insect prey for the species includes lice , locusts , cankerworms , mosquitoes , webworms , ants , termites , gnats , aphids , and sawflies .",
+       "They often forage high in trees, and sometimes catch insects while in flight."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Balaenoptera musculus": {
+   "short": [
+    {
+     "id": "en5-s-blue-mottled-id",
+     "text": "Every blue whale wears its own pattern of pale blotches.",
+     "source": {
+      "title": "NOAA Fisheries, Blue Whale",
+      "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+      "quote": "The mottling pattern is variable and can be used to identify individuals.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-blue-rolling-lunch",
+     "text": "While lunging for krill, blue whales can roll upside down; turning may help them find the densest patches of food.",
+     "source": {
+      "title": "Wikipedia (en), Blue whale",
+      "url": "https://en.wikipedia.org/wiki/Blue_whale",
+      "quote": "Blue whales have been recorded making 180° rolls during lunge-feeding, possibly allowing them to search the prey field and find the densest patches. [ 89 ]",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Caretta caretta": {
+   "short": [
+    {
+     "id": "en5-s-loggerhead-salt-tears",
+     "text": "A loggerhead's apparent tears are a way of getting rid of salt.",
+     "source": {
+      "title": "Wikipedia (en), Loggerhead sea turtle",
+      "url": "https://en.wikipedia.org/wiki/Loggerhead_sea_turtle",
+      "quote": "Lachrymal glands located behind each eye allow the loggerhead to maintain osmotic balance by eliminating the excess salt obtained from ingesting ocean water.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-loggerhead-state-coin",
+     "text": "The loggerhead is South Carolina's state reptile and Florida's state saltwater reptile; it also appears on a Colombian coin.",
+     "source": {
+      "title": "Wikipedia (en), Loggerhead sea turtle",
+      "url": "https://en.wikipedia.org/wiki/Loggerhead_sea_turtle",
+      "quote": [
+       "The loggerhead sea turtle appears on the $1000 Colombian peso coin.",
+       "In the United States, the loggerhead sea turtle is the official state reptile of South Carolina and also the state saltwater reptile of Florida. [ 121 ] [ 122 ]"
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Falco peregrinus": {
+   "short": [
+    {
+     "id": "en5-s-peregrine-eye-black",
+     "text": "A peregrine's dark cheek stripes help cut glare, like an athlete's eye black.",
+     "source": {
+      "title": "Wikipedia (en), Peregrine falcon",
+      "url": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+      "quote": "A 2021 study of photos from around the world showed that the malar stripe is larger in areas that receive more sunlight, and concluded that the stripe serves to improve the falcon's vision by reducing glare. [ 20 ]",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-peregrine-food-gift",
+     "text": "A female peregrine rolls upside down in flight to take a food gift from the male's talons.",
+     "source": {
+      "title": "Wikipedia (en), Peregrine falcon",
+      "url": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+      "quote": [
+       "The male passes prey it has caught to the female in mid-air.",
+       "To make this possible, the female flies upside-down to receive the food from the male's talons."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Equus quagga": {
+   "short": [
+    {
+     "id": "en5-s-zebra-own-stripes",
+     "text": "No two plains zebras wear exactly the same stripes.",
+     "source": {
+      "title": "Wikipedia (en), Plains zebra",
+      "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+      "quote": "Like all zebras, they are boldly striped in black and white and no two individuals look exactly alike.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "en5-s-zebra-brown-foals",
+     "text": "A plains zebra foal is born brown and white; the dark stripes deepen with age.",
+     "source": {
+      "title": "Wikipedia (en), Plains zebra",
+      "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+      "quote": "The natal coat of a foal is brown and white and the brown darkens with age. [ 15 ] [ 14 ] [ 19 ]",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "en5-s-zebra-bark",
+     "text": "Plains zebras bark: their contact call sounds like a repeated \"kwa-ha\".",
+     "source": {
+      "title": "Wikipedia (en), Plains zebra",
+      "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+      "quote": "One is its distinctive, high-pitched, contact call (commonly called \" barking \") heard as \"a- ha , a- ha , a- ha \" or \"kwa-ha, kaw-ha, ha, ha\" [ 15 ] also transcribed as \"kwahaah\", [ 30 ] or \"oug-ga\".",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "en5-s-zebra-night-watch",
+     "text": "While a zebra group sleeps, one member keeps watch.",
+     "source": {
+      "title": "Wikipedia (en), Plains zebra",
+      "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+      "quote": "They may rest or sleep laying down, while one individual keeps guard. [ 9 ]",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "en5-s-zebra-foal-bubble",
+     "text": "A mother zebra initially keeps even her older offspring away from her newborn.",
+     "source": {
+      "title": "Wikipedia (en), Plains zebra",
+      "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+      "quote": "Early on, a mother zebra keeps any other zebra away from her foal, including the stallion, the other mares, and even her previous offspring.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-zebra-lawn-first",
+     "text": "Zebras tackle long, tough grass first, opening the way for fussier grazers such as wildebeest and Thomson's gazelles.",
+     "source": {
+      "title": "Wikipedia (en), Plains zebra",
+      "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+      "quote": [
+       "Plains zebras are adapted for grazing on both long, tough grass stems and newly emerging short grass (stems and sheaths).",
+       "The zebra is a pioneer grazer and prepares the way for more specialised grazers such as blue wildebeests and Thomson's gazelles . [ 9 ]"
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "en5-l-zebra-groom-teeth",
+     "text": "Zebras groom one another with their teeth and lips, nibbling along the neck and back to strengthen family bonds.",
+     "source": {
+      "title": "Wikipedia (en), Plains zebra",
+      "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+      "quote": [
+       "Zebras strengthen their social bonds with grooming .",
+       "Members of a harem nip and scrape along the neck, withers, and back with their teeth and lips."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "en5-l-zebra-family-stays",
+     "text": "A zebra family's females stay together even when a new stallion takes over: the group is more than its current leader.",
+     "source": {
+      "title": "Wikipedia (en), Plains zebra",
+      "url": "https://en.wikipedia.org/wiki/Plains_zebra",
+      "quote": "The female membership of a harem stays intact, even if a new stallion takes over.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Chelonia mydas": {
+   "short": [
+    {
+     "id": "en5-s-green-fat-name",
+     "text": "Green turtles are named for the color of their fat, not their shells.",
+     "source": {
+      "title": "NOAA Fisheries, Green Turtle",
+      "url": "https://www.fisheries.noaa.gov/species/green-turtle",
+      "quote": "The name “green turtle” comes from the color of their fat (not their shells), which originally was attributed to their diet; however, other sea turtles have greenish fat as well.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "en5-s-green-saw-beak",
+     "text": "A green turtle's beak has saw-like edges.",
+     "source": {
+      "title": "NOAA Fisheries, Green Turtle",
+      "url": "https://www.fisheries.noaa.gov/species/green-turtle",
+      "quote": "Other distinct characteristics of the green turtle are the serrated edges of their beak and two large scales located between their eyes.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "en5-s-green-eats-greens",
+     "text": "Green turtles mostly eat their greens: seagrasses and algae.",
+     "source": {
+      "title": "NOAA Fisheries, Green Turtle",
+      "url": "https://www.fisheries.noaa.gov/species/green-turtle",
+      "quote": "Their diet mainly consists of algae and seagrasses, though they may also eat invertebrates and other animal matter (e.g., discarded fish and bait) if available.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "en5-s-green-nearsighted",
+     "text": "A green turtle sees well underwater but is nearsighted on land.",
+     "source": {
+      "title": "Wikipedia (en), Green sea turtle",
+      "url": "https://en.wikipedia.org/wiki/Green_sea_turtle",
+      "quote": [
+       "Green sea turtles tend to have good vision, well adapted to a life at sea.",
+       "On land, however, the sea turtles are nearsighted because the lenses in the eyes are spherical and adjusted to refraction underwater."
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "en5-s-green-baby-outline",
+     "text": "Baby green turtles have a bright white outline along their shells and flippers.",
+     "source": {
+      "title": "NOAA Fisheries, Green Turtle",
+      "url": "https://www.fisheries.noaa.gov/species/green-turtle",
+      "quote": "Hatchlings have a dark gray to black carapace, white plastron, and prominent white margins on the shell and flippers.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "en5-l-green-salty-eyes",
+     "text": "A green turtle that seems to be crying may just be shedding excess salt through glands behind its eyes.",
+     "source": {
+      "title": "Wikipedia (en), Green sea turtle",
+      "url": "https://en.wikipedia.org/wiki/Green_sea_turtle",
+      "quote": "Basking turtles sometimes look like they are crying because behind the turtles eye is the lachrymal gland which stores excess salt from the sea water, which then expels through the turtles eye.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "en5-l-green-same-bed",
+     "text": "Green turtles can tuck themselves under rocks to sleep, returning to the same underwater bedroom night after night.",
+     "source": {
+      "title": "Wikipedia (en), Green sea turtle",
+      "url": "https://en.wikipedia.org/wiki/Green_sea_turtle",
+      "quote": [
+       "During the night while sleeping and to protect themselves from potential predators, the adults wedge themselves under rocks below the surface and under ledges in reefs and coastal rocks.",
+       "Many green sea turtles have been observed in returning to the same sleeping location night after night. [ 35 ]"
+      ],
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "en5-l-green-bright-horizon",
+     "text": "A baby green turtle finds the sea by moving away from dark dunes toward the brightest horizon.",
+     "source": {
+      "title": "NOAA Fisheries, Green Turtle",
+      "url": "https://www.fisheries.noaa.gov/species/green-turtle",
+      "quote": "Hatchlings orient seaward by moving away from the darkest silhouette of the landward dune or vegetation to crawl towards the brightest horizon.",
+      "checked": "2026-11-05"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  }
+ }
+}

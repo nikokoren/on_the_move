@@ -188,10 +188,11 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Open
 
-### O4 Many more facts for every species (owner, 2026-10-23; planned, not started)
+### O4 Many more facts for every species (owner, 2026-10-23; round 5 awaiting review)
 
 - The owner: the current minimum (at least 6 short and 4 long per language and species) "is still too small"; long term every species needs many more, in all four pools (English short/long, German short/long). English with a slight US focus (`docs/FACT_STYLE.md`).
 - How: the same loop as R8f: separate English and German writers, `pipeline/check_fact_draft.py`, the owner's review page, then `facts_reviewed.json`. Re-check NABU (offline 2026-10-22): several earlier facts rested on it.
+- 2026-11-05: round 5 drafted for all 20 currently featured species, including plains zebra and green turtle: 52 English and 53 German additions, written separately to `FACT_STYLE.md`. **All pending owner review; none integrated.** Drafts: `pipeline/facts_draft_round5_en.json` and `_de.json`; [review page and coverage audit](reviews/facts-round5.md), with an editable HTML review and JSON export. Supporting evidence: 132 verbatim quotes across 40 live-fetched pages; 105/105 facts pass source and length checks. `check_fact_draft.py --additions` includes seasonal species without requiring unchanged individual notes. Recheck sources before integration; use an empty `--cache` directory to force a fresh fetch. The longer-term goal of much larger pools remains open.
 - Today (2026-10-23): English 4 to 10 short and 4 to 6 long per species; German 4 to 8 short and 3 to 6 long.
 
 ### O2 Publish the templates through TRMNL's API (owner, 2026-10-03; planned, not started)
