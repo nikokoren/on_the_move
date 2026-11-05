@@ -32,7 +32,7 @@ def build():
              "52 English and 53 German facts across all 20 currently featured species. "
              "No production pools or individual-animal notes were changed.", "",
              "Open [the interactive review](facts-round5.html) in a browser to edit wording, "
-             "approve, star, reject, add notes and export your decisions. "
+             "go through suggestions individually, approve, star, veto, request a rewrite with notes, and export your decisions. "
              "Edits are saved in that browser when local storage is available; export to keep a portable copy. "
              "Approval in the page only records a decision; integration is a separate step.", "",
              "## Approach and checks", "",
@@ -56,8 +56,9 @@ def build():
              "Use an empty cache directory for a fresh live-source pass. "
              "After review, recheck edited wording against its quotes and build/render the accepted facts "
              "through the normal recipe pipeline. Rejected facts remain excluded.", "",
-             "Browser checks passed for all 105 cards, filters, current-fact comparison, edits and overlength warnings, "
-             "favorites, notes, persistence, and the complete JSON export. Desktop (1280 px) and mobile (390 px) "
+             "Browser checks passed for individual navigation through all 105 suggestions, filters, current-fact comparison, "
+             "edits and overlength warnings, separate veto/rewrite decisions with notes, favorites, persistence, "
+             "and the complete JSON export. Desktop (1280 px) and mobile (390 px) "
              "showed no horizontal overflow or JavaScript errors. [Rendered review preview](facts-round5-preview.png).", "",
              "## Coverage", "",
              "Counts are **EN short / EN long / DE short / DE long**. "

@@ -43,6 +43,10 @@ The full text is in `docs/BRIEF.md`. Short form:
 8. Write memory down, dated, with a re-check instruction.
 9. Assume concurrent agents: re-read a file before editing it; don't trust your last-known main.
 
+## Text reviews (owner, 2026-11-05)
+
+Always present text for owner review in an interactive UI. The owner must be able to move through individual suggestions, edit the current wording, veto it, or send it for rewrite with additional notes. Preserve edits, decisions and notes together, and provide a way to return them for follow-up. The round-five review in `docs/reviews/facts-round5.html` is the current implementation. Plain text, Markdown and screenshots may supplement the UI. This preference applies to all text reviews, including facts, settings copy, errors and changelogs.
+
 ## Hard rules for this project
 
 - **Licensing (decided, brief section 2):** only CC0 and CC BY data, or sources whose own terms explicitly allow commercial use. CC BY-NC, custom terms and similar only with the owner's written permission stored in `data/permissions/`. GBIF queries always filter `license` to `CC0_1_0` and `CC_BY_4_0`. eBird Status and Trends is excluded. This is a cautious reading, not legal advice.

@@ -2,6 +2,10 @@
 
 How the species facts and individual-animal facts are written. Built from the owner's two review rounds on the fact review page (verdicts in `pipeline/facts_draft_round1.json` and `pipeline/facts_draft_round2.json`, field `review`). Decision R8f in `docs/DECISIONS.md`. Re-read this before writing any fact.
 
+## Interactive review (owner, 2026-11-05)
+
+Always deliver proposed text in an interactive UI where the owner can go through individual suggestions, edit the current suggestion, veto it, or request a rewrite with additional notes. Keep the wording, verdict and notes together when saving or exporting feedback. A rewrite request is a separate decision from a veto; it asks for another proposal. The current UI is `docs/reviews/facts-round5.html`, built with `pipeline/build_fact_review.py`. The Markdown audit is supporting material.
+
 ## Four separate pools per species
 
 Each species has four independent pools: English short, English long, German short, German long.
