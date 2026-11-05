@@ -9,6 +9,7 @@
   name: About This Plugin
   description: |
     Follow migrating animals on a map: white storks, cranes, honey buzzards, turtle doves, gulls, shrikes, wheatears, curlews, hawks, vultures, ospreys, snow geese, Canada geese, bald eagles, blackpoll warblers, peregrine falcons, a blue whale and a loggerhead turtle. Animals with a working GPS tag show their last position and its date. The others show where they usually are on this day, from a full year of their own published tracking data. A thick line shows where the journey began, a thin line where it usually goes next. Names come from the researchers where they gave one; the other animals carry the first name of a famous biologist or scientist from their part of the world.<br><br>
+    v1.2 — Added seasonal migration journeys for plains zebras and green turtles.<br><br>
     Tracking data (Movebank, CC0 and CC BY studies only; used under their licences, without warranties):<br>
     White Stork: Wolfgang Fiedler, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study173641633">LifeTrack White Stork Vorarlberg</a>, CC BY<br>
     White Stork: Wolfgang Fiedler, <a href="https://www.movebank.org/cms/webapp?gwt_fragment=page=studies,path=study24442409">LifeTrack White Stork Bavaria</a>, CC BY<br>
@@ -60,7 +61,7 @@
 - keyname: follow
   field_type: select
   name: Animals
-  description: Tick one species to follow it, or several to show them in turn. Leave all unticked to show every available species. Zebras and green turtles join the rotation during their recorded journeys.
+  description: Tick one species to follow it, or several to show them in turn. Leave all unticked to show every available species. Seasonal animals appear only during their recorded migration periods and aren’t available year-round.
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>ctrl</kbd>+<kbd>click</kbd> to select and deselect multiple options.
   optional: true
   multiple: true
@@ -83,8 +84,8 @@
   - Blue Whale
   - Loggerhead Turtle
   - Peregrine Falcon
-  - Plains Zebra
-  - Green Turtle
+  - Plains Zebra (seasonal)
+  - Green Turtle (seasonal)
 - keyname: show_photo
   field_type: boolean
   name: Species photo

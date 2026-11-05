@@ -58,9 +58,27 @@ check('seasonal-only selections remain explicit and explain the next season', ()
   for (const selection of [zebra, turtle, [zebra, turtle]]) {
     const v = run(selection, '2026-07-01T12:00:00Z');
     assert.equal(v.state, 'seasonal'); assert.ok(!v.geo);
-    assert.match(v.status, /Next season starts around/);
+    assert.match(v.status, /recorded migration journeys are shown seasonally/);
+    assert.match(v.guidance, /select another species in the recipe settings/);
+    assert.match(v.guidance, /leave the selection empty/);
   }
   assert.match(run(zebra, '2026-07-01T12:00:00Z').status, /18 Nov/);
+  const many = run([zebra, turtle], '2026-07-01T12:00:00Z');
+  assert.equal(many.species, 'Seasonal animals');
+  assert.match(many.status, /^These animals’/);
+  assert.match(many.status, /18 September/);
+  const de = run([zebra, turtle], '2026-07-01T12:00:00Z', { lang: 'de' });
+  assert.match(de.status, /dieser Tiere/);
+  assert.match(de.guidance, /eine andere Art/);
+  assert.match(de.guidance, /Ohne Auswahl/);
+});
+check('seasonal labels and old saved selections resolve to the same taxa', () => {
+  for (const selection of ['Plains Zebra (seasonal), Green Turtle (seasonal)',
+    'plains_zebra_seasonal,green_turtle_seasonal',
+    '["Plains Zebra (seasonal)","Green Turtle (seasonal)"]',
+    'plains_zebra,green_turtle']) {
+    assert.deepEqual(speciesList(selection,data.species),[zebra,turtle]);
+  }
 });
 check('in-season rows agree with the expanded journey; units and photo-off remain supported', () => {
   for (const lang of ['en', 'de']) for (const units of ['metric', 'imperial']) for (let i = 0; i < 96; i++) {

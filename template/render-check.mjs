@@ -239,10 +239,12 @@ for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang,
   const tagScreen = SCREENS.length > 1 || VIEWS.length > 1 ? "_" + view + "_" + screen.replace(/screen--/g, "").replace(/ /g, "-") : "";
   const png = path.join(OUT, `${taxon === "*" ? "multi-" + slot : taxon.replace(/ /g, "_")}_${lang}_${day}${tagScreen}.png`);
   await tab.locator("#otm-view").screenshot({ path: png });
+  const visibleText = (await tab.locator("#otm-view").innerText()).replace(/\s+/g, " ");
   await tab.close();
   // The multi layout shows on the X (lg) only, and only with rows in the payload.
   const multiWanted = !!v.rows && /screen--lg/.test(cls);
-  rows.push({ view, screen, taxon: taxon === "*" ? `slot ${slot} ${v.species}` : taxon, lang, day, state: v.state, kind: v.kind, errors: errors.length, multiWanted, ...got, png: path.basename(png) });
+  const messageVisible = v.state === "ok" || [v.status, v.guidance].filter(Boolean).every((text) => visibleText.includes(text.replace(/\s+/g, " ")));
+  rows.push({ view, screen, taxon: taxon === "*" ? `slot ${slot} ${v.species}` : taxon, lang, day, state: v.state, kind: v.kind, errors: errors.length, multiWanted, messageVisible, ...got, png: path.basename(png) });
 }
 await browser.close();
 server.close();
@@ -264,6 +266,7 @@ for (const r of rows) {
   if (r.pageBad) why.push("wrong page");
   if (r.pillNeeded !== r.pillShown) why.push(`pill needed ${r.pillNeeded} shown ${r.pillShown}`);
   if (r.errors) why.push(`${r.errors} page errors`);
+  if (!r.messageVisible) why.push("message or selection guidance missing");
   if (why.length) bad++;
   console.log(`${why.length ? "FAIL" : "ok  "} ${r.view.padEnd(15)} ${r.screen.replace(/screen--/g, "").padEnd(12)} ${r.size.padEnd(9)} ${r.taxon.padEnd(30)} ${r.lang} ${r.day} ${String(r.kind).padEnd(5)} maps ${r.maps} pill ${r.pillNeeded ? "needed" : "-"}${r.shownRows ? ` rows ${r.shownRows}/${r.colsUsed}col` : ""}${why.length ? "  " + why.join("; ") : ""}`);
 }

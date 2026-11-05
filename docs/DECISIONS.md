@@ -10,6 +10,7 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 - Focus the next data investigation on zebras and green turtles. Caspian terns are deferred: Europe–Africa journeys are already well represented.
 - Added in the working tree: Plains Zebra (two legs of one animal) and Green Turtle (two animals), sourced from CC0 repository packages. Inactive species leave automatic/mixed rotation; an explicitly selected seasonal-only pool gets a next-season message. Turtle nesting-area fixes are excluded before generalisation. The existing 18 species retain their data.
 - Zebra maps use integer zoom 6 for the shorter journey; existing species retain their prior zoom. Two-card quadrant pages shift back to fill the final pair when seasonal availability leaves an odd number of species.
+- Owner-approved copy, 2026-11-05: mark the two seasonal species in the selection list and explain their limited calendar availability. The out-of-season screen says when journeys return and tells readers to choose another species or clear the selection for all available animals. Multiple inactive selections use plural wording. Existing saved labels remain accepted. Changelog: “v1.2 — Added seasonal migration journeys for plains zebras and green turtles.”
 - Data evidence is in `survey/seasonal-candidates.md`; reproduction, validation and release steps are in `SEASONAL_RELEASE.md`. No production deployment or device confirmation is implied.
 
 ### R8f Facts in four separate pools: English and German, short and long (owner, 2026-10-22)

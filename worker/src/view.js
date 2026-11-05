@@ -266,8 +266,11 @@ function seasonalMessage(pool, t, lang, local) {
     if (start <= local.toISOString().slice(5, 10)) date.setUTCFullYear(date.getUTCFullYear() + 1);
     return { date, sp };
   })).sort((a, b) => a.date - b.date)[0];
-  return { state: "seasonal", species: upcoming?.sp.names[lang] || "", photo: "",
-    status: upcoming ? fill(t.outOfSeason, { date: fmtDate(t, upcoming.date, false) }) : t.noData };
+  const multiple = pool.length > 1;
+  const date = upcoming ? fill(t.day, { d: upcoming.date.getUTCDate(), m: t.monthsLong[upcoming.date.getUTCMonth()] }) : "";
+  return { state: "seasonal", species: multiple ? t.seasonalTitle : upcoming?.sp.names[lang] || "", photo: "",
+    status: upcoming ? fill(multiple ? t.outOfSeasonMany : t.outOfSeason, { date }) : t.noData,
+    guidance: t.seasonalHelp };
 }
 
 // One animal on one day. Returns null when this animal has no position today.

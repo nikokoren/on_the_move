@@ -60,8 +60,12 @@ Zebra maps use zoom 6, including the smaller views, so the roughly 200 km journe
 
 ## Publish the recipe after review
 
+The 2026-11-05 copy update adds “(seasonal)” selection labels, the year-round availability hint, and the v1.2 changelog sentence. Both the previous saved selection labels and the new marked labels resolve to the same species. The out-of-season explanation includes the next available date and a separate guidance paragraph directing readers to another species or an empty selection. Singular and plural English/German copy are supported.
+
+Copy validation: all 30,744 payload cases, recorded refresh checks and nine seasonal checks passed. All 32 targeted message renders passed: English singular and plural selections, German singular copy, all four layouts, and representative OG/X orientations. The render check verifies that both the explanation and the guidance are visible. The Worker dry-run build also passed; no deployment was performed.
+
 1. Review the four windows, display names, short new fact pools and screenshots. The recorded years must stay visible.
-2. Update the TRMNL **Shared** tab (`template/shared.liquid`) and **Quadrant** tab (`template/quadrant.liquid`) first: these support both the existing Worker and the new one. The shared update enables zebra zoom; the quadrant update handles odd available-species counts. Other layout tabs need no publication changes.
+2. Update the TRMNL **Shared**, **Full**, **Half Horizontal**, **Half Vertical** and **Quadrant** tabs from `template/` first: these support both the existing Worker and the new one. Every layout passes the new settings guidance to the shared message component. Shared also enables zebra zoom; Quadrant handles odd available-species counts.
 3. Merge the Worker change through the existing repository workflow when ready: merges to main touching `worker/` automatically deploy. Then update **settings** (`template/settings.yml`) for the new options and credits. Keep the existing polling URL. No merge, template publication or deployment was performed here.
 4. Select the new animals and confirm a real device poll and visual rendering. In July both new species deliberately show the off-season message; on 4 November green turtles are active and zebras resume on 18 November. Recheck dates for the viewer's local day. Production polling, quotas and device appearance remain unverified until this step.
 

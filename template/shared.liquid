@@ -16,6 +16,7 @@
 <div class="layout layout--col layout--center gap--medium">
   {% if species != blank %}<span class="title">{{ species }}</span>{% endif %}
   <span class="description text--center">{{ status }}</span>
+  {% if guidance != blank %}<span class="description text--center">{{ guidance }}</span>{% endif %}
 </div>
 {% endtemplate %}
 
