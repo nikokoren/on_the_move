@@ -34,6 +34,8 @@ Starred: named animals and people (Klepetan and Malena, Prinzesschen, Lady the o
 - Route descriptions the map already shows, plain behaviour lines, population numbers without a hook, facts that need missing context.
 - Also vetoed in round 2 (no note): the cranes of Ibycus, Titan the turtle dove, the shrike's 22,000 km loop, blue jays imitating the broad-winged hawk, broad-wings riding updrafts, Adelita, loggerhead age, ospreys' return to Scotland, the snow goose population boom.
 
+Round-five feedback (2026-11-05) is preserved in `pipeline/facts_review_round5.json`; apply its verdicts per item and language. Six vetoes: the German crane's false tail, wheatear plumage change, curlew's “Beerenpause”, Lishman's Canada geese, and green turtle's male tail; the English zebra family's change of stallion. Do not reintroduce these as new suggestions. For rewrites, prefer complete, natural German sentences and clear place references: “am Fundort” was unclear when describing where turtle doves court. Simplify the curlew's mistaken Madagascar name story. Follow-up wording remains subject to owner review.
+
 ## Sources
 
 Every fact rests on one or more sentences quoted verbatim from its source, checked by script against the live page (working method rule 3). Paraphrase in the fact; never copy the source sentence as the fact. Prefer primary sources, research institutions, conservation bodies and good journalism; Wikipedia is acceptable but not preferred. Measurements are written `{metric|imperial}` (e.g. `{48 km|30 mi}`), in the source's own units where the source gives them.

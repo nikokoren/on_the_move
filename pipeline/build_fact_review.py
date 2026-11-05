@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Build the round-five review documents without changing approved recipe data."""
 import json
+import hashlib
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -11,6 +13,9 @@ def build():
     species = json.loads((ROOT / "worker/data/featured.json").read_text())["species"]
     drafts = {lang: json.loads((ROOT / f"pipeline/facts_draft_round5_{lang}.json").read_text())
               for lang in ("en", "de")}
+    owner_path = ROOT / "pipeline/facts_review_round5.json"
+    owner = json.loads(owner_path.read_text()) if owner_path.exists() else None
+    owner_facts = {f["id"]: f for f in owner["facts"]} if owner else {}
     rows, facts, existing = [], [], {}
     for sp in species:
         taxon = sp["taxon"]
@@ -23,12 +28,12 @@ def build():
                 before.append(count)
                 after.append(count + len(pool))
                 for f in pool:
-                    facts.append({**f, "taxon": taxon, "name": sp["names"][lang],
+                    facts.append({**owner_facts.get(f["id"], f), "taxon": taxon, "name": sp["names"][lang],
                                   "lang": lang, "kind": kind, "limit": limit})
         rows.append((sp, before, after))
 
     lines = ["# Animal facts — round 5", "",
-             "2026-11-05 · **105 proposed additions, all pending review.** "
+             "2026-11-05 · **105 proposed additions.** "
              "52 English and 53 German facts across all 20 currently featured species. "
              "No production pools or individual-animal notes were changed.", "",
              "Open [the interactive review](facts-round5.html) in a browser to edit wording, "
@@ -62,29 +67,84 @@ def build():
              "showed no horizontal overflow or JavaScript errors. [Rendered review preview](facts-round5-preview.png).", "",
              "## Coverage", "",
              "Counts are **EN short / EN long / DE short / DE long**. "
-             "‘After’ assumes every proposal is accepted.", "",
+             "‘After’ describes the initial proposal, assuming every item is accepted; owner decisions are recorded below.", "",
              "| Species | Current | After review, if accepted |", "|---|---|---|"]
     for sp, before, after in rows:
         lines.append(f"| {sp['names']['en']} / {sp['names']['de']} | "
                      + " / ".join(map(str, before)) + " | " + " / ".join(map(str, after)) + " |")
+    if owner:
+        counts = Counter(f["review"]["verdict"] for f in facts)
+        lines += ["", "## Imported owner review", "",
+                  f"Exported {owner['exported']}: {counts['ok']} approved, {counts['veto']} vetoed, "
+                  f"{counts['rewrite']} requested rewrites, {counts['pending']} pending. "
+                  "All edits, notes and 39 favorites are preserved in `pipeline/facts_review_round5.json`. "
+                  "Three approved edits have proposed grammar repairs, presented separately for confirmation. "
+                  "The other 88 approvals need no further wording review. No new facts have been integrated.", "",
+                  "Continue with the [11-item follow-up review](facts-round6.html). "
+                  "The original export remains unchanged; its instructions are editorial feedback for these items.", ""]
     for sp, _, _ in rows:
         lines += ["", f"## {sp['names']['en']} / {sp['names']['de']}", "", f"*{sp['taxon']}*", ""]
         for lang in drafts:
             for kind in ("short", "long"):
                 lines += [f"### {lang.upper()} · {kind}", ""]
                 for f in drafts[lang]["species"][sp["taxon"]][kind]:
+                    f = owner_facts.get(f["id"], f)
                     quotes = f["source"]["quote"]
                     if isinstance(quotes, str):
                         quotes = [quotes]
-                    lines += [f"**{f['id']}** · {len(f['text'])} characters · pending", "", f["text"], "",
+                    verdict = f.get("review", {}).get("verdict", "pending")
+                    lines += [f"**{f['id']}** · {len(f['text'])} characters · {verdict}", "", f["text"], "",
                               f"Source: [{f['source']['title']}]({f['source']['url']}) · checked {f['source']['checked']}", ""]
                     lines += ["> " + q for q in quotes] + [""]
+                    if f.get("review", {}).get("note"):
+                        lines += ["Owner note: " + f["review"]["note"], ""]
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "facts-round5.md").write_text("\n".join(lines) + "\n")
-    payload = json.dumps({"facts": facts, "existing": existing}, ensure_ascii=False).replace("<", "\\u003c")
+    payload = {"round": 5, "facts": facts, "existing": existing,
+               "speciesNames": {sp["taxon"]: sp["names"] for sp in species}}
+    if owner:
+        payload.update({"storageKey": "on-the-move-facts-round5-imported-" + hashlib.sha256(owner_path.read_bytes()).hexdigest()[:12],
+                        "intro": "Your review is imported: 91 approved, 6 vetoed, 5 requested rewrites, and 3 pending. Continue with the focused round-six review for the open items and proposed grammar repairs."})
+    payload = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
     template = (ROOT / "pipeline/fact_review.html").read_text()
     (OUT / "facts-round5.html").write_text(template.replace("__REVIEW_DATA__", payload))
     print(f"Built review for {len(facts)} additions across {len(species)} species")
+    followup = ROOT / "pipeline/facts_draft_round6.json"
+    if followup.exists():
+        d = json.loads(followup.read_text())
+        payload = {**d, "existing": existing, "speciesNames": {sp["taxon"]: sp["names"] for sp in species},
+                   "storageKey": "on-the-move-facts-round6-v1",
+                   "title": "On the Move · Animal facts, round 6",
+                   "audit": "facts-round6.md",
+                   "intro": "11 suggestions need your attention: 5 requested rewrites, 3 undecided facts, and 3 proposed grammar repairs to approved edits. Your other 88 approvals and all 6 vetoes are preserved. Review one item at a time; earlier feedback appears with each suggestion."}
+        (OUT / "facts-round6.html").write_text(template.replace("__REVIEW_DATA__", json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")))
+        lines = ["# Animal facts — round 6", "", "2026-11-05 · **11 items, all pending owner review.**", "",
+                 "Open the [interactive review](facts-round6.html) to edit, approve, veto or send a suggestion for another rewrite with notes.", "",
+                 "Round 5 feedback: 91 approvals (39 favorites), 6 vetoes, 5 rewrite requests and 3 undecided facts. "
+                 "The original export is preserved byte-for-byte in `pipeline/facts_review_round5.json`. "
+                 "Three approved edits contain grammar slips; proposed fixes are included for confirmation. "
+                 "The other 88 approved facts and all 6 vetoes are carried forward without changes. No recipe facts were integrated.", "",
+                 "The follow-up has 8 German and 3 English items. All fit the 90/140-character limits. "
+                 "Supporting quotes for both the uploaded review and follow-up were rechecked against live sources on 2026-11-05.", "",
+                 "After this round, combine approvals by parent ID: a round-six approval supersedes its round-five wording; "
+                 "a veto stays excluded, a rewrite stays open, and pending never means approved. "
+                 "Keep both review rounds as the record of the owner's decisions.", "",
+                 "Validation: all 105 imported edits and decisions survived re-export; all 11 follow-ups were navigable with earlier feedback. "
+                 "Editing, approval, veto, rewrite notes, persistence, filtering and round-six JSON export passed browser checks. "
+                 "Desktop and mobile layouts showed no horizontal overflow or JavaScript errors. "
+                 "[Rendered preview](facts-round6-preview.png).", ""]
+        for f in d["facts"]:
+            info = f["followup"]
+            lines += [f"## {f['name']} · {f['lang'].upper()} · {f['kind']}", "", f"**{f['id']}** · {len(f['text'])}/{f['limit']} characters · pending", "",
+                      info["reason"] + ": " + info["explanation"], ""]
+            if info["previousReview"]["note"]:
+                lines += ["Owner feedback: " + info["previousReview"]["note"], ""]
+            lines += ["Previous: " + f["originalText"], "", "Proposed: " + f["text"], "",
+                      f"Source: [{f['source']['title']}]({f['source']['url']}) · checked {f['source']['checked']}", ""]
+            quote = f["source"]["quote"]
+            lines += ["> " + q for q in (quote if isinstance(quote, list) else [quote])] + [""]
+        (OUT / "facts-round6.md").write_text("\n".join(lines) + "\n")
+        print(f"Built round-six follow-up for {len(d['facts'])} suggestions")
 
 
 if __name__ == "__main__":

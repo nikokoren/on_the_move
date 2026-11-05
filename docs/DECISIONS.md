@@ -188,11 +188,12 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Open
 
-### O4 Many more facts for every species (owner, 2026-10-23; round 5 awaiting review)
+### O4 Many more facts for every species (owner, 2026-10-23; round 6 awaiting review)
 
 - The owner: the current minimum (at least 6 short and 4 long per language and species) "is still too small"; long term every species needs many more, in all four pools (English short/long, German short/long). English with a slight US focus (`docs/FACT_STYLE.md`).
 - How: the same loop as R8f: separate English and German writers, `pipeline/check_fact_draft.py`, the owner's review page, then `facts_reviewed.json`. Re-check NABU (offline 2026-10-22): several earlier facts rested on it.
 - 2026-11-05: round 5 drafted for all 20 currently featured species, including plains zebra and green turtle: 52 English and 53 German additions, written separately to `FACT_STYLE.md`. **All pending owner review; none integrated.** Drafts: `pipeline/facts_draft_round5_en.json` and `_de.json`; [review page and coverage audit](reviews/facts-round5.md), with an editable HTML review and JSON export. Supporting evidence: 132 verbatim quotes across 40 live-fetched pages; 105/105 facts pass source and length checks. `check_fact_draft.py --additions` includes seasonal species without requiring unchanged individual notes. Recheck sources before integration; use an empty `--cache` directory to force a fresh fetch. The longer-term goal of much larger pools remains open.
+- 2026-11-05: imported the owner's round-five export, preserved byte-for-byte in `pipeline/facts_review_round5.json`: **91 approved (39 favorites), 6 vetoed, 5 requested rewrites, 3 pending**. Sources and original text matched the known draft; all uploaded edits and notes are preserved. [Round-six interactive review](reviews/facts-round6.html), built from `pipeline/facts_draft_round6.json`, has the 5 rewrites, 3 undecided facts, and 3 proposed grammar repairs to approved edits. Those repairs need confirmation; the other 88 approved texts need no further wording review. Vetoes remain excluded. Re-fetched 40 source pages: supporting quotes and length checks passed for all 105 reviewed facts and 11 follow-ups. No new facts integrated or deployed. After review, combine decisions by `parentId`; pending/rewrite never means approved. Re-run `python3 pipeline/build_fact_review.py` to rebuild both review pages. Preserve the uploaded record and latest vetoes before any integration.
 - Today (2026-10-23): English 4 to 10 short and 4 to 6 long per species; German 4 to 8 short and 3 to 6 long.
 
 ### O2 Publish the templates through TRMNL's API (owner, 2026-10-03; planned, not started)
