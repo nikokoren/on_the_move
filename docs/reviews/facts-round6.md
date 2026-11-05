@@ -4,7 +4,7 @@
 
 Open the [interactive review](facts-round6.html) to edit, approve, veto or send a suggestion for another rewrite with notes.
 
-Round 5 feedback: 91 approvals (39 favorites), 6 vetoes, 5 rewrite requests and 3 undecided facts. The original export is preserved byte-for-byte in `pipeline/facts_review_round5.json`. Three approved edits contain grammar slips; proposed fixes are included for confirmation. The other 88 approved facts and all 6 vetoes are carried forward without changes. Final result: 98 additions integrated locally (51 English, 47 German), 7 vetoes excluded. The recipe now contains 513 species facts. Nothing published. The round-six upload is preserved byte-for-byte in `pipeline/facts_review_round6.json`; it includes your three latest wording edits.
+Round 5 feedback: 91 approvals (39 favorites), 6 vetoes, 5 rewrite requests and 3 undecided facts. The original export is preserved byte-for-byte in `pipeline/facts_review_round5.json`. Three approved edits contain grammar slips; proposed fixes are included for confirmation. The other 88 approved facts and all 6 vetoes are carried forward without changes. Final result: 98 additions integrated locally (51 English, 47 German), 7 vetoes excluded. The recipe now contains 513 species facts. Release status is recorded in the release notes. The round-six upload is preserved byte-for-byte in `pipeline/facts_review_round6.json`; it includes your three latest wording edits.
 
 The follow-up has 8 German and 3 English items. All fit the 90/140-character limits. Supporting quotes for both the uploaded review and follow-up were rechecked against live sources on 2026-11-05.
 

@@ -2,7 +2,7 @@
 
 Read this first in every session. The repo is the memory: agents keep nothing between sessions.
 
-Latest fact update, 2026-11-05: owner review rounds 5 and 6 are complete. The 98 approved additions (51 English, 47 German) and all final edits are integrated locally; 7 vetoes are excluded. There are now 513 species facts across 20 animals. Nothing published or pushed for this update. Records: `pipeline/facts_review_round5.json` and `pipeline/facts_review_round6.json`; checks and rendered examples: `docs/FACTS_RELEASE.md`. Rebuild facts without changing annual tracks using `python3 pipeline/build_facts.py`. Seasonal builds also draw approved facts from `facts_reviewed.json`. Recheck the actual branch/deployment before reporting release status.
+Latest fact update, 2026-11-05: owner review rounds 5 and 6 are complete. The 98 approved additions (51 English, 47 German) and all final edits are integrated locally; 7 vetoes are excluded. There are now 513 species facts across 20 animals. Merged to main at `5b78ce449385960df58c698a062cf82207697c62` and deployed successfully by GitHub Actions run `42100034568` on 2026-11-05 (workflow status Success). Records: `pipeline/facts_review_round5.json` and `pipeline/facts_review_round6.json`; checks and rendered examples: `docs/FACTS_RELEASE.md`. Rebuild facts without changing annual tracks using `python3 pipeline/build_facts.py`. Seasonal builds also draw approved facts from `facts_reviewed.json`. Recheck the actual branch/deployment before reporting release status.
 
 ## Status (2026-09-29)
 

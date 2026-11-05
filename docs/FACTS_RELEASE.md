@@ -1,6 +1,6 @@
 # Approved animal facts — rounds 5 and 6
 
-Prepared locally on 2026-11-05. Review complete; nothing pushed, published or deployed.
+Released on 2026-11-05. Merged to `main` at `5b78ce449385960df58c698a062cf82207697c62`. The [automatic Worker deployment](https://github.com/nikokoren/on_the_move/actions/runs/42100034568) completed successfully, including the required Worker checks. Production deployment is confirmed by the successful workflow; physical-device appearance remains unverified.
 
 The owner accepted **98 additions: 51 English and 47 German**, including 39 favorites. All final wording edits are preserved. Seven vetoes are excluded, and no rewrite or approval remains pending. The recipe now contains **513 species facts across 20 species**: 279 English and 234 German. Short and long pools remain independent.
 
@@ -32,4 +32,4 @@ python3 pipeline/build_fact_review.py
 
 The normal full featured/species builds also retain the additions. `pipeline/verify_sources.py` checks all owner-approved facts, including the new seasonal pools; a fresh complete run requires access to the older facts' source domains as well.
 
-This change needs no settings or layout-tab update. A later merge to main touching `worker/` will trigger the existing automatic Worker deploy. Until that release, the published recipe is unchanged.
+This change needs no settings or layout-tab update. The merge to main triggered the existing automatic Worker deploy, which succeeded. The published Worker includes the 98 approved additions.

@@ -55,7 +55,7 @@ Counts are **EN short / EN long / DE short / DE long**. ‘After’ describes th
 
 ## Imported owner review
 
-Exported 2026-11-05T14:30:07.841Z: 91 approved, 6 vetoed, 5 requested rewrites, 3 pending. All edits, notes and 39 favorites are preserved in `pipeline/facts_review_round5.json`. Three approved edits have proposed grammar repairs, presented separately for confirmation. The other 88 approvals need no further wording review. Round six is complete: 98 approved additions are integrated locally and all 7 vetoes are excluded. Nothing published.
+Exported 2026-11-05T14:30:07.841Z: 91 approved, 6 vetoed, 5 requested rewrites, 3 pending. All edits, notes and 39 favorites are preserved in `pipeline/facts_review_round5.json`. Three approved edits have proposed grammar repairs, presented separately for confirmation. The other 88 approvals need no further wording review. Round six is complete: 98 approved additions are integrated locally and all 7 vetoes are excluded. Release status is recorded in the release notes.
 
 See the [11-item follow-up review](facts-round6.html). The original export remains unchanged; its instructions are editorial feedback for these items.
 

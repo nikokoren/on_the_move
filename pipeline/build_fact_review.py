@@ -89,7 +89,7 @@ def build():
                   "All edits, notes and 39 favorites are preserved in `pipeline/facts_review_round5.json`. "
                   "Three approved edits have proposed grammar repairs, presented separately for confirmation. "
                   "The other 88 approvals need no further wording review. "
-                  + ("Round six is complete: 98 approved additions are integrated locally and all 7 vetoes are excluded. Nothing published."
+                  + ("Round six is complete: 98 approved additions are integrated locally and all 7 vetoes are excluded. Release status is recorded in the release notes."
                      if round6 else "No new facts have been integrated."), "",
                   "See the [11-item follow-up review](facts-round6.html). "
                   "The original export remains unchanged; its instructions are editorial feedback for these items.", ""]
@@ -116,7 +116,7 @@ def build():
     if owner:
         payload.update({"storageKey": "on-the-move-facts-round5-imported-" + hashlib.sha256(owner_path.read_bytes()).hexdigest()[:12],
                         "intro": "Your round-five review is preserved: 91 approved, 6 vetoed, 5 requested rewrites, and 3 pending. "
-                        + ("Round six is now complete: the final 98 additions are integrated locally and all 7 vetoes are excluded. Nothing published."
+                        + ("Round six is now complete: the final 98 additions are integrated locally and all 7 vetoes are excluded. Release status is recorded in the release notes."
                            if round6 else "Continue with the focused round-six review for the open items and proposed grammar repairs.")})
     payload = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
     template = (ROOT / "pipeline/fact_review.html").read_text()
@@ -131,7 +131,7 @@ def build():
                    "storageKey": ("on-the-move-facts-round6-imported-" + hashlib.sha256(round6_path.read_bytes()).hexdigest()[:12]) if round6 else "on-the-move-facts-round6-v1",
                    "title": "On the Move · Animal facts, round 6",
                    "audit": "facts-round6.md",
-                   "intro": "Round six is complete: 10 approved and 1 vetoed. Across both rounds, all 98 approved additions are integrated locally, including your latest edits, and all 7 vetoes are excluded. There are no pending rewrites. Nothing published." if round6 else "11 suggestions need your attention: 5 requested rewrites, 3 undecided facts, and 3 proposed grammar repairs to approved edits. Your other 88 approvals and all 6 vetoes are preserved. Review one item at a time; earlier feedback appears with each suggestion."}
+                   "intro": "Round six is complete: 10 approved and 1 vetoed. Across both rounds, all 98 approved additions are integrated locally, including your latest edits, and all 7 vetoes are excluded. There are no pending rewrites. Release status is recorded in the release notes." if round6 else "11 suggestions need your attention: 5 requested rewrites, 3 undecided facts, and 3 proposed grammar repairs to approved edits. Your other 88 approvals and all 6 vetoes are preserved. Review one item at a time; earlier feedback appears with each suggestion."}
         (OUT / "facts-round6.html").write_text(template.replace("__REVIEW_DATA__", json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")))
         lines = ["# Animal facts — round 6", "", "2026-11-05 · **10 approved, 1 vetoed; review complete.**" if round6 else "2026-11-05 · **11 items, all pending owner review.**", "",
                  "Open the [interactive review](facts-round6.html) to edit, approve, veto or send a suggestion for another rewrite with notes.", "",
@@ -139,7 +139,7 @@ def build():
                  "The original export is preserved byte-for-byte in `pipeline/facts_review_round5.json`. "
                  "Three approved edits contain grammar slips; proposed fixes are included for confirmation. "
                  "The other 88 approved facts and all 6 vetoes are carried forward without changes. "
-                 + ("Final result: 98 additions integrated locally (51 English, 47 German), 7 vetoes excluded. The recipe now contains 513 species facts. Nothing published. "
+                 + ("Final result: 98 additions integrated locally (51 English, 47 German), 7 vetoes excluded. The recipe now contains 513 species facts. Release status is recorded in the release notes. "
                     "The round-six upload is preserved byte-for-byte in `pipeline/facts_review_round6.json`; it includes your three latest wording edits."
                     if round6 else "No recipe facts were integrated."), "",
                  "The follow-up has 8 German and 3 English items. All fit the 90/140-character limits. "
