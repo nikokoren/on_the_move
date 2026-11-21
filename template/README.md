@@ -27,6 +27,10 @@ Strategy: Polling. One line, no spaces or line breaks (Nextbike: anything after 
 
 Not confirmed on a device yet (R25).
 
+## Locator globe
+
+Full view only, for species with `globe: true` in the payload's GEO (short journeys; today the plains zebra; decision G1): a small globe bottom right, centred on the animal, drawn by `shared.liquid` (bundled d3-geo projection and Natural Earth land; licence `globe-LICENSE.txt`; regenerate with `tools/globe.js` and `tools/world_map.py`). No setting. Half views and the quadrant never show it.
+
 ## Checks
 
     npm i
@@ -46,4 +50,4 @@ Options (environment):
 - `OTM_FACT="…"` puts that fact on every case, to prove the longest facts in the species table fit.
 - `OTM_TPL=path/to/variant.liquid` renders a variant file in the view's place (mock-ups on the real framework).
 
-A case fails if a map on screen is not drawn, the fallback text shows, any text is cut off by the view or by its list, the multi layout shows where it should not (or not where it should), the list's page does not hold the shown animal, or the pill shows while the destination ring is visible (or is missing while it is not).
+A case fails if a map on screen is not drawn, the fallback text shows, any text is cut off by the view or by its list, the multi layout shows where it should not (or not where it should), the list's page does not hold the shown animal, or the pill shows while the destination ring is visible (or is missing while it is not), or the globe shows where it should not (or not where it should), lacks land, or overlaps the text box, date, pill, map credit or list.
