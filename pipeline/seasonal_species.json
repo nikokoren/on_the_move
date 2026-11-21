@@ -3,7 +3,7 @@
   "species": [
     {
       "taxon": "Equus quagga",
-      "mapZoom": 6,
+      "mapZoom": 6, "globe": true,
       "sourceTaxon": "Equus burchellii",
       "names": {
         "en": "Plains Zebra",

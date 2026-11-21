@@ -104,6 +104,8 @@ def append_seasonal(data, refresh=False):
                     facts[lang].append({'text':f['text'], 'len':length, 'star':f['star'], 'source':f['source']})
         daily = daily_fixes(folder, sp)
         entry = {'taxon': sp['taxon'], 'names': sp['names'], 'seasonal': True, 'mapZoom':sp.get('mapZoom',3),
+                 # A locator globe on the full view (owner, 2026-11-21: the zebra's journey is short).
+                 **({'globe': True} if sp.get('globe') else {}),
                  'photo': (ROOT/'worker/photos'/f"{sp['taxon'].lower().replace(' ', '_')}.jpg").exists(),
                  'facts': facts, 'animals': []}
         for j in sp['journeys']:
