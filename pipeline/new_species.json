@@ -1,0 +1,501 @@
+{
+ "about": "Species the owner picked on 2026-11-21 from the candidates survey (docs/survey/more-candidates-2026-11.md), not yet featured. Names: IOC 15.2 for birds (the catalog's Numenius phaeopus animals are Alaskan birds, which IOC 15.2 splits as Hudsonian Whimbrel, Numenius hudsonicus; the catalog's Tryngites subruficollis is IOC's Calidris subruficollis). Bowhead names to be sourced. IUCN from data/catalog.json. Facts are drafted in pipeline/facts_draft_new_*.json and go through owner review (R8f) before they enter pipeline/facts_reviewed.json. Animals: the star and two backups that pipeline/build_featured.py picks (staging run 2026-11-21); names for unnamed animals follow decision N1 (biologists or scientists from the study's country, by sex where Movebank records it), checked against the Wikipedia page summaries on 2026-11-21. Schlepp and Hepton are the researchers' labels for two Idaho swans; the owner may prefer biologists' names.",
+ "species": {
+  "Bubo scandiacus": {
+   "names": {
+    "en": "Snowy Owl",
+    "de": "Schneeeule",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "iucn": "VU",
+   "picked": "2026-11-21",
+   "animals": [
+    {
+     "id": "mb-12112706-12117721",
+     "researchersName": "Beatrix"
+    },
+    {
+     "id": "mb-12112706-12117804",
+     "researchersName": "Christie"
+    },
+    {
+     "id": "mb-12112706-12117877",
+     "researchersName": "Heidi"
+    }
+   ]
+  },
+  "Numenius phaeopus": {
+   "names": {
+    "en": "Hudsonian Whimbrel",
+    "de": "Hudsonbrachvogel",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "iucn": "LC",
+   "picked": "2026-11-21",
+   "iocTaxon": "Numenius hudsonicus",
+   "animals": [
+    {
+     "id": "mb-854852176-879208530",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Mardy",
+      "after": "Margaret Murie",
+      "who": "American naturalist and author",
+      "source": "https://en.wikipedia.org/wiki/Margaret_Murie",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-854852176-879208531",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Olaus",
+      "after": "Olaus Murie",
+      "who": "American naturalist and author",
+      "source": "https://en.wikipedia.org/wiki/Olaus_Murie",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-854852176-879208533",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Adolph",
+      "after": "Adolph Murie",
+      "who": "American naturalist and author",
+      "source": "https://en.wikipedia.org/wiki/Adolph_Murie",
+      "checked": "2026-11-21"
+     }
+    }
+   ]
+  },
+  "Cygnus columbianus": {
+   "names": {
+    "en": "Tundra Swan",
+    "de": "Zwergschwan",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "iucn": "LC",
+   "picked": "2026-11-21",
+   "animals": [
+    {
+     "id": "mb-2021208867-2023757578",
+     "researchersName": "Schlepp"
+    },
+    {
+     "id": "mb-2021208867-2023760474",
+     "researchersName": "Hepton"
+    },
+    {
+     "id": "mb-2021208867-3510282812",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Aldo",
+      "after": "Aldo Leopold",
+      "who": "American conservationist (1887–1948)",
+      "source": "https://en.wikipedia.org/wiki/Aldo_Leopold",
+      "checked": "2026-11-21"
+     }
+    }
+   ]
+  },
+  "Balaena mysticetus": {
+   "names": {
+    "en": "Bowhead Whale",
+    "de": "Grönlandwal",
+    "source": {
+     "title": "NOAA Fisheries, Bowhead Whale; Wikipedia (de), Grönlandwal",
+     "url": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+     "urlDe": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+     "checked": "2026-11-21"
+    }
+   },
+   "iucn": "LC",
+   "picked": "2026-11-21",
+   "animals": [
+    {
+     "id": "mb-467031755-919997235",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Ian",
+      "after": "Ian McTaggart-Cowan",
+      "who": "Scottish-Canadian zoologist, conservationist and television presenter",
+      "source": "https://en.wikipedia.org/wiki/Ian_McTaggart-Cowan",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-467031755-919997237",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Rudolph",
+      "after": "Rudolph Martin Anderson",
+      "who": "Canadian zoologist and explorer (1876–1961)",
+      "source": "https://en.wikipedia.org/wiki/Rudolph_Martin_Anderson",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-467031755-919997242",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Brenda",
+      "after": "Brenda Milner",
+      "who": "British-Canadian neuroscientist and neuropsychologist (born 1918)",
+      "source": "https://en.wikipedia.org/wiki/Brenda_Milner",
+      "checked": "2026-11-21"
+     }
+    }
+   ]
+  },
+  "Aquila chrysaetos": {
+   "names": {
+    "en": "Golden Eagle",
+    "de": "Steinadler",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "iucn": "LC",
+   "picked": "2026-11-21",
+   "animals": [
+    {
+     "id": "mb-171287018-171292514",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Roger",
+      "after": "Roger Tory Peterson",
+      "who": "American naturalist, ornithologist and writer (1908–1996)",
+      "source": "https://en.wikipedia.org/wiki/Roger_Tory_Peterson",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-171287018-171296647",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Spencer",
+      "after": "Spencer Fullerton Baird",
+      "who": "American scientist (1823 – 1887)",
+      "source": "https://en.wikipedia.org/wiki/Spencer_Fullerton_Baird",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-171287018-171296659",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Elliott",
+      "after": "Elliott Coues",
+      "who": "American ornithologist (1842–1899)",
+      "source": "https://en.wikipedia.org/wiki/Elliott_Coues",
+      "checked": "2026-11-21"
+     }
+    }
+   ]
+  },
+  "Tringa flavipes": {
+   "names": {
+    "en": "Lesser Yellowlegs",
+    "de": "Gelbschenkel",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "iucn": "VU",
+   "picked": "2026-11-21",
+   "animals": [
+    {
+     "id": "mb-543061768-3633600984",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Florence",
+      "after": "Florence Merriam Bailey",
+      "who": "American ornithologist (1863–1948)",
+      "source": "https://en.wikipedia.org/wiki/Florence_Merriam_Bailey",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-543061768-3633647338",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Joseph",
+      "after": "Joseph Grinnell",
+      "who": "Biologist and zoologist (1877–1939)",
+      "source": "https://en.wikipedia.org/wiki/Joseph_Grinnell",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-543061768-3638069063",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Frank",
+      "after": "Frank Chapman (ornithologist)",
+      "who": "American ornithologist (1864–1945)",
+      "source": "https://en.wikipedia.org/wiki/Frank_Chapman_(ornithologist)",
+      "checked": "2026-11-21"
+     }
+    }
+   ]
+  },
+  "Mycteria americana": {
+   "names": {
+    "en": "Wood Stork",
+    "de": "Waldstorch",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "iucn": "LC",
+   "picked": "2026-11-21",
+   "animals": [
+    {
+     "id": "dr-4fdcdd25-910240",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Edward",
+      "after": "E. O. Wilson",
+      "who": "American biologist, naturalist, and writer (1929–2021)",
+      "source": "https://en.wikipedia.org/wiki/E._O._Wilson",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "dr-4fdcdd25-992250",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Lynn",
+      "after": "Lynn Margulis",
+      "who": "American evolutionary biologist (1938–2011)",
+      "source": "https://en.wikipedia.org/wiki/Lynn_Margulis",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-1448377103-1448414175",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Thomas",
+      "after": "Thomas Say",
+      "who": "American naturalist (1787–1834)",
+      "source": "https://en.wikipedia.org/wiki/Thomas_Say",
+      "checked": "2026-11-21"
+     }
+    }
+   ]
+  },
+  "Fratercula arctica": {
+   "names": {
+    "en": "Atlantic Puffin",
+    "de": "Papageitaucher",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "iucn": "VU",
+   "picked": "2026-11-21",
+   "animals": [
+    {
+     "id": "mb-1401935050-1536792500",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Inge",
+      "after": "Inge Lehmann",
+      "who": "Danish seismologist (1888–1993)",
+      "source": "https://en.wikipedia.org/wiki/Inge_Lehmann",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-1401935050-1536792507",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Finn",
+      "after": "Finn Salomonsen",
+      "who": "Danish ornithologist",
+      "source": "https://en.wikipedia.org/wiki/Finn_Salomonsen",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-1401935050-1536792506",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Johannes",
+      "after": "Johannes Schmidt (biologist)",
+      "who": "Danish biologist",
+      "source": "https://en.wikipedia.org/wiki/Johannes_Schmidt_(biologist)",
+      "checked": "2026-11-21"
+     }
+    }
+   ]
+  },
+  "Tryngites subruficollis": {
+   "names": {
+    "en": "Buff-breasted Sandpiper",
+    "de": "Grasläufer",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "iucn": "VU",
+   "picked": "2026-11-21",
+   "iocTaxon": "Calidris subruficollis",
+   "animals": [
+    {
+     "id": "mb-1128676353-1128700007",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Margaret",
+      "after": "Margaret Morse Nice",
+      "who": "American ornithologist (1883–1974)",
+      "source": "https://en.wikipedia.org/wiki/Margaret_Morse_Nice",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-1128676353-1128700028",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Arthur",
+      "after": "Arthur Cleveland Bent",
+      "who": "American ornithologist",
+      "source": "https://en.wikipedia.org/wiki/Arthur_Cleveland_Bent",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-1128676353-1128700030",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Robert",
+      "after": "Robert Cushman Murphy",
+      "who": "American ornithologist and museum curator",
+      "source": "https://en.wikipedia.org/wiki/Robert_Cushman_Murphy",
+      "checked": "2026-11-21"
+     }
+    }
+   ]
+  },
+  "Stercorarius longicaudus": {
+   "names": {
+    "en": "Long-tailed Jaeger",
+    "de": "Falkenraubmöwe",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "iucn": "LC",
+   "picked": "2026-11-21",
+   "animals": [
+    {
+     "id": "mb-1978212368-1978326765",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Percy",
+      "after": "Percy A. Taverner",
+      "who": "Canadian architect and ornithologist",
+      "source": "https://en.wikipedia.org/wiki/Percy_A._Taverner",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-1978212368-1978328166",
+     "researchersName": null,
+     "proposedName": {
+      "name": "William",
+      "after": "William Rowan (biologist)",
+      "who": "Canadian biologist and ornithologist",
+      "source": "https://en.wikipedia.org/wiki/William_Rowan_(biologist)",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-1978212368-1978326563",
+     "researchersName": null,
+     "proposedName": {
+      "name": "John",
+      "after": "John Macoun",
+      "who": "Irish-born Canadian naturalist (1831–1920)",
+      "source": "https://en.wikipedia.org/wiki/John_Macoun",
+      "checked": "2026-11-21"
+     }
+    }
+   ]
+  },
+  "Xema sabini": {
+   "names": {
+    "en": "Sabine's Gull",
+    "de": "Schwalbenmöwe",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "iucn": "LC",
+   "picked": "2026-11-21",
+   "animals": [
+    {
+     "id": "mb-208672795-208674042",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Louise",
+      "after": "Louise de Kiriline Lawrence",
+      "who": "Swedish scientist",
+      "source": "https://en.wikipedia.org/wiki/Louise_de_Kiriline_Lawrence",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-208672795-208674084",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Frederick",
+      "after": "Frederick Banting",
+      "who": "Canadian medical scientist and doctor (1891–1941)",
+      "source": "https://en.wikipedia.org/wiki/Frederick_Banting",
+      "checked": "2026-11-21"
+     }
+    },
+    {
+     "id": "mb-304527187-304535400",
+     "researchersName": null,
+     "proposedName": {
+      "name": "Doris",
+      "after": "Doris Huestis Speirs",
+      "who": "Canadian ornithologist (1894-1989)",
+      "source": "https://en.wikipedia.org/wiki/Doris_Huestis_Speirs",
+      "checked": "2026-11-21"
+     }
+    }
+   ]
+  }
+ }
+}

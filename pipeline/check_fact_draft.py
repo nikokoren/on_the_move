@@ -20,6 +20,10 @@ Exit code 1 on any failure.
 including seasonal species. It skips unchanged individual templates/notes,
 requires a new short and long fact for each species, and rejects exact repeats
 of the published facts. This mode does not approve or integrate any facts.
+
+--new checks a draft for the species in pipeline/new_species.json (picked by
+the owner, not featured yet; 2026-11-21) instead of the curated ones, and
+skips the individual templates and notes.
 """
 import hashlib, json, os, re, sys
 
@@ -41,8 +45,9 @@ def main():
     os.makedirs(cache, exist_ok=True)
     d = json.load(open(path, encoding="utf-8"))
     additions = "--additions" in sys.argv
+    new = "--new" in sys.argv
     published = json.load(open(os.path.join(ROOT, "worker", "data", "featured.json"), encoding="utf-8"))["species"] if additions else []
-    taxa = [s["taxon"] for s in published] if additions else json.load(open(os.path.join(ROOT, "pipeline", "species_curated.json"), encoding="utf-8"))["species"]
+    taxa = [s["taxon"] for s in published] if additions else json.load(open(os.path.join(ROOT, "pipeline", "new_species.json" if new else "species_curated.json"), encoding="utf-8"))["species"]
     errs, ids, counts = [], set(), {}
     seen_text = set()
     if additions and d.get("lang") not in ("en", "de"):
@@ -96,7 +101,7 @@ def main():
                 for q in vs.quotes(f["source"]):
                     if vs.norm(q) not in text:
                         errs.append(f"{fid}: quote not found: {q[:80]!r}")
-    if not additions:
+    if not additions and not new:
         check_individual(d, errs)
     for t, (s, l) in counts.items():
         print(f"{t:28} short {s:2}  long {l:2}")

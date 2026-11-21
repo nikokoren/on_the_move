@@ -57,7 +57,7 @@ def load_places():
     return layers
 
 
-MARINE = {"Balaenoptera musculus", "Caretta caretta"}
+MARINE = {"Balaenoptera musculus", "Caretta caretta", "Balaena mysticetus"}
 
 
 def place_of(layers, lat, lon, marine=False, stay=False):
@@ -82,8 +82,10 @@ def place_of(layers, lat, lon, marine=False, stay=False):
         return names[i] if geoms[i].distance(pt) <= limit else None
 
     if marine:
+        # Last, the nearest country: some Arctic bays have no sea polygon at 1:50m
+        # (seen 2026-11-21: a bowhead in the Gulf of Boothia went unnamed).
         return inside("ne_50m_geography_marine_polys") or near("ne_50m_geography_marine_polys", 2.0) \
-            or inside("ne_50m_admin_0_countries")
+            or inside("ne_50m_admin_0_countries") or near("ne_50m_admin_0_countries")
     # Stays are named by country: at 1:50m the desert polygons reach into the
     # Sahel (seen: a turtle dove wintering at Abéche, Chad, named "Libyan Desert").
     # Deserts name the places passed on the way.
@@ -176,6 +178,11 @@ def display_name(label, species_en=""):
     if species_en and species_en.lower().split()[-1] in (label or "").lower():
         return ""
     head = re.split(r"\s*[/(]\s*|\s+\+|\s+\d", label or "")[0].strip(" +")
+    # A tag code after the name is not part of it ('Schlepp GSM 216822',
+    # 'Beatrix SNOW_13_05'; seen 2026-11-21).
+    # Only tag-type words and underscored codes: wider rules renamed featured
+    # storks and changed their star choice.
+    head = re.sub(r"(\s+(?:GSM|GPS|PTT|[A-Z]+_[A-Z0-9_]+))+$", "", head)
     # All capitals is a code, not a name (seen 2026-09-29: snow geese "GSGO - EM",
     # the banding code for Greater Snow Goose plus initials).
     return head if re.fullmatch(r"[A-Za-zÀ-ÿ'\- ]{3,}", head) and not re.search(r"\d", head) and re.search(r"[a-zà-ÿ]", head) else ""
