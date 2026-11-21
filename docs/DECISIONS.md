@@ -4,6 +4,12 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### G1 Locator globe for short journeys (owner, 2026-11-21)
+
+- Why (owner): the zebra's migration is short, so its map is zoomed far in with little context. Show a small globe, only while that animal is in focus, only on the full view.
+- Built: the globe from the owner's Ridgelines/Downstream recipes (`nikokoren/downstream` `recipe/src/shared.liquid` and `recipe/tools/globe.js`, read 2026-11-21 at ec264e5): Natural Earth 1:110m land (public domain) and a centre-magnified orthographic projection (d3-geo 3.1.1, d3-array 3.2.5; ISC notices in Shared and `template/globe-LICENSE.txt`; regenerate with `template/tools/globe.js` and `world_map.py`). No setting (unlike Ridgelines): it shows whenever the species carries `globe: true` (`pipeline/seasonal_species.json`; today only the plains zebra). The Worker passes it in GEO; only `template/full.liquid` marks its maps `data-otm-globe` (single view and Flock View), so the half views and the quadrant never draw it. Bottom right, above the map credit; colours and sizes from TRMNLPaint; the pill moves into the corner stack if it would land on it.
+- Checks: `template/render-check.mjs` now fails a case if the globe shows where not wanted (or is missing where wanted), has no land, puts its marker off the globe, or overlaps the text box, the date, the pill, the map credit or the list. Sweep 2026-11-21, 192/192: the zebra on all four views × four screens (OG, OG portrait, X, X portrait) in both seasons and both languages (globe on the 12 full-view cases, never on the 36 half-view and quadrant cases); every species on the full view (96, globe only on the 4 zebra cases); Flock View on the X over 24 slots (48, globe on the 6 with the zebra in focus). `worker/check.mjs` passes. Not seen on a device. The Shared tab and the Full tab must be re-pasted into TRMNL.
+
 ### S4 Seasonal rotation and next animal candidates (owner, 2026-11-04)
 
 - Seasonal rotation is the chosen direction for animals with seasonal tracking coverage: feature their recorded journeys during the corresponding season. Implementation uses original month/day dates, with the original year visible; no position is inferred outside the selected journey. Short internal gaps (up to three missing days) may be interpolated and are labelled as estimates.

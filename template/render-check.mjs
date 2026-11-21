@@ -229,9 +229,24 @@ for (const view of VIEWS) for (const screen of SCREENS) for (const [taxon, lang,
       const tags = [...scope.querySelectorAll("[data-otm-pill]")].map(r);
       pillShown = tags.some((t) => !(box && t.left >= box.left && t.right <= box.right && t.top >= box.top && t.bottom <= box.bottom));
     }
+    // The locator globe (owner, 2026-11-21): on full-view maps whose GEO asks for it
+    // (short journeys, e.g. the zebra), nowhere else; land drawn, marker on the globe,
+    // and clear of the text box, the date, the pill and the map credit.
+    const globeWanted = maps.some((n) => n.hasAttribute("data-otm-globe") && (JSON.parse(n.getAttribute("data-geo") || "{}").globe));
+    const globes = [...viewEl.querySelectorAll("[data-otm-globe-svg]")].filter(shown);
+    const globeHits = [];
+    globes.forEach((svg) => {
+      const g = svg.querySelector("[data-otm-globe-rect]"), G = r(g.querySelector("circle"));
+      if (!(g.querySelector("path").getAttribute("d") || "").length) globeHits.push("no land drawn");
+      const m = r(g.querySelector("[data-otm-globe-marker]"));
+      if (m.left < G.left || m.right > G.right || m.top < G.top || m.bottom > G.bottom) globeHits.push("marker off the globe");
+      const scope = svg.closest("[data-otm-scope]") || viewEl;
+      const others = [...scope.querySelectorAll("[data-otm-box], [data-otm-stamp], [data-otm-pill], .map__attribution, .maplibregl-ctrl-attrib, [data-otm-list] span")].filter(shown);
+      others.forEach((o) => { const b = r(o); if (!(b.right <= G.left || b.left >= G.right || b.bottom <= G.top || b.top >= G.bottom)) globeHits.push(`overlaps ${(o.getAttribute("data-otm-box") !== null ? "text box" : (o.textContent || o.className).trim().slice(0, 20))}`); });
+    });
     return {
       maps: maps.length, drawn, waiting, clipped, collide, listOver, overBy, multiShown, current, pageBad, shownRows, colsUsed,
-      pillNeeded, pillShown,
+      pillNeeded, pillShown, globeWanted, globeShown: globes.length, globeHits,
       size: `${Math.round(vr.width)}x${Math.round(vr.height)}`,
       zoom: maps[0] && maps[0]._otmMap ? +maps[0]._otmMap.getZoom().toFixed(2) : null
     };
@@ -265,10 +280,12 @@ for (const r of rows) {
   if (r.multiWanted && r.current !== (r.view === "quadrant" ? 0 : 1)) why.push(`${r.current} expanded`);
   if (r.pageBad) why.push("wrong page");
   if (r.pillNeeded !== r.pillShown) why.push(`pill needed ${r.pillNeeded} shown ${r.pillShown}`);
+  if ((r.globeShown > 0) !== !!r.globeWanted || r.globeShown > 1) why.push(`globe shown ${r.globeShown}, wanted ${r.globeWanted}`);
+  if (r.globeHits && r.globeHits.length) why.push(`globe: ${r.globeHits.slice(0, 2).join(", ")}`);
   if (r.errors) why.push(`${r.errors} page errors`);
   if (!r.messageVisible) why.push("message or selection guidance missing");
   if (why.length) bad++;
-  console.log(`${why.length ? "FAIL" : "ok  "} ${r.view.padEnd(15)} ${r.screen.replace(/screen--/g, "").padEnd(12)} ${r.size.padEnd(9)} ${r.taxon.padEnd(30)} ${r.lang} ${r.day} ${String(r.kind).padEnd(5)} maps ${r.maps} pill ${r.pillNeeded ? "needed" : "-"}${r.shownRows ? ` rows ${r.shownRows}/${r.colsUsed}col` : ""}${why.length ? "  " + why.join("; ") : ""}`);
+  console.log(`${why.length ? "FAIL" : "ok  "} ${r.view.padEnd(15)} ${r.screen.replace(/screen--/g, "").padEnd(12)} ${r.size.padEnd(9)} ${r.taxon.padEnd(30)} ${r.lang} ${r.day} ${String(r.kind).padEnd(5)} maps ${r.maps} pill ${r.pillNeeded ? "needed" : "-"}${r.globeShown ? " globe" : ""}${r.shownRows ? ` rows ${r.shownRows}/${r.colsUsed}col` : ""}${why.length ? "  " + why.join("; ") : ""}`);
 }
 console.log(`\n${rows.length} cases, ${bad} failed. PNGs in ${OUT}`);
 process.exit(bad ? 1 : 0);

@@ -255,7 +255,9 @@ function seasonalView(sp, a, t, lang, local, turn, units, withFact) {
     when: fill(t.recordedYear, { year: recorded.getUTCFullYear() }),
     fact: withFact ? pool[factIndex(pool.length, turn, a.id)] : "",
     toward: dest ? fill(t.toward, { place: to, dist: fmtDist(t, km(here, dest), lang, units) }) : "",
-    geo: JSON.stringify({ pos: here, past: thin(past, MAX_LINE_POINTS), ahead: thin(ahead, MAX_LINE_POINTS), dest, zoom: sp.mapZoom === 3 ? undefined : sp.mapZoom }) };
+    geo: JSON.stringify({ pos: here, past: thin(past, MAX_LINE_POINTS), ahead: thin(ahead, MAX_LINE_POINTS), dest, zoom: sp.mapZoom === 3 ? undefined : sp.mapZoom,
+      // Short journeys on a close-up map get a locator globe (owner, 2026-11-21); the template draws it on the full view only.
+      globe: sp.globe ? 1 : undefined }) };
 }
 
 function seasonalMessage(pool, t, lang, local) {
@@ -383,7 +385,8 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, uni
       pos: unwrap([here], ref)[0],
       past: unwrap(thin(past, MAX_LINE_POINTS), ref),
       ahead: unwrap(thin(future, MAX_LINE_POINTS), ref),
-      dest: dest ? unwrap([dest], ref)[0] : null
+      dest: dest ? unwrap([dest], ref)[0] : null,
+      globe: sp.globe ? 1 : undefined
     })
   };
 }
