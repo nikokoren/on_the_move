@@ -167,5 +167,12 @@ export const PLACES = {
   "Sierra Leone": { inDe: "in Sierra Leone", inEn: "in Sierra Leone" },
   "Senegal": { inDe: "im Senegal", inEn: "in Senegal" },
   "Mauritania": { inDe: "in Mauretanien", inEn: "in Mauritania" },
-  "Western Sahara": { inDe: "in der Westsahara", inEn: "in Western Sahara" }
+  "Western Sahara": { inDe: "in der Westsahara", inEn: "in Western Sahara" },
+  // Named ranges for the short journeys of elk and mule deer (2026-11-22,
+  // data/featured.json "ranges"; docs/survey/elk-mule-deer-2026-11.md).
+  "Ya Ha Tinda Ranch": { de: "Ya-Ha-Tinda-Ranch", inDe: "auf der Ya-Ha-Tinda-Ranch", inEn: "on the Ya Ha Tinda Ranch" },
+  "Banff National Park": { de: "Banff-Nationalpark", inDe: "im Banff-Nationalpark", inEn: "in Banff National Park" },
+  "Red Desert": { inDe: "in der Red Desert", inEn: "in the Red Desert" },
+  "Hoback Basin": { inDe: "rund um das Hoback Basin", inEn: "around the Hoback Basin" },
+  "Wyoming": { inDe: "in Wyoming", inEn: "in Wyoming" }
 };

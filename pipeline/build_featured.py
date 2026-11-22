@@ -253,8 +253,12 @@ def main():
         ranges = sp.get("ranges", [])
 
         def where(lat, lon, stay=False, _taxon=taxon, _ranges=ranges):
+            # First match wins: a circle (lat, lon, km) or a box (lat and lon bounds,
+            # e.g. Wyoming, a rectangle), so list the small ranges first.
             for r in _ranges:
-                if km((lat, lon), (r["lat"], r["lon"])) <= r["km"]:
+                b = r.get("box")
+                if (b and b[0] <= lat <= b[1] and b[2] <= lon <= b[3]) or \
+                        (not b and km((lat, lon), (r["lat"], r["lon"])) <= r["km"]):
                     return {"en": r["names"]["en"], "de": r["names"]["de"]}
             return place_of(layers, lat, lon, _taxon in MARINE, stay=stay)
         # Star first: live, then days covered, then a real name over a tag code.
