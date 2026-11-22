@@ -60,9 +60,10 @@ function fmtDist(t, km, lang, units) {
 // "{5.6 km|3.5 mi}" or "{2.9-8.9 kg|6.5-19.8 lb}" (pipeline/species_curated.json):
 // both values come from the source or are rounded from it, so an imperial source
 // reads as it was written. The chosen side is formatted for the language.
+// Units may be more than one word ("77 sq mi"; seen 2026-11-22, a golden eagle).
 export function renderUnits(text, t, lang, units) {
   return String(text).replace(/\{([^{}|]+)\|([^{}|]+)\}/g, (all, metric, imperial) => {
-    const m = (units === "imperial" ? imperial : metric).trim().match(/^([\d.]+)(?:-([\d.]+))?\s+(\S+)$/);
+    const m = (units === "imperial" ? imperial : metric).trim().match(/^([\d.]+)(?:-([\d.]+))?\s+(\S.*)$/);
     if (!m) return all;
     const num = (x) => fmtNum(Number(x), lang, (x.split(".")[1] || "").length);
     const value = m[2] ? fill(t.range, { a: num(m[1]), b: num(m[2]) }) : num(m[1]);

@@ -93,6 +93,10 @@ def main():
                     errs.append(f"{fid}: {kind} is {n} characters (limit {LIMIT[kind]})")
                 if re.search(r"\{[^}|]*\}", f["text"]):
                     errs.append(f"{fid}: unit braces without |")
+                # Each side as worker/src/view.js renderUnits reads it: number(s), then the unit.
+                for side in [x for pair in re.findall(r"\{([^{}|]+)\|([^{}|]+)\}", f["text"]) for x in pair]:
+                    if not re.match(r"^([\d.]+)(?:-([\d.]+))?\s+(\S.*)$", side.strip()):
+                        errs.append(f"{fid}: unit token the Worker cannot render: {side!r}")
                 try:
                     text = page(f["source"])
                 except Exception as e:
