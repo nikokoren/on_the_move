@@ -4,6 +4,15 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### F3 Thirteen more species: eleven picks plus elk and mule deer (owner, 2026-11-21/22)
+
+- Picked by the owner from the candidates page (`docs/survey/more-candidates-2026-11.md`): snowy owl, Hudsonian whimbrel, tundra swan, bowhead whale, golden eagle, lesser yellowlegs, wood stork, Atlantic puffin, buff-breasted sandpiper, long-tailed jaeger, Sabine's gull; then elk and mule deer with a sourced storyline (`docs/survey/elk-mule-deer-2026-11.md`). Pronghorn and blue wildebeest skipped (they barely migrate in our data). All year-round tracks from the existing catalog (CC0/CC BY).
+- Setup in `pipeline/new_species.json`: names (IOC 15.2 for birds; the Alaskan whimbrels are IOC's Hudsonian Whimbrel), the animals the build picks, names for unnamed animals (N1). Photos picked by the owner on a picker page (`pipeline/new_species_images.json`, merged into `species_images.json`).
+- Short journeys get per-species build settings in `data/featured.json` (`stayKm`, `minJourneyKm`, `minSeasonKm`, `onlyStudies`, `ranges`, `mapZoom`, `globe`): elk are migrants only from the two CC0 Ya Ha Tinda studies, with named ranges (Ya Ha Tinda Ranch, Banff National Park); mule deer with Red Desert, Hoback Basin and Wyoming. The bowhead is a marine species.
+- Facts in two owner-reviewed rounds on https://claude.ai/artifact/GZgpJaZLGv7jBkpL8gzL8s: round 1 495 proposed, 323 approved (79 starred), 164 vetoed, 8 rewrites; round 2 222 proposed (top-ups and rewrites), 148 approved, 74 vetoed, one owner edit. Records: `pipeline/facts_review_new_round1.json`, `..._round2.json`; drafts `pipeline/facts_draft_new*_{en,de}.json`. One approved fact shortened by Claude to fit 140 characters in imperial units (marked `edited`).
+- Checks (2026-11-22): `npm run check` 49,776 runs, 0 failures, largest payload 1,956 bytes; render sweep of the 13 species 416/416 (four views, OG and X, en/de, two dates); longest new fact per language on every fact view, both screens, both orientations, 24/24; elk and mule deer full view with globe 12/12. Bundle 1.33 MB gzip. Not seen on a device.
+- Open: German tundra swan name (IOC "Zwergschwan" vs "Pfeifschwan"); the Idaho swans' labels "Schlepp" and "Hepton" kept as researchers' names; study 1229945587 (Lithuanian cranes) asks for its terms again, previous individual records kept, re-accept only with the owner's say-so (A1).
+
 ### G1 Locator globe for short journeys (owner, 2026-11-21)
 
 - Why (owner): the zebra's migration is short, so its map is zoomed far in with little context. Show a small globe, only while that animal is in focus, only on the full view.

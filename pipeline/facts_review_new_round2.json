@@ -1,0 +1,1042 @@
+{
+ "about": "Owner's decisions on the new-species facts, round 2 (2026-11-22), exported from https://claude.ai/artifact/GZgpJaZLGv7jBkpL8gzL8s (collection reviewsNew). Facts in pipeline/facts_draft_new2_{en,de}.json.",
+ "reviews": {
+  "den2-l-bowhead-appetite": {
+   "updatedAt": "2026-11-22T22:26:28.910Z",
+   "verdict": "ok"
+  },
+  "den2-l-bowhead-calf-swims": {
+   "updatedAt": "2026-11-22T22:26:01.610Z",
+   "verdict": "ok"
+  },
+  "den2-l-bowhead-cooling": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:26:22.010Z",
+   "verdict": "veto"
+  },
+  "den2-l-bowhead-mothers": {
+   "updatedAt": "2026-11-22T22:26:12.844Z",
+   "verdict": "ok"
+  },
+  "den2-l-bowhead-sanctuary": {
+   "updatedAt": "2026-11-22T22:26:33.877Z",
+   "verdict": "ok"
+  },
+  "den2-l-bowhead-scars": {
+   "updatedAt": "2026-11-22T22:26:46.627Z",
+   "verdict": "ok"
+  },
+  "den2-l-eagle-freeze": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:27:13.910Z",
+   "verdict": "veto"
+  },
+  "den2-l-eagle-mexico": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:27:51.278Z",
+   "verdict": "veto"
+  },
+  "den2-l-eagle-provider": {
+   "updatedAt": "2026-11-22T22:27:34.144Z",
+   "verdict": "ok"
+  },
+  "den2-l-eagle-rock-drop": {
+   "updatedAt": "2026-11-22T22:26:54.561Z",
+   "verdict": "ok"
+  },
+  "den2-l-eagle-wanderers": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:27:27.460Z",
+   "verdict": "veto"
+  },
+  "den2-l-falkenraubmoewe-arbeitsteilung": {
+   "updatedAt": "2026-11-22T22:34:44.228Z",
+   "verdict": "ok"
+  },
+  "den2-l-falkenraubmoewe-balzflug": {
+   "updatedAt": "2026-11-22T22:34:36.261Z",
+   "verdict": "ok"
+  },
+  "den2-l-falkenraubmoewe-hell": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:34:58.128Z",
+   "verdict": "veto"
+  },
+  "den2-l-falkenraubmoewe-klima": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:35:13.577Z",
+   "verdict": "veto"
+  },
+  "den2-l-falkenraubmoewe-kopf": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:35:04.978Z",
+   "verdict": "veto"
+  },
+  "den2-l-falkenraubmoewe-kueken": {
+   "updatedAt": "2026-11-22T22:34:50.912Z",
+   "verdict": "ok"
+  },
+  "den2-l-graslaeufer-gewohnheit": {
+   "updatedAt": "2026-11-22T22:33:21.328Z",
+   "verdict": "ok"
+  },
+  "den2-l-graslaeufer-mutter": {
+   "updatedAt": "2026-11-22T22:33:36.328Z",
+   "verdict": "ok"
+  },
+  "den2-l-graslaeufer-prachtkerle": {
+   "updatedAt": "2026-11-22T22:32:47.928Z",
+   "verdict": "ok"
+  },
+  "den2-l-graslaeufer-silber": {
+   "updatedAt": "2026-11-22T22:33:04.379Z",
+   "verdict": "ok"
+  },
+  "den2-l-graslaeufer-trupps": {
+   "updatedAt": "2026-11-22T22:33:28.379Z",
+   "verdict": "ok"
+  },
+  "den2-l-graslaeufer-wechsel": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:33:11.861Z",
+   "verdict": "veto"
+  },
+  "den2-l-maultierhirsch-duerre": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:40:18.795Z",
+   "verdict": "veto"
+  },
+  "den2-l-maultierhirsch-gasfeld": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:40:28.011Z",
+   "verdict": "veto"
+  },
+  "den2-l-maultierhirsch-gedaechtnis": {
+   "updatedAt": "2026-11-22T22:40:09.128Z",
+   "verdict": "ok"
+  },
+  "den2-l-maultierhirsch-laute": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:41:18.045Z",
+   "verdict": "veto"
+  },
+  "den2-l-maultierhirsch-nachwuchs": {
+   "updatedAt": "2026-11-22T22:41:00.495Z",
+   "verdict": "ok"
+  },
+  "den2-l-maultierhirsch-rancher": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:40:38.928Z",
+   "verdict": "veto"
+  },
+  "den2-l-maultierhirsch-versteck": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:41:10.295Z",
+   "verdict": "veto"
+  },
+  "den2-l-maultierhirsch-winter": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:40:53.278Z",
+   "verdict": "veto"
+  },
+  "den2-l-maultierhirsch-zaun": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:40:46.363Z",
+   "verdict": "veto"
+  },
+  "den2-l-owl-cold": {
+   "updatedAt": "2026-11-22T22:21:34.026Z",
+   "verdict": "ok"
+  },
+  "den2-l-owl-fox": {
+   "updatedAt": "2026-11-22T22:22:10.976Z",
+   "verdict": "ok"
+  },
+  "den2-l-owl-ice-age": {
+   "updatedAt": "2026-11-22T22:22:02.926Z",
+   "verdict": "ok"
+  },
+  "den2-l-owl-polar-bears": {
+   "updatedAt": "2026-11-22T22:21:42.126Z",
+   "verdict": "ok"
+  },
+  "den2-l-owl-siblings": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:22:20.276Z",
+   "verdict": "veto"
+  },
+  "den2-l-owl-toddlers": {
+   "updatedAt": "2026-11-22T22:21:55.327Z",
+   "verdict": "ok"
+  },
+  "den2-l-papageitaucher-auto": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:31:41.577Z",
+   "verdict": "veto"
+  },
+  "den2-l-papageitaucher-farbe": {
+   "updatedAt": "2026-11-22T22:32:02.745Z",
+   "verdict": "ok"
+  },
+  "den2-l-papageitaucher-gruppe": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:31:28.378Z",
+   "verdict": "veto"
+  },
+  "den2-l-papageitaucher-kopfwurf": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:31:48.661Z",
+   "verdict": "veto"
+  },
+  "den2-l-papageitaucher-publikum": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:31:17.045Z",
+   "verdict": "veto"
+  },
+  "den2-l-papageitaucher-uv": {
+   "updatedAt": "2026-11-22T22:31:06.527Z",
+   "verdict": "ok"
+  },
+  "den2-l-papageitaucher-wohnung": {
+   "updatedAt": "2026-11-22T22:31:55.428Z",
+   "verdict": "ok"
+  },
+  "den2-l-papageitaucher-zunge": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:31:35.361Z",
+   "verdict": "veto"
+  },
+  "den2-l-schwalbenmoewe-auftrieb": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:37:38.112Z",
+   "verdict": "veto"
+  },
+  "den2-l-schwalbenmoewe-balz": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:36:32.878Z",
+   "verdict": "veto"
+  },
+  "den2-l-schwalbenmoewe-biskaya": {
+   "updatedAt": "2026-11-22T22:37:04.411Z",
+   "verdict": "ok"
+  },
+  "den2-l-schwalbenmoewe-jugendkleid": {
+   "updatedAt": "2026-11-22T22:36:45.461Z",
+   "verdict": "ok"
+  },
+  "den2-l-schwalbenmoewe-sabine": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:37:22.862Z",
+   "verdict": "veto"
+  },
+  "den2-l-schwalbenmoewe-ueberland": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:37:15.645Z",
+   "verdict": "veto"
+  },
+  "den2-l-swan-elbe": {
+   "updatedAt": "2026-11-22T22:25:59.777Z",
+   "verdict": "ok"
+  },
+  "den2-l-swan-mattamuskeet": {
+   "updatedAt": "2026-11-22T22:25:51.944Z",
+   "verdict": "ok"
+  },
+  "den2-l-swan-mound-nest": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:25:42.678Z",
+   "verdict": "veto"
+  },
+  "den2-l-swan-sleep": {
+   "updatedAt": "2026-11-22T22:25:16.977Z",
+   "verdict": "ok"
+  },
+  "den2-l-swan-upending": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:25:32.128Z",
+   "verdict": "veto"
+  },
+  "den2-l-waldstorch-geduld": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:30:32.711Z",
+   "verdict": "veto"
+  },
+  "den2-l-waldstorch-gruen": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:30:15.044Z",
+   "verdict": "veto"
+  },
+  "den2-l-waldstorch-hochhaus": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:30:07.894Z",
+   "verdict": "veto"
+  },
+  "den2-l-waldstorch-wache": {
+   "updatedAt": "2026-11-22T22:30:39.511Z",
+   "verdict": "ok"
+  },
+  "den2-l-waldstorch-wachstum": {
+   "updatedAt": "2026-11-22T22:30:23.361Z",
+   "verdict": "ok"
+  },
+  "den2-l-wapiti-fruehling": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:38:37.395Z",
+   "verdict": "veto"
+  },
+  "den2-l-wapiti-fuetterung": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:38:21.611Z",
+   "verdict": "veto"
+  },
+  "den2-l-wapiti-hufe": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:38:57.445Z",
+   "verdict": "veto"
+  },
+  "den2-l-wapiti-kaelber": {
+   "updatedAt": "2026-11-22T22:38:27.779Z",
+   "verdict": "ok"
+  },
+  "den2-l-wapiti-neuseeland": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:39:14.128Z",
+   "verdict": "veto"
+  },
+  "den2-l-wapiti-rockies": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:39:07.395Z",
+   "verdict": "veto"
+  },
+  "den2-l-wapiti-tule": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:38:47.178Z",
+   "verdict": "veto"
+  },
+  "den2-l-whimbrel-bike": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:23:33.711Z",
+   "verdict": "veto"
+  },
+  "den2-l-whimbrel-fuel": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:23:26.443Z",
+   "verdict": "veto"
+  },
+  "den2-l-whimbrel-late-summer": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:24:11.377Z",
+   "verdict": "veto"
+  },
+  "den2-l-whimbrel-no-losses": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:23:58.493Z",
+   "verdict": "veto"
+  },
+  "den2-l-whimbrel-two-hurricanes": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:23:51.260Z",
+   "verdict": "veto"
+  },
+  "den2-l-whimbrel-winnie": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:23:41.677Z",
+   "verdict": "veto"
+  },
+  "den2-l-yellowlegs-muskeg": {
+   "updatedAt": "2026-11-22T22:29:05.794Z",
+   "verdict": "ok"
+  },
+  "den2-l-yellowlegs-new-zealand": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:29:23.644Z",
+   "verdict": "veto"
+  },
+  "den2-l-yellowlegs-peatlands": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:28:54.695Z",
+   "verdict": "veto"
+  },
+  "den2-l-yellowlegs-prairie": {
+   "updatedAt": "2026-11-22T22:29:14.611Z",
+   "verdict": "ok"
+  },
+  "den2-l-yellowlegs-protected": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:29:41.777Z",
+   "verdict": "veto"
+  },
+  "den2-l-yellowlegs-wait-and-chase": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:29:34.361Z",
+   "verdict": "veto"
+  },
+  "den2-s-falkenraubmoewe-aussicht": {
+   "updatedAt": "2026-11-22T22:34:26.678Z",
+   "verdict": "ok"
+  },
+  "den2-s-falkenraubmoewe-elegant": {
+   "updatedAt": "2026-11-22T22:33:53.945Z",
+   "verdict": "ok"
+  },
+  "den2-s-falkenraubmoewe-golf": {
+   "updatedAt": "2026-11-22T22:34:20.494Z",
+   "verdict": "ok"
+  },
+  "den2-s-falkenraubmoewe-kutter": {
+   "updatedAt": "2026-11-22T22:34:07.478Z",
+   "verdict": "ok"
+  },
+  "den2-s-falkenraubmoewe-paar": {
+   "updatedAt": "2026-11-22T22:33:57.278Z",
+   "verdict": "ok"
+  },
+  "den2-s-falkenraubmoewe-spaetstart": {
+   "updatedAt": "2026-11-22T22:34:11.747Z",
+   "verdict": "ok"
+  },
+  "den2-s-falkenraubmoewe-spiesse": {
+   "updatedAt": "2026-11-22T22:34:02.978Z",
+   "verdict": "ok"
+  },
+  "den2-s-falkenraubmoewe-zwei-eier": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:33:48.695Z",
+   "verdict": "veto"
+  },
+  "den2-s-graslaeufer-flugfaehig": {
+   "updatedAt": "2026-11-22T22:32:35.828Z",
+   "verdict": "ok"
+  },
+  "den2-s-graslaeufer-jagd": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:32:24.678Z",
+   "verdict": "veto"
+  },
+  "den2-s-graslaeufer-pampa": {
+   "updatedAt": "2026-11-22T22:32:13.544Z",
+   "verdict": "ok"
+  },
+  "den2-s-graslaeufer-regenpfeifer": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:32:31.094Z",
+   "verdict": "veto"
+  },
+  "den2-s-graslaeufer-stolz": {
+   "updatedAt": "2026-11-22T22:32:17.677Z",
+   "verdict": "ok"
+  },
+  "den2-s-graslaeufer-tanz": {
+   "updatedAt": "2026-11-22T22:32:08.994Z",
+   "verdict": "ok"
+  },
+  "den2-s-maultierhirsch-drittel": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:39:51.461Z",
+   "verdict": "veto"
+  },
+  "den2-s-maultierhirsch-huftiere": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:40:01.761Z",
+   "verdict": "veto"
+  },
+  "den2-s-maultierhirsch-magen": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:39:56.545Z",
+   "verdict": "veto"
+  },
+  "den2-s-maultierhirsch-nase": {
+   "updatedAt": "2026-11-22T22:39:33.861Z",
+   "verdict": "ok"
+  },
+  "den2-s-maultierhirsch-schutzgebiet": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:39:46.529Z",
+   "verdict": "veto"
+  },
+  "den2-s-maultierhirsch-schwarzwedel": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:39:28.812Z",
+   "verdict": "veto"
+  },
+  "den2-s-maultierhirsch-sparflamme": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:39:39.862Z",
+   "verdict": "veto"
+  },
+  "den2-s-maultierhirsch-zwille": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:39:20.045Z",
+   "verdict": "veto"
+  },
+  "den2-s-papageitaucher-hochsee": {
+   "updatedAt": "2026-11-22T22:30:57.211Z",
+   "verdict": "ok"
+  },
+  "den2-s-papageitaucher-kettensaege": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:30:45.995Z",
+   "verdict": "veto"
+  },
+  "den2-s-papageitaucher-taucherbrille": {
+   "updatedAt": "2026-11-22T22:30:51.261Z",
+   "verdict": "ok"
+  },
+  "den2-s-schwalbenmoewe-braun": {
+   "updatedAt": "2026-11-22T22:36:22.328Z",
+   "verdict": "ok"
+  },
+  "den2-s-schwalbenmoewe-kapuze": {
+   "updatedAt": "2026-11-22T22:36:08.412Z",
+   "verdict": "ok"
+  },
+  "den2-s-schwalbenmoewe-kreisel": {
+   "updatedAt": "2026-11-22T22:35:20.262Z",
+   "verdict": "ok"
+  },
+  "den2-s-schwalbenmoewe-kueken": {
+   "updatedAt": "2026-11-22T22:35:44.261Z",
+   "verdict": "ok"
+  },
+  "den2-s-schwalbenmoewe-leicht": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:35:53.011Z",
+   "verdict": "veto"
+  },
+  "den2-s-schwalbenmoewe-m": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:36:17.378Z",
+   "verdict": "veto"
+  },
+  "den2-s-schwalbenmoewe-nachbarn": {
+   "updatedAt": "2026-11-22T22:35:27.445Z",
+   "verdict": "ok"
+  },
+  "den2-s-schwalbenmoewe-polarfuchs": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:35:58.661Z",
+   "verdict": "veto"
+  },
+  "den2-s-schwalbenmoewe-quietschen": {
+   "updatedAt": "2026-11-22T22:35:37.078Z",
+   "verdict": "ok"
+  },
+  "den2-s-schwalbenmoewe-sturzflug": {
+   "updatedAt": "2026-11-22T22:35:33.478Z",
+   "verdict": "ok"
+  },
+  "den2-s-swan-alone-together": {
+   "updatedAt": "2026-11-22T22:25:08.894Z",
+   "verdict": "ok"
+  },
+  "den2-s-swan-columbia": {
+   "updatedAt": "2026-11-22T22:24:22.877Z",
+   "verdict": "ok"
+  },
+  "den2-s-swan-engaged": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:24:45.127Z",
+   "verdict": "veto"
+  },
+  "den2-s-swan-lewis-name": {
+   "updatedAt": "2026-11-22T22:24:17.160Z",
+   "verdict": "ok"
+  },
+  "den2-s-swan-smallest": {
+   "updatedAt": "2026-11-22T22:25:01.310Z",
+   "verdict": "ok"
+  },
+  "den2-s-swan-speed": {
+   "updatedAt": "2026-11-22T22:24:55.327Z",
+   "verdict": "ok"
+  },
+  "den2-s-swan-wing-whistle": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:24:38.277Z",
+   "verdict": "veto"
+  },
+  "den2-s-swan-wolves": {
+   "updatedAt": "2026-11-22T22:24:50.410Z",
+   "verdict": "ok"
+  },
+  "den2-s-waldstorch-alligatoren": {
+   "updatedAt": "2026-11-22T22:29:48.994Z",
+   "verdict": "ok"
+  },
+  "den2-s-waldstorch-pendler": {
+   "updatedAt": "2026-11-22T22:29:53.128Z",
+   "verdict": "ok"
+  },
+  "den2-s-waldstorch-ruessel": {
+   "updatedAt": "2026-11-22T22:29:58.712Z",
+   "verdict": "ok"
+  },
+  "den2-s-wapiti-brunft": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:38:01.862Z",
+   "verdict": "veto"
+  },
+  "den2-s-wapiti-gras": {
+   "updatedAt": "2026-11-22T22:38:09.961Z",
+   "verdict": "ok"
+  },
+  "den2-s-wapiti-rothirsch": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:37:47.511Z",
+   "verdict": "veto"
+  },
+  "den2-s-wapiti-zaehne": {
+   "updatedAt": "2026-11-22T22:37:53.662Z",
+   "verdict": "ok"
+  },
+  "den2-s-whimbrel-farms": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:23:17.144Z",
+   "verdict": "veto"
+  },
+  "den2-s-whimbrel-fat-ball": {
+   "updatedAt": "2026-11-22T22:22:45.661Z",
+   "verdict": "ok"
+  },
+  "den2-s-whimbrel-heart": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:22:39.144Z",
+   "verdict": "veto"
+  },
+  "den2-s-whimbrel-new-moon": {
+   "updatedAt": "2026-11-22T22:22:31.361Z",
+   "verdict": "ok"
+  },
+  "den2-s-whimbrel-no-sleep": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:22:52.777Z",
+   "verdict": "veto"
+  },
+  "den2-s-whimbrel-speed": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:22:59.193Z",
+   "verdict": "veto"
+  },
+  "den2-s-whimbrel-tailwinds": {
+   "updatedAt": "2026-11-22T22:23:06.627Z",
+   "verdict": "ok"
+  },
+  "den2-s-yellowlegs-bill-length": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:28:43.377Z",
+   "verdict": "veto"
+  },
+  "den2-s-yellowlegs-bill-sweep": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:28:27.877Z",
+   "verdict": "veto"
+  },
+  "den2-s-yellowlegs-colonies": {
+   "updatedAt": "2026-11-22T22:28:32.761Z",
+   "verdict": "ok"
+  },
+  "den2-s-yellowlegs-eye-ring": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:28:05.011Z",
+   "verdict": "veto"
+  },
+  "den2-s-yellowlegs-fledging": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:28:35.795Z",
+   "verdict": "veto"
+  },
+  "den2-s-yellowlegs-north-only": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T22:27:59.694Z",
+   "verdict": "veto"
+  },
+  "den2-s-yellowlegs-sewage": {
+   "updatedAt": "2026-11-22T22:28:16.277Z",
+   "verdict": "ok"
+  },
+  "enn2-l-bowhead-breath": {
+   "updatedAt": "2026-11-22T18:36:53.580Z",
+   "verdict": "ok"
+  },
+  "enn2-l-bowhead-chin-patch": {
+   "updatedAt": "2026-11-22T18:36:43.414Z",
+   "verdict": "ok"
+  },
+  "enn2-l-bowhead-echoes": {
+   "updatedAt": "2026-11-22T18:36:32.597Z",
+   "verdict": "ok"
+  },
+  "enn2-l-bowhead-nursery": {
+   "updatedAt": "2026-11-22T18:36:25.696Z",
+   "verdict": "ok"
+  },
+  "enn2-l-bowhead-tail-strike": {
+   "edit": "Killer whales hunt bowheads, but bowheads fight back: some have killed attacking orcas with blows of their tails.",
+   "updatedAt": "2026-11-22T18:36:15.147Z",
+   "verdict": "ok"
+  },
+  "enn2-l-deer-antler-snack": {
+   "updatedAt": "2026-11-22T22:20:45.443Z",
+   "verdict": "ok"
+  },
+  "enn2-l-deer-blacktail": {
+   "updatedAt": "2026-11-22T22:21:19.976Z",
+   "verdict": "ok"
+  },
+  "enn2-l-deer-listen": {
+   "updatedAt": "2026-11-22T22:21:04.160Z",
+   "verdict": "ok"
+  },
+  "enn2-l-deer-rescue": {
+   "updatedAt": "2026-11-22T22:20:25.426Z",
+   "verdict": "ok"
+  },
+  "enn2-l-deer-why-bounce": {
+   "updatedAt": "2026-11-22T22:20:34.110Z",
+   "verdict": "ok"
+  },
+  "enn2-l-elk-chinook": {
+   "updatedAt": "2026-11-22T22:19:52.593Z",
+   "verdict": "ok"
+  },
+  "enn2-l-elk-olympic": {
+   "updatedAt": "2026-11-22T22:20:04.127Z",
+   "verdict": "ok"
+  },
+  "enn2-l-elk-talk": {
+   "updatedAt": "2026-11-22T22:20:13.726Z",
+   "verdict": "ok"
+  },
+  "enn2-l-jaeger-landbird": {
+   "updatedAt": "2026-11-22T22:19:11.126Z",
+   "verdict": "ok"
+  },
+  "enn2-l-jaeger-lookout": {
+   "updatedAt": "2026-11-22T22:19:20.960Z",
+   "verdict": "ok"
+  },
+  "enn2-l-jaeger-reunion": {
+   "updatedAt": "2026-11-22T18:43:00.514Z",
+   "verdict": "ok"
+  },
+  "enn2-l-puffin-camouflage": {
+   "updatedAt": "2026-11-22T18:40:41.348Z",
+   "verdict": "ok"
+  },
+  "enn2-l-puffin-firstnight": {
+   "updatedAt": "2026-11-22T18:40:13.996Z",
+   "verdict": "ok"
+  },
+  "enn2-l-puffin-panic": {
+   "updatedAt": "2026-11-22T18:40:31.714Z",
+   "verdict": "ok"
+  },
+  "enn2-l-puffin-rabbits": {
+   "updatedAt": "2026-11-22T18:40:05.297Z",
+   "verdict": "ok"
+  },
+  "enn2-l-puffin-workout": {
+   "updatedAt": "2026-11-22T18:40:23.497Z",
+   "verdict": "ok"
+  },
+  "enn2-l-sandpiper-cattle": {
+   "updatedAt": "2026-11-22T18:42:10.598Z",
+   "verdict": "ok"
+  },
+  "enn2-l-sandpiper-firstflight": {
+   "updatedAt": "2026-11-22T18:42:28.431Z",
+   "verdict": "ok"
+  },
+  "enn2-l-sandpiper-ranchers": {
+   "updatedAt": "2026-11-22T18:42:17.648Z",
+   "verdict": "ok"
+  },
+  "enn2-l-sandpiper-rice": {
+   "updatedAt": "2026-11-22T18:42:22.848Z",
+   "verdict": "ok"
+  },
+  "enn2-l-swan-gray-cygnets": {
+   "updatedAt": "2026-11-22T18:35:19.013Z",
+   "verdict": "ok"
+  },
+  "enn2-l-swan-heard-first": {
+   "updatedAt": "2026-11-22T18:35:35.747Z",
+   "verdict": "ok"
+  },
+  "enn2-l-swan-lewis": {
+   "updatedAt": "2026-11-22T18:35:09.780Z",
+   "verdict": "ok"
+  },
+  "enn2-l-swan-nest-mound": {
+   "updatedAt": "2026-11-22T18:35:27.897Z",
+   "verdict": "ok"
+  },
+  "enn2-l-swan-straight-neck": {
+   "updatedAt": "2026-11-22T18:35:54.880Z",
+   "verdict": "ok"
+  },
+  "enn2-l-swan-tipping-up": {
+   "updatedAt": "2026-11-22T18:35:44.097Z",
+   "verdict": "ok"
+  },
+  "enn2-l-woodstork-greenery": {
+   "updatedAt": "2026-11-22T18:39:49.931Z",
+   "verdict": "ok"
+  },
+  "enn2-l-woodstork-parasol": {
+   "updatedAt": "2026-11-22T18:39:39.880Z",
+   "verdict": "ok"
+  },
+  "enn2-l-woodstork-turns": {
+   "updatedAt": "2026-11-22T18:39:57.180Z",
+   "verdict": "ok"
+  },
+  "enn2-l-yellowlegs-commute": {
+   "updatedAt": "2026-11-22T18:38:39.980Z",
+   "verdict": "ok"
+  },
+  "enn2-l-yellowlegs-confusing": {
+   "updatedAt": "2026-11-22T18:39:02.964Z",
+   "verdict": "ok"
+  },
+  "enn2-l-yellowlegs-dads": {
+   "updatedAt": "2026-11-22T18:38:25.247Z",
+   "verdict": "ok"
+  },
+  "enn2-l-yellowlegs-leaving-order": {
+   "updatedAt": "2026-11-22T18:38:47.314Z",
+   "verdict": "ok"
+  },
+  "enn2-l-yellowlegs-lookouts": {
+   "updatedAt": "2026-11-22T18:39:10.197Z",
+   "verdict": "ok"
+  },
+  "enn2-l-yellowlegs-sky-dance": {
+   "updatedAt": "2026-11-22T18:38:33.481Z",
+   "verdict": "ok"
+  },
+  "enn2-l-yellowlegs-two-notes": {
+   "updatedAt": "2026-11-22T18:39:17.664Z",
+   "verdict": "ok"
+  },
+  "enn2-s-eagle-booted": {
+   "updatedAt": "2026-11-22T18:37:11.464Z",
+   "verdict": "ok"
+  },
+  "enn2-s-eagle-glide": {
+   "updatedAt": "2026-11-22T18:37:26.247Z",
+   "verdict": "ok"
+  },
+  "enn2-s-eagle-hawk-size": {
+   "updatedAt": "2026-11-22T18:37:20.614Z",
+   "verdict": "ok"
+  },
+  "enn2-s-eagle-widespread": {
+   "note": "",
+   "star": false,
+   "updatedAt": "2026-11-22T18:37:00.481Z",
+   "verdict": "veto"
+  },
+  "enn2-s-elk-hiss": {
+   "updatedAt": "2026-11-22T22:19:42.076Z",
+   "verdict": "ok"
+  },
+  "enn2-s-elk-moose-bigger": {
+   "updatedAt": "2026-11-22T22:19:28.426Z",
+   "verdict": "ok"
+  },
+  "enn2-s-elk-tusks": {
+   "updatedAt": "2026-11-22T22:19:35.409Z",
+   "verdict": "ok"
+  },
+  "enn2-s-jaeger-chicks": {
+   "updatedAt": "2026-11-22T18:42:53.815Z",
+   "verdict": "ok"
+  },
+  "enn2-s-jaeger-eggs": {
+   "updatedAt": "2026-11-22T18:42:43.798Z",
+   "verdict": "ok"
+  },
+  "enn2-s-jaeger-nonest": {
+   "updatedAt": "2026-11-22T18:42:38.281Z",
+   "verdict": "ok"
+  },
+  "enn2-s-jaeger-pellets": {
+   "updatedAt": "2026-11-22T18:42:49.115Z",
+   "verdict": "ok"
+  },
+  "enn2-s-jaeger-skip": {
+   "updatedAt": "2026-11-22T18:42:34.031Z",
+   "verdict": "ok"
+  },
+  "enn2-s-owl-bark": {
+   "updatedAt": "2026-11-22T18:34:18.380Z",
+   "verdict": "ok"
+  },
+  "enn2-s-owl-far-sight": {
+   "updatedAt": "2026-11-22T18:34:12.847Z",
+   "verdict": "ok"
+  },
+  "enn2-s-owl-feather-coat": {
+   "updatedAt": "2026-11-22T18:34:02.214Z",
+   "verdict": "ok"
+  },
+  "enn2-s-owl-moths": {
+   "updatedAt": "2026-11-22T18:34:31.264Z",
+   "verdict": "ok"
+  },
+  "enn2-s-owl-nest-builder": {
+   "updatedAt": "2026-11-22T18:34:42.614Z",
+   "verdict": "ok"
+  },
+  "enn2-s-owl-nomads": {
+   "updatedAt": "2026-11-22T18:34:24.897Z",
+   "verdict": "ok"
+  },
+  "enn2-s-owl-stay-or-go": {
+   "updatedAt": "2026-11-22T18:34:37.730Z",
+   "verdict": "ok"
+  },
+  "enn2-s-owl-two-species": {
+   "updatedAt": "2026-11-22T18:34:07.364Z",
+   "verdict": "ok"
+  },
+  "enn2-s-owl-wings": {
+   "updatedAt": "2026-11-22T18:33:54.481Z",
+   "verdict": "ok"
+  },
+  "enn2-s-sandpiper-sod": {
+   "updatedAt": "2026-11-22T18:40:49.598Z",
+   "verdict": "ok"
+  },
+  "enn2-s-sandpiper-stepping": {
+   "updatedAt": "2026-11-22T18:40:59.231Z",
+   "verdict": "ok"
+  },
+  "enn2-s-sandpiper-tame": {
+   "updatedAt": "2026-11-22T18:40:53.464Z",
+   "verdict": "ok"
+  },
+  "enn2-s-swan-columbia": {
+   "updatedAt": "2026-11-22T18:35:01.014Z",
+   "verdict": "ok"
+  },
+  "enn2-s-woodstork-bald": {
+   "updatedAt": "2026-11-22T18:39:32.431Z",
+   "verdict": "ok"
+  },
+  "enn2-s-woodstork-crowded": {
+   "updatedAt": "2026-11-22T18:39:22.647Z",
+   "verdict": "ok"
+  },
+  "enn2-s-woodstork-pelican": {
+   "updatedAt": "2026-11-22T18:39:27.197Z",
+   "verdict": "ok"
+  },
+  "enn2-s-yellowlegs-follow-me": {
+   "updatedAt": "2026-11-22T18:38:02.930Z",
+   "verdict": "ok"
+  },
+  "enn2-s-yellowlegs-homecoming": {
+   "updatedAt": "2026-11-22T18:38:15.564Z",
+   "verdict": "ok"
+  },
+  "enn2-s-yellowlegs-kip": {
+   "updatedAt": "2026-11-22T18:37:42.947Z",
+   "verdict": "ok"
+  },
+  "enn2-s-yellowlegs-robin": {
+   "updatedAt": "2026-11-22T18:37:50.781Z",
+   "verdict": "ok"
+  },
+  "enn2-s-yellowlegs-scrapes": {
+   "updatedAt": "2026-11-22T18:37:38.264Z",
+   "verdict": "ok"
+  },
+  "enn2-s-yellowlegs-speed": {
+   "updatedAt": "2026-11-22T18:37:55.597Z",
+   "verdict": "ok"
+  },
+  "enn2-s-yellowlegs-sunbathe": {
+   "updatedAt": "2026-11-22T18:38:12.314Z",
+   "verdict": "ok"
+  },
+  "enn2-s-yellowlegs-treetop": {
+   "updatedAt": "2026-11-22T18:37:32.814Z",
+   "verdict": "ok"
+  }
+ }
+}

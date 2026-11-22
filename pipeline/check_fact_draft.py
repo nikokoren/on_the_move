@@ -88,7 +88,8 @@ def main():
                         errs.append(f"{fid}: source quote missing")
                     if not f.get("source", {}).get("checked"):
                         errs.append(f"{fid}: source check date missing")
-                n = len(plain(f["text"]))
+                # Both unit systems: imperial can run longer (seen 2026-11-22: 142 characters).
+                n = max(len(plain(f["text"])), len(re.sub(r"\{[^|}]*\|([^}]*)\}", r"\1", f["text"])))
                 if n > LIMIT[kind]:
                     errs.append(f"{fid}: {kind} is {n} characters (limit {LIMIT[kind]})")
                 if re.search(r"\{[^}|]*\}", f["text"]):
