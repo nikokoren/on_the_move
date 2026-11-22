@@ -71,6 +71,10 @@ export function renderUnits(text, t, lang, units) {
   });
 }
 
+// Number and unit stay on one line in the bracketed forms (seen 2026-11-22:
+// "(2,059 / km) away" wrapped in the half-vertical view).
+const keep = (s) => s.replace(/ /g, "\u00a0");
+
 // English facts (owner, 2026-11-22): imperial first with metric in brackets,
 // "250 ft (75 m)", where the whole fact still fits its slot (90 short, 140
 // long); otherwise imperial only. Whatever the units setting says, as the
@@ -81,7 +85,7 @@ export function renderFact(text, t, lang, units, len = "long") {
   const both = String(text).replace(/\{([^{}|]+)\|([^{}|]+)\}/g, (all, metric, imperial) => {
     const tok = `{${metric}|${imperial}}`;
     const imp = renderUnits(tok, t, lang, "imperial"), met = renderUnits(tok, t, lang, "metric");
-    return imp === tok ? all : `${imp} (${met})`;
+    return imp === tok ? all : `${keep(imp)} (${keep(met)})`;
   });
   return both.length <= (FACT_LIMIT[len] || 140) ? both : renderUnits(text, t, lang, "imperial");
 }
@@ -90,7 +94,7 @@ export function renderFact(text, t, lang, units, len = "long") {
 // in English where it fits, else miles; German follows the units setting.
 function distFact(tpl, t, name, km, lang, units) {
   if (lang !== "en") return fill(tpl, { name, dist: fmtDist(t, km, lang, units) });
-  const both = fill(tpl, { name, dist: `${fmtDist(t, km, lang, "imperial")} (${fmtDist(t, km, lang, "metric")})` });
+  const both = fill(tpl, { name, dist: `${keep(fmtDist(t, km, lang, "imperial"))} (${keep(fmtDist(t, km, lang, "metric"))})` });
   return both.length <= FACT_LIMIT.long ? both : fill(tpl, { name, dist: fmtDist(t, km, lang, "imperial") });
 }
 
@@ -98,7 +102,7 @@ function distFact(tpl, t, name, km, lang, units) {
 // in brackets where it fits the line (90, R16), else miles; German follows the setting.
 function towardText(t, place, km, lang, units) {
   if (lang !== "en") return fill(t.toward, { place, dist: fmtDist(t, km, lang, units) });
-  const both = fill(t.toward, { place, dist: `${fmtDist(t, km, lang, "imperial")} (${fmtDist(t, km, lang, "metric")})` });
+  const both = fill(t.toward, { place, dist: `${keep(fmtDist(t, km, lang, "imperial"))} (${keep(fmtDist(t, km, lang, "metric"))})` });
   return both.length <= 90 ? both : fill(t.toward, { place, dist: fmtDist(t, km, lang, "imperial") });
 }
 

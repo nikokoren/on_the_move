@@ -159,7 +159,7 @@ const imp = await (await handle(new Request("https://x/full?species=lesser_black
 const met = await (await handle(new Request("https://x/full?species=lesser_black_backed_gull"), { KV: kv() }, NOW)).json();
 // English shows miles first with km in brackets either way (owner, 2026-11-22, decision U1);
 // German follows the setting.
-check("poll: English distance miles first (km) whatever the setting", / mi \([\d,]+ km\) away$/.test(imp.toward) && imp.toward === met.toward, `${imp.toward} | ${met.toward}`);
+check("poll: English distance miles first (km) whatever the setting", /\smi \([\d,]+\skm\) away$/.test(imp.toward) && imp.toward === met.toward, `${imp.toward} | ${met.toward}`);
 const impDe = await (await handle(new Request("https://x/full?species=lesser_black_backed_gull&lang=deutsch&units=imperial"), { KV: kv() }, NOW)).json();
 const metDe = await (await handle(new Request("https://x/full?species=lesser_black_backed_gull&lang=deutsch"), { KV: kv() }, NOW)).json();
 check("poll: German units imperial in Meilen, default in km", / Meilen entfernt$/.test(impDe.toward) && / km entfernt$/.test(metDe.toward), `${impDe.toward} | ${metDe.toward}`);
