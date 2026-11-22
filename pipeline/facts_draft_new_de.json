@@ -1,6 +1,6 @@
 {
  "lang": "de",
- "about": "Facts for the 11 new species (pipeline/new_species.json), drafted 2026-11-21/22 by four writers (EN and DE separately), checked by pipeline/check_fact_draft.py --new. Pending owner review; not in the recipe.",
+ "about": "Facts for the 13 new species (pipeline/new_species.json: the 11 picks plus elk and mule deer), drafted 2026-11-21/22 by four writers (EN and DE separately), checked by pipeline/check_fact_draft.py --new. Pending owner review; not in the recipe.",
  "species": {
   "Bubo scandiacus": {
    "short": [
@@ -2883,6 +2883,711 @@
       "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
       "quote": "In the breeding season, the gulls pursue a range of freshwater and terrestrial prey on the tundra (and within boreal river deltas , estuaries and coastal wetlands ), including both terrestrial and aquatic beetles , springtails , craneflies , mosquitoes , midges , flower flies ( Syrphidae ),",
       "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Cervus elaphus": {
+   "short": [
+    {
+     "id": "den-s-wapiti-name",
+     "text": "Wapiti ist ein Wort der Shawnee und bedeutet „weißes Hinterteil“.",
+     "source": {
+      "title": "Wikipedia (de), Wapiti",
+      "url": "https://de.wikipedia.org/wiki/Wapiti",
+      "quote": "Die Bezeichnung Wapiti („weißes Hinterteil“) stammt von den Shawnee",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-wapiti-moose",
+     "text": "Wer in Amerika „elk“ sagt, meint den Wapiti. Der Elch heißt dort „moose“.",
+     "source": {
+      "title": "Wikipedia (de), Wapiti",
+      "url": "https://de.wikipedia.org/wiki/Wapiti",
+      "quote": "In Nordamerika wird die Art meist elk genannt, während dies im britischen Englisch die Bezeichnung für den Elch ist, welcher in Nordamerika wiederum moose heißt.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-wapiti-size",
+     "text": "Unter allen Hirschen ist nur der Elch größer als der Wapiti.",
+     "source": {
+      "title": "Wikipedia (de), Wapiti",
+      "url": "https://de.wikipedia.org/wiki/Wapiti",
+      "quote": "In der Familie der Hirsche ist lediglich der Elch größer.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-wapiti-antlers",
+     "text": "Im Frühjahr wächst ein Wapiti-Geweih um bis zu {2.5 cm|1 in} am Tag.",
+     "source": {
+      "title": "National Park Service, Rocky Mountain National Park: Elk",
+      "url": "https://www.nps.gov/romo/learn/nature/elk.htm",
+      "quote": "Antlers can grow up to an inch a day.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-wapiti-blackelk",
+     "text": "Der Lakota-Medizinmann „Schwarzer Hirsch“ hieß Black Elk: eigentlich „Schwarzer Wapiti“.",
+     "source": {
+      "title": "Wikipedia (de), Wapiti",
+      "url": "https://de.wikipedia.org/wiki/Wapiti",
+      "quote": "Black Elk („Schwarzer Wapiti“, auch als „Schwarzer Hirsch“ bekannt)",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-wapiti-crossings",
+     "text": "In Banff nutzten Wapitis als erste große Tiere die neuen Wildbrücken, sogar schon im Bau.",
+     "source": {
+      "title": "Parks Canada, Banff National Park: Highway wildlife crossings",
+      "url": "https://parks.canada.ca/pn-np/ab/banff/nature/conservation/transport/tch-rtc/passages-crossings",
+      "quote": "Elk were the first large species to use the crossings, even using some while they were under construction!",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-wapiti-voice",
+     "text": "Wapitis sind die gesprächigsten Hirsche: Kühe und Kälber quieken, zirpen und miauen.",
+     "source": {
+      "title": "Parks Canada, Elk in Banff National Park",
+      "url": "https://parks.canada.ca/pn-np/ab/banff/nature/faune-wildlife/mammal/ongules/cervids/wapiti",
+      "quote": [
+       "Elk are the most vocal deer.",
+       "Cows and calves keep in contact with squeals, chirps and mews."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-wapiti-roosevelt",
+     "text": "US-Präsident Theodore Roosevelt schenkte Neuseeland eine Herde Wapitis.",
+     "source": {
+      "title": "Wikipedia (de), Wapiti",
+      "url": "https://de.wikipedia.org/wiki/Wapiti",
+      "quote": "US-Präsident Theodore Roosevelt schenkte Neuseeland eine Herde Wapitis",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-wapiti-bering",
+     "text": "Vor wohl rund 120.000 Jahren kamen Wapitis aus Asien über die Beringstraße nach Amerika.",
+     "source": {
+      "title": "Wikipedia (de), Wapiti",
+      "url": "https://de.wikipedia.org/wiki/Wapiti",
+      "quote": [
+       "In Nordamerika erschien der Wapiti vermutlich erst vor 120.000 Jahren",
+       "aus Asien über die Beringstraße einwanderte"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-wapiti-yellowstone",
+     "text": "Im Sommer leben bis zu 20.000 Wapitis im Yellowstone-Park. Im Winter bleiben keine 2.000.",
+     "source": {
+      "title": "National Park Service, Yellowstone National Park: Elk",
+      "url": "https://www.nps.gov/yell/learn/nature/elk.htm",
+      "quote": [
+       "The high elevation grasslands of the park provide summer habitat for 10,000–20,000 elk.",
+       "However, fewer than 2,000 elk spend winter in the park."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-wapiti-ranch",
+     "text": "Im Winterquartier Ya Ha Tinda leben auch die Pferde der Parkwächter von Westkanada.",
+     "source": {
+      "title": "University of Montana, Ya Ha Tinda Long-Term Elk Monitoring Project: Ya Ha Tinda Ranch",
+      "url": "https://www.umt.edu/yahatinda/aboutus/location.php",
+      "quote": [
+       "This ranch is the only federally operated working horse ranch in Canada.",
+       "Horses are wintered and trained here to be used as working horses for patrolling and protecting Canada's Western National Parks."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-wapiti-switch",
+     "text": "Ziehen oder bleiben? Jedes Jahr entscheidet sich etwa jede siebte Ya-Ha-Tinda-Kuh um.",
+     "source": {
+      "title": "Eggeman et al. 2016, Journal of Animal Ecology",
+      "url": "https://doi.org/10.1111/1365-2656.12495",
+      "europepmc": "DOI:10.1111/1365-2656.12495",
+      "quote": [
+       "223 adult female elk (Cervus elaphus) in the partially migratory Ya Ha Tinda population",
+       "Individuals switched between migrant and resident strategies at a mean rate of 15% per year"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-wapiti-banff",
+     "text": "1918 bis 1920 brachte man 235 Wapitis aus Yellowstone in den Banff-Nationalpark.",
+     "source": {
+      "title": "Parks Canada, Elk in Banff National Park",
+      "url": "https://parks.canada.ca/pn-np/ab/banff/nature/faune-wildlife/mammal/ongules/cervids/wapiti",
+      "quote": "the introduction of 235 elk from Yellowstone National Park in Wyoming in 1918-20",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den-l-wapiti-tradeoff",
+     "text": "Ziehen oder bleiben? Wer von der Ya-Ha-Tinda-Ranch in den Banff-Park wandert, trifft weniger Wölfe. Wer bleibt, sucht die Nähe von Menschen.",
+     "source": {
+      "title": "Hebblewhite & Merrill 2009, Ecology",
+      "url": "https://doi.org/10.1890/08-2090.1",
+      "europepmc": "DOI:10.1890/08-2090.1",
+      "quote": [
+       "Migration reduced exposure to wolf predation risk by 70% relative to residents at the landscape scale",
+       "by using areas close to human activity, which wolves avoided"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-wapiti-grizzly",
+     "text": "Ein Tausch für die Wanderer von Ya Ha Tinda: Auf dem Weg in den Banff-Park lauern Wölfe, oben im Sommerquartier dafür eher Grizzlybären.",
+     "source": {
+      "title": "Williams et al. 2024, Journal of Animal Ecology (UM Impact)",
+      "url": "https://umimpact.umt.edu/en/publications/predation-risk-drives-long-term-shifts-in-migratory-behaviour-and/",
+      "quote": "Wolf predation risk was higher on migratory routes than summer ranges of montane-migrant tactics, but wolf predation risk traded-off with heightened risk from grizzly bears on summer ranges.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-wapiti-fire",
+     "text": "Nach einem großen Waldbrand fanden Ya-Ha-Tinda-Wapitis eine neue Route nach Osten: Dort wuchs frisches Futter, und es gab weniger Raubtiere.",
+     "source": {
+      "title": "Williams et al. 2024, Journal of Animal Ecology (UM Impact)",
+      "url": "https://umimpact.umt.edu/en/publications/predation-risk-drives-long-term-shifts-in-migratory-behaviour-and/",
+      "quote": "A novel eastern migrant tactic emerged following a large forest fire that enhanced forage in an area with lower predation risk outside of the protected area.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-wapiti-chinook",
+     "text": "Warme Fallwinde halten Ya Ha Tinda fast schneefrei. Dazu gutes Gras und Menschen, die Raubtiere fernhalten: ein ideales Winterquartier.",
+     "source": {
+      "title": "University of Montana, Ya Ha Tinda Long-Term Elk Monitoring Project: Ya Ha Tinda Ranch",
+      "url": "https://www.umt.edu/yahatinda/aboutus/location.php",
+      "quote": [
+       "The warming downslope winds blow through the valley and prevent much snow accumulation.",
+       "Good-quality fescue grasslands, along with the relatively mild weather, and the predatory refuge provided by proximity to humans, makes Ya Ha Tinda the ideal winter range for elk."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-wapiti-hay",
+     "text": "Früher zogen fast alle Ya-Ha-Tinda-Wapitis im Sommer in die Berge. Heute bleiben viele, wohl auch wegen des Heus für die Ranchpferde.",
+     "source": {
+      "title": "Hebblewhite et al. 2006, Wildlife Society Bulletin",
+      "url": "https://doi.org/10.2193/0091-7648(2006)34[1280:ITMBOM]2.0.CO;2",
+      "europepmc": "DOI:10.2193/0091-7648(2006)34[1280:itmbom]2.0.co;2",
+      "quote": [
+       "The population M:R ratio decreased from 12.4 (SD = 3.22) in the early period to 3.0 (SD = 1.63).",
+       "access to hay fed to wintering horses"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-wapiti-snow",
+     "text": "Nach schneereichen Wintern brechen Yellowstones Wapitis später zur Wanderung auf, nach schneearmen Wintern mit frühem Grün früher.",
+     "source": {
+      "title": "National Park Service, Yellowstone National Park: Elk",
+      "url": "https://www.nps.gov/yell/learn/nature/elk.htm",
+      "quote": [
+       "After winters with high snowpack, elk delay migration.",
+       "In years with lower snowpack and earlier vegetation green-up, elk migrate earlier."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-wapiti-alps",
+     "text": "Wer als Hirsch in den Rocky Mountains oder den Alpen stehen bleibt, verpasst das beste Futter: Im Frühling wandert das frische Grün bergauf.",
+     "source": {
+      "title": "University of Wyoming News, International Study Gets at the Root of What Makes Deer Migrate (2020)",
+      "url": "https://www.uwyo.edu/news/2020/09/international-study-gets-at-the-root-of-what-makes-deer-migrate.html",
+      "quote": [
+       "However, in the Rocky Mountains or the Alps, to stay put is to be hungry and miss out on the best forage.",
+       "In contrast, migratory behavior often is found in places where the green-up is shorter in any one place but progresses up in elevation."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-wapiti-winterantlers",
+     "text": "Bullen behalten das Geweih über den Winter: Mit Geweih wird gerangelt, ohne kämpfen Bullen mit den Vorderhufen, und das verletzt eher.",
+     "source": {
+      "title": "National Park Service, Yellowstone National Park: Elk",
+      "url": "https://www.nps.gov/yell/learn/nature/elk.htm",
+      "quote": [
+       "Bulls retain their antlers through the winter.",
+       "When antlered, bulls usually settle disputes by wrestling with their antlers.",
+       "When antlerless, they use their front hooves (as cows do), which is more likely to result in injury to one of the combatants."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-wapiti-bugle",
+     "text": "Wapiti-Bullen rufen zweistimmig: Die Stimmbänder brummen tief, zugleich pfeift die Luft durch eine Engstelle darüber, fast zehnmal höher.",
+     "source": {
+      "title": "Reby et al. 2016, Journal of Experimental Biology",
+      "url": "https://doi.org/10.1242/jeb.131219",
+      "europepmc": "DOI:10.1242/jeb.131219",
+      "quote": [
+       "with one source oscillating at a mean of 145 Hz (F0) and the other oscillating independently at an average of 1426 Hz (G0)",
+       "an aerodynamic whistle produced as air flows rapidly through a narrow supraglottic constriction"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-wapiti-calf",
+     "text": "Die Wapiti-Kuh leckt das Neugeborene ab, bis kein Geruch mehr Raubtiere anlockt. Gefleckt und geruchlos bleibt das Kalb im Gras versteckt.",
+     "source": {
+      "title": "Parks Canada, Elk in Banff National Park",
+      "url": "https://parks.canada.ca/pn-np/ab/banff/nature/faune-wildlife/mammal/ongules/cervids/wapiti",
+      "quote": [
+       "She licks her calf all over to make sure it is perfectly clean and clear of any smells that may attract predators.",
+       "With its lack of smell and spotted coat, the calf is carefully camouflaged in the tall grass."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Odocoileus hemionus": {
+   "short": [
+    {
+     "id": "den-s-maultierhirsch-ohren",
+     "text": "Bis zu {28 cm|11 in} lange Ohren wie ein Maultier gaben dem Maultierhirsch den Namen.",
+     "source": {
+      "title": "Wikipedia (de), Maultierhirsch",
+      "url": "https://de.wikipedia.org/wiki/Maultierhirsch",
+      "quote": [
+       "Die Artbezeichnung Maultierhirsch bezieht sich auf die großen Ohren, die an jene von Maultieren erinnern.",
+       "Die Ohren erreichen eine Länge von 28 und eine Breite von 15 Zentimetern."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-maultierhirsch-prellsprung",
+     "text": "Fliehende Maultierhirsche springen mit allen vier Beinen zugleich ab, auch steil bergauf.",
+     "source": {
+      "title": "Wikipedia (de), Maultierhirsch",
+      "url": "https://de.wikipedia.org/wiki/Maultierhirsch",
+      "quote": [
+       "Dabei stoßen sie sich mit allen vier Läufen zugleich in die Höhe.",
+       "auch sehr schnell einen steilen Hang hinauf zu springen"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-maultierhirsch-satz",
+     "text": "Ein Maultierhirsch sprang bergab {8.7 m|29 ft} weit, auf ebenem Boden {7.1 m|23 ft}.",
+     "source": {
+      "title": "Texas Tech University, The Mammals of Texas: Mule deer",
+      "url": "https://www.depts.ttu.edu/nsrl/mammals-of-texas-online-edition/Accounts_Artiodactyla/Odocoileus_hemionus.php",
+      "quote": [
+       "McLean measured two flat jumps, one of 5.9 m (19 ft.) and the other 7.1 m (23 ft.).",
+       "A downhill bound on a 7% slope measured 8.7 m (29 ft.)."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-maultierhirsch-rekord",
+     "text": "Red Desert bis Hoback Basin: die längste Maultierhirsch-Wanderung, die man damals kannte.",
+     "source": {
+      "title": "Wyoming Migration Initiative, Red Desert to Hoback Migration Assessment",
+      "url": "https://migrationinitiative.org/?p=279",
+      "quote": "Recently, the longest mule deer migration ever recorded (and 2nd longest land migration in North America) was discovered where deer travel a one-way distance of 150 miles from the low-elevation winter ranges in the Red Desert to the high mountain slopes surrounding the Hoback Basin.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-maultierhirsch-entdeckung",
+     "text": "Biologen hielten die Hirsche der Red Desert für Standtiere. Im Frühling waren alle fort.",
+     "source": {
+      "title": "National Geographic, Longest Land Mammal Migration in Lower 48 Discovered (2014)",
+      "url": "https://www.nationalgeographic.com/animals/article/140422-mule-deer-migration-wyoming-animals-science",
+      "quote": "They expected the deer would stick around all year, but when the scientists returned in spring the animals were gone.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-maultierhirsch-korridor",
+     "text": "2016 stellte Wyoming den ersten Wanderkorridor unter Schutz: den dieser Maultierhirsche.",
+     "source": {
+      "title": "University of Wyoming News, After 11 Years, Longest-Migrating Mule Deer Dies in Wyoming's Red Desert (2024)",
+      "url": "https://www.uwyo.edu/news/2024/06/after-11-years-longest-migrating-mule-deer-dies-in-wyomings-red-desert.html",
+      "quote": [
+       "Her lifetime saw Wyoming map and designate its first migration corridor in 2016",
+       "The state of Wyoming officially designated the broader Sublette mule deer corridor as"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-maultierhirsch-deer255",
+     "text": "Rekord: Die Hirschkuh Deer 255 wanderte {389 km|242 mi} weit, von der Red Desert bis Idaho.",
+     "source": {
+      "title": "University of Wyoming News, After 11 Years, Longest-Migrating Mule Deer Dies in Wyoming's Red Desert (2024)",
+      "url": "https://www.uwyo.edu/news/2024/06/after-11-years-longest-migrating-mule-deer-dies-in-wyomings-red-desert.html",
+      "quote": [
+       "Her final 2016 summer range was four miles from Island Park, Idaho, 242 miles from where she started",
+       "A Wyoming mule deer that migrated farther than any other deer known to science has died."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-maultierhirsch-karibu",
+     "text": "Weiter als die Hirschkuh Deer 255 wandern in Nordamerika nur arktische Karibus.",
+     "source": {
+      "title": "University of Wyoming News, After 11 Years, Longest-Migrating Mule Deer Dies in Wyoming's Red Desert (2024)",
+      "url": "https://www.uwyo.edu/news/2024/06/after-11-years-longest-migrating-mule-deer-dies-in-wyomings-red-desert.html",
+      "quote": "Across North America, only Arctic caribou are known to migrate farther.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-maultierhirsch-zaeune",
+     "text": "Im Lauf von elf Jahren sprang die Hirschkuh Deer 255 über mehr als 1.000 Zäune.",
+     "source": {
+      "title": "University of Wyoming News, After 11 Years, Longest-Migrating Mule Deer Dies in Wyoming's Red Desert (2024)",
+      "url": "https://www.uwyo.edu/news/2024/06/after-11-years-longest-migrating-mule-deer-dies-in-wyomings-red-desert.html",
+      "quote": [
+       "Born in June 2013",
+       "Throughout her life, she had crossed highways dozens of times and jumped more than 1,000 fences."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-maultierhirsch-rast",
+     "text": "Auf dem Weg nach Norden verbringen die Hirsche 95 Prozent der Zeit an Rastplätzen.",
+     "source": {
+      "title": "WyoFile, America's longest mule deer migration discovered in Wyoming (2014)",
+      "url": "https://wyofile.com/americas-longest-mule-deer-migration-discovered-in-wyoming/",
+      "quote": "They spent 95 percent of their time at",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-maultierhirsch-monate",
+     "text": "Vier Monate im Jahr sind die Maultierhirsche der Red Desert auf Wanderschaft.",
+     "source": {
+      "title": "Wyoming Migration Initiative, Red Desert to Hoback Migration Assessment",
+      "url": "https://migrationinitiative.org/?p=279",
+      "quote": "The deer that complete this journey spend 4 months of each year migrating",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-maultierhirsch-nadeloehr",
+     "text": "Zäune, Häuser und Straßen engen den Wanderweg an einer Stelle auf {50 m|160 ft} ein.",
+     "source": {
+      "title": "WyoFile, America's longest mule deer migration discovered in Wyoming (2014)",
+      "url": "https://wyofile.com/americas-longest-mule-deer-migration-discovered-in-wyoming/",
+      "quote": "In some places, fences, houses, and roads squeeze the migration route down to a bottleneck just 50 meters wide.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-maultierhirsch-zwillinge",
+     "text": "Zwillinge sind bei Maultierhirschen häufig: ein Zeichen, dass die Mutter gut in Form ist.",
+     "source": {
+      "title": "National Park Service, Jewel Cave National Monument: Mule Deer",
+      "url": "https://www.nps.gov/jeca/learn/nature/mule-deer-odocoileus-hemoinus.htm",
+      "quote": [
+       "It is common for mule deer does to give birth to two fawns.",
+       "This is a sign of a doe in very good health"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-maultierhirsch-alarm",
+     "text": "Bei Gefahr warnt ein Maultierhirsch die anderen mit Duft aus einer Drüse am Hinterbein.",
+     "source": {
+      "title": "Animal Diversity Web, Odocoileus hemionus",
+      "url": "https://animaldiversity.org/accounts/Odocoileus_hemionus/",
+      "quote": "The metatarsal gland produces an alarm pheromone",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-maultierhirsch-elster",
+     "text": "In Kalifornien picken Gelbschnabelelstern den Maultierhirschen die Zecken aus dem Fell.",
+     "source": {
+      "title": "Wikipedia (de), Maultierhirsch",
+      "url": "https://de.wikipedia.org/wiki/Maultierhirsch",
+      "quote": "In Kalifornien sind die Vögel häufig dabei zu beobachten, wie sie Zecken und andere Parasiten aus dem Fell der Hirsche picken.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den-l-maultierhirsch-welle",
+     "text": "Im Frühling folgen Maultierhirsche dem frischen Grün bergauf wie Surfer einer Welle. Fast jedes dritte Tier trifft den perfekten Zeitpunkt.",
+     "source": {
+      "title": "Aikens et al. 2017, Ecology Letters",
+      "url": "https://doi.org/10.1111/ele.12772",
+      "europepmc": "DOI:10.1111/ele.12772",
+      "quote": [
+       "The Green Wave Hypothesis posits that herbivore migration manifests in response to waves of spring green-up",
+       "In a population of migratory mule deer (Odocoileus hemionus), 31% surfed plant phenology in spring as well as a theoretically perfect surfer"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-maultierhirsch-fett",
+     "text": "Warum so weit? Erst hoch in den Bergen finden die Hirsche der Red Desert genug Futter, um Fett für den langen Wyoming-Winter anzulegen.",
+     "source": {
+      "title": "Wyoming Migration Initiative, Red Desert to Hoback Migration Assessment",
+      "url": "https://migrationinitiative.org/?p=279",
+      "quote": "The performance of these herds is largely dependent on their ability to seasonally migrate from low-elevation winter ranges to high-elevation summer ranges, where they gain fat needed to survive the long Wyoming winters.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-maultierhirsch-schnee",
+     "text": "Im Hoback-Gebirge liegt im Winter {1.5 m|5 ft} Schnee. Viel leichter überwintert ein Maultierhirsch in der trockenen Red Desert, weit im Süden.",
+     "source": {
+      "title": "WyoFile, America's longest mule deer migration discovered in Wyoming (2014)",
+      "url": "https://wyofile.com/americas-longest-mule-deer-migration-discovered-in-wyoming/",
+      "quote": "It's much easier to winter in the dry Red Desert than in five feet of snow in the Hoback Range.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-maultierhirsch-hindernisse",
+     "text": "Rund hundert Zäune überspringen, unterkriechen oder umgehen die Hirsche auf dem Weg. Am härtesten aber: vier Stauseen zum Durchschwimmen.",
+     "source": {
+      "title": "National Geographic, Longest Land Mammal Migration in Lower 48 Discovered (2014)",
+      "url": "https://www.nationalgeographic.com/animals/article/140422-mule-deer-migration-wyoming-animals-science",
+      "quote": [
+       "Those obstacles include roads, rivers, and about a hundred fences that the deer had to jump over, wiggle under, or walk around.",
+       "The most stressful obstacles for the deer appeared to be four reservoirs that they had to swim across"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-maultierhirsch-rueckweg",
+     "text": "Im Frühling warten die Hirsche unterwegs auf die Schneeschmelze. Im Herbst geht es schneller: Der Rückweg dauert etwa eine Woche.",
+     "source": {
+      "title": "National Geographic, Longest Land Mammal Migration in Lower 48 Discovered (2014)",
+      "url": "https://www.nationalgeographic.com/animals/article/140422-mule-deer-migration-wyoming-animals-science",
+      "quote": [
+       "each spring, an estimated 500 of the mule deer leave the Red Desert and follow the snowmelt north",
+       "They don't have to wait for snowmelt so the return journey is faster, taking around a week"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-maultierhirsch-interstate",
+     "text": "Die Interstate 80 ist für die Hirsche eine Mauer. Ohne die Autobahn würden sich viele im Winter weiter südlich in der Red Desert verteilen.",
+     "source": {
+      "title": "National Geographic, Longest Land Mammal Migration in Lower 48 Discovered (2014)",
+      "url": "https://www.nationalgeographic.com/animals/article/140422-mule-deer-migration-wyoming-animals-science",
+      "quote": "the deer would likely spread out farther south into the Red Desert in winter if they weren't stopped by Interstate 80",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-maultierhirsch-verschollen",
+     "text": "Deer 255 war 19 Monate verschollen, der Sender defekt. 2018 erkannte die Biologin Anna Ortega die Hirschkuh sofort am Halsband wieder.",
+     "source": {
+      "title": "University of Wyoming News, After 11 Years, Longest-Migrating Mule Deer Dies in Wyoming's Red Desert (2024)",
+      "url": "https://www.uwyo.edu/news/2024/06/after-11-years-longest-migrating-mule-deer-dies-in-wyomings-red-desert.html",
+      "quote": [
+       "GPS collar malfunctioned Aug.",
+       "Deer 255’s whereabouts were unknown for the next 19 months until March 12, 2018.",
+       "They captured the doe, and Ortega -- with a quick glance at the collar serial number etched into her memory -- immediately recognized her as the long-lost deer."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-maultierhirsch-kaelber",
+     "text": "Achtmal war Deer 255 trächtig, siebenmal mit Zwillingen. Ob eines der Kälber die Rekordroute gelernt hat, konnten die Forscher nie klären.",
+     "source": {
+      "title": "University of Wyoming News, After 11 Years, Longest-Migrating Mule Deer Dies in Wyoming's Red Desert (2024)",
+      "url": "https://www.uwyo.edu/news/2024/06/after-11-years-longest-migrating-mule-deer-dies-in-wyomings-red-desert.html",
+      "quote": [
+       "biologists documented Deer 255 had eight pregnancies, including seven sets of twins.",
+       "biologists were unable to track any of her fawns migrating back to summer range."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-maultierhirsch-weisswedel",
+     "text": "Wo Maultier- und Weißwedelhirsche zusammenleben, gewinnen oft die schnelleren und hartnäckigeren Weißwedel-Böcke die Weibchen.",
+     "source": {
+      "title": "Wikipedia (de), Maultierhirsch",
+      "url": "https://de.wikipedia.org/wiki/Maultierhirsch",
+      "quote": "Die Männchen der Weißwedelhirsche setzen sich gegenüber den Männchen der Maultierhirsche beim Werben um ein brünftiges Weibchen durch, weil sie schneller sind als Maultierhirsche und in der Verfolgung des brünftigen Weibchens auch deutlich hartnäckiger.",
+      "checked": "2026-11-22"
      },
      "review": {
       "verdict": "pending"

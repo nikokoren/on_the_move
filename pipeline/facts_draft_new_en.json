@@ -1,6 +1,6 @@
 {
  "lang": "en",
- "about": "Facts for the 11 new species (pipeline/new_species.json), drafted 2026-11-21/22 by four writers (EN and DE separately), checked by pipeline/check_fact_draft.py --new. Pending owner review; not in the recipe.",
+ "about": "Facts for the 13 new species (pipeline/new_species.json: the 11 picks plus elk and mule deer), drafted 2026-11-21/22 by four writers (EN and DE separately), checked by pipeline/check_fact_draft.py --new. Pending owner review; not in the recipe.",
  "species": {
   "Bubo scandiacus": {
    "short": [
@@ -3026,6 +3026,590 @@
        "Male on territory lures female by giving long call, arching neck, bowing.",
        "In courtship, male may feed female."
       ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Cervus elaphus": {
+   "short": [
+    {
+     "id": "enn-s-elk-wapiti",
+     "text": "The elk's other name, 'wapiti', is a Shawnee and Cree word meaning 'white rump'.",
+     "source": {
+      "title": "Wikipedia, Elk",
+      "url": "https://en.wikipedia.org/wiki/Elk",
+      "quote": "The alternative name \"wapiti\" derives from the Shawnee and Cree word waapiti",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-moose",
+     "text": "In Europe, 'elk' means the moose. Colonists in America gave the name to a different deer.",
+     "source": {
+      "title": "Wikipedia, Elk",
+      "url": "https://en.wikipedia.org/wiki/Elk",
+      "quote": [
+       "For the species called \"elk\" in Eurasia ( Alces alces ), see Moose .",
+       "The word \"elk\" originally referred to the European variety of the moose , Alces alces , but was transferred to Cervus canadensis by North American colonists."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-antlers",
+     "text": "A bull elk's antlers can grow up to {2.5 cm|1 in} a day, and weigh up to {18 kg|40 lb}.",
+     "source": {
+      "title": "NPS Rocky Mountain National Park, Elk",
+      "url": "https://www.nps.gov/romo/learn/nature/elk.htm",
+      "quote": [
+       "Antlers can grow up to an inch a day.",
+       "Antlers on a mature male can weigh up to 40 pounds."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-perfume",
+     "text": "To woo cows, bull elk roll in mud holes they have soaked with their own urine.",
+     "source": {
+      "title": "Wikipedia, Elk",
+      "url": "https://en.wikipedia.org/wiki/Elk",
+      "quote": [
+       "Bulls also dig holes in the ground called wallows, in which they urinate and roll their bodies .",
+       "The urine soaks into their hair and gives them a distinct smell which attracts cows."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-prairie",
+     "text": "Banff's elk winter at Ya Ha Tinda, which means 'mountain prairie' in the Nakoda language.",
+     "source": {
+      "title": "Wikipedia, Ya Ha Tinda Ranch",
+      "url": "https://en.wikipedia.org/wiki/Ya_Ha_Tinda_Ranch",
+      "quote": [
+       "Around a thousand elk spend the winter in the ranch.",
+       "Ya Ha Tinda means \"mountain prairie\" in the Nakoda language."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-horses",
+     "text": "The elk's winter home is a ranch where Parks Canada raises horses for its mounted rangers.",
+     "source": {
+      "title": "Wikipedia, Ya Ha Tinda Ranch",
+      "url": "https://en.wikipedia.org/wiki/Ya_Ha_Tinda_Ranch",
+      "quote": "The ranch is owned by Parks Canada and used to raise horses for use in the western national parks that request mounted park rangers.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-switch",
+     "text": "Elk change their minds: each year about 15% of Ya Ha Tinda elk switch to staying or going.",
+     "source": {
+      "title": "Eggeman et al. 2016, Journal of Animal Ecology",
+      "url": "https://europepmc.org/search?query=DOI:10.1111/1365-2656.12495",
+      "quote": "Individuals switched between migrant and resident strategies at a mean rate of 15% per year",
+      "checked": "2026-11-21",
+      "europepmc": "DOI:10.1111/1365-2656.12495"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-snow",
+     "text": "After snowy winters, Yellowstone's elk head uphill late; in early springs, they go early.",
+     "source": {
+      "title": "NPS Yellowstone, Elk",
+      "url": "https://www.nps.gov/yell/learn/nature/elk.htm",
+      "quote": [
+       "After winters with high snowpack, elk delay migration.",
+       "In years with lower snowpack and earlier vegetation green-up, elk migrate earlier."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-smokies",
+     "text": "Elk had vanished from the Great Smoky Mountains. In 2001, 25 elk were brought back.",
+     "source": {
+      "title": "NPS Great Smoky Mountains, Elk",
+      "url": "https://www.nps.gov/grsm/learn/nature/elk.htm",
+      "quote": [
+       "The last elk in North Carolina is believed to have been killed by the late 1700s",
+       "The reintroduction of elk to the park began in 2001 with the release of the first group of 25 elk."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-sleigh",
+     "text": "In Jackson Hole, Wyoming, visitors ride horse-drawn sleighs out among the wintering elk.",
+     "source": {
+      "title": "USFWS, National Elk Refuge",
+      "url": "https://www.fws.gov/refuge/national-elk",
+      "quote": "Most visitors to the Refuge during the winter months take a horse-drawn sleigh to see the elk",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-elk-greenup",
+     "text": "Spring reaches Banff's mountains about 50 days later for every {1000 m|3300 ft} of height. Migrant elk climb with it to find fresh grass all summer.",
+     "source": {
+      "title": "Movebank Data Repository, Ya Ha Tinda elk project, Banff National Park (data from Hebblewhite et al. 2008)",
+      "url": "https://datarepository.movebank.org/server/api/core/items/aed22923-281d-4583-aefd-140f1497539a",
+      "quote": [
+       "was delayed by 50 days for every 1000-m increase in elevation",
+       "The expected digestibility for migrant elk in summer was 6.5% higher than for residents"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-choice",
+     "text": "Banff's elk choose: migrants head into the park, away from wolves. Stay-at-homes keep close to people at the ranch, where wolves rarely go.",
+     "source": {
+      "title": "Hebblewhite and Merrill 2009, Ecology",
+      "url": "https://europepmc.org/search?query=DOI:10.1890/08-2090.1",
+      "quote": [
+       "Migration reduced exposure to wolf predation risk by 70% relative to residents at the landscape scale",
+       "they reduced predation risk at fine scales to only 15% higher than migrants by using areas close to human activity, which wolves avoided"
+      ],
+      "checked": "2026-11-21",
+      "europepmc": "DOI:10.1890/08-2090.1"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-hay",
+     "text": "In the late 1970s the Ya Ha Tinda herd had 12 migrants for every elk that stayed put. By 2004 it was 3, partly thanks to hay for the horses.",
+     "source": {
+      "title": "Hebblewhite et al. 2006, Wildlife Society Bulletin",
+      "url": "https://europepmc.org/search?query=DOI:10.2193/0091-7648(2006)34[1280:itmbom]2.0.co;2",
+      "quote": [
+       "The population M:R ratio decreased from 12.4 (SD = 3.22) in the early period to 3.0 (SD = 1.63).",
+       "access to hay fed to wintering horses"
+      ],
+      "checked": "2026-11-21",
+      "europepmc": "DOI:10.2193/0091-7648(2006)34[1280:itmbom]2.0.co;2"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-fire",
+     "text": "After a big forest fire brought fresh grazing east of the Ya Ha Tinda ranch, some elk invented a brand-new migration route there.",
+     "source": {
+      "title": "University of Montana, Williams et al. 2024, Journal of Animal Ecology",
+      "url": "https://umimpact.umt.edu/en/publications/predation-risk-drives-long-term-shifts-in-migratory-behaviour-and/",
+      "quote": "A novel eastern migrant tactic emerged following a large forest fire that enhanced forage in an area with lower predation risk outside of the protected area.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-bugle",
+     "text": "A bull elk's bugle is two sounds at once: a low note from the vocal cords and a high whistle of air rushing through a narrow throat.",
+     "source": {
+      "title": "Reby et al. 2016, Journal of Experimental Biology",
+      "url": "https://europepmc.org/search?query=DOI:10.1242/jeb.131219",
+      "quote": "with one source oscillating at a mean of 145 Hz (F0) and the other oscillating independently at an average of 1426 Hz (G0)",
+      "checked": "2026-11-21",
+      "europepmc": "DOI:10.1242/jeb.131219"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-tooth",
+     "text": "Each elk has two ivory teeth that outlast everything else. To the Lakota they meant long life, so a newborn child was given an elk tooth.",
+     "source": {
+      "title": "Buffalo Bill Center of the West, Top 10 Visitor Questions to the Plains Indian Museum",
+      "url": "https://centerofthewest.org/2015/07/22/top-10-visitor-questions-plains-indian-museum-eye-see-teeth/",
+      "quote": [
+       "Two elk teeth remain after everything else has crumbled to dust",
+       "When a child is born, its parents desire long life for it and for this reason an elk tooth is given to a child."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-scouts",
+     "text": "Since 1968, Boy Scouts have gathered the antlers elk shed on the National Elk Refuge. Most of the auction money goes back to the refuge.",
+     "source": {
+      "title": "Wikipedia, National Elk Refuge",
+      "url": "https://en.wikipedia.org/wiki/National_Elk_Refuge",
+      "quote": [
+       "Each year, the naturally shed elk antlers are collected from the refuge by the Boy Scouts of America , a tradition since they got a permit to due so in 1968.",
+       "with 75% of the proceeds returned to the refuge"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-winter",
+     "text": "Bull elk keep their antlers all winter. Without them, rivals fight with their front hooves, which causes more injuries.",
+     "source": {
+      "title": "NPS Yellowstone, Elk",
+      "url": "https://www.nps.gov/yell/learn/nature/elk.htm",
+      "quote": [
+       "Bulls retain their antlers through the winter.",
+       "When antlerless, they use their front hooves (as cows do), which is more likely to result in injury to one of the combatants."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-refuge",
+     "text": "Wyoming's National Elk Refuge was created in 1912 as a winter haven for one of the largest elk herds.",
+     "source": {
+      "title": "Wikipedia, National Elk Refuge",
+      "url": "https://en.wikipedia.org/wiki/National_Elk_Refuge",
+      "quote": [
+       "It was created in 1912 to protect habitat and provide sanctuary for one of the largest elk (also known as wapiti) herds."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Odocoileus hemionus": {
+   "short": [
+    {
+     "id": "enn-s-deer-ears",
+     "text": "Mule deer are named for their big, mule-like ears, which also shed heat to keep them cool.",
+     "source": {
+      "title": "NPS Grand Canyon, Mule Deer",
+      "url": "https://www.nps.gov/grca/learn/nature/mule-deer.htm",
+      "quote": [
+       "The most defining feature of these deer is their large, mule-like ears.",
+       "The large ears on mule deer are known to radiate heat away from the deer's body, helping to keep it cool."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-pogo",
+     "text": "Startled mule deer flee in stiff-legged bounds, all four hooves landing together.",
+     "source": {
+      "title": "NPS Theodore Roosevelt National Park, Mule Deer",
+      "url": "https://www.nps.gov/thro/learn/nature/mule-deer.htm",
+      "quote": "When startled, a mule deer will move in a series of stiff-legged jumps with all four feet hitting the ground together.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-uturn",
+     "text": "A bounding mule deer can turn right around in the middle of a single leap.",
+     "source": {
+      "title": "NPS Theodore Roosevelt National Park, Mule Deer",
+      "url": "https://www.nps.gov/thro/learn/nature/mule-deer.htm",
+      "quote": "If necessary, they can turn or completely reverse direction in the course of a single bound.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-speed",
+     "text": "A mule deer bouncing on all fours is as fast as one at full gallop: about {34 km/h|21 mph}.",
+     "source": {
+      "title": "Wild About Utah, Follow the Bouncing Deer",
+      "url": "https://wildaboututah.org/follow-the-bouncing-deer/",
+      "quote": "Surprisingly, the fastest speeds of a stotting mule deer were just as fast as top galloping speeds—around 9.5 meters per second.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-months",
+     "text": "Red Desert mule deer spend 4 months of every year on the move between their homes.",
+     "source": {
+      "title": "Wyoming Migration Initiative, Red Desert to Hoback Migration Assessment",
+      "url": "https://migrationinitiative.org/?p=279",
+      "quote": "The deer that complete this journey spend 4 months of each year migrating",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-fat",
+     "text": "Wyoming's mule deer summer on high slopes to build the fat they need for winter.",
+     "source": {
+      "title": "Wyoming Migration Initiative, Red Desert to Hoback Migration Assessment",
+      "url": "https://migrationinitiative.org/?p=279",
+      "quote": "The performance of these herds is largely dependent on their ability to seasonally migrate from low-elevation winter ranges to high-elevation summer ranges, where they gain fat needed to survive the long Wyoming winters.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-corridor",
+     "text": "In 2016 the deer's route became one of Wyoming's first official migration corridors.",
+     "source": {
+      "title": "University of Wyoming Extension, Landowner and Economic Benefits from Migration Corridor Designation in Wyoming",
+      "url": "https://wyoextension.org/publications/html/B1374-2/",
+      "quote": [
+       "We quantify landowner benefits specifically related to the Sublette Mule Deer Migration Corridor, commonly known as the Red Desert to Hoback Basin (RD2H), since it was designate d in 2016.",
+       "The RD2H corridor was among the first to receive designation status."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-255",
+     "text": "A Red Desert doe called Deer 255 walked {390 km|242 mi} one way: the mule deer record.",
+     "source": {
+      "title": "University of Wyoming, After 11 Years, Longest-Migrating Mule Deer Dies in Wyoming's Red Desert",
+      "url": "https://www.uwyo.edu/news/2024/06/after-11-years-longest-migrating-mule-deer-dies-in-wyomings-red-desert.html",
+      "quote": [
+       "Her final 2016 summer range was four miles from Island Park, Idaho, 242 miles from where she started (see map below).",
+       "As of this writing, Deer 255’s distance record for mule deer still stands"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-swim",
+     "text": "Heading north, some Red Desert mule deer swim right across Fremont Lake, Wyoming.",
+     "source": {
+      "title": "WyoFile, America's longest mule deer migration discovered in Wyoming",
+      "url": "https://wyofile.com/americas-longest-mule-deer-migration-discovered-in-wyoming/",
+      "quote": "Some swam across Fremont Lake before making their way out of the Green River Basin.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-antlers",
+     "text": "Mule deer antlers fork into a 'Y', unlike a white-tailed deer's.",
+     "source": {
+      "title": "NPS Theodore Roosevelt National Park, Mule Deer",
+      "url": "https://www.nps.gov/thro/learn/nature/mule-deer.htm",
+      "quote": "Mule deer antlers are distinct from whitetail antlers due to their second tine forking into a “Y.”",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-tail",
+     "text": "A mule deer's skinny tail has a black tip. Its white-tailed cousin has a bushy white one.",
+     "source": {
+      "title": "NPS Theodore Roosevelt National Park, Mule Deer",
+      "url": "https://www.nps.gov/thro/learn/nature/mule-deer.htm",
+      "quote": "A mule deer’s tail is thin and black-tipped, unlike the bushy white tail of its cousin.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-cactus",
+     "text": "Mule deer even nibble the pads of prickly pear cactus.",
+     "source": {
+      "title": "NPS, Mule Deer",
+      "url": "https://www.nps.gov/articles/000/mule-deer.htm",
+      "quote": "They may even browse on the pads of pricklypear cactus.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-deer-obstacles",
+     "text": "On their {240 km|150 mi} trip from the Red Desert to the Hoback Basin, mule deer cross sand dunes, lakes, rivers, highways and over 100 fences.",
+     "source": {
+      "title": "Wyoming Migration Initiative, Red Desert to Hoback Migration Assessment",
+      "url": "https://migrationinitiative.org/?p=279",
+      "quote": [
+       "the longest mule deer migration ever recorded (and 2nd longest land migration in North America) was discovered where deer travel a one-way distance of 150 miles",
+       "including sand dunes, lake and river crossings, multiple highways, and more than 100 fences"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-deer-255trip",
+     "text": "Deer 255 swam the Snake River, climbed over the Tetons and forded a river in Yellowstone, ending her trip {6 km|4 mi} from Island Park, Idaho.",
+     "source": {
+      "title": "University of Wyoming, After 11 Years, Longest-Migrating Mule Deer Dies in Wyoming's Red Desert",
+      "url": "https://www.uwyo.edu/news/2024/06/after-11-years-longest-migrating-mule-deer-dies-in-wyomings-red-desert.html",
+      "quote": [
+       "After swimming the Snake River near the inlet of Jackson Lake, she climbed over the low north end of the Teton Range, then forded the Fall River in the southwest corner of Yellowstone National Park.",
+       "Her final 2016 summer range was four miles from Island Park, Idaho"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-deer-255route",
+     "text": "Deer 255's summer homes moved between Jackson Hole and Idaho over the years, but she always took exactly the same route there and back.",
+     "source": {
+      "title": "University of Wyoming, After 11 Years, Longest-Migrating Mule Deer Dies in Wyoming's Red Desert",
+      "url": "https://www.uwyo.edu/news/2024/06/after-11-years-longest-migrating-mule-deer-dies-in-wyomings-red-desert.html",
+      "quote": "Although Deer 255 summered in different spots over the years, she always used the same exact migration route to get there and back.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-deer-memory",
+     "text": "Mule deer migrate by heart. Memory of the route steers them 2 to 28 times more strongly than fresh green grass or deep snow does.",
+     "source": {
+      "title": "Merkle et al. 2019, Ecology Letters",
+      "url": "https://europepmc.org/search?query=DOI:10.1111/ele.13362",
+      "quote": "Spatial memory had an extraordinary influence on migration, affecting movement 2-28 times more strongly than tracking spring green-up or autumn snow depth.",
+      "checked": "2026-11-21",
+      "europepmc": "DOI:10.1111/ele.13362"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-deer-surf",
+     "text": "In spring, mule deer 'surf' the green wave of new growth up the mountains. Almost a third keep pace as well as a perfect surfer would.",
+     "source": {
+      "title": "Aikens et al. 2017, Ecology Letters",
+      "url": "https://europepmc.org/search?query=DOI:10.1111/ele.12772",
+      "quote": [
+       "The Green Wave Hypothesis posits that herbivore migration manifests in response to waves of spring green-up (i.e. green-wave surfing).",
+       "In a population of migratory mule deer (Odocoileus hemionus), 31% surfed plant phenology in spring as well as a theoretically perfect surfer"
+      ],
+      "checked": "2026-11-21",
+      "europepmc": "DOI:10.1111/ele.12772"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-deer-fremont",
+     "text": "Some 5,000 migrating mule deer squeeze past Fremont Lake near Pinedale, Wyoming. Volunteers took down {4.6 km|15000 ft} of fences in their way.",
+     "source": {
+      "title": "SweetwaterNOW, UW Science Inspires Mule Deer Conservation at Fremont Lake",
+      "url": "https://www.sweetwaternow.com/uw-science-inspires-mule-deer-conservation-at-fremont-lake/",
+      "quote": [
+       "The researchers identified the Fremont Lake area near Pinedale as a chokepoint for roughly 5,000 migrating mule deer that pass through each spring and fall.",
+       "Together, they helped take down 15,000 feet of fences that impeded the mule deer migration."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-deer-fences",
+     "text": "Since 2016, ranchers along the deer's corridor have rebuilt or removed {776 km|482 mi} of fence to make it easier for wildlife to cross.",
+     "source": {
+      "title": "University of Wyoming Extension, Landowner and Economic Benefits from Migration Corridor Designation in Wyoming",
+      "url": "https://wyoextension.org/publications/html/B1374-2/",
+      "quote": "Since its designation by the Wyoming Game and Fish Department in 2016, landowners have benefited from at least 482 miles of wildlife friendly fencing projects on private lands related to the RD2H migration corridor.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-deer-ages",
+     "text": "Biologist Hall Sawyer thinks the deer found their route over hundreds or thousands of years, working out the best places to go.",
+     "source": {
+      "title": "WyoFile, America's longest mule deer migration discovered in Wyoming",
+      "url": "https://wyofile.com/americas-longest-mule-deer-migration-discovered-in-wyoming/",
+      "quote": "“It’s this optimization or evolutionary process, where over hundreds or thousands of years they are figuring out the best place to go,“ Sawyer said.",
       "checked": "2026-11-21"
      },
      "review": {
