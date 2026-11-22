@@ -40,7 +40,7 @@ Round six is complete (2026-11-05), recorded in `pipeline/facts_review_round6.js
 
 ## Sources
 
-Every fact rests on one or more sentences quoted verbatim from its source, checked by script against the live page (working method rule 3). Paraphrase in the fact; never copy the source sentence as the fact. Prefer primary sources, research institutions, conservation bodies and good journalism; Wikipedia is acceptable but not preferred. Measurements are written `{metric|imperial}` (e.g. `{48 km|30 mi}`), in the source's own units where the source gives them.
+Every fact rests on one or more sentences quoted verbatim from its source, checked by script against the live page (working method rule 3). Paraphrase in the fact; never copy the source sentence as the fact. Prefer primary sources, research institutions, conservation bodies and good journalism; Wikipedia is acceptable but not preferred. Measurements are written `{metric|imperial}` (e.g. `{48 km|30 mi}`), in the source's own units where the source gives them. English facts show them imperial first with metric in brackets where the fact still fits, else imperial only (decision U1, 2026-11-22), so English articles must suit the imperial number ("a 31 in (80 cm) arrow"), and English facts should leave room for the brackets.
 
 ## House rules
 

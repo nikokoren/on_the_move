@@ -71,6 +71,29 @@ export function renderUnits(text, t, lang, units) {
   });
 }
 
+// English facts (owner, 2026-11-22): imperial first with metric in brackets,
+// "250 ft (75 m)", where the whole fact still fits its slot (90 short, 140
+// long); otherwise imperial only. Whatever the units setting says, as the
+// owner asked for the English texts. German facts follow the setting.
+const FACT_LIMIT = { short: 90, long: 140 };
+export function renderFact(text, t, lang, units, len = "long") {
+  if (lang !== "en" || !/\{[^{}|]+\|[^{}|]+\}/.test(text)) return renderUnits(text, t, lang, units);
+  const both = String(text).replace(/\{([^{}|]+)\|([^{}|]+)\}/g, (all, metric, imperial) => {
+    const tok = `{${metric}|${imperial}}`;
+    const imp = renderUnits(tok, t, lang, "imperial"), met = renderUnits(tok, t, lang, "metric");
+    return imp === tok ? all : `${imp} (${met})`;
+  });
+  return both.length <= (FACT_LIMIT[len] || 140) ? both : renderUnits(text, t, lang, "imperial");
+}
+
+// The animal's own distances in a fact, the same way: miles with km in brackets
+// in English where it fits, else miles; German follows the units setting.
+function distFact(tpl, t, name, km, lang, units) {
+  if (lang !== "en") return fill(tpl, { name, dist: fmtDist(t, km, lang, units) });
+  const both = fill(tpl, { name, dist: `${fmtDist(t, km, lang, "imperial")} (${fmtDist(t, km, lang, "metric")})` });
+  return both.length <= FACT_LIMIT.long ? both : fill(tpl, { name, dist: fmtDist(t, km, lang, "imperial") });
+}
+
 const within = (d, from, to) => (from <= to ? d >= from && d <= to : d >= from || d <= to);
 const ahead = (from, to) => (to - from + 366) % 366;
 
@@ -192,9 +215,9 @@ function factPool(t, lang, sp, a, units) {
   return [
     // Owner-reviewed species facts, this language's short and long pools together
     // (decision R8f; every view holds 140 characters), then the animal's own numbers.
-    ...((sp.facts && (sp.facts[lang] || sp.facts.en)) || []).map((x) => renderUnits(x.text, t, lang, units)),
-    fill(t.facts.yearKm, { name, dist: fmtDist(t, f.yearKmMin, lang, units) }),
-    fill(t.facts.span, { name, dist: fmtDist(t, f.spanKm, lang, units) }),
+    ...((sp.facts && (sp.facts[lang] || sp.facts.en)) || []).map((x) => renderFact(x.text, t, lang, units, x.len)),
+    distFact(t.facts.yearKm, t, name, f.yearKmMin, lang, units),
+    distFact(t.facts.span, t, name, f.spanKm, lang, units),
     a.stays.length > 1 && days >= 5 && days <= 300 ? fill(t.facts.travelDays, { name, n: days }) : null,
     ...individualFacts(t, a, lang)
   ].filter(Boolean);
@@ -248,7 +271,7 @@ function seasonalView(sp, a, t, lang, local, turn, units, withFact) {
   const where = fill(t.rowJourney, { from, to });
   const recorded = new Date(j.points[i][0] + "T12:00:00Z");
   const status = fill(j.points[i][3] === "i" ? t.recordedEstimate : t.recorded, { date: fmtDate(t, recorded, true) });
-  const pool = [...sp.facts[lang].map((f) => renderUnits(f.text, t, lang, units)), ...individualFacts(t, a, lang)];
+  const pool = [...sp.facts[lang].map((f) => renderFact(f.text, t, lang, units, f.len)), ...individualFacts(t, a, lang)];
   const dest = hi === j.points.length - 1 && km(here, end) >= 50 ? end : null;
   const past = coords(j.points.slice(lo, i + 1)), ahead = coords(j.points.slice(i, hi + 1));
   return { state: "ok", kind: "seasonal", species: sp.names[lang], name: fill(t.named, { name: a.name }),
