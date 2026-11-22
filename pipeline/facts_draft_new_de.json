@@ -1,0 +1,2894 @@
+{
+ "lang": "de",
+ "about": "Facts for the 11 new species (pipeline/new_species.json), drafted 2026-11-21/22 by four writers (EN and DE separately), checked by pipeline/check_fact_draft.py --new. Pending owner review; not in the recipe.",
+ "species": {
+  "Bubo scandiacus": {
+   "short": [
+    {
+     "id": "den-s-owl-daytime",
+     "text": "Anders als die meisten Eulen jagen Schneeeulen auch am helllichten Tag.",
+     "source": {
+      "title": "Wikipedia (de), Schneeeule",
+      "url": "https://de.wikipedia.org/wiki/Schneeeule",
+      "quote": "Schneeeulen jagen anders als die meisten übrigen Eulen auch tagsüber",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-owl-snowshoes",
+     "text": "Dicht befiederte Zehen wirken wie Schneeschuhe: Die Schneeeule sinkt nicht im Schnee ein.",
+     "source": {
+      "title": "Wikipedia (de), Schneeeule",
+      "url": "https://de.wikipedia.org/wiki/Schneeeule",
+      "quote": "Die Füße und Zehen sind dicht befiedert – diese dichte, schneeschuhartige Befiederung dient der Wärmeisolation und verhindert, dass die Eule im Schnee einsinkt.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-owl-white-males",
+     "text": "Schneeeulen-Männchen werden mit den Jahren immer weißer, bis kaum ein Fleck übrig ist.",
+     "source": {
+      "title": "Wikipedia (de), Schneeeule",
+      "url": "https://de.wikipedia.org/wiki/Schneeeule",
+      "quote": "Das Federkleid ausgewachsener Männchen wird mit zunehmendem Alter fast völlig weiß.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-owl-lemmings",
+     "text": "Eine erwachsene Schneeeule frisst drei bis fünf Lemminge am Tag.",
+     "source": {
+      "title": "Tierpark Hellabrunn, Schneeeule",
+      "url": "https://hellabrunn.de/tiere/welt-der-voegel/schneeeule",
+      "quote": "Ausgewachsene Eulen fressen drei bis fünf Lemminge pro Tag.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-owl-quebec",
+     "text": "Québec hat sich die Schneeeule als offiziellen Provinzvogel ausgesucht.",
+     "source": {
+      "title": "Wikipedia (de), Schneeeule",
+      "url": "https://de.wikipedia.org/wiki/Schneeeule",
+      "quote": "Die Schneeeule ist der offizielle Vogel der kanadischen Provinz Québec",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-owl-fat",
+     "text": "Schneeeulen im Süden sind keine Hungerflüchtlinge: Viele sind sogar richtig fett.",
+     "source": {
+      "title": "Audubon Magazine, The Return of the SNOWstorm (Scott Weidensaul, 2015)",
+      "url": "https://www.audubon.org/magazine/return-of-snowstorm",
+      "quote": "We've found (contrary to conventional wisdom) that the owls were not thin and starving, but actually extremely fat and well fed.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-owl-uhu",
+     "text": "Genetisch ist die Schneeeule ein Uhu, eng verwandt mit dem amerikanischen Virginia-Uhu.",
+     "source": {
+      "title": "Wikipedia (de), Schneeeule",
+      "url": "https://de.wikipedia.org/wiki/Schneeeule",
+      "quote": "Molekularbiologische Untersuchungen haben jedoch gezeigt, dass sie zu den Uhus ( Bubo ) gehört und nah mit dem Virginia-Uhu ( B. virginianus ) und dem Magellanuhu ( B. magellanicus ) verwandt ist.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-owl-sun",
+     "text": "Regen und Schnee sitzen Schneeeulen aus. Schutz suchen die Vögel nur vor praller Sonne.",
+     "source": {
+      "title": "Wikipedia (de), Schneeeule",
+      "url": "https://de.wikipedia.org/wiki/Schneeeule",
+      "quote": "Die Eulen suchen nur bei starker Sonnenbestrahlung einen Unterstand auf, bei Regen und Schneefall bleiben sie sitzen.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-owl-eggs",
+     "text": "Je mehr Lemminge es gibt, desto mehr Eier legt eine Schneeeule: zwischen 3 und 11.",
+     "source": {
+      "title": "Wikipedia (de), Schneeeule",
+      "url": "https://de.wikipedia.org/wiki/Schneeeule",
+      "quote": "legt je nach Nahrungsangebot 3–11 Eier",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-owl-camouflage",
+     "text": "Ob das Weiß tarnt, ist umstritten: Im schneefreien Sommer fallen Schneeeulen stark auf.",
+     "source": {
+      "title": "Wikipedia (de), Schneeeule",
+      "url": "https://de.wikipedia.org/wiki/Schneeeule",
+      "quote": "Ob die weiße Färbung zusätzliche Tarnfunktion hat, ist umstritten, da die Tiere besonders während der Brutsaison in der schneefreien Jahreszeit durch das weiße Gefieder besonders auffällig sind.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-owl-thief",
+     "text": "Wird das Futter knapp, jagen Schneeeulen sogar Eisfüchsen die Beute ab.",
+     "source": {
+      "title": "Wikipedia (de), Schneeeule",
+      "url": "https://de.wikipedia.org/wiki/Schneeeule",
+      "quote": "Bei sehr ungünstigen Nahrungsbedingungen jagen sie auch Eisfüchsen oder Kornweihen die Beute ab",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-owl-beak",
+     "text": "Feine weiße Federn bedecken den schwarzen Schnabel der Schneeeule fast ganz.",
+     "source": {
+      "title": "Wikipedia (de), Schneeeule",
+      "url": "https://de.wikipedia.org/wiki/Schneeeule",
+      "quote": [
+       "Auffällig ist, dass der schwarze Schnabel überwiegend von so genannten Vibrissen bedeckt ist.",
+       "Dies sind dichte, feine weiße Federn."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-owl-calls",
+     "text": "Die Balzrufe eines Schneeeulen-Männchens sind in der Tundra kilometerweit zu hören.",
+     "source": {
+      "title": "Wikipedia (de), Schneeeule",
+      "url": "https://de.wikipedia.org/wiki/Schneeeule",
+      "quote": "Diese Rufe sind in der Tundra über mehrere Kilometer hinweg zu hören.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den-l-owl-lemming-gift",
+     "text": "Zur Balz fliegt das Männchen mit einem toten Lemming im Schnabel, als Geschenk fürs Weibchen. Ohne so ein Geschenk gibt es keine Paarung.",
+     "source": {
+      "title": "Wikipedia (de), Schneeeule",
+      "url": "https://de.wikipedia.org/wiki/Schneeeule",
+      "quote": [
+       "Während des Balzfluges trägt das Männchen in der Regel einen toten Lemming im Schnabel, den es nach Ende des Balzfluges dem Weibchen vorlegt.",
+       "Ohne die Übergabe eines solchen Futtergeschenks kommt es nicht zur Verpaarung."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-owl-angel",
+     "text": "Mögliche Nistplätze zeigt das Männchen in der „Engelstellung“: Mit gehobenen Flügeln steht das Männchen darüber, das Beutegeschenk zu Füßen.",
+     "source": {
+      "title": "Wikipedia (de), Schneeeule",
+      "url": "https://de.wikipedia.org/wiki/Schneeeule",
+      "quote": "das Männchen zeigt dem Weibchen potentielle Brutplätze, indem es sich in einer „Engelstellung“ mit gehobenen, aber nicht geöffneten Flügeln darüber stellt und das Beutegeschenk ablegt.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-owl-recount",
+     "text": "Lange schätzte man 200.000 bis 300.000 Brutpaare Schneeeulen weltweit. 2019 kamen genauere Untersuchungen auf nur 14.000.",
+     "source": {
+      "title": "Wikipedia (de), Schneeeule",
+      "url": "https://de.wikipedia.org/wiki/Schneeeule",
+      "quote": [
+       "Früher ging die IUCN von 200.000 bis 300.000 Brutpaaren auf der Welt aus.",
+       "Genauere Untersuchungen von Birdlife kamen 2019 auf nur 14.000 Brutpaare weltweit."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-owl-on-ice",
+     "text": "Manche Schneeeulen überwintern auf Eis: junge weit draußen auf den zugefrorenen Großen Seen, alte auf dem Packeis der Arktis.",
+     "source": {
+      "title": "Audubon Magazine, The Return of the SNOWstorm (Scott Weidensaul, 2015)",
+      "url": "https://www.audubon.org/magazine/return-of-snowstorm",
+      "quote": [
+       "We were also astonished to learn that several of our tagged owls spent the bulk of the winter on the frozen surface of the Great Lakes, far off shore.",
+       "While wintering on the Arctic pack ice, those adult birds hunt flocks of sea ducks that squeeze into permanent, open-water cracks called polynyas."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-owl-monocacy",
+     "text": "Schneeeule Monocacy überwinterte in Baltimore, dann in New York. An einen Strand gebracht, flog Monocacy gleich zurück in die Stadt.",
+     "source": {
+      "title": "Audubon Magazine, The Return of the SNOWstorm (Scott Weidensaul, 2015)",
+      "url": "https://www.audubon.org/magazine/return-of-snowstorm",
+      "quote": [
+       "Although she spent the summer in the remote subarctic, Monocacy has proven to be a decidedly urban owl down here.",
+       "She spent last winter in downtown Baltimore, and had to be relocated from LaGuardia Airport in Queens this winter.",
+       "Moved to the empty barrier beaches of Long Island, she bee-lined back to Brooklyn and then Bayonne, New Jersey, on the industrial waterfront of the Hudson."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     },
+     "note": "Edited by Claude 2026-11-22: the draft merged two winters (Baltimore, then New York) into one."
+    },
+    {
+     "id": "den-l-owl-invasion",
+     "text": "Im Winter 2013/14 kamen so viele Schneeeulen von Minnesota bis Neufundland in den Süden wie seit fast hundert Jahren nicht mehr.",
+     "source": {
+      "title": "Audubon Magazine, The Return of the SNOWstorm (Scott Weidensaul, 2015)",
+      "url": "https://www.audubon.org/magazine/return-of-snowstorm",
+      "quote": [
+       "Last winter, the region from Minnesota to Newfoundland witnessed a extraordinary Snowy Owl invasion, the biggest in nearly a hundred years.",
+       "We hoped that some of the 2013-14 class of owls would eventually return"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-owl-lemming-years",
+     "text": "Schneeeulen brüten erst ab zwei Lemmingen pro Hektar. In einem Tal in Grönland war das in 34 Jahren nur achtmal so, etwa alle vier Jahre.",
+     "source": {
+      "title": "Spektrum.de, Klimafolgen: Das Schweigen der Lemminge",
+      "url": "https://www.spektrum.de/news/klimafolgen-das-schweigen-der-lemminge/1945627",
+      "quote": [
+       "Wir haben zeigen können, dass Brutversuche erst ab Lemming-Dichten von mindestens zwei Individuen pro Hektar erfolgten.",
+       "Das gab es im Karupelv-Tal nur in acht von insgesamt 34 Jahren – im Durchschnitt alle vier Jahre –, mit Rekordzahlen von bis zu 20 Eulenpaaren."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Numenius phaeopus": {
+   "short": [
+    {
+     "id": "den-s-whimbrel-hope-100h",
+     "text": "Der Hudsonbrachvogel Hope flog 100 Stunden nonstop von der Hudson Bay bis in die Karibik.",
+     "source": {
+      "title": "Center for Conservation Biology (William & Mary), Azalea vs. Hope (the Whimbrel), 2009",
+      "url": "https://ccbbirds.org/?p=15520",
+      "quote": "She (Hope is an adult female) flew non-stop for 100 hours (August 10-15) from the upper shore of Hudson Bay to St. Croix, a flight of 5,720 km (3,550 mi).",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-whimbrel-mackenzie",
+     "text": "Ein Hudsonbrachvogel namens Mackenzie flog sechs Tage nonstop: {7000 km|4355 mi}.",
+     "source": {
+      "title": "Center for Conservation Biology (William & Mary), Whimbrels fly through the heart of the Atlantic, 2012",
+      "url": "https://ccbbirds.org/?p=2698",
+      "quote": [
+       "The bird with the longest flight flew nonstop for 145 hours (6 days) covering a distance of 7,000 kilometers (4,355 miles).",
+       "Mackenzie averaged just under 30 miles per hour (48 kilometers per hour) for the 6-day flight."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-whimbrel-upinraaq-name",
+     "text": "Ein besenderter Hudsonbrachvogel heißt Upinraaq, das Inuvialuktun-Wort für Sommer.",
+     "source": {
+      "title": "Center for Conservation Biology (William & Mary), Whimbrel tracked into Tropical Storm Erika, 2015",
+      "url": "https://ccbbirds.org/?p=20246",
+      "quote": "Upinraaq (named for the Inuvialuktun word for summer) the whimbrel",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-whimbrel-book",
+     "text": "Über den Hudsonbrachvogel Hope gibt es ein Kinderbuch: „Hope is Here“.",
+     "source": {
+      "title": "Center for Conservation Biology (William & Mary), Hope, 2019",
+      "url": "https://ccbbirds.org/?p=30492",
+      "quote": "The story of Hope was immortalized in the book “ Hope is Here ” written by well-known children's author Cristina Kessler of St. John.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-whimbrel-crabs",
+     "text": "Auf dem Weg nach Norden fraß sich Hope in Virginia drei Wochen lang an Winkerkrabben satt.",
+     "source": {
+      "title": "Audubon, Hope (the Whimbrel) Returns (2012)",
+      "url": "https://www.audubon.org/news/hope-whimbrel-returns",
+      "quote": "For the next three weeks, she'll stay in Virginia eating fiddler crabs.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-whimbrel-fathers",
+     "text": "In Alaska bleiben die Väter noch bei den Jungen, wenn die Mütter schon fort sind.",
+     "source": {
+      "title": "University of Alaska Fairbanks, Alaska Science Forum: The Flight of the Kanuti whimbrel (2009)",
+      "url": "https://www.gi.alaska.edu/alaska-science-forum/flight-kanuti-whimbrel",
+      "quote": "The whimbrels had already bred and reared young in Kanuti, with the father birds lingering to help the fledglings after the mothers had moved on.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-whimbrel-split",
+     "text": "Erst seit 2019 gilt der Hudsonbrachvogel als eigene Art, getrennt vom Regenbrachvogel.",
+     "source": {
+      "title": "Wikipedia (en), Hudsonian whimbrel",
+      "url": "https://en.wikipedia.org/wiki/Hudsonian_whimbrel",
+      "quote": "This species and the Eurasian whimbrel were split in 2019 based on genetic and morphological differences and separate breeding ranges.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-whimbrel-hope-80000",
+     "text": "Von Sendern verfolgt, flog Hope über {80000 km|50000 mi}: viermal Kanada–Karibik und zurück.",
+     "source": {
+      "title": "Center for Conservation Biology (William & Mary), Hope, 2019",
+      "url": "https://ccbbirds.org/?p=30492",
+      "quote": "She was tracked for more than 50,000 miles (80,000 kilometers) back and forth four times between her breeding site on the Mackenzie River in far western Canada and her wintering site on Great Pond.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-whimbrel-seven-days",
+     "text": "Manche Hudsonbrachvögel aus Alaska fliegen über sieben Tage am Stück, ohne Landung.",
+     "source": {
+      "title": "All Hands Ecology, Diverse patterns of migratory behavior seen in Alaska-breeding Whimbrels (2021)",
+      "url": "https://www.allhandsecology.org/?p=4097",
+      "quote": "some making nonstop flights that exceeded 7 days across nearly 5,400 miles",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-whimbrel-bill-kink",
+     "text": "Der Schnabel des Hudsonbrachvogels hat einen Knick. Den längsten tragen die Weibchen.",
+     "source": {
+      "title": "Wikipedia (en), Hudsonian whimbrel",
+      "url": "https://en.wikipedia.org/wiki/Hudsonian_whimbrel",
+      "quote": "a long curved bill (longest in the adult female) with a kink rather than a smooth curve",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den-l-whimbrel-gert",
+     "text": "Im Tropensturm Gert kämpfte Hope 27 Stunden gegen den Wind, mit nur {14 km/h|9 mph}. Danach trieb Rückenwind Hope mit über {145 km/h|90 mph} voran.",
+     "source": {
+      "title": "Center for Conservation Biology (William & Mary), Whimbrel tracked into Tropical Storm Erika, 2015",
+      "url": "https://ccbbirds.org/?p=20246",
+      "quote": [
+       "A second dramatic encounter occurred when a whimbrel named Hope flew through Tropical Storm Gert in the North Atlantic.",
+       "This bird encountered high headwinds for 27 hours averaging only 9 miles per hour.",
+       "Once through the storm, flight speed increased to more than 90 miles per hour as the bird was pushed by significant tail winds and made it back to Cape Cod, Massachusetts."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-whimbrel-chinquapin",
+     "text": "Chinquapin wurde 2011 kurz zum Medienstar: Der Hudsonbrachvogel flog durch den schlimmsten Teil von Hurrikan Irene und kam heil heraus.",
+     "source": {
+      "title": "William & Mary News, There's always Hope (2013)",
+      "url": "https://wm.edu/news/stories/2013/hope-returns-to-virgin-islands123.php",
+      "quote": "One bird, Chinquapin, was a media star briefly in 2011 after successfully flying through the worst of Hurricane Irene.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-whimbrel-erika",
+     "text": "Upinraaq war schon drei Tage nonstop unterwegs, als der Tropensturm Erika kam. Der Hudsonbrachvogel flog mitten hindurch bis Suriname.",
+     "source": {
+      "title": "Center for Conservation Biology (William & Mary), Whimbrel tracked into Tropical Storm Erika, 2015",
+      "url": "https://ccbbirds.org/?p=20246",
+      "quote": "Amazingly, Upinraaq had been flying non-stop for more than 3 days and 2,700 miles (4,300 kilometers) when she successfully flew directly through the heart of the storm and continued on to the coast of Suriname.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-whimbrel-mid-atlantic",
+     "text": "Drei Hudsonbrachvögel flogen nonstop mitten über den Atlantik, zeitweise rund {1600 km|1000 mi} näher an Afrika als an Nordamerika.",
+     "source": {
+      "title": "Center for Conservation Biology (William & Mary), Whimbrels fly through the heart of the Atlantic, 2012",
+      "url": "https://ccbbirds.org/?p=2698",
+      "quote": "The route passed through the center of the vast Atlantic at one point passing 1,000 miles closer to Africa than to North America and within 700 miles of the Cape Verde Islands.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-whimbrel-great-pond",
+     "text": "Hope kehrte jeden Winter in dieselben Mangroven auf St. Croix zurück. Diese Treue des berühmten Vogels half, das Gebiet zu schützen.",
+     "source": {
+      "title": "Center for Conservation Biology (William & Mary), Hope, 2019",
+      "url": "https://ccbbirds.org/?p=30492",
+      "quote": [
+       "Her high fidelity to Great Pond was an important factor in preserving habitat around the site, demonstrating the value of a celebrity but also illustrating the great importance of local actions to larger conservation movements.",
+       "Photo of mangrove habitat within Hope's winter territory on St. Croix."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-whimbrel-box-tree",
+     "text": "In 60 Stunden flog Hope im Frühjahr {2600 km|1600 mi} von St. Croix nach Virginia und landete am selben Bach wie in den Jahren zuvor.",
+     "source": {
+      "title": "Audubon, Hope (the Whimbrel) Returns (2012)",
+      "url": "https://www.audubon.org/news/hope-whimbrel-returns",
+      "quote": [
+       "Then, on April 1st, Hope the whimbrel began her trip north, traveling 1,600 miles in 60 hours.",
+       "In the early morning hours of April 4th, she landed on the Eastern Shore of Virginia near Box Tree Creek, marking the third time that scientists have seen her there in the spring."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-whimbrel-refuel",
+     "text": "Vor dem Nonstopflug von Alaska nach Mexiko tankte ein Hudsonbrachvogel nur 15 Tage lang auf. Der Forscher hatte mit viel mehr gerechnet.",
+     "source": {
+      "title": "University of Alaska Fairbanks, Alaska Science Forum: The Flight of the Kanuti whimbrel (2009)",
+      "url": "https://www.gi.alaska.edu/alaska-science-forum/flight-kanuti-whimbrel",
+      "quote": [
+       "There, it spent 15 days, probably fattening up on berries and insects, and then set off for a nonstop flight to Baja.",
+       "I would have thought they would have required more time on the feeding ground"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Cygnus columbianus": {
+   "short": [
+    {
+     "id": "den-s-swan-lewis-name",
+     "text": "Meriwether Lewis gab dem amerikanischen Zwergschwan 1806 den Namen „Pfeifschwan“.",
+     "source": {
+      "title": "Missouri Department of Conservation, Field Guide: Tundra Swan",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/tundra-swan",
+      "quote": [
+       "The North American subspecies of tundra swan got the name of “whistling swan” when explorer Meriwether Lewis described the bird and what sounded to him like whistling calls.",
+       "On March 9, 1806, he wrote:"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-swan-columbia",
+     "text": "Der Name columbianus kommt vom Columbia River: Dort sahen Lewis und Clark die Art zuerst.",
+     "source": {
+      "title": "Missouri Department of Conservation, Field Guide: Tundra Swan",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/tundra-swan",
+      "quote": "The species name, columbianus , is in reference to the Columbia River in the Pacific Northwest, where Lewis and Clark first saw these birds",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-swan-bark",
+     "text": "Der Pfeifschwan pfeift gar nicht: Der Flugruf klingt eher wie ein hohes „wau-wau-wau“.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": [
+       "Contrary to its common name, the ground calls of the whistling swan are not a whistle",
+       "the whistling swan gives a markedly high-pitched trisyllabic bark like wow-wow-wow in flight."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-swan-fast-cygnets",
+     "text": "Zwergschwan-Küken fliegen nach 60 bis 75 Tagen, doppelt so früh wie junge Höckerschwäne.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "those of the whistling swan take about 60–75 days to fledge—twice as fast as those of the mute swan",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-swan-rusty",
+     "text": "In eisenhaltigen Moorseen färben sich Kopf und Hals der Zwergschwäne golden bis rostrot.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "In birds living in waters that contains large amounts of iron ions (e.g. bog lakes), the head and neck plumage acquires a golden or rusty hue.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-swan-most-common",
+     "text": "Der Pfeifschwan, der amerikanische Zwergschwan, ist der häufigste Schwan Nordamerikas.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "The whistling swan is the most common swan species of North America",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-swan-oldest",
+     "text": "Der älteste bekannte Zwergschwan wurde über 24 Jahre alt.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "The oldest recorded tundra swan was over 24 years old.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-swan-potatoes",
+     "text": "Im Winter suchen Zwergschwäne auf abgeernteten Äckern nach liegen gebliebenen Kartoffeln.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "At other times of year, leftover grains and other crops such as potatoes , picked up in open fields after harvest, make up much of their diet.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-swan-family-trip",
+     "text": "Junge Zwergschwäne fliegen mit den Eltern ins Winterquartier und im Frühjahr mit zurück.",
+     "source": {
+      "title": "Wikipedia (de), Zwergschwan",
+      "url": "https://de.wikipedia.org/wiki/Zwergschwan",
+      "quote": "bleiben dann aber noch den ganzen Winter über und während des Rückfluges ins Brutgebiet mit den Eltern zusammen.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-swan-bewick-name",
+     "text": "Die europäische Form, der Bewick-Schwan, trägt den Namen des Kupferstechers Thomas Bewick.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "Bewick's swan was named in 1830 by William Yarrell after the engraver Thomas Bewick , who specialised in illustrations of birds and animals.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-swan-asteroid",
+     "text": "Ein Asteroid trägt den Namen des Zwergschwans: (8434) Columbianus.",
+     "source": {
+      "title": "Wikipedia (de), Zwergschwan",
+      "url": "https://de.wikipedia.org/wiki/Zwergschwan",
+      "quote": "Asteroid (8434) Columbianus des äußeren Hauptgürtels ist nach dem Zwergschwan benannt",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den-l-swan-lewis-note",
+     "text": "Der Ruf lasse sich mit Buchstaben nicht nachahmen, schrieb Lewis 1806: erst ein Pfeifen, dann ein runder, voller Ton.",
+     "source": {
+      "title": "Missouri Department of Conservation, Field Guide: Tundra Swan",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/tundra-swan",
+      "quote": [
+       "On March 9, 1806, he wrote:",
+       "cannot be justly imitated by the sound of letters, nor do I know any sounds with which a comparison would be pertinent.",
+       "It begins with a kind of whistling sound and terminates in a round full note."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-swan-widowed",
+     "text": "Zwergschwäne bleiben ein Leben lang zusammen. Stirbt ein Partner früh, bleibt der andere oft jahrelang allein, manchmal für immer.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": [
+       "they pair monogamously until one partner dies.",
+       "Should one partner die long before the other, the surviving bird often will not mate again for some years, or even for its entire life."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-swan-bears",
+     "text": "Naht ein Braunbär, führen Zwergschwäne die Küken ins tiefe Wasser und verharren dort reglos, bis die Gefahr vorüber ist.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": [
+       "Another surprisingly serious nest predator for tundra swans are brown bears",
+       "larger mammals, perhaps more dangerous to adults, usually elicit the response of leading the cygnets into deep waters and standing still until they pass."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-swan-siblings",
+     "text": "Zwergschwan-Familien halten lange zusammen: Im Winterquartier stoßen manchmal sogar ältere Geschwister aus früheren Jahren wieder dazu.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "The family is sometimes even joined by their offspring from previous breeding seasons while on the wintering grounds",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-swan-bewick-bills",
+     "text": "Bei der europäischen Form, dem Bewick-Schwan, ist jedes Schnabelmuster einzigartig. Forscher zeichnen es ab und geben den Schwänen Namen.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "The bill pattern for every individual Bewick's swan is unique, and scientists often make detailed drawings of each bill and assign names to the swans to assist with studying these birds.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-swan-abundant",
+     "text": "Lewis und Clark trafen die Schwäne am Columbia River, nahe den Wasco-Wishram: sehr zahlreich und den ganzen Winter über.",
+     "source": {
+      "title": "Missouri Department of Conservation, Field Guide: Tundra Swan",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/tundra-swan",
+      "quote": [
+       "below the great narrows [The Dalles] of the Columbia near the Chilluckkittequaw [Wasco-Wishram] nation.",
+       "They are very abundant in this neighborhood and have remained with us all winter."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-swan-yellow-spot",
+     "text": "Den amerikanischen Zwergschwan verrät ein kleiner gelber Fleck vor dem Auge. Dem Trompeterschwan fehlt er, der Bewick-Schwan hat mehr Gelb.",
+     "source": {
+      "title": "Wikipedia (de), Zwergschwan",
+      "url": "https://de.wikipedia.org/wiki/Zwergschwan",
+      "quote": [
+       "Er unterscheidet sich vom Trompeterschwan ( Cygnus buccinator ) durch die geringere Körpergröße und einen kleinen gelben Fleck an der Schnabelbasis vor dem Auge.",
+       "Die im Winter regelmäßig in Mitteleuropa erscheinende Unterart Cygnus columbianus bewickii ist etwas größer und schwerer als die Nominatform und weist eine, individuell unterschiedliche, aber immer deutliche, Gelbfärbung an der Schnabelbasis auf, die meist etwa ein Drittel des Schnabels bedeckt."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Balaena mysticetus": {
+   "short": [
+    {
+     "id": "den-s-bowhead-head",
+     "text": "Der Kopf eines Grönlandwals macht fast ein Drittel der gesamten Körperlänge aus.",
+     "source": {
+      "title": "Wikipedia (de), Grönlandwal",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+      "quote": "Der Kopf ist im Verhältnis zum Körper sehr groß, fast ein Drittel der Gesamtlänge wird vom Kopf eingenommen",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-bowhead-ice",
+     "text": "Mit dem Kopf durchbrechen Grönlandwale bis zu {60 cm|24 in} dickes Eis.",
+     "source": {
+      "title": "Wikipedia (de), Grönlandwal",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+      "quote": "und ermöglicht ein Durchbrechen von bis zu 60 Zentimeter dicken Eisschichten.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-bowhead-blowholes",
+     "text": "Grönlandwale haben zwei Blaslöcher und blasen zwei Fontänen über {4 m|13 ft} hoch.",
+     "source": {
+      "title": "Wikipedia (de), Grönlandwal",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+      "quote": "Der Wal besitzt zwei Blaslöcher, aus denen er zwei Fontänen über vier Meter weit in die Luft blasen kann.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-bowhead-blubber",
+     "text": "Gegen die Kälte schützt den Grönlandwal eine bis zu {28 cm|11 in} dicke Speckschicht.",
+     "source": {
+      "title": "Wikipedia (de), Grönlandwal",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+      "quote": [
+       "Der Grönlandwal hat eine bis zu 28 Zentimeter",
+       "dicke Fettschicht , die ihn vor der eisigen Kälte schützt."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-bowhead-mouth",
+     "text": "Kein anderes Lebewesen hat ein so großes Maul wie der Grönlandwal.",
+     "source": {
+      "title": "SRF Wissen, Musikalischer Grönlandwal: Die Jazzer unter den Walen (2018)",
+      "url": "https://www.srf.ch/wissen/natur-tiere/musikalischer-groenlandwal-die-jazzer-unter-den-walen",
+      "quote": "Sie können bis zu 200 Jahre alt werden und besitzen das grösste Maul aller Lebewesen.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-bowhead-baleen",
+     "text": "Die Barten eines Grönlandwals werden bis zu {4 m|13 ft} lang, manche sogar {5.2 m|17 ft}.",
+     "source": {
+      "title": "Wikipedia (de), Grönlandwal",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+      "quote": "Diese Bartenplatten sind dunkelgrau bis bräunlich-schwarz und normalerweise bis zu 4 Meter lang, können aber eine Maximallänge von 5,2 Metern erreichen.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-bowhead-first-protected",
+     "text": "1931 stellte der Völkerbund den Grönlandwal als weltweit erste Wildtierart unter Schutz.",
+     "source": {
+      "title": "Wikipedia (de), Grönlandwal",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+      "quote": "Im Jahr 1931 wurde der Grönlandwal als weltweit erste Wildtierart überhaupt vom Völkerbund unter Schutz gestellt.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-bowhead-v-formation",
+     "text": "Auf Wanderung schwimmen Grönlandwale in Gruppen von bis zu 14 Tieren in V-Formation.",
+     "source": {
+      "title": "Wikipedia (de), Grönlandwal",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+      "quote": "Während der Wanderungen im Frühling und Herbst bilden Grönlandwale Gruppen von bis zu 14 Tieren, die in einer v-förmigen Formation schwimmen.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-bowhead-nightingales",
+     "text": "Forscher nennen Grönlandwale „Nachtigallen der Meere“: Jedes Jahr gibt es neue Lieder.",
+     "source": {
+      "title": "wissenschaft.de (Bild der Wissenschaft), Nachtigallen der Meere (2009)",
+      "url": "https://wissenschaft.de/artikel/nachtigallen-der-meere",
+      "quote": [
+       "Das Team um Outi Tervo fand heraus, dass die Meeressäuger während der Paarungszeit mehrstimmig singen und ihr Repertoire jedes Jahr ändern.",
+       "Die Forscher gaben den Walen wegen ihrer Gesangskünste den Spitznamen „ Nachtigallen der Meere”"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-bowhead-dive",
+     "text": "Ein Grönlandwal kann bis zu einer Stunde lang unter Wasser bleiben.",
+     "source": {
+      "title": "Wikipedia (de), Grönlandwal",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+      "quote": "allerdings kann der Grönlandwal auch bis zu einer Stunde lang abtauchen.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-bowhead-late-bloomers",
+     "text": "Grönlandwale lassen sich Zeit: Geschlechtsreif wird die Art erst mit 18 bis 31 Jahren.",
+     "source": {
+      "title": "Wikipedia (de), Grönlandwal",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+      "quote": "Sowohl Weibchen als auch Männchen erreichen im Alter von 18 bis 31 Jahren die Geschlechtsreife.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-bowhead-weight",
+     "text": "Ein Grönlandwal wiegt rund tausendmal so viel wie ein Mensch.",
+     "source": {
+      "title": "Nordkurier (dpa), 200 Jahre alt und selten Krebs (2025)",
+      "url": "https://www.nordkurier.de/panorama/vorbild-fuer-den-mensch-200-jahre-alt-und-selten-krebs-warum-diese-tiere-so-lange-leben-4070531",
+      "quote": "Sie wiegen rund tausendmal so viel wie wir Menschen und leben oft mehr als doppelt so lange",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den-l-bowhead-harpoons",
+     "text": "Alte Harpunenspitzen im Körper verrieten: Grönlandwale werden weit über 100 Jahre alt. Einen Wal schätzte man sogar auf 211 Jahre.",
+     "source": {
+      "title": "Wikipedia (de), Grönlandwal",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+      "quote": [
+       "Anhand alter Harpunenspitzen im Körper erlegter Wale konnte man feststellen, dass Grönlandwale weit älter als 100 Jahre werden können.",
+       "Mittels molekularbiologischer Untersuchungen wurde das Alter eines Individuums auf 211 Jahre bestimmt."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-bowhead-calf-tongue",
+     "text": "Ein Grönlandwalkalb kommt mit {4-4.5 m|13-15 ft} Länge und {900 kg|2000 lb} zur Welt. Fast so viel wiegt allein die Zunge eines erwachsenen Wals.",
+     "source": {
+      "title": "Wikipedia (de), Grönlandwal",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+      "quote": [
+       "4 bis 4,5 Meter lang (Maximallänge 5,2 Meter) und wiegen 900 Kilogramm.",
+       "Allein die Zunge kann ein Gewicht von fast 900 Kilogramm erreichen."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-bowhead-jazz",
+     "text": "„Jazzer unter den Walen“: Vor Ostgrönland sangen Grönlandwale in drei Wintern über 180 Lieder, die meisten nur Stunden oder Tage lang.",
+     "source": {
+      "title": "SRF Wissen, Musikalischer Grönlandwal: Die Jazzer unter den Walen (2018)",
+      "url": "https://www.srf.ch/wissen/natur-tiere/musikalischer-groenlandwal-die-jazzer-unter-den-walen",
+      "quote": [
+       "Mehr als 180 verschiedene Gesänge konnte ihr Team während drei Wintern aufzeichnen.",
+       "Die meisten davon sangen die Wale nur während einiger Stunden oder Tage, dann variierten die Tiere die Klänge bereits wieder.",
+       "Variiert seine Gesänge so oft, dass Forscher ihn als den Jazzer unter den Walen bezeichnen: der Grönlandwal."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-bowhead-rock-rubbing",
+     "text": "Im Spätsommer häuten sich Grönlandwale im Cumberland Sound in Kanada und scheuern sich an Felsen im flachen Wasser, wie beim Peeling.",
+     "source": {
+      "title": "Fortune et al. 2017, PLOS ONE: Evidence of molting and the function of rock-nosing behavior in bowhead whales",
+      "url": "https://doi.org/10.1371/journal.pone.0186156",
+      "quote": [
+       "We opportunistically observed whales in Cumberland Sound, Nunavut, Canada with skin irregularities consistent with molting during August 2014",
+       "The video images captured bowhead whales rubbing on large rocks in shallow, coastal areas-likely to facilitate molting."
+      ],
+      "checked": "2026-11-21",
+      "europepmc": "DOI:10.1371/journal.pone.0186156"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-bowhead-bone-fences",
+     "text": "Auf Borkum stehen bis heute Zäune aus Kieferknochen von Grönlandwalen. Auf den baumlosen Inseln war Walknochen einst das beste Baumaterial.",
+     "source": {
+      "title": "Wikipedia (de), Grönlandwal",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+      "quote": [
+       "In der Regel handelte es sich um Knochen aus der Kinnlade des meist bejagten Grönlandwals.",
+       "Bis heute erhalten sind davon zwei Zäune auf Borkum",
+       "vielmehr war dies auf den einstmals ganz unbewaldeten Inseln schlicht das am besten verfügbare Baumaterial."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-bowhead-dna-repair",
+     "text": "Die Zellen von Grönlandwalen reparieren Schäden am Erbgut besonders gründlich. Das erklärt wohl, warum die Riesen so selten Krebs bekommen.",
+     "source": {
+      "title": "Nordkurier (dpa), 200 Jahre alt und selten Krebs (2025)",
+      "url": "https://www.nordkurier.de/panorama/vorbild-fuer-den-mensch-200-jahre-alt-und-selten-krebs-warum-diese-tiere-so-lange-leben-4070531",
+      "quote": [
+       "Mehr als 200 Jahre Lebenserwartung und selten Krebs: Forscher haben entschlüsselt, wie Grönlandwale ihre DNA schützen.",
+       "Dies erklären die Forschenden damit, dass die Wale ihre DNA besonders erfolgreich reparieren."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-bowhead-common-whale",
+     "text": "Früher waren Grönlandwale so häufig, dass britische Walfänger vom „Common Whale“ sprachen. Auf Deutsch hieß die Art „Gemeiner Walfisch“.",
+     "source": {
+      "title": "Wikipedia (de), Grönlandwal",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+      "quote": [
+       "Der Grönlandwal war früher so häufig, dass er von den britischen Walfängern als Common Whale („Gewöhnlicher Wal“) bezeichnet wurde.",
+       "Im Deutschen wurde er seinerzeit häufig als Gemeiner Walfisch beschrieben"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Aquila chrysaetos": {
+   "short": [
+    {
+     "id": "den-s-eagle-eyes",
+     "text": "Echte Adleraugen: Ein Steinadler erspäht Beute noch aus {1 km|0.6 mi} Entfernung.",
+     "source": {
+      "title": "NABU, Vogelporträt Steinadler",
+      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/steinadler/",
+      "quote": "Er hat wirklich Adleraugen, denn seine Beute kann er aus bis zu einem Kilometer Entfernung erkennen.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-eagle-one-in-seven",
+     "text": "Nur etwa jeder siebte Überraschungsangriff eines Steinadlers führt zum Erfolg.",
+     "source": {
+      "title": "NABU, Vogelporträt Steinadler",
+      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/steinadler/",
+      "quote": "Wenn er seine Beute erspäht hat, unternimmt er einen Überraschungsangriff, von denen etwa jeder siebte erfolgreich ist.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-eagle-coat-of-arms",
+     "text": "Der Steinadler ist das Wappentier vieler Staaten, auch der Bundesrepublik Deutschland.",
+     "source": {
+      "title": "Bayerisches Landesamt für Umwelt, Artenhilfsprogramm Steinadler",
+      "url": "https://www.lfu.bayern.de/natur/artenhilfsprogramme_voegel/steinadler/index.htm",
+      "quote": "wurde er von vielen Staaten als Wappentier auserkoren - so auch von der Bundesrepublik Deutschland.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-eagle-stoop",
+     "text": "Im Sturzflug erreicht ein Steinadler {240-320 km/h|150-200 mph}.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "When diving after prey, a golden eagle can reach 240 to 320 kilometres per hour (150 to 200 mph)",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-eagle-big-nests",
+     "text": "Über die Jahre wachsen Steinadlerhorste auf mehr als {2 m|6.6 ft} Höhe und Breite.",
+     "source": {
+      "title": "Wikipedia (de), Steinadler",
+      "url": "https://de.wikipedia.org/wiki/Steinadler",
+      "quote": "so dass über Jahre hinweg mächtige, nicht selten mehr als zwei Meter in Höhe und Breite messende Horste entstehen.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-eagle-downhill",
+     "text": "Im Gebirge liegt der Horst meist unter dem Jagdgebiet: Bergab trägt sich Beute leichter.",
+     "source": {
+      "title": "Wikipedia (de), Steinadler",
+      "url": "https://de.wikipedia.org/wiki/Steinadler",
+      "quote": "Im Gebirge liegen die Horstplätze meist unterhalb der Jagdgebiete, da der Transport der Beute nach unten einfacher ist als nach oben.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-eagle-v-wings",
+     "text": "Als einziger Echter Adler hebt der Steinadler beim Segeln die Flügel leicht zum V an.",
+     "source": {
+      "title": "Wikipedia (de), Steinadler",
+      "url": "https://de.wikipedia.org/wiki/Steinadler",
+      "quote": "Im Gegensatz zu allen anderen Vertretern der Gattung hebt der Steinadler seine Flügel im Segelflug leicht an, so dass ein leicht V-förmiges Flugbild zustande kommt.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-eagle-tortoises",
+     "text": "Im Süden lassen Steinadler Landschildkröten auf Felsen fallen, um den Panzer zu knacken.",
+     "source": {
+      "title": "Wikipedia (de), Steinadler",
+      "url": "https://de.wikipedia.org/wiki/Steinadler",
+      "quote": "dort lassen Steinadler ähnlich wie Bartgeier auch Landschildkröten auf Felsen fallen, um so deren harten Panzer zu zerbrechen.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-eagle-age",
+     "text": "Ein beringter Steinadler in Schweden wurde 32 Jahre alt.",
+     "source": {
+      "title": "Wikipedia (de), Steinadler",
+      "url": "https://de.wikipedia.org/wiki/Steinadler",
+      "quote": "Die durch Vogelberingung nachgewiesenen Maximalwerte waren 26 Jahre (Schweiz) und 32 Jahre (Schweden).",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-eagle-juvenile",
+     "text": "Junge Steinadler haben weiße Flügelflecken, ausgefärbt sind die Vögel erst mit 5 bis 7.",
+     "source": {
+      "title": "Wikipedia (de), Steinadler",
+      "url": "https://de.wikipedia.org/wiki/Steinadler",
+      "quote": [
+       "Steinadler im ersten Lebensjahr sind insgesamt dunkler braun und haben auffallende, weiße Federpartien",
+       "Steinadler sind erst ab dem 5. bis 7. Lebensjahr voll ausgefärbt."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-eagle-females",
+     "text": "Steinadler-Weibchen sind größer als die Männchen und erreichen bis zu {230 cm|7.5 ft} Spannweite.",
+     "source": {
+      "title": "Wikipedia (de), Steinadler",
+      "url": "https://de.wikipedia.org/wiki/Steinadler",
+      "quote": "Die Flügelspannweite variiert zwischen 190 und 210 cm beim Männchen und zwischen 200 und 230 cm beim Weibchen.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-eagle-spare-nests",
+     "text": "Steinadler-Paare bleiben meist ein Leben lang zusammen und haben oft mehrere Horste.",
+     "source": {
+      "title": "Wikipedia (de), Steinadler",
+      "url": "https://de.wikipedia.org/wiki/Steinadler",
+      "quote": [
+       "Brutpaare führen, soweit bekannt, eine monogame Dauerehe.",
+       "meist hat ein Paar mehrere sogenannte Wechselhorste."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den-l-eagle-goldadler",
+     "text": "Bis etwa 1900 hieß der ausgewachsene Steinadler auch Goldadler. Die anders gefärbten Jungvögel hielt man für eine eigene Art.",
+     "source": {
+      "title": "Wikipedia (de), Steinadler",
+      "url": "https://de.wikipedia.org/wiki/Steinadler",
+      "quote": [
+       "Auf Grund der unterschiedlichen Färbung war bis ca. 1900 auch die Bezeichnung Goldadler",
+       "Jungtiere wurden für eine andere Art gehalten."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-eagle-raven",
+     "text": "Steinadler sind erstaunlich wendig: Mehrfach drehte sich ein Adler im Flug auf den Rücken und packte so einen verfolgenden Kolkraben.",
+     "source": {
+      "title": "Wikipedia (de), Steinadler",
+      "url": "https://de.wikipedia.org/wiki/Steinadler",
+      "quote": "so wurde mehrfach beobachtet, wie sich ein Steinadler im Flug auf den Rücken drehte und so zum Beispiel einen verfolgenden Kolkraben erbeutete.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-eagle-carry",
+     "text": "Was schwerer ist als der Adler selbst, kann ein Steinadler nicht davontragen. Große Beute wird zerteilt, versteckt oder tagelang angeflogen.",
+     "source": {
+      "title": "Wikipedia (de), Steinadler",
+      "url": "https://de.wikipedia.org/wiki/Steinadler",
+      "quote": [
+       "Steinadler können keine Kadaver im Flug tragen, deren Gewicht das eigene Körpergewicht übertrifft.",
+       "Schwere Beutetiere zerteilen sie daher und deponieren portionsweise, oder sie fliegen den Kadaver über mehrere Tage an."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-eagle-lowlands",
+     "text": "In Schwarzwald und Eifel brüteten Steinadler zuletzt 1816, in Pommern 1887. Seitdem gibt es in Deutschland Steinadler nur in den Alpen.",
+     "source": {
+      "title": "Wikipedia (de), Steinadler",
+      "url": "https://de.wikipedia.org/wiki/Steinadler",
+      "quote": [
+       "Letzte Bruten wurden für 1816 aus dem Schwarzwald und der Eifel",
+       "1887 in Pommern verzeichnet",
+       "Danach gab es in Deutschland nur noch in den Bayerischen Alpen Steinadler."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-eagle-repository",
+     "text": "Tot gefundene Steinadler sammelt in den USA das National Eagle Repository und gibt die Vögel für Religion und Kultur an Native Americans.",
+     "source": {
+      "title": "Wikipedia (de), Steinadler",
+      "url": "https://de.wikipedia.org/wiki/Steinadler",
+      "quote": "Das National Eagle Repository stellt Genehmigungen aus und vergibt tot aufgefundene Tiere an die Nachfahren nordamerikanischer Indianer zu religiösen und kulturellen Zwecken.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-eagle-chamois-kids",
+     "text": "Bayerische Steinadler fressen vor allem junge Gämsen, dann Birkhuhn, Schneehase und Fuchs. In den Zentralalpen sind es Murmeltiere.",
+     "source": {
+      "title": "Bayerisches Landesamt für Umwelt, Artenhilfsprogramm Steinadler: Ergebnisse",
+      "url": "https://www.lfu.bayern.de/natur/artenhilfsprogramme_voegel/steinadler/ergebnisse/index.htm",
+      "quote": "Entgegen einiger Ergebnisse aus dem zentralalpinen Raum, wo sich Steinadler hauptsächlich von Murmeltieren ernähren, fressen bayerische Steinadler hauptsächlich Gamskitze, gefolgt von Birkhuhn, Schneehase und Fuchs.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-eagle-chamois-escape",
+     "text": "Greift ein Steinadler eine Gämse an, springt die Gämse hangabwärts und überschlägt sich im Rollen. Das ist für beide gefährlich.",
+     "source": {
+      "title": "Wikipedia (de), Steinadler",
+      "url": "https://de.wikipedia.org/wiki/Steinadler",
+      "quote": "Die Verteidigungsstrategie der Gämsen besteht darin, hangabwärts zu springen und sich überschlagend zu rollen, was eine erhebliche Verletzungsgefahr für beide bedeutet.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Tringa flavipes": {
+   "short": [
+    {
+     "id": "den-s-yellowlegs-yellow-foot",
+     "text": "Der wissenschaftliche Name flavipes bedeutet schlicht „Gelbfuß“.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": "The specific epithet flavipes combines the Latin flavus meaning \"yellow\" with pes meaning \"foot\".",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-yellowlegs-high-steps",
+     "text": "Bei der Futtersuche zieht der Gelbschenkel die Beine hoch und pickt blitzschnell zu.",
+     "source": {
+      "title": "Wikipedia (de), Gelbschenkel",
+      "url": "https://de.wikipedia.org/wiki/Gelbschenkel",
+      "quote": "Auffällig ist die Bewegungsweise während der Nahrungssuche, da die Vögel die Beine sehr hoch anziehen und mit schnellen Bewegungen nach Beute picken.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-yellowlegs-weight",
+     "text": "Ein Gelbschenkel wiegt nur {60-100 g|2-3.5 oz}, kaum mehr als eine Tafel Schokolade.",
+     "source": {
+      "title": "Wikipedia (de), Gelbschenkel",
+      "url": "https://de.wikipedia.org/wiki/Gelbschenkel",
+      "quote": "Das Gewicht variiert zwischen 60 und 100 Gramm.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-yellowlegs-father",
+     "text": "Oft zieht die Mutter fort, bevor die Küken fliegen. Dann wacht der Vater allein.",
+     "source": {
+      "title": "Tennessee Wildlife Resources Agency, Lesser Yellowlegs",
+      "url": "https://www.tn.gov/twra/wildlife/birds/waterbirds/lesser-yellowlegs.html",
+      "quote": "Both the male and female Lesser Yellowlegs provide parental care to the young, but the female tends to leave the breeding area before the chicks can fly, thus leaving the male to defend the young until fledging.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-yellowlegs-willet",
+     "text": "Der Gelbschenkel ähnelt dem Großen Gelbschenkel, steht aber dem Schlammtreter näher.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": [
+       "This species is similar in appearance to the larger greater yellowlegs",
+       "although it is more closely related to the much larger willet"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-yellowlegs-chicks",
+     "text": "Gelbschenkel-Küken verlassen das Nest Stunden nach dem Schlüpfen und suchen selbst Futter.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": [
+       "Both parents brood and care for the precocial young, which leave the nest a few hours after hatching.",
+       "They can feed themselves upon departure from the nest."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-yellowlegs-sitting-tight",
+     "text": "Brütende Gelbschenkel weichen erst, wenn ein Feind weniger als {1 m|3 ft} entfernt ist.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": "Nesting lesser yellowlegs are very reluctant to leave their nests, only leaving when a predator is less than 1 metre away",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-yellowlegs-britain",
+     "text": "Gelbschenkel verirren sich bis nach Europa: Nach Großbritannien kommen jährlich etwa fünf.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": "This species is a regular vagrant to western Europe and elsewhere; in Great Britain about five birds arrive each year, mostly between August and October",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-yellowlegs-tu-tu",
+     "text": "Der Gelbschenkel pfeift meist zweimal „tü-tü“, der Große Gelbschenkel drei- oder viermal.",
+     "source": {
+      "title": "Tennessee Wildlife Resources Agency, Lesser Yellowlegs",
+      "url": "https://www.tn.gov/twra/wildlife/birds/waterbirds/lesser-yellowlegs.html",
+      "quote": "Voice is the best distinguishing character: Greater gives three or four piercing notes, Lesser two rapid, softer, short whistles (sometimes or three).",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-yellowlegs-aristotle",
+     "text": "Den Gattungsnamen Tringa lieh Aristoteles einem Watvogel, der mit dem Schwanz wippt.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": "based on Ancient Greek trungas , a thrush-sized, white-rumped, tail-bobbing wading bird mentioned by Aristotle",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den-l-yellowlegs-gmelin",
+     "text": "1789 beschrieb der deutsche Naturforscher Johann Friedrich Gmelin den Gelbschenkel, nach Berichten zweier Briten über Vögel aus New York.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": [
+       "The lesser yellowlegs was formally described in 1789 by the German naturalist Johann Friedrich Gmelin",
+       "Gmelin based his description on the \"yellow shanks\" seen in the province of New York in autumn that had been described in 1785 by both the English ornithologist John Latham and the Welsh naturalist Thomas Pennant"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-yellowlegs-tattler",
+     "text": "Ein alter US-Name des Gelbschenkels lautet „Lesser Tattler“, kleine Petze. Zu Recht: Bei Gefahr gellt ein lauter Warnruf, etwa „kliet“.",
+     "source": {
+      "title": "Tennessee Wildlife Resources Agency, Lesser Yellowlegs",
+      "url": "https://www.tn.gov/twra/wildlife/birds/waterbirds/lesser-yellowlegs.html",
+      "quote": [
+       "Obsolete English Names: lesser tattler, summer yellowlegs, yellowshank, yellowshank tattler",
+       "Also commonly gives an alarm call of kleet"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-yellowlegs-dead-trees",
+     "text": "Im Revier singt das Männchen im Auf-und-ab-Flug, weithin hörbar. Kommen Menschen zu nahe, rufen Gelbschenkel von der Spitze toter Bäume.",
+     "source": {
+      "title": "Audubon Field Guide, Lesser Yellowlegs",
+      "url": "https://www.audubon.org/field-guide/bird/lesser-yellowlegs",
+      "quote": [
+       "On the breeding territory, male performs a rising and falling display flight, while giving a ringing song that can be heard from some distance.",
+       "Adults may perch on top of dead trees and call, especially when humans intrude on territory."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-yellowlegs-guarding",
+     "text": "Ein Gelbschenkel-Männchen bewacht die Partnerin energisch. Ornithologen deuten das so: Seitensprünge kommen bei der Art wohl regelmäßig vor.",
+     "source": {
+      "title": "Wikipedia (de), Gelbschenkel",
+      "url": "https://de.wikipedia.org/wiki/Gelbschenkel",
+      "quote": "Sobald die Paarbindung etabliert ist, verteidigt das Männchen sein Weibchen energisch, was von Ornithologen so interpretiert wird, dass Kopulationen außerhalb der Paarbeziehung regelmäßig vorkommen.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-yellowlegs-atlantic",
+     "text": "Gelbschenkel aus Ostkanada fliegen mehrere Tage nonstop über den Atlantik nach Südamerika, mehr als {4000 km|2500 mi} weit.",
+     "source": {
+      "title": "McDuffie et al. 2022, Ecology and Evolution: Flyway-scale GPS tracking reveals migratory routes of lesser yellowlegs",
+      "url": "https://doi.org/10.1002/ece3.9495",
+      "quote": "transoceanic flights covering distances of >4000 km across the Atlantic between North and South America",
+      "checked": "2026-11-21",
+      "europepmc": "DOI:10.1002/ece3.9495"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-yellowlegs-burns",
+     "text": "Gelbschenkel brüten gern auf großen Lichtungen im Nordwald, etwa alten Brandflächen. Die Mulde liegt oft neben einem verkohlten Stumpf.",
+     "source": {
+      "title": "Audubon Field Guide, Lesser Yellowlegs",
+      "url": "https://www.audubon.org/field-guide/bird/lesser-yellowlegs",
+      "quote": [
+       "Breeds in large clearings, such as burned areas, near ponds in northern forest.",
+       "may be placed close to log, burned stump, brushpile."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-yellowlegs-mobbing",
+     "text": "Bedroht ein Räuber Nest oder Küken, tun sich Gelbschenkel zusammen: Die Vögel stoßen auf den Feind herab oder locken ihn fort.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": [
+       "Lesser yellowlegs, when defending their nests and young from predators, will show aggression and fight with invaders, including joining together to fight predators.",
+       "They may swoop down to attack the predator or use distraction strategies to lure it away."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Mycteria americana": {
+   "short": [
+    {
+     "id": "den-s-waldstorch-reflex",
+     "text": "Rekord unter Wirbeltieren: Der Schnabel des Waldstorchs schnappt in 25 Millisekunden zu.",
+     "source": {
+      "title": "National Park Service, Everglades National Park: Wood Stork",
+      "url": "https://www.nps.gov/ever/learn/nature/woodstork.htm",
+      "quote": "Its bill snaps shut with a 25-millisecond reflex action -- the fastest known for vertebrates -- whenever it touches prey.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-waldstorch-nimmersatt",
+     "text": "Der Waldstorch gehört zu einer Storchengattung mit passendem deutschem Namen: Nimmersatte.",
+     "source": {
+      "title": "Wikipedia, Nimmersatte",
+      "url": "https://de.wikipedia.org/wiki/Nimmersatte",
+      "quote": "Nimmersatte ( Mycteria ) bilden eine Gattung innerhalb der Familie der Störche (Ciconiidae), zu der vier Arten zählen, die in Amerika, Afrika und Asien vorkommen.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-waldstorch-usa",
+     "text": "Der Waldstorch ist der einzige Storch, der in Nordamerika brütet.",
+     "source": {
+      "title": "Wikipedia, Waldstorch",
+      "url": "https://de.wikipedia.org/wiki/Waldstorch",
+      "quote": "Es ist damit der einzige Storch, der in Nordamerika brütet.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-waldstorch-flinthead",
+     "text": "Wegen des kahlen Kopfes heißt der Waldstorch in den USA auch „Flinthead“ oder „Ironhead“.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "Its regional names include \"flinthead\", \"stonehead\", \"ironhead\", \"gourdhead\", and \"preacher\".",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-waldstorch-glatze",
+     "text": "Junge Waldstörche haben noch Federn am Kopf. Die Glatze bekommen sie erst später.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "When fledged, they resemble the adult, differing only in that they have a feathered head and a yellow bill.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-waldstorch-stumm",
+     "text": "Erwachsene Waldstörche sind fast stumm. Sie zischen nur und klappern mit dem Schnabel.",
+     "source": {
+      "title": "Audubon Field Guide, Wood Stork",
+      "url": "https://www.audubon.org/field-guide/bird/wood-stork",
+      "quote": "Young Wood Storks have noisy begging calls, but adults are almost silent except for hissing and bill clappering.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-waldstorch-beine",
+     "text": "Bei Hitze koten Waldstörche gezielt auf die eigenen Beine, abwechselnd links und rechts.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": [
+       "When weather is hot, though, the adult takes a different position, quickly moving its tail downward and forward while twisting its body around to aim at a leg that is bent backward (this is called urohidrosis ).",
+       "Which leg is aimed at is alternated."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-waldstorch-schirm",
+     "text": "Brennt die Sonne, spannen Waldstorch-Eltern ihre Flügel als Schirm über die Küken.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "In hot weather, breeding adults will also shade their chicks with their wings.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-waldstorch-kueken",
+     "text": "Bis zum Ausfliegen verputzt ein Waldstorch-Küken rund {16.5 kg|36 lb} Fisch.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "Overall, a chick eats about 16.5 kilograms (36 lb) before it fledges.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-waldstorch-linne",
+     "text": "Linné beschrieb den Waldstorch 1758 gleich zweimal, als zwei verschiedene Arten.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "Linnaeus originally named two separate species, M. americana and Tantalus loculator , based on different and slightly erroneous accounts, in his book Systema Naturae .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-waldstorch-sielmann",
+     "text": "Der Tierfilmer Heinz Sielmann filmte 1978 Waldstörche bei der Nahrungssuche.",
+     "source": {
+      "title": "Wikipedia, Waldstorch",
+      "url": "https://de.wikipedia.org/wiki/Waldstorch",
+      "quote": "Video: Heinz Sielmann: Mycteria americana (Ciconiidae) - Nahrungssuche . Institut für den Wissenschaftlichen Film (IWF) 1978",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den-l-waldstorch-tasten",
+     "text": "Waldstörche fischen blind: Mit offenem Schnabel tasten sie im trüben Wasser hin und her. Sehen müssen sie die Fische dafür nicht.",
+     "source": {
+      "title": "National Park Service, Everglades National Park: Wood Stork",
+      "url": "https://www.nps.gov/ever/learn/nature/woodstork.htm",
+      "quote": [
+       "A stork locates food -- mostly small, freshwater fish -- not by sight but by tactolocation, or groping with its bill in shallow water.",
+       "The stork sweeps its submerged bill from side to side as it walks slowly forward."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-waldstorch-fisch",
+     "text": "Ein Waldstorch-Paar braucht pro Brutsaison rund {200 kg|440 lb} Fisch. Gibt es zu wenig, brüten die Eltern gar nicht erst.",
+     "source": {
+      "title": "National Park Service, Everglades National Park: Wood Stork",
+      "url": "https://www.nps.gov/ever/learn/nature/woodstork.htm",
+      "quote": [
+       "Each breeding pair of these large birds requires about 440 pounds (200 kg) of fish per breeding season.",
+       "When the natural hydrologic cycle is upset by human-controlled water-management activities, Wood Storks fail to feed and nest successfully because a breeding pair of Wood Storks will not attempt to nest if sufficient food is not available."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-waldstorch-trocken",
+     "text": "Waldstörche brüten, wenn das Wasser sinkt: Dann drängen sich die Fische in den letzten Tümpeln, und der Tisch für die Küken ist gedeckt.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": [
+       "Breeding is initiated by a drop in the water level combined with an increased density of fish (with the former likely triggering the latter).",
+       "This is because a decrease in the water level and an increased density of fish allows for an adequate amount of food for the nestlings."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-waldstorch-thermik",
+     "text": "Bei warmem Wetter schraubt sich der Waldstorch auf über {600 m|2000 ft} Höhe. Dann gleitet er {16-24 km|10-15 mi} weit, ohne einen Flügelschlag.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": [
+       "When weather is warm and clear, this bird glides after it gains an altitude of at least 610 metres (2,000 ft) through continuously flapping its wings.",
+       "It can then glide for distances ranging from 16 to 24 kilometres (9.9 to 14.9 mi) ."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-waldstorch-norden",
+     "text": "Weil die Everglades trockengelegt wurden, zogen viele Waldstörche nach Norden. Heute brüten sie auch in Georgia und South Carolina.",
+     "source": {
+      "title": "National Park Service, Everglades National Park: Wood Stork",
+      "url": "https://www.nps.gov/ever/learn/nature/woodstork.htm",
+      "quote": "The dwindling population of Wood Storks in south Florida does not mean that the species is going extinct, but that they have moved to more suitable habitat in other locations such as north Florida, Georgia, and South Carolina.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-waldstorch-liste",
+     "text": "1984 kam der Waldstorch in den USA auf die Liste der vom Aussterben bedrohten Arten. 30 Jahre Schutz später, 2014, wurde er herabgestuft.",
+     "source": {
+      "title": "National Park Service, Everglades National Park: Wood Stork",
+      "url": "https://www.nps.gov/ever/learn/nature/woodstork.htm",
+      "quote": [
+       "It is the only stork breeding in the United States and was placed on the Federal Endangered Species list in 1984.",
+       "The species was downlisted from endangered to threatened in June 2014, reflecting a successful conservation and recovery effort spanning three decades."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-waldstorch-eiszeit",
+     "text": "Der Waldstorch kam wohl erst nach der letzten Eiszeit nach Nordamerika. Vorher lebte dort ein größerer Verwandter, der ausgestorben ist.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": [
+       "The species most likely evolved in tropical regions and its North American presence probably postdates the last ice age .",
+       "North American fossils from that time are of an extinct larger relative, M. wetmorei , which would be distinguished from the wood stork on the basis of size and on the basis of M. wetmorei ' s less curved mandible."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-waldstorch-ibis",
+     "text": "Wegen des gebogenen Schnabels hieß der Waldstorch auf Englisch lange „Wood Ibis“. Mit den Ibissen ist er aber nicht näher verwandt.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "Likely because of its decurved bill, the wood stork has formerly been called the \"wood ibis\", although it is not an ibis .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Fratercula arctica": {
+   "short": [
+    {
+     "id": "den-s-papageitaucher-rekord",
+     "text": "Rekord: Ein Papageitaucher in Großbritannien trug 62 Fische auf einmal im Schnabel.",
+     "source": {
+      "title": "BirdLife Europe, Seabird of the month: Atlantic Puffin",
+      "url": "https://birdlife.org/news/2022/04/06/seabird-of-the-month-atlantic-puffin-fratercula-arctica",
+      "quote": "The average catch is around 10 fish per trip but the record in Britain is a whopping 62 fish at once!",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-papageitaucher-tuerangel",
+     "text": "Der Ruf des Papageitauchers klingt wie das Knarren einer rostigen Türangel.",
+     "source": {
+      "title": "Wikipedia, Papageitaucher",
+      "url": "https://de.wikipedia.org/wiki/Papageitaucher",
+      "quote": "Die tiefen Rufe des Papageitauchers klingen wie „orr…o-o“ oder „arr…ha-ha“, sind in der Tonhöhe fallend oder steigend und ähneln so dem Knarren einer rostigen Türangel.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-papageitaucher-hornplatten",
+     "text": "Nach der Brutzeit wirft der Papageitaucher die bunten Hornplatten seines Schnabels ab.",
+     "source": {
+      "title": "Wikipedia, Papageitaucher",
+      "url": "https://de.wikipedia.org/wiki/Papageitaucher",
+      "quote": "Die große, hornige Schnabelscheide wird zur Mauser abgeworfen und danach erneuert.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-papageitaucher-tauchen",
+     "text": "Papageitaucher tauchen bis zu {70 m|230 ft} tief und rudern dabei mit den Flügeln.",
+     "source": {
+      "title": "Wikipedia, Papageitaucher",
+      "url": "https://de.wikipedia.org/wiki/Papageitaucher",
+      "quote": [
+       "Papageitaucher können bis zu siebzig Meter tief tauchen, finden jedoch gewöhnlich ihre Nahrung in geringeren Gewässertiefen.",
+       "Nahrung suchen die Vögel tauchend, unter Wasser bewegen sie sich mit den Flügeln vorwärts (flügeltauchend)."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-papageitaucher-bruder",
+     "text": "Fratercula arctica, der wissenschaftliche Name, bedeutet „kleiner Bruder des Nordens“.",
+     "source": {
+      "title": "BirdLife Europe, Seabird of the month: Atlantic Puffin",
+      "url": "https://birdlife.org/news/2022/04/06/seabird-of-the-month-atlantic-puffin-fratercula-arctica",
+      "quote": "Its scientific name, Fratercula arctica means “little brother of the north” in Latin.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-papageitaucher-bauchklatscher",
+     "text": "Papageitaucher landen schlecht: Sie krachen in Wellen oder machen einen Bauchplatscher.",
+     "source": {
+      "title": "Wikipedia (English), Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "Landing is awkward; it either crashes into a wave crest or, in calmer water, does a belly flop.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-papageitaucher-schnaebeln",
+     "text": "Verliebte Papageitaucher wackeln mit dem Kopf und klappern ihre Schnäbel aneinander.",
+     "source": {
+      "title": "Wikipedia (English), Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "This is a practice in which the pair approaches each other, each wagging their heads from side to side, and then rattling their beaks together.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-papageitaucher-wasser",
+     "text": "Papageitaucher paaren sich nur auf dem Wasser, nie an Land.",
+     "source": {
+      "title": "Wikipedia, Papageitaucher",
+      "url": "https://de.wikipedia.org/wiki/Papageitaucher",
+      "quote": "Kopulationen finden nur auf dem Wasser statt.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-papageitaucher-hoehle",
+     "text": "Papageitaucher graben mit dem Schnabel und schaufeln die Erde mit den Füßen hinaus.",
+     "source": {
+      "title": "Wikipedia, Papageitaucher",
+      "url": "https://de.wikipedia.org/wiki/Papageitaucher",
+      "quote": "Die Höhlen werden mit dem Schnabel gegraben, das lose Material wird mit den Füßen nach draußen befördert.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-papageitaucher-tempo",
+     "text": "Mit schnellen Flügelschlägen kommt der Papageitaucher auf {80 km/h|50 mph}.",
+     "source": {
+      "title": "Wikipedia (English), Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": [
+       "To maintain flight, the wings must beat very rapidly at a rate of several times each second.",
+       "The bird's flight is direct and low over the surface of the water, and it can travel at 80 km/h (50 mph) ."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-papageitaucher-alter",
+     "text": "Der älteste bekannte Papageitaucher wurde 36 Jahre alt.",
+     "source": {
+      "title": "BirdLife Europe, Seabird of the month: Atlantic Puffin",
+      "url": "https://birdlife.org/news/2022/04/06/seabird-of-the-month-atlantic-puffin-fratercula-arctica",
+      "quote": "The oldest Atlantic Puffin ever recorded was 36 years old.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den-l-papageitaucher-stock",
+     "text": "Papageitaucher kratzen sich mit einem Stöckchen im Schnabel, gesehen in Wales und Island. Wohl gegen Zecken, die in Kolonien häufig sind.",
+     "source": {
+      "title": "wissenschaft.de (Bild der Wissenschaft), Werkzeuggebrauch bei Seevögeln entdeckt",
+      "url": "https://www.wissenschaft.de/gesellschaft-psychologie/werkzeuggebrauch-bei-seevoegeln-entdeckt/",
+      "quote": [
+       "Forscher haben dokumentiert, wie Papageientaucher Stöckchen im Schnabel zur Körperpflege einsetzen.",
+       "Den Forschern zufolge sind die Kolonien der Papageientaucher oft stark von Zecken befallen."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-papageitaucher-dunkel",
+     "text": "Papageitaucher-Küken finden Futter in der dunklen Höhle, indem sie mit dem Schnabel tasten. Das kann kein anderes Küken der Alkenvögel.",
+     "source": {
+      "title": "Wikipedia, Papageitaucher",
+      "url": "https://de.wikipedia.org/wiki/Papageitaucher",
+      "quote": [
+       "Im Gegensatz zu allen anderen Vertretern der Familie Alcidae finden die Nestlinge Nahrung auf dem Boden auch im Dunkeln.",
+       "Hierzu tasten die Nestlinge den Boden in ihrer Umgebung mit dem Schnabel ab, sobald sie nach dem Schlupf getrocknet sind."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-papageitaucher-abschied",
+     "text": "Junge Papageitaucher schwimmen allein aufs Meer hinaus und kommen nicht zurück. Die Eltern schauen noch bis zu drei Wochen vorbei.",
+     "source": {
+      "title": "Wikipedia, Papageitaucher",
+      "url": "https://de.wikipedia.org/wiki/Papageitaucher",
+      "quote": [
+       "Sobald das Meer erreicht ist, schwimmen die Jungvögel selbstständig auf das Meer hinaus und kommen nicht wieder zur Kolonie zurück.",
+       "Die Altvögel suchen die Kolonie noch bis zu drei Wochen nach dem Ausfliegen des Jungvogels auf."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-papageitaucher-flugstunde",
+     "text": "Vor dem Ausfliegen üben junge Papageitaucher nachts: bis zu zehnmal, höchstens zwei Minuten lang, nur wenige Meter vor der Höhle.",
+     "source": {
+      "title": "Wikipedia, Papageitaucher",
+      "url": "https://de.wikipedia.org/wiki/Papageitaucher",
+      "quote": [
+       "Diese Ausflüge erfolgen bis zu zehnmal pro Nacht und dauern meist nur maximal zwei Minuten.",
+       "Die Jungvögel entfernen sich dabei höchstens 15 bis 20 m von der Höhle."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-papageitaucher-maine",
+     "text": "In Maine waren Papageitaucher verschwunden. Stephen Kress holte Küken aus Neufundland und lockte mit Holzattrappen: 1981 gab es Eier.",
+     "source": {
+      "title": "Audubon Magazine, The Puffin Man",
+      "url": "https://www.audubon.org/magazine/puffin-man",
+      "quote": [
+       "Project Puffin started when Kress and his team got permission from the Canadian Wildlife Service to collect chicks for more than a decade from a large puffin colony in Newfoundland and carry them by plane, truck, and boat to Eastern Egg Rock.",
+       "After several years of agonized waiting, wooden puffin decoys, mirrors (put in place to convince the puffins they had company), and other attractants lured a few pioneers.",
+       "Finally, in 1981, four pairs settled in and produced the first puffin eggs on the island in a century."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-papageitaucher-patrouille",
+     "text": "In einem isländischen Städtchen locken Straßenlampen junge Papageitaucher an. 2024 retteten Helfer über 4.200, etwa einen pro Einwohner.",
+     "source": {
+      "title": "Science News, How a puffin patrol in Iceland is saving the iconic seabirds",
+      "url": "https://www.sciencenews.org/article/puffin-patrol-iceland-conservation-bird",
+      "quote": [
+       "Ever since, dazzled by night lights or swept along in stiff sea breezes, some young puffins have taken a wrong turn — toward town.",
+       "During the 2024 season, the Puffling Patrol rescued more than 4,200 pufflings — that’s approximately one bird for every human on Heimaey."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-papageitaucher-mauser",
+     "text": "Im Winter verliert der Papageitaucher alle Schwungfedern auf einmal. Ein bis zwei Monate kann er dann nur schwimmen und tauchen.",
+     "source": {
+      "title": "Wikipedia (English), Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "Land birds mostly lose their primaries one pair at a time to enable them still to be able to fly, but the puffin sheds all its primaries at one time and dispenses with flight entirely for a month or two.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Tryngites subruficollis": {
+   "short": [
+    {
+     "id": "den-s-graslaeufer-solo",
+     "text": "Grasläufer-Männchen balzen manchmal sogar auf dem Zug, ganz ohne Publikum.",
+     "source": {
+      "title": "Wikipedia (English), Buff-breasted sandpiper",
+      "url": "https://en.wikipedia.org/wiki/Buff-breasted_sandpiper",
+      "quote": "The male has a display which includes raising the wings to display the white undersides, which is also given on migration, sometimes when no other buff-breasted sandpipers are present.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-graslaeufer-robben",
+     "text": "Eifersüchtige Grasläufer robben auf dem Bauch in fremde Balzplätze, um die Show zu stören.",
+     "source": {
+      "title": "Smithsonian's National Zoo, The Dancing Shorebird",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": "Sometimes a renegade male will sneak on his belly into another male's mating post to disrupt the dance of his competitor, sometimes he will simply fly in and chase females away from his rival, and at other times, he will wait until his rival attracts several females then will walk in while mimicking female behavior and disrupt the copulation of the rival male.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-graslaeufer-ehe",
+     "text": "Bei Grasläufern hält die „Ehe“ nur so lange wie die Paarung. Den Rest macht das Weibchen.",
+     "source": {
+      "title": "Smithsonian's National Zoo, The Dancing Shorebird",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": [
+       "As is typical in lekking species, female Buff-breasted Sandpipers raise, shelter and defend their young from predators without help from the males.",
+       "In fact, the \"pair bond\" lasts only as long as the mating."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-graslaeufer-hummeln",
+     "text": "In der Arktis fressen Grasläufer Hummeln und füttern auch ihre Küken damit.",
+     "source": {
+      "title": "Wikipedia (English), Buff-breasted sandpiper",
+      "url": "https://en.wikipedia.org/wiki/Buff-breasted_sandpiper",
+      "quote": [
+       "The buff-breasted sandpipers are known to prey on Bombus polaris , a species of bumblebee found within the Arctic Circle .",
+       "They will either eat the bees or feed them to their young."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-graslaeufer-golf",
+     "text": "Ein Watvogel, der das Wasser meidet: Auf dem Zug rastet der Grasläufer auf Golfplätzen.",
+     "source": {
+      "title": "Wikipedia, Grasläufer",
+      "url": "https://de.wikipedia.org/wiki/Grasl%C3%A4ufer",
+      "quote": "Er ist gegenüber dem Menschen verhältnismäßig zutraulich und außerhalb der Brutzeit beispielsweise auch auf Golfplätzen oder Flugplätzen zu beobachten.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-graslaeufer-deutschland",
+     "text": "Der Grasläufer ist bei uns eine Rarität: Von 1977 bis 1997 wurde er nur 18-mal gesehen.",
+     "source": {
+      "title": "Wikipedia, Grasläufer",
+      "url": "https://de.wikipedia.org/wiki/Grasl%C3%A4ufer",
+      "quote": "In Deutschland wurde er zwischen 1977 und 1997 insgesamt achtzehn Mal beobachtet.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-graslaeufer-erstarren",
+     "text": "Bei Gefahr erstarrt der Grasläufer oft erst einmal, statt gleich davonzufliegen.",
+     "source": {
+      "title": "Wikipedia, Grasläufer",
+      "url": "https://de.wikipedia.org/wiki/Grasl%C3%A4ufer",
+      "quote": "Die Fluchtdistanz zum Menschen ist häufig sehr gering, bei Beunruhigung nehmen sie häufig zunächst eine starre Haltung an.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-graslaeufer-kueken",
+     "text": "Grasläufer-Küken verlassen das Nest wenige Stunden nach dem Schlüpfen und fressen allein.",
+     "source": {
+      "title": "Smithsonian's National Zoo, The Dancing Shorebird",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": "Defense of the young sandpipers is different from many birds in that these young are precocial-that is, they leave the nest within a few hours of hatching and can run and feed themselves.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-graslaeufer-taube",
+     "text": "Mit dem dunklen Auge im hellen Gesicht schaut der Grasläufer sanft wie eine Taube.",
+     "source": {
+      "title": "Audubon Field Guide, Buff-breasted Sandpiper",
+      "url": "https://www.audubon.org/field-guide/bird/buff-breasted-sandpiper",
+      "quote": "Has dovelike or \"gentle\" expression, with dark eye on pale face, short bill, round head.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-graslaeufer-gattung",
+     "text": "Den Gattungsnamen Calidris prägte Aristoteles. Welchen Vogel er meinte, ist unklar.",
+     "source": {
+      "title": "Wikipedia, Grasläufer",
+      "url": "https://de.wikipedia.org/wiki/Grasl%C3%A4ufer",
+      "quote": "Dieser Name hat sein Ursprung in καλιδρις, σκαλιδρις calidris, skalidris , deutsch ‚ gesprenkelt ‘ ein Name den Aristoteles für ein nicht identifizierten graufarbigen Wasservogel verwendete.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den-l-graslaeufer-tarnung",
+     "text": "Grasläufer-Rivalen tricksen: Ein Männchen wartet, bis ein anderes Weibchen angelockt hat, spielt dann selbst Weibchen und stört die Paarung.",
+     "source": {
+      "title": "Smithsonian's National Zoo, The Dancing Shorebird",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": "Sometimes a renegade male will sneak on his belly into another male's mating post to disrupt the dance of his competitor, sometimes he will simply fly in and chase females away from his rival, and at other times, he will wait until his rival attracts several females then will walk in while mimicking female behavior and disrupt the copulation of the rival male.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-graslaeufer-tanz",
+     "text": "Balzende Grasläufer tanzen: Flügel ausgebreitet, Schnabel nach oben, dann folgt das „Schütteln“. Mehrere Weibchen schauen genau hin.",
+     "source": {
+      "title": "Smithsonian's National Zoo, The Dancing Shorebird",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": [
+       "With outstretched wings, a male Buff-breasted Sandpiper tilts its bill upward and does the \"shake\".",
+       "Several females scrutinize his dance in their search for the best male to father their young."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-graslaeufer-flecken",
+     "text": "Weibchen prüfen bei der Balz die Flügelunterseiten der Männchen. Wenige Flecken verraten wohl Ältere, und die paaren sich öfter.",
+     "source": {
+      "title": "Lanctot et al. 1998, Animal Behaviour",
+      "url": "https://doi.org/10.1006/anbe.1998.0841",
+      "europepmc": "DOI:10.1006/anbe.1998.0841",
+      "quote": "Given some evidence that wing spotting declines with age, and that females inspect male underwings during courtship, the latter result suggests that female choice may play some role in determining male success.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-graslaeufer-waechter",
+     "text": "Grasläufer-Weibchen bauen ihr Nest manchmal neben dem von Regenpfeifern. Die wachsamen Nachbarn warnen wohl vor Polarfuchs und Hermelin.",
+     "source": {
+      "title": "Smithsonian's National Zoo, The Dancing Shorebird",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": [
+       "Meanwhile, females build simple nests in the treeless Arctic tundra, sometimes near the nests of Black-bellied and American Golden-Plovers.",
+       "These plovers may act as sentinels thereby providing extra protection for the Buff-breasted Sandpiper young and eggs from Arctic Fox, Ermine, Arctic Ground Squirrels, jaegers, Snowy Owls, ravens, gulls and other predators."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-graslaeufer-vaeter",
+     "text": "Grasläufer-Weibchen sind wählerisch, aber nicht treu: In etwa jeder vierten Brut stecken Küken von mehreren Vätern, wie Gentests zeigen.",
+     "source": {
+      "title": "Smithsonian's National Zoo, The Dancing Shorebird",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": "Females sometimes choose more than one male as about 25% of the broods have multiple fathers as has been shown through genetic analysis.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-graslaeufer-verweht",
+     "text": "Eigentlich zieht der Grasläufer nach Argentinien. Vom Wind verweht, tauchte er aber schon in Indien, Sri Lanka und Australien auf.",
+     "source": {
+      "title": "Wikipedia (English), Buff-breasted sandpiper",
+      "url": "https://en.wikipedia.org/wiki/Buff-breasted_sandpiper",
+      "quote": [
+       "It is believed that instead of going to Argentina, this bird might have been wind-blown from the Great Plains Flyway of North America and landed up in South Asia.",
+       "The buff-breasted sandpiper has also been recorded in Australia on at least eight occasions."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-graslaeufer-paraguay",
+     "text": "Beschrieben wurde der Grasläufer 1819 nicht nach einem Vogel aus der Arktis, sondern nach einem Bericht aus Paraguay, wo er nur überwintert.",
+     "source": {
+      "title": "Wikipedia, Grasläufer",
+      "url": "https://de.wikipedia.org/wiki/Grasl%C3%A4ufer",
+      "quote": [
+       "Die Erstbeschreibung des Grasläufers erfolgte 1819 durch Louis Pierre Vieillot unter dem wissenschaftlichen Namen Tringa subruficollis .",
+       "Als Verbreitungsgebiet gab er Paraguay an, basierend auf Chorlito del garganta blanca acanelada"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Stercorarius longicaudus": {
+   "short": [
+    {
+     "id": "den-s-falkenraubmoewe-jaeger",
+     "text": "In Nordamerika heißen Raubmöwen „Jaeger“, nach dem deutschen Wort Jäger.",
+     "source": {
+      "title": "Wikipedia (English), Long-tailed jaeger",
+      "url": "https://en.wikipedia.org/wiki/Long-tailed_jaeger",
+      "quote": "The word \"jaeger\" is derived from the German word Jäger , meaning \"hunter\".",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-falkenraubmoewe-kleinste",
+     "text": "Die Falkenraubmöwe ist die kleinste Raubmöwe, mit langen, biegsamen Schwanzspießen.",
+     "source": {
+      "title": "NABU, Vogelporträt Falkenraubmöwe",
+      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/falkenraubmoewe/",
+      "quote": [
+       "Die kleinste unter den Raubmöwen ist eine elegante Erscheinung.",
+       "Die langen Schwanzspieße sind biegsam und sehr auffällig."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-falkenraubmoewe-schwanz",
+     "text": "Bei der Falkenraubmöwe kann der Schwanz bis zu {29 cm|11 in} der Körperlänge ausmachen.",
+     "source": {
+      "title": "Wikipedia (English), Long-tailed jaeger",
+      "url": "https://en.wikipedia.org/wiki/Long-tailed_jaeger",
+      "quote": "However up to 29 cm (11 in) of its length can be made up by the tail which may include the 15 cm (5.9 in) tail streamers of the summer adult.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-falkenraubmoewe-lauern",
+     "text": "Die Falkenraubmöwe steht lange in der Luft und späht. Sieht sie Beute, schlägt sie zu.",
+     "source": {
+      "title": "NABU, Vogelporträt Falkenraubmöwe",
+      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/falkenraubmoewe/",
+      "quote": [
+       "Auf der Suche nach Beute schwebt die schlanke Raubmöwe für längere Zeit in der Luft und hält Ausschau.",
+       "Hat sie ein Tier erspäht, schlägt sie schnell zu."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-falkenraubmoewe-beeren",
+     "text": "In mageren Jahren fressen Falkenraubmöwen in der Tundra auch Beeren.",
+     "source": {
+      "title": "NABU, Vogelporträt Falkenraubmöwe",
+      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/falkenraubmoewe/",
+      "quote": "Auch Insekten, kleinere Vögel und Eier werden gefressen, in schlechten Jahren auch Beeren.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-falkenraubmoewe-kot",
+     "text": "Stercorarius heißt „vom Kot“: Was ihre Opfer auswürgten, hielt man früher für Kot.",
+     "source": {
+      "title": "Wikipedia (English), Long-tailed jaeger",
+      "url": "https://en.wikipedia.org/wiki/Long-tailed_jaeger",
+      "quote": "The genus name Stercorarius is Latin and means \"of dung\"; the food disgorged by other birds when pursued by skuas was once thought to be excrement.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-falkenraubmoewe-erdumrundung",
+     "text": "Eine Falkenraubmöwe fliegt im Jahr bis zu {54200 km|33700 mi}, weiter als einmal um die Erde.",
+     "source": {
+      "title": "Gilg et al. 2013, PLoS ONE",
+      "url": "https://doi.org/10.1371/journal.pone.0064614",
+      "europepmc": "DOI:10.1371/journal.pone.0064614",
+      "quote": "Over one year, individuals travelled between 43,900 and 54,200 km (36,600-45,700 when excluding staging periods) and went as far as 10,500-13,700 km (mean 12,800 km) from their breeding sites.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-falkenraubmoewe-tempo",
+     "text": "Auf dem Herbstzug schaffen Falkenraubmöwen im Schnitt {345 km|214 mi} am Tag.",
+     "source": {
+      "title": "Gilg et al. 2013, PLoS ONE",
+      "url": "https://doi.org/10.1371/journal.pone.0064614",
+      "europepmc": "DOI:10.1371/journal.pone.0064614",
+      "quote": "Different migratory routes and rates of travel were documented during post-breeding (345 km d(-1) in late August-early September) and spring migrations (235 km d(-1) in late April) when most birds used a more westerly flyway.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-falkenraubmoewe-land",
+     "text": "Südlich der Arktis kommt die Falkenraubmöwe kaum je in Sichtweite von Land.",
+     "source": {
+      "title": "Audubon Field Guide, Long-tailed Jaeger",
+      "url": "https://www.audubon.org/field-guide/bird/long-tailed-jaeger",
+      "quote": "Of the three jaeger species, the Long-tail is the smallest and the one that migrates farthest offshore; south of the Arctic, it seldom comes within sight of land.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-falkenraubmoewe-forscher",
+     "text": "Brütende Falkenraubmöwen schrecken nicht einmal vor Forschern zurück.",
+     "source": {
+      "title": "Justus-Liebig-Universität Gießen, Seevögel als Verlierer des Klimawandels (2018)",
+      "url": "https://www.uni-giessen.de/de/ueber-uns/pressestelle/pm/pm40-18",
+      "quote": "Wehrhafte Eltern: Brütende Falkenraubmöven schrecken auch vor Forschern nicht zurück.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-falkenraubmoewe-nordsee",
+     "text": "Mit viel Glück sieht man Falkenraubmöwen im Mai oder im Spätsommer an der Nordsee.",
+     "source": {
+      "title": "NABU, Vogelporträt Falkenraubmöwe",
+      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/falkenraubmoewe/",
+      "quote": "Im Mai und August/September kann man mit sehr viel Glück eine Falkenraubmöwe an der Nordseeküste beobachten.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den-l-falkenraubmoewe-lemminge",
+     "text": "Im Sommer leben Falkenraubmöwen von Lemmingen. In schlechten Lemmingjahren schlüpfen kaum Küken: Nur wenige Eier werden lang genug bebrütet.",
+     "source": {
+      "title": "Justus-Liebig-Universität Gießen, Seevögel als Verlierer des Klimawandels (2018)",
+      "url": "https://www.uni-giessen.de/de/ueber-uns/pressestelle/pm/pm40-18",
+      "quote": [
+       "Die von Johannes Lang untersuchten Falkenraubmöwen im Nordosten Grönlands legen als Zugvögel extrem lange Strecken zurück und sind im Sommer auf den Lemming als Beute spezialisiert.",
+       "In schlechten Jahren werden nur wenige Eier so lange bebrütet, dass auch ein Jungvogel schlüpfen kann."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-falkenraubmoewe-treue",
+     "text": "Schneeeulen ziehen dorthin, wo es Lemminge gibt. Falkenraubmöwen kehren jedes Jahr an denselben Brutplatz zurück, mit oder ohne Futter.",
+     "source": {
+      "title": "Justus-Liebig-Universität Gießen, Seevögel als Verlierer des Klimawandels (2018)",
+      "url": "https://www.uni-giessen.de/de/ueber-uns/pressestelle/pm/pm40-18",
+      "quote": "Während sich andere Tiere wie Schneeeulen nur dort aufhalten, wo es genügend Lemminge gibt, sind Falkenraubmöwen brutplatztreu und kehren jedes Jahr – unabhängig vom Nahrungsangebot – an dieselben Brutplätze zurück.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-falkenraubmoewe-diebin",
+     "text": "Im Winter südlich des Äquators wird die Falkenraubmöwe zur Diebin. Sie jagt dann vor allem Küstenseeschwalben und Schwalbenmöwen Beute ab.",
+     "source": {
+      "title": "Wikipedia (English), Long-tailed jaeger",
+      "url": "https://en.wikipedia.org/wiki/Long-tailed_jaeger",
+      "quote": [
+       "This appears to be an important food source during the winter months, spent south of the equator.",
+       "The bird species most commonly \"robbed\" this way by the long-tailed jaeger are Arctic terns ( Sterna paradisaea ) and Sabine's gulls ( Xema sabini )."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-falkenraubmoewe-selbst",
+     "text": "Raubmöwen sind als Diebe verrufen. Die Falkenraubmöwe jagt im Brutgebiet aber lieber selbst: Rötelmäuse, Wühlmäuse, Insekten, Eier.",
+     "source": {
+      "title": "Wikipedia, Falkenraubmöwe",
+      "url": "https://de.wikipedia.org/wiki/Falkenraubm%C3%B6we",
+      "quote": [
+       "In den Brutgebieten spielt das möwentypische Beuteabjagen bei der Falkenraubmöwe kaum eine Rolle.",
+       "Ihre Nahrung besteht hier hauptsächlich aus Rötelmäusen , Wühlmäusen und ähnlichen Kleinsäugern.",
+       "Sie frisst hier auch Insekten, Eier und kleinere Vögel."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-falkenraubmoewe-winter",
+     "text": "Lemminge brauchen lange Winter unter schützendem Schnee. Seit etwa 2000 bleiben ihre Massenjahre oft aus, schlecht für Falkenraubmöwen.",
+     "source": {
+      "title": "Justus-Liebig-Universität Gießen, Seevögel als Verlierer des Klimawandels (2018)",
+      "url": "https://www.uni-giessen.de/de/ueber-uns/pressestelle/pm/pm40-18",
+      "quote": [
+       "Dieser benötigt lange Winter und eine schützende Schneedecke, um sich neun Monate lang zu vermehren.",
+       "Die in der Vergangenheit regelmäßig auftretenden Massenvermehrungen sind etwa seit der Jahrtausendwende – offenbar bedingt durch kürzere Winter – deutlich schwächer geworden oder bleiben ganz aus."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-falkenraubmoewe-linne",
+     "text": "Linné hat vermutlich eine Falkenraubmöwe beschrieben, gab ihr aber den Namen „parasiticus“. Den trägt heute die Schmarotzerraubmöwe.",
+     "source": {
+      "title": "Wikipedia, Raubmöwen",
+      "url": "https://de.wikipedia.org/wiki/Raubm%C3%B6wen",
+      "quote": "Carl von Linné beschrieb die Raubmöwe als Larus parasiticus – obwohl das Artepithet parasiticus heute der Schmarotzerraubmöwe gehört, beschrieb er wohl die Falkenraubmöwe.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-falkenraubmoewe-sendefern",
+     "text": "Besenderte Falkenraubmöwen aus Grönland und Spitzbergen überwinterten alle auf der Südhalbkugel, im Schnitt {12800 km|7950 mi} entfernt.",
+     "source": {
+      "title": "Gilg et al. 2013, PLoS ONE",
+      "url": "https://doi.org/10.1371/journal.pone.0064614",
+      "europepmc": "DOI:10.1371/journal.pone.0064614",
+      "quote": [
+       "All birds wintered in the Southern Hemisphere (mean arrival-departure dates on wintering grounds: 24 October-21 March): five along the south-west coast of Africa (0-40°S, 0-15°E), in the productive Benguela upwelling, and three further south (30-40°S, 0-50°E), in an area extending into the south-west Indian Ocean.",
+       "Over one year, individuals travelled between 43,900 and 54,200 km (36,600-45,700 when excluding staging periods) and went as far as 10,500-13,700 km (mean 12,800 km) from their breeding sites."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Xema sabini": {
+   "short": [
+    {
+     "id": "den-s-schwalbenmoewe-astronom",
+     "text": "Die Schwalbenmöwe trägt den Namen des Astronomen Edward Sabine. Ihn vergab sein Bruder.",
+     "source": {
+      "title": "Wikipedia, Schwalbenmöwe",
+      "url": "https://de.wikipedia.org/wiki/Schwalbenm%C3%B6we",
+      "quote": "Ihren wissenschaftlichen Namen erhielt sie zu Ehren des Astronomen Edward Sabine , dem Bruder des Erstbeschreibers Joseph Sabine .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-schwalbenmoewe-rekord",
+     "text": "Keine Möwe zieht weiter: Schwalbenmöwen legen im Jahr bis zu {39000 km|24000 mi} zurück.",
+     "source": {
+      "title": "Wikipedia (English), Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "They migrate south to the Southern Hemisphere in autumn, covering up to 32,000–39,000 km per year, the longest migration of any gull.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-schwalbenmoewe-xema",
+     "text": "Der Gattungsname Xema ist wohl frei erfunden und bedeutet nichts.",
+     "source": {
+      "title": "Wikipedia (English), Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "The genus name Xema appears to be an invented name without meaning.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-schwalbenmoewe-bucht",
+     "text": "Nach Weststürmen: 1997 wurden in der Deutschen Bucht 71-mal Schwalbenmöwen gesichtet.",
+     "source": {
+      "title": "Wikipedia, Schwalbenmöwe",
+      "url": "https://de.wikipedia.org/wiki/Schwalbenm%C3%B6we",
+      "quote": [
+       "Typisch sind solche Einflüge bei starken Westwindlagen.",
+       "So wurden in der Deutschen Bucht und im nordfriesischen Wattenmeer im Jahr 1997 insgesamt 71-mal Schwalbenmöwen gesichtet."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-schwalbenmoewe-seeschwalbe",
+     "text": "Schwalbenmöwen fliegen wie Seeschwalben: Bei jedem Flügelschlag hebt sich der Körper.",
+     "source": {
+      "title": "Wikipedia, Schwalbenmöwe",
+      "url": "https://de.wikipedia.org/wiki/Schwalbenm%C3%B6we",
+      "quote": "Auch im Flug wirkt die Schwalbenmöwe Seeschwalbenartig, da der Körper bei jedem Flügelschlag etwas angehoben wird.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-schwalbenmoewe-schnabel",
+     "text": "Die Schwalbenmöwe trägt einen schwarzen Schnabel mit gelber Spitze, wie in Farbe getaucht.",
+     "source": {
+      "title": "Wikipedia, Schwalbenmöwe",
+      "url": "https://de.wikipedia.org/wiki/Schwalbenm%C3%B6we",
+      "quote": "Der ziemlich kurze Schnabel ist schwarz und trägt eine gelbe Spitze.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-schwalbenmoewe-picken",
+     "text": "Schwalbenmöwen schweben tief über dem Wasser und picken ihr Futter auf, ohne zu landen.",
+     "source": {
+      "title": "Audubon Field Guide, Sabine's Gull",
+      "url": "https://www.audubon.org/field-guide/bird/sabines-gull",
+      "quote": "Delicate in its feeding, this species often floats in the air low over the water, dipping down to take food from the surface without landing.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-schwalbenmoewe-dreieck",
+     "text": "Im Flug zeigen die Flügel der Schwalbenmöwe große Dreiecke in Schwarz, Weiß und Grau.",
+     "source": {
+      "title": "Audubon Field Guide, Sabine's Gull",
+      "url": "https://www.audubon.org/field-guide/bird/sabines-gull",
+      "quote": "Striking wing pattern in flight is best mark, with large triangles of black, white, and gray (but see immature Black-legged Kittiwake).",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-schwalbenmoewe-gabel",
+     "text": "Früher hieß die Schwalbenmöwe auf Englisch auch „Gabelschwanzmöwe“.",
+     "source": {
+      "title": "Wikipedia (English), Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "It has also been known historically as fork-tailed gull or xeme (from the genus name).",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-s-schwalbenmoewe-binnenland",
+     "text": "Verirrt sich eine junge Schwalbenmöwe auf einen Teich im Binnenland, jubeln Vogelfreunde.",
+     "source": {
+      "title": "Audubon Field Guide, Sabine's Gull",
+      "url": "https://www.audubon.org/field-guide/bird/sabines-gull",
+      "quote": "A young Sabine's that goes astray in fall may cause excitement by showing up on a pond far inland.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den-l-schwalbenmoewe-entdeckung",
+     "text": "Edward Sabine fand die Möwe 1818 auf der Suche nach der Nordwestpassage. Später entdeckte er, dass Sonnenflecken das Erdmagnetfeld stören.",
+     "source": {
+      "title": "Wikipedia, Edward Sabine",
+      "url": "https://de.wikipedia.org/wiki/Edward_Sabine",
+      "quote": [
+       "Sabine nahm an mehreren Expeditionen teil, unter anderem an der Nordwestpassagen -Expedition 1818 von John Ross und James Clark Ross sowie der ebenfalls der Nordwestpassage geltenden Expedition (1819–1820) von William Edward Parry .",
+       "1852 entdeckte er den Zusammenhang zwischen Sonnenflecken und Schwankungen des Erdmagnetfelds.",
+       "1819 benannte sein Bruder die Schwalbenmöwe (Xema sabini) nach ihm."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-schwalbenmoewe-verwandt",
+     "text": "Gegabelter Schwanz, gelbe Schnabelspitze: Nur die Gabelschwanzmöwe der Galápagosinseln sieht so aus. Verwandt sind die beiden aber nicht.",
+     "source": {
+      "title": "Wikipedia (English), Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": [
+       "The yellow-tipped black bill and notched tail are shared only with the swallow-tailed gull of the Galapagos .",
+       "Mitochondrial DNA studies confirmed that they are not closely related, and the closest relative of Sabine's gull is now thought to be the ivory gull , another Arctic species."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-schwalbenmoewe-elfenbein",
+     "text": "Die nächste Verwandte der Schwalbenmöwe ist die Elfenbeinmöwe der Arktis. Getrennt haben sich die beiden vor rund sechs Millionen Jahren.",
+     "source": {
+      "title": "Wikipedia (English), Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": [
+       "Mitochondrial DNA studies confirmed that they are not closely related, and the closest relative of Sabine's gull is now thought to be the ivory gull , another Arctic species.",
+       "The two species are thought to have separated around 6 million years ago, longer ago than most groups of gull species, with this pair splitting from the kittiwakes about 8 million years ago."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-schwalbenmoewe-mauser",
+     "text": "Schwalbenmöwen mausern verkehrt herum: Das ganze Gefieder wechseln sie im Frühjahr vor dem Heimflug, nicht wie andere Möwen nach der Brut.",
+     "source": {
+      "title": "Wikipedia (English), Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "Adults have their complete moult in the spring prior to the spring migration, and have a partial moult in the autumn after returning to the wintering area, a reversal of the usual pattern for gulls.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-schwalbenmoewe-afrika",
+     "text": "Schwalbenmöwen aus Kanada und Grönland überqueren den Atlantik nach Osten und überwintern im kalten Benguelastrom vor Namibia und Südafrika.",
+     "source": {
+      "title": "Wikipedia (English), Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "The Svalbard , Greenland and eastern Canadian populations of Sabine's gull usually cross the Atlantic Ocean by way of the westernmost coasts of Europe ( Ireland , western Great Britain , northwest Spain , Portugal ) and northwest Africa ( Morocco ) to winter off southwestern Africa in the cold waters of the Benguela Current off Namibia and South Africa .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-schwalbenmoewe-namen",
+     "text": "Edward Sabine, Namenspate der Schwalbenmöwe, steht auch auf Karten: Es gibt eine Sabine-Insel vor Grönland und einen Krater auf dem Mond.",
+     "source": {
+      "title": "Wikipedia, Edward Sabine",
+      "url": "https://de.wikipedia.org/wiki/Edward_Sabine",
+      "quote": [
+       "Eine Insel vor der Ostküste Grönlands , auf der Sabine 1823 Pendelversuche ausgeführt hatte, heißt seit 1869 Sabine-Insel .",
+       "1935 wurde der Mondkrater Sabine nach ihm benannt."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den-l-schwalbenmoewe-tundra",
+     "text": "Zur Brutzeit in der Tundra jagen Schwalbenmöwen nicht nur am Wasser: Auf dem Speiseplan stehen Käfer, Springschwänze, Schnaken und Mücken.",
+     "source": {
+      "title": "Wikipedia (English), Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "In the breeding season, the gulls pursue a range of freshwater and terrestrial prey on the tundra (and within boreal river deltas , estuaries and coastal wetlands ), including both terrestrial and aquatic beetles , springtails , craneflies , mosquitoes , midges , flower flies ( Syrphidae ),",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  }
+ }
+}

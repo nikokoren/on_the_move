@@ -170,6 +170,16 @@ def med(pts):
     return [round(la, 2), round(lo, 2)]
 
 
+def season_km(tab):
+    """Distance between the median summer (15 Jun to 15 Aug) and winter (15 Dec
+    to 15 Feb) positions; 0 when either season has fewer than 10 days."""
+    def centre(days):
+        p = [tab[d] for d in days if d < len(tab) and tab[d]]
+        return med(p) if len(p) > 10 else None
+    s, w = centre(range(166, 227)), centre(list(range(349, 366)) + list(range(0, 46)))
+    return km(s, w) if s and w else 0
+
+
 # ---------- labels ----------
 
 def display_name(label, species_en=""):
@@ -229,6 +239,24 @@ def main():
     for sp in featured:
         taxon = sp["taxon"]
         animals = [a for a in cat["animals"] if a["taxon"] == taxon]
+        # Short journeys (elk, mule deer; 2026-11-22) set their own scale in
+        # data/featured.json: a smaller stay radius, a lower minimum journey,
+        # only some studies, only animals whose summer and winter lie far enough
+        # apart (migrants of a partly migratory herd), and named ranges that
+        # replace the country names (else every stay reads "in Canada").
+        base_stay = sp.get("stayKm", STAY_KM)
+        min_journey = sp.get("minJourneyKm", MIN_JOURNEY_KM)
+        if sp.get("onlyStudies"):
+            animals = [a for a in animals if a["studyId"] in sp["onlyStudies"]]
+        if sp.get("minSeasonKm"):
+            animals = [a for a in animals if season_km(tables[a["id"]]) >= sp["minSeasonKm"]]
+        ranges = sp.get("ranges", [])
+
+        def where(lat, lon, stay=False, _taxon=taxon, _ranges=ranges):
+            for r in _ranges:
+                if km((lat, lon), (r["lat"], r["lon"])) <= r["km"]:
+                    return {"en": r["names"]["en"], "de": r["names"]["de"]}
+            return place_of(layers, lat, lon, _taxon in MARINE, stay=stay)
         # Star first: live, then days covered, then a real name over a tag code.
         en = sp["names"].get("en", "")
         # A label shared by several animals is a site or project name, not the animal's.
@@ -242,8 +270,8 @@ def main():
             # at 100 km (seen: a shrike's Sahel and southern Africa winters). Scale the
             # radius to the animal's own day-to-day noise.
             steps = sorted(km(pts[i], pts[i + 1]) for i in range(365) if pts[i] and pts[i + 1])
-            stay_km = max(STAY_KM, 2.5 * steps[len(steps) // 2]) if steps else STAY_KM
-            if stay_km > STAY_KM:
+            stay_km = max(base_stay, 2.5 * steps[len(steps) // 2]) if steps else base_stay
+            if stay_km > max(base_stay, STAY_KM):
                 # Same noise, drawn: a 15-day running median, so the map shows the
                 # journey rather than the geolocator's scatter (seen: shrike).
                 pts = smooth(pts, 7)
@@ -255,7 +283,7 @@ def main():
                 pts = [t[:2] if t else None for t in tab]
             st = stays_of(pts, stay_km)
             hops = [km(st[i][2:4], st[(i + 1) % len(st)][2:4]) for i in range(len(st))] if len(st) > 1 else [0]
-            if max(hops) < MIN_JOURNEY_KM:
+            if max(hops) < min_journey:
                 stats["skipped_no_journey"] += 1
                 continue  # stayed in one area all year: nothing to follow
             cands.append((a, tab, st, hops))
@@ -266,7 +294,7 @@ def main():
         # and cannot centre there (seen 2026-09-29: a loggerhead at 175 W pushed
         # into the frame's corner, in open water).
         near180 = lambda tab: any(t and abs(t[1]) > 170 for t in tab)
-        cands.sort(key=lambda c: (not c[0]["live"], near180(c[1]), max(c[3]) < 1000, -c[0]["doyCovered"], name_of(c[0]) == "", c[0]["id"]))
+        cands.sort(key=lambda c: (not c[0]["live"], near180(c[1]), max(c[3]) < (1000 if min_journey == MIN_JOURNEY_KM else 3 * min_journey), -c[0]["doyCovered"], name_of(c[0]) == "", c[0]["id"]))
         chosen = cands[:BACKUPS + 1]
         # Names and the species facts from the species table's sources (R8,
         # pipeline/species_curated.json), not the provisional GBIF names.
@@ -274,6 +302,7 @@ def main():
         # A photo only where one has been picked and built (pipeline/build_photos.py).
         has_photo = os.path.exists(os.path.join(ROOT, "worker", "photos", taxon.lower().replace(" ", "_") + ".jpg"))
         entry = {"taxon": taxon, "names": {k: c["names"][k] for k in ("en", "de")}, "iucn": sp["iucn"], "photo": has_photo,
+                 **{k: sp[k] for k in ("mapZoom", "globe") if sp.get(k)},
                  "facts": {lang: [{"text": f["text"], "len": ln} for ln in ("short", "long") for f in reviewed["species"][taxon][lang][ln]] for lang in ("en", "de")},
                  "animals": []}
         for a, tab, st, hops in chosen:
@@ -288,9 +317,9 @@ def main():
                 track.append([round(t[1], 2), round(t[0], 2), t[2]])  # [lng, lat, year]
                 key = (round(t[0], 1), round(t[1], 1))
                 if key not in cache:
-                    cache[key] = pid(place_of(layers, t[0], t[1], taxon in MARINE))
+                    cache[key] = pid(where(t[0], t[1]))
                 day_place.append(cache[key])
-            stays = [[s[0], s[1], s[3], s[2], pid(place_of(layers, s[2], s[3], taxon in MARINE, stay=True))] for s in st]  # [from, to, lng, lat, place]
+            stays = [[s[0], s[1], s[3], s[2], pid(where(s[2], s[3], stay=True))] for s in st]  # [from, to, lng, lat, place]
             # Numbers for facts: straight-line km between consecutive known days, summed over the year.
             # Weekly steps, not daily: geolocator positions jitter by ~200 km a day, which
             # summed daily gave a shrike 83,035 km a year (seen 2026-09-28).

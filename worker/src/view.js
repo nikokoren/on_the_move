@@ -386,6 +386,9 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, uni
       past: unwrap(thin(past, MAX_LINE_POINTS), ref),
       ahead: unwrap(thin(future, MAX_LINE_POINTS), ref),
       dest: dest ? unwrap([dest], ref)[0] : null,
+      // Short annual journeys (elk, mule deer) bring their own zoom, like the
+      // seasonal species; the rest keep the template's zoom 3.
+      zoom: sp.mapZoom || undefined,
       globe: sp.globe ? 1 : undefined
     })
   };

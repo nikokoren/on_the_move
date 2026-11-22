@@ -148,5 +148,24 @@ export const PLACES = {
   "Labrador Sea": { inDe: "in der Labradorsee", inEn: "in the Labrador Sea" },
   "Belize": { inDe: "in Belize", inEn: "in Belize" },
   "Bay of Campeche": { de: "Golf von Campeche", inDe: "im Golf von Campeche", inEn: "in the Bay of Campeche" },
-  "Baffin Bay": { inDe: "in der Baffin Bay", inEn: "in Baffin Bay" }
+  "Baffin Bay": { inDe: "in der Baffin Bay", inEn: "in Baffin Bay" },
+  // The 11 species the owner picked on 2026-11-21 (pipeline/new_species.json).
+  "Gulf of Alaska": { inDe: "im Golf von Alaska", inEn: "in the Gulf of Alaska" },
+  "Northwest Passage": { inDe: "in der Nordwestpassage", inEn: "in the Northwest Passage" },
+  "Argentina": { inDe: "in Argentinien", inEn: "in Argentina" },
+  "Ecuador": { inDe: "in Ecuador", inEn: "in Ecuador" },
+  "Paraguay": { inDe: "in Paraguay", inEn: "in Paraguay" },
+  "Uruguay": { inDe: "in Uruguay", inEn: "in Uruguay" },
+  "Cape Verde": { de: "Kap Verde", inDe: "auf Kap Verde", inEn: "in Cape Verde" },
+  "Gulf of Guinea": { inDe: "im Golf von Guinea", inEn: "in the Gulf of Guinea" },
+  "Beaufort Sea": { inDe: "in der Beaufortsee", inEn: "in the Beaufort Sea" },
+  "Arctic Ocean": { de: "Nordpolarmeer", inDe: "im Nordpolarmeer", inEn: "in the Arctic Ocean" },
+  "Bering Sea": { inDe: "im Beringmeer", inEn: "in the Bering Sea" },
+  "Namib": { inDe: "in der Namib", inEn: "in the Namib" },
+  "São Tomé and Príncipe": { inDe: "auf São Tomé und Príncipe", inEn: "in São Tomé and Príncipe" },
+  "Ghana": { inDe: "in Ghana", inEn: "in Ghana" },
+  "Sierra Leone": { inDe: "in Sierra Leone", inEn: "in Sierra Leone" },
+  "Senegal": { inDe: "im Senegal", inEn: "in Senegal" },
+  "Mauritania": { inDe: "in Mauretanien", inEn: "in Mauritania" },
+  "Western Sahara": { inDe: "in der Westsahara", inEn: "in Western Sahara" }
 };
