@@ -1773,6 +1773,165 @@
      }
     }
    ]
+  },
+  "Bubo scandiacus": {
+   "names": {
+    "en": "Snowy Owl",
+    "de": "Schneeeule",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "facts": []
+  },
+  "Numenius phaeopus": {
+   "names": {
+    "en": "Hudsonian Whimbrel",
+    "de": "Hudsonbrachvogel",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "facts": []
+  },
+  "Cygnus columbianus": {
+   "names": {
+    "en": "Tundra Swan",
+    "de": "Zwergschwan",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "facts": []
+  },
+  "Balaena mysticetus": {
+   "names": {
+    "en": "Bowhead Whale",
+    "de": "Grönlandwal",
+    "source": {
+     "title": "NOAA Fisheries, Bowhead Whale; Wikipedia (de), Grönlandwal",
+     "url": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+     "urlDe": "https://de.wikipedia.org/wiki/Gr%C3%B6nlandwal",
+     "checked": "2026-11-21"
+    }
+   },
+   "facts": []
+  },
+  "Aquila chrysaetos": {
+   "names": {
+    "en": "Golden Eagle",
+    "de": "Steinadler",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "facts": []
+  },
+  "Tringa flavipes": {
+   "names": {
+    "en": "Lesser Yellowlegs",
+    "de": "Gelbschenkel",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "facts": []
+  },
+  "Mycteria americana": {
+   "names": {
+    "en": "Wood Stork",
+    "de": "Waldstorch",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "facts": []
+  },
+  "Fratercula arctica": {
+   "names": {
+    "en": "Atlantic Puffin",
+    "de": "Papageitaucher",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "facts": []
+  },
+  "Tryngites subruficollis": {
+   "names": {
+    "en": "Buff-breasted Sandpiper",
+    "de": "Grasläufer",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "facts": []
+  },
+  "Stercorarius longicaudus": {
+   "names": {
+    "en": "Long-tailed Jaeger",
+    "de": "Falkenraubmöwe",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "facts": []
+  },
+  "Xema sabini": {
+   "names": {
+    "en": "Sabine's Gull",
+    "de": "Schwalbenmöwe",
+    "source": {
+     "title": "IOC World Bird List 15.2, multilingual version (German names: Peter Barthel)",
+     "url": "https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx",
+     "checked": "2026-11-21"
+    }
+   },
+   "facts": []
+  },
+  "Cervus elaphus": {
+   "names": {
+    "en": "Elk",
+    "de": "Wapiti",
+    "source": {
+     "title": "NPS Rocky Mountain, Elk; Wikipedia (de), Wapiti",
+     "url": "https://www.nps.gov/romo/learn/nature/elk.htm",
+     "urlDe": "https://de.wikipedia.org/wiki/Wapiti",
+     "checked": "2026-11-22"
+    }
+   },
+   "facts": []
+  },
+  "Odocoileus hemionus": {
+   "names": {
+    "en": "Mule Deer",
+    "de": "Maultierhirsch",
+    "source": {
+     "title": "Wyoming Migration Initiative, Red Desert to Hoback; Wikipedia (de), Maultierhirsch",
+     "url": "https://migrationinitiative.org/?p=279",
+     "urlDe": "https://de.wikipedia.org/wiki/Maultierhirsch",
+     "checked": "2026-11-22"
+    }
+   },
+   "facts": []
   }
  }
 }

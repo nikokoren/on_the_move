@@ -1,5 +1,5 @@
 {
- "about": "Species pictures: the original 18 owner picks (2026-09-29) and two CC0 candidates selected by Codex for review (2026-11-04). Cropped square and converted to grayscale for e-ink. Source URLs, author attribution and licenses are retained per image.",
+ "about": "Species pictures: the original 18 owner picks (2026-09-29) and two CC0 candidates selected by Codex for review (2026-11-04). Cropped square and converted to grayscale for e-ink. Source URLs, author attribution and licenses are retained per image. 2026-11-22: 13 owner picks for the new species (pipeline/new_species_images.json, picked on the picker page).",
  "species": {
   "Balaenoptera musculus": {
    "license": "CC0 1.0",
@@ -186,6 +186,137 @@
    "sha256": "85792ea13e966c5caf27d9ce330896645ee78980b0173b91c02a79934f90e156",
    "checked": "2026-11-04",
    "selectedBy": "Codex candidate for owner review; species illustration, not the tracked individual"
+  },
+  "Aquila chrysaetos": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) Brooke J., some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/346314808",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/631265943/large.jpg",
+   "width": 2048,
+   "height": 1933,
+   "sha256": "27617efcaeae39307e81c875dba37a78a20a7b5baa1573393001ed2994074390"
+  },
+  "Balaena mysticetus": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) Fábio Olmos, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/170839723",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/296372712/large.jpeg",
+   "width": 1575,
+   "height": 1050,
+   "sha256": "83f5c7fdc34ef5f3aa6003ed22b08bdcc2c4fca5762e9003877f34d9b1e69448"
+  },
+  "Bubo scandiacus": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) Dustin Snider, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/202934465",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/358476447/large.jpg",
+   "width": 1777,
+   "height": 1794,
+   "sha256": "37b2c7a10eb857410264a03416e4150eea3d3ad49a5aa4b422289e2f4f18f00b"
+  },
+  "Cervus elaphus": {
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "no rights reserved",
+   "source": "https://www.inaturalist.org/observations/409065868",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/752055466/large.jpg",
+   "width": 2048,
+   "height": 1538,
+   "sha256": "fef8727624e3fccc16c10dfc6c8d5fcee80943a1446b43c1b06872f69b86d264",
+   "note": "iNaturalist taxon Cervus canadensis (elk); the catalog files our elk under Cervus elaphus"
+  },
+  "Cygnus columbianus": {
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "no rights reserved",
+   "source": "https://www.inaturalist.org/observations/108773180",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/183205026/large.jpeg",
+   "width": 2048,
+   "height": 1366,
+   "sha256": "07eaba6fca310e4e88c827ae4d6b623b3a14d039748651c721796606b6b238c4"
+  },
+  "Fratercula arctica": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/115403062",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/194772301/large.jpeg",
+   "width": 2048,
+   "height": 1366,
+   "sha256": "fed8ead7c6fa470c1a245a793b9365797eb841cb5d28772b3c7baad54d460372"
+  },
+  "Mycteria americana": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) Jessica, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/37319922",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/59141225/large.jpg",
+   "width": 839,
+   "height": 715,
+   "sha256": "a947d18709944c8f8155259d77b98945bad52f1fc853e1e53ed6fc2ddcd58b3f"
+  },
+  "Numenius phaeopus": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) sprcrkwild, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/160202861",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/276825008/large.jpeg",
+   "width": 2048,
+   "height": 1712,
+   "sha256": "b2cb8febbe94c0144bf004dcaf0bb452337d185ee52a0a6f816f01bb28e1068c"
+  },
+  "Odocoileus hemionus": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) John Krampl, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/328072078",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/594419363/large.jpg",
+   "width": 1638,
+   "height": 2048,
+   "sha256": "8d1ee743b5d0be1eb272230bbbac66c44321ec070804e7ae755f87352b4092ea"
+  },
+  "Stercorarius longicaudus": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) Devon Bradley, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/141339937",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/242113145/large.jpg",
+   "width": 1440,
+   "height": 1191,
+   "sha256": "f7613396f7bca4ac1c50d1a0d4f345aa146309c25fd065304130b6e39bab7e7d"
+  },
+  "Tringa flavipes": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) Craig Hensley, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/328562590",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/595406464/large.jpg",
+   "width": 2048,
+   "height": 1410,
+   "sha256": "7529a53b714c5044c95383cbac96d038ea2161836d25f15e718c635c06730ab8"
+  },
+  "Tryngites subruficollis": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) caymanmatt, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/95726651",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/158954074/large.jpg",
+   "width": 2048,
+   "height": 1463,
+   "sha256": "a7cf9b394b3d24f7d526e797de6801f15fa9ba7882e479f7328b6dc341c11468"
+  },
+  "Xema sabini": {
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "(c) Dan Vickers, some rights reserved (CC BY)",
+   "source": "https://www.inaturalist.org/observations/256038750",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/458961829/large.jpg",
+   "width": 1800,
+   "height": 1800,
+   "sha256": "2f7eb8f302558702eee99db134372274d79b095f21acedef2980bfef047d563e"
   }
  }
 }

@@ -20,9 +20,23 @@ def main():
     feat = json.load(open(os.path.join(ROOT, "worker", "data", "featured.json"), encoding="utf-8"))
     ids = [a["id"] for s in feat["species"] for a in s["animals"] if a["id"].startswith("mb-")]
     out, comments = {}, {}
+    prev_path = os.path.join(ROOT, "pipeline", "individuals.json")
+    prev = json.load(open(prev_path, encoding="utf-8"))["animals"] if os.path.exists(prev_path) else {}
+    kept = []
     for sid in sorted({i.split("-")[1] for i in ids}):
-        rows = list(csv.DictReader(io.StringIO(bc.cached(f"individuals_{sid}.csv",
-                    lambda: bc.http(bc.MB + f"?entity_type=individual&study_id={sid}", auth=True)))))
+        try:
+            rows = list(csv.DictReader(io.StringIO(bc.cached(f"individuals_{sid}.csv",
+                        lambda: bc.http(bc.MB + f"?entity_type=individual&study_id={sid}", auth=True)))))
+        except PermissionError:
+            # The study's owner changed its terms (seen 2026-11-21: study 1229945587,
+            # the Lithuanian cranes). Re-accept only with the owner's say-so (A1);
+            # until then keep the records built before, comments included.
+            for aid in ids:
+                if aid.split("-")[1] == sid and aid in prev:
+                    out[aid] = prev[aid]
+                    comments[aid] = ""  # no curated notes rest on these studies (checked 2026-11-22)
+            kept.append(sid)
+            continue
         by = {r["id"]: r for r in rows}
         for aid in ids:
             if aid.split("-")[1] != sid or aid.split("-")[2] not in by:
@@ -57,6 +71,8 @@ def main():
     json.dump({"about": "Individual facts for the featured animals, from Movebank individual records (sex, timestamp_start/end, latest_date_born) and hand-written notes from their comments (pipeline/individuals_curated.json). Built by pipeline/build_individuals.py.",
                "animals": out}, open(os.path.join(ROOT, "pipeline", "individuals.json"), "w", encoding="utf-8"), indent=1)
     n = lambda k: sum(1 for v in out.values() if k in v)
+    if kept:
+        print("terms not accepted, previous records kept for studies:", ", ".join(kept))
     print(len(out), "animals;", n("sex"), "with sex,", n("trackedFrom"), "with tracking dates,", n("hatchYear"), "with hatch year,", n("notes"), "with notes")
 
 
