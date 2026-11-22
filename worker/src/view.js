@@ -94,6 +94,14 @@ function distFact(tpl, t, name, km, lang, units) {
   return both.length <= FACT_LIMIT.long ? both : fill(tpl, { name, dist: fmtDist(t, km, lang, "imperial") });
 }
 
+// The destination line in English the same way (owner, 2026-11-22): miles with km
+// in brackets where it fits the line (90, R16), else miles; German follows the setting.
+function towardText(t, place, km, lang, units) {
+  if (lang !== "en") return fill(t.toward, { place, dist: fmtDist(t, km, lang, units) });
+  const both = fill(t.toward, { place, dist: `${fmtDist(t, km, lang, "imperial")} (${fmtDist(t, km, lang, "metric")})` });
+  return both.length <= 90 ? both : fill(t.toward, { place, dist: fmtDist(t, km, lang, "imperial") });
+}
+
 const within = (d, from, to) => (from <= to ? d >= from && d <= to : d >= from || d <= to);
 const ahead = (from, to) => (to - from + 366) % 366;
 
@@ -278,7 +286,7 @@ function seasonalView(sp, a, t, lang, local, turn, units, withFact) {
     status, where, short: where, focus: where, moving: i < j.points.length - 1,
     when: fill(t.recordedYear, { year: recorded.getUTCFullYear() }),
     fact: withFact ? pool[factIndex(pool.length, turn, a.id)] : "",
-    toward: dest ? fill(t.toward, { place: to, dist: fmtDist(t, km(here, dest), lang, units) }) : "",
+    toward: dest ? towardText(t, to, km(here, dest), lang, units) : "",
     geo: JSON.stringify({ pos: here, past: thin(past, MAX_LINE_POINTS), ahead: thin(ahead, MAX_LINE_POINTS), dest, zoom: sp.mapZoom === 3 ? undefined : sp.mapZoom,
       // Short journeys on a close-up map get a locator globe (owner, 2026-11-21); the template draws it on the full view only.
       globe: sp.globe ? 1 : undefined }) };
@@ -360,7 +368,7 @@ function animalView(data, sp, a, t, lang, now, localDoy, turn, lookBack = 0, uni
     : fill(back ? t.usualLast : t.usual, { date: fmtDate(t, dateOfDoy(d, now.getUTCFullYear()), false), year });
   const from = name(leg.prev[4]), to = name(leg.next[4]);
   const journey = from === to ? to : fill(t.journey, { from, to, date: fmtDate(t, arrive, false) });
-  const toward = dest ? fill(t.toward, { place: to, dist: fmtDist(t, km(here, dest), lang, units) }) : "";
+  const toward = dest ? towardText(t, to, km(here, dest), lang, units) : "";
   // The short forms for the multi view's list rows: where, and when (the date of
   // the last fix, or the year of the route used; D3).
   const moving = !leg.staying && !stop && from !== to;

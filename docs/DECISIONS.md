@@ -7,7 +7,7 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 ### U1 English facts: imperial first, metric in brackets (owner, 2026-11-22)
 
 - Owner: "add imperial units and add the metric conversion in () behind in english texts with enough space to do so. where that's not possible, just use imperial units in the english text."
-- Built in the Worker (`renderFact`, `distFact` in `worker/src/view.js`): English species facts render "250 ft (75 m)" when the whole fact stays within its slot (90 short, 140 long), else imperial only; the animal's own distance facts the same ("2,122 mi (3,415 km)"). This applies whatever the Units setting says. German facts, and the computed distances outside the facts (destination line, lists), still follow the setting.
+- Built in the Worker (`renderFact`, `distFact` in `worker/src/view.js`): English species facts render "250 ft (75 m)" when the whole fact stays within its slot (90 short, 140 long), else imperial only; the animal's own distance facts the same ("2,122 mi (3,415 km)"). This applies whatever the Units setting says. Extended the same day (owner: "yes, switch those too"): the destination line also reads "806 mi (1,297 km) away" in English (else miles, within its 90 characters); the Flock View lists carry no distances. German follows the Units setting throughout, so the setting now only matters for German.
 - Count on 2026-11-22: 72 English facts carry measurements; 55 show both, 17 imperial only (no room). Every English measurement was already a `{metric|imperial}` token (scan of all English facts and templates: 0 bare units). One approved fact's article fixed for imperial first ("a 31 in (80 cm) African arrow").
 - Checks: `npm run check` 49,776 runs, 0 failures. Not seen on a device.
 
