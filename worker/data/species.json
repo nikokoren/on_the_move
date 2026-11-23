@@ -1,6 +1,6 @@
 {
  "about": "Species table (R8) for the 12 featured species (F1). Names: pipeline/species_curated.json; facts: pipeline/facts_reviewed.json (decision R8f), sources verified by pipeline/verify_sources.py. Windows and regions: computed by pipeline/build_species.py from the tracked animals listed under 'tracked' (citations in data/catalog.json). Dates are MM-DD; 'from'/'to' span the middle half of the animals. Re-run before relying on the numbers.",
- "built": "2026-11-22",
+ "built": "2026-11-23",
  "centralEuropeBox": [
   45,
   56,
@@ -219,7 +219,7 @@
       }
      },
      {
-      "text": "In 1822 a stork turned up in Germany with a {80 cm|31 in} African arrow in its neck: the first proof that storks winter in Africa.",
+      "text": "In 1822 a stork turned up in Germany with an African arrow, {80 cm|31 in} long, in its neck: the first proof that storks winter in Africa.",
       "len": "long",
       "star": true,
       "source": {
