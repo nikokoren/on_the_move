@@ -220,6 +220,13 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 - 2026-11-05: owner requested merge and deploy. Merged as `5b78ce4`; [Deploy Worker run 42100034568](https://github.com/nikokoren/on_the_move/actions/runs/42100034568) finished **Success** (37 seconds total), confirming required Worker checks and deployment. No settings or template update required. Physical-device appearance remains unverified.
 - Today (2026-10-23): English 4 to 10 short and 4 to 6 long per species; German 4 to 8 short and 3 to 6 long.
 
+### O5 Flock View layout overflows on the X in portrait (found 2026-11-23, open)
+
+- Render sweep of the Flock View (multi layout, 12 slots, en, 2026-04-20 and 2026-10-10, full and half views, X landscape and portrait): 130/144 on the branch for F3/U1. Failures, all on the X in portrait:
+  - half horizontal: list overflows by 3 to 55 px with one row and a photo (13 cases on the branch; the same check on main at origin/main gives 15 failures, so this predates F3/U1);
+  - half vertical: the broad-winged hawk "Ottauquechee" card clips its name, place and destination by 16 px (1 case; also fails at 963c108, before U1, so the new species' slot order exposed it).
+- To do: fit the portrait half views (shrink the photo or text, or drop the photo row), then rerun this sweep.
+
 ### O2 Publish the templates through TRMNL's API (owner, 2026-10-03; planned, not started)
 
 - TRMNL has a public API (https://trmnl.com/api-docs, spec `https://trmnl.com/api-docs/openapi.yaml`, read 2026-10-03, bearer auth with an API key): `PUT /api/plugin_settings/{id}/files` replaces a private plugin's files in one call (settings.yml required, markup files by name, "a markup file left out keeps its current content"); `PUT /api/plugin_settings/{id}/markup/{size}` writes one layout; `POST /api/plugin_settings/{id}/screenshots` renders a preview per layout and device model (`og`, …).
