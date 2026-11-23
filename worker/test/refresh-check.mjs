@@ -157,7 +157,12 @@ check("poll: photo off sends an empty photo", noPhoto.photo === "", JSON.stringi
 // Units (owner, 2026-09-29): imperial turns the pill's distance into miles.
 const imp = await (await handle(new Request("https://x/full?species=lesser_black_backed_gull&units=imperial"), { KV: kv() }, NOW)).json();
 const met = await (await handle(new Request("https://x/full?species=lesser_black_backed_gull"), { KV: kv() }, NOW)).json();
-check("poll: units imperial in miles, default in km", / mi away$/.test(imp.toward) && / km away$/.test(met.toward), `${imp.toward} | ${met.toward}`);
+// English shows miles first with km in brackets either way (owner, 2026-11-22, decision U1);
+// German follows the setting.
+check("poll: English distance miles first (km) whatever the setting", /\smi \([\d,]+\skm\) away$/.test(imp.toward) && imp.toward === met.toward, `${imp.toward} | ${met.toward}`);
+const impDe = await (await handle(new Request("https://x/full?species=lesser_black_backed_gull&lang=deutsch&units=imperial"), { KV: kv() }, NOW)).json();
+const metDe = await (await handle(new Request("https://x/full?species=lesser_black_backed_gull&lang=deutsch"), { KV: kv() }, NOW)).json();
+check("poll: German units imperial in Meilen, default in km", / Meilen entfernt$/.test(impDe.toward) && / km entfernt$/.test(metDe.toward), `${impDe.toward} | ${metDe.toward}`);
 // Flock View (owner, 2026-09-30): a boolean, on by default (empty before the settings are saved).
 const three = "&species=" + encodeURIComponent("white_stork,loggerhead_turtle,lesser_black_backed_gull");
 const multi = await (await handle(new Request("https://x/full?layout=true" + three), { KV: kv() }, NOW)).json();

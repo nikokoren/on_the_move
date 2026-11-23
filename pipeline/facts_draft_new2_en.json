@@ -1,0 +1,1197 @@
+{
+ "lang": "en",
+ "about": "Round 2 for the 13 new species (2026-11-22): top-ups for pools left thin by the owner's round-1 vetoes, and rewrites of facts the owner sent back (field 'replaces'). Pending owner review.",
+ "species": {
+  "Bubo scandiacus": {
+   "short": [
+    {
+     "id": "enn2-s-owl-wings",
+     "text": "No owl in North America has longer wings than the snowy owl: a female's can span {1.8 m|6 ft}.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": [
+       "This species is the heaviest and longest winged owl (as well as the second longest) in North America, the second heaviest and longest winged owl in Europe (and third longest) but is outsized in bulk by 3 or 4 other species in Asia.",
+       "Female wingspans have reportedly measured from 146 to 183 cm (4 ft 9 in to 6 ft 0 in) , with a mean of 159 cm (5 ft 3 in) ."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     },
+     "replaces": "enn-s-owl-heaviest"
+    },
+    {
+     "id": "enn2-s-owl-feather-coat",
+     "text": "A snowy owl's dense feather coat makes it one of the best-insulated animals of the Arctic.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "The snowy owl has perhaps the second lowest thermal conduction to the plumage on average of any bird after only the Adelie penguin ( Pygoscelis adeliae ) and rivals the best insulated mammals, such as Dall sheep ( Ovis dalli ) and Arctic fox , as the best insulated polar creature.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     },
+     "replaces": "enn-s-owl-insulation"
+    },
+    {
+     "id": "enn2-s-owl-two-species",
+     "text": "Males are near-white, females heavily spotted: naturalists once took them for two species.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": [
+       "Linnaeus originally described the different plumages of this owl as separate species, with the male specimens of snowy owls being considered Strix scandiaca and the likely females considered as Strix nyctea .",
+       "The adult female is usually considerably more spotted and often slightly barred with dark brown on the crown and the underparts."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     },
+     "replaces": "enn-s-owl-linnaeus"
+    },
+    {
+     "id": "enn2-s-owl-far-sight",
+     "text": "A snowy owl's huge eyes are built to spot prey far away rather than up close.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": [
+       "Owls' eyes are large and round, which are nearly the same size in large species such as the snowy owl as those of humans.",
+       "Based on the study of dioptres in different owl species, the snowy owl was determined to have eyesight better suited to long-range perception than to close discrimination, while some related species such as great horned owls could probably more successfully perceive closer objects."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     },
+     "replaces": "enn-s-owl-eyes"
+    },
+    {
+     "id": "enn2-s-owl-bark",
+     "text": "A snowy owl's hoot sounds like a barking dog: 'krooh krooh krooh krooh'.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "The main vocalization is a monotonous sequence that normally contains 2–6 (but occasionally more), rough notes similar to the rhythm of a barking dog: krooh krooh krooh krooh .",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-owl-nomads",
+     "text": "Snowy owls are nomads: they rarely nest in the same place, or with the same mate, twice.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "The snowy owl is a nomadic bird, rarely breeding at the same locations or with the same mates on an annual basis and often not breeding at all if prey is unavailable.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-owl-moths",
+     "text": "Guarding its nest, a snowy owl flies with stiff raised wings, like an enormous white moth.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "Nesting territory defense displays, not highly different from courtship displays, include undulating flight and stiffly raised wings with bouts of exaggerated, delayed wing beats, looking like enormous white moths exposing their white wings under the sun.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-owl-stay-or-go",
+     "text": "In winter, a female snowy owl may hold one spot for 80 days; males move on within days.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "It is known that during winter in Alberta that female snowy owls are territorial towards one another and may not leave an area for up to 80 days but males are nomadic, usually only staying 1–2 days in an area (seldom to 3–17 days).",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-owl-nest-builder",
+     "text": "The snowy owl is one of the few owls that builds a nest of its own.",
+     "source": {
+      "title": "Owl Research Institute, Snowy Owl",
+      "url": "https://www.owlresearchinstitute.org/snowy-owl",
+      "quote": "One of the few species of owl that builds its own nest",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": []
+  },
+  "Cygnus columbianus": {
+   "short": [
+    {
+     "id": "enn2-s-swan-columbia",
+     "text": "Its scientific name, columbianus, is for the Columbia River, where it was first described.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "Cygnus is the Latin for \"swan\", and columbianus comes from the Columbia River , the type locality .",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     },
+     "replaces": "enn-s-swan-columbia"
+    }
+   ],
+   "long": [
+    {
+     "id": "enn2-l-swan-lewis",
+     "text": "Lewis and Clark met this swan on their expedition west, on the Columbia River. Meriwether Lewis named it the 'whistling swan' for its call.",
+     "source": {
+      "title": "Journals of the Lewis and Clark Expedition, March 9, 1806",
+      "url": "https://lewisandclarkjournals.unl.edu/item/lc.jrn.1806-03-09",
+      "quote": [
+       "from the peculiar whistleing of the note of this bird I have called it the whistleing swan it's habits colour and contour appear to be precisely those of the large Swan.",
+       "we first saw them below the great narrows of the Columbia near the Chilluckkittequaw nation.",
+       "The tundra, or whistling, swan."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     },
+     "replaces": "enn-l-swan-lewis"
+    },
+    {
+     "id": "enn2-l-swan-gray-cygnets",
+     "text": "Young tundra swans fly south as big as their parents but brownish-gray. By the time they fly back to the tundra in spring, they are white.",
+     "source": {
+      "title": "Chesapeake Bay Program, Field Guide: Tundra Swan",
+      "url": "https://www.chesapeakebay.net/discover/field-guide/entry/tundra-swan",
+      "quote": [
+       "Cygnets are as large as adults but are brownish-gray.",
+       "They molt to white by late winter or early spring, when the swans return to the tundra to breed."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-swan-nest-mound",
+     "text": "Tundra swan pairs build their nest together: a mound of plants, lichens and moss. They keep adding to it and often reuse it for years.",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, Tundra Swan species profile",
+      "url": "https://www.fws.gov/species/tundra-swan-cygnus-columbianus",
+      "quote": [
+       "Both the male and female build the nest.",
+       "The nest consists of mounded vegetation made of a variety of plants, lichens and moss.",
+       "The pair will continue to work on the nest through incubation, and with such effort put into the nest, they frequently use the nest for multiple seasons."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-swan-heard-first",
+     "text": "Tundra swans migrate in V-shaped or ribbon-like flocks that you often hear before you see: a high, whooping 'woo-hoo, woo-hoo'.",
+     "source": {
+      "title": "Chesapeake Bay Program, Field Guide: Tundra Swan",
+      "url": "https://www.chesapeakebay.net/discover/field-guide/entry/tundra-swan",
+      "quote": [
+       "Tundra swans migrate in large V-shaped or ribbon-like flocks.",
+       "Flocks are often heard before they can be seen.",
+       "The tundra swan makes a high, whooping woo-hoo, woo-hoo, woo-hoo."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-swan-tipping-up",
+     "text": "To reach underwater grasses, a tundra swan plunges its head and long neck below the surface, often tipping its tail up in the air.",
+     "source": {
+      "title": "Chesapeake Bay Program, Field Guide: Tundra Swan",
+      "url": "https://www.chesapeakebay.net/discover/field-guide/entry/tundra-swan",
+      "quote": "It feeds by submerging its head and neck underwater to reach its food, sometimes “tipping up” its tail in the process.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-swan-straight-neck",
+     "text": "On Chesapeake Bay, a tundra swan is easy to tell from the year-round mute swan: black bill, straight neck, and gone again by spring.",
+     "source": {
+      "title": "Chesapeake Bay Program, Field Guide: Tundra Swan",
+      "url": "https://www.chesapeakebay.net/discover/field-guide/entry/tundra-swan",
+      "quote": [
+       "You can distinguish a tundra swan by its black bill and straight neck.",
+       "Also, tundra swans are only found in the Bay region from late autumn through early spring, while mute swans live here year-round."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Balaena mysticetus": {
+   "short": [],
+   "long": [
+    {
+     "id": "enn2-l-bowhead-tail-strike",
+     "text": "Killer whales hunt bowheads, but bowheads fight back: some have killed attacking orcas with blows of their tails. Inuit have a word for it.",
+     "source": {
+      "title": "Wikipedia (en), Bowhead whale",
+      "url": "https://en.wikipedia.org/wiki/Bowhead_whale",
+      "quote": [
+       "However, there are also cases where bowhead whales have killed attacking orcas by striking their heads with the tip of their tail fins.",
+       "Inuit have a traditional word for this behavior to give historical context that this is not a new phenomenon."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-bowhead-nursery",
+     "text": "In summer, northern Foxe Basin in Nunavut is a bowhead nursery: most of the whales gathered there are mothers with calves and young whales.",
+     "source": {
+      "title": "Wikipedia (en), Bowhead whale",
+      "url": "https://en.wikipedia.org/wiki/Bowhead_whale",
+      "quote": "Cow – calf pairs and juveniles up to 13.5 m (44 ft) in length make up the majority of summering aggregation in the northern Foxe Basin, while matured males and noncalving females may use the northwestern part of Hudson Bay.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-bowhead-echoes",
+     "text": "Bowheads are chatty whales. On migration they listen to the echoes of their own calls to find food and to find a way through the sea ice.",
+     "source": {
+      "title": "NOAA Fisheries, Bowhead Whale",
+      "url": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+      "quote": [
+       "Bowhead whales are highly vocal and have a large variety of calls.",
+       "The echoes of some of their calls are used to help the whales find food and navigate through the ice as they migrate."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-bowhead-chin-patch",
+     "text": "A bowhead is born with its white chin patch, which grows with the whale. Its other white patches, on the tail and by the eyes, come later.",
+     "source": {
+      "title": "Wikipedia (en), Bowhead whale",
+      "url": "https://en.wikipedia.org/wiki/Bowhead_whale",
+      "quote": [
+       "The skin is mostly black with white patches around the flukes, tail, eyes, and chin.",
+       "These patches develop throughout life, with the exception of the patch surrounding the chin, which is usually visible in newborn calves, and increases in size at the same rate as the whale's overall growth."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-bowhead-breath",
+     "text": "A bowhead can stay under for up to an hour, though most dives last 9 to 18 minutes. It is no deep diver: about {150 m|500 ft} at most.",
+     "source": {
+      "title": "Wikipedia (en), Bowhead whale",
+      "url": "https://en.wikipedia.org/wiki/Bowhead_whale",
+      "quote": [
+       "It is able to dive and remain submerged under water for up to an hour.",
+       "The time spent under water in a single dive is usually limited to 9–18 minutes.",
+       "The bowhead is not thought to be a deep diver, but can reach a depth down to 150 m (500 ft) ."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Aquila chrysaetos": {
+   "short": [
+    {
+     "id": "enn2-s-eagle-widespread",
+     "text": "The golden eagle is the most widespread eagle on Earth, across the Northern Hemisphere.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": [
+       "The golden eagle ( Aquila chrysaetos ) is a bird of prey living in the Northern Hemisphere .",
+       "It is the most widely distributed species of eagle ."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     },
+     "replaces": "enn-s-eagle-range"
+    },
+    {
+     "id": "enn2-s-eagle-booted",
+     "text": "Golden eagles are 'booted eagles': their legs are feathered, unlike most hawks' bare legs.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "The golden eagle is part of a broad group of raptors called \"booted eagles\" which are defined by the feature that all species have feathering over their tarsus , unlike many other accipitrids which have bare legs.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-eagle-hawk-size",
+     "text": "A female golden eagle has double the wingspan of a midsize hawk and five times its weight.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "However, a mid-sized Buteo is dwarfed by a golden eagle, as an adult female eagle has about double the wingspan and about five times the weight.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-eagle-glide",
+     "text": "A golden eagle soars at about {50 km/h|30 mph}, but hunting, it can glide at {190 km/h|120 mph}.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": [
+       "A typical, unhurried soaring speed in golden eagles is around 45–52 kilometres per hour (28–32 mph) .",
+       "When hunting or displaying, the golden eagle can glide very fast, reaching speeds of up to 190 kilometres per hour (120 mph) ."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": []
+  },
+  "Tringa flavipes": {
+   "short": [
+    {
+     "id": "enn2-s-yellowlegs-treetop",
+     "text": "In Alaska, lesser yellowlegs sing from the tops of spruce trees, like backyard robins.",
+     "source": {
+      "title": "BirdNote, Singing Sandpipers",
+      "url": "https://birdnote.org/node/11146",
+      "quote": "That’s right – a sandpiper perched at the top of a tree like our backyard robins – singing its caroling song.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-yellowlegs-scrapes",
+     "text": "A lesser yellowlegs may dig up to 75 nest scrapes before settling on one.",
+     "source": {
+      "title": "Animal Diversity Web (University of Michigan), Tringa flavipes",
+      "url": "https://animaldiversity.org/accounts/Tringa_flavipes/",
+      "quote": "They may dig and line up to 75 nest scrapes before deciding on a final one.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-yellowlegs-kip",
+     "text": "Alarmed, a lesser yellowlegs gives a sharp 'kip' call and bobs its head and tail.",
+     "source": {
+      "title": "Animal Diversity Web (University of Michigan), Tringa flavipes",
+      "url": "https://animaldiversity.org/accounts/Tringa_flavipes/",
+      "quote": "They use a sharp \"kip\" alarm call that is accompanied by bobbing of the tail and head.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-yellowlegs-robin",
+     "text": "A lesser yellowlegs is about the size of a robin, perched on long, bright yellow legs.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Lesser Yellowlegs",
+      "url": "https://www.audubon.org/field-guide/bird/lesser-yellowlegs",
+      "quote": [
+       "Size About the size of a Robin",
+       "The Lesser Yellowlegs is slender, with bright yellow legs."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-yellowlegs-speed",
+     "text": "Its flight looks lazy, but a lesser yellowlegs can fly at up to {75 km/h|47 mph}.",
+     "source": {
+      "title": "Animal Diversity Web (University of Michigan), Tringa flavipes",
+      "url": "https://animaldiversity.org/accounts/Tringa_flavipes/",
+      "quote": "Lesser yellowlegs walk with a quick, graceful gait and their flight has been described as languid, although they can fly up to 75 km per hour.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-yellowlegs-follow-me",
+     "text": "Parents lead their chicks to food by flying ahead, landing and calling them over.",
+     "source": {
+      "title": "Animal Diversity Web (University of Michigan), Tringa flavipes",
+      "url": "https://animaldiversity.org/accounts/Tringa_flavipes/",
+      "quote": "Parents lead young to foraging areas by flying ahead, landing, and then calling to the young.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-yellowlegs-sunbathe",
+     "text": "Lesser yellowlegs sleep on one leg, bill tucked in, and droop their wings to sunbathe.",
+     "source": {
+      "title": "Animal Diversity Web (University of Michigan), Tringa flavipes",
+      "url": "https://animaldiversity.org/accounts/Tringa_flavipes/",
+      "quote": "They sleep with one leg and their bill tucked into their feathers and may drop their wings to sun themselves.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-yellowlegs-homecoming",
+     "text": "Up to 65% of lesser yellowlegs come back to the same area to nest each year.",
+     "source": {
+      "title": "Animal Diversity Web (University of Michigan), Tringa flavipes",
+      "url": "https://animaldiversity.org/accounts/Tringa_flavipes/",
+      "quote": "Lesser yellowlegs have fairly high site fidelity, with up to 65% of individuals returning to the same area to breed each year.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn2-l-yellowlegs-dads",
+     "text": "Lesser yellowlegs mothers usually stay with their chicks for about 11 days. Fathers keep watch for about 26 days, until the young can fly.",
+     "source": {
+      "title": "Animal Diversity Web (University of Michigan), Tringa flavipes",
+      "url": "https://animaldiversity.org/accounts/Tringa_flavipes/",
+      "quote": [
+       "Both parents continue to protect the young until they fledge or a few days longer, although females may abandon males with the young.",
+       "Females generally stay with the young for about 11 days after hatching, males stay with them for about 26 days after hatching."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-yellowlegs-sky-dance",
+     "text": "To claim a territory, a male lesser yellowlegs climbs to {75 m|250 ft}, then glides down, tail spread, legs dangling, singing 'pill-e-wee'.",
+     "source": {
+      "title": "Animal Diversity Web (University of Michigan), Tringa flavipes",
+      "url": "https://animaldiversity.org/accounts/Tringa_flavipes/",
+      "quote": [
+       "Breeding males and females also perform a song, described as \"pill-e-wee\" repeated, but only males perform a flight display to advertise breeding territories.",
+       "Flight displays involve a male flying to 10 to 75 m, then leveling off and gliding down while spreading the tail, dangling the legs, and elevating the head."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-yellowlegs-commute",
+     "text": "While nesting, a lesser yellowlegs pair commutes together every day to the same feeding spot, up to {13 km|8 mi} from the nest.",
+     "source": {
+      "title": "Animal Diversity Web (University of Michigan), Tringa flavipes",
+      "url": "https://animaldiversity.org/accounts/Tringa_flavipes/",
+      "quote": "During the breeding season, male and female mates travel daily to the same foraging area, up to 13 km from their nest.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-yellowlegs-leaving-order",
+     "text": "In late summer the lesser yellowlegs leave in turns: females and birds whose nests failed go first, then the males, and the young ones last.",
+     "source": {
+      "title": "Animal Diversity Web (University of Michigan), Tringa flavipes",
+      "url": "https://animaldiversity.org/accounts/Tringa_flavipes/",
+      "quote": "Females and individuals who weren't successful breeding begin migrating first, followed by males and then juveniles.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-yellowlegs-confusing",
+     "text": "Lesser and greater yellowlegs look identical but for size, 'as if put on earth only to confuse birdwatchers'. They act differently, though.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Lesser Yellowlegs",
+      "url": "https://www.audubon.org/field-guide/bird/lesser-yellowlegs",
+      "quote": [
+       "At first glance, the two species of yellowlegs look identical except for size, as if they were put on earth only to confuse birdwatchers.",
+       "With better acquaintance, they turn out to have different personalities."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-yellowlegs-lookouts",
+     "text": "On the nesting grounds, lesser yellowlegs spend much time perched high in spruce trees, and protest loudly if anyone comes near the nest.",
+     "source": {
+      "title": "Mark A. Chappell (UC Riverside), Lesser yellowlegs photo gallery",
+      "url": "https://faculty.ucr.edu/~chappell/INW/birds2/yellowlegsintree.shtml",
+      "quote": [
+       "They nest in wet boreal forests and spend a lot of time perched high in spruce trees, as some of these birds are doing.",
+       "Nesting birds will protest vigorously if an intruder (such as a person) gets anywhere near their nests."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-yellowlegs-two-notes",
+     "text": "Count the notes: a lesser yellowlegs' alarm call usually has two, while its look-alike, the greater yellowlegs, gives three or more.",
+     "source": {
+      "title": "Mark A. Chappell (UC Riverside), Lesser yellowlegs photo gallery",
+      "url": "https://faculty.ucr.edu/~chappell/INW/birds2/yellowlegsintree.shtml",
+      "quote": "Also, the two species have different alarm calls: the lesser typically gives a two-note call while the greater gives three or more notes.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Mycteria americana": {
+   "short": [
+    {
+     "id": "enn2-s-woodstork-crowded",
+     "text": "Wood storks nest in crowds: up to 25 nests can share a single tree.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "It nests colonially , with up to 25 nests in one tree.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-woodstork-pelican",
+     "text": "In flight, a wood stork's black and white wings can make it look like a pelican.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Wood Stork",
+      "url": "https://www.audubon.org/field-guide/bird/wood-stork",
+      "quote": "In flight, black and white wing pattern may look like an American White Pelican.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-woodstork-bald",
+     "text": "Wood storks aren't born bald: young birds have feathered heads and yellow bills.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "When fledged, they resemble the adult, differing only in that they have a feathered head and a yellow bill.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn2-l-woodstork-parasol",
+     "text": "Under the hot sun on an open treetop nest, wood stork parents spread their wings over the chicks like parasols.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "In hot weather, breeding adults will also shade their chicks with their wings.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-woodstork-greenery",
+     "text": "Wood storks don't stop at sticks: they line their nests with fresh green twigs and leaves, which help insulate the nest.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": [
+       "The greenery usually starts to be added before the eggs are laid, but after the main structure of twigs is completed.",
+       "This greenery functions to help insulate the nest."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-woodstork-turns",
+     "text": "Wood stork parents take turns on the eggs and never leave them alone. The bird off duty flies out to feed, drink and fetch nest material.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": [
+       "During the first week of incubation, the parents do not go far from the colony, with the exception of the short trips to forage, drink, and collect nesting material carried out by the nonincubating bird.",
+       "After the first week, the nonincubating bird spends less time in the colony, although the eggs are never left unattended."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Fratercula arctica": {
+   "short": [],
+   "long": [
+    {
+     "id": "enn2-l-puffin-rabbits",
+     "text": "Puffins dig their own burrows with beak and feet, but they also move into rabbit burrows, pecking and driving off the owners.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "They can excavate their own hole or move into a pre-existing system dug by a rabbit , and have been known to peck and drive off the original occupant.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-puffin-firstnight",
+     "text": "A puffin chick leaves its burrow for the first time at night, scrambles down to the sea, and paddles about {3 km|1.9 mi} out by daybreak.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": [
+       "The chick finally leaves its nest at night, when the risk of predation is at its lowest.",
+       "When the moment arrives, it emerges from the burrow, usually for the first time, and walks, runs, and flaps its way to the sea.",
+       "It cannot fly properly yet, so descending a cliff is perilous; when it reaches the water, it paddles out to sea, and maybe 3 km (1.9 mi) away from the shore by daybreak."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-puffin-workout",
+     "text": "Alone in the dark burrow, a puffin chick works out: it flaps its little wings, tugs at roots and pushes hard against the walls.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "It rearranges its nesting material, picks up and drops small stones, flaps its immature wings, pulls at protruding root ends, and pushes and strains against the unyielding wall of the burrow.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-puffin-panic",
+     "text": "If one puffin takes off in a fright, panic can sweep the colony: every bird launches into the air and wheels around in a great circle.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "If a bird is startled and takes off unexpectedly, panic can spread through the colony with all the birds launching themselves into the air and wheeling around in a great circle.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-puffin-camouflage",
+     "text": "A puffin's black back and white belly are camouflage: from above it blends with the dark sea, from below with the bright sky.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "This provides camouflage , with aerial predators unable to locate the birds against the dark, watery background, and underwater attackers fail to notice them as they blend in with the bright sky above the waves.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Tryngites subruficollis": {
+   "short": [
+    {
+     "id": "enn2-s-sandpiper-sod",
+     "text": "On the Texas coast, migrating buff-breasted sandpipers favor sod farms, where lawns grow.",
+     "source": {
+      "title": "USGS Publications Warehouse: Rodkey et al. 2024, Sod farms drive habitat selection of a migratory grassland shorebird",
+      "url": "https://pubs.usgs.gov/publication/70258641",
+      "quote": "Using tracking data from 118 birds compiled over 4 years, we found Buff-breasted Sandpipers selected intensively managed crops such as sod and short-stature crop fields, but generally avoided rangeland and areas near trees and shrubs.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-sandpiper-tame",
+     "text": "Buff-breasted sandpipers are often surprisingly tame, so birders can get a close look.",
+     "source": {
+      "title": "Wikipedia, Buff-breasted sandpiper",
+      "url": "https://en.wikipedia.org/wiki/Buff-breasted_sandpiper",
+      "quote": "They are often very tame.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-sandpiper-stepping",
+     "text": "A buff-breasted sandpiper hunts with a high-stepping walk, bobbing its head to spot prey.",
+     "source": {
+      "title": "BirdWeb (Birds Connect Seattle), Buff-breasted Sandpiper",
+      "url": "https://birdweb.org/Birdweb/bird/buff-breasted_sandpiper",
+      "quote": "While foraging, they walk steadily along with a high-stepping gait, bobbing their elevated heads looking for prey on the ground.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn2-l-sandpiper-cattle",
+     "text": "In South America, buff-breasted sandpipers winter almost only on pastures, where grazing cattle keep the grass short enough for them.",
+     "source": {
+      "title": "USGS Publications Warehouse: Lanctot et al. 2002, Conservation status of the buff-breasted sandpiper in South America",
+      "url": "https://pubs.usgs.gov/publication/70185425",
+      "quote": "Buff-breasted Sandpipers were found almost exclusively in pasturelands and appear to depend heavily upon intensive grazing by livestock, which maintain suitable short grass conditions.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-sandpiper-ranchers",
+     "text": "In Uruguay, cattle still graze on native grasslands. Biologists work with ranchers there to keep pastures good for both cows and sandpipers.",
+     "source": {
+      "title": "BirdNote, Ranching and Birding in Uruguay go Hand-in-Hand (2022)",
+      "url": "https://birdnote.org/node/17287",
+      "quote": [
+       "Uruguay, Nicolás is saying here, is a country that does ranching in a natural system.",
+       "A kind of approach that makes sure pastures for livestock also help host birds like the Buff-breasted Sandpiper, which spend their winters here."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-sandpiper-rice",
+     "text": "Each spring, rice fields on the Gulf Coast of Louisiana and Texas are vital rest stops for buff-breasted sandpipers heading north.",
+     "source": {
+      "title": "USGS Publications Warehouse: Norling et al. 2012, Shorebird populations during spring stopover in rice fields of Louisiana and Texas",
+      "url": "https://pubs.usgs.gov/publication/70048861",
+      "quote": [
+       "Greater than 50% of the estimated North American populations were estimated to use rice field habitats for five species, including a species of concern, Buff-breasted Sandpiper (Tryngites subruficollis) at 187%.",
+       "Because of predictability of suitable rice field habitat acreage, timing of field preparation and water availability, coastal rice prairies are identified as critical spring migration stopover sites."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-sandpiper-firstflight",
+     "text": "Buff-breasted sandpiper chicks can fly at just 16 to 20 days old. In fall the adults usually head south first, and the young follow later.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Buff-breasted Sandpiper",
+      "url": "https://www.audubon.org/field-guide/bird/buff-breasted-sandpiper",
+      "quote": [
+       "Age at first flight about 16-20 days.",
+       "Adults migrate south earlier in fall than juveniles, on average."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Stercorarius longicaudus": {
+   "short": [
+    {
+     "id": "enn2-s-jaeger-skip",
+     "text": "When lemmings are scarce, long-tailed jaegers may skip nesting and go back to sea.",
+     "source": {
+      "title": "Bylot Island long-term monitoring (Centre d'études nordiques, Université Laval), Long-tailed jaeger",
+      "url": "https://bylot.cen.ulaval.ca/en/animaljaeger.php",
+      "quote": [
+       "Their breeding is strongly influenced by the abundance of prey and can choose not to breed when lemming populations are too low.",
+       "After a few days defending their territory, if the birds decide not to breed, they will return to the sea."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-jaeger-nonest",
+     "text": "Long-tailed jaegers build no nest: their eggs lie in a bare scrape on the tundra.",
+     "source": {
+      "title": "Bylot Island long-term monitoring (Centre d'études nordiques, Université Laval), Long-tailed jaeger",
+      "url": "https://bylot.cen.ulaval.ca/en/animaljaeger.php",
+      "quote": [
+       "They lay eggs in a shallow depression directly on the ground.",
+       "They do not use any nest material and do not build any nest structure allowing them to be very cryptic."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-jaeger-eggs",
+     "text": "Long-tailed jaeger eggs are so well camouflaged that even experts struggle to find them.",
+     "source": {
+      "title": "Bylot Island long-term monitoring (Centre d'études nordiques, Université Laval), Long-tailed jaeger",
+      "url": "https://bylot.cen.ulaval.ca/en/animaljaeger.php",
+      "quote": [
+       "The greenish color of eggs helps to camouflage the nest.",
+       "Even for experimented observers, jaeger eggs are quite difficult to locate in the vast arctic tundra."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-jaeger-pellets",
+     "text": "A long-tailed jaeger swallows lemmings whole, then coughs up the bones and fur as pellets.",
+     "source": {
+      "title": "Bylot Island long-term monitoring (Centre d'études nordiques, Université Laval), Long-tailed jaeger",
+      "url": "https://bylot.cen.ulaval.ca/en/animaljaeger.php",
+      "quote": "As with most avian predators, the long-tailed jaeger swallows its prey whole but rejects the indigestible parts (bones, hair, claws, feathers, etc.) in pellets that can be analysed to determine their diet.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-jaeger-chicks",
+     "text": "Long-tailed jaeger chicks leave the nest a day or two after hatching to catch insects.",
+     "source": {
+      "title": "Bylot Island long-term monitoring (Centre d'études nordiques, Université Laval), Long-tailed jaeger",
+      "url": "https://bylot.cen.ulaval.ca/en/animaljaeger.php",
+      "quote": [
+       "Newly hatched long-tailed jaegers are ‘precocial’, meaning that they leave the nest and move by themselves only 24 to 48 hours after hatching.",
+       "This allows young to feed by themselves on arthropods."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn2-l-jaeger-reunion",
+     "text": "Long-tailed jaeger partners migrate separately, then meet again on their tundra territory each summer. Some pairs stay together for years.",
+     "source": {
+      "title": "Bylot Island long-term monitoring (Centre d'études nordiques, Université Laval), Long-tailed jaeger",
+      "url": "https://bylot.cen.ulaval.ca/en/animaljaeger.php",
+      "quote": [
+       "Males and females long-tailed jaegers do not migrate together, but partners meet again each summer on their breeding site.",
+       "Some couples will breed together for many years."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-jaeger-landbird",
+     "text": "Long-tailed jaegers spend most of their lives at sea, eating fish. But in summer they turn into land birds that hunt lemmings on the tundra.",
+     "source": {
+      "title": "Bylot Island long-term monitoring (Centre d'études nordiques, Université Laval), Long-tailed jaeger",
+      "url": "https://bylot.cen.ulaval.ca/en/animaljaeger.php",
+      "quote": [
+       "Since the long-tailed jaeger is a seabird, it spends most of its life at sea.",
+       "However, as the summer approaches, its lifestyle changes drastically to become exclusively terrestrial.",
+       "While its winter diet consists mostly of small fishes and surface marine invertebrates, breeding birds feed exclusively on terrestrial prey during the summer."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-jaeger-lookout",
+     "text": "A jaeger pair nests on a small mound to keep watch for arctic foxes, and chases off any intruder within about {1 km²|0.4 sq mi} of the nest.",
+     "source": {
+      "title": "Bylot Island long-term monitoring (Centre d'études nordiques, Université Laval), Long-tailed jaeger",
+      "url": "https://bylot.cen.ulaval.ca/en/animaljaeger.php",
+      "quote": [
+       "Their nest is usually found on a small mount where they can keep an eye on their territory and protect their nest from predators, mainly the arctic fox.",
+       "Jaegers attack and chase away any intruders that come within an area of approximately 1 km 2 from their nest."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Cervus elaphus": {
+   "short": [
+    {
+     "id": "enn2-s-elk-moose-bigger",
+     "text": "Of all the world's deer, only the moose is bigger than the elk.",
+     "source": {
+      "title": "Wikipedia, Elk",
+      "url": "https://en.wikipedia.org/wiki/Elk",
+      "quote": "The elk is the second largest extant species of deer, after the moose .",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-elk-tusks",
+     "text": "An elk's two 'ivory' teeth may be relics of saber-like tusks its ancestors fought with.",
+     "source": {
+      "title": "Rocky Mountain Elk Foundation, Elk Facts",
+      "url": "https://www.rmef.org/elk-facts/",
+      "quote": [
+       "An elk’s top two canine teeth are called ivories",
+       "Scientists believe ivories are remnants of saber-like tusks that ancestral species of elk used in combat"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-s-elk-hiss",
+     "text": "An angry elk curls back its upper lip, grinds its teeth and hisses softly.",
+     "source": {
+      "title": "Rocky Mountain Elk Foundation, Elk Facts",
+      "url": "https://www.rmef.org/elk-facts/",
+      "quote": "Elk threaten each other by curling back their upper lip, grinding their teeth and hissing softly",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn2-l-elk-chinook",
+     "text": "Warm chinook winds roar down the Ya Ha Tinda valley and blow the snow off its grassland, so the elk can reach the grass all winter.",
+     "source": {
+      "title": "Dryad, Ya Ha Tinda elk dataset (Hebblewhite et al.)",
+      "url": "https://datadryad.org/dataset/doi:10.5061/dryad.6wwpzgmw7",
+      "quote": "In winter, Chinooks (warm air and high winds) clear snow from the grassland acting as a refuge for ungulates.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-elk-olympic",
+     "text": "Coastal Roosevelt elk are named for Theodore Roosevelt. In 1909, as president, he protected their home as Mount Olympus National Monument.",
+     "source": {
+      "title": "Wikipedia, Roosevelt elk",
+      "url": "https://en.wikipedia.org/wiki/Roosevelt_elk",
+      "quote": [
+       "Hart Merriam named the subspecies after his friend Theodore Roosevelt",
+       "The desire to protect the Roosevelt elk was one of the primary forces behind the establishment of the Mount Olympus National Monument in 1909 by President Theodore Roosevelt."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-elk-talk",
+     "text": "Elk are among the noisiest hoofed animals. Cows chat in chirps and mews, bark to warn of danger, and know their calves by their squeals.",
+     "source": {
+      "title": "Rocky Mountain Elk Foundation, Elk Facts",
+      "url": "https://www.rmef.org/elk-facts/",
+      "quote": [
+       "Elk are among the noisiest ungulates, communicating danger quickly and identifying each other by sound.",
+       "High-pitched squeal: Newborn to its mother, who recognizes her calf by its voice.",
+       "Cows bark to warn others of danger"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Odocoileus hemionus": {
+   "short": [],
+   "long": [
+    {
+     "id": "enn2-l-deer-rescue",
+     "text": "When a fawn cries in distress, a mule deer doe comes running, even for a white-tailed fawn. White-tailed does answer only their own kind.",
+     "source": {
+      "title": "Teichroeb et al. 2013, Behavioural Processes",
+      "url": "https://europepmc.org/search?query=DOI:10.1016/j.beproc.2012.09.011",
+      "quote": [
+       "white-tailed deer females approach a speaker only when it plays distress calls of conspecific fawns",
+       "Mule deer females approach when hearing distress calls of either white-tailed deer or mule deer."
+      ],
+      "checked": "2026-11-22",
+      "europepmc": "DOI:10.1016/j.beproc.2012.09.011"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-deer-why-bounce",
+     "text": "Why bounce? A mule deer bounding on all fours clears rocks, logs and brush better than a galloping one, and gets a look at the way ahead.",
+     "source": {
+      "title": "Wild About Utah, Follow the Bouncing Deer",
+      "url": "https://wildaboututah.org/follow-the-bouncing-deer/",
+      "quote": [
+       "Stotters can clear rocks, logs and brush more effectively than gallopers.",
+       "The height gained during stotting allows the mule deer to check the surrounding vegetation along their escape path."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-deer-antler-snack",
+     "text": "Shed mule deer antlers don't go to waste. Mice, porcupines, coyotes, even bison and elk gnaw on them for calcium and other minerals.",
+     "source": {
+      "title": "NPS Theodore Roosevelt National Park, Mule Deer",
+      "url": "https://www.nps.gov/thro/learn/nature/mule-deer.htm",
+      "quote": "Mice, porcupines, coyotes, bison, elk, deer, and many other animals will chew on the the antlers throughout the year to absorb calcium and other minerals.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-deer-listen",
+     "text": "A mule deer usually smells or hears a predator before seeing it. Then it raises its head, stares hard and swivels those huge ears forward.",
+     "source": {
+      "title": "NPS Yellowstone, Mule Deer",
+      "url": "https://www.nps.gov/yell/learn/nature/mule-deer.htm",
+      "quote": "They probably smell or hear the approaching predator first; then may raise their heads high and stare hard, rotating ears forward to hear better.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn2-l-deer-blacktail",
+     "text": "Black-tailed deer of the Pacific Northwest's rainforests and mule deer of the dry West are one species. Mule deer evolved from blacktails.",
+     "source": {
+      "title": "Wikipedia, Mule deer",
+      "url": "https://en.wikipedia.org/wiki/Mule_deer",
+      "quote": [
+       "virtually all recent authorities treat the mule deer and black-tailed deer as conspecific",
+       "Mule deer apparently evolved from the black-tailed deer."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  }
+ }
+}

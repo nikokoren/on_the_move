@@ -4,6 +4,22 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
+### U1 English facts: imperial first, metric in brackets (owner, 2026-11-22)
+
+- Owner: "add imperial units and add the metric conversion in () behind in english texts with enough space to do so. where that's not possible, just use imperial units in the english text."
+- Built in the Worker (`renderFact`, `distFact` in `worker/src/view.js`): English species facts render "250 ft (75 m)" when the whole fact stays within its slot (90 short, 140 long), else imperial only; the animal's own distance facts the same ("2,122 mi (3,415 km)"). This applies whatever the Units setting says. Extended the same day (owner: "yes, switch those too"): the destination line also reads "806 mi (1,297 km) away" in English (else miles, within its 90 characters); the Flock View lists show it for the animal in focus. German follows the Units setting throughout, so the setting now only matters for German.
+- Count on 2026-11-22: 72 English facts carry measurements; 55 show both, 17 imperial only (no room). Every English measurement was already a `{metric|imperial}` token (scan of all English facts and templates: 0 bare units). One approved fact's article fixed for imperial first ("a 31 in (80 cm) African arrow").
+- Checks: `npm run check` 49,776 runs, 0 failures. Not seen on a device.
+
+### F3 Thirteen more species: eleven picks plus elk and mule deer (owner, 2026-11-21/22)
+
+- Picked by the owner from the candidates page (`docs/survey/more-candidates-2026-11.md`): snowy owl, Hudsonian whimbrel, tundra swan, bowhead whale, golden eagle, lesser yellowlegs, wood stork, Atlantic puffin, buff-breasted sandpiper, long-tailed jaeger, Sabine's gull; then elk and mule deer with a sourced storyline (`docs/survey/elk-mule-deer-2026-11.md`). Pronghorn and blue wildebeest skipped (they barely migrate in our data). All year-round tracks from the existing catalog (CC0/CC BY).
+- Setup in `pipeline/new_species.json`: names (IOC 15.2 for birds; the Alaskan whimbrels are IOC's Hudsonian Whimbrel), the animals the build picks, names for unnamed animals (N1). Photos picked by the owner on a picker page (`pipeline/new_species_images.json`, merged into `species_images.json`).
+- Short journeys get per-species build settings in `data/featured.json` (`stayKm`, `minJourneyKm`, `minSeasonKm`, `onlyStudies`, `ranges`, `mapZoom`, `globe`): elk are migrants only from the two CC0 Ya Ha Tinda studies, with named ranges (Ya Ha Tinda Ranch, Banff National Park); mule deer with Red Desert, Hoback Basin and Wyoming. The bowhead is a marine species.
+- Facts in two owner-reviewed rounds on https://claude.ai/artifact/GZgpJaZLGv7jBkpL8gzL8s: round 1 495 proposed, 323 approved (79 starred), 164 vetoed, 8 rewrites; round 2 222 proposed (top-ups and rewrites), 148 approved, 74 vetoed, one owner edit. Records: `pipeline/facts_review_new_round1.json`, `..._round2.json`; drafts `pipeline/facts_draft_new*_{en,de}.json`. One approved fact shortened by Claude to fit 140 characters in imperial units (marked `edited`).
+- Checks (2026-11-22): `npm run check` 49,776 runs, 0 failures, largest payload 1,956 bytes; render sweep of the 13 species 416/416 (four views, OG and X, en/de, two dates); longest new fact per language on every fact view, both screens, both orientations, 24/24; elk and mule deer full view with globe 12/12. Bundle 1.33 MB gzip. Not seen on a device.
+- Decided by the owner 2026-11-22: German tundra swan name stays IOC's "Zwergschwan"; the Idaho swans keep the researchers' labels "Schlepp" and "Hepton"; the changed terms of study 1229945587 (Lithuanian cranes) are not re-accepted, so `build_individuals.py` keeps that study's previous records; the snowy owl and mule deer photos stay as picked (head cropped in the half-vertical view; a buck while the tracked deer are does).
+
 ### G1 Locator globe for short journeys (owner, 2026-11-21)
 
 - Why (owner): the zebra's migration is short, so its map is zoomed far in with little context. Show a small globe, only while that animal is in focus, only on the full view.
@@ -203,6 +219,13 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 - 2026-11-05: imported round six byte-for-byte in `pipeline/facts_review_round6.json`: **10 approved, 1 vetoed**. Latest decisions replace their parent items, yielding **98 approved additions (51 English, 47 German; 39 favorites), 7 vetoes, nothing pending**. All final edits are integrated locally in `facts_reviewed.json` and the three compiled bundles; seasonal imports now merge approved general facts with their original study facts. No publish, push or deployment. The recipe has 513 species facts (279 English, 234 German). `pipeline/build_facts.py` refreshes only facts while preserving the captured annual tracks. Validation and rendered examples: [FACTS_RELEASE.md](FACTS_RELEASE.md). The broader goal of larger pools remains open; do not fill gaps by reviving vetoed items.
 - 2026-11-05: owner requested merge and deploy. Merged as `5b78ce4`; [Deploy Worker run 42100034568](https://github.com/nikokoren/on_the_move/actions/runs/42100034568) finished **Success** (37 seconds total), confirming required Worker checks and deployment. No settings or template update required. Physical-device appearance remains unverified.
 - Today (2026-10-23): English 4 to 10 short and 4 to 6 long per species; German 4 to 8 short and 3 to 6 long.
+
+### O5 Flock View layout overflows on the X in portrait (found 2026-11-23, open)
+
+- Render sweep of the Flock View (multi layout, 12 slots, en, 2026-04-20 and 2026-10-10, full and half views, X landscape and portrait): 130/144 on the branch for F3/U1. Failures, all on the X in portrait:
+  - half horizontal: list overflows by 3 to 55 px with one row and a photo (13 cases on the branch; the same check on main at origin/main gives 15 failures, so this predates F3/U1);
+  - half vertical: the broad-winged hawk "Ottauquechee" card clips its name, place and destination by 16 px (1 case; also fails at 963c108, before U1, so the new species' slot order exposed it).
+- To do: fit the portrait half views (shrink the photo or text, or drop the photo row), then rerun this sweep.
 
 ### O2 Publish the templates through TRMNL's API (owner, 2026-10-03; planned, not started)
 

@@ -1,0 +1,2143 @@
+{
+ "lang": "de",
+ "about": "Round 2 for the 13 new species (2026-11-22): top-ups for pools left thin by the owner's round-1 vetoes, and rewrites of facts the owner sent back (field 'replaces'). Pending owner review.",
+ "species": {
+  "Bubo scandiacus": {
+   "short": [],
+   "long": [
+    {
+     "id": "den2-l-owl-cold",
+     "text": "Kälte macht Schneeeulen kaum etwas aus: Eine saß bei minus {62.5 °C|80.5 °F}, ohne Unbehagen zu zeigen. Das Gefieder isoliert wie ein Eisfuchspelz.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": [
+       "having been recorded in temperatures as low as minus 62.5 degrees Celsius with no obvious discomfort",
+       "rivals the best insulated mammals, such as Dall sheep ( Ovis dalli ) and Arctic fox , as the best insulated polar creature."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-owl-polar-bears",
+     "text": "Schneeeulen verschmähen kein Aas. Manche folgen sogar Eisbären übers Eis und fressen an deren Beute mit, wenn die Bären satt sind.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "including instances of reindeer ( Rangifer tarandus ) body parts brought to nests and owls following polar bears to secondarily feed on their kills.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-owl-toddlers",
+     "text": "Junge Schneeeulen verlassen das Nest lange vor dem ersten Flug. Fast einen Monat lang tapsen die Küken durch die Tundra und verstecken sich.",
+     "source": {
+      "title": "Owl Research Institute, Snowy Owl",
+      "url": "https://www.owlresearchinstitute.org/snowy-owl",
+      "quote": "Fledglings leave the nest and spend nearly a month hiding & toddling around the tundra before they are able to fly",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-owl-ice-age",
+     "text": "In der Eiszeit lebten Schneeeulen mitten in Europa: Fossilien fand man in Deutschland, Österreich und Frankreich, sogar in Spanien.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "Fossil records shows that snowy owls once could be found in Austria, Azerbaijan, Czechoslovakia , England, France, Germany, Hungary, Italy, Poland, Sardinia and Spain",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-owl-fox",
+     "text": "Die größte bekannte Beute einer Schneeeule: ein ausgewachsener Rotfuchs von rund {6 kg|13 lb}, geschlagen im Winter in Kanada.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "A wintering snowy owl in Saskatchewan was observed to have preyed on an adult red fox ( Vulpes vulpes ) weighing around 6 kg (13 lb) which may be the largest known prey known for snowy owls.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-owl-siblings",
+     "text": "Drei Schneeeulen-Geschwister aus einem Nest trennten sich: Ein Jahr später war eine in Ontario, eine an der Hudson Bay, eine auf Sachalin.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "were recovered in drastically different spots at least a year later: one in eastern Ontario , one in Hudson Bay and one in Sakhalin Island .",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Numenius phaeopus": {
+   "short": [
+    {
+     "id": "den2-s-whimbrel-new-moon",
+     "text": "Numenius, der Gattungsname, heißt „Neumond“: wegen des sichelförmig gebogenen Schnabels.",
+     "source": {
+      "title": "Wikipedia (en), Hudsonian whimbrel",
+      "url": "https://en.wikipedia.org/wiki/Hudsonian_whimbrel",
+      "quote": "It is associated with the curlews because it appears to be derived from neos , \"new\" and mene , \"moon\", referring to the crescent-shaped bill.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-whimbrel-heart",
+     "text": "Nach langem Nonstopflug ist das Herz eines Hudsonbrachvogels bis zu ein Viertel kleiner.",
+     "source": {
+      "title": "Audubon Magazine, Biking 18,000 miles on the trail of a migrating whimbrel (2026)",
+      "url": "https://www.audubon.org/magazine/biking-18000-miles-whimbrel-migration",
+      "quote": "Even the heart can shrink by 25 percent.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-whimbrel-fat-ball",
+     "text": "Bei drei Wochen Rast in Virginia legen Hudsonbrachvögel die Hälfte an Gewicht zu.",
+     "source": {
+      "title": "NPR Weekend Edition, interview with Bryan Watts on whimbrel migration",
+      "url": "https://www.npr.org/transcripts/141177667",
+      "quote": [
+       "She comes here to Virginia and stages to build fat reserves for migration",
+       "the birds that come and stop here in the spring, for example, might come in at 350 to 400 grams.",
+       "But over a period of three weeks, the add 50 percent of that."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-whimbrel-no-sleep",
+     "text": "Hudsonbrachvögel fliegen über {8000 km|5000 mi}, ohne zu fressen, zu trinken oder zu schlafen.",
+     "source": {
+      "title": "Audubon Magazine, Biking 18,000 miles on the trail of a migrating whimbrel (2026)",
+      "url": "https://www.audubon.org/magazine/biking-18000-miles-whimbrel-migration",
+      "quote": "Whimbrels, meanwhile, can fly more than 5,000 miles without stopping to eat, drink, or sleep, and reach speeds of up to 50 miles per hour.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-whimbrel-speed",
+     "text": "Hudsonbrachvögel fliegen bis zu {80 km/h|50 mph}: schneller, als Autos in der Stadt fahren dürfen.",
+     "source": {
+      "title": "Audubon Magazine, Biking 18,000 miles on the trail of a migrating whimbrel (2026)",
+      "url": "https://www.audubon.org/magazine/biking-18000-miles-whimbrel-migration",
+      "quote": "Whimbrels, meanwhile, can fly more than 5,000 miles without stopping to eat, drink, or sleep, and reach speeds of up to 50 miles per hour.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-whimbrel-tailwinds",
+     "text": "Hudsonbrachvögel starten kurz vor einer Sturmfront und lassen sich vom Rückenwind tragen.",
+     "source": {
+      "title": "University of Alaska Fairbanks, Alaska Science Forum: The Flight of the Kanuti whimbrel (2009)",
+      "url": "https://www.gi.alaska.edu/alaska-science-forum/flight-kanuti-whimbrel",
+      "quote": "They get ahead of these storm systems and get these great tailwinds.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-whimbrel-farms",
+     "text": "Hudsonbrachvögel aus Alaska rasten auf dem Zug gern auf Äckern in Kalifornien.",
+     "source": {
+      "title": "All Hands Ecology, Diverse patterns of migratory behavior seen in Alaska-breeding Whimbrels (2021)",
+      "url": "https://www.allhandsecology.org/?p=4097",
+      "quote": "they were less risk-adverse about stop-over sites, often choosing human-modified environments, like agricultural lands in the Central and Imperial valleys of California",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den2-l-whimbrel-fuel",
+     "text": "Nach drei, vier Tagen Flug müsste einem Hudsonbrachvogel eigentlich der Treibstoff ausgehen. Trotzdem fliegen manche eine Woche nonstop.",
+     "source": {
+      "title": "Audubon Magazine, Biking 18,000 miles on the trail of a migrating whimbrel (2026)",
+      "url": "https://www.audubon.org/magazine/biking-18000-miles-whimbrel-migration",
+      "quote": [
+       "On paper, whimbrels should run out of fuel after three or four days, based on how much fat they can store and how much energy flight requires",
+       "But satellite tracking confirms that the birds can fly nonstop for over a week."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-whimbrel-bike",
+     "text": "2026 brachen ein Ökologe und eine Extremsportlerin per Rad von Alaskas Eismeerküste nach Patagonien auf, einem Hudsonbrachvogel hinterher.",
+     "source": {
+      "title": "Audubon Magazine, Biking 18,000 miles on the trail of a migrating whimbrel (2026)",
+      "url": "https://www.audubon.org/magazine/biking-18000-miles-whimbrel-migration",
+      "quote": [
+       "On August 1, University of Alberta ecologist Timm Döbert and his partner, extreme athlete Leanna Carriere, set off from Prudhoe Bay on Alaska's Arctic coast, on a pair of bicycles.",
+       "which will loosely follow the path of one GPS-tracked Hudsonian Whimbrel as it migrates south to Patagonia.",
+       "Published November 06, 2026"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-whimbrel-winnie",
+     "text": "2008 überraschte Winnie die Forscher: Statt der Atlantikküste zu folgen, flog der Hudsonbrachvogel quer über den Kontinent Richtung Alaska.",
+     "source": {
+      "title": "William & Mary News, You go girl: Winnie the whimbrel flies 3,200 miles in 146 hours (2008)",
+      "url": "https://wm.edu/news/stories/2008/winnie-the-whimbrel.php",
+      "quote": [
+       "Winnie surprised scientists by making a transcontinental flight, northwest toward Alaska, rather than taking the route expected for a bird belonging to the eastern population of whimbrels.",
+       "Winnie left the study area on May 23"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-whimbrel-two-hurricanes",
+     "text": "Pech im Doppelpack: 2008 flog ein Hudsonbrachvogel in Hurrikan Hanna, rettete sich auf die Bahamas und geriet dort in den nächsten, Ike.",
+     "source": {
+      "title": "Center for Conservation Biology (William & Mary), Whimbrel tracked into Tropical Storm Erika (2015)",
+      "url": "https://ccbbirds.org/?p=20246",
+      "quote": "In 2008, a bird was tracked into Hurricane Hanna and landed in the Bahamas only to be hit later by Hurricane Ike.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-whimbrel-no-losses",
+     "text": "Hudsonbrachvögel starten über den Atlantik, ohne von Stürmen im Süden zu ahnen. Trotzdem ging keiner der verfolgten Vögel auf See verloren.",
+     "source": {
+      "title": "Center for Conservation Biology (William & Mary), Whimbrel tracked into Tropical Storm Erika (2015)",
+      "url": "https://ccbbirds.org/?p=20246",
+      "quote": [
+       "Birds launching out over the Atlantic from the high latitudes of the Canadian Maritimes appear to have no inkling about storms forming in the lower sub-tropical latitudes.",
+       "Despite flying out over the vast Atlantic with no place to hide, no birds have been lost at sea."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-whimbrel-late-summer",
+     "text": "Für Hudsonbrachvögel aus Alaska beginnt der Herbstzug im Hochsommer: Mitte Juli waren besenderte Vögel schon über Kalifornien und Mexiko.",
+     "source": {
+      "title": "University of Alaska Fairbanks, Alaska Science Forum: The Flight of the Kanuti whimbrel (2009)",
+      "url": "https://www.gi.alaska.edu/alaska-science-forum/flight-kanuti-whimbrel",
+      "quote": [
+       "had migrated out of the state by mid-July.",
+       "One bird was winging its way over the ocean west of San Francisco, and the other was in Mexico."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Cygnus columbianus": {
+   "short": [
+    {
+     "id": "den2-s-swan-lewis-name",
+     "text": "Lewis, der Erkunder des US-Westens, taufte den Vogel 1806 wegen des Rufs „Pfeifschwan“.",
+     "source": {
+      "title": "Missouri Department of Conservation, Field Guide: Tundra Swan",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/tundra-swan",
+      "quote": [
+       "The North American subspecies of tundra swan got the name of “whistling swan” when explorer Meriwether Lewis described the bird and what sounded to him like whistling calls.",
+       "On March 9, 1806, he wrote:",
+       "where Lewis and Clark first saw these birds"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     },
+     "replaces": "den-s-swan-lewis-name"
+    },
+    {
+     "id": "den2-s-swan-columbia",
+     "text": "Der Artname columbianus stammt vom Columbia River im pazifischen Nordwesten der USA.",
+     "source": {
+      "title": "Missouri Department of Conservation, Field Guide: Tundra Swan",
+      "url": "https://mdc.mo.gov/discover-nature/field-guide/tundra-swan",
+      "quote": "The species name, columbianus , is in reference to the Columbia River in the Pacific Northwest, where Lewis and Clark first saw these birds",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     },
+     "replaces": "den-s-swan-columbia"
+    },
+    {
+     "id": "den2-s-swan-wing-whistle",
+     "text": "Fliegt ein Zwergschwan vorbei, hört man die Luft in den Flügeln noch {30 m|100 ft} tiefer pfeifen.",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, Bird of the Month: Tundra Swan (2024)",
+      "url": "https://www.fws.gov/story/2024-02/bird-month-tundra-swan",
+      "quote": "Air whistling through tundra swans’ wings as they fly can be heard from about 100 feet above.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-swan-engaged",
+     "text": "Vor der Paarung sind Zwergschwäne fast ein Jahr verlobt. Danach gilt der Bund fürs Leben.",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, Bird of the Month: Tundra Swan (2024)",
+      "url": "https://www.fws.gov/story/2024-02/bird-month-tundra-swan",
+      "quote": "Tundra swans spend almost a year together before mating -- and once they mate, it’s for life.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-swan-wolves",
+     "text": "Am Nest sind Zwergschwäne so wehrhaft, dass die Vögel sogar Wölfe vertreiben.",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, Bird of the Month: Tundra Swan (2024)",
+      "url": "https://www.fws.gov/story/2024-02/bird-month-tundra-swan",
+      "quote": "Tundra swans fiercely protect their nests and can fight off large animals like wolves.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-swan-speed",
+     "text": "Zwergschwäne fliegen bis zu {2700 m|9000 ft} hoch und bis zu {80 km/h|50 mph} schnell.",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, Bird of the Month: Tundra Swan (2024)",
+      "url": "https://www.fws.gov/story/2024-02/bird-month-tundra-swan",
+      "quote": "They can fly as high up as 9,000 feet and as fast as 50 miles per hour.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-swan-smallest",
+     "text": "Der Zwergschwan heißt zu Recht so: Kein Schwan der Nordhalbkugel ist kleiner.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "It is the smallest of the Holarctic swans, at 115–150 cm (45–59 in) in length",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-swan-alone-together",
+     "text": "Im Sommer leben Zwergschwan-Paare allein in der Tundra, im Winter in Scharen zu Hunderten.",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, Bird of the Month: Tundra Swan (2024)",
+      "url": "https://www.fws.gov/story/2024-02/bird-month-tundra-swan",
+      "quote": [
+       "During breeding season, the pairs spend their time alone in the Arctic Tundra.",
+       "Seeing hundreds of tundra swans gathered is a winter delight."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den2-l-swan-sleep",
+     "text": "Im Winter schlafen Zwergschwäne fast nur auf dem Wasser. Zum Abheben nehmen die kräftigen Schwimmer Anlauf und rennen übers Wasser.",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, Bird of the Month: Tundra Swan (2024)",
+      "url": "https://www.fws.gov/story/2024-02/bird-month-tundra-swan",
+      "quote": [
+       "Because the tundra swans are such strong swimmers, they can take off from the water with a running start.",
+       "In winter they sleep almost exclusively on water."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-swan-upending",
+     "text": "Im Sommer gründeln Zwergschwäne: Kopf und Hals tauchen ab, das Hinterteil ragt in die Luft. So kommen die Vögel an Laichkraut und Seegras.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "Potamogeton pondweeds and marine eelgrass ( Zostera ), acquired by sticking the head underwater or upending while swimming",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-swan-mound-nest",
+     "text": "Das Nest eines Zwergschwan-Paars ist ein großer Hügel aus Pflanzen, erhöht nahe am Wasser. Ringsum verteidigen beide ein großes Revier.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "The pair build the large mound-shaped nest from plant material at an elevated site near open water, and defend a large territory around it.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-swan-mattamuskeet",
+     "text": "Im Winter treffen sich Hunderte Zwergschwäne in North Carolina, etwa am Lake Mattamuskeet, dem größten natürlichen See des Bundesstaats.",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, Bird of the Month: Tundra Swan (2024)",
+      "url": "https://www.fws.gov/story/2024-02/bird-month-tundra-swan",
+      "quote": [
+       "Seeing hundreds of tundra swans gathered is a winter delight.",
+       "Lake Mattamuskeet National Wildlife Refuge, North Carolina : Featuring the largest natural freshwater lake in North Carolina"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-swan-elbe",
+     "text": "Die europäische Form, der Bewick-Schwan, zieht aus Sibirien über Ostsee und Elbmündung bis nach Dänemark, Holland und England.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "The populations west of the Taymyr Peninsula migrate via the White Sea , Baltic Sea and the estuary of the Elbe to winter in Denmark, the Netherlands and the British Isles .",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Balaena mysticetus": {
+   "short": [],
+   "long": [
+    {
+     "id": "den2-l-bowhead-calf-swims",
+     "text": "Eine halbe Stunde nach der Geburt schwimmt ein Grönlandwalkalb schon allein. Gegen das Eiswasser hilft dicker Speck, gleich von Geburt an.",
+     "source": {
+      "title": "Wikipedia (en), Bowhead whale",
+      "url": "https://en.wikipedia.org/wiki/Bowhead_whale",
+      "quote": [
+       "To survive in the cold water immediately after birth, calves are born with a thick layer of blubber .",
+       "Within 30 minutes of birth, bowhead calves are able to swim on their own."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-bowhead-mothers",
+     "text": "Grönlandwal-Weibchen werden erst spät Mutter, können dann aber womöglich hundert Jahre lang Kälber bekommen.",
+     "source": {
+      "title": "Wikipedia (en), Bowhead whale",
+      "url": "https://en.wikipedia.org/wiki/Bowhead_whale",
+      "quote": "Female bowheads may be capable of producing calves for 100 years.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-bowhead-cooling",
+     "text": "Ein Grönlandwal kann sich überhitzen. Dann füllt sich ein Organ im Gaumen mit Blut, und beim Öffnen des Mauls kühlt das Meerwasser es ab.",
+     "source": {
+      "title": "Wikipedia (en), Bowhead whale",
+      "url": "https://en.wikipedia.org/wiki/Bowhead_whale",
+      "quote": [
+       "During physical exertion, the whale must cool itself to prevent hyperthermia (and ultimately brain damage).",
+       "This organ becomes engorged with blood, and as the whale opens its mouth cold seawater flows over the organ, thus cooling the blood."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-bowhead-appetite",
+     "text": "Rund {100 t|220000 lb} Nahrung frisst ein Grönlandwal im Jahr, fast nur winzige Krebstierchen wie Ruderfußkrebse und Krill.",
+     "source": {
+      "title": "NOAA Fisheries, Bowhead Whale",
+      "url": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+      "quote": "Scientists estimate that a bowhead whale needs to eat about 100 metric tons (over 220,000 pounds) of prey per year including copepods, euphausiids/krill, other invertebrates, and fish.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-bowhead-sanctuary",
+     "text": "In der Isabella Bay in Nunavut, Kanada, liegt das erste Schutzgebiet der Welt, das eigens für Grönlandwale geschaffen wurde.",
+     "source": {
+      "title": "Wikipedia (en), Bowhead whale",
+      "url": "https://en.wikipedia.org/wiki/Bowhead_whale",
+      "quote": "Isabella Bay in Niginganiq National Wildlife Area is the first wildlife sanctuary in the world to be designed specially for bowhead whales.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-bowhead-scars",
+     "text": "Grönlandwale tragen Narben vom Eis, von Orcas und Schiffsschrauben. Daran erkennen Forscher einzelne Wale wieder, wie am Fingerabdruck.",
+     "source": {
+      "title": "NOAA Fisheries, Bowhead Whale",
+      "url": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+      "quote": [
+       "Bowhead whales often accumulate scars on their bodies from breaking ice, killer whale encounters, entanglement in fishing gear, and propellers.",
+       "Scientists use these scars to identify individual whales."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Aquila chrysaetos": {
+   "short": [],
+   "long": [
+    {
+     "id": "den2-l-eagle-rock-drop",
+     "text": "Balzende Steinadler spielen Fangen: Ein Stein oder Stock wird fallen gelassen, der Adler stürzt hinterher und fängt ihn in der Luft.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": [
+       "with the male bird picking up a piece of rock or a small stick, and dropping it only to enter into a steep dive and catch it in mid-air, repeating the maneuver three or more times.",
+       "The female takes a clump of earth and drops and catches it in the same fashion."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-eagle-freeze",
+     "text": "Naht ein Eindringling, dreht sich der Steinadler weg, senkt den Kopf und erstarrt. Am Horst sogar bei Menschen und Hubschraubern.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "When approached by an intruder, the defending eagle turns away, partially spreads tail, lowers head, and remains still; adults on the nest may lower head and \"freeze\" when approached by a person or a helicopter.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-eagle-wanderers",
+     "text": "Junge Steinadler werden im ersten Herbst selbstständig. Dann streifen die Vögel vier bis fünf Jahre umher, bis ein Revier gefunden ist.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "These juvenile golden eagles usually attain full independence in the fall, after which they wander widely until establishing a territory for themselves in four to five years.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-eagle-provider",
+     "text": "Sind die Küken geschlüpft, jagt vor allem der Vater: Rund 80 Prozent der Beutetiere, die zum Horst kommen, bringt das Männchen.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "After hatching, 80% of food items and 90% of food biomass is captured and brought to the nest by the adult male.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-eagle-mexico",
+     "text": "Auf Mexikos Wappen sitzt ein Steinadler auf einem Kaktus, eine Schlange im Schnabel. So zeigte der Adler den Azteken den Ort ihrer Stadt.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": [
+       "Mexico's Coat of Arms depicts a golden eagle perched on a prickly pear cactus, with a rattlesnake in its beak.",
+       "had told his people that when they saw the sun (i.e., Huitzilopochtli) in the form of an eagle perched on a cactus whose fruit was red and shaped like a human heart, there they should build their city, Tenochtitlan ."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Tringa flavipes": {
+   "short": [
+    {
+     "id": "den2-s-yellowlegs-north-only",
+     "text": "Gelbschenkel brüten nirgends sonst als im Norden Amerikas, von Alaska bis Labrador.",
+     "source": {
+      "title": "Boothbay Register, A Bird's Tale: Yellowlegs Making Heroic Journeys (Jeff and Allison Wells, 2022)",
+      "url": "https://www.boothbayregister.com/node/160151",
+      "quote": "in the breeding season occur nowhere else but the region that extends from Alaska across Canada to Newfoundland and Labrador.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-yellowlegs-eye-ring",
+     "text": "Einen weißen Augenring trägt der Gelbschenkel immer. Im Winter fällt er besonders auf.",
+     "source": {
+      "title": "Government of Ontario, Species at risk: Lesser Yellowlegs",
+      "url": "https://www.ontario.ca/page/lesser-yellowlegs",
+      "quote": "The Lesser Yellowlegs has a characteristic white eye ring that is always present, but is more noticeable in the winter.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-yellowlegs-sewage",
+     "text": "Auf dem Zug rasten Gelbschenkel auch an überfluteten Reisfeldern und Klärteichen.",
+     "source": {
+      "title": "Government of Ontario, Species at risk: Lesser Yellowlegs",
+      "url": "https://www.ontario.ca/page/lesser-yellowlegs",
+      "quote": "anthropogenic wetlands, such as flooded rice fields and sewage lagoons",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-yellowlegs-bill-sweep",
+     "text": "Manchmal schwingt der Gelbschenkel den Kopf und zieht die Schnabelspitze durchs Wasser.",
+     "source": {
+      "title": "Audubon Field Guide, Lesser Yellowlegs",
+      "url": "https://www.audubon.org/field-guide/bird/lesser-yellowlegs",
+      "quote": "Sometimes swings its head back and forth with the tip of the bill in the water.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-yellowlegs-colonies",
+     "text": "Manche Gelbschenkel brüten nicht allein, sondern in kleinen, lockeren Kolonien.",
+     "source": {
+      "title": "New Zealand Birds Online, Lesser yellowlegs",
+      "url": "https://nzbirdsonline.org.nz/species/lesser-yellowlegs",
+      "quote": "tending to nest in loose colonies in open boreal forest with scattered muskeg.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-yellowlegs-fledging",
+     "text": "Schon mit knapp drei Wochen fliegen junge Gelbschenkel.",
+     "source": {
+      "title": "Audubon Field Guide, Lesser Yellowlegs",
+      "url": "https://www.audubon.org/field-guide/bird/lesser-yellowlegs",
+      "quote": "Age at first flight probably about 18-20 days.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-yellowlegs-bill-length",
+     "text": "Beim Gelbschenkel ist der Schnabel kaum länger als der Kopf, beim Großen viel länger.",
+     "source": {
+      "title": "Tennessee Wildlife Resources Agency, Lesser Yellowlegs",
+      "url": "https://www.tn.gov/twra/wildlife/birds/waterbirds/lesser-yellowlegs.html",
+      "quote": [
+       "Bill length is only slightly longer than the length of the head, which is important in distinguishing this species from the Greater Yellowlegs.",
+       "Greater Yellowlegs has a proportionally larger bill that is much longer than the length of the head."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den2-l-yellowlegs-peatlands",
+     "text": "Gelbschenkel nisten nur in den kohlenstoffreichen Mooren des Nordwalds, der damit zu den reichsten Feuchtgebieten der Welt zählt.",
+     "source": {
+      "title": "Boothbay Register, A Bird's Tale: Yellowlegs Making Heroic Journeys (Jeff and Allison Wells, 2022)",
+      "url": "https://www.boothbayregister.com/node/160151",
+      "quote": "They nest only within the carbon-rich peatlands that make the Boreal Forest one of the richest wetland regions in the world.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-yellowlegs-muskeg",
+     "text": "Gelbschenkel brüten in der Muskeg: So heißen die Moor- und Sumpflandschaften im Norden Kanadas und Alaskas, mit lichtem Wald dazwischen.",
+     "source": {
+      "title": "New Zealand Birds Online, Lesser yellowlegs",
+      "url": "https://nzbirdsonline.org.nz/species/lesser-yellowlegs",
+      "quote": [
+       "Lesser yellowlegs breed in marshy, boggy habitat known as muskeg",
+       "tending to nest in loose colonies in open boreal forest with scattered muskeg."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-yellowlegs-prairie",
+     "text": "Gelbschenkel aus Alaska ziehen über Land nach Süden. Unterwegs tanken die Vögel an den unzähligen kleinen Tümpeln der Prärie auf.",
+     "source": {
+      "title": "McDuffie et al. 2022, Ecology and Evolution: Flyway-scale GPS tracking reveals migratory routes of lesser yellowlegs",
+      "url": "https://doi.org/10.1002/ece3.9495",
+      "quote": "Individuals tagged in Alaska and Central Canada followed similar southbound migratory routes, stopping to refuel in the Prairie Pothole Region of North America",
+      "checked": "2026-11-22",
+      "europepmc": "DOI:10.1002/ece3.9495"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-yellowlegs-new-zealand",
+     "text": "Gelbschenkel verirren sich bis nach Neuseeland: mindestens 17 bisher. Wie die Vögel dorthin kommen, ist unklar, vielleicht über Asien.",
+     "source": {
+      "title": "New Zealand Birds Online, Lesser yellowlegs",
+      "url": "https://nzbirdsonline.org.nz/species/lesser-yellowlegs",
+      "quote": [
+       "This is supported by the subsequent records of at least 17 lesser yellowlegs",
+       "it is unclear which route vagrants take to reach New Zealand but possibly via Asia"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-yellowlegs-wait-and-chase",
+     "text": "Mal steht der Gelbschenkel still im flachen Wasser und wartet, bis Beute vorbeikommt. Mal rennt der Vogel an Land Insekten hinterher.",
+     "source": {
+      "title": "NH PBS NatureWorks, Lesser Yellowlegs",
+      "url": "https://natureworks.nhpbs.org/animals/lesser-yellowlegs/",
+      "quote": [
+       "The lesser yellowlegs stands in shallow water and waits for its prey to go by, and then it grabs its prey with its pointed bill.",
+       "It also chases prey on land."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-yellowlegs-protected",
+     "text": "Früher wurden Gelbschenkel in den USA massenhaft gejagt. Erst ein Gesetz von 1918 schützte die Art, mit über 1000 anderen Zugvögeln.",
+     "source": {
+      "title": "Nature Canada, Lesser Yellowlegs",
+      "url": "https://naturecanada.ca/discover-nature/about-our-birds/lesser-yellowlegs",
+      "quote": "Individuals were hunted incessantly in the early 20 th century, but hunting numbers decreased with the introduction of the Migratory Bird Treaty Act in 1918 which banned the hunting of over 1000 migratory bird species.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Mycteria americana": {
+   "short": [
+    {
+     "id": "den2-s-waldstorch-alligatoren",
+     "text": "Fisch ist das Hauptgericht, doch Waldstörche fressen auch Schlangen und junge Alligatoren.",
+     "source": {
+      "title": "Audubon Field Guide, Wood Stork",
+      "url": "https://www.audubon.org/field-guide/bird/wood-stork",
+      "quote": "Also crayfish, crabs, aquatic insects, snakes, baby alligators, small turtles, frogs, rodents, some seeds and other plant material.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-waldstorch-pendler",
+     "text": "Für einen guten Fischgrund fliegt ein Waldstorch mehr als {80 km|50 mi} weit.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "This bird can travel over 80 kilometres (50 mi) to reach foraging sites, lending it access to a wide variety of habitats.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-waldstorch-ruessel",
+     "text": "Der Gattungsname Mycteria kommt vom griechischen Wort für Schnauze oder Rüssel.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "The accepted generic name Mycteria derives from the Greek μυκτήρ : myktēr , meaning snout or trunk, and the species name americana references the distribution of this stork.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den2-l-waldstorch-hochhaus",
+     "text": "Waldstörche wohnen eng: Bis zu 25 Nester drängen sich in einem Baum, in Sumpfzypressen oft {18-24 m|59-79 ft} über dem Boden.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": [
+       "It nests colonially , with up to 25 nests in one tree.",
+       "For Taxodium trees, it generally nests near the top branches, frequently between 18 and 24 metres (59 and 79 ft) above the ground."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-waldstorch-gruen",
+     "text": "Das Nest baut beim Waldstorch das Männchen. Auf die Zweige kommt frisches Grün, und das hält das Nest offenbar warm.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": [
+       "The nest is built by the male",
+       "This greenery functions to help insulate the nest."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-waldstorch-wachstum",
+     "text": "Waldstorch-Küken wachsen rasant: Nach drei bis vier Wochen sind sie halb so groß wie die Eltern, mit gut zwei Monaten fliegen sie aus.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": [
+       "Chicks grow fast, being about half the height of adults in 3-4 weeks.",
+       "They fledge 60 to 65 days after hatching,"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-waldstorch-geduld",
+     "text": "Waldstörche sind spät dran: Geschlechtsreif mit vier Jahren, bringen sie meist erst im fünften Jahr ihr erstes Küken durch.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "They fledge 60 to 65 days after hatching, [ 16 ] and reach sexual maturity at 4 years of age, although they usually do not successfully fledge chicks until their fifth year.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-waldstorch-wache",
+     "text": "Waldstorch-Küken sind nie allein: Drei Wochen lang bleibt immer ein Elternteil am Nest, während der andere fischt.",
+     "source": {
+      "title": "Wikipedia (English), Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "The chicks are not left alone until at least 3 weeks of age, with one parent foraging while the other guards the nest and chicks.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Fratercula arctica": {
+   "short": [
+    {
+     "id": "den2-s-papageitaucher-kettensaege",
+     "text": "Unter der Erde knurrt der Papageitaucher in seiner Höhle wie eine Kettensäge.",
+     "source": {
+      "title": "Wikipedia (English), Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "At the breeding colony, it is quiet above ground, but in its burrow makes a growling sound somewhat resembling a chainsaw being revved up.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-papageitaucher-taucherbrille",
+     "text": "Auf See steckt der Papageitaucher manchmal den Kopf ins Wasser, um nach Feinden zu spähen.",
+     "source": {
+      "title": "Wikipedia (English), Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "Atlantic puffins are probably safer when out at sea, where the dangers are more often from below the water rather than above; puffins can sometimes be seen putting their heads underwater to peer around for predators.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-papageitaucher-hochsee",
+     "text": "Junge Papageitaucher betreten nach dem Ausfliegen zwei bis drei Jahre lang kein Land.",
+     "source": {
+      "title": "Wikipedia (English), Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "It does not congregate with others of its kind and does not return to land for 2–3 years.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den2-l-papageitaucher-uv",
+     "text": "Unter UV-Licht leuchten Streifen am Schnabel des Papageitauchers grünblau. Vögel sehen UV-Licht: Für Artgenossen strahlt der Schnabel wohl.",
+     "source": {
+      "title": "Audubon, Puffins Amp Up Their Sex Appeal With Glowing Beaks",
+      "url": "https://audubon.org/news/puffins-amp-their-sex-appeal-glowing-beaks",
+      "quote": [
+       "That’s because if you shine ultraviolet light on a puffin in breeding plumage, streaks on its beak glow a bright cyan-green color.",
+       "While our retinas have three kinds of photoreceptors, called cones, to pick up red, green, and blue wavelengths of light, bird retinas have four, letting them see red, green, blue, and ultraviolet light."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-papageitaucher-publikum",
+     "text": "Reiben zwei Papageitaucher zärtlich die Schnäbel aneinander, bildet sich oft ein Kreis wippender Artgenossen, der das Paar anfeuert.",
+     "source": {
+      "title": "Audubon, Puffins Amp Up Their Sex Appeal With Glowing Beaks",
+      "url": "https://audubon.org/news/puffins-amp-their-sex-appeal-glowing-beaks",
+      "quote": [
+       "When one Atlantic Puffin approaches another, the two birds bow their heads and rub their candy-corn bills together while rapidly shaking their faces back and forth.",
+       "Sometimes, a crowd of bobbing puffins will form around the pair, egging them on."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-papageitaucher-gruppe",
+     "text": "Mit Fisch für die Küken fliegen Papageitaucher oft in Gruppen heim. So kann eine Raubmöwe nicht so leicht einen einzelnen Vogel jagen.",
+     "source": {
+      "title": "Wikipedia (English), Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": [
+       "Adults bringing fish to their chicks tend to arrive in groups.",
+       "This is thought to benefit the bird by reducing kleptoparasitism by the Arctic skua, which harasses puffins until they drop their fish loads."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-papageitaucher-zunge",
+     "text": "Wie hält er so viele Fische? Die Zunge klemmt die ersten fest, Zähnchen am Schnabelrand halten sie, während er weiterjagt.",
+     "source": {
+      "title": "Wikipedia (English), Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": [
+       "It can catch several small fish in one dive, holding the first ones in place in its beak with its muscular, grooved tongue while it catches others.",
+       "The two mandibles are hinged in such a way that they can be held parallel to hold a row of fish in place, and these are also retained by inward-facing serrations on the edges of the beak."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-papageitaucher-auto",
+     "text": "Ein schottisches Seevogelzentrum bittet Autofahrer im Spätsommer, unters Auto zu schauen: Da verstecken sich manchmal junge Papageitaucher.",
+     "source": {
+      "title": "Wikipedia (English), Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "Another conservation measure undertaken by the centre is to encourage motorists to check under their cars in late summer before driving off, as young puffins, disoriented by the street lights, may land in the town and take shelter underneath the vehicles.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-papageitaucher-kopfwurf",
+     "text": "Zur Balz wirft das Papageitaucher-Männchen den Kopf immer wieder in den Nacken, bis der Schnabel nach oben zeigt, manchmal minutenlang.",
+     "source": {
+      "title": "Audubon Field Guide, Atlantic Puffin",
+      "url": "https://www.audubon.org/field-guide/bird/atlantic-puffin",
+      "quote": "In courtship, the male repeatedly flicks head up and back so that bill points up; may continue for minutes.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-papageitaucher-wohnung",
+     "text": "Unter der Erde wohnen Papageitaucher manchmal wie in einem Mehrfamilienhaus: Ein Eingang führt zu mehreren Seitengängen und Nestern.",
+     "source": {
+      "title": "Audubon Field Guide, Atlantic Puffin",
+      "url": "https://www.audubon.org/field-guide/bird/atlantic-puffin",
+      "quote": "Sometimes one entrance leads to side branches and multiple nests.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-papageitaucher-farbe",
+     "text": "Das Orange von Schnabel und Füßen stammt aus der Nahrung, reich an Carotinoiden. Es leuchtet nur zur Brutzeit, im Winter verblasst es.",
+     "source": {
+      "title": "BirdLife Europe, Seabird of the month: Atlantic Puffin",
+      "url": "https://birdlife.org/news/2022/04/06/seabird-of-the-month-atlantic-puffin-fratercula-arctica",
+      "quote": [
+       "Their carotenoid rich diet turns their bills and feet bright orange – but only during their breeding season!",
+       "During winter, their bills and feet fade to duller shades."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Tryngites subruficollis": {
+   "short": [
+    {
+     "id": "den2-s-graslaeufer-tanz",
+     "text": "Statt mit Prachtfedern wie Paradiesvögel werben Grasläufer-Männchen mit einem Tanz.",
+     "source": {
+      "title": "Smithsonian's National Zoo, The Dancing Shorebird",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": "Buff-breasted Sandpipers have evolved elaborate behavior in their courtship instead of the gaudier plumages of other lekking species such as the manakins and birds-of-paradise.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-graslaeufer-pampa",
+     "text": "Nur {55-75 g|1.9-2.6 oz} leicht, pendelt der Grasläufer zwischen arktischer Tundra und Argentinien.",
+     "source": {
+      "title": "Wikipedia, Grasläufer",
+      "url": "https://de.wikipedia.org/wiki/Grasl%C3%A4ufer",
+      "quote": [
+       "Das Gewicht variiert zwischen 55 und 75 Gramm.",
+       "Sein Hauptüberwinterungsgebiet liegt in Argentinien , insgesamt erstreckt sich das Winterquartier über das Zentrum Südamerikas und reicht vom Süden Bolivien bis in den Norden Argentiniens."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-graslaeufer-stolz",
+     "text": "Bei der Futtersuche stolziert der Grasläufer mit hohen Schritten und wippendem Kopf.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Buff-breasted Sandpiper",
+      "url": "https://birdweb.org/Birdweb/bird/buff-breasted_sandpiper",
+      "quote": "While foraging, they walk steadily along with a high-stepping gait, bobbing their elevated heads looking for prey on the ground.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-graslaeufer-jagd",
+     "text": "Der Grasläufer jagt mit den Augen: stillstehen, schauen, ein kurzer Sprint, zupicken.",
+     "source": {
+      "title": "Audubon Field Guide, Buff-breasted Sandpiper",
+      "url": "https://www.audubon.org/field-guide/bird/buff-breasted-sandpiper",
+      "quote": "Searches for food by sight, standing still and then making short run forward to capture prey, picking up insects and other items from surface of ground.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-graslaeufer-regenpfeifer",
+     "text": "Mit rundem Kopf und kurzem Schnabel sieht der Grasläufer aus wie ein Regenpfeifer.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Buff-breasted Sandpiper",
+      "url": "https://birdweb.org/Birdweb/bird/buff-breasted_sandpiper",
+      "quote": "Its short, narrow bill and round head give it a plover-like appearance.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-graslaeufer-flugfaehig",
+     "text": "Junge Grasläufer haben es eilig: Schon mit 16 bis 20 Tagen können sie fliegen.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Buff-breasted Sandpiper",
+      "url": "https://birdweb.org/Birdweb/bird/buff-breasted_sandpiper",
+      "quote": "The young begin to fly at 16-20 days.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den2-l-graslaeufer-prachtkerle",
+     "text": "Grasläufer-Männchen wechseln gern zu Balzplätzen mit größeren Rivalen. Wohl um dort Weibchen abzufangen, die diese Prachtkerle anlocken.",
+     "source": {
+      "title": "Lanctot et al. 1998, Animal Behaviour",
+      "url": "https://doi.org/10.1006/anbe.1998.0841",
+      "europepmc": "DOI:10.1006/anbe.1998.0841",
+      "quote": "Males did join leks with larger males than their previous lek, perhaps to mate with females attracted to these larger 'hotshot' males.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-graslaeufer-silber",
+     "text": "Grasläufer haben silbrig weiße Flügelunterseiten. Auf dem Balzplatz zeigen die Männchen sie den Weibchen, einen Flügel nach dem anderen.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Buff-breasted Sandpiper",
+      "url": "https://birdweb.org/Birdweb/bird/buff-breasted_sandpiper",
+      "quote": [
+       "Its underwings are silvery-white.",
+       "Females come to the leks where the males display their light underwings, one wing at a time."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-graslaeufer-wechsel",
+     "text": "Grasläufer-Männchen sind flexibel: Manche bleiben einem Balzplatz treu, andere ziehen von Platz zu Platz oder balzen ganz allein.",
+     "source": {
+      "title": "Lanctot et al. 1998, Animal Behaviour",
+      "url": "https://doi.org/10.1006/anbe.1998.0841",
+      "europepmc": "DOI:10.1006/anbe.1998.0841",
+      "quote": "Buff-breasted sandpipers use a variety of mating tactics to acquire mates, including remaining at a single lek for most of the breeding season, attending multiple leks during the season, displaying solitarily or displaying both on leks and solitarily.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-graslaeufer-gewohnheit",
+     "text": "Grasläufer sind Gewohnheitstiere: Auf dem Zug und im Winter rasten sie Jahr für Jahr an denselben Orten, oft mit Goldregenpfeifern.",
+     "source": {
+      "title": "Smithsonian's National Zoo, The Dancing Shorebird",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": "They are usually found in migration and winter at traditional sites from year-to-year often in company of American Golden-Plovers, and Upland and White-rumped Sandpipers.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-graslaeufer-trupps",
+     "text": "Grasläufer sieht man meist einzeln. Auf dem Zug und im Winter fanden sich aber auch schon Trupps von 500 bis 2.200 Vögeln zusammen.",
+     "source": {
+      "title": "Smithsonian's National Zoo, The Dancing Shorebird",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": "Nowhere a common species, Buff-breasted Sandpipers rarely congregate but have been occasionally found in groups of 500-2200 in migration and on their wintering grounds.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-graslaeufer-mutter",
+     "text": "Grasläufer-Mütter brüten allein und ziehen die Küken allein groß. Die Kleinen suchen ihr Futter selbst, die Mutter passt auf.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Buff-breasted Sandpiper",
+      "url": "https://birdweb.org/Birdweb/bird/buff-breasted_sandpiper",
+      "quote": [
+       "The male provides no parental care.",
+       "They feed themselves, but the female tends them."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Stercorarius longicaudus": {
+   "short": [
+    {
+     "id": "den2-s-falkenraubmoewe-zwei-eier",
+     "text": "Falkenraubmöwen legen nur zwei Eier: Jedes liegt beim Brüten zwischen Fuß und Brutfleck.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Long-tailed Jaeger",
+      "url": "https://birdweb.org/Birdweb/bird/long-tailed_jaeger",
+      "quote": "They are limited to 2 eggs because, while incubating, they hold an egg between one foot and its corresponding brood patch.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-falkenraubmoewe-elegant",
+     "text": "Unter den Raubmöwen ist die Falkenraubmöwe die wendigste, eleganteste und friedlichste.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Long-tailed Jaeger",
+      "url": "https://birdweb.org/Birdweb/bird/long-tailed_jaeger",
+      "quote": "Long-tailed Jaegers are the most agile and graceful of the jaegers, and the least aggressive.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-falkenraubmoewe-paar",
+     "text": "Falkenraubmöwen-Paare bleiben viele Jahre lang zusammen.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Long-tailed Jaeger",
+      "url": "https://birdweb.org/Birdweb/bird/long-tailed_jaeger",
+      "quote": "Long-tailed Jaegers for monogamous long-term pair bonds.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-falkenraubmoewe-spiesse",
+     "text": "Die langen Schwanzspieße der Falkenraubmöwe brechen im Herbst oft ab oder fallen aus.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Long-tailed Jaeger",
+      "url": "https://birdweb.org/Birdweb/bird/long-tailed_jaeger",
+      "quote": "During the breeding season, the adult has long central tail feathers that extend 5-10\" beyond the rest of the tail, but from August to November, these are often broken or missing.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-falkenraubmoewe-kutter",
+     "text": "Auf See sammeln sich Falkenraubmöwen gern um Fischkutter.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Long-tailed Jaeger",
+      "url": "https://birdweb.org/Birdweb/bird/long-tailed_jaeger",
+      "quote": "Although Long-tailed Jaegers usually migrate singly over the open ocean, small numbers may congregate around fishing vessels during the non-breeding season.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-falkenraubmoewe-spaetstart",
+     "text": "Falkenraubmöwen brüten wohl erst, wenn sie mindestens drei oder vier Jahre alt sind.",
+     "source": {
+      "title": "Audubon Field Guide, Long-tailed Jaeger",
+      "url": "https://www.audubon.org/field-guide/bird/long-tailed-jaeger",
+      "quote": "Probably does not breed until at least 3-4 years old.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-falkenraubmoewe-golf",
+     "text": "Junge Falkenraubmöwen jagen auf dem Zug auch auf Äckern und Golfplätzen, ohne viel Scheu.",
+     "source": {
+      "title": "Wikipedia (English), Long-tailed jaeger",
+      "url": "https://en.wikipedia.org/wiki/Long-tailed_jaeger",
+      "quote": "Passage juvenile birds sometimes hunt small prey in ploughed fields or golf-courses, and are typically quite fearless of humans.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-falkenraubmoewe-aussicht",
+     "text": "Ihr Nest legt die Falkenraubmöwe gern auf eine kleine Kuppe, mit gutem Überblick.",
+     "source": {
+      "title": "NABU, Vogelporträt Falkenraubmöwe",
+      "url": "https://www.nabu.de/tiere-und-pflanzen/voegel/portraets/falkenraubmoewe/",
+      "quote": "Ihr Nest legt sie in Bodenmulden an, gern etwas erhöht mit gutem Überblick.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den2-l-falkenraubmoewe-balzflug",
+     "text": "Balzende Falkenraubmöwen zeigen am Himmel Sturzflüge und Zickzack, oft zu dritt. Am Boden füttert das Männchen dann das Weibchen.",
+     "source": {
+      "title": "Audubon Field Guide, Long-tailed Jaeger",
+      "url": "https://www.audubon.org/field-guide/bird/long-tailed-jaeger",
+      "quote": [
+       "Has spectacular courtship flight, with rapid swoops and zigzags, often three birds together, or one male chasing one female.",
+       "In courtship on ground, male feeds female."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-falkenraubmoewe-arbeitsteilung",
+     "text": "Bei Falkenraubmöwen jagt meist das Männchen. Es würgt das Futter am Nest wieder hoch, und das Weibchen füttert damit die Küken.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Long-tailed Jaeger",
+      "url": "https://birdweb.org/Birdweb/bird/long-tailed_jaeger",
+      "quote": "Typically, the male brings food back, regurgitates, and the female feeds the young.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-falkenraubmoewe-kueken",
+     "text": "Junge Falkenraubmöwen verlassen das Nest nach ein, zwei Tagen. Mit gut drei Wochen fliegen sie, bleiben aber noch eine Weile bei den Eltern.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Long-tailed Jaeger",
+      "url": "https://birdweb.org/Birdweb/bird/long-tailed_jaeger",
+      "quote": [
+       "Chicks stay in the nest 1-2 days after hatching.",
+       "Young often remain with their parents for 1-3 weeks after fledging, which occurs at 22-27 days."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-falkenraubmoewe-hell",
+     "text": "Andere Raubmöwen gibt es hell und dunkel. Erwachsene Falkenraubmöwen sind dagegen fast immer hell, dunkle sind eine große Seltenheit.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Long-tailed Jaeger",
+      "url": "https://birdweb.org/Birdweb/bird/long-tailed_jaeger",
+      "quote": "Dark phases are very rare in adults.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-falkenraubmoewe-kopf",
+     "text": "Falkenraubmöwen verteidigen ihr Nest im Sturzflug, auch gegen Menschen. Manchmal landet ein Elternvogel sogar auf dem Kopf und hackt.",
+     "source": {
+      "title": "Audubon Field Guide, Long-tailed Jaeger",
+      "url": "https://www.audubon.org/field-guide/bird/long-tailed-jaeger",
+      "quote": "Parents defend nest by diving at predators or humans, even landing on intruder's head and pecking.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-falkenraubmoewe-klima",
+     "text": "Wird es wärmer, verliert die Falkenraubmöwe Lebensraum: In Norwegen und Schweden dürften große Teile ihrer Brutgebiete wegfallen.",
+     "source": {
+      "title": "Wikipedia, Falkenraubmöwe",
+      "url": "https://de.wikipedia.org/wiki/Falkenraubm%C3%B6we",
+      "quote": "Weite Teile des heutigen Brutareals in Norwegen und Schweden werden dieser Art dann keine geeigneten Lebensräume mehr bieten.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Xema sabini": {
+   "short": [
+    {
+     "id": "den2-s-schwalbenmoewe-kreisel",
+     "text": "Im flachen Wasser dreht sich die Schwalbenmöwe im Kreis und wirbelt Futter vom Grund auf.",
+     "source": {
+      "title": "Audubon Field Guide, Sabine's Gull",
+      "url": "https://www.audubon.org/field-guide/bird/sabines-gull",
+      "quote": "In shallow water may spin in circles, stirring up items from bottom.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-schwalbenmoewe-nachbarn",
+     "text": "Schwalbenmöwen brüten meist nahe bei Küstenseeschwalben oder mitten in deren Kolonie.",
+     "source": {
+      "title": "Audubon Field Guide, Sabine's Gull",
+      "url": "https://www.audubon.org/field-guide/bird/sabines-gull",
+      "quote": "Usually located in or near a colony of Arctic Terns.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-schwalbenmoewe-sturzflug",
+     "text": "Droht Gefahr am Nest, stürzen sich Schwalbenmöwen auf den Feind oder locken ihn fort.",
+     "source": {
+      "title": "Audubon Field Guide, Sabine's Gull",
+      "url": "https://www.audubon.org/field-guide/bird/sabines-gull",
+      "quote": "Parents may defend nest by dive-bombing intruders, or may try to lead predators away with distraction display.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-schwalbenmoewe-quietschen",
+     "text": "Für eine Möwe hat die Schwalbenmöwe eine erstaunlich hohe, quietschende Stimme.",
+     "source": {
+      "title": "Wikipedia (English), Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "They have a very high-pitched and squeaking call.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-schwalbenmoewe-kueken",
+     "text": "Bald nach dem Schlüpfen führen Schwalbenmöwen die Küken ans Wasser, wo sie allein fressen.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Sabine's Gull",
+      "url": "https://birdweb.org/Birdweb/bird/sabines_gull",
+      "quote": "Shortly after the young hatch, the parents lead them to water, where they mostly feed themselves.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-schwalbenmoewe-leicht",
+     "text": "Nur {135-225 g|4.8-7.9 oz} wiegt die Schwalbenmöwe und fliegt doch jedes Jahr auf die Südhalbkugel.",
+     "source": {
+      "title": "Wikipedia (English), Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": [
+       "Sabine's gull is a small gull, 27 to 33 cm ( 10 + 1 ⁄ 2 –13 in) in length and weighing 135 to 225 g ( 4 + 3 ⁄ 4 –8 oz) .",
+       "They migrate south to the Southern Hemisphere in autumn, covering up to 32,000–39,000 km per year, the longest migration of any gull."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-schwalbenmoewe-polarfuchs",
+     "text": "Wie viele junge Schwalbenmöwen durchkommen, entscheidet vor allem der Polarfuchs.",
+     "source": {
+      "title": "Wikipedia, Schwalbenmöwe",
+      "url": "https://de.wikipedia.org/wiki/Schwalbenm%C3%B6we",
+      "quote": "Der Bruterfolg wird wesentlich durch die Prädation durch den Polarfuchs bestimmt.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-schwalbenmoewe-kapuze",
+     "text": "Zur Brutzeit trägt die Schwalbenmöwe eine schiefergraue Kapuze mit schwarzem Kragen.",
+     "source": {
+      "title": "Wikipedia, Schwalbenmöwe",
+      "url": "https://de.wikipedia.org/wiki/Schwalbenm%C3%B6we",
+      "quote": "Im Brutkleid ist der Kopf schiefergrau und gegen den weißen Hals durch einen schmalen schwarzen Ring abgesetzt.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-schwalbenmoewe-m",
+     "text": "Von oben zeigt eine fliegende Schwalbenmöwe ein großes weißes „M“ auf den Flügeln.",
+     "source": {
+      "title": "BirdWeb (Seattle Audubon), Sabine's Gull",
+      "url": "https://birdweb.org/Birdweb/bird/sabines_gull",
+      "quote": "The middle of the wings is white, giving the bird a distinctive 'M' pattern across its wings in flight.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-schwalbenmoewe-braun",
+     "text": "Junge Schwalbenmöwen sind braun statt grau. Erst nach zwei Jahren gleichen sie den Eltern.",
+     "source": {
+      "title": "Wikipedia (English), Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": [
+       "Young birds have a similar tricoloured wing pattern, but the grey is replaced by brown, and the tail has a black terminal band.",
+       "Juveniles take two years to attain full adult plumage ."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den2-l-schwalbenmoewe-balz",
+     "text": "Zur Balz ruft das Schwalbenmöwen-Männchen lange, wölbt den Hals und verbeugt sich. Ist das Paar zusammen, bringt er ihr manchmal Futter.",
+     "source": {
+      "title": "Audubon Field Guide, Sabine's Gull",
+      "url": "https://www.audubon.org/field-guide/bird/sabines-gull",
+      "quote": [
+       "Male on territory lures female by giving long call, arching neck, bowing.",
+       "In courtship, male may feed female."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-schwalbenmoewe-jugendkleid",
+     "text": "Junge Schwalbenmöwen fliegen im Jugendkleid bis ans andere Ende der Welt. Neue Federn wachsen erst, wenn sie im Winterquartier sind.",
+     "source": {
+      "title": "Wikipedia (English), Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "Fledged birds retain their juvenile plumage through the autumn and do not start moulting into their first winter plumage until they have reached their wintering grounds.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-schwalbenmoewe-biskaya",
+     "text": "Auf dem Weg nach Südafrika schlemmen Schwalbenmöwen ausgiebig: Rund 45 Tage fressen sie sich in der Biskaya vor Frankreich satt.",
+     "source": {
+      "title": "Wikipedia (English), Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "During their flight south, the birds spend significant time (typically around 45 days) feeding offshore in the Bay of Biscay .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-schwalbenmoewe-ueberland",
+     "text": "Schwalbenmöwen tauchen so oft im Binnenland auf, in Nordamerika, Europa und Sibirien, dass manche wohl quer über Land ziehen.",
+     "source": {
+      "title": "Wikipedia (English), Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "Sabine's gull is recorded often enough inland, in North America, Europe, and even Siberia , that it has been said to exhibit \"cross-continental migration\" in addition to migration at sea.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-schwalbenmoewe-sabine",
+     "text": "Edward Sabine, nach dem die Schwalbenmöwe heißt, war Astronom und Polarforscher. Später leitete er zehn Jahre die Royal Society in London.",
+     "source": {
+      "title": "Wikipedia, Edward Sabine",
+      "url": "https://de.wikipedia.org/wiki/Edward_Sabine",
+      "quote": [
+       "Edward Sabine [ˈseɪbɪn] (* 14. Oktober 1788 in Dublin , Irland ; † 26. Juni 1883 in Richmond upon Thames , Surrey ) war ein irischer Astronom.",
+       "Sabine nahm an mehreren Expeditionen teil, unter anderem an der Nordwestpassagen -Expedition 1818 von John Ross und James Clark Ross sowie der ebenfalls der Nordwestpassage geltenden Expedition (1819–1820) von William Edward Parry .",
+       "Seit 1845 war Sabine auswärtiger Sekretär, seit 1850 Schatzmeister und von 1861 bis 1871 Präsident der Royal Society."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-schwalbenmoewe-auftrieb",
+     "text": "Im Winter sucht die Schwalbenmöwe Meeresgegenden südlich des Äquators, wo kaltes Wasser an die Küste aufquillt und Futter mitbringt.",
+     "source": {
+      "title": "Audubon Field Guide, Sabine's Gull",
+      "url": "https://www.audubon.org/field-guide/bird/sabines-gull",
+      "quote": "In migration and winter mostly at sea, typically a few miles offshore over continental shelf; concentrates in winter where there are upwellings of cold water near coastlines south of the Equator.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Cervus elaphus": {
+   "short": [
+    {
+     "id": "den2-s-wapiti-rothirsch",
+     "text": "Lange galt der Wapiti als Rothirsch-Unterart. Genanalysen machten daraus eine eigene Art.",
+     "source": {
+      "title": "Wikipedia (de), Wapiti",
+      "url": "https://de.wikipedia.org/wiki/Wapiti",
+      "quote": [
+       "Früher ordnete man Wapitis als mehrere Unterarten des Rothirsches ein.",
+       "Nach genetischen Untersuchungen wird er als eigenständige Art geführt."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-wapiti-zaehne",
+     "text": "Knirscht ein Wapiti mit den Zähnen und legt die Ohren an, heißt das: Abstand halten!",
+     "source": {
+      "title": "Parks Canada, Elk in Banff National Park",
+      "url": "https://parks.canada.ca/pn-np/ab/banff/nature/faune-wildlife/mammal/ongules/cervids/wapiti",
+      "quote": "At any time of the year, an elk will show its discomfort by grinding its teeth, curling its lower lip back, or laying its ears back against its head.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-wapiti-brunft",
+     "text": "In der Brunft fressen und ruhen Wapiti-Bullen kaum. Geschwächt geht es in den Winter.",
+     "source": {
+      "title": "National Park Service, Rocky Mountain National Park: Elk",
+      "url": "https://www.nps.gov/romo/learn/nature/elk.htm",
+      "quote": "With little rest or food during the mating season, bulls enter the winter highly susceptible to the hardships of the coming months.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-wapiti-gras",
+     "text": "Anders als Elch und Maultierhirsch fressen Wapitis Gras genauso wie Zweige und Laub.",
+     "source": {
+      "title": "Parks Canada, Elk in Banff National Park",
+      "url": "https://parks.canada.ca/pn-np/ab/banff/nature/faune-wildlife/mammal/ongules/cervids/wapiti",
+      "quote": [
+       "Most members of the deer family — such as moose and mule deer — are browsers, feeding almost entirely on the twigs and leaves of shrubs and trees.",
+       "In contrast, elk are both grazers and browsers."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den2-l-wapiti-fuetterung",
+     "text": "Siedlungen bei Jackson in Wyoming versperrten Wapitis den Weg ins Winterquartier. Seitdem füttert Wyoming die Herden an über 20 Plätzen.",
+     "source": {
+      "title": "National Park Service, Yellowstone National Park: Elk",
+      "url": "https://www.nps.gov/yell/learn/nature/elk.htm",
+      "quote": [
+       "Elk are fed during the winter at the National Elk Refuge in Jackson, Wyoming, in addition to 22 Wyoming-run feed grounds.",
+       "The feed grounds were created in the 1900s to maintain Wyoming’s elk herds and limit depredation as migratory routes from summer range to lower elevation winter ranges became blocked by settlement in the Jackson area."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-wapiti-kaelber",
+     "text": "Wapiti-Kälber kommen zur Welt, wenn das frische Grün am nahrhaftesten ist. So können Mutter und Kalb rasch Fettreserven anlegen.",
+     "source": {
+      "title": "National Park Service, Yellowstone National Park: Elk",
+      "url": "https://www.nps.gov/yell/learn/nature/elk.htm",
+      "quote": [
+       "Ungulates that migrate typically give birth around periods of peak vegetation green-up to overlap with high-nutrition plant phases.",
+       "Nutritious food allows mothers and calves to build up fat reserves."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-wapiti-fruehling",
+     "text": "In Banffs Bergen kommt der Frühling pro {1000 m|3300 ft} Höhe rund 50 Tage später. Wandernde Wapitis steigen mit und finden so besseres Futter.",
+     "source": {
+      "title": "Movebank Data Repository, Ya Ha Tinda elk project, Banff National Park (data from Hebblewhite et al. 2008)",
+      "url": "https://datarepository.movebank.org/server/api/core/items/aed22923-281d-4583-aefd-140f1497539a",
+      "quote": [
+       "was delayed by 50 days for every 1000-m increase in elevation",
+       "The expected digestibility for migrant elk in summer was 6.5% higher than for residents"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-wapiti-tule",
+     "text": "Kaliforniens Tule-Wapitis waren fast ausgerottet, bis Rinderzüchter Henry Miller in den 1870ern ein Reservat schuf. Heute gibt es rund 2000.",
+     "source": {
+      "title": "Wikipedia (de), Wapiti",
+      "url": "https://de.wikipedia.org/wiki/Wapiti",
+      "quote": [
+       "bis sie knapp vor dem Aussterben standen",
+       "Der Rinderzüchter Henry Miller, der große Weiden im südlichen Central Valley besaß, erstellte in den 1870er Jahren ein kleines privates Reservat, um die Unterart zu retten.",
+       "Zurzeit gibt es etwa 2000 Tule-Wapitis."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-wapiti-hufe",
+     "text": "Droht dem versteckten Kalb Gefahr, schlägt die Wapiti-Kuh mit den scharfen Hufen zu. Oder die Kuh lockt als Köder den Räuber fort.",
+     "source": {
+      "title": "Parks Canada, Elk in Banff National Park",
+      "url": "https://parks.canada.ca/pn-np/ab/banff/nature/faune-wildlife/mammal/ongules/cervids/wapiti",
+      "quote": "She is always at the ready to strike out with her sharp hooves if her calf is threatened or to act as a decoy to lead the predator away from the calf.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-wapiti-rockies",
+     "text": "Wapitis sind keine Präriebewohner, die erst von Siedlern in die Berge vertrieben wurden: In den Rocky Mountains lebten Wapitis schon vorher.",
+     "source": {
+      "title": "Wikipedia (de), Wapiti",
+      "url": "https://de.wikipedia.org/wiki/Wapiti",
+      "quote": [
+       "Entgegen der üblichen Meinung ist der Rocky-Mountain-Wapiti nicht ein Tier der Prärie, welches sich wegen der zunehmenden Besiedlung durch die Europäer in die Berge zurückgezogen hat.",
+       "Schon früher lebten Wapitis in den Rocky Mountains"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-wapiti-neuseeland",
+     "text": "In Neuseeland mischten sich Roosevelts Wapitis mit Rothirschen, die britische Siedler einführten. Reine Wapitis sind dort heute selten.",
+     "source": {
+      "title": "Wikipedia (de), Wapiti",
+      "url": "https://de.wikipedia.org/wiki/Wapiti",
+      "quote": "Heute sind die echten Wapitis nur noch selten zu finden, da sie sich mit den auf Neuseeland sehr häufigen europäischen Rothirschen, die vor allem durch britische Siedler eingeführt wurden, gekreuzt haben.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Odocoileus hemionus": {
+   "short": [
+    {
+     "id": "den2-s-maultierhirsch-zwille",
+     "text": "Das Maultierhirsch-Geweih gabelt sich immer wieder. Jede Sprosse endet wie eine Zwille.",
+     "source": {
+      "title": "National Park Service, Jewel Cave National Monument: Mule Deer",
+      "url": "https://www.nps.gov/jeca/learn/nature/mule-deer-odocoileus-hemoinus.htm",
+      "quote": [
+       "Mule deer have bifurcated antlers – this means the tines of the antlers fork and multiply from the main beam.",
+       "These forks will look like a slingshot at the end of each antler tine."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-maultierhirsch-schwarzwedel",
+     "text": "Der Schwarzwedelhirsch westlich der Rockies ist keine eigene Art, nur ein Maultierhirsch.",
+     "source": {
+      "title": "Wikipedia (de), Maultierhirsch",
+      "url": "https://de.wikipedia.org/wiki/Maultierhirsch",
+      "quote": [
+       "Jene westlich der Rocky Mountains werden meist als Schwarzwedelhirsche bezeichnet.",
+       "Der Maultierhirsch lässt sich in zwei Unterartengruppen aufteilen: einmal die der Schwarzwedelhirsche"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-maultierhirsch-nase",
+     "text": "Trotz großer Ohren wittert der Maultierhirsch Gefahr vor allem mit der Nase.",
+     "source": {
+      "title": "Texas Tech University, The Mammals of Texas: Mule deer",
+      "url": "https://www.depts.ttu.edu/nsrl/mammals-of-texas-online-edition/Accounts_Artiodactyla/Odocoileus_hemionus.php",
+      "quote": "Although equipped with acute senses of sight and hearing, these deer rely largely on the sense of smell in detecting danger.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-maultierhirsch-sparflamme",
+     "text": "Im Winter läuft der Maultierhirsch auf Sparflamme. So reicht das Fett länger.",
+     "source": {
+      "title": "Animal Diversity Web, Odocoileus hemionus",
+      "url": "https://animaldiversity.org/accounts/Odocoileus_hemionus/",
+      "quote": [
+       "has an annual cycle of metabolic rates",
+       "A lower energy flux in the winter permits O. hemionus to survive on a lower intake of poor-quality forage while minimizing the catabolism of stored fat for body functions."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-maultierhirsch-schutzgebiet",
+     "text": "Die Wanderung der Red-Desert-Hirsche führt durch keinen Park und kein Schutzgebiet.",
+     "source": {
+      "title": "National Geographic, Longest Land Mammal Migration in Lower 48 Discovered (2014)",
+      "url": "https://www.nationalgeographic.com/animals/article/140422-mule-deer-migration-wyoming-animals-science",
+      "quote": "Their trek takes place outside the protection of any parks or preserves",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-maultierhirsch-drittel",
+     "text": "Ein ausgewachsener Maultierhirsch wiegt weniger als ein Drittel eines Wapitis.",
+     "source": {
+      "title": "National Park Service, Grand Canyon National Park: Mule Deer",
+      "url": "https://www.nps.gov/grca/learn/nature/mule-deer.htm",
+      "quote": "Mule deer adults are generally less than one-third the weight of adult elk",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-maultierhirsch-magen",
+     "text": "Der kleine Magen macht Maultierhirsche wählerisch: Gefressen wird nur Nahrhaftes.",
+     "source": {
+      "title": "National Park Service, Mule Deer",
+      "url": "https://www.nps.gov/articles/000/mule-deer.htm",
+      "quote": [
+       "Compared to other animals of their size, mule deer have small stomachs.",
+       "This means they must be selective in what they eat and browse on higher-quality, more nutritous plants."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-s-maultierhirsch-huftiere",
+     "text": "In Wyoming wandern über 90 Prozent der Huftiere, vom Maultierhirsch bis zum Bison.",
+     "source": {
+      "title": "National Geographic, Longest Land Mammal Migration in Lower 48 Discovered (2014)",
+      "url": "https://www.nationalgeographic.com/animals/article/140422-mule-deer-migration-wyoming-animals-science",
+      "quote": "Sawyer says more than 90 percent of the ungulates, or hooved mammals, in Wyoming are migratory, a group that includes mule and white-tailed deer, elk, pronghorns , moose, bighorn sheep, mountain goats, and bison.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "den2-l-maultierhirsch-gedaechtnis",
+     "text": "Maultierhirsche wandern aus Erfahrung: Das Gedächtnis lenkt die Tiere 2- bis 28-mal stärker als frisches Grün oder tiefer Schnee.",
+     "source": {
+      "title": "Merkle et al. 2019, Ecology Letters",
+      "url": "https://doi.org/10.1111/ele.13362",
+      "europepmc": "DOI:10.1111/ele.13362",
+      "quote": "Spatial memory had an extraordinary influence on migration, affecting movement 2-28 times more strongly than tracking spring green-up or autumn snow depth.",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-maultierhirsch-duerre",
+     "text": "In nassen Jahren finden Maultierhirsche bis zu 120 Tage lang frische Triebe. In Dürrejahren ist die grüne Welle nach etwa 60 Tagen vorbei.",
+     "source": {
+      "title": "University of Wyoming News, UW Study Reveals Impacts of Climate Change on Migrating Mule Deer (2020)",
+      "url": "https://www.uwyo.edu/news/2020/06/uw-study-reveals-impacts-of-climate-change-on-migrating-mule-deer.html",
+      "quote": [
+       "In a wet year, the study found that mule deer have access to newly sprouted springtime plants during an extended period, up to 120 days.",
+       "In dry years, the green wave sweeps across the landscape in about half the time, roughly 60 days, the researchers found."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-maultierhirsch-gasfeld",
+     "text": "Durch Gasfelder wie das bei Pinedale in Wyoming eilen wandernde Hirsche schneller hindurch und rasten weniger. Das kostet wertvolles Futter.",
+     "source": {
+      "title": "WyoFile, America's longest mule deer migration discovered in Wyoming (2014)",
+      "url": "https://wyofile.com/americas-longest-mule-deer-migration-discovered-in-wyoming/",
+      "quote": [
+       "Studies by Sawyer and others show that migrating animals speed up when traveling through developed areas, like the Pinedale Anticline gas field.",
+       "That can disrupt use of stopover sites, which reduces the benefits of migration."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-maultierhirsch-rancher",
+     "text": "Seit 2016 haben Landbesitzer am Wanderweg mindestens {776 km|482 mi} Zaun umgebaut oder entfernt. Davon haben Hirsche und Weidevieh etwas.",
+     "source": {
+      "title": "University of Wyoming Extension, Landowner and Economic Benefits from Migration Corridor Designation in Wyoming",
+      "url": "https://wyoextension.org/publications/html/B1374-2/",
+      "quote": [
+       "Since its designation by the Wyoming Game and Fish Department in 2016, landowners have benefited from at least 482 miles of wildlife friendly fencing projects on private lands related to the RD2H migration corridor.",
+       "482 miles of fencing modified or removed",
+       "Funding for wildlife friendly fencing and improving habitat and forage often benefit both wildlife and livestock operations."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-maultierhirsch-zaun",
+     "text": "Vor Zäunen verhalten sich Wildtiere verschieden: Gabelböcke drehen eher ab, Maultierhirsche laufen am Zaun hin und her.",
+     "source": {
+      "title": "University of Wyoming Extension, Landowner and Economic Benefits from Migration Corridor Designation in Wyoming",
+      "url": "https://wyoextension.org/publications/html/B1374-2/",
+      "quote": "On average, pronghorn were observed to be twice as likely to encounter fences as mule deer and were more likely to bounce away, whereas deer more often engaged in back-and-forth",
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-maultierhirsch-winter",
+     "text": "Im harten Winter 2022/23 überlebten 80 Prozent der Red-Desert-Hirsche, mehr als andere Herden in Westwyoming. Der weite Zug lohnt sich wohl.",
+     "source": {
+      "title": "University of Wyoming News, After 11 Years, Longest-Migrating Mule Deer Dies in Wyoming's Red Desert (2024)",
+      "url": "https://www.uwyo.edu/news/2024/06/after-11-years-longest-migrating-mule-deer-dies-in-wyomings-red-desert.html",
+      "quote": [
+       "Remarkably, the deer in the Red Desert had 80 percent survival in the severe winter of 2022-23, faring significantly better than other herds in western Wyoming.",
+       "The use of long-distance migration strategies to connect excellent summer range to low-elevation winter range is thought to give the Red Desert deer optimal fat gain over summer and fat conservation during winter that confer a survival advantage."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-maultierhirsch-nachwuchs",
+     "text": "Ein Jahr lang folgt das Kalb der Mutter. Kurz bevor die neuen Kälber kommen, schickt die Hirschkuh den Nachwuchs vom Vorjahr fort.",
+     "source": {
+      "title": "Wikipedia (de), Maultierhirsch",
+      "url": "https://de.wikipedia.org/wiki/Maultierhirsch",
+      "quote": [
+       "Die enge Bindung an das Muttertier währt etwa ein Jahr.",
+       "Gewöhnlich vertreibt das Weibchen den ihr folgenden Nachwuchs zu einem Zeitpunkt, der kurz vor der Geburt des diesjährigen Nachwuchses liegt."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-maultierhirsch-versteck",
+     "text": "In den ersten zwei, drei Wochen folgt ein Maultierhirsch-Kalb der Mutter nicht. Versteckt wartet das Kalb, bis die Mutter zum Säugen kommt.",
+     "source": {
+      "title": "Wikipedia (de), Maultierhirsch",
+      "url": "https://de.wikipedia.org/wiki/Maultierhirsch",
+      "quote": [
+       "Während der ersten zwei bis drei Wochen ihres Lebens folgen sie dem Muttertier nicht",
+       "sondern liegen wartend in der Deckung"
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "den2-l-maultierhirsch-laute",
+     "text": "Kamerafallen am Wanderweg der Red-Desert-Hirsche zeigten Überraschendes: Unterwegs verständigen sich die Hirsche offensichtlich mit Lauten.",
+     "source": {
+      "title": "National Geographic, Longest Land Mammal Migration in Lower 48 Discovered (2014)",
+      "url": "https://www.nationalgeographic.com/animals/article/140422-mule-deer-migration-wyoming-animals-science",
+      "quote": [
+       "To document the challenges the deer face on their journey, Riis set up camera traps near obstacles the animals had to cross.",
+       "But with the remote video cameras, we observed that they are obviously communicating with each other."
+      ],
+      "checked": "2026-11-22"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  }
+ }
+}

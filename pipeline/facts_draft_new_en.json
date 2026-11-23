@@ -1,0 +1,3622 @@
+{
+ "lang": "en",
+ "about": "Facts for the 13 new species (pipeline/new_species.json: the 11 picks plus elk and mule deer), drafted 2026-11-21/22 by four writers (EN and DE separately), checked by pipeline/check_fact_draft.py --new. Pending owner review; not in the recipe.",
+ "species": {
+  "Bubo scandiacus": {
+   "short": [
+    {
+     "id": "enn-s-owl-heaviest",
+     "text": "The snowy owl is the heaviest owl in North America.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "This species is the heaviest and longest winged owl (as well as the second longest) in North America, the second heaviest and longest winged owl in Europe (and third longest) but is outsized in bulk by 3 or 4 other species in Asia.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-owl-whiter",
+     "text": "A male snowy owl can be whiter than a polar bear or an Arctic fox.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "They are purer white than predatory mammals such as polar bears ( Ursus maritimus ) and Arctic fox ( Vulpes lagopus ).",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-owl-insulation",
+     "text": "Among birds, perhaps only the Adélie penguin keeps out the cold better than a snowy owl.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "The snowy owl has perhaps the second lowest thermal conduction to the plumage on average of any bird after only the Adelie penguin ( Pygoscelis adeliae ) and rivals the best insulated mammals, such as Dall sheep ( Ovis dalli ) and Arctic fox , as the best insulated polar creature.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-owl-polar-bears",
+     "text": "Snowy owls sometimes follow polar bears to pick at the leftovers of their kills.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "A wide variety of accrued reports show that the snowy owl that scavenging on carrion is not uncommon (despite having once been thought to be very rare in all owls), including instances of reindeer ( Rangifer tarandus ) body parts brought to nests and owls following polar bears to secondarily feed on their kills.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-owl-linnaeus",
+     "text": "Linnaeus thought male and female snowy owls were two different species.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "Linnaeus originally described the different plumages of this owl as separate species, with the male specimens of snowy owls being considered Strix scandiaca and the likely females considered as Strix nyctea .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-owl-central-park",
+     "text": "In January 2021 a snowy owl dropped in on Central Park, the first seen there since 1890.",
+     "source": {
+      "title": "NPR, Snowy Owl Seen In Central Park For First Time Since 1890 (2021)",
+      "url": "https://www.npr.org/2021/01/29/961970036/snowy-owl-seen-in-central-park-for-first-time-since-1890",
+      "quote": [
+       "Snowy Owl Seen In Central Park For First Time Since 1890 January 29, 2021",
+       "The white-winged raptor paid a special visit to Central Park on Wednesday.",
+       "It was 1890 the last time a snowy owl was spotted in the park."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-owl-eyes",
+     "text": "A snowy owl's eyes are nearly as big as a person's.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "Owls' eyes are large and round, which are nearly the same size in large species such as the snowy owl as those of humans.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-owl-toddlers",
+     "text": "Young snowy owls toddle around the tundra for nearly a month before they can fly.",
+     "source": {
+      "title": "Owl Research Institute, Snowy Owl",
+      "url": "https://www.owlresearchinstitute.org/snowy-owl",
+      "quote": "Fledglings leave the nest and spend nearly a month hiding & toddling around the tundra before they are able to fly",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-owl-daytime",
+     "text": "Unlike most owls, snowy owls are not night hunters: they hunt at any hour.",
+     "source": {
+      "title": "Owl Research Institute, Snowy Owl",
+      "url": "https://www.owlresearchinstitute.org/snowy-owl",
+      "quote": "Unlike many other owls, Snowy owls are not nocturnal, and can be seen hunting any time of the day or night.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-owl-slippers",
+     "text": "A snowy owl's toes are wrapped in thick white feathers, with black claws poking out.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "The toes of the snowy owl are extremely thickly feathered white, while the claws are black.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-owl-whitening",
+     "text": "Male snowy owls get whiter with age; some aren't fully white until about 10.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "Evidence indicates that snowy owls may attain adult plumage at 3 to 4 years of age, but fragmentary information suggests that some males are not fully mature and/or as fully white in plumage that they can attain until the 9th or 10th year.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-owl-airports",
+     "text": "Airports suit wintering snowy owls: flat and grassy like the tundra, and full of prey.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "Perhaps the most consistently attractive habitat in North America to wintering snowy owls in modern times may be airports, which not only tend to have the flat, grassy characteristics of their preferred habitats but also by winter host a particular diversity of prey, both pests which rely on humans as well as wildlife attracted to the extensively grassy and marshy strips that dot the large airport vicinities.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-owl-ice-age",
+     "text": "In the Ice Age, snowy owls lived as far south as Spain, Italy and Sardinia.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "Fossil records shows that snowy owls once could be found in Austria, Azerbaijan, Czechoslovakia , England, France, Germany, Hungary, Italy, Poland, Sardinia and Spain as well as in the Americas in Cape Prince of Wales , Little Kiska Island , St.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-owl-logan",
+     "text": "Since 1981 Norman Smith of Mass Audubon has caught over 900 snowy owls at Boston's Logan Airport and moved them away from the planes.",
+     "source": {
+      "title": "WUSF/NPR, Meet the man who protects snowy owls that migrate to Boston's Logan Airport (2025)",
+      "url": "https://www.wusf.org/2025-04-30/meet-the-man-who-protects-snowy-owls-that-migrate-to-bostons-logan-airport",
+      "quote": [
+       "In 1981, Smith wrote a letter to the airport asking if he could take a different approach, a more humane approach.",
+       "And I've relocated over 900 snowy owls, so far, from Logan Airport."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-owl-sea-ice",
+     "text": "Some snowy owls don't fly south at all. They spend the winter out on the Arctic sea ice, hunting seabirds in patches of open water.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "Since at least the 1970s, research indicated that snowy owls regularly winter in several of the northern seas during wintertime, following the leads of sea ice as perching sites and presumably hunting mostly seabirds in polynyas .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-owl-siblings",
+     "text": "Three snowy owls from one Arctic nest went separate ways: a year on, one was in Ontario, one at Hudson Bay, one on Russia's Sakhalin Island.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": [
+       "Three siblings that hatched in same nest in",
+       "were recovered in drastically different spots at least a year later: one in eastern Ontario , one in Hudson Bay and one in Sakhalin Island ."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-owl-eggs",
+     "text": "Snowy owl eggs are laid days apart, so a clutch of 11 can take 20 to 30 days. The oldest chick may be weeks older than the youngest.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": [
+       "The snowy owl lays a very large clutch of eggs , often from about 5 to 11, with the laying and hatching of eggs considerably staggered.",
+       "The laying of a clutch of 11 eggs can take 20–30 days, while a more typical nest of around 8 takes about up to 16 days."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-owl-sunbathing",
+     "text": "On sunny days, wintering snowy owls turn their whitest feathers toward the sun, which makes them stand out. On cloudy days they bother less.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": [
+       "A study determined that snowy owls are able to orient the whitest parts of their plumage towards the sun, spending about 44% of time oriented as such during sunny days and much less on cloudy days.",
+       "Wintering Snowy Owls Bubo scandiacus integrate plumage colour, behaviour and their environment to maximize efficacy of visual displays"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-owl-fox",
+     "text": "The biggest prey on record for a snowy owl: an adult red fox of about {6 kg|13 lb}, taken by a wintering owl in Saskatchewan.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "A wintering snowy owl in Saskatchewan was observed to have preyed on an adult red fox ( Vulpes vulpes ) weighing around 6 kg (13 lb) which may be the largest known prey known for snowy owls.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-owl-defense",
+     "text": "Snowy owl fathers guard the nest by raising their feathers, fanning their wings and marching at intruders, then slashing with feet and bill.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "At times, humans are forcefully dive-bombed upon, while other potential threats are dealt with in a \"forward-threat\" where the male walks towards the intruders, engaging in impressive feather-raising and fanning out of half-spread wings until they run forward and slash with both their feet and bill.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-owl-rodents",
+     "text": "On a bitterly cold winter day, a snowy owl may need to eat as many as seven rodents just to get through it.",
+     "source": {
+      "title": "Wikipedia (en), Snowy owl",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "quote": "Presumably as many as seven rodents would need to be eaten daily to survive an extremely cold winter's day.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Numenius phaeopus": {
+   "short": [
+    {
+     "id": "enn-s-whimbrel-name",
+     "text": "The whimbrel is named after the sound of its call.",
+     "source": {
+      "title": "Wikipedia (en), Hudsonian whimbrel",
+      "url": "https://en.wikipedia.org/wiki/Hudsonian_whimbrel",
+      "quote": "The English name is imitative of the bird's call.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-whimbrel-new-moon",
+     "text": "Its Latin name, Numenius, means 'new moon', after its crescent-shaped bill.",
+     "source": {
+      "title": "Wikipedia (en), Hudsonian whimbrel",
+      "url": "https://en.wikipedia.org/wiki/Hudsonian_whimbrel",
+      "quote": "It is associated with the curlews because it appears to be derived from neos , \"new\" and mene , \"moon\", referring to the crescent-shaped bill.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-whimbrel-fiddler-crabs",
+     "text": "On Virginia's Eastern Shore, whimbrels fatten up on fiddler crabs before flying north.",
+     "source": {
+      "title": "William & Mary News, Winnie the whimbrel flies 3,200 miles in 146 hours (2008)",
+      "url": "https://wm.edu/news/stories/2008/winnie-the-whimbrel.php",
+      "quote": "The birds stop over on the Eastern Shore to feed on abundant fiddler crabs before continuing their long journey to their northern breeding grounds.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-whimbrel-fathers",
+     "text": "Whimbrel mothers leave early; the fathers stay behind to look after the young.",
+     "source": {
+      "title": "Alaska Science Forum (UAF Geophysical Institute), Flight of the Kanuti whimbrel",
+      "url": "https://www.gi.alaska.edu/alaska-science-forum/flight-kanuti-whimbrel",
+      "quote": "The whimbrels had already bred and reared young in Kanuti, with the father birds lingering to help the fledglings after the mothers had moved on.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-whimbrel-week",
+     "text": "Alaska's whimbrels can fly non-stop for more than seven days.",
+     "source": {
+      "title": "All Hands Ecology, Diverse patterns of migratory behavior seen in Alaska-breeding Whimbrels (2021)",
+      "url": "https://www.allhandsecology.org/?p=4097",
+      "quote": "The tagged Whimbrels moved entirely within the Pacific Americas Flyway—some making nonstop flights that exceeded 7 days across nearly 5,400 miles",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-whimbrel-fat-ball",
+     "text": "Whimbrels resting in Virginia in spring can put on half their weight again in three weeks.",
+     "source": {
+      "title": "NPR, A Bird Flies Into A Hurricane. Does It Fly Out? (2011, transcript)",
+      "url": "https://www.npr.org/transcripts/141177667",
+      "quote": [
+       "One factor clearly is, the birds that come and stop here in the spring, for example, might come in at 350 to 400 grams.",
+       "But over a period of three weeks, the add 50 percent of that."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-whimbrel-farms",
+     "text": "Alaska's whimbrels often refuel in the farm fields of California's Central Valley.",
+     "source": {
+      "title": "All Hands Ecology, Diverse patterns of migratory behavior seen in Alaska-breeding Whimbrels (2021)",
+      "url": "https://www.allhandsecology.org/?p=4097",
+      "quote": "they were less risk-adverse about stop-over sites, often choosing human-modified environments, like agricultural lands in the Central and Imperial valleys of California, that may provide abundant, high-energy food resources during migration.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-whimbrel-heart",
+     "text": "After a long flight, a whimbrel's heart can shrink by a quarter.",
+     "source": {
+      "title": "Audubon magazine, An Ecologist and an Extreme Athlete Are Biking More Than 18,000 Miles on the Trail of a Migrating Whimbrel (2026)",
+      "url": "https://www.audubon.org/magazine/biking-18000-miles-whimbrel-migration",
+      "quote": "“Even the heart can shrink by 25 percent.”",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-whimbrel-tailwinds",
+     "text": "Whimbrels get ahead of storm systems to ride their tailwinds.",
+     "source": {
+      "title": "Alaska Science Forum (UAF Geophysical Institute), Flight of the Kanuti whimbrel",
+      "url": "https://www.gi.alaska.edu/alaska-science-forum/flight-kanuti-whimbrel",
+      "quote": "“They get ahead of these storm systems and get these great tailwinds.”",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-whimbrel-no-sleep",
+     "text": "A whimbrel can fly over {8000 km|5000 mi} without stopping to eat, drink or sleep.",
+     "source": {
+      "title": "Audubon magazine, An Ecologist and an Extreme Athlete Are Biking More Than 18,000 Miles on the Trail of a Migrating Whimbrel (2026)",
+      "url": "https://www.audubon.org/magazine/biking-18000-miles-whimbrel-migration",
+      "quote": "Whimbrels, meanwhile, can fly more than 5,000 miles without stopping to eat, drink, or sleep, and reach speeds of up to 50 miles per hour.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-whimbrel-hope-miles",
+     "text": "A whimbrel named Hope was tracked for {80000 km|50000 mi}, four times back and forth.",
+     "source": {
+      "title": "Center for Conservation Biology, Farewell to Hope (2019)",
+      "url": "https://ccbbirds.org/?p=30492",
+      "quote": "She was tracked for more than 50,000 miles (80,000 kilometers) back and forth four times between her breeding site on the Mackenzie River in far western Canada and her wintering site on Great Pond.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-whimbrel-hope-gert",
+     "text": "In 2011 a whimbrel named Hope battled Tropical Storm Gert for 27 hours at {14 km/h|9 mph}. Out of the storm, tailwinds pushed it past {145 km/h|90 mph}.",
+     "source": {
+      "title": "William & Mary News, national news highlights bird's heroic flight (2011)",
+      "url": "https://www.wm.edu/news/stories/2011/national-news-highlights-birds-heroic-flight123.php",
+      "quote": [
+       "Hope encountered high headwinds for 27 hours, averaging only 9 miles per hour.",
+       "Once through the storm, her flight speed increased to more than 90 miles per hour as the bird was pushed by significant tail winds and made it back to Cape Cod."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-whimbrel-chinquapin",
+     "text": "In August 2011 a whimbrel named Chinquapin flew straight through the fiercest part of Hurricane Irene, and turned up safe in the Bahamas.",
+     "source": {
+      "title": "William & Mary News, national news highlights bird's heroic flight (2011)",
+      "url": "https://www.wm.edu/news/stories/2011/national-news-highlights-birds-heroic-flight123.php",
+      "quote": "Satellite tracking revealed that Chinquapin left upper Hudson Bay on Aug. 20 and entered Hurricane Irene’s northeast quadrant—the most severe part of the storm—on Aug. 24.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-whimbrel-upinraaq",
+     "text": "Blown off course by Tropical Storm Erika in 2015, a whimbrel named Upinraaq landed in Suriname, {1600 km|1000 mi} short of its Brazil winter home.",
+     "source": {
+      "title": "Center for Conservation Biology, whimbrel Upinraaq and Tropical Storm Erika (2015)",
+      "url": "https://ccbbirds.org/?p=20246",
+      "quote": "She made landfall near Paramaribo, Suriname roughly 1,000 miles west of her winter range in Brazil.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-whimbrel-winnie",
+     "text": "In 2008 a whimbrel named Winnie surprised scientists: instead of following the Atlantic coast, it flew {5000 km|3200 mi} across the continent.",
+     "source": {
+      "title": "William & Mary News, Winnie the whimbrel flies 3,200 miles in 146 hours (2008)",
+      "url": "https://wm.edu/news/stories/2008/winnie-the-whimbrel.php",
+      "quote": [
+       "Winnie left the study area on May 23, flying northwest at an average flight speed of nearly 22 miles per hour, covering more than 5,000 kilometers (3,200 miles) in no more than 146 hours.",
+       "Winnie surprised scientists by making a transcontinental flight, northwest toward Alaska, rather than taking the route expected for a bird belonging to the eastern population of whimbrels."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-whimbrel-fuel",
+     "text": "On paper, a whimbrel should run out of fuel after three or four days in the air. Yet tracked whimbrels fly non-stop for over a week.",
+     "source": {
+      "title": "Audubon magazine, An Ecologist and an Extreme Athlete Are Biking More Than 18,000 Miles on the Trail of a Migrating Whimbrel (2026)",
+      "url": "https://www.audubon.org/magazine/biking-18000-miles-whimbrel-migration",
+      "quote": [
+       "On paper, whimbrels should run out of fuel after three or four days, based on how much fat they can store and how much energy flight requires, says Chris Guglielmo, co-director of the Advanced Facility for Avian Research at Western University.",
+       "But satellite tracking confirms that the birds can fly nonstop for over a week."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-whimbrel-bike",
+     "text": "In 2026 two Canadians set off to cycle {29900 km|18600 mi} from Alaska's Arctic coast to Patagonia, following one GPS-tagged whimbrel.",
+     "source": {
+      "title": "Audubon magazine, An Ecologist and an Extreme Athlete Are Biking More Than 18,000 Miles on the Trail of a Migrating Whimbrel (2026)",
+      "url": "https://www.audubon.org/magazine/biking-18000-miles-whimbrel-migration",
+      "quote": [
+       "On August 1, University of Alberta ecologist Timm Döbert and his partner, extreme athlete Leanna Carriere, set off from Prudhoe Bay on Alaska’s Arctic coast, on a pair of bicycles.",
+       "They had around 18,600 miles to go.",
+       "They’re now 98 days and more than 5,000 miles into a planned 9-month journey, which will loosely follow the path of one GPS-tracked Hudsonian Whimbrel as it migrates south to Patagonia."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-whimbrel-hope-book",
+     "text": "Hope the whimbrel became a children's book, 'Hope is Here', read in schools in the US Virgin Islands and Virginia, both stops on its route.",
+     "source": {
+      "title": "Center for Conservation Biology, Farewell to Hope (2019)",
+      "url": "https://ccbbirds.org/?p=30492",
+      "quote": [
+       "The story of Hope was immortalized in the book “ Hope is Here ” written by well-known children’s author Cristina Kessler of St. John.",
+       "The book tells a conservation story to children and has been used as a teaching tool on the U.S. Virgin Islands where Hope spent the winter months and in schools on the Delmarva Peninsula where Hope stopped during spring migration."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Cygnus columbianus": {
+   "short": [
+    {
+     "id": "enn-s-swan-feathers",
+     "text": "Someone once counted every feather on a tundra swan: 25,216.",
+     "source": {
+      "title": "BirdNote, Which Bird Has the Most Feathers?",
+      "url": "https://www.birdnote.org/node/15491",
+      "quote": "Someone counted the feathers on a Tundra Swan and came up with 25,216.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-swan-wing-whistle",
+     "text": "You can hear the air whistle through a flying tundra swan's wings from {30 m|100 ft} below.",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, Bird of the Month: Tundra Swan (2024)",
+      "url": "https://www.fws.gov/story/2024-02/bird-month-tundra-swan",
+      "quote": "Air whistling through tundra swans’ wings as they fly can be heard from about 100 feet above.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-swan-rusty",
+     "text": "Tundra swans living on iron-rich bog lakes can get golden or rusty-stained heads.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "In birds living in waters that contains large amounts of iron ions (e.g. bog lakes), the head and neck plumage acquires a golden or rusty hue.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-swan-bark",
+     "text": "The old name 'whistling swan' misleads: in flight it gives a high bark, 'wow-wow-wow'.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": [
+       "Contrary to its common name, the ground calls of the whistling swan are not a whistle and neither notably different from that of Bewick's swan.",
+       "the whistling swan gives a markedly high-pitched trisyllabic bark like wow-wow-wow in flight."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-swan-engaged",
+     "text": "Tundra swans spend almost a year together before mating, and then they pair for life.",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, Bird of the Month: Tundra Swan (2024)",
+      "url": "https://www.fws.gov/story/2024-02/bird-month-tundra-swan",
+      "quote": "Tundra swans spend almost a year together before mating -- and once they mate, it’s for life.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-swan-widowed",
+     "text": "A tundra swan that loses its mate may stay single for years, even for life.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "Should one partner die long before the other, the surviving bird often will not mate again for some years, or even for its entire life.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-swan-potatoes",
+     "text": "In winter, tundra swans glean leftover grain and even potatoes from harvested fields.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "At other times of year, leftover grains and other crops such as potatoes , picked up in open fields after harvest, make up much of their diet.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-swan-common",
+     "text": "The tundra swan is the most common swan in North America.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "The whistling swan is the most common swan species of North America, estimated to number almost 170,000 individuals around 1990.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-swan-columbia",
+     "text": "The tundra swan's Latin name, columbianus, comes from the Columbia River.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "Cygnus is the Latin for \"swan\", and columbianus comes from the Columbia River , the type locality .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-swan-wolves",
+     "text": "Tundra swans guard their nests fiercely and can fight off animals as big as wolves.",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, Bird of the Month: Tundra Swan (2024)",
+      "url": "https://www.fws.gov/story/2024-02/bird-month-tundra-swan",
+      "quote": "Tundra swans fiercely protect their nests and can fight off large animals like wolves.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-swan-speed",
+     "text": "Tundra swans can fly as high as {2700 m|9000 ft} and as fast as {80 km/h|50 mph}.",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, Bird of the Month: Tundra Swan (2024)",
+      "url": "https://www.fws.gov/story/2024-02/bird-month-tundra-swan",
+      "quote": "They can fly as high up as 9,000 feet and as fast as 50 miles per hour.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-swan-oldest",
+     "text": "The oldest tundra swan on record lived to more than 24.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "The oldest recorded tundra swan was over 24 years old.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-swan-lewis",
+     "text": "On the Columbia River in 1806, Meriwether Lewis named a small swan the 'whistleing swan' and noted it outnumbered the big swans five to one.",
+     "source": {
+      "title": "Journals of the Lewis and Clark Expedition, March 9, 1806",
+      "url": "https://lewisandclarkjournals.unl.edu/item/lc.jrn.1806-03-09",
+      "quote": [
+       "from the peculiar whistleing of the note of this bird I have called it the whistleing swan it's habits colour and contour appear to be precisely those of the large Swan.",
+       "in number they are fully five for one of the large speceis.",
+       "The tundra, or whistling, swan."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-swan-lewis-call",
+     "text": "Meriwether Lewis found the tundra swan's call impossible to spell out in letters: a whistle that ends in a round, full note.",
+     "source": {
+      "title": "Journals of the Lewis and Clark Expedition, March 9, 1806",
+      "url": "https://lewisandclarkjournals.unl.edu/item/lc.jrn.1806-03-09",
+      "quote": [
+       "the latter cannot be justly immetated by the sound of letters nor do I know any sounds with which a comparison would be pertinent.",
+       "it begins with a kind of whistleing sound and terminates in a round full note which is as loud as that of the large swan.",
+       "The tundra, or whistling, swan."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-swan-family",
+     "text": "Tundra swan families fly south together. On the wintering grounds, older brothers and sisters from earlier years sometimes join them.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": [
+       "The fledglings stay with their parents for the first winter migration.",
+       "The family is sometimes even joined by their offspring from previous breeding seasons while on the wintering grounds;"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-swan-deep-water",
+     "text": "When a bear or another big mammal comes near, tundra swan parents lead their cygnets into deep water and stand still until it passes.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "Small or avian predators usually elicit either an aggressive response or the behavior of sitting tight on nests while larger mammals, perhaps more dangerous to adults, usually elicit the response of leading the cygnets into deep waters and standing still until they pass.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-swan-fast-cygnets",
+     "text": "Arctic summers are short, so tundra swan cygnets grow fast: they fly 60 to 75 days after hatching, twice as fast as young mute swans.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": "Since they nest in cold regions, tundra swan cygnets grow faster than those of swans breeding in warmer climates; those of the whistling swan take about 60–75 days to fledge—twice as fast as those of the mute swan for example—while those of Bewick's swan, about which little breeding data is known, may fledge a record 40–45 days after hatching already.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-swan-two-coasts",
+     "text": "Western Alaska's tundra swans winter by the Pacific. Arctic coast swans cross the continent to winter from Maryland to North Carolina.",
+     "source": {
+      "title": "Wikipedia (en), Tundra swan",
+      "url": "https://en.wikipedia.org/wiki/Tundra_swan",
+      "quote": [
+       "Birds breeding in western Alaska winter along the Pacific coast from southern Alaska to California ;",
+       "The birds breeding along the Arctic Ocean coast migrate via Canada and the Great Lakes region to winter at the Atlantic coast of the United States, mainly from Maryland to North Carolina , but some move as far south as Florida ."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-swan-sleep",
+     "text": "In winter, tundra swans sleep almost only on the water, and they need a running start across the surface to take off.",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, Bird of the Month: Tundra Swan (2024)",
+      "url": "https://www.fws.gov/story/2024-02/bird-month-tundra-swan",
+      "quote": [
+       "Because the tundra swans are such strong swimmers, they can take off from the water with a running start.",
+       "In winter they sleep almost exclusively on water."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Balaena mysticetus": {
+   "short": [
+    {
+     "id": "enn-s-bowhead-mouth",
+     "text": "The bowhead has the largest mouth of any animal: almost a third of its body.",
+     "source": {
+      "title": "Wikipedia (en), Bowhead whale",
+      "url": "https://en.wikipedia.org/wiki/Bowhead_whale",
+      "quote": "Bowheads have the largest mouth of any animal, representing almost one-third of the length of the body.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-bowhead-blubber",
+     "text": "A bowhead's blubber is {43-48 cm|17-19 in} thick, thicker than any other whale's.",
+     "source": {
+      "title": "NOAA Fisheries, Bowhead Whale",
+      "url": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+      "quote": "The bowhead whale also has a 17- to 19-inch thick blubber layer—thicker than that of any other whale.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-bowhead-baleen",
+     "text": "Bowheads have the longest baleen plates of any whale.",
+     "source": {
+      "title": "NOAA Fisheries, Bowhead Whale",
+      "url": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+      "quote": "Bowhead whales have the longest baleen plates of all whales and feed almost exclusively on marine invertebrates, including small to moderately sized crustaceans, such as shrimp-like euphausiids (i.e., krill) and copepods.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-bowhead-calf-swims",
+     "text": "A newborn bowhead calf can swim on its own within 30 minutes.",
+     "source": {
+      "title": "Wikipedia (en), Bowhead whale",
+      "url": "https://en.wikipedia.org/wiki/Bowhead_whale",
+      "quote": "Within 30 minutes of birth, bowhead calves are able to swim on their own.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-bowhead-mothers",
+     "text": "Bowhead mothers may be able to have calves for 100 years.",
+     "source": {
+      "title": "Wikipedia (en), Bowhead whale",
+      "url": "https://en.wikipedia.org/wiki/Bowhead_whale",
+      "quote": "Female bowheads may be capable of producing calves for 100 years.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-bowhead-200-years",
+     "text": "Bowheads may live over 200 years, perhaps thanks to genes that repair damaged DNA.",
+     "source": {
+      "title": "NOAA Fisheries, Bowhead Whale",
+      "url": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+      "quote": [
+       "However, new techniques allow for more precise estimation of bowhead whale age, and studies suggest they may live to be over 200 years old.",
+       "Genes that allow for repair of damaged DNA may be responsible for their longevity."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-bowhead-disko-females",
+     "text": "About 80 percent of the bowheads in Greenland's Disko Bay are females.",
+     "source": {
+      "title": "ScienceNordic, Singing bowhead whales give new insight into behaviour",
+      "url": "https://www.sciencenordic.com/agriculture--fisheries-animals-biology/singing-bowhead-whales-give-new-insight-into-behaviour/1386115",
+      "quote": [
+       "But they show that some 80 percent of the bowhead whales in Disko Bay are female.",
+       "We know of no other Arctic areas that have meeting places predominantly for females."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-bowhead-sanctuary",
+     "text": "Isabella Bay, Nunavut, was the world's first sanctuary designed for bowhead whales.",
+     "source": {
+      "title": "Wikipedia (en), Bowhead whale",
+      "url": "https://en.wikipedia.org/wiki/Bowhead_whale",
+      "quote": "Isabella Bay in Niginganiq National Wildlife Area is the first wildlife sanctuary in the world to be designed specially for bowhead whales.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-bowhead-appetite",
+     "text": "A bowhead eats about {100 t|220000 lb} of krill, copepods and other small prey a year.",
+     "source": {
+      "title": "NOAA Fisheries, Bowhead Whale",
+      "url": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+      "quote": "Scientists estimate that a bowhead whale needs to eat about 100 metric tons (over 220,000 pounds) of prey per year including copepods, euphausiids/krill, other invertebrates, and fish.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-bowhead-pumice",
+     "text": "Each summer, eastern Arctic bowheads scrub off dead skin on boulders, like a pumice stone.",
+     "source": {
+      "title": "Hakai Magazine, Bowhead Whales Like to Exfoliate, Too (2017)",
+      "url": "https://hakaimagazine.com/news/bowhead-whales-exfoliate-too/",
+      "quote": [
+       "That’s where bowheads from the Eastern Canada-West Greenland population gather in late summer to rub themselves on large rocks just below the water’s surface.",
+       "Think of it as using a pumice stone to get a callus off your foot, using the physical environment to help exfoliate the skin."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-bowhead-scars",
+     "text": "Scientists tell bowheads apart by the scars on their skin, many from breaking ice.",
+     "source": {
+      "title": "NOAA Fisheries, Bowhead Whale",
+      "url": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+      "quote": [
+       "Bowhead whales often accumulate scars on their bodies from breaking ice, killer whale encounters, entanglement in fishing gear, and propellers.",
+       "Scientists use these scars to identify individual whales."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-bowhead-icebreaker",
+     "text": "A bowhead's huge skull can smash through {20 cm|8 in} of sea ice, and Alaska Native whalers have seen bowheads surface through {60 cm|2 ft}.",
+     "source": {
+      "title": "NOAA Fisheries, Bowhead Whale",
+      "url": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+      "quote": [
+       "The bowhead’s large, thick skull allows them to break through 8-inch-thick sea ice.",
+       "Some Alaska Native whalers have even reported whales surfacing through 2 feet of ice."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-bowhead-rock-nose",
+     "text": "Whalers in the 1800s called bowheads 'rock-nose whales'. In 2016 a drone showed why: the whales were rubbing on rocks to scrub off old skin.",
+     "source": {
+      "title": "Hakai Magazine, Bowhead Whales Like to Exfoliate, Too (2017)",
+      "url": "https://hakaimagazine.com/news/bowhead-whales-exfoliate-too/",
+      "quote": [
+       "The findings provide a scientific answer to a mystery that dates back to at least the mid-1800s, when European whalers nicknamed the animals rock-nose whales, due to their close proximity to the rocks.",
+       "The research team returned in August 2016 for further investigation—this time with a drone—and gathered conclusive evidence of what they had suspected: the whales were rubbing against rocks in water less than 10 meters deep as a way of removing dead skin."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-bowhead-singing-female",
+     "text": "In Greenland's Disko Bay, bowheads sing all winter and fall almost silent by May. A singer that scientists sampled there was a female.",
+     "source": {
+      "title": "ScienceNordic, Singing bowhead whales give new insight into behaviour",
+      "url": "https://www.sciencenordic.com/agriculture--fisheries-animals-biology/singing-bowhead-whales-give-new-insight-into-behaviour/1386115",
+      "quote": [
+       "This biopsy revealed that the whale in question was a female.",
+       "From being very active in winter, they become virtually silent in May."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-bowhead-jazz",
+     "text": "Bowheads east of Greenland sang 184 different songs in four winters, never repeating a song type between years. 'Bowheads are jazz.'",
+     "source": {
+      "title": "UW News, Bowhead whales, the 'jazz musicians' of the Arctic, sing many different songs (2018)",
+      "url": "https://washington.edu/news/?p=57126",
+      "quote": [
+       "Audio recordings gathered from 2010 to 2014 indicate a healthy population, and include 184 different songs.",
+       "“If humpback whale song is like classical music, bowheads are jazz,” said lead author Kate Stafford , an oceanographer at the UW’s Applied Physics Laboratory.",
+       "And when we looked through four winters of acoustic data, not only were there never any song types repeated between years, but each season had a new set of songs.”"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-bowhead-cooling",
+     "text": "A hard-working bowhead can overheat. An organ in its mouth fills with blood, and cold seawater cools the blood when the whale opens wide.",
+     "source": {
+      "title": "Wikipedia (en), Bowhead whale",
+      "url": "https://en.wikipedia.org/wiki/Bowhead_whale",
+      "quote": [
+       "During physical exertion, the whale must cool itself to prevent hyperthermia (and ultimately brain damage).",
+       "This organ becomes engorged with blood, and as the whale opens its mouth cold seawater flows over the organ, thus cooling the blood."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-bowhead-skull",
+     "text": "A bowhead's arched skull can be over {5 m|16.5 ft} long, about a third of the whale. It gives the bowhead its name and its icebreaking head.",
+     "source": {
+      "title": "NOAA Fisheries, Bowhead Whale",
+      "url": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+      "quote": "The bow-shaped skull can be over 16.5 feet long—about a third of a bowhead’s body length.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-bowhead-newborn",
+     "text": "A newborn bowhead calf is already about {4 m|13 ft} long and {900 kg|2000 lb}, and can swim at birth. Mother and calf stay very close.",
+     "source": {
+      "title": "NOAA Fisheries, Bowhead Whale",
+      "url": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+      "quote": [
+       "Calves are usually about 13 feet long, weigh about 2,000 pounds, and can swim at birth.",
+       "Mothers and calves form a very close attachment."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-bowhead-no-fin",
+     "text": "Bowheads have no dorsal fin, a white chin and a head so big that the bow-shaped skull alone takes up a third of the body.",
+     "source": {
+      "title": "NOAA Fisheries, Bowhead Whale",
+      "url": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+      "quote": "Bowhead whales have a dark body with a distinctive white chin and unlike most cetaceans, do not have a dorsal fin.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Aquila chrysaetos": {
+   "short": [
+    {
+     "id": "enn-s-eagle-peregrine",
+     "text": "In a dive, a golden eagle may match or even beat a peregrine falcon's speed.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "Although less agile and manoeuvrable, the golden eagle is apparently quite the equal and possibly even the superior of the peregrine falcon 's stooping and gliding speeds.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-eagle-mexico",
+     "text": "The eagle on Mexico's coat of arms, with a snake in its beak, is a golden eagle.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "Mexico's Coat of Arms depicts a golden eagle perched on a prickly pear cactus, with a rattlesnake in its beak.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-eagle-lorette",
+     "text": "Some 4,000 golden eagles pass Mount Lorette, Alberta, in fall: the world's biggest flight.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "At Mount Lorette in Alberta , approximately 4,000 golden eagles may pass during the fall, the largest recorded migration of golden eagles on earth.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-eagle-power-poles",
+     "text": "On one frigid night in eastern Idaho, 124 golden eagles roosted along 85 power poles.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "The largest known congregation of golden eagles was observed on an extremely cold winter's night in eastern Idaho when 124 individuals were observed perched closely along a line of 85 power poles.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-eagle-oldest",
+     "text": "The oldest known wild golden eagle was found 32 years after it was banded.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "The oldest known wild golden eagle was a bird banded in Sweden which was recovered 32 years later.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-eagle-eyries",
+     "text": "Golden eagles build several nests in their territory and take turns using them.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "Golden eagles typically build several eyries within their territory (preferring cliffs) and use them alternately for several years.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-eagle-provider",
+     "text": "After the chicks hatch, the father brings in about 80% of their food.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "After hatching, 80% of food items and 90% of food biomass is captured and brought to the nest by the adult male.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-eagle-golden-nape",
+     "text": "The 'golden' in golden eagle is the gleaming patch of long feathers on its nape.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "The nape patch is often gleaming golden in color and the feathers here are exceptionally long.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-eagle-range",
+     "text": "Golden eagles live across more of the world than any other eagle or hawk.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "It has the largest known range of any member of its family, with a range estimated at 140 million square kilometers.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-eagle-home-range",
+     "text": "A golden eagle's home range can be as big as {200 km²|77 sq mi}.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "Golden eagles maintain home ranges or territories that may be as large as 200 km 2 (77 sq mi) .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-eagle-dawn",
+     "text": "Idaho's golden eagles hunt from an hour before sunrise to an hour after sunset.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "Golden eagles usually hunt during daylight hours, but were recorded hunting from one hour before sunrise to one hour after sunset during the breeding season in southwestern Idaho .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-eagle-rock-drop",
+     "text": "Courting golden eagles play catch: one picks up a rock or stick, drops it, dives after it and catches it in midair, three times or more.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "This courtship includes undulating displays by both in the pair, with the male bird picking up a piece of rock or a small stick, and dropping it only to enter into a steep dive and catch it in mid-air, repeating the maneuver three or more times.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-eagle-stoop",
+     "text": "Diving at prey, a golden eagle tucks its legs against its tail and its wings tight to its body, and can reach {240-320 km/h|150-200 mph}.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": [
+       "When stooping (diving) in the direction of prey or during territorial displays, the eagle holds its legs up against its tail, and holds its wings tight and partially closed against its body.",
+       "When diving after prey, a golden eagle can reach 240 to 320 kilometres per hour (150 to 200 mph) ."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-eagle-wyoming",
+     "text": "American golden eagles are usually smaller than Eurasian ones. Yet the heaviest wild golden eagle on record was a Wyoming female: {7.7 kg|17 lb}.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "American golden eagles are typically somewhat smaller than the large Eurasian species, but a massive female that was banded and released in 2006 around Wyoming's Bridger-Teton National Forest became the heaviest wild golden eagle on record, at 7.7 kg (17 lb) .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-eagle-repository",
+     "text": "Since the early 1970s, the National Eagle Repository has given feathers of dead golden and bald eagles to Native Americans for ceremonies.",
+     "source": {
+      "title": "U.S. Fish and Wildlife Service, National Eagle Repository",
+      "url": "https://www.fws.gov/program/national-eagle-repository",
+      "quote": [
+       "Native Americans have long used eagle remains, parts and feathers for religious and cultural purposes, including in ceremonies and as part of traditional regalia.",
+       "Fish and Wildlife Service (Service) established the National Eagle Repository (Repository) in the early 1970s to provide enrolled members of federal recognized Native American Tribes with the remains, parts, and feathers of bald and golden eagles for spiritual and religious use."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-eagle-maine",
+     "text": "The eastern US has lost its nesting golden eagles: the last known pair, in Maine, was still nesting in 1999. None are known there now.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "Until 1999, a pair of golden eagles were still known to nest in Maine but they are now believed to be absent as a breeding bird from the Eastern United States .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-eagle-wanderers",
+     "text": "Young golden eagles go independent in their first fall, then wander widely for four to five years before claiming a territory of their own.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "These juvenile golden eagles usually attain full independence in the fall, after which they wander widely until establishing a territory for themselves in four to five years.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-eagle-freeze",
+     "text": "Faced with an intruder, a golden eagle may turn away, lower its head and freeze. On the nest, adults even freeze for people and helicopters.",
+     "source": {
+      "title": "Wikipedia (en), Golden eagle",
+      "url": "https://en.wikipedia.org/wiki/Golden_eagle",
+      "quote": "When approached by an intruder, the defending eagle turns away, partially spreads tail, lowers head, and remains still; adults on the nest may lower head and \"freeze\" when approached by a person or a helicopter.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Tringa flavipes": {
+   "short": [
+    {
+     "id": "enn-s-yellowlegs-flavipes",
+     "text": "Its Latin name, flavipes, means 'yellow foot'.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": "The specific epithet flavipes combines the Latin flavus meaning \"yellow\" with pes meaning \"foot\".",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-yellowlegs-willet",
+     "text": "It looks like a small greater yellowlegs, but its closer kin is the much bigger willet.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": "This species is similar in appearance to the larger greater yellowlegs , although it is more closely related to the much larger willet ;",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-yellowlegs-chicks",
+     "text": "Lesser yellowlegs chicks leave the nest a few hours after hatching and feed themselves.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": [
+       "Both parents brood and care for the precocial young, which leave the nest a few hours after hatching.",
+       "They can feed themselves upon departure from the nest."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-yellowlegs-sitters",
+     "text": "A nesting lesser yellowlegs won't budge until a predator is within {1 m|3 ft}, then fights.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": "Nesting lesser yellowlegs are very reluctant to leave their nests, only leaving when a predator is less than 1 metre away to fight and keep the predators away from their nest.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-yellowlegs-britain",
+     "text": "About five lesser yellowlegs stray across the Atlantic to Britain each year.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": "This species is a regular vagrant to western Europe and elsewhere; in Great Britain about five birds arrive each year, mostly between August and October,",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-yellowlegs-cholao",
+     "text": "One lesser yellowlegs tagged in Colombia was named Cholao, after a shaved-ice dessert.",
+     "source": {
+      "title": "Audubon, The Almost Impossible Mission of Studying the Lesser Yellowlegs (2025)",
+      "url": "https://www.audubon.org/news/almost-impossible-mission-studying-lesser-yellowlegs",
+      "quote": "they can see that Cholao —the last tagged Tringa , named after a traditional dessert from the region where it was captured—weighing 113 grams (with an average weight between 65 and 115 grams), measuring 24 to 30 cm in length, and with a wingspan of 50 to 60 cm, has flown all the way to Texas, where it was detected by the tower located at Rockport Bay Education Center.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-yellowlegs-four-days",
+     "text": "A lesser yellowlegs can fly more than {4000 km|2500 mi} in four days.",
+     "source": {
+      "title": "Audubon, The Almost Impossible Mission of Studying the Lesser Yellowlegs (2025)",
+      "url": "https://www.audubon.org/news/almost-impossible-mission-studying-lesser-yellowlegs",
+      "quote": "However, its most impressive characteristic is the ability to fly more than 4,000 kilometers in four days.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-yellowlegs-boreal",
+     "text": "Lesser yellowlegs nest only in the north, from Alaska across Canada to Labrador.",
+     "source": {
+      "title": "Boothbay Register (Jeffrey and Allison Wells), Yellowlegs Making Heroic Journeys (2022)",
+      "url": "https://www.boothbayregister.com/node/160151",
+      "quote": "Lesser yellowlegs, like their close relatives, greater yellowlegs and solitary sandpiper, in the breeding season occur nowhere else but the region that extends from Alaska across Canada to Newfoundland and Labrador.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-yellowlegs-summer",
+     "text": "Some lesser yellowlegs spend our winter in Chile and Argentina, where it's summer.",
+     "source": {
+      "title": "Boothbay Register (Jeffrey and Allison Wells), Yellowlegs Making Heroic Journeys (2022)",
+      "url": "https://www.boothbayregister.com/node/160151",
+      "quote": "During our cold winters, some are spending their days in the southern hemisphere as far south as Chile and Argentina, where it is actually summer.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-yellowlegs-new-york",
+     "text": "The first lesser yellowlegs described were 'yellow shanks' seen in fall in New York.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": "Gmelin based his description on the \"yellow shanks\" seen in the province of New York in autumn that had been described in 1785 by both the English ornithologist John Latham and the Welsh naturalist Thomas Pennant .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-yellowlegs-high-step",
+     "text": "Lesser yellowlegs hunt at a high-stepping trot, neck stretched out, jabbing with the bill.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": "They are very active when foraging, moving quickly with a high-stepping gait, neck outstretched, to pick at prey with quick jabs of the bill.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-yellowlegs-cholao-2",
+     "text": "A lesser yellowlegs named Cholao 2 flew from Panama over the Caribbean and the Gulf of Mexico to Louisiana: {2600 km|1600 mi} non-stop, 48 hours.",
+     "source": {
+      "title": "Boothbay Register (Jeffrey and Allison Wells), Winner of the Migration Marathon",
+      "url": "https://www.boothbayregister.com/node/269505",
+      "quote": [
+       "By around 10 AM on Sunday morning, this little shorebird with long-yellow legs had been flying non-stop for 48 hours and was still smack in the middle of the Gulf of Mexico.",
+       "Without fanfare, at half past noon, Cholao 2 glided in over the coast of Louisiana, perhaps over the little community of Pecan Island in Vermilion Parish.",
+       "Flying nonstop for 1,600 miles seems to us pretty extraordinary."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-yellowlegs-tennessee",
+     "text": "A lesser yellowlegs passed over Costa Rica, was detected in Texas 36 hours later, then reached Tennessee: perhaps 50 hours non-stop.",
+     "source": {
+      "title": "Boothbay Register (Jeffrey and Allison Wells), Yellowlegs Making Heroic Journeys (2022)",
+      "url": "https://www.boothbayregister.com/node/160151",
+      "quote": [
+       "Even more incredible, another of the tagged lesser yellowlegs was detected flying over Costa Rica on April 30 th and then was detected 36 hours later in Texas—a distance of more than 1300 miles!",
+       "It is thought that the bird may have flown nonstop for at least 50 hours."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-yellowlegs-north-dakota",
+     "text": "Three of ten yellowlegs tagged in Colombia flew over one spot in North Dakota within eight days. One reached North Carolina a day later.",
+     "source": {
+      "title": "Boothbay Register (Jeffrey and Allison Wells), More Yellowlegs Mysteries Revealed",
+      "url": "https://boothbayregister.com/node/163336",
+      "quote": [
+       "Rather surprisingly, three of the birds passed over the same MOTUS tower in central North Dakota—one on July 12, one on July 17, and one on July 20.",
+       "One of the birds that passed through North Dakota on July 20 made it to coastal North Carolina by the next day—a distance of about 1,500 miles!"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-yellowlegs-two-routes",
+     "text": "Alaska's lesser yellowlegs fly south over land, refueling in the prairie potholes. Eastern Canada's fly for days over the Atlantic instead.",
+     "source": {
+      "title": "McDuffie et al. 2022, Ecology and Evolution",
+      "url": "https://doi.org/10.1002/ece3.9495",
+      "europepmc": "DOI:10.1002/ece3.9495",
+      "quote": [
+       "Individuals tagged in Alaska and Central Canada followed similar southbound migratory routes, stopping to refuel in the Prairie Pothole Region of North America, whereas birds tagged in Eastern Canada completed multi-day transoceanic flights covering distances of",
+       "across the Atlantic between North and South America."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-yellowlegs-rice",
+     "text": "Over 80% of the wetlands lesser yellowlegs used in Colombia's Cauca Valley have vanished in 50 years. Rice fields now stand in for them.",
+     "source": {
+      "title": "Audubon, The Almost Impossible Mission of Studying the Lesser Yellowlegs (2025)",
+      "url": "https://www.audubon.org/news/almost-impossible-mission-studying-lesser-yellowlegs",
+      "quote": [
+       "Over 80% of the wetlands that this species used have disappeared in the past 50 years in Valle del Cauca.",
+       "Rice cultivation provides temporary habitat for the survival of the Lesser Yellowlegs in the region."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-yellowlegs-gang-up",
+     "text": "Lesser yellowlegs parents gang up on predators: they swoop down to attack, or put on distraction displays to lure them away from the chicks.",
+     "source": {
+      "title": "Wikipedia (en), Lesser yellowlegs",
+      "url": "https://en.wikipedia.org/wiki/Lesser_yellowlegs",
+      "quote": [
+       "Lesser yellowlegs, when defending their nests and young from predators, will show aggression and fight with invaders, including joining together to fight predators.",
+       "They may swoop down to attack the predator or use distraction strategies to lure it away."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-yellowlegs-sphagnum",
+     "text": "Lesser yellowlegs nest in the remote boreal forest of Canada and Alaska. Their favorite places are bogs full of sphagnum moss.",
+     "source": {
+      "title": "Boothbay Register (Jeffrey and Allison Wells), More Yellowlegs Mysteries Revealed",
+      "url": "https://boothbayregister.com/node/163336",
+      "quote": "Because these birds breed across the remote reaches of the Boreal Forest of Canada and Alaska where there are very, very few MOTUS towers but lots of the sphagnum-filled bogs that are their favorite nesting habitat.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Mycteria americana": {
+   "short": [
+    {
+     "id": "enn-s-woodstork-only",
+     "text": "The wood stork is the only stork that breeds in the United States.",
+     "source": {
+      "title": "National Park Service, Everglades: Wood Stork species profile",
+      "url": "https://www.nps.gov/ever/learn/nature/woodstork.htm",
+      "quote": "It is the only stork breeding in the United States and was placed on the Federal Endangered Species list in 1984.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-woodstork-reflex",
+     "text": "A wood stork's bill snaps shut in 25 milliseconds, the fastest known vertebrate reflex.",
+     "source": {
+      "title": "National Park Service, Everglades: Wood Stork species profile",
+      "url": "https://www.nps.gov/ever/learn/nature/woodstork.htm",
+      "quote": "Its bill snaps shut with a 25-millisecond reflex action -- the fastest known for vertebrates -- whenever it touches prey.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-woodstork-touch",
+     "text": "Wood storks fish by touch, groping blind through muddy water with their bills.",
+     "source": {
+      "title": "National Park Service, Everglades: Wood Stork species profile",
+      "url": "https://www.nps.gov/ever/learn/nature/woodstork.htm",
+      "quote": "A stork locates food -- mostly small, freshwater fish -- not by sight but by tactolocation, or groping with its bill in shallow water.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-woodstork-flinthead",
+     "text": "Old Southern nicknames for the wood stork include 'flinthead' and 'ironhead'.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "Its regional names include \"flinthead\", \"stonehead\", \"ironhead\", \"gourdhead\", and \"preacher\".",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-woodstork-alligators",
+     "text": "Fish come first, but a wood stork will also eat snakes, frogs and baby alligators.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Wood Stork",
+      "url": "https://www.audubon.org/field-guide/bird/wood-stork",
+      "quote": "Also crayfish, crabs, aquatic insects, snakes, baby alligators, small turtles, frogs, rodents, some seeds and other plant material.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-woodstork-ibis",
+     "text": "Wood storks used to be called 'wood ibises', though they aren't ibises at all.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "Likely because of its decurved bill, the wood stork has formerly been called the \"wood ibis\", although it is not an ibis .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-woodstork-chick-food",
+     "text": "A wood stork chick eats about {16.5 kg|36 lb} of food before it can fly.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "Overall, a chick eats about 16.5 kilograms (36 lb) before it fledges.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-woodstork-foot",
+     "text": "To flush out hidden fish, a wood stork pumps one foot up and down before each step.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "During this period, foot stirring, where the stork walks very slowly with its bill in the water while pumping its foot up and down before every step, is used about 35% of the time.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-woodstork-silent",
+     "text": "Adult wood storks are almost silent: they hiss and clatter their bills instead.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Wood Stork",
+      "url": "https://www.audubon.org/field-guide/bird/wood-stork",
+      "quote": "Young Wood Storks have noisy begging calls, but adults are almost silent except for hissing and bill clappering.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-woodstork-commute",
+     "text": "A wood stork will fly more than {80 km|50 mi} to reach a good fishing spot.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "This bird can travel over 80 kilometres (50 mi) to reach foraging sites, lending it access to a wide variety of habitats.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-woodstork-trunk",
+     "text": "Mycteria, the wood stork's genus name, comes from the Greek for snout or trunk.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": "The accepted generic name Mycteria derives from the Greek μυκτήρ : myktēr , meaning snout or trunk, and the species name americana references the distribution of this stork.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-woodstork-legs",
+     "text": "In hot weather a wood stork cools off by aiming its watery droppings at its own legs, taking turns with each leg. The evaporation cools it.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": [
+       "When weather is hot, though, the adult takes a different position, quickly moving its tail downward and forward while twisting its body around to aim at a leg that is bent backward (this is called urohidrosis ).",
+       "Which leg is aimed at is alternated."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-woodstork-gauge",
+     "text": "Wood storks only nest when falling water traps fish in shrinking pools. That makes them a living gauge of the health of the Everglades.",
+     "source": {
+      "title": "National Park Service, Everglades: Wood Stork species profile",
+      "url": "https://www.nps.gov/ever/learn/nature/woodstork.htm",
+      "quote": [
+       "The Wood Stork serves as an indicator species for restoration of the Everglades ecosystem.",
+       "In the marsh habitat of the Wood Stork, the effectiveness of this feeding technique increases as fish are concentrated in pools by seasonal water-level declines that result from the prolonged winter dry periods."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-woodstork-fish",
+     "text": "A nesting pair of wood storks needs about {200 kg|440 lb} of fish per season. When food is short, they won't even try to nest.",
+     "source": {
+      "title": "National Park Service, Everglades: Wood Stork species profile",
+      "url": "https://www.nps.gov/ever/learn/nature/woodstork.htm",
+      "quote": [
+       "Each breeding pair of these large birds requires about 440 pounds (200 kg) of fish per breeding season.",
+       "When the natural hydrologic cycle is upset by human-controlled water-management activities, Wood Storks fail to feed and nest successfully because a breeding pair of Wood Storks will not attempt to nest if sufficient food is not available."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-woodstork-north",
+     "text": "The Everglades once held up to 15,000 wood stork pairs; by 1995 under 500 nested there. Many had moved north to Georgia and South Carolina.",
+     "source": {
+      "title": "National Park Service, Everglades: Wood Stork species profile",
+      "url": "https://www.nps.gov/ever/learn/nature/woodstork.htm",
+      "quote": [
+       "The Everglades of the 1930s, largely undrained and without complex water-control structures, supported a nesting of population of 5,000 to 15,000 pairs of Wood Storks.",
+       "By 1995, fewer than 500 pairs of Wood Storks were nesting in the Everglades National Park and Big Cypress National Preserve area of south Florida.",
+       "The dwindling population of Wood Storks in south Florida does not mean that the species is going extinct, but that they have moved to more suitable habitat in other locations such as north Florida, Georgia, and South Carolina."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-woodstork-recovery",
+     "text": "Listed as endangered in 1984, the wood stork came back after three decades of conservation work and was downlisted to threatened in 2014.",
+     "source": {
+      "title": "National Park Service, Everglades: Wood Stork species profile",
+      "url": "https://www.nps.gov/ever/learn/nature/woodstork.htm",
+      "quote": "The species was downlisted from endangered to threatened in June 2014, reflecting a successful conservation and recovery effort spanning three decades.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-woodstork-glide",
+     "text": "On warm, clear days a wood stork flaps up to at least {610 m|2000 ft}, then glides {16-24 km|10-15 mi} on rising air without a single wingbeat.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": [
+       "When weather is warm and clear, this bird glides after it gains an altitude of at least 610 metres (2,000 ft) through continuously flapping its wings.",
+       "It can then glide for distances ranging from 16 to 24 kilometres (9.9 to 14.9 mi) .",
+       "It does not have to flap its wings during this time because the thermals are strong enough to support its weight."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-woodstork-twice",
+     "text": "In 1758 Linnaeus described the wood stork twice, under two names, from two slightly wrong accounts. Both turned out to be the same bird.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": [
+       "Linnaeus originally named two separate species, M. americana and Tantalus loculator , based on different and slightly erroneous accounts, in his book Systema Naturae .",
+       "It was later identified that these binomials referred to the same species, making M. americana and T. loculator synonymous ."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-woodstork-iceage",
+     "text": "In the last ice age, North America had a bigger relative, Mycteria wetmorei. Today's wood stork probably arrived only after the ice age.",
+     "source": {
+      "title": "Wikipedia, Wood stork",
+      "url": "https://en.wikipedia.org/wiki/Wood_stork",
+      "quote": [
+       "The species most likely evolved in tropical regions and its North American presence probably postdates the last ice age .",
+       "North American fossils from that time are of an extinct larger relative, M. wetmorei , which would be distinguished from the wood stork on the basis of size and on the basis of M. wetmorei ' s less curved mandible."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Fratercula arctica": {
+   "short": [
+    {
+     "id": "enn-s-puffin-chainsaw",
+     "text": "Underground in its burrow, a puffin growls like a chainsaw being revved up.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "At the breeding colony, it is quiet above ground, but in its burrow makes a growling sound somewhat resembling a chainsaw being revved up.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-puffin-friar",
+     "text": "Fratercula, the puffin's Latin name, means 'little friar', for its monk-like plumage.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "The generic name Fratercula comes from the Medieval Latin fratercula , little friar , a reference to their black and white plumage, which resembles monastic robes.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-puffin-row",
+     "text": "A puffin can carry a whole row of fish in its beak, pinned by its grooved tongue.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": [
+       "It can catch several small fish in one dive, holding the first ones in place in its beak with its muscular, grooved tongue while it catches others.",
+       "The two mandibles are hinged in such a way that they can be held parallel to hold a row of fish in place, and these are also retained by inward-facing serrations on the edges of the beak."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-puffin-landing",
+     "text": "Puffins can't really land: they crash into a wave or do a belly flop.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "Landing is awkward; it either crashes into a wave crest or, in calmer water, does a belly flop.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-puffin-speed",
+     "text": "Wings whirring several times a second, a puffin can fly at {80 km/h|50 mph}.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": [
+       "To maintain flight, the wings must beat very rapidly at a rate of several times each second.",
+       "The bird's flight is direct and low over the surface of the water, and it can travel at 80 km/h (50 mph) ."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-puffin-plates",
+     "text": "A puffin's bright bill isn't permanent: the colorful plates fall off after breeding.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": [
+       "The characteristic bright orange bill plates and other facial characteristics develop in the spring.",
+       "At the close of the breeding season, these special coatings and appendages are shed in a partial moult."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-puffin-grounded",
+     "text": "In winter a puffin sheds all its flight feathers at once and can't fly for a month or two.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "Land birds mostly lose their primaries one pair at a time to enable them still to be able to fly, but the puffin sheds all its primaries at one time and dispenses with flight entirely for a month or two.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-puffin-years",
+     "text": "A young puffin heads out to sea and doesn't set foot on land again for two or three years.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "It does not congregate with others of its kind and does not return to land for 2–3 years.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-puffin-clown",
+     "text": "With its big painted bill and waddle, the puffin is known as the 'clown of the sea'.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "The puffin's striking appearance, large, colourful bill, waddling gait, and behaviour have given rise to nicknames such as \"clown of the sea\" or \"sea parrot\".",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-puffin-juicecans",
+     "text": "Maine's first transplanted puffin chicks traveled from Newfoundland in juice cans.",
+     "source": {
+      "title": "Audubon Magazine, A Crazy Idea to Bring Back Atlantic Puffins Is a Success (2013)",
+      "url": "https://www.audubon.org/magazine/september-october-2013/a-crazy-idea-bring-back-atlantic",
+      "quote": "With the help of nature enthusiast and Intel cofounder Robert Noyce, another early supporter, Kress and research assistant Kathleen Blanchard moved the chicks in juice cans to be hand-reared on Hog Island and then released on Egg Rock.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-puffin-noyce",
+     "text": "Intel cofounder Robert Noyce helped Stephen Kress bring puffins back to Maine.",
+     "source": {
+      "title": "Audubon Magazine, A Crazy Idea to Bring Back Atlantic Puffins Is a Success (2013)",
+      "url": "https://www.audubon.org/magazine/september-october-2013/a-crazy-idea-bring-back-atlantic",
+      "quote": "With the help of nature enthusiast and Intel cofounder Robert Noyce, another early supporter, Kress and research assistant Kathleen Blanchard moved the chicks in juice cans to be hand-reared on Hog Island and then released on Egg Rock.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-puffin-peek",
+     "text": "At sea, a puffin sometimes dips its head underwater to look around for predators.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "Atlantic puffins are probably safer when out at sea, where the dangers are more often from below the water rather than above; puffins can sometimes be seen putting their heads underwater to peer around for predators.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-puffin-kress",
+     "text": "Hunters wiped out Maine's puffins in the 1880s. In 1973 Stephen Kress began bringing puffin chicks from Newfoundland to a Maine island.",
+     "source": {
+      "title": "Audubon Magazine, A Crazy Idea to Bring Back Atlantic Puffins Is a Success (2013)",
+      "url": "https://www.audubon.org/magazine/september-october-2013/a-crazy-idea-bring-back-atlantic",
+      "quote": [
+       "Forty years ago, as a young Audubon bird life instructor, he hatched the idea of reviving the Atlantic puffin colonies that flourished on this seven-acre island before hunters wiped them out in the 1880s.",
+       "Kress and his team translocated more and more chicks in the following years—in all, 954 between 1973 and 1986."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-puffin-decoys",
+     "text": "In 1977 Stephen Kress set out wooden puffin decoys in Maine. Young puffins came back, rubbed bills with them and even tried to mate.",
+     "source": {
+      "title": "Audubon Magazine, A Crazy Idea to Bring Back Atlantic Puffins Is a Success (2013)",
+      "url": "https://www.audubon.org/magazine/september-october-2013/a-crazy-idea-bring-back-atlantic",
+      "quote": [
+       "So in the spring of 1977 Kress put out carved decoys on Egg Rock.",
+       "That June two-year-old puffins returned and began nuzzling up to the wooden birds, “billing” them (rubbing bills as a sign of affection) and even attempting to mate with them."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-puffin-july4",
+     "text": "On July 4, 1981, a puffin flew in with a beak full of fish, the sign of a hidden chick. Its leg band showed it was one of Kress's birds.",
+     "source": {
+      "title": "Audubon Magazine, A Crazy Idea to Bring Back Atlantic Puffins Is a Success (2013)",
+      "url": "https://www.audubon.org/magazine/september-october-2013/a-crazy-idea-bring-back-atlantic",
+      "quote": [
+       "Then on July 4, 1981, Kress’s team spotted a puffin returning to Egg Rock with a beak full of fish.",
+       "Since adults swallow their prey underwater, it signaled a hungry chick on a nest.",
+       "The tiny band on the adult’s leg confirmed its place of origin."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-puffin-cabot",
+     "text": "A Maine puffin named Cabot, after the explorer John Cabot, roamed the western Atlantic from the Labrador Sea all the way to near Bermuda.",
+     "source": {
+      "title": "Audubon Magazine, A Crazy Idea to Bring Back Atlantic Puffins Is a Success (2013)",
+      "url": "https://www.audubon.org/magazine/september-october-2013/a-crazy-idea-bring-back-atlantic",
+      "quote": "named after the explorer John Cabot, roamed over the western Atlantic, from the Labrador Sea all the way to waters near Bermuda.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-puffin-attraction",
+     "text": "Project Puffin's tricks, from decoys to recorded calls, worked so well that nearly 60 projects worldwide have used them to help seabirds.",
+     "source": {
+      "title": "Audubon Magazine, A Crazy Idea to Bring Back Atlantic Puffins Is a Success (2013)",
+      "url": "https://www.audubon.org/magazine/september-october-2013/a-crazy-idea-bring-back-atlantic",
+      "quote": [
+       "In that time nearly 60 projects worldwide have used Kress’s “social attraction” techniques to move dozens of seabird populations to safer nesting grounds (see \"The Power of Attraction,\" below).",
+       "Decoys simulating specific species and amplified birdcalls signal that the new location is desirable and secure."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-puffin-billing",
+     "text": "Puffin pairs renew their bond by 'billing': they wag their heads from side to side, then rattle their beaks together, again and again.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": [
+       "This is a practice in which the pair approaches each other, each wagging their heads from side to side, and then rattling their beaks together.",
+       "This seems to be an important element of their courtship behaviour because it happens repeatedly, and the birds continue to the bill, to a lesser extent, throughout the breeding season."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-puffin-groups",
+     "text": "Puffins bringing fish home tend to arrive in groups. That makes it harder for skuas to chase any one bird until it drops its catch.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": [
+       "Adults bringing fish to their chicks tend to arrive in groups.",
+       "This is thought to benefit the bird by reducing kleptoparasitism by the Arctic skua, which harasses puffins until they drop their fish loads."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-puffin-name",
+     "text": "The name 'puffin' first meant the salted meat of young Manx shearwaters, a different seabird. Atlantic puffins got the name much later.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": [
+       "The vernacular name \"puffin\" – puffed in the sense of swollen – was originally applied to the fatty, salted meat of young birds of the unrelated species Manx shearwater ( Puffinus puffinus ), which in 1652 was known as the \"Manks puffin\".",
+       "The Atlantic puffin acquired the name at a much later stage, possibly because of its similar nesting habits,"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-puffin-cars",
+     "text": "In late summer, a Scottish seabird center asks drivers to check under their cars: young puffins confused by street lights may hide there.",
+     "source": {
+      "title": "Wikipedia, Atlantic puffin",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_puffin",
+      "quote": "Another conservation measure undertaken by the centre is to encourage motorists to check under their cars in late summer before driving off, as young puffins, disoriented by the street lights, may land in the town and take shelter underneath the vehicles.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Tryngites subruficollis": {
+   "short": [
+    {
+     "id": "enn-s-sandpiper-wings",
+     "text": "To woo a mate, a male buff-breasted sandpiper flashes its bright white underwings.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Buff-breasted Sandpiper",
+      "url": "https://www.audubon.org/field-guide/bird/buff-breasted-sandpiper",
+      "quote": "Male displays by raising one wing, showing off white underside.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sandpiper-solo",
+     "text": "Some buff-breasted sandpipers show off their wings on migration, with no audience at all.",
+     "source": {
+      "title": "Wikipedia, Buff-breasted sandpiper",
+      "url": "https://en.wikipedia.org/wiki/Buff-breasted_sandpiper",
+      "quote": "The male has a display which includes raising the wings to display the white undersides, which is also given on migration, sometimes when no other buff-breasted sandpipers are present.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sandpiper-golf",
+     "text": "This shorebird skips the beach: it stops over on golf courses, cemeteries and airfields.",
+     "source": {
+      "title": "BirdWeb (Birds Connect Seattle), Buff-breasted Sandpiper",
+      "url": "https://birdweb.org/Birdweb/bird/buff-breasted_sandpiper",
+      "quote": "In migration, they can be found on grassy areas such as golf courses, cemeteries, mowed lawns, and airfields.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sandpiper-baseball",
+     "text": "Migrating buff-breasted sandpipers have been found resting on baseball diamonds.",
+     "source": {
+      "title": "Smithsonian Migratory Bird Center, The Dancing Shorebird (1997)",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": "Favorite migration stopovers are short-grass pastures, dry ponds and even baseball diamonds, airports, lawns and other \"grasslands\".",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sandpiper-bumblebees",
+     "text": "Buff-breasted sandpipers catch Arctic bumblebees, to eat or to feed to their chicks.",
+     "source": {
+      "title": "Wikipedia, Buff-breasted sandpiper",
+      "url": "https://en.wikipedia.org/wiki/Buff-breasted_sandpiper",
+      "quote": [
+       "The buff-breasted sandpipers are known to prey on Bombus polaris , a species of bumblebee found within the Arctic Circle .",
+       "They will either eat the bees or feed them to their young."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sandpiper-fathers",
+     "text": "About a quarter of buff-breasted sandpiper broods have more than one father.",
+     "source": {
+      "title": "Smithsonian Migratory Bird Center, The Dancing Shorebird (1997)",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": "Females sometimes choose more than one male as about 25% of the broods have multiple fathers as has been shown through genetic analysis.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sandpiper-robin",
+     "text": "A robin-sized buff-breasted sandpiper commutes between the Arctic and Argentina's pampas.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Buff-breasted Sandpiper",
+      "url": "https://www.audubon.org/field-guide/bird/buff-breasted-sandpiper",
+      "quote": [
+       "About the size of a Robin",
+       "Formerly an abundant bird, the Buff-breasted Sandpiper suffered serious declines around the beginning of the 20th century, with many shot during their long migration from the Arctic tundra to the pampas of Argentina."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sandpiper-dove",
+     "text": "With its round head, short bill and dark eye, this sandpiper has a gentle, dovelike face.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Buff-breasted Sandpiper",
+      "url": "https://www.audubon.org/field-guide/bird/buff-breasted-sandpiper",
+      "quote": "Has dovelike or \"gentle\" expression, with dark eye on pale face, short bill, round head.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sandpiper-dance",
+     "text": "Instead of fancy feathers like birds-of-paradise, buff-breasted sandpipers woo with dance.",
+     "source": {
+      "title": "Smithsonian Migratory Bird Center, The Dancing Shorebird (1997)",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": "Buff-breasted Sandpipers have evolved elaborate behavior in their courtship instead of the gaudier plumages of other lekking species such as the manakins and birds-of-paradise.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sandpiper-australia",
+     "text": "Lost buff-breasted sandpipers have turned up in faraway Australia at least eight times.",
+     "source": {
+      "title": "Wikipedia, Buff-breasted sandpiper",
+      "url": "https://en.wikipedia.org/wiki/Buff-breasted_sandpiper",
+      "quote": "The buff-breasted sandpiper has also been recorded in Australia on at least eight occasions.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sandpiper-europe",
+     "text": "Only one American shorebird visits Europe more often: the pectoral sandpiper.",
+     "source": {
+      "title": "Wikipedia, Buff-breasted sandpiper",
+      "url": "https://en.wikipedia.org/wiki/Buff-breasted_sandpiper",
+      "quote": "Only the pectoral sandpiper is a more common American shorebird visitor to Europe .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sandpiper-mothers",
+     "text": "Buff-breasted sandpiper fathers leave right after mating; mothers raise the chicks alone.",
+     "source": {
+      "title": "Smithsonian Migratory Bird Center, The Dancing Shorebird (1997)",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": [
+       "As is typical in lekking species, female Buff-breasted Sandpipers raise, shelter and defend their young from predators without help from the males.",
+       "In fact, the \"pair bond\" lasts only as long as the mating."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-sandpiper-sneaky",
+     "text": "Rival male sandpipers play dirty: one may crawl on its belly into a neighbor's display spot, or act like a female to break up a mating.",
+     "source": {
+      "title": "Smithsonian Migratory Bird Center, The Dancing Shorebird (1997)",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": "Sometimes a renegade male will sneak on his belly into another male's mating post to disrupt the dance of his competitor, sometimes he will simply fly in and chase females away from his rival, and at other times, he will wait until his rival attracts several females then will walk in while mimicking female behavior and disrupt the copulation of the rival male.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-sandpiper-lek",
+     "text": "Males gather at display grounds called leks. When a female comes close, a male spreads both wings wide, points its bill up and shakes.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Buff-breasted Sandpiper",
+      "url": "https://www.audubon.org/field-guide/bird/buff-breasted-sandpiper",
+      "quote": [
+       "Males gather on display grounds, or \"leks,\" to attract females.",
+       "If females approach, male spreads both wings wide, points bill up, shakes body."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-sandpiper-acres",
+     "text": "Their display grounds are spread out: each male guards up to several acres of tundra, and rarely do more than 10 males share a lek.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Buff-breasted Sandpiper",
+      "url": "https://www.audubon.org/field-guide/bird/buff-breasted-sandpiper",
+      "quote": "These leks are spread out, each male defending an area of up to several acres; rarely more than 10 males present.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-sandpiper-laws",
+     "text": "Market hunting of buff-breasted sandpipers ended with two laws: the US Migratory Bird Treaty Act of 1918 and an Argentine law of 1920.",
+     "source": {
+      "title": "Smithsonian Migratory Bird Center, The Dancing Shorebird (1997)",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": "Large numbers were shot by market hunters before legislation passed in 1918 (the Migratory Bird Treaty Act) and legislation in 1920 protecting them in Argentina.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-sandpiper-plovers",
+     "text": "Females often nest near golden-plovers and black-bellied plovers, which may act as lookouts against foxes, jaegers and snowy owls.",
+     "source": {
+      "title": "Smithsonian Migratory Bird Center, The Dancing Shorebird (1997)",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": [
+       "Meanwhile, females build simple nests in the treeless Arctic tundra, sometimes near the nests of Black-bellied and American Golden-Plovers.",
+       "These plovers may act as sentinels thereby providing extra protection for the Buff-breasted Sandpiper young and eggs from Arctic Fox, Ermine, Arctic Ground Squirrels, jaegers, Snowy Owls, ravens, gulls and other predators."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-sandpiper-india",
+     "text": "In November 2011 a buff-breasted sandpiper turned up in Kerala, southern India, probably blown off course from the Great Plains.",
+     "source": {
+      "title": "Wikipedia, Buff-breasted sandpiper",
+      "url": "https://en.wikipedia.org/wiki/Buff-breasted_sandpiper",
+      "quote": [
+       "It is believed that instead of going to Argentina, this bird might have been wind-blown from the Great Plains Flyway of North America and landed up in South Asia.",
+       "In November 2011, this species was sighted near Kannur , Kerala in South India ."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-sandpiper-juveniles",
+     "text": "Most buff-breasted sandpipers migrate across the Great Plains, but young birds spread out: many reach the East Coast, some the Pacific.",
+     "source": {
+      "title": "BirdWeb (Birds Connect Seattle), Buff-breasted Sandpiper",
+      "url": "https://birdweb.org/Birdweb/bird/buff-breasted_sandpiper",
+      "quote": [
+       "Most Buff-breasted Sandpipers migrate from Arctic breeding grounds across the Great Plains, to the Pampas of southern South America and back.",
+       "Juveniles spread out across the country, many reaching the East Coast and some spreading west to the Pacific."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-sandpiper-chicks",
+     "text": "Buff-breasted sandpiper chicks leave the nest within hours of hatching and feed themselves. Spread out, they may hide more easily.",
+     "source": {
+      "title": "Smithsonian Migratory Bird Center, The Dancing Shorebird (1997)",
+      "url": "https://nationalzoo.si.edu/migratory-birds/news/dancing-shorebird",
+      "quote": [
+       "Defense of the young sandpipers is different from many birds in that these young are precocial-that is, they leave the nest within a few hours of hatching and can run and feed themselves.",
+       "This may be an adaptation for the open terrain with lots of predators in that they for part of the day they can spread out and hide easier than a nest full of nestlings."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Stercorarius longicaudus": {
+   "short": [
+    {
+     "id": "enn-s-jaeger-hunter",
+     "text": "'Jaeger' comes from the German word Jäger, meaning hunter.",
+     "source": {
+      "title": "Wikipedia, Long-tailed jaeger",
+      "url": "https://en.wikipedia.org/wiki/Long-tailed_jaeger",
+      "quote": "The word \"jaeger\" is derived from the German word Jäger , meaning \"hunter\".",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-jaeger-smallest",
+     "text": "The long-tailed jaeger is the smallest member of the skua family.",
+     "source": {
+      "title": "Wikipedia, Long-tailed jaeger",
+      "url": "https://en.wikipedia.org/wiki/Long-tailed_jaeger",
+      "quote": "This is the smallest of the skua family at 38–58 cm (15–23 in) , depending on season and age.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-jaeger-tail",
+     "text": "Up to {29 cm|11 in} of a long-tailed jaeger's length can be tail.",
+     "source": {
+      "title": "Wikipedia, Long-tailed jaeger",
+      "url": "https://en.wikipedia.org/wiki/Long-tailed_jaeger",
+      "quote": "However up to 29 cm (11 in) of its length can be made up by the tail which may include the 15 cm (5.9 in) tail streamers of the summer adult.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-jaeger-head",
+     "text": "Long-tailed jaeger parents may land on an intruder's head and peck it.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Long-tailed Jaeger",
+      "url": "https://www.audubon.org/field-guide/bird/long-tailed-jaeger",
+      "quote": "Parents defend nest by diving at predators or humans, even landing on intruder's head and pecking.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-jaeger-land",
+     "text": "Away from the Arctic, a long-tailed jaeger seldom comes within sight of land.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Long-tailed Jaeger",
+      "url": "https://www.audubon.org/field-guide/bird/long-tailed-jaeger",
+      "quote": "Of the three jaeger species, the Long-tail is the smallest and the one that migrates farthest offshore; south of the Arctic, it seldom comes within sight of land.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-jaeger-hover",
+     "text": "Over the tundra, a long-tailed jaeger hovers in the air, then swoops down on its prey.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Long-tailed Jaeger",
+      "url": "https://www.audubon.org/field-guide/bird/long-tailed-jaeger",
+      "quote": "In summer on tundra, hunts by hovering and then swooping down on prey; sometimes picks up items while swimming, or catches insects in flight.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-jaeger-berries",
+     "text": "A hunter with a sweet tooth: long-tailed jaegers also eat berries, especially crowberries.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Long-tailed Jaeger",
+      "url": "https://www.audubon.org/field-guide/bird/long-tailed-jaeger",
+      "quote": "Summer diet is mostly small rodents, especially lemmings and voles when they are in high population cycle; also insects, small birds, fish, squid, carrion, and berries (especially crowberries).",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-jaeger-golf",
+     "text": "Young long-tailed jaegers on migration sometimes hunt on golf courses, unafraid of people.",
+     "source": {
+      "title": "Wikipedia, Long-tailed jaeger",
+      "url": "https://en.wikipedia.org/wiki/Long-tailed_jaeger",
+      "quote": "Passage juvenile birds sometimes hunt small prey in ploughed fields or golf-courses, and are typically quite fearless of humans.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-jaeger-small",
+     "text": "Weighing under {300 g|11 oz}, the long-tailed jaeger is a key predator of the Arctic summer.",
+     "source": {
+      "title": "Gilg et al. 2013, PLoS ONE: Trans-equatorial migration routes of the long-tailed skua",
+      "url": "https://doi.org/10.1371/journal.pone.0064614",
+      "europepmc": "DOI:10.1371/journal.pone.0064614",
+      "quote": "The Long-tailed Skua, a small (<300 g) Arctic-breeding predator and seabird, is a functionally very important component of the Arctic vertebrate communities in summer, but little is known about its migration and winter distribution.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-jaeger-equator",
+     "text": "All tracked long-tailed jaegers from Greenland and Svalbard wintered south of the equator.",
+     "source": {
+      "title": "Gilg et al. 2013, PLoS ONE: Trans-equatorial migration routes of the long-tailed skua",
+      "url": "https://doi.org/10.1371/journal.pone.0064614",
+      "europepmc": "DOI:10.1371/journal.pone.0064614",
+      "quote": "All birds wintered in the Southern Hemisphere (mean arrival-departure dates on wintering grounds: 24 October-21 March): five along the south-west coast of Africa (0-40°S, 0-15°E), in the productive Benguela upwelling, and three further south (30-40°S, 0-50°E), in an area extending into the south-west Indian Ocean.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-jaeger-age",
+     "text": "Long-tailed jaegers probably don't breed until they are at least 3 or 4 years old.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Long-tailed Jaeger",
+      "url": "https://www.audubon.org/field-guide/bird/long-tailed-jaeger",
+      "quote": "Probably does not breed until at least 3-4 years old.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-jaeger-dung",
+     "text": "The jaeger's genus name, Stercorarius, means 'of dung'. People once thought the food other birds dropped when chased was droppings.",
+     "source": {
+      "title": "Wikipedia, Long-tailed jaeger",
+      "url": "https://en.wikipedia.org/wiki/Long-tailed_jaeger",
+      "quote": "The genus name Stercorarius is Latin and means \"of dung\"; the food disgorged by other birds when pursued by skuas was once thought to be excrement.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-jaeger-distance",
+     "text": "Long-tailed jaegers tracked from Greenland and Svalbard flew {43900-54200 km|27300-33700 mi} in a year, ending up as far as {13700 km|8500 mi} from home.",
+     "source": {
+      "title": "Gilg et al. 2013, PLoS ONE: Trans-equatorial migration routes of the long-tailed skua",
+      "url": "https://doi.org/10.1371/journal.pone.0064614",
+      "europepmc": "DOI:10.1371/journal.pone.0064614",
+      "quote": "Over one year, individuals travelled between 43,900 and 54,200 km (36,600-45,700 when excluding staging periods) and went as far as 10,500-13,700 km (mean 12,800 km) from their breeding sites.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-jaeger-pirate",
+     "text": "In winter a long-tailed jaeger turns pirate, chasing seabirds until they give up their food. Arctic terns and Sabine's gulls suffer most.",
+     "source": {
+      "title": "Wikipedia, Long-tailed jaeger",
+      "url": "https://en.wikipedia.org/wiki/Long-tailed_jaeger",
+      "quote": [
+       "Like other jaegers and skuas, it is also a kleptoparasite , chasing other seabirds to make them give up their food.",
+       "The bird species most commonly \"robbed\" this way by the long-tailed jaeger are Arctic terns ( Sterna paradisaea ) and Sabine's gulls ( Xema sabini )"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-jaeger-lemmings",
+     "text": "A long-tailed jaeger's summer runs on lemmings. When lemming numbers boom, jaegers feast and are more likely to raise their chicks.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Long-tailed Jaeger",
+      "url": "https://www.audubon.org/field-guide/bird/long-tailed-jaeger",
+      "quote": [
+       "Summer diet is mostly small rodents, especially lemmings and voles when they are in high population cycle; also insects, small birds, fish, squid, carrion, and berries (especially crowberries).",
+       "More likely to nest successfully in years when lemmings are abundant."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-jaeger-courtship",
+     "text": "Courting long-tailed jaegers fly a spectacular show of swoops and zigzags, often three at once. On the ground, the male feeds the female.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Long-tailed Jaeger",
+      "url": "https://www.audubon.org/field-guide/bird/long-tailed-jaeger",
+      "quote": [
+       "Has spectacular courtship flight, with rapid swoops and zigzags, often three birds together, or one male chasing one female.",
+       "In courtship on ground, male feeds female."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-jaeger-grandbanks",
+     "text": "Heading south, all but one tracked long-tailed jaeger stopped off the Grand Banks of Newfoundland, for a few days or up to three weeks.",
+     "source": {
+      "title": "Gilg et al. 2013, PLoS ONE: Trans-equatorial migration routes of the long-tailed skua",
+      "url": "https://doi.org/10.1371/journal.pone.0064614",
+      "europepmc": "DOI:10.1371/journal.pone.0064614",
+      "quote": [
+       "Among the different staging areas, a large region off the Grand Banks of Newfoundland appears to be the most important.",
+       "It was used in autumn by all but one of the tracked birds (from a few days to three weeks) and in spring by five out of eight birds (from one to more than six weeks)."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-jaeger-streamers",
+     "text": "In summer, adult long-tailed jaegers grow tail streamers up to {15 cm|5.9 in} long, which makes them easy to tell from the other jaegers.",
+     "source": {
+      "title": "Wikipedia, Long-tailed jaeger",
+      "url": "https://en.wikipedia.org/wiki/Long-tailed_jaeger",
+      "quote": [
+       "However up to 29 cm (11 in) of its length can be made up by the tail which may include the 15 cm (5.9 in) tail streamers of the summer adult.",
+       "This species is unmistakable as an adult, with grey back, dark primary wing feathers without a white \"flash\", black cap and very long tail."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-jaeger-early",
+     "text": "Long-tailed jaegers leave the Arctic early: many adults are already heading south by mid-August, before the other jaegers.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Long-tailed Jaeger",
+      "url": "https://www.audubon.org/field-guide/bird/long-tailed-jaeger",
+      "quote": "Fall migration earlier than in other jaegers, with many adults southbound by mid-August.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Xema sabini": {
+   "short": [
+    {
+     "id": "enn-s-sabine-record",
+     "text": "Sabine's gulls make the longest migration of any gull: up to {39000 km|24200 mi} a year.",
+     "source": {
+      "title": "Wikipedia, Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "They migrate south to the Southern Hemisphere in autumn, covering up to 32,000–39,000 km per year, the longest migration of any gull.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sabine-xema",
+     "text": "The Sabine's gull's genus name, Xema, seems to be an invented word with no meaning.",
+     "source": {
+      "title": "Wikipedia, Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "The genus name Xema appears to be an invented name without meaning.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sabine-spin",
+     "text": "In shallow water, a Sabine's gull may spin in circles to stir up food from the bottom.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Sabine's Gull",
+      "url": "https://www.audubon.org/field-guide/bird/sabines-gull",
+      "quote": "In shallow water may spin in circles, stirring up items from bottom.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sabine-terns",
+     "text": "Sabine's gulls usually nest in or near colonies of Arctic terns.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Sabine's Gull",
+      "url": "https://www.audubon.org/field-guide/bird/sabines-gull",
+      "quote": "Usually located in or near a colony of Arctic Terns.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sabine-forked",
+     "text": "With its notched white tail, the Sabine's gull was once known as the 'fork-tailed gull'.",
+     "source": {
+      "title": "Wikipedia, Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": [
+       "It has also been known historically as fork-tailed gull or xeme (from the genus name).",
+       "The white tail is slightly forked."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sabine-ivory",
+     "text": "The Sabine's gull's closest relative is the ivory gull, another Arctic bird.",
+     "source": {
+      "title": "Wikipedia, Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "Mitochondrial DNA studies confirmed that they are not closely related, and the closest relative of Sabine's gull is now thought to be the ivory gull , another Arctic species.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sabine-tern-like",
+     "text": "Sabine's gulls flutter low over the sea and pick food off the surface, more like terns.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Sabine's Gull",
+      "url": "https://www.audubon.org/field-guide/bird/sabines-gull",
+      "quote": [
+       "Delicate in its feeding, this species often floats in the air low over the water, dipping down to take food from the surface without landing.",
+       "Its flight action may suggest a tern more than a gull."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sabine-brothers",
+     "text": "Joseph Sabine named Sabine's gull in 1819 after his brother Edward, who had collected it.",
+     "source": {
+      "title": "Wikipedia, Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "Sabine based his description on specimens that had been collected by his brother Captain Edward Sabine , who had accompanied Captain John Ross on a voyage to look for the Northwest Passage .",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sabine-inland",
+     "text": "Every fall a few young Sabine's gulls go astray and thrill birders on lakes far inland.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Sabine's Gull",
+      "url": "https://www.audubon.org/field-guide/bird/sabines-gull",
+      "quote": [
+       "A young Sabine's that goes astray in fall may cause excitement by showing up on a pond far inland.",
+       "Every fall, a few (mostly young birds) show up on lakes in the interior of North America."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sabine-decoy",
+     "text": "To protect its nest, a Sabine's gull may dive-bomb intruders or try to lure them away.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Sabine's Gull",
+      "url": "https://www.audubon.org/field-guide/bird/sabines-gull",
+      "quote": "Parents may defend nest by dive-bombing intruders, or may try to lead predators away with distraction display.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-sabine-squeak",
+     "text": "For a gull, the Sabine's gull has a very high-pitched, squeaky voice.",
+     "source": {
+      "title": "Wikipedia, Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "They have a very high-pitched and squeaking call.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-sabine-edward",
+     "text": "Sabine's gull honors Edward Sabine, who fought the Americans in the War of 1812 and later led a global effort to measure Earth's magnetism.",
+     "source": {
+      "title": "Wikipedia, Edward Sabine",
+      "url": "https://en.wikipedia.org/wiki/Edward_Sabine",
+      "quote": [
+       "He became a second captain when he was sent to Quebec and fought the Americans in the Niagara campaign .",
+       "He led the effort to establish a system of magnetic observatories in various parts of British territory all over the globe."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-sabine-discovery",
+     "text": "Sabine's gull was discovered in July 1818 on John Ross's hunt for the Northwest Passage. The birds were nesting on islands off Greenland.",
+     "source": {
+      "title": "Wikipedia, Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": [
+       "Sabine based his description on specimens that had been collected by his brother Captain Edward Sabine , who had accompanied Captain John Ross on a voyage to look for the Northwest Passage .",
+       "The birds were found breeding on low-lying islands off the west coast of Greenland in July 1818."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-sabine-lookalike",
+     "text": "The Galápagos swallow-tailed gull shares the Sabine's gull's notched tail and yellow-tipped bill. Yet DNA shows they aren't close relatives.",
+     "source": {
+      "title": "Wikipedia, Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": [
+       "The yellow-tipped black bill and notched tail are shared only with the swallow-tailed gull of the Galapagos .",
+       "Mitochondrial DNA studies confirmed that they are not closely related, and the closest relative of Sabine's gull is now thought to be the ivory gull , another Arctic species."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-sabine-molt",
+     "text": "Young Sabine's gulls keep their juvenile feathers all the way south and only start to molt once they reach their winter seas.",
+     "source": {
+      "title": "Wikipedia, Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "Fledged birds retain their juvenile plumage through the autumn and do not start moulting into their first winter plumage until they have reached their wintering grounds.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-sabine-reverse",
+     "text": "Sabine's gulls molt backward: adults get a full new set of feathers in spring and only a partial one in fall, the reverse of other gulls.",
+     "source": {
+      "title": "Wikipedia, Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": "Adults have their complete moult in the spring prior to the spring migration, and have a partial moult in the autumn after returning to the wintering area, a reversal of the usual pattern for gulls.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-sabine-biscay",
+     "text": "On their way from the Arctic to South Africa, Atlantic Sabine's gulls take a long meal break: about 45 days feeding in the Bay of Biscay.",
+     "source": {
+      "title": "Wikipedia, Sabine's gull",
+      "url": "https://en.wikipedia.org/wiki/Sabine%27s_gull",
+      "quote": [
+       "The Svalbard , Greenland and eastern Canadian populations of Sabine's gull usually cross the Atlantic Ocean by way of the westernmost coasts of Europe ( Ireland , western Great Britain , northwest Spain , Portugal ) and northwest Africa ( Morocco ) to winter off southwestern Africa in the cold waters of the Benguela Current off Namibia and South Africa .",
+       "During their flight south, the birds spend significant time (typically around 45 days) feeding offshore in the Bay of Biscay ."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-sabine-courtship",
+     "text": "A male Sabine's gull courts by giving a long call, arching its neck and bowing. Once paired, the male may bring the female food.",
+     "source": {
+      "title": "Audubon Guide to North American Birds, Sabine's Gull",
+      "url": "https://www.audubon.org/field-guide/bird/sabines-gull",
+      "quote": [
+       "Male on territory lures female by giving long call, arching neck, bowing.",
+       "In courtship, male may feed female."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Cervus elaphus": {
+   "short": [
+    {
+     "id": "enn-s-elk-wapiti",
+     "text": "The elk's other name, 'wapiti', is a Shawnee and Cree word meaning 'white rump'.",
+     "source": {
+      "title": "Wikipedia, Elk",
+      "url": "https://en.wikipedia.org/wiki/Elk",
+      "quote": "The alternative name \"wapiti\" derives from the Shawnee and Cree word waapiti",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-moose",
+     "text": "In Europe, 'elk' means the moose. Colonists in America gave the name to a different deer.",
+     "source": {
+      "title": "Wikipedia, Elk",
+      "url": "https://en.wikipedia.org/wiki/Elk",
+      "quote": [
+       "For the species called \"elk\" in Eurasia ( Alces alces ), see Moose .",
+       "The word \"elk\" originally referred to the European variety of the moose , Alces alces , but was transferred to Cervus canadensis by North American colonists."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-antlers",
+     "text": "A bull elk's antlers can grow up to {2.5 cm|1 in} a day, and weigh up to {18 kg|40 lb}.",
+     "source": {
+      "title": "NPS Rocky Mountain National Park, Elk",
+      "url": "https://www.nps.gov/romo/learn/nature/elk.htm",
+      "quote": [
+       "Antlers can grow up to an inch a day.",
+       "Antlers on a mature male can weigh up to 40 pounds."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-perfume",
+     "text": "To woo cows, bull elk roll in mud holes they have soaked with their own urine.",
+     "source": {
+      "title": "Wikipedia, Elk",
+      "url": "https://en.wikipedia.org/wiki/Elk",
+      "quote": [
+       "Bulls also dig holes in the ground called wallows, in which they urinate and roll their bodies .",
+       "The urine soaks into their hair and gives them a distinct smell which attracts cows."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-prairie",
+     "text": "Banff's elk winter at Ya Ha Tinda, which means 'mountain prairie' in the Nakoda language.",
+     "source": {
+      "title": "Wikipedia, Ya Ha Tinda Ranch",
+      "url": "https://en.wikipedia.org/wiki/Ya_Ha_Tinda_Ranch",
+      "quote": [
+       "Around a thousand elk spend the winter in the ranch.",
+       "Ya Ha Tinda means \"mountain prairie\" in the Nakoda language."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-horses",
+     "text": "The elk's winter home is a ranch where Parks Canada raises horses for its mounted rangers.",
+     "source": {
+      "title": "Wikipedia, Ya Ha Tinda Ranch",
+      "url": "https://en.wikipedia.org/wiki/Ya_Ha_Tinda_Ranch",
+      "quote": "The ranch is owned by Parks Canada and used to raise horses for use in the western national parks that request mounted park rangers.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-switch",
+     "text": "Elk change their minds: each year about 15% of Ya Ha Tinda elk switch to staying or going.",
+     "source": {
+      "title": "Eggeman et al. 2016, Journal of Animal Ecology",
+      "url": "https://europepmc.org/search?query=DOI:10.1111/1365-2656.12495",
+      "quote": "Individuals switched between migrant and resident strategies at a mean rate of 15% per year",
+      "checked": "2026-11-21",
+      "europepmc": "DOI:10.1111/1365-2656.12495"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-snow",
+     "text": "After snowy winters, Yellowstone's elk head uphill late; in early springs, they go early.",
+     "source": {
+      "title": "NPS Yellowstone, Elk",
+      "url": "https://www.nps.gov/yell/learn/nature/elk.htm",
+      "quote": [
+       "After winters with high snowpack, elk delay migration.",
+       "In years with lower snowpack and earlier vegetation green-up, elk migrate earlier."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-smokies",
+     "text": "Elk had vanished from the Great Smoky Mountains. In 2001, 25 elk were brought back.",
+     "source": {
+      "title": "NPS Great Smoky Mountains, Elk",
+      "url": "https://www.nps.gov/grsm/learn/nature/elk.htm",
+      "quote": [
+       "The last elk in North Carolina is believed to have been killed by the late 1700s",
+       "The reintroduction of elk to the park began in 2001 with the release of the first group of 25 elk."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-elk-sleigh",
+     "text": "In Jackson Hole, Wyoming, visitors ride horse-drawn sleighs out among the wintering elk.",
+     "source": {
+      "title": "USFWS, National Elk Refuge",
+      "url": "https://www.fws.gov/refuge/national-elk",
+      "quote": "Most visitors to the Refuge during the winter months take a horse-drawn sleigh to see the elk",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-elk-greenup",
+     "text": "Spring reaches Banff's mountains about 50 days later for every {1000 m|3300 ft} of height. Migrant elk climb with it to find fresh grass all summer.",
+     "source": {
+      "title": "Movebank Data Repository, Ya Ha Tinda elk project, Banff National Park (data from Hebblewhite et al. 2008)",
+      "url": "https://datarepository.movebank.org/server/api/core/items/aed22923-281d-4583-aefd-140f1497539a",
+      "quote": [
+       "was delayed by 50 days for every 1000-m increase in elevation",
+       "The expected digestibility for migrant elk in summer was 6.5% higher than for residents"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-choice",
+     "text": "Banff's elk choose: migrants head into the park, away from wolves. Stay-at-homes keep close to people at the ranch, where wolves rarely go.",
+     "source": {
+      "title": "Hebblewhite and Merrill 2009, Ecology",
+      "url": "https://europepmc.org/search?query=DOI:10.1890/08-2090.1",
+      "quote": [
+       "Migration reduced exposure to wolf predation risk by 70% relative to residents at the landscape scale",
+       "they reduced predation risk at fine scales to only 15% higher than migrants by using areas close to human activity, which wolves avoided"
+      ],
+      "checked": "2026-11-21",
+      "europepmc": "DOI:10.1890/08-2090.1"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-hay",
+     "text": "In the late 1970s the Ya Ha Tinda herd had 12 migrants for every elk that stayed put. By 2004 it was 3, partly thanks to hay for the horses.",
+     "source": {
+      "title": "Hebblewhite et al. 2006, Wildlife Society Bulletin",
+      "url": "https://europepmc.org/search?query=DOI:10.2193/0091-7648(2006)34[1280:itmbom]2.0.co;2",
+      "quote": [
+       "The population M:R ratio decreased from 12.4 (SD = 3.22) in the early period to 3.0 (SD = 1.63).",
+       "access to hay fed to wintering horses"
+      ],
+      "checked": "2026-11-21",
+      "europepmc": "DOI:10.2193/0091-7648(2006)34[1280:itmbom]2.0.co;2"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-fire",
+     "text": "After a big forest fire brought fresh grazing east of the Ya Ha Tinda ranch, some elk invented a brand-new migration route there.",
+     "source": {
+      "title": "University of Montana, Williams et al. 2024, Journal of Animal Ecology",
+      "url": "https://umimpact.umt.edu/en/publications/predation-risk-drives-long-term-shifts-in-migratory-behaviour-and/",
+      "quote": "A novel eastern migrant tactic emerged following a large forest fire that enhanced forage in an area with lower predation risk outside of the protected area.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-bugle",
+     "text": "A bull elk's bugle is two sounds at once: a low note from the vocal cords and a high whistle of air rushing through a narrow throat.",
+     "source": {
+      "title": "Reby et al. 2016, Journal of Experimental Biology",
+      "url": "https://europepmc.org/search?query=DOI:10.1242/jeb.131219",
+      "quote": "with one source oscillating at a mean of 145 Hz (F0) and the other oscillating independently at an average of 1426 Hz (G0)",
+      "checked": "2026-11-21",
+      "europepmc": "DOI:10.1242/jeb.131219"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-tooth",
+     "text": "Each elk has two ivory teeth that outlast everything else. To the Lakota they meant long life, so a newborn child was given an elk tooth.",
+     "source": {
+      "title": "Buffalo Bill Center of the West, Top 10 Visitor Questions to the Plains Indian Museum",
+      "url": "https://centerofthewest.org/2015/07/22/top-10-visitor-questions-plains-indian-museum-eye-see-teeth/",
+      "quote": [
+       "Two elk teeth remain after everything else has crumbled to dust",
+       "When a child is born, its parents desire long life for it and for this reason an elk tooth is given to a child."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-scouts",
+     "text": "Since 1968, Boy Scouts have gathered the antlers elk shed on the National Elk Refuge. Most of the auction money goes back to the refuge.",
+     "source": {
+      "title": "Wikipedia, National Elk Refuge",
+      "url": "https://en.wikipedia.org/wiki/National_Elk_Refuge",
+      "quote": [
+       "Each year, the naturally shed elk antlers are collected from the refuge by the Boy Scouts of America , a tradition since they got a permit to due so in 1968.",
+       "with 75% of the proceeds returned to the refuge"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-winter",
+     "text": "Bull elk keep their antlers all winter. Without them, rivals fight with their front hooves, which causes more injuries.",
+     "source": {
+      "title": "NPS Yellowstone, Elk",
+      "url": "https://www.nps.gov/yell/learn/nature/elk.htm",
+      "quote": [
+       "Bulls retain their antlers through the winter.",
+       "When antlerless, they use their front hooves (as cows do), which is more likely to result in injury to one of the combatants."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-elk-refuge",
+     "text": "Wyoming's National Elk Refuge was created in 1912 as a winter haven for one of the largest elk herds.",
+     "source": {
+      "title": "Wikipedia, National Elk Refuge",
+      "url": "https://en.wikipedia.org/wiki/National_Elk_Refuge",
+      "quote": [
+       "It was created in 1912 to protect habitat and provide sanctuary for one of the largest elk (also known as wapiti) herds."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  },
+  "Odocoileus hemionus": {
+   "short": [
+    {
+     "id": "enn-s-deer-ears",
+     "text": "Mule deer are named for their big, mule-like ears, which also shed heat to keep them cool.",
+     "source": {
+      "title": "NPS Grand Canyon, Mule Deer",
+      "url": "https://www.nps.gov/grca/learn/nature/mule-deer.htm",
+      "quote": [
+       "The most defining feature of these deer is their large, mule-like ears.",
+       "The large ears on mule deer are known to radiate heat away from the deer's body, helping to keep it cool."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-pogo",
+     "text": "Startled mule deer flee in stiff-legged bounds, all four hooves landing together.",
+     "source": {
+      "title": "NPS Theodore Roosevelt National Park, Mule Deer",
+      "url": "https://www.nps.gov/thro/learn/nature/mule-deer.htm",
+      "quote": "When startled, a mule deer will move in a series of stiff-legged jumps with all four feet hitting the ground together.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-uturn",
+     "text": "A bounding mule deer can turn right around in the middle of a single leap.",
+     "source": {
+      "title": "NPS Theodore Roosevelt National Park, Mule Deer",
+      "url": "https://www.nps.gov/thro/learn/nature/mule-deer.htm",
+      "quote": "If necessary, they can turn or completely reverse direction in the course of a single bound.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-speed",
+     "text": "A mule deer bouncing on all fours is as fast as one at full gallop: about {34 km/h|21 mph}.",
+     "source": {
+      "title": "Wild About Utah, Follow the Bouncing Deer",
+      "url": "https://wildaboututah.org/follow-the-bouncing-deer/",
+      "quote": "Surprisingly, the fastest speeds of a stotting mule deer were just as fast as top galloping speeds—around 9.5 meters per second.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-months",
+     "text": "Red Desert mule deer spend 4 months of every year on the move between their homes.",
+     "source": {
+      "title": "Wyoming Migration Initiative, Red Desert to Hoback Migration Assessment",
+      "url": "https://migrationinitiative.org/?p=279",
+      "quote": "The deer that complete this journey spend 4 months of each year migrating",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-fat",
+     "text": "Wyoming's mule deer summer on high slopes to build the fat they need for winter.",
+     "source": {
+      "title": "Wyoming Migration Initiative, Red Desert to Hoback Migration Assessment",
+      "url": "https://migrationinitiative.org/?p=279",
+      "quote": "The performance of these herds is largely dependent on their ability to seasonally migrate from low-elevation winter ranges to high-elevation summer ranges, where they gain fat needed to survive the long Wyoming winters.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-corridor",
+     "text": "In 2016 the deer's route became one of Wyoming's first official migration corridors.",
+     "source": {
+      "title": "University of Wyoming Extension, Landowner and Economic Benefits from Migration Corridor Designation in Wyoming",
+      "url": "https://wyoextension.org/publications/html/B1374-2/",
+      "quote": [
+       "We quantify landowner benefits specifically related to the Sublette Mule Deer Migration Corridor, commonly known as the Red Desert to Hoback Basin (RD2H), since it was designate d in 2016.",
+       "The RD2H corridor was among the first to receive designation status."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-255",
+     "text": "A Red Desert doe called Deer 255 walked {390 km|242 mi} one way: the mule deer record.",
+     "source": {
+      "title": "University of Wyoming, After 11 Years, Longest-Migrating Mule Deer Dies in Wyoming's Red Desert",
+      "url": "https://www.uwyo.edu/news/2024/06/after-11-years-longest-migrating-mule-deer-dies-in-wyomings-red-desert.html",
+      "quote": [
+       "Her final 2016 summer range was four miles from Island Park, Idaho, 242 miles from where she started (see map below).",
+       "As of this writing, Deer 255’s distance record for mule deer still stands"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-swim",
+     "text": "Heading north, some Red Desert mule deer swim right across Fremont Lake, Wyoming.",
+     "source": {
+      "title": "WyoFile, America's longest mule deer migration discovered in Wyoming",
+      "url": "https://wyofile.com/americas-longest-mule-deer-migration-discovered-in-wyoming/",
+      "quote": "Some swam across Fremont Lake before making their way out of the Green River Basin.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-antlers",
+     "text": "Mule deer antlers fork into a 'Y', unlike a white-tailed deer's.",
+     "source": {
+      "title": "NPS Theodore Roosevelt National Park, Mule Deer",
+      "url": "https://www.nps.gov/thro/learn/nature/mule-deer.htm",
+      "quote": "Mule deer antlers are distinct from whitetail antlers due to their second tine forking into a “Y.”",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-tail",
+     "text": "A mule deer's skinny tail has a black tip. Its white-tailed cousin has a bushy white one.",
+     "source": {
+      "title": "NPS Theodore Roosevelt National Park, Mule Deer",
+      "url": "https://www.nps.gov/thro/learn/nature/mule-deer.htm",
+      "quote": "A mule deer’s tail is thin and black-tipped, unlike the bushy white tail of its cousin.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-s-deer-cactus",
+     "text": "Mule deer even nibble the pads of prickly pear cactus.",
+     "source": {
+      "title": "NPS, Mule Deer",
+      "url": "https://www.nps.gov/articles/000/mule-deer.htm",
+      "quote": "They may even browse on the pads of pricklypear cactus.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ],
+   "long": [
+    {
+     "id": "enn-l-deer-obstacles",
+     "text": "On their {240 km|150 mi} trip from the Red Desert to the Hoback Basin, mule deer cross sand dunes, lakes, rivers, highways and over 100 fences.",
+     "source": {
+      "title": "Wyoming Migration Initiative, Red Desert to Hoback Migration Assessment",
+      "url": "https://migrationinitiative.org/?p=279",
+      "quote": [
+       "the longest mule deer migration ever recorded (and 2nd longest land migration in North America) was discovered where deer travel a one-way distance of 150 miles",
+       "including sand dunes, lake and river crossings, multiple highways, and more than 100 fences"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-deer-255trip",
+     "text": "Deer 255 swam the Snake River, climbed over the Tetons and forded a river in Yellowstone, ending her trip {6 km|4 mi} from Island Park, Idaho.",
+     "source": {
+      "title": "University of Wyoming, After 11 Years, Longest-Migrating Mule Deer Dies in Wyoming's Red Desert",
+      "url": "https://www.uwyo.edu/news/2024/06/after-11-years-longest-migrating-mule-deer-dies-in-wyomings-red-desert.html",
+      "quote": [
+       "After swimming the Snake River near the inlet of Jackson Lake, she climbed over the low north end of the Teton Range, then forded the Fall River in the southwest corner of Yellowstone National Park.",
+       "Her final 2016 summer range was four miles from Island Park, Idaho"
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-deer-255route",
+     "text": "Deer 255's summer homes moved between Jackson Hole and Idaho over the years, but she always took exactly the same route there and back.",
+     "source": {
+      "title": "University of Wyoming, After 11 Years, Longest-Migrating Mule Deer Dies in Wyoming's Red Desert",
+      "url": "https://www.uwyo.edu/news/2024/06/after-11-years-longest-migrating-mule-deer-dies-in-wyomings-red-desert.html",
+      "quote": "Although Deer 255 summered in different spots over the years, she always used the same exact migration route to get there and back.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-deer-memory",
+     "text": "Mule deer migrate by heart. Memory of the route steers them 2 to 28 times more strongly than fresh green grass or deep snow does.",
+     "source": {
+      "title": "Merkle et al. 2019, Ecology Letters",
+      "url": "https://europepmc.org/search?query=DOI:10.1111/ele.13362",
+      "quote": "Spatial memory had an extraordinary influence on migration, affecting movement 2-28 times more strongly than tracking spring green-up or autumn snow depth.",
+      "checked": "2026-11-21",
+      "europepmc": "DOI:10.1111/ele.13362"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-deer-surf",
+     "text": "In spring, mule deer 'surf' the green wave of new growth up the mountains. Almost a third keep pace as well as a perfect surfer would.",
+     "source": {
+      "title": "Aikens et al. 2017, Ecology Letters",
+      "url": "https://europepmc.org/search?query=DOI:10.1111/ele.12772",
+      "quote": [
+       "The Green Wave Hypothesis posits that herbivore migration manifests in response to waves of spring green-up (i.e. green-wave surfing).",
+       "In a population of migratory mule deer (Odocoileus hemionus), 31% surfed plant phenology in spring as well as a theoretically perfect surfer"
+      ],
+      "checked": "2026-11-21",
+      "europepmc": "DOI:10.1111/ele.12772"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-deer-fremont",
+     "text": "Some 5,000 migrating mule deer squeeze past Fremont Lake near Pinedale, Wyoming. Volunteers took down {4.6 km|15000 ft} of fences in their way.",
+     "source": {
+      "title": "SweetwaterNOW, UW Science Inspires Mule Deer Conservation at Fremont Lake",
+      "url": "https://www.sweetwaternow.com/uw-science-inspires-mule-deer-conservation-at-fremont-lake/",
+      "quote": [
+       "The researchers identified the Fremont Lake area near Pinedale as a chokepoint for roughly 5,000 migrating mule deer that pass through each spring and fall.",
+       "Together, they helped take down 15,000 feet of fences that impeded the mule deer migration."
+      ],
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-deer-fences",
+     "text": "Since 2016, ranchers along the deer's corridor have rebuilt or removed {776 km|482 mi} of fence to make it easier for wildlife to cross.",
+     "source": {
+      "title": "University of Wyoming Extension, Landowner and Economic Benefits from Migration Corridor Designation in Wyoming",
+      "url": "https://wyoextension.org/publications/html/B1374-2/",
+      "quote": "Since its designation by the Wyoming Game and Fish Department in 2016, landowners have benefited from at least 482 miles of wildlife friendly fencing projects on private lands related to the RD2H migration corridor.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    },
+    {
+     "id": "enn-l-deer-ages",
+     "text": "Biologist Hall Sawyer thinks the deer found their route over hundreds or thousands of years, working out the best places to go.",
+     "source": {
+      "title": "WyoFile, America's longest mule deer migration discovered in Wyoming",
+      "url": "https://wyofile.com/americas-longest-mule-deer-migration-discovered-in-wyoming/",
+      "quote": "“It’s this optimization or evolutionary process, where over hundreds or thousands of years they are figuring out the best place to go,“ Sawyer said.",
+      "checked": "2026-11-21"
+     },
+     "review": {
+      "verdict": "pending"
+     }
+    }
+   ]
+  }
+ }
+}

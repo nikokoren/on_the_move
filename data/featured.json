@@ -1,5 +1,5 @@
 {
- "status": "DECIDED 2026-09-28 by the project owner (decision F1): the first 12; 2026-09-29 the owner added osprey, snow goose, Canada goose, bald eagle, blackpoll warbler and peregrine falcon (decision F2)",
+ "status": "DECIDED 2026-09-28 by the project owner (decision F1): the first 12; 2026-09-29 the owner added osprey, snow goose, Canada goose, bald eagle, blackpoll warbler and peregrine falcon (decision F2); 2026-11-22 the owner added 13 species (pipeline/new_species.json): snowy owl, Hudsonian whimbrel, tundra swan, bowhead whale, golden eagle, lesser yellowlegs, wood stork, Atlantic puffin, buff-breasted sandpiper, long-tailed jaeger, Sabine's gull, elk and mule deer",
  "criteria": "live animals first; one species per kind of journey; recognisable to en/de users; backups only needed for live species. The other catalog species stay in the pool.",
  "species": [
   {
@@ -199,6 +199,214 @@
    "animals": 34,
    "live": 0,
    "iucn": "LC"
+  },
+  {
+   "taxon": "Bubo scandiacus",
+   "group": "Americas",
+   "names": {
+    "en": "Snowy Owl",
+    "de": "Schneeeule"
+   },
+   "animals": 28,
+   "live": 0,
+   "iucn": "VU"
+  },
+  {
+   "taxon": "Numenius phaeopus",
+   "group": "Americas",
+   "names": {
+    "en": "Hudsonian Whimbrel",
+    "de": "Hudsonbrachvogel"
+   },
+   "animals": 10,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Cygnus columbianus",
+   "group": "Americas",
+   "names": {
+    "en": "Tundra Swan",
+    "de": "Zwergschwan"
+   },
+   "animals": 53,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Balaena mysticetus",
+   "group": "Oceans & poles",
+   "names": {
+    "en": "Bowhead Whale",
+    "de": "Grönlandwal"
+   },
+   "animals": 8,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Aquila chrysaetos",
+   "group": "Americas",
+   "names": {
+    "en": "Golden Eagle",
+    "de": "Steinadler"
+   },
+   "animals": 37,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Tringa flavipes",
+   "group": "Americas",
+   "names": {
+    "en": "Lesser Yellowlegs",
+    "de": "Gelbschenkel"
+   },
+   "animals": 26,
+   "live": 0,
+   "iucn": "VU"
+  },
+  {
+   "taxon": "Mycteria americana",
+   "group": "Americas",
+   "names": {
+    "en": "Wood Stork",
+    "de": "Waldstorch"
+   },
+   "animals": 142,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Fratercula arctica",
+   "group": "Oceans & poles",
+   "names": {
+    "en": "Atlantic Puffin",
+    "de": "Papageitaucher"
+   },
+   "animals": 12,
+   "live": 0,
+   "iucn": "VU"
+  },
+  {
+   "taxon": "Tryngites subruficollis",
+   "group": "Americas",
+   "names": {
+    "en": "Buff-breasted Sandpiper",
+    "de": "Grasläufer"
+   },
+   "animals": 3,
+   "live": 0,
+   "iucn": "VU"
+  },
+  {
+   "taxon": "Stercorarius longicaudus",
+   "group": "Oceans & poles",
+   "names": {
+    "en": "Long-tailed Jaeger",
+    "de": "Falkenraubmöwe"
+   },
+   "animals": 8,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Xema sabini",
+   "group": "Oceans & poles",
+   "names": {
+    "en": "Sabine's Gull",
+    "de": "Schwalbenmöwe"
+   },
+   "animals": 10,
+   "live": 0,
+   "iucn": "LC"
+  },
+  {
+   "taxon": "Cervus elaphus",
+   "group": "Americas",
+   "names": {
+    "en": "Elk",
+    "de": "Wapiti"
+   },
+   "animals": 334,
+   "live": 0,
+   "iucn": "LC",
+   "stayKm": 15,
+   "minJourneyKm": 30,
+   "minSeasonKm": 40,
+   "onlyStudies": [
+    "897981076",
+    "dr-132ce7a7-d177-4230-a95d-71a38ae9505b"
+   ],
+   "mapZoom": 7,
+   "globe": true,
+   "ranges": [
+    {
+     "names": {
+      "en": "Ya Ha Tinda Ranch",
+      "de": "Ya-Ha-Tinda-Ranch"
+     },
+     "lat": 51.74,
+     "lon": -115.55,
+     "km": 15
+    },
+    {
+     "names": {
+      "en": "Banff National Park",
+      "de": "Banff-Nationalpark"
+     },
+     "lat": 51.5,
+     "lon": -116.1,
+     "km": 40
+    }
+   ]
+  },
+  {
+   "taxon": "Odocoileus hemionus",
+   "group": "Americas",
+   "names": {
+    "en": "Mule Deer",
+    "de": "Maultierhirsch"
+   },
+   "animals": 97,
+   "live": 0,
+   "iucn": "LC",
+   "stayKm": 20,
+   "minJourneyKm": 100,
+   "mapZoom": 6,
+   "globe": true,
+   "ranges": [
+    {
+     "names": {
+      "en": "Red Desert",
+      "de": "Red Desert"
+     },
+     "lat": 41.8,
+     "lon": -108.97,
+     "km": 50
+    },
+    {
+     "names": {
+      "en": "Hoback Basin",
+      "de": "Hoback Basin"
+     },
+     "lat": 43.3,
+     "lon": -110.4,
+     "km": 50
+    },
+    {
+     "names": {
+      "en": "Wyoming",
+      "de": "Wyoming"
+     },
+     "box": [
+      41.0,
+      45.0,
+      -111.05,
+      -104.05
+     ]
+    }
+   ]
   }
  ]
 }

@@ -6,6 +6,36 @@
    "trackedFrom": "2014-07",
    "trackedTo": "2017-02"
   },
+  "mb-1128676353-1128700007": {
+   "sex": "f",
+   "trackedFrom": "2017-11",
+   "trackedTo": "2019-03"
+  },
+  "mb-1128676353-1128700028": {
+   "sex": "m",
+   "trackedFrom": "2017-06",
+   "trackedTo": "2020-01"
+  },
+  "mb-1128676353-1128700030": {
+   "sex": "m",
+   "trackedFrom": "2017-05",
+   "trackedTo": "2018-04"
+  },
+  "mb-12112706-12117721": {
+   "sex": "f",
+   "trackedFrom": "2013-07",
+   "trackedTo": "2015-04"
+  },
+  "mb-12112706-12117804": {
+   "sex": "f",
+   "trackedFrom": "2013-07",
+   "trackedTo": "2015-06"
+  },
+  "mb-12112706-12117877": {
+   "sex": "f",
+   "trackedFrom": "2013-07",
+   "trackedTo": "2015-02"
+  },
   "mb-1229945587-1229967013": {
    "trackedFrom": "2020-08",
    "trackedTo": "2026-09"
@@ -13,18 +43,34 @@
   "mb-1258895879-1774067789": {
    "sex": "m",
    "trackedFrom": "2021-05",
-   "trackedTo": "2026-09"
+   "trackedTo": "2026-10"
   },
   "mb-1258895879-1774067800": {
    "sex": "m",
    "trackedFrom": "2021-05",
-   "trackedTo": "2026-09"
+   "trackedTo": "2026-11"
   },
   "mb-1258895879-1774067803": {
    "sex": "f",
    "trackedFrom": "2021-05",
-   "trackedTo": "2026-09"
+   "trackedTo": "2026-11"
   },
+  "mb-1401935050-1536792500": {
+   "sex": "f",
+   "trackedFrom": "2013-09",
+   "trackedTo": "2015-06"
+  },
+  "mb-1401935050-1536792507": {
+   "sex": "m",
+   "trackedFrom": "2013-09",
+   "trackedTo": "2015-05"
+  },
+  "mb-1401935050-1536792506": {
+   "sex": "m",
+   "trackedFrom": "2013-09",
+   "trackedTo": "2015-05"
+  },
+  "mb-1448377103-1448414175": {},
   "mb-1509697502-1892665268": {
    "sex": "f",
    "trackedFrom": "2021-04",
@@ -45,10 +91,25 @@
    "trackedFrom": "2020-12",
    "trackedTo": "2023-11"
   },
+  "mb-171287018-171292514": {
+   "sex": "m",
+   "trackedFrom": "2006-10",
+   "trackedTo": "2007-11"
+  },
+  "mb-171287018-171296647": {
+   "sex": "m",
+   "trackedFrom": "2005-10",
+   "trackedTo": "2008-11"
+  },
+  "mb-171287018-171296659": {
+   "sex": "m",
+   "trackedFrom": "2002-10",
+   "trackedTo": "2007-03"
+  },
   "mb-173641633-2847777258": {
    "sex": "f",
    "trackedFrom": "2023-06",
-   "trackedTo": "2026-09",
+   "trackedTo": "2026-11",
    "hatchYear": 2023,
    "hatchExact": true,
    "notes": [
@@ -84,6 +145,46 @@
     }
    ]
   },
+  "mb-1978212368-1978326765": {
+   "sex": "m",
+   "trackedFrom": "2014-08",
+   "trackedTo": "2016-01"
+  },
+  "mb-1978212368-1978328166": {
+   "sex": "m",
+   "trackedFrom": "2016-08",
+   "trackedTo": "2019-06"
+  },
+  "mb-1978212368-1978326563": {
+   "sex": "m",
+   "trackedFrom": "2014-08",
+   "trackedTo": "2016-12"
+  },
+  "mb-2021208867-2023757578": {
+   "sex": "f",
+   "trackedFrom": "2022-02",
+   "trackedTo": "2023-03"
+  },
+  "mb-2021208867-2023760474": {
+   "sex": "m",
+   "trackedFrom": "2022-02",
+   "trackedTo": "2023-10"
+  },
+  "mb-2021208867-3510282812": {
+   "sex": "m",
+   "trackedFrom": "2024-03",
+   "trackedTo": "2026-10"
+  },
+  "mb-208672795-208674042": {
+   "sex": "f",
+   "trackedFrom": "2010-08",
+   "trackedTo": "2011-10"
+  },
+  "mb-208672795-208674084": {
+   "sex": "m",
+   "trackedFrom": "2010-08",
+   "trackedTo": "2012-04"
+  },
   "mb-2105214573-2105313543": {
    "sex": "f",
    "trackedFrom": "2015-04",
@@ -97,7 +198,7 @@
   "mb-24442409-4003322822": {
    "sex": "m",
    "trackedFrom": "2024-06",
-   "trackedTo": "2026-09",
+   "trackedTo": "2026-11",
    "hatchYear": 2024,
    "hatchExact": true,
    "notes": [
@@ -110,7 +211,7 @@
   "mb-24442409-4003322823": {
    "sex": "m",
    "trackedFrom": "2024-06",
-   "trackedTo": "2026-09",
+   "trackedTo": "2026-11",
    "hatchYear": 2024,
    "hatchExact": true,
    "notes": [
@@ -120,18 +221,33 @@
     }
    ]
   },
+  "mb-2549043743-2549050269": {
+   "sex": "f",
+   "trackedFrom": "2018-01",
+   "trackedTo": "2021-01"
+  },
+  "mb-2549043743-2549050291": {
+   "sex": "f",
+   "trackedFrom": "2018-01",
+   "trackedTo": "2019-03"
+  },
+  "mb-2549043743-2549050342": {
+   "sex": "f",
+   "trackedFrom": "2018-01",
+   "trackedTo": "2021-01"
+  },
   "mb-28691134-2277782263": {
    "trackedFrom": "2022-08",
    "trackedTo": "2026-09"
   },
   "mb-28691134-2305127726": {
    "trackedFrom": "2022-08",
-   "trackedTo": "2026-09"
+   "trackedTo": "2026-10"
   },
   "mb-28691134-3056590143": {
    "sex": "f",
    "trackedFrom": "2023-09",
-   "trackedTo": "2026-09"
+   "trackedTo": "2026-10"
   },
   "mb-2943485-2943518": {
    "sex": "m",
@@ -165,20 +281,18 @@
    "trackedFrom": "2021-08",
    "trackedTo": "2022-10"
   },
+  "mb-304527187-304535400": {
+   "sex": "f",
+   "trackedFrom": "2017-07",
+   "trackedTo": "2018-07"
+  },
   "mb-3413045568-7625503924": {
-   "sex": "m",
-   "trackedFrom": "2025-06",
-   "trackedTo": "2026-09"
+   "sex": "m"
   },
   "mb-3413045568-7625566309": {
-   "sex": "m",
-   "trackedFrom": "2025-06",
-   "trackedTo": "2026-09"
+   "sex": "m"
   },
-  "mb-3413045568-8626200722": {
-   "trackedFrom": "2025-05",
-   "trackedTo": "2026-09"
-  },
+  "mb-3413045568-8626200722": {},
   "mb-384172482-407258153": {
    "sex": "f",
    "trackedFrom": "2001-04",
@@ -189,17 +303,29 @@
    "trackedFrom": "2000-03",
    "trackedTo": "2002-05"
   },
+  "mb-467031755-919997235": {
+   "trackedFrom": "2012-07",
+   "trackedTo": "2014-02"
+  },
+  "mb-467031755-919997237": {
+   "trackedFrom": "2013-07",
+   "trackedTo": "2014-11"
+  },
+  "mb-467031755-919997242": {
+   "trackedFrom": "2013-07",
+   "trackedTo": "2015-05"
+  },
   "mb-481458-1498439947": {
    "trackedFrom": "2021-04",
-   "trackedTo": "2026-09"
+   "trackedTo": "2026-11"
   },
   "mb-481458-602962568": {
    "trackedFrom": "2018-09",
-   "trackedTo": "2026-09"
+   "trackedTo": "2026-11"
   },
   "mb-481458-603003183": {
    "trackedFrom": "2018-09",
-   "trackedTo": "2026-09"
+   "trackedTo": "2026-11"
   },
   "mb-49904341-49905918": {
    "trackedFrom": "2005-08",
@@ -219,6 +345,21 @@
   "mb-542653863-959785201": {
    "trackedFrom": "2019-09",
    "trackedTo": "2022-03"
+  },
+  "mb-543061768-3633600984": {
+   "sex": "f",
+   "trackedFrom": "2018-06",
+   "trackedTo": "2019-06"
+  },
+  "mb-543061768-3633647338": {
+   "sex": "m",
+   "trackedFrom": "2018-06",
+   "trackedTo": "2019-06"
+  },
+  "mb-543061768-3638069063": {
+   "sex": "m",
+   "trackedFrom": "2018-06",
+   "trackedTo": "2020-05"
   },
   "mb-619061097-619067331": {
    "sex": "f",
@@ -244,6 +385,21 @@
      "de": "Als erwachsenes Weibchen in Nordwestgr\u00f6nland besendert; verfolgt auf zwei ganzen Z\u00fcgen nach S\u00fcden und einem zur\u00fcck."
     }
    ]
+  },
+  "mb-854852176-879208530": {
+   "sex": "f",
+   "trackedFrom": "2010-06",
+   "trackedTo": "2011-11"
+  },
+  "mb-854852176-879208531": {
+   "sex": "m",
+   "trackedFrom": "2010-07",
+   "trackedTo": "2013-06"
+  },
+  "mb-854852176-879208533": {
+   "sex": "m",
+   "trackedFrom": "2010-06",
+   "trackedTo": "2012-06"
   },
   "mb-890556697-890583086": {
    "sex": "f",

@@ -63,3 +63,16 @@ Searched with no CC0/CC BY result: gray whale, white shark, leatherback, arctic 
 3. Each new species needs what the current ones have: names en/de, a photo (CC0/CC BY), its facts in four pools (R8f, review page), and individual names (N1). Short mammal journeys get `globe: true`.
 
 Re-check each study's licence and terms on the exact files before building, and coarsen breeding sites of threatened species (R14).
+
+## Owner's picks and the four mammals (2026-11-21)
+
+Picked by the owner from the candidates page: Snowy Owl, Whimbrel, Tundra Swan, Bowhead Whale, Golden Eagle, Lesser Yellowlegs, Wood Stork, Atlantic Puffin, Buff-breasted Sandpiper, Long-tailed Jaeger, Sabine's Gull. Not built yet.
+
+Asked: where and why do elk, pronghorn, blue wildebeest and mule deer migrate? From our tracks (centre of each animal's 15 Jun to 15 Aug positions against 15 Dec to 15 Feb, nearest Natural Earth town, SRTM 90 m elevation via opentopodata.org, 2026-11-21) and the studies' abstracts (Movebank Data Repository, read 2026-11-21):
+
+| Species | Where | Summer to winter | Why, per the study | Verdict |
+|---|---|---|---|---|
+| Mule Deer (Wyoming Sublette, Kauffman, CC0) | summer near the Wyoming/Idaho line (about 2,300 to 2,400 m), winter near Green River, Wyoming (about 2,200 to 2,300 m) | median 92 km; 44 of 97 animals over 100 km; up to 284 km | the dataset's abstract is about human presence, not migration; the "why" (following spring green-up) needs another source | strong: a real, long, famous migration |
+| Elk (Ya Ha Tinda, Banff; Hebblewhite, CC0) | migrants summer high in Banff National Park (about 2,000 to 2,100 m), winter on the Ya Ha Tinda ranch east of it (about 1,600 to 1,700 m) | migrants 65 to 95 km; most elk stay put (median 11 km over 328 animals) | forage: green-up comes later the higher you go ("delayed by 50 days for every 1000-m increase in elevation"), and migrants follow it; more elk migrate after a severe winter and when wolves are many | good: a sourced story; pick the migrants only |
+| Pronghorn (Wyoming/Colorado, Hennig et al., CC0) | Adobe Town area, southern Wyoming and northern Colorado | median 8 km; one animal 79 km | the study is about overlap with feral horses and sage-grouse, not migration | weak: these pronghorn barely migrate; not the famous Grand Teton "Path of the Pronghorn" herd |
+| Blue Wildebeest (southern Kenya, Stabach et al., CC BY) | Amboseli, Athi-Kaputiei Plains and Mara, Kenya | 4 km median, at most 40 km between seasons | movement follows grass and rain; fences, roads and settlements hold them back | weak: daily roaming, not the Serengeti–Mara Great Migration |
