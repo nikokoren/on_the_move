@@ -4,13 +4,6 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 ## Decided
 
-### U1 English facts: imperial first, metric in brackets (owner, 2026-11-22)
-
-- Owner: "add imperial units and add the metric conversion in () behind in english texts with enough space to do so. where that's not possible, just use imperial units in the english text."
-- Built in the Worker (`renderFact`, `distFact` in `worker/src/view.js`): English species facts render "250 ft (75 m)" when the whole fact stays within its slot (90 short, 140 long), else imperial only; the animal's own distance facts the same ("2,122 mi (3,415 km)"). This applies whatever the Units setting says. Extended the same day (owner: "yes, switch those too"): the destination line also reads "806 mi (1,297 km) away" in English (else miles, within its 90 characters); the Flock View lists show it for the animal in focus. German follows the Units setting throughout, so the setting now only matters for German.
-- Count on 2026-11-22: 72 English facts carry measurements; 55 show both, 17 imperial only (no room). Every English measurement was already a `{metric|imperial}` token (scan of all English facts and templates: 0 bare units). One approved fact's article fixed for imperial first ("a 31 in (80 cm) African arrow").
-- Checks: `npm run check` 49,776 runs, 0 failures. Not seen on a device.
-
 ### F3 Thirteen more species: eleven picks plus elk and mule deer (owner, 2026-11-21/22)
 
 - Picked by the owner from the candidates page (`docs/survey/more-candidates-2026-11.md`): snowy owl, Hudsonian whimbrel, tundra swan, bowhead whale, golden eagle, lesser yellowlegs, wood stork, Atlantic puffin, buff-breasted sandpiper, long-tailed jaeger, Sabine's gull; then elk and mule deer with a sourced storyline (`docs/survey/elk-mule-deer-2026-11.md`). Pronghorn and blue wildebeest skipped (they barely migrate in our data). All year-round tracks from the existing catalog (CC0/CC BY).
@@ -133,6 +126,7 @@ Newest entries at the top of each section. Each entry: ID, date, decision, reaso
 
 - Decision: a "Units" select (Metric default, Imperial). Distances in the pill and the data facts, and every measurement in the sourced facts, follow it.
 - Built: measurements in `pipeline/species_curated.json` are written `{metric|imperial}` with both values from or rounded from the source (30 in 24 facts), rendered by `renderUnits` in `worker/src/view.js`. Checked: 96 renderings, none with a leftover token or a metric unit in imperial.
+- 2026-11-22/23, tried and reverted: English facts and the destination line showed imperial first with metric in brackets, whatever the setting (PR #31, deployed 2026-11-23). The owner had not known the setting already governs the fact texts and asked to remove the second unit again (2026-11-23): facts and the destination line show one unit, the one the setting picks, as before. Kept from that work: units of more than one word render ("77 sq mi"), the draft checker measures imperial length too. The stork-arrow fact reworded so its article fits both units ("with an African arrow, 80 cm long, in its neck").
 
 ### Other copy changes the same day
 
